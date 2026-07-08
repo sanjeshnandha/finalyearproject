@@ -1,0 +1,8 @@
+2026-06-29 14:01:07.735 | INFO     | gecco_pipeline.extractor:__init__:35 - Initialized GeccoExtractor with model: gemini-2.5-flash
+2026-06-29 14:01:07.735 | INFO     | gecco_pipeline.processor:__init__:57 - BatchProcessor initialized
+2026-06-29 14:01:07.735 | INFO     | gecco_pipeline.extractor:extract_from_pdf:67 - Processing: Hyper-Parameter_Optimization_of_Classifiers_Using_.pdf
+2026-06-29 14:01:07.735 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:108 - Uploading Hyper-Parameter_Optimization_of_Classifiers_Using_.pdf to Gemini File API...
+2026-06-29 14:01:39.685 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:111 - Upload complete: files/yemu0h261trh
+2026-06-29 14:03:39.675 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:96 - Extracted 80 entries from Hyper-Parameter_Optimization_of_Classifiers_Using_.pdf
+2026-06-29 14:03:39.683 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Hyper-Parameter_Optimization_of_Classifiers_Using_.json
+2026-06-29 14:03:39.683 | SUCCESS  | gecco_pipeline.processor:process_single:83 - Successfully processed: Hyper-Parameter_Optimization_of_Classifiers_Using_.pdf → data/outputs/2023/Hyper-Parameter_Optimization_of_Classifiers_Using_.json

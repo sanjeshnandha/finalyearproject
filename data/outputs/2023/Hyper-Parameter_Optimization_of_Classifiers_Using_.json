@@ -1,0 +1,2656 @@
+{
+  "metadata": {
+    "title": "Hyper-parameter Optimization of Classifiers, using an Artificial Immune Network and its Application to Software Bug Prediction",
+    "authors": [
+      "FAIZA KHAN",
+      "SUMMRINA KANWAL",
+      "SULTAN ALAMRI",
+      "BUSHRA MUMTAZ"
+    ],
+    "year": 2016,
+    "source_file": "Hyper-Parameter_Optimization_of_Classifiers_Using_.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Eclipse  JDT Core",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse JDT Core",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Eclipse JDT Core",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse JDT Core",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "AUC",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Equinox",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Equinox",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Equinox",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Equinox",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "AUC",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Lucene",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Lucene",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Lucene",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Lucene",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "AUC",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Mylyn",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Mylyn",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Mylyn",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Mylyn",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "AUC",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Eclipse PDE UI",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse PDE UI",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Eclipse PDE UI",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of SVM-RBF for Software Bug Prediction on Eclipse PDE UI",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "AUC",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Eclipse JDT Core",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Eclipse JDT Core",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse JDT Core",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "AUC",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Equinox",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Equinox",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Equinox",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "AUC",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Lucene",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Lucene",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Lucene",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "AUC",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Mylyn",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Mylyn",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Mylyn",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Mylyn",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "AUC",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Eclipse PDE UI",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse PDE UI",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Eclipse PDE UI",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of KNN (Euclidean Metric) for Software Bug Prediction on Eclipse PDE UI",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "AUC",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Eclipse JDT Core",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse JDT Core",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Eclipse JDT Core",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse JDT Core",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "AUC",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Equinox",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Equinox",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Equinox",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Equinox",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "AUC",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Lucene",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Lucene",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Lucene",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Lucene",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "AUC",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Mylyn",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Mylyn",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Mylyn",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Mylyn",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "AUC",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Eclipse PDE UI",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Eclipse PDE UI",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of KNN (Minkowski Metric) for Software Bug Prediction on Eclipse PDE UI",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "AUC",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Eclipse JDT Core",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse JDT Core",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Eclipse JDT Core",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse JDT Core",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "AUC",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Equinox",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Equinox",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Equinox",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Equinox",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "AUC",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Lucene",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Lucene",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Lucene",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Lucene",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "AUC",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Mylyn",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Mylyn",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Mylyn",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Mylyn",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "AUC",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Eclipse PDE UI",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse PDE UI",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Eclipse PDE UI",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Naive Bayes (NB) for Software Bug Prediction on Eclipse PDE UI",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "AUC",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Eclipse JDT Core",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse JDT Core",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Eclipse JDT Core",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse JDT Core",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "AUC",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Equinox",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Equinox",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Equinox",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Equinox",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "AUC",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Lucene",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Lucene",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Lucene",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Lucene",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "AUC",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Mylyn",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Mylyn",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Mylyn",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Mylyn",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "AUC",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Eclipse PDE UI",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse PDE UI",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Eclipse PDE UI",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Decision Tree (CART) for Software Bug Prediction on Eclipse PDE UI",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "AUC",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Eclipse JDT Core",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Eclipse JDT Core",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse JDT Core",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "AUC",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Equinox",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Equinox",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Equinox",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "AUC",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Lucene",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Lucene",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Lucene",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Lucene",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "AUC",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Mylyn",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Mylyn",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Mylyn",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Mylyn",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "AUC",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Eclipse PDE UI",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse PDE UI",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Eclipse PDE UI",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Linear Discriminate Analysis (LDA) for Software Bug Prediction on Eclipse PDE UI",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "AUC",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Eclipse JDT Core",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse JDT Core",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Eclipse JDT Core",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse JDT Core",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "AUC",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Equinox",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Equinox",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Equinox",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Equinox",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "AUC",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Lucene",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Lucene",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Lucene",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Lucene",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "AUC",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Mylyn",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Mylyn",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Mylyn",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Mylyn",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "AUC",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Eclipse PDE UI",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse PDE UI",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Eclipse PDE UI",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Random Forest (RF) for Software Bug Prediction on Eclipse PDE UI",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "AUC",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Eclipse JDT Core",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse JDT Core",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Eclipse JDT Core",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse JDT Core",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "AUC",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Equinox",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Equinox",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Equinox",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Equinox",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "AUC",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Lucene",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Lucene",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Lucene",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Lucene",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "AUC",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Mylyn",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Mylyn",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Mylyn",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Mylyn",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "AUC",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Eclipse PDE UI",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse PDE UI",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Development",
+        "problem_context": "Hyper-parameter Optimization for Software Bug Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Eclipse PDE UI",
+        "source_platform": "D 'Ambros et al. [29]"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyper-parameter Optimization of Adaptive Boosting (AdaBoost) for Software Bug Prediction on Eclipse PDE UI",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Artificial Immune Network (opt-aiNet)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "AUC",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

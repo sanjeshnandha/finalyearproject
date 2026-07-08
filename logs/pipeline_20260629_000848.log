@@ -1,0 +1,8 @@
+2026-06-29 00:08:48.706 | INFO     | gecco_pipeline.extractor:__init__:35 - Initialized GeccoExtractor with model: gemini-2.5-flash
+2026-06-29 00:08:48.706 | INFO     | gecco_pipeline.processor:__init__:57 - BatchProcessor initialized
+2026-06-29 00:08:48.706 | INFO     | gecco_pipeline.extractor:extract_from_pdf:67 - Processing: 3638529.3654016.pdf
+2026-06-29 00:08:48.706 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:108 - Uploading 3638529.3654016.pdf to Gemini File API...
+2026-06-29 00:08:58.771 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:111 - Upload complete: files/i7b32borzgqz
+2026-06-29 00:09:49.899 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:96 - Extracted 16 entries from 3638529.3654016.pdf
+2026-06-29 00:09:49.902 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2024/3638529.3654016.json
+2026-06-29 00:09:49.902 | SUCCESS  | gecco_pipeline.processor:process_single:83 - Successfully processed: 3638529.3654016.pdf → data/outputs/2024/3638529.3654016.json

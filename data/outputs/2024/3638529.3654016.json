@@ -1,0 +1,649 @@
+{
+  "metadata": {
+    "title": "New Tunable Test Problems for Benchmarking Niching Methods for Multimodal Optimization",
+    "authors": [
+      "Ali Ahrari",
+      "Jonathan E. Fieldsend",
+      "Mike Preuss",
+      "Xiaodong Li",
+      "Michael G. Epitropakis"
+    ],
+    "year": 2024,
+    "source_file": "3638529.3654016.pdf",
+    "gecco_track": "Evolutionary algorithms"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Tunable Test Problem PID 1 (Elliptic Function)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "elliptic attraction region",
+          "high-conditioned",
+          "high non-uniform distribution of global minima",
+          "diverse orientations of attraction regions",
+          "low to moderate GO challenges",
+          "randomly generated instances"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSDE (Differential Evolution with Neighborhood Mutation)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Peak Ratio (MPR)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Tunable Test Problem PID 2 (Different Powers Sum Function)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "attraction region changes shape/orientation",
+          "difference in powers",
+          "high non-uniform distribution of global minima",
+          "diverse orientations of attraction regions",
+          "low to moderate GO challenges",
+          "randomly generated instances"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSDE (Differential Evolution with Neighborhood Mutation)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Peak Ratio (MPR)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Tunable Test Problem PID 3 (Skewed Schwefel N02 Function)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "unsymmetrical basin",
+          "skewness",
+          "high non-uniform distribution of global minima",
+          "diverse orientations of attraction regions",
+          "low to moderate GO challenges",
+          "randomly generated instances"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSDE (Differential Evolution with Neighborhood Mutation)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Peak Ratio (MPR)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Tunable Test Problem PID 4 (Rosenbrock Function)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "narrow valley for convergence",
+          "high non-uniform distribution of global minima",
+          "diverse orientations of attraction regions",
+          "low to moderate GO challenges",
+          "randomly generated instances"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSDE (Differential Evolution with Neighborhood Mutation)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Peak Ratio (MPR)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Tunable Test Problem PID 5 (Skewed Ackley Function)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "unsymmetrical structure",
+          "skewness",
+          "high non-uniform distribution of global minima",
+          "diverse orientations of attraction regions",
+          "low to moderate GO challenges",
+          "randomly generated instances"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSDE (Differential Evolution with Neighborhood Mutation)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Peak Ratio (MPR)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Tunable Test Problem PID 6 (Rastrigin Function)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "deep local minima",
+          "high non-uniform distribution of global minima",
+          "diverse orientations of attraction regions",
+          "low to moderate GO challenges",
+          "randomly generated instances"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSDE (Differential Evolution with Neighborhood Mutation)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Peak Ratio (MPR)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Tunable Test Problem PID 7 (Penalized Weierstrass Function)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "high non-uniform distribution of global minima",
+          "diverse orientations of attraction regions",
+          "low to moderate GO challenges",
+          "randomly generated instances"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSDE (Differential Evolution with Neighborhood Mutation)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Peak Ratio (MPR)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Tunable Test Problem PID 8 (Penalized Schwefel N26 Function)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "weak global structure",
+          "high non-uniform distribution of global minima",
+          "diverse orientations of attraction regions",
+          "low to moderate GO challenges",
+          "randomly generated instances"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSDE (Differential Evolution with Neighborhood Mutation)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Peak Ratio (MPR)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Tunable Test Problem PID 9 (Elliptic Function)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "elliptic attraction region",
+          "high-conditioned",
+          "moderate non-uniform distribution of global minima",
+          "diverse orientations of attraction regions",
+          "moderate to high GO challenges",
+          "randomly generated instances"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSDE (Differential Evolution with Neighborhood Mutation)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Peak Ratio (MPR)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Tunable Test Problem PID 10 (Different Powers Sum Function)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "attraction region changes shape/orientation",
+          "difference in powers",
+          "moderate non-uniform distribution of global minima",
+          "diverse orientations of attraction regions",
+          "moderate to high GO challenges",
+          "randomly generated instances"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSDE (Differential Evolution with Neighborhood Mutation)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Peak Ratio (MPR)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Tunable Test Problem PID 11 (Skewed Schwefel N02 Function)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "unsymmetrical basin",
+          "skewness",
+          "moderate non-uniform distribution of global minima",
+          "diverse orientations of attraction regions",
+          "moderate to high GO challenges",
+          "randomly generated instances"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSDE (Differential Evolution with Neighborhood Mutation)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Peak Ratio (MPR)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Tunable Test Problem PID 12 (Rosenbrock Function)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "narrow valley for convergence",
+          "moderate non-uniform distribution of global minima",
+          "diverse orientations of attraction regions",
+          "moderate to high GO challenges",
+          "randomly generated instances"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSDE (Differential Evolution with Neighborhood Mutation)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Peak Ratio (MPR)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Tunable Test Problem PID 13 (Skewed Ackley Function)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "unsymmetrical structure",
+          "skewness",
+          "moderate non-uniform distribution of global minima",
+          "diverse orientations of attraction regions",
+          "moderate to high GO challenges",
+          "randomly generated instances"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSDE (Differential Evolution with Neighborhood Mutation)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Peak Ratio (MPR)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Tunable Test Problem PID 14 (Rastrigin Function)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "deep local minima",
+          "moderate non-uniform distribution of global minima",
+          "diverse orientations of attraction regions",
+          "moderate to high GO challenges",
+          "randomly generated instances"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSDE (Differential Evolution with Neighborhood Mutation)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Peak Ratio (MPR)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Tunable Test Problem PID 15 (Penalized Weierstrass Function)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "moderate non-uniform distribution of global minima",
+          "diverse orientations of attraction regions",
+          "moderate to high GO challenges",
+          "randomly generated instances"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSDE (Differential Evolution with Neighborhood Mutation)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Peak Ratio (MPR)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Tunable Test Problem PID 16 (Penalized Schwefel N26 Function)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "weak global structure",
+          "moderate non-uniform distribution of global minima",
+          "diverse orientations of attraction regions",
+          "moderate to high GO challenges",
+          "randomly generated instances"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSDE (Differential Evolution with Neighborhood Mutation)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Peak Ratio (MPR)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

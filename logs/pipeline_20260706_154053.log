@@ -1,0 +1,8 @@
+2026-07-06 15:40:53.144 | INFO     | gecco_pipeline.extractor:__init__:35 - Initialized GeccoExtractor with model: gemini-2.5-flash
+2026-07-06 15:40:53.144 | INFO     | gecco_pipeline.processor:__init__:57 - BatchProcessor initialized
+2026-07-06 15:40:53.145 | INFO     | gecco_pipeline.extractor:extract_from_pdf:67 - Processing: NL-SHADE-RSP_Algorithm_with_Adaptive_Archive_and_Selective_Pressure_for_CEC_2021_Numerical_Optimization.pdf
+2026-07-06 15:40:53.145 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:108 - Uploading NL-SHADE-RSP_Algorithm_with_Adaptive_Archive_and_Selective_Pressure_for_CEC_2021_Numerical_Optimization.pdf to Gemini File API...
+2026-07-06 15:40:59.758 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:111 - Upload complete: files/y2mfd4nz1341
+2026-07-06 15:42:34.767 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:96 - Extracted 64 entries from NL-SHADE-RSP_Algorithm_with_Adaptive_Archive_and_Selective_Pressure_for_CEC_2021_Numerical_Optimization.pdf
+2026-07-06 15:42:34.775 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/NL-SHADE-RSP_Algorithm_with_Adaptive_Archive_and_Selective_Pressure_for_CEC_2021_Numerical_Optimization.json
+2026-07-06 15:42:34.775 | SUCCESS  | gecco_pipeline.processor:process_single:83 - Successfully processed: NL-SHADE-RSP_Algorithm_with_Adaptive_Archive_and_Selective_Pressure_for_CEC_2021_Numerical_Optimization.pdf → data/outputs/2021/NL-SHADE-RSP_Algorithm_with_Adaptive_Archive_and_Selective_Pressure_for_CEC_2021_Numerical_Optimization.json

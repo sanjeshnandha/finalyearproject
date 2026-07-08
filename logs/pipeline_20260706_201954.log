@@ -1,0 +1,8 @@
+2026-07-06 20:19:54.781 | INFO     | gecco_pipeline.extractor:__init__:35 - Initialized GeccoExtractor with model: gemini-2.5-flash
+2026-07-06 20:19:54.781 | INFO     | gecco_pipeline.processor:__init__:57 - BatchProcessor initialized
+2026-07-06 20:19:54.781 | INFO     | gecco_pipeline.extractor:extract_from_pdf:67 - Processing: COLSHADE_for_Real-World_Single-Objective_Constrained_optimization_Problems.pdf
+2026-07-06 20:19:54.781 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:108 - Uploading COLSHADE_for_Real-World_Single-Objective_Constrained_optimization_Problems.pdf to Gemini File API...
+2026-07-06 20:19:58.836 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:111 - Upload complete: files/8baud900d2ue
+2026-07-06 20:20:30.807 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:96 - Extracted 4 entries from COLSHADE_for_Real-World_Single-Objective_Constrained_optimization_Problems.pdf
+2026-07-06 20:20:30.810 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/COLSHADE_for_Real-World_Single-Objective_Constrained_optimization_Problems.json
+2026-07-06 20:20:30.810 | SUCCESS  | gecco_pipeline.processor:process_single:83 - Successfully processed: COLSHADE_for_Real-World_Single-Objective_Constrained_optimization_Problems.pdf → data/outputs/2020/COLSHADE_for_Real-World_Single-Objective_Constrained_optimization_Problems.json

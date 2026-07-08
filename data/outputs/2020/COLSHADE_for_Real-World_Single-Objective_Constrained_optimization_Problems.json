@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "title": "COLSHADE for Real-World Single-Objective Constrained Optimization Problems",
+    "authors": [
+      "Javier Gurrola-Ramos",
+      "Arturo Hernández-Aguirre",
+      "Oscar Dalmau-Cedeño"
+    ],
+    "year": 2020,
+    "source_file": "COLSHADE_for_Real-World_Single-Objective_Constrained_optimization_Problems.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Multiple",
+        "problem_context": "Constrained Optimization Problems from CEC 2020 Competition"
+      },
+      "the_database": {
+        "dataset_name": "CEC 2020 Real-World Single-Objective Constrained Optimization Competition Test Suite",
+        "source_platform": "Competition Guidelines (P. N. Suganthan's GitHub)"
+      },
+      "the_benchmark_problem": {
+        "name": "CEC 2020 Real-World Single-Objective Constrained Optimization Competition Test Suite (57 problems)",
+        "dimensionality": "Variable (D from 1 to 150+)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "non-convex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "COLSHADE (Constrained L-SHADE with Lévy Flights)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Performance Measure (PM), Convergence Speed (%FEs, # Solved RC, # Successful runs), Feasibility Rate (FR)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Multiple",
+        "problem_context": "Constrained Optimization Problems from CEC 2020 Competition"
+      },
+      "the_database": {
+        "dataset_name": "CEC 2020 Real-World Single-Objective Constrained Optimization Competition Test Suite",
+        "source_platform": "Competition Guidelines (P. N. Suganthan's GitHub)"
+      },
+      "the_benchmark_problem": {
+        "name": "CEC 2020 Real-World Single-Objective Constrained Optimization Competition Test Suite (57 problems)",
+        "dimensionality": "Variable (D from 1 to 150+)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "non-convex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "L-SHADE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Performance Measure (PM), Convergence Speed (%FEs, # Solved RC, # Successful runs), Feasibility Rate (FR)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Multiple",
+        "problem_context": "Constrained Optimization Problems from CEC 2020 Competition"
+      },
+      "the_database": {
+        "dataset_name": "CEC 2020 Real-World Single-Objective Constrained Optimization Competition Test Suite",
+        "source_platform": "Competition Guidelines (P. N. Suganthan's GitHub)"
+      },
+      "the_benchmark_problem": {
+        "name": "CEC 2020 Real-World Single-Objective Constrained Optimization Competition Test Suite (57 problems)",
+        "dimensionality": "Variable (D from 1 to 150+)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "non-convex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "COLSHADE-SCH (COLSHADE with Static Constraint Handling)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Performance Measure (PM), Convergence Speed (%FEs, # Solved RC, # Successful runs), Feasibility Rate (FR)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Multiple",
+        "problem_context": "Constrained Optimization Problems from CEC 2020 Competition"
+      },
+      "the_database": {
+        "dataset_name": "CEC 2020 Real-World Single-Objective Constrained Optimization Competition Test Suite",
+        "source_platform": "Competition Guidelines (P. N. Suganthan's GitHub)"
+      },
+      "the_benchmark_problem": {
+        "name": "CEC 2020 Real-World Single-Objective Constrained Optimization Competition Test Suite (57 problems)",
+        "dimensionality": "Variable (D from 1 to 150+)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "non-convex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "L-SHADE-SCH (L-SHADE with Static Constraint Handling)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Performance Measure (PM), Convergence Speed (%FEs, # Solved RC, # Successful runs), Feasibility Rate (FR)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}
