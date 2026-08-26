@@ -1,0 +1,168 @@
+{
+  "metadata": {
+    "title": "Evolutionary Computation for Tax-Minimizing Strategies in Special Economic Zones",
+    "authors": [
+      "Andrés Leguizamón",
+      "Carlos David Sanchez",
+      "Sofia Ocampo",
+      "Una May O'Reilly",
+      "Erik Hemberg"
+    ],
+    "year": 2026,
+    "source_file": "Leguizamon et al. - 2026 - Evolutionary Computation for Tax-Minimizing Strategies in Special Economic Zones.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance/Taxation",
+        "problem_context": "Tax-minimizing production and transaction routing in Special Economic Zones"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SEZ Production-Chain Benchmark Suite",
+        "dimensionality": "16D to 769D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "interdependent",
+          "exponentially growing search space",
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (GA-bin)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean best-so-far fitness and mean number of evaluations to reach 99% of best performance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance/Taxation",
+        "problem_context": "Tax-minimizing production and transaction routing in Special Economic Zones"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SEZ Production-Chain Benchmark Suite",
+        "dimensionality": "16D to 769D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "interdependent",
+          "exponentially growing search space",
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Binary Particle Swarm Optimization (B-PSO)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean best-so-far fitness and mean number of evaluations to reach 99% of best performance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance/Taxation",
+        "problem_context": "Tax-minimizing production and transaction routing in Special Economic Zones"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SEZ Production-Chain Benchmark Suite",
+        "dimensionality": "16D to 769D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "interdependent",
+          "exponentially growing search space",
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Random Search (RND)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean best-so-far fitness and mean number of evaluations to reach 99% of best performance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance/Taxation",
+        "problem_context": "Tax-minimizing production and transaction routing in Special Economic Zones"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Simplified Linear Production Process Case Study",
+        "dimensionality": "5D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "linear production chain",
+          "asymmetric prices",
+          "asymmetric taxes"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (GA-bin)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "After-tax profit ($)",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

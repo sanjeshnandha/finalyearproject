@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "title": "Onboard Class Incremental Learning for Resource-Constrained scenarios using Genetic Algorithm and TinyML",
+    "authors": [
+      "Suraj Kumar Pandey",
+      "Shivashankar B. Nair"
+    ],
+    "year": 2024,
+    "source_file": "Pandey and Nair - 2024 - Onboard Class Incremental Learning for Resource-Constrained scenarios using Genetic Algorithm and Ti.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Consumer Electronics / IoT",
+        "problem_context": "Class Incremental Learning for Gesture Recognition"
+      },
+      "the_database": {
+        "dataset_name": "WISDM",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Class Incremental Learning (CIL) for Gesture Recognition",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "multi-objective",
+          "complex",
+          "overlapping feature space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "N_lite-GA"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 15,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average classification accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Consumer Electronics / IoT",
+        "problem_context": "Class Incremental Learning for Gesture Recognition"
+      },
+      "the_database": {
+        "dataset_name": "WISDM",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Class Incremental Learning (CIL) for Gesture Recognition",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "multi-objective",
+          "complex",
+          "overlapping feature space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "N_lite-GA_voting"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 15,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average classification accuracy",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "metadata": {
+    "title": "Evolutionary Approach to Recommender Systems Improvement by Directory of Products Optimization",
+    "authors": [
+      "Piotr Lipinski"
+    ],
+    "year": 2023,
+    "source_file": "Lipinski - 2023 - Evolutionary Approach to Recommender Systems Improvement by Directory of Products Optimization.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "E-commerce / Recommender Systems",
+        "problem_context": "Optimizing the composition of the directory of products in a recommender system to improve recommendations for inactive users and infrequent products."
+      },
+      "the_database": {
+        "dataset_name": "MovieLens 25M",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Directory of Products Optimization with MS1 (Categorization-based Merging)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "chaotic"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EADPO-1"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.25,
+        "crossover_rate": 0.75
+      },
+      "performance_outcome": {
+        "metric": "Mean Absolute Error (MAE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "E-commerce / Recommender Systems",
+        "problem_context": "Optimizing the composition of the directory of products in a recommender system to improve recommendations for inactive users and infrequent products."
+      },
+      "the_database": {
+        "dataset_name": "MovieLens 25M",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Directory of Products Optimization with MS1 (Categorization-based Merging)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "chaotic"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EADPO-2"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.25,
+        "crossover_rate": 0.75
+      },
+      "performance_outcome": {
+        "metric": "Mean Absolute Error (MAE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "E-commerce / Recommender Systems",
+        "problem_context": "Optimizing the composition of the directory of products in a recommender system to improve recommendations for inactive users and infrequent products."
+      },
+      "the_database": {
+        "dataset_name": "MovieLens 25M",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Directory of Products Optimization with MS2 (Embedding-based Merging)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "chaotic"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EADPO-1"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.25,
+        "crossover_rate": 0.75
+      },
+      "performance_outcome": {
+        "metric": "Mean Absolute Error (MAE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "E-commerce / Recommender Systems",
+        "problem_context": "Optimizing the composition of the directory of products in a recommender system to improve recommendations for inactive users and infrequent products."
+      },
+      "the_database": {
+        "dataset_name": "MovieLens 25M",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Directory of Products Optimization with MS2 (Embedding-based Merging)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "chaotic"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EADPO-2"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.25,
+        "crossover_rate": 0.75
+      },
+      "performance_outcome": {
+        "metric": "Mean Absolute Error (MAE)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

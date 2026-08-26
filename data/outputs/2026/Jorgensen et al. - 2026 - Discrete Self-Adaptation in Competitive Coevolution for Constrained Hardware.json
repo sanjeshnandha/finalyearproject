@@ -1,0 +1,129 @@
+{
+  "metadata": {
+    "title": "Discrete Self-Adaptation in Competitive Coevolution for Constrained Hardware",
+    "authors": [
+      "Steven Jorgensen",
+      "Jennifer Fairhurst",
+      "Erik Hemberg",
+      "Una-May O'Reilly"
+    ],
+    "year": 2026,
+    "source_file": "Jorgensen et al. - 2026 - Discrete Self-Adaptation in Competitive Coevolution for Constrained Hardware.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Cybersecurity",
+        "problem_context": "Attacker-defender resource control game"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DefendIt-B",
+        "dimensionality": "400D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "NP-hard",
+          "competitive game",
+          "coevolutionary",
+          "resource-constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Discrete Spatial Self-Adaptive CCEA"
+      },
+      "parameters": {
+        "population_size": 33792,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Median Payoff",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Cybersecurity",
+        "problem_context": "Attacker-defender resource control game"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DefendIt-B",
+        "dimensionality": "400D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "NP-hard",
+          "competitive game",
+          "coevolutionary",
+          "resource-constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Continuous Self-Adaptive CCEA"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 40000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Median Payoff",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Absolute Difference Game",
+        "dimensionality": "640D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "pursuit-evasion",
+          "continuous spatial search",
+          "discrete action outcomes"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Discrete Spatial Self-Adaptive CCEA"
+      },
+      "parameters": {
+        "population_size": 33792,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Median Payoff",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

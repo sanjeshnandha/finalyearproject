@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "title": "The Importance of Landscape Features for Performance Prediction of Modular CMA-ES Variants",
+    "authors": [
+      "Ana Kostovska",
+      "Diederick Vermetten",
+      "Sašo Džeroski",
+      "Carola Doerr",
+      "Peter Korosec",
+      "Tome Eftimov"
+    ],
+    "year": 2022,
+    "source_file": "Kostovska et al. - 2022 - The importance of landscape features for performance prediction of modular CMA-ES variants.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "BBOB noiseless function testbed",
+        "source_platform": "COCO benchmark environment"
+      },
+      "the_benchmark_problem": {
+        "name": "24 noiseless BBOB functions",
+        "dimensionality": "5D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noiseless"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Modular CMA-ES"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 50000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "best precision reached",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "BBOB noiseless function testbed",
+        "source_platform": "COCO benchmark environment"
+      },
+      "the_benchmark_problem": {
+        "name": "24 noiseless BBOB functions",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noiseless"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Modular CMA-ES"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 50000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "best precision reached",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

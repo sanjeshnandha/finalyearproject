@@ -1,0 +1,130 @@
+{
+  "metadata": {
+    "title": "Evolving Inborn Knowledge For Fast Adaptation in Dynamic POMDP Problems",
+    "authors": [
+      "Eseoghene Ben-Iwhiwhu",
+      "Pawel Ladosz",
+      "Jeffery Dick",
+      "Wen-Hua Chen",
+      "Praveen Pilly",
+      "Andrea Soltoggio"
+    ],
+    "year": 2020,
+    "source_file": "Ben-Iwhiwhu et al. - 2020 - Evolving inborn knowledge for fast adaptation in dynamic POMDP problems.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating reinforcement learning in partially observable environments"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Configurable Tree Graph (CT-graph) Environment (depth 2)",
+        "dimensionality": "depth 2"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "partially observable",
+          "dynamic goals",
+          "sparse reward"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PENN-A (Plastic Evolved Neuromodulated Network with Autoencoder)"
+      },
+      "parameters": {
+        "population_size": 600,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average accumulated reward",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating reinforcement learning in partially observable environments"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Configurable Tree Graph (CT-graph) Environment (depth 3)",
+        "dimensionality": "depth 3"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "partially observable",
+          "dynamic goals",
+          "sparse reward"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PENN-A (Plastic Evolved Neuromodulated Network with Autoencoder)"
+      },
+      "parameters": {
+        "population_size": 800,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average accumulated reward",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating reinforcement learning in 3D gaming environments"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Malmo Minecraft (double T-maze)",
+        "dimensionality": "32x32 RGB image"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "partially observable",
+          "dynamic goals",
+          "3D environment",
+          "sparse reward"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PENN-A (Plastic Evolved Neuromodulated Network with Autoencoder)"
+      },
+      "parameters": {
+        "population_size": 800,
+        "max_evaluations_or_generations": 400,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average accumulated reward",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

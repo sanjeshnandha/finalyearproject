@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "title": "Constructing Efficient Multigrid Solvers with Genetic Programming",
+    "authors": [
+      "Jonas Schmitt",
+      "Sebastian Kuckuk",
+      "Harald Köstler"
+    ],
+    "year": 2020,
+    "source_file": "Schmitt et al. - 2020 - Constructing efficient multigrid solvers with genetic programming.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Two-dimensional linear elastic boundary value problem"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Two-dimensional linear elastic boundary value problem",
+        "dimensionality": "1046529 variables"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete search space",
+          "multiobjective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammar-guided Genetic Programming (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": 0.67
+      },
+      "performance_outcome": {
+        "metric": "Time to convergence",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Two-dimensional linear elastic boundary value problem"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Two-dimensional linear elastic boundary value problem",
+        "dimensionality": "1046529 variables"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "continuous parameters",
+          "relaxation factors"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ES"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Convergence factor",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Two-dimensional linear elastic boundary value problem"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Two-dimensional linear elastic boundary value problem",
+        "dimensionality": "1046529 variables"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Random Search"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Time to convergence",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

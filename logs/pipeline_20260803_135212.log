@@ -1,0 +1,29 @@
+2026-08-03 13:52:12.695 | INFO     | gecco_pipeline.extractor:__init__:32 - Initialized GeccoExtractor with model: gemini-3.5-flash and 3 API keys
+2026-08-03 13:52:12.695 | INFO     | gecco_pipeline.processor:__init__:57 - BatchProcessor initialized
+2026-08-03 13:52:12.696 | INFO     | gecco_pipeline.utils:discover_pdfs:62 - Discovered 150 PDF files in data/pdfs/2020
+2026-08-03 13:52:12.698 | INFO     | gecco_pipeline.processor:process_batch:129 - Skipping 68 already-processed PDFs
+2026-08-03 13:52:12.698 | INFO     | gecco_pipeline.processor:process_batch:145 - Processing 82 PDFs...
+2026-08-03 13:52:12.717 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Jia et al. - 2020 - A memetic level-based learning swarm optimizer for large-scale water distribution network optimizati.pdf
+2026-08-03 13:52:12.717 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Jia et al. - 2020 - A memetic level-based learning swarm optimizer for large-scale water distribution network optimizati.pdf to Gemini File API...
+2026-08-03 13:52:17.698 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/c16mwqq8rbjj
+2026-08-03 13:52:49.280 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 6 entries from Jia et al. - 2020 - A memetic level-based learning swarm optimizer for large-scale water distribution network optimizati.pdf
+2026-08-03 13:52:49.287 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Jia et al. - 2020 - A memetic level-based learning swarm optimizer for large-scale water distribution network optimizati.json
+2026-08-03 13:52:49.289 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Johns et al. - 2020 - Adaptive augmented evolutionary intelligence for the design of water distribution networks.pdf
+2026-08-03 13:52:49.289 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Johns et al. - 2020 - Adaptive augmented evolutionary intelligence for the design of water distribution networks.pdf to Gemini File API...
+2026-08-03 13:53:12.921 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/1fhvdvfnj11a
+2026-08-03 13:53:40.944 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 8 entries from Johns et al. - 2020 - Adaptive augmented evolutionary intelligence for the design of water distribution networks.pdf
+2026-08-03 13:53:40.951 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Johns et al. - 2020 - Adaptive augmented evolutionary intelligence for the design of water distribution networks.json
+2026-08-03 13:53:40.954 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Karmelita and Pawlak - 2020 - CMA-ES for one-class constraint synthesis.pdf
+2026-08-03 13:53:40.954 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Karmelita and Pawlak - 2020 - CMA-ES for one-class constraint synthesis.pdf to Gemini File API...
+2026-08-03 13:53:46.007 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/1062agi2h7pc
+2026-08-03 13:54:16.856 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 5 entries from Karmelita and Pawlak - 2020 - CMA-ES for one-class constraint synthesis.pdf
+2026-08-03 13:54:16.862 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Karmelita and Pawlak - 2020 - CMA-ES for one-class constraint synthesis.json
+2026-08-03 13:54:16.864 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Kelly et al. - 2020 - A modular memory framework for time series prediction.pdf
+2026-08-03 13:54:16.864 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Kelly et al. - 2020 - A modular memory framework for time series prediction.pdf to Gemini File API...
+2026-08-03 13:54:21.516 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/kmr642lot81w
+2026-08-03 13:54:26.047 | WARNING  | gecco_pipeline.extractor:_call_with_retry:219 - Attempt 1/3 failed for Kelly et al. - 2020 - A modular memory framework for time series prediction.pdf: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying in 2.2s...
+2026-08-03 13:55:03.789 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 9 entries from Kelly et al. - 2020 - A modular memory framework for time series prediction.pdf
+2026-08-03 13:55:03.795 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Kelly et al. - 2020 - A modular memory framework for time series prediction.json
+2026-08-03 13:55:03.796 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Komarnicki et al. - 2020 - Comparative mixing for DSMGA-II.pdf
+2026-08-03 13:55:03.796 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Komarnicki et al. - 2020 - Comparative mixing for DSMGA-II.pdf to Gemini File API...
+2026-08-03 13:55:08.107 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/h071zme0fgcj

@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "title": "Analyzing per-component energy consumption of evolutionary algorithms implemented in low-level languages: Comparison of C++ and zig in key evolutionary algorithm functions",
+    "authors": [
+      "Juan-Julián Merelo Guervós",
+      "Gustavo Romero López",
+      "Mario García-Valdez"
+    ],
+    "year": 2025,
+    "source_file": "Merelo et al. - 2025 - Analyzing per-component energy consumption of evolutionary algorithms implemented in low-level langu.pdf",
+    "gecco_track": "GECCO '25 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "HIFF",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "hierarchical",
+          "recursive",
+          "building blocks"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (C++)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Operations per Joule",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "HIFF",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "hierarchical",
+          "recursive",
+          "building blocks"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (zig)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Operations per Joule",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "OneMax",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "linear"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (C++)"
+      },
+      "parameters": {
+        "population_size": 40000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Energy consumption (Joules)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "OneMax",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "linear"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (zig)"
+      },
+      "parameters": {
+        "population_size": 40000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Energy consumption (Joules)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

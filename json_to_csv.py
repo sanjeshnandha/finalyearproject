@@ -126,8 +126,8 @@ def flatten_extraction(paper_data: dict, extraction: dict, paper_idx: int, ext_i
     }
 
 
-def convert_jsons_to_csv(output_dir: Path, report_path: Path) -> int:
-    """Read all JSON files and write a single CSV.
+def convert_jsons_to_csv(output_dir: Path, report_path: Path, split_by_year: bool = False) -> int:
+    """Read all JSON files and write a single CSV or multiple CSVs split by year.
 
     Returns:
         Total number of rows written.
@@ -140,31 +140,60 @@ def convert_jsons_to_csv(output_dir: Path, report_path: Path) -> int:
     report_path.parent.mkdir(parents=True, exist_ok=True)
 
     total_rows = 0
-    paper_idx = 0
+    paper_idx_by_year = {}
+    
+    rows_by_year = {}
+    all_rows = []
 
-    with open(report_path, "w", newline="", encoding="utf-8") as csvfile:
-        writer = csv.DictWriter(csvfile, fieldnames=CSV_COLUMNS)
-        writer.writeheader()
+    for json_file in json_files:
+        try:
+            with open(json_file, "r", encoding="utf-8") as f:
+                data = json.load(f)
+        except (json.JSONDecodeError, OSError) as e:
+            print(f"  ✗ Skipping {json_file.name}: {e}")
+            continue
 
-        for json_file in json_files:
-            try:
-                with open(json_file, "r", encoding="utf-8") as f:
-                    data = json.load(f)
-            except (json.JSONDecodeError, OSError) as e:
-                print(f"  ✗ Skipping {json_file.name}: {e}")
-                continue
+        folder_year = json_file.parent.name
+        year_key = folder_year if folder_year.isdigit() else "Unknown"
 
-            paper_idx += 1
-            extractions = data.get("extractions", [])
+        paper_idx_by_year[year_key] = paper_idx_by_year.get(year_key, 0) + 1
+        current_paper_idx = paper_idx_by_year[year_key]
 
-            if not extractions:
-                print(f"  ⚠ No extractions in {json_file.name}, skipping")
-                continue
+        extractions = data.get("extractions", [])
 
-            for ext_idx, extraction in enumerate(extractions, start=1):
-                row = flatten_extraction(data, extraction, paper_idx, ext_idx)
-                writer.writerow(row)
-                total_rows += 1
+        if not extractions:
+            print(f"  ⚠ No extractions in {json_file.name}, skipping")
+            continue
+
+        for ext_idx, extraction in enumerate(extractions, start=1):
+            row = flatten_extraction(data, extraction, current_paper_idx, ext_idx)
+            
+            # Use folder name as authoritative year (metadata.year can be wrong)
+            if folder_year.isdigit():
+                row["Year"] = folder_year
+            
+            if split_by_year:
+                year = row.get("Year") or "Unknown"
+                rows_by_year.setdefault(str(year), []).append(row)
+            else:
+                all_rows.append(row)
+                
+            total_rows += 1
+
+    if split_by_year:
+        for year, rows in sorted(rows_by_year.items()):
+            # dataset_analysis.py expects YYYY_dataset.csv
+            year_path = report_path.with_name(f"{year}_dataset.csv")
+            with open(year_path, "w", newline="", encoding="utf-8") as csvfile:
+                writer = csv.DictWriter(csvfile, fieldnames=CSV_COLUMNS)
+                writer.writeheader()
+                writer.writerows(rows)
+            print(f"  Wrote {len(rows)} rows to {year_path}")
+    else:
+        with open(report_path, "w", newline="", encoding="utf-8") as csvfile:
+            writer = csv.DictWriter(csvfile, fieldnames=CSV_COLUMNS)
+            writer.writeheader()
+            writer.writerows(all_rows)
 
     return total_rows
 
@@ -183,11 +212,16 @@ def main():
         default=Path("data/reports/gecco_dataset.csv"),
         help="Path for the output CSV file (default: data/reports/gecco_dataset.csv)",
     )
+    parser.add_argument(
+        "--split-by-year",
+        action="store_true",
+        help="Split the output into multiple CSV files based on the year",
+    )
     args = parser.parse_args()
 
     print(f"\n📊 Converting JSONs from {args.output_dir} → CSV")
-    total = convert_jsons_to_csv(args.output_dir, args.report_path)
-    print(f"\n✓ Done! Wrote {total} rows to {args.report_path}\n")
+    total = convert_jsons_to_csv(args.output_dir, args.report_path, args.split_by_year)
+    print(f"\n✓ Done! Processed {total} total rows.\n")
 
 
 if __name__ == "__main__":

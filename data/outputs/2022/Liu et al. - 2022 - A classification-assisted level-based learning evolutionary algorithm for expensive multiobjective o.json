@@ -1,0 +1,214 @@
+{
+  "metadata": {
+    "title": "A Classification-Assisted Level-Based Learning Evolutionary Algorithm for Expensive Multiobjective Optimization Problems",
+    "authors": [
+      "Zhuo Liu",
+      "Xiaolin Xiao",
+      "Feng-Feng Wei",
+      "Wei-Neng Chen"
+    ],
+    "year": 2022,
+    "source_file": "Liu et al. - 2022 - A classification-assisted level-based learning evolutionary algorithm for expensive multiobjective o.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ZDT Suite (ZDT1, ZDT2, ZDT3, ZDT4, ZDT6)",
+        "dimensionality": "5D, 10D, 20D, 30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CALL-MOEA"
+      },
+      "parameters": {
+        "population_size": 44,
+        "max_evaluations_or_generations": 900,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ Suite (DTLZ1, DTLZ2, DTLZ3, DTLZ4)",
+        "dimensionality": "5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CALL-MOEA"
+      },
+      "parameters": {
+        "population_size": 44,
+        "max_evaluations_or_generations": 600,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ZDT Suite (ZDT1, ZDT2, ZDT3, ZDT4, ZDT6)",
+        "dimensionality": "10D, 20D, 30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CPS-MOEA"
+      },
+      "parameters": {
+        "population_size": 44,
+        "max_evaluations_or_generations": 900,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ Suite (DTLZ1, DTLZ2, DTLZ3, DTLZ4)",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CPS-MOEA"
+      },
+      "parameters": {
+        "population_size": 44,
+        "max_evaluations_or_generations": 600,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ZDT Suite (ZDT1, ZDT2, ZDT3, ZDT4, ZDT6)",
+        "dimensionality": "10D, 20D, 30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D-EGO"
+      },
+      "parameters": {
+        "population_size": 44,
+        "max_evaluations_or_generations": 900,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ Suite (DTLZ1, DTLZ2, DTLZ3, DTLZ4)",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D-EGO"
+      },
+      "parameters": {
+        "population_size": 44,
+        "max_evaluations_or_generations": 600,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

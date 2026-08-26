@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "title": "From Prompts to Pareto Fronts: Using Code LMs as Semantic Genetic Operators for Compiler Bug Discovery",
+    "authors": [
+      "Lang Hong Nguyet Anh",
+      "Ho Viet Duc Luong",
+      "Vu Van An"
+    ],
+    "year": 2026,
+    "source_file": "Nguyet Anh et al. - 2026 - From Prompts to Pareto Fronts Using Code LMs as Semantic Genetic Operators for Compiler Bug Discove.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Compiler Bug Discovery"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "GCC Compiler Testing",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "irregular input spaces",
+          "complex semantic constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LMOEC"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "25 unique bugs found (5 Wrong-code, 12 Crash, 8 Hang), 79.2% yield rate",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Compiler Bug Discovery"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Clang Compiler Testing",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "irregular input spaces",
+          "complex semantic constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LMOEC"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "16 unique bugs found (2 Wrong-code, 9 Crash, 5 Hang), 81.3% yield rate",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

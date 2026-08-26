@@ -1,0 +1,129 @@
+{
+  "metadata": {
+    "title": "Distance-based Subset Selection Revisited",
+    "authors": [
+      "Ke Shang",
+      "Hisao Ishibuchi",
+      "Yang Nan"
+    ],
+    "year": 2021,
+    "source_file": "Shang et al. - 2021 - Distance-based subset selection revisited.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Triangular and Inverted Triangular Pareto Fronts",
+        "dimensionality": "3D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "linear",
+          "convex",
+          "concave",
+          "inverted"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Greedy Inclusion DSS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Uniformity level",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Triangular and Inverted Triangular Pareto Fronts",
+        "dimensionality": "3D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "linear",
+          "convex",
+          "concave",
+          "inverted"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Greedy Removal DSS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Uniformity level",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Triangular and Inverted Triangular Pareto Fronts",
+        "dimensionality": "3D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "linear",
+          "convex",
+          "concave",
+          "inverted"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Iterative DSS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Uniformity level",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

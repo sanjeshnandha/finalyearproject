@@ -1,0 +1,125 @@
+{
+  "metadata": {
+    "title": "Morphology Choice Affects the Evolution of Affordance Detection in Robots",
+    "authors": [
+      "Federico Pigozzi",
+      "Stephanie Woodman",
+      "Eric Medvet",
+      "Rebecca Kramer-Bottiglio",
+      "Josh Bongard"
+    ],
+    "year": 2023,
+    "source_file": "Pigozzi et al. - 2023 - Morphology Choice Affects the Evolution of Affordance Detection in Robots.pdf",
+    "gecco_track": "Evolutionary Robotics"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Evolving soft robots for affordance detection and locomotion"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Affordance Detection and Locomotion (Starfish Morphology)",
+        "dimensionality": "158"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "soft-body physics",
+          "tactile feedback"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Affordance detection accuracy (f_aff) and Locomotion fitness (f_loc)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Evolving soft robots for affordance detection and locomotion"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Affordance Detection and Locomotion (Flatworm Morphology)",
+        "dimensionality": "158"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "soft-body physics",
+          "tactile feedback"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Affordance detection accuracy (f_aff) and Locomotion fitness (f_loc)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Evolving soft robots for affordance detection and locomotion"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Affordance Detection and Locomotion (Gecko Morphology)",
+        "dimensionality": "158"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "soft-body physics",
+          "tactile feedback"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Affordance detection accuracy (f_aff) and Locomotion fitness (f_loc)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

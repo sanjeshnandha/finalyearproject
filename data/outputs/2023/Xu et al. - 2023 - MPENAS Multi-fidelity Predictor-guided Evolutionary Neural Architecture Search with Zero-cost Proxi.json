@@ -1,0 +1,246 @@
+{
+  "metadata": {
+    "title": "MPENAS: Multi-fidelity Predictor-guided Evolutionary Neural Architecture Search with Zero-cost Proxies",
+    "authors": [
+      "Jinglue Xu",
+      "Suryanarayanan NAV",
+      "Hitoshi Iba"
+    ],
+    "year": 2023,
+    "source_file": "Xu et al. - 2023 - MPENAS Multi-fidelity Predictor-guided Evolutionary Neural Architecture Search with Zero-cost Proxi.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Neural Architecture Search"
+      },
+      "the_database": {
+        "dataset_name": "NAS-Bench-201",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "NAS-Bench-201",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MPENAS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Validation accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Neural Architecture Search"
+      },
+      "the_database": {
+        "dataset_name": "NAS-Bench-201",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "NAS-Bench-201",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MPENAS-HB"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Validation accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Neural Architecture Search"
+      },
+      "the_database": {
+        "dataset_name": "NAS-Bench-201",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "NAS-Bench-201",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Regularized Evolution Algorithm (REA)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Validation accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Neural Architecture Search"
+      },
+      "the_database": {
+        "dataset_name": "NAS-Bench-201",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "NAS-Bench-201",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "BOHB"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Validation accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Neural Architecture Search"
+      },
+      "the_database": {
+        "dataset_name": "TransNAS-Bench-101",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "TransNAS-Bench-101",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MPENAS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Validation accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Neural Architecture Search"
+      },
+      "the_database": {
+        "dataset_name": "TransNAS-Bench-101",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "TransNAS-Bench-101",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Regularized Evolution Algorithm (REA)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Validation accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Neural Architecture Search"
+      },
+      "the_database": {
+        "dataset_name": "TransNAS-Bench-101",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "TransNAS-Bench-101",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "BOHB"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Validation accuracy",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

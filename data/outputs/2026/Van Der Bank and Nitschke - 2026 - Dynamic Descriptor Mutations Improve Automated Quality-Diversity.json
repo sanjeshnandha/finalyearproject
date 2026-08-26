@@ -1,0 +1,212 @@
+{
+  "metadata": {
+    "title": "Dynamic Descriptor Mutations Improve Automated Quality-Diversity",
+    "authors": [
+      "Reece van der Bank",
+      "Geoff Nitschke"
+    ],
+    "year": 2026,
+    "source_file": "Van Der Bank and Nitschke - 2026 - Dynamic Descriptor Mutations Improve Automated Quality-Diversity.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Swarm robotics herding task"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Herding Domain",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Mid-Evolution MAP-Elites"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Average fitness (H-Osci: 0.516667, H-Mini: 0.275000, H-Clus: 0.266667)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Swarm robotics herding task"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Herding Domain",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Control MAP-Elites"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Average fitness (H-Osci: 0.400000, H-Mini: 0.372222, H-Clus: 0.355556)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Swarm robotics block collection task"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Block Collection Domain",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Mid-Evolution MAP-Elites"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Average fitness (B-Mini: 0.233333, B-Pers: 0.262500, B-Size: 0.306250)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Swarm robotics block collection task"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Block Collection Domain",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Control MAP-Elites"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Average fitness (B-Mini: 0.185417, B-Pers: 0.268750, B-Size: 0.222917)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Swarm robotics radar coverage task"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Radar Coverage Domain",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Mid-Evolution MAP-Elites"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Average fitness (R-Maxi: 0.795833, R-Lone: 0.801574, R-Move: 0.758400)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Swarm robotics radar coverage task"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Radar Coverage Domain",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Control MAP-Elites"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Average fitness (R-Maxi: 0.765556, R-Lone: 0.754583, R-Move: 0.750995)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

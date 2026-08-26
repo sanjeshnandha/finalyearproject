@@ -1,0 +1,2392 @@
+{
+  "metadata": {
+    "title": "LIMES: Learning from Imbalanced Data via Multiform Multi-Objective Feature Selection",
+    "authors": [
+      "Ruwang Jiao",
+      "Tao Peng",
+      "Naoki Masuyama",
+      "Yusuke Nojima"
+    ],
+    "year": 2025,
+    "source_file": "Jiao et al. - 2025 - LIMES Learning from Imbalanced Data via Multiform Multi-Objective Feature Selection.pdf",
+    "gecco_track": "GECCO '25 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "Parkinson",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "22D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIMES-NSGA-II"
+      },
+      "parameters": {
+        "population_size": 22,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.045454545454545456,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "German",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "24D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIMES-NSGA-II"
+      },
+      "parameters": {
+        "population_size": 24,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.041666666666666664,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "Ionosphere",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "34D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIMES-NSGA-II"
+      },
+      "parameters": {
+        "population_size": 34,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.029411764705882353,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "Lung",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "56D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIMES-NSGA-II"
+      },
+      "parameters": {
+        "population_size": 56,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.017857142857142856,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "Spambase",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "57D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIMES-NSGA-II"
+      },
+      "parameters": {
+        "population_size": 57,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.017543859649122806,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "Semeion",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "265D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIMES-NSGA-II"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.0037735849056603774,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "LSVT",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "310D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIMES-NSGA-II"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.003225806451612903,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "colon",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "2000D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIMES-NSGA-II"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.0005,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "Yeoh-2002-v1",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "2526D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIMES-NSGA-II"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.00039580364212192005,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "CNS",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "7129D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIMES-NSGA-II"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.00014027212792817927,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "ALLAML",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "7129D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIMES-NSGA-II"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.00014027212792817927,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "GLI-85",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "22283D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIMES-NSGA-II"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 4.487726921428883e-05,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "Parkinson",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "22D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 22,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.045454545454545456,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "German",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "24D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 24,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.041666666666666664,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "Ionosphere",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "34D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 34,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.029411764705882353,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "Lung",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "56D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 56,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.017857142857142856,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "Spambase",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "57D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 57,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.017543859649122806,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "Semeion",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "265D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.0037735849056603774,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "LSVT",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "310D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.003225806451612903,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "colon",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "2000D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.0005,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "Yeoh-2002-v1",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "2526D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.00039580364212192005,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "CNS",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "7129D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.00014027212792817927,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "ALLAML",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "7129D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.00014027212792817927,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "GLI-85",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "22283D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 4.487726921428883e-05,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "Parkinson",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "22D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIMES-MOEA/D"
+      },
+      "parameters": {
+        "population_size": 22,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.045454545454545456,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "German",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "24D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIMES-MOEA/D"
+      },
+      "parameters": {
+        "population_size": 24,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.041666666666666664,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "Ionosphere",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "34D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIMES-MOEA/D"
+      },
+      "parameters": {
+        "population_size": 34,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.029411764705882353,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "Lung",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "56D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIMES-MOEA/D"
+      },
+      "parameters": {
+        "population_size": 56,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.017857142857142856,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "Spambase",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "57D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIMES-MOEA/D"
+      },
+      "parameters": {
+        "population_size": 57,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.017543859649122806,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "Semeion",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "265D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIMES-MOEA/D"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.0037735849056603774,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "LSVT",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "310D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIMES-MOEA/D"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.003225806451612903,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "colon",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "2000D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIMES-MOEA/D"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.0005,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "Yeoh-2002-v1",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "2526D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIMES-MOEA/D"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.00039580364212192005,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "CNS",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "7129D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIMES-MOEA/D"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.00014027212792817927,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "ALLAML",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "7129D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIMES-MOEA/D"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.00014027212792817927,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "GLI-85",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "22283D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIMES-MOEA/D"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 4.487726921428883e-05,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "Parkinson",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "22D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D"
+      },
+      "parameters": {
+        "population_size": 22,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.045454545454545456,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "German",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "24D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D"
+      },
+      "parameters": {
+        "population_size": 24,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.041666666666666664,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "Ionosphere",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "34D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D"
+      },
+      "parameters": {
+        "population_size": 34,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.029411764705882353,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "Lung",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "56D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D"
+      },
+      "parameters": {
+        "population_size": 56,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.017857142857142856,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "Spambase",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "57D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D"
+      },
+      "parameters": {
+        "population_size": 57,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.017543859649122806,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "Semeion",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "265D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.0037735849056603774,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "LSVT",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "310D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.003225806451612903,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "colon",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "2000D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.0005,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "Yeoh-2002-v1",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "2526D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.00039580364212192005,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "CNS",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "7129D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.00014027212792817927,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "ALLAML",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "7129D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.00014027212792817927,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "GLI-85",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "22283D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 4.487726921428883e-05,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "Parkinson",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "22D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIMES-HypE"
+      },
+      "parameters": {
+        "population_size": 22,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.045454545454545456,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "German",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "24D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIMES-HypE"
+      },
+      "parameters": {
+        "population_size": 24,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.041666666666666664,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "Ionosphere",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "34D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIMES-HypE"
+      },
+      "parameters": {
+        "population_size": 34,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.029411764705882353,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "Lung",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "56D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIMES-HypE"
+      },
+      "parameters": {
+        "population_size": 56,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.017857142857142856,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "Spambase",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "57D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIMES-HypE"
+      },
+      "parameters": {
+        "population_size": 57,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.017543859649122806,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "Semeion",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "265D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIMES-HypE"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.0037735849056603774,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "LSVT",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "310D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIMES-HypE"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.003225806451612903,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "colon",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "2000D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIMES-HypE"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.0005,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "Yeoh-2002-v1",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "2526D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIMES-HypE"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.00039580364212192005,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "CNS",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "7129D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIMES-HypE"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.00014027212792817927,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "ALLAML",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "7129D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIMES-HypE"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.00014027212792817927,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "GLI-85",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "22283D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIMES-HypE"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 4.487726921428883e-05,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "Parkinson",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "22D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HypE"
+      },
+      "parameters": {
+        "population_size": 22,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.045454545454545456,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "German",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "24D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HypE"
+      },
+      "parameters": {
+        "population_size": 24,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.041666666666666664,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "Ionosphere",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "34D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HypE"
+      },
+      "parameters": {
+        "population_size": 34,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.029411764705882353,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "Lung",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "56D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HypE"
+      },
+      "parameters": {
+        "population_size": 56,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.017857142857142856,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "Spambase",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "57D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HypE"
+      },
+      "parameters": {
+        "population_size": 57,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.017543859649122806,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "Semeion",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "265D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HypE"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.0037735849056603774,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "LSVT",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "310D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HypE"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.003225806451612903,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "colon",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "2000D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HypE"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.0005,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "Yeoh-2002-v1",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "2526D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HypE"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.00039580364212192005,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "CNS",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "7129D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HypE"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.00014027212792817927,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "ALLAML",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "7129D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HypE"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.00014027212792817927,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Data Science / Machine Learning",
+        "problem_context": "Feature Selection for Imbalanced Classification"
+      },
+      "the_database": {
+        "dataset_name": "GLI-85",
+        "source_platform": "UCI Repository, gems-system.org"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Objective Feature Selection",
+        "dimensionality": "22283D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HypE"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 4.487726921428883e-05,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average F1-score and G-mean values",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

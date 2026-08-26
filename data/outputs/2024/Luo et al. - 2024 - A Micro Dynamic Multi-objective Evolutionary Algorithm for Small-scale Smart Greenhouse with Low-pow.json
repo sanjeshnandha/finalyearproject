@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "title": "A Micro Dynamic Multi-objective Evolutionary Algorithm for Small-scale Smart Greenhouse with Low-power Microprocessor",
+    "authors": [
+      "Zhongtian Luo",
+      "Jianpeng Xiong",
+      "Hu Peng",
+      "Gaosheng Zhan",
+      "Qingfu Zhang",
+      "Hui Wang",
+      "Xinyu Zhou",
+      "Wei Li",
+      "Ying Huang"
+    ],
+    "year": 2024,
+    "source_file": "Luo et al. - 2024 - A Micro Dynamic Multi-objective Evolutionary Algorithm for Small-scale Smart Greenhouse with Low-pow.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Agriculture",
+        "problem_context": "Small-scale smart greenhouse environmental control"
+      },
+      "the_database": {
+        "dataset_name": "EVALife Simulator",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SSG (small-scale smart greenhouse problem)",
+        "dimensionality": "6D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "dynamic",
+          "multi-objective",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "μDMOEA"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean IGD of 9.5554e-2",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Agriculture",
+        "problem_context": "Small-scale smart greenhouse environmental control"
+      },
+      "the_database": {
+        "dataset_name": "EVALife Simulator",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SSG (small-scale smart greenhouse problem)",
+        "dimensionality": "6D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "dynamic",
+          "multi-objective",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SGEA"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean IGD of 1.0673e-1",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Agriculture",
+        "problem_context": "Small-scale smart greenhouse environmental control"
+      },
+      "the_database": {
+        "dataset_name": "EVALife Simulator",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SSG (small-scale smart greenhouse problem)",
+        "dimensionality": "6D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "dynamic",
+          "multi-objective",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DNSGA-II"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean IGD of 1.2133e-1",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Agriculture",
+        "problem_context": "Small-scale smart greenhouse environmental control"
+      },
+      "the_database": {
+        "dataset_name": "EVALife Simulator",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SSG (small-scale smart greenhouse problem)",
+        "dimensionality": "6D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "dynamic",
+          "multi-objective",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RVCP"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean IGD of 1.0615e-1",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

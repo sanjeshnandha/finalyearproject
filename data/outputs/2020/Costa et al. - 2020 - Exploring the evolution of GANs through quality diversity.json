@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "title": "Exploring the Evolution of GANs through Quality Diversity",
+    "authors": [
+      "Victor Costa",
+      "Nuno Lourenço",
+      "João Correia",
+      "Penousal Machado"
+    ],
+    "year": 2020,
+    "source_file": "Costa et al. - 2020 - Exploring the evolution of GANs through quality diversity.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Generative Adversarial Network training for image generation"
+      },
+      "the_database": {
+        "dataset_name": "MNIST",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MNIST",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "mode collapse",
+          "vanishing gradient"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "COEGAN"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "FID Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Generative Adversarial Network training for image generation"
+      },
+      "the_database": {
+        "dataset_name": "MNIST",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MNIST",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "mode collapse",
+          "vanishing gradient"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "COEGAN+NSLC"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "FID Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Generative Adversarial Network training for image generation"
+      },
+      "the_database": {
+        "dataset_name": "MNIST",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MNIST",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "mode collapse",
+          "vanishing gradient"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "COEGAN+NSGC"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "FID Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Generative Adversarial Network training for image generation"
+      },
+      "the_database": {
+        "dataset_name": "CelebA",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CelebA",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "mode collapse",
+          "vanishing gradient"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "COEGAN+NSGC"
+      },
+      "parameters": {
+        "population_size": 5,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "FID Score",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

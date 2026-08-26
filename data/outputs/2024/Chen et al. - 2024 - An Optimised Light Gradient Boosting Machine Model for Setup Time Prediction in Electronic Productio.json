@@ -1,0 +1,331 @@
+{
+  "metadata": {
+    "title": "An Optimised Light Gradient Boosting Machine Model for Setup Time Prediction in Electronic Production Lines",
+    "authors": [
+      "Siping Chen",
+      "Debiao Li",
+      "Xiqin Gan",
+      "Raymond Chiong"
+    ],
+    "year": 2024,
+    "source_file": "Chen et al. - 2024 - An Optimised Light Gradient Boosting Machine Model for Setup Time Prediction in Electronic Productio.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Hyperparameter optimization of LightGBM for PCB assembly setup time prediction"
+      },
+      "the_database": {
+        "dataset_name": "Industrial dataset of PCB assembly setup times",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "LightGBM Hyperparameter Optimization (Complete setup)",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Differential Evolution (DE)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "RMSE of 14.87",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Hyperparameter optimization of LightGBM for PCB assembly setup time prediction"
+      },
+      "the_database": {
+        "dataset_name": "Industrial dataset of PCB assembly setup times",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "LightGBM Hyperparameter Optimization (Complete setup)",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (GA)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "RMSE of 15.08",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Hyperparameter optimization of LightGBM for PCB assembly setup time prediction"
+      },
+      "the_database": {
+        "dataset_name": "Industrial dataset of PCB assembly setup times",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "LightGBM Hyperparameter Optimization (Complete setup)",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Particle Swarm Optimisation (PSO)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "RMSE of 15.10",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Hyperparameter optimization of LightGBM for PCB assembly setup time prediction"
+      },
+      "the_database": {
+        "dataset_name": "Industrial dataset of PCB assembly setup times",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "LightGBM Hyperparameter Optimization (Grouped setup)",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Differential Evolution (DE)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "RMSE of 15.73",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Hyperparameter optimization of LightGBM for PCB assembly setup time prediction"
+      },
+      "the_database": {
+        "dataset_name": "Industrial dataset of PCB assembly setup times",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "LightGBM Hyperparameter Optimization (Grouped setup)",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (GA)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "RMSE of 15.96",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Hyperparameter optimization of LightGBM for PCB assembly setup time prediction"
+      },
+      "the_database": {
+        "dataset_name": "Industrial dataset of PCB assembly setup times",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "LightGBM Hyperparameter Optimization (Grouped setup)",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Particle Swarm Optimisation (PSO)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "RMSE of 16.55",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Hyperparameter optimization of LightGBM for PCB assembly setup time prediction"
+      },
+      "the_database": {
+        "dataset_name": "Industrial dataset of PCB assembly setup times",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "LightGBM Hyperparameter Optimization (Partial setup)",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Differential Evolution (DE)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "RMSE of 16.68",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Hyperparameter optimization of LightGBM for PCB assembly setup time prediction"
+      },
+      "the_database": {
+        "dataset_name": "Industrial dataset of PCB assembly setup times",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "LightGBM Hyperparameter Optimization (Partial setup)",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (GA)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "RMSE of 16.97",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Hyperparameter optimization of LightGBM for PCB assembly setup time prediction"
+      },
+      "the_database": {
+        "dataset_name": "Industrial dataset of PCB assembly setup times",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "LightGBM Hyperparameter Optimization (Partial setup)",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Particle Swarm Optimisation (PSO)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "RMSE of 17.16",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

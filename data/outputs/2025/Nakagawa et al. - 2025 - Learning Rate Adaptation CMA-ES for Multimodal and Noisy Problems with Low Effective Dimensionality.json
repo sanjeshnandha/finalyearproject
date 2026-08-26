@@ -1,0 +1,200 @@
+{
+  "metadata": {
+    "title": "Learning Rate Adaptation CMA-ES for Multimodal and Noisy Problems with Low Effective Dimensionality",
+    "authors": [
+      "Haruhito Nakagawa",
+      "Yutaro Yamada",
+      "Kento Uchida",
+      "Shinichi Shirakawa"
+    ],
+    "year": 2025,
+    "source_file": "Nakagawa et al. - 2025 - Learning Rate Adaptation CMA-ES for Multimodal and Noisy Problems with Low Effective Dimensionality.pdf",
+    "gecco_track": "GECCO '25 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Sphere with LED",
+        "dimensionality": "Variable (N=10 to 50, Neff=10)"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "low effective dimensionality",
+          "rotated"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LRA-CMA-ES-LED"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "SP1 (average number of evaluations among successful trials divided by the success rate)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rastrigin with LED",
+        "dimensionality": "Variable (N=10 to 50, Neff=10)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "low effective dimensionality",
+          "rotated"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LRA-CMA-ES-LED"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "SP1 (average number of evaluations among successful trials divided by the success rate)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Noisy Sphere with LED",
+        "dimensionality": "100D (Neff=10)"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "low effective dimensionality",
+          "rotated",
+          "noisy",
+          "additive Gaussian noise"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LRA-CMA-ES-LED"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "ECDF (empirical cumulative density function)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Noisy Rastrigin with LED",
+        "dimensionality": "100D (Neff=10)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "low effective dimensionality",
+          "rotated",
+          "noisy",
+          "additive Gaussian noise"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LRA-CMA-ES-LED"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "ECDF (empirical cumulative density function)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rastrigin with LED",
+        "dimensionality": "Variable (N=10 to 50, Neff=10)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "low effective dimensionality",
+          "rotated"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ES-LED"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

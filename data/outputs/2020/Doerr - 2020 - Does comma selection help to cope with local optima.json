@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "title": "Does Comma Selection Help To Cope With Local Optima?",
+    "authors": [
+      "Benjamin Doerr"
+    ],
+    "year": 2020,
+    "source_file": "Doerr - 2020 - Does comma selection help to cope with local optima.pdf",
+    "gecco_track": "Theory"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Jump Function",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "local optima",
+          "fitness valley",
+          "gap"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(mu, lambda) EA"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Expected runtime (number of fitness evaluations)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Jump Function",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "local optima",
+          "fitness valley",
+          "gap"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(mu + lambda) EA"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Expected runtime (number of fitness evaluations)",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

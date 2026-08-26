@@ -1,0 +1,236 @@
+{
+  "metadata": {
+    "title": "Measuring Optimiser Performance on a Conical Barrier Tree Benchmark",
+    "authors": [
+      "Itshak Tkach",
+      "Tim Blackwell"
+    ],
+    "year": 2022,
+    "source_file": "Tkach and Blackwell - 2022 - Measuring optimiser performance on a conical barrier tree benchmark.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ONECONE",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "symmetric",
+          "conical"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Local Particle Swarm Optimisation (LPSO)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 150000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean error",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ONECONE",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "symmetric",
+          "conical"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Global Particle Swarm Optimisation (GPSO)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 150000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean error",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ONECONE",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "symmetric",
+          "conical"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Differential Evolution (DE/best/1)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 150000,
+        "mutation_rate": null,
+        "crossover_rate": 0.0
+      },
+      "performance_outcome": {
+        "metric": "Mean error",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "TWOCONES",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "bimodal",
+          "barrier tree",
+          "conical basins",
+          "spherical saddle surfaces"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Local Particle Swarm Optimisation (LPSO)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 150000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success probability",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "TWOCONES",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "bimodal",
+          "barrier tree",
+          "conical basins",
+          "spherical saddle surfaces"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Global Particle Swarm Optimisation (GPSO)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 150000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success probability",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "TWOCONES",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "bimodal",
+          "barrier tree",
+          "conical basins",
+          "spherical saddle surfaces"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Differential Evolution (DE/best/1)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 150000,
+        "mutation_rate": null,
+        "crossover_rate": 0.0
+      },
+      "performance_outcome": {
+        "metric": "Success probability",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

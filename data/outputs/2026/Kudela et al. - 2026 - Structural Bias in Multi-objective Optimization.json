@@ -1,0 +1,164 @@
+{
+  "metadata": {
+    "title": "Structural bias in multi-objective optimisation",
+    "authors": [
+      "Jakub Kudela",
+      "Niki van Stein",
+      "Thomas Bäck",
+      "Anna V. Kononova"
+    ],
+    "year": 2026,
+    "source_file": "Kudela et al. - 2026 - Structural Bias in Multi-objective Optimization.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Proposed Bi-objective SB Test Suite (f1-f5)",
+        "dimensionality": "2D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "random",
+          "uninformative",
+          "analytically controlled Pareto fronts"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NNIA"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 30000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Structural bias (BIASrej, Chi2 p-value, binsize, Clark-Evans Index)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Proposed Bi-objective SB Test Suite (f1-f5)",
+        "dimensionality": "2D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "random",
+          "uninformative",
+          "analytically controlled Pareto fronts"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEAPC"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 30000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Structural bias (BIASrej, Chi2 p-value, binsize, Clark-Evans Index)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Proposed Bi-objective SB Test Suite (f1-f5)",
+        "dimensionality": "2D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "random",
+          "uninformative",
+          "analytically controlled Pareto fronts"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MMOPSO"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 30000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Structural bias (BIASrej, Chi2 p-value, binsize, Clark-Evans Index)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Proposed Bi-objective SB Test Suite (f1-f5)",
+        "dimensionality": "2D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "random",
+          "uninformative",
+          "analytically controlled Pareto fronts"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEADDU"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 30000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Structural bias (BIASrej, Chi2 p-value, binsize, Clark-Evans Index)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "title": "Evolutionary Data Subset Selection for Class-Incremental Learning on Memory-Constrained Systems",
+    "authors": [
+      "Epifanios Baikas",
+      "Danesh Tarapore",
+      "David Thomas"
+    ],
+    "year": 2024,
+    "source_file": "Baikas et al. - 2024 - Evolutionary Data Subset Selection for Class-Incremental Learning on Memory-Constrained Systems.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Data subset selection for class-incremental learning on memory-constrained systems"
+      },
+      "the_database": {
+        "dataset_name": "MNIST",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MNIST (Non-incremental)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "non-linear"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EvoDSS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 400,
+        "mutation_rate": 0.1,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Top-1 accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Data subset selection for class-incremental learning on memory-constrained systems"
+      },
+      "the_database": {
+        "dataset_name": "MNIST",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MNIST (Class-incremental)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "non-linear"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EvoDSS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 40,
+        "mutation_rate": 0.1,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Top-1 accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Data subset selection for class-incremental learning on memory-constrained systems"
+      },
+      "the_database": {
+        "dataset_name": "FashionMNIST",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "FashionMNIST (Non-incremental)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "non-linear"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EvoDSS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 400,
+        "mutation_rate": 0.1,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Top-1 accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Data subset selection for class-incremental learning on memory-constrained systems"
+      },
+      "the_database": {
+        "dataset_name": "FashionMNIST",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "FashionMNIST (Class-incremental)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "non-linear"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EvoDSS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 40,
+        "mutation_rate": 0.1,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Top-1 accuracy",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "metadata": {
+    "title": "Greedy Randomised Adaptive Solution Builder using Priority Rules",
+    "authors": [
+      "Francisco Javier Gil Gala",
+      "Marko Đurasević",
+      "María R. Sierra",
+      "Jorge Puente"
+    ],
+    "year": 2025,
+    "source_file": "Gil-Gala et al. - 2025 - Greedy Randomised Adaptive Solution Builder using Priority Rules.pdf",
+    "gecco_track": "Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Travelling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB instances (e.g., bier127, ch130, d1655, etc.)",
+        "source_platform": "http://www.math.uwaterloo.ca/tsp/data/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "Travelling Salesman Problem (TSP)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Greedy Randomised Adaptive Solution Builder (GRASB)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage above Best Known solution cost (% BK average)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Travelling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB instances (e.g., bier127, ch130, d1655, etc.)",
+        "source_platform": "http://www.math.uwaterloo.ca/tsp/data/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "Travelling Salesman Problem (TSP)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming Hyper-Heuristic (GPHH)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage above Best Known solution cost (% BK average)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Travelling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB instances (e.g., bier127, ch130, d1655, etc.)",
+        "source_platform": "http://www.math.uwaterloo.ca/tsp/data/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "Travelling Salesman Problem (TSP)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Nearest Neighbour (NN)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage above Best Known solution cost (% BK average)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Travelling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB instances (e.g., bier127, ch130, d1655, etc.)",
+        "source_platform": "http://www.math.uwaterloo.ca/tsp/data/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "Travelling Salesman Problem (TSP)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Nearest Insertion (NI)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage above Best Known solution cost (% BK average)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Travelling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB instances (e.g., bier127, ch130, d1655, etc.)",
+        "source_platform": "http://www.math.uwaterloo.ca/tsp/data/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "Travelling Salesman Problem (TSP)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming (GP)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage above Best Known solution cost (% BK average)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Travelling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB instances (e.g., bier127, ch130, d1655, etc.)",
+        "source_platform": "http://www.math.uwaterloo.ca/tsp/data/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "Travelling Salesman Problem (TSP)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ensembles Collaborative (E. Colla)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage above Best Known solution cost (% BK average)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Travelling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB instances (e.g., bier127, ch130, d1655, etc.)",
+        "source_platform": "http://www.math.uwaterloo.ca/tsp/data/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "Travelling Salesman Problem (TSP)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ensembles Competitive (E. Comp)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage above Best Known solution cost (% BK average)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Travelling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB instances (e.g., bier127, ch130, d1655, etc.)",
+        "source_platform": "http://www.math.uwaterloo.ca/tsp/data/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "Travelling Salesman Problem (TSP)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Hybrid Ant Colony Optimization (HACO)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage above Best Known solution cost (% BK average)",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

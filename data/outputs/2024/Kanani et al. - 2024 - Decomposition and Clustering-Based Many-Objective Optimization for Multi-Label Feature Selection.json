@@ -1,0 +1,681 @@
+{
+  "metadata": {
+    "title": "Decomposition and Clustering-Based Many-Objective Optimization for Multi-Label Feature Selection",
+    "authors": [
+      "Somayeh Kanani",
+      "Parham Moradi",
+      "Mahdi Jalili"
+    ],
+    "year": 2024,
+    "source_file": "Kanani et al. - 2024 - Decomposition and Clustering-Based Many-Objective Optimization for Multi-Label Feature Selection.pdf",
+    "gecco_track": "Many-Objective Optimization"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Music",
+        "problem_context": "Multi-label feature selection for music emotion classification"
+      },
+      "the_database": {
+        "dataset_name": "Emotions",
+        "source_platform": "Mulan database"
+      },
+      "the_benchmark_problem": {
+        "name": "Emotions dataset",
+        "dimensionality": "72 features, 6 labels"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "many-objective",
+          "high-dimensional",
+          "non-dominated solutions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MaEA/DC"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.45,
+        "crossover_rate": 0.65
+      },
+      "performance_outcome": {
+        "metric": "Hamming loss: 0.1722, Ranking loss: 0.1735, Hypervolume: 0.88",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision / Image Processing",
+        "problem_context": "Multi-label feature selection for image scene classification"
+      },
+      "the_database": {
+        "dataset_name": "Scene",
+        "source_platform": "Mulan database"
+      },
+      "the_benchmark_problem": {
+        "name": "Scene dataset",
+        "dimensionality": "294 features, 6 labels"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "many-objective",
+          "high-dimensional",
+          "non-dominated solutions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MaEA/DC"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.45,
+        "crossover_rate": 0.65
+      },
+      "performance_outcome": {
+        "metric": "Hamming loss: 0.0764, Ranking loss: 0.0894, Hypervolume: 0.92",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Biology / Bioinformatics",
+        "problem_context": "Multi-label feature selection for yeast gene functional analysis"
+      },
+      "the_database": {
+        "dataset_name": "Yeast",
+        "source_platform": "Mulan database"
+      },
+      "the_benchmark_problem": {
+        "name": "Yeast dataset",
+        "dimensionality": "103 features, 14 labels"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "many-objective",
+          "high-dimensional",
+          "non-dominated solutions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MaEA/DC"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.45,
+        "crossover_rate": 0.65
+      },
+      "performance_outcome": {
+        "metric": "Hamming loss: 0.1889, Ranking loss: 0.195, Hypervolume: 0.89",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Text Mining / Communication",
+        "problem_context": "Multi-label feature selection for email categorization"
+      },
+      "the_database": {
+        "dataset_name": "Enron",
+        "source_platform": "Mulan database"
+      },
+      "the_benchmark_problem": {
+        "name": "Enron dataset",
+        "dimensionality": "1001 features, 53 labels"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "many-objective",
+          "high-dimensional",
+          "non-dominated solutions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MaEA/DC"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.45,
+        "crossover_rate": 0.65
+      },
+      "performance_outcome": {
+        "metric": "Hamming loss: 0.0483, Ranking loss: 0.0947, Hypervolume: 0.49",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Multi-label feature selection for medical text categorization"
+      },
+      "the_database": {
+        "dataset_name": "Medical",
+        "source_platform": "Mulan database"
+      },
+      "the_benchmark_problem": {
+        "name": "Medical dataset",
+        "dimensionality": "1449 features, 45 labels"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "many-objective",
+          "high-dimensional",
+          "non-dominated solutions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MaEA/DC"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.45,
+        "crossover_rate": 0.65
+      },
+      "performance_outcome": {
+        "metric": "Hamming loss: 0.0111, Ranking loss: 0.0227",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Biology / Bioinformatics",
+        "problem_context": "Multi-label feature selection for protein family classification"
+      },
+      "the_database": {
+        "dataset_name": "Genbase",
+        "source_platform": "Mulan database"
+      },
+      "the_benchmark_problem": {
+        "name": "Genbase dataset",
+        "dimensionality": "1186 features, 27 labels"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "many-objective",
+          "high-dimensional",
+          "non-dominated solutions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MaEA/DC"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.45,
+        "crossover_rate": 0.65
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume: 0.45",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Music",
+        "problem_context": "Multi-label feature selection for music emotion classification"
+      },
+      "the_database": {
+        "dataset_name": "Emotions",
+        "source_platform": "Mulan database"
+      },
+      "the_benchmark_problem": {
+        "name": "Emotions dataset",
+        "dimensionality": "72 features, 6 labels"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "many-objective",
+          "high-dimensional",
+          "non-dominated solutions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MaEA/D"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.45,
+        "crossover_rate": 0.65
+      },
+      "performance_outcome": {
+        "metric": "Hamming loss: 0.2277, Ranking loss: 0.2415, Hypervolume: 0.34",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision / Image Processing",
+        "problem_context": "Multi-label feature selection for image scene classification"
+      },
+      "the_database": {
+        "dataset_name": "Scene",
+        "source_platform": "Mulan database"
+      },
+      "the_benchmark_problem": {
+        "name": "Scene dataset",
+        "dimensionality": "294 features, 6 labels"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "many-objective",
+          "high-dimensional",
+          "non-dominated solutions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MaEA/D"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.45,
+        "crossover_rate": 0.65
+      },
+      "performance_outcome": {
+        "metric": "Hamming loss: 0.0928, Ranking loss: 0.1204, Hypervolume: 0.64",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Biology / Bioinformatics",
+        "problem_context": "Multi-label feature selection for yeast gene functional analysis"
+      },
+      "the_database": {
+        "dataset_name": "Yeast",
+        "source_platform": "Mulan database"
+      },
+      "the_benchmark_problem": {
+        "name": "Yeast dataset",
+        "dimensionality": "103 features, 14 labels"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "many-objective",
+          "high-dimensional",
+          "non-dominated solutions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MaEA/D"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.45,
+        "crossover_rate": 0.65
+      },
+      "performance_outcome": {
+        "metric": "Hamming loss: 0.1979, Ranking loss: 0.2109, Hypervolume: 0.43",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Text Mining / Communication",
+        "problem_context": "Multi-label feature selection for email categorization"
+      },
+      "the_database": {
+        "dataset_name": "Enron",
+        "source_platform": "Mulan database"
+      },
+      "the_benchmark_problem": {
+        "name": "Enron dataset",
+        "dimensionality": "1001 features, 53 labels"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "many-objective",
+          "high-dimensional",
+          "non-dominated solutions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MaEA/D"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.45,
+        "crossover_rate": 0.65
+      },
+      "performance_outcome": {
+        "metric": "Hamming loss: 0.0503, Ranking loss: 0.1046, Hypervolume: 0.14",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Multi-label feature selection for medical text categorization"
+      },
+      "the_database": {
+        "dataset_name": "Medical",
+        "source_platform": "Mulan database"
+      },
+      "the_benchmark_problem": {
+        "name": "Medical dataset",
+        "dimensionality": "1449 features, 45 labels"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "many-objective",
+          "high-dimensional",
+          "non-dominated solutions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MaEA/D"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.45,
+        "crossover_rate": 0.65
+      },
+      "performance_outcome": {
+        "metric": "Hamming loss: 0.015, Ranking loss: 0.0649",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Biology / Bioinformatics",
+        "problem_context": "Multi-label feature selection for protein family classification"
+      },
+      "the_database": {
+        "dataset_name": "Genbase",
+        "source_platform": "Mulan database"
+      },
+      "the_benchmark_problem": {
+        "name": "Genbase dataset",
+        "dimensionality": "1186 features, 27 labels"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "many-objective",
+          "high-dimensional",
+          "non-dominated solutions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MaEA/D"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.45,
+        "crossover_rate": 0.65
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume: 0.27",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Music",
+        "problem_context": "Multi-label feature selection for music emotion classification"
+      },
+      "the_database": {
+        "dataset_name": "Emotions",
+        "source_platform": "Mulan database"
+      },
+      "the_benchmark_problem": {
+        "name": "Emotions dataset",
+        "dimensionality": "72 features, 6 labels"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "many-objective",
+          "high-dimensional",
+          "non-dominated solutions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MMFS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.45,
+        "crossover_rate": 0.65
+      },
+      "performance_outcome": {
+        "metric": "Hamming loss: 0.1918, Ranking loss: 0.2071, Hypervolume: 0.80",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision / Image Processing",
+        "problem_context": "Multi-label feature selection for image scene classification"
+      },
+      "the_database": {
+        "dataset_name": "Scene",
+        "source_platform": "Mulan database"
+      },
+      "the_benchmark_problem": {
+        "name": "Scene dataset",
+        "dimensionality": "294 features, 6 labels"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "many-objective",
+          "high-dimensional",
+          "non-dominated solutions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MMFS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.45,
+        "crossover_rate": 0.65
+      },
+      "performance_outcome": {
+        "metric": "Hamming loss: 0.0691, Ranking loss: 0.0884, Hypervolume: 0.68",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Biology / Bioinformatics",
+        "problem_context": "Multi-label feature selection for yeast gene functional analysis"
+      },
+      "the_database": {
+        "dataset_name": "Yeast",
+        "source_platform": "Mulan database"
+      },
+      "the_benchmark_problem": {
+        "name": "Yeast dataset",
+        "dimensionality": "103 features, 14 labels"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "many-objective",
+          "high-dimensional",
+          "non-dominated solutions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MMFS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.45,
+        "crossover_rate": 0.65
+      },
+      "performance_outcome": {
+        "metric": "Hamming loss: 0.1794, Ranking loss: 0.2063, Hypervolume: 0.71",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Text Mining / Communication",
+        "problem_context": "Multi-label feature selection for email categorization"
+      },
+      "the_database": {
+        "dataset_name": "Enron",
+        "source_platform": "Mulan database"
+      },
+      "the_benchmark_problem": {
+        "name": "Enron dataset",
+        "dimensionality": "1001 features, 53 labels"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "many-objective",
+          "high-dimensional",
+          "non-dominated solutions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MMFS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.45,
+        "crossover_rate": 0.65
+      },
+      "performance_outcome": {
+        "metric": "Hamming loss: 0.0495, Ranking loss: 0.0962, Hypervolume: 0.44",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Multi-label feature selection for medical text categorization"
+      },
+      "the_database": {
+        "dataset_name": "Medical",
+        "source_platform": "Mulan database"
+      },
+      "the_benchmark_problem": {
+        "name": "Medical dataset",
+        "dimensionality": "1449 features, 45 labels"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "many-objective",
+          "high-dimensional",
+          "non-dominated solutions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MMFS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.45,
+        "crossover_rate": 0.65
+      },
+      "performance_outcome": {
+        "metric": "Hamming loss: 0.0149, Ranking loss: 0.0485",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Biology / Bioinformatics",
+        "problem_context": "Multi-label feature selection for protein family classification"
+      },
+      "the_database": {
+        "dataset_name": "Genbase",
+        "source_platform": "Mulan database"
+      },
+      "the_benchmark_problem": {
+        "name": "Genbase dataset",
+        "dimensionality": "1186 features, 27 labels"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "many-objective",
+          "high-dimensional",
+          "non-dominated solutions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MMFS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.45,
+        "crossover_rate": 0.65
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume: 0.44",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

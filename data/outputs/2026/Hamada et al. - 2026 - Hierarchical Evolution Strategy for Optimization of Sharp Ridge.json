@@ -1,0 +1,269 @@
+{
+  "metadata": {
+    "title": "Hierarchical Evolution Strategy for Optimization of Sharp Ridge",
+    "authors": [
+      "Sota Hamada",
+      "Yutaro Yamada",
+      "Kento Uchida",
+      "Shinichi Shirakawa"
+    ],
+    "year": 2026,
+    "source_file": "Hamada et al. - 2026 - Hierarchical Evolution Strategy for Optimization of Sharp Ridge.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Sharp Ridge",
+        "dimensionality": "10D, 20D, 40D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sharp ridge",
+          "valley structure",
+          "ill-conditioned"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Hierarchical (1+1)-CMA-ES"
+      },
+      "parameters": {
+        "population_size": 1,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "SP1 (average number of evaluations in successful trials divided by the success rate)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Sharp Ridge",
+        "dimensionality": "10D, 20D, 40D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sharp ridge",
+          "valley structure",
+          "ill-conditioned"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ES with LST Wrapper"
+      },
+      "parameters": {
+        "population_size": 1,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "SP1 (average number of evaluations in successful trials divided by the success rate)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ridge with Corner",
+        "dimensionality": "10D, 20D, 40D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sharp ridge",
+          "90-degree corner",
+          "valley structure"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Hierarchical (1+1)-CMA-ES"
+      },
+      "parameters": {
+        "population_size": 1,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success Rate and SP1",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ridge with Corner",
+        "dimensionality": "10D, 20D, 40D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sharp ridge",
+          "90-degree corner",
+          "valley structure"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ES with LST Wrapper"
+      },
+      "parameters": {
+        "population_size": 1,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success Rate and SP1",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "HappyCat",
+        "dimensionality": "10D, 20D, 30D, 40D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "curved sharp valley structure"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Hierarchical (1+1)-CMA-ES"
+      },
+      "parameters": {
+        "population_size": 1,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best evaluation value and distance to the optimal solution",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "HappyCat",
+        "dimensionality": "10D, 20D, 30D, 40D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "curved sharp valley structure"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ES with LST Wrapper"
+      },
+      "parameters": {
+        "population_size": 1,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best evaluation value and distance to the optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "HappyCat",
+        "dimensionality": "10D, 20D, 30D, 40D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "curved sharp valley structure"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ES (lambda = 1000)"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best evaluation value and distance to the optimal solution",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

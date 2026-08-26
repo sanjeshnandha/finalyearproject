@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "title": "An Improved GPU-Accelerated Heuristic Technique Applied to the Capacitated Vehicle Routing Problem",
+    "authors": [
+      "Marwan F. Abdelatti",
+      "Manbir S. Sodhi"
+    ],
+    "year": 2020,
+    "source_file": "Abdelatti and Sodhi - 2020 - An improved GPU-accelerated heuristic technique applied to the capacitated vehicle routing problem.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Capacitated Vehicle Routing Problem"
+      },
+      "the_database": {
+        "dataset_name": "CVRP Benchmark Instances (Augerat, Christofides, Fisher, Gillett, Eilon)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CVRP Benchmark Suite",
+        "dimensionality": "16 to 76 nodes"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "NP-hard",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GPU-accelerated Hybrid Genetic Algorithm"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.0667,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Execution time (sec/loop) and %Gap",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Capacitated Vehicle Routing Problem"
+      },
+      "the_database": {
+        "dataset_name": "CVRP Benchmark Instances (Augerat, Christofides, Fisher, Gillett, Eilon)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CVRP Benchmark Suite",
+        "dimensionality": "16 to 76 nodes"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "NP-hard",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CPU-based Hybrid Genetic Algorithm"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.0667,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Execution time (sec/loop) and %Gap",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

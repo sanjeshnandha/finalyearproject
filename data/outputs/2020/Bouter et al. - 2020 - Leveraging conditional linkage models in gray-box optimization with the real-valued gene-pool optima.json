@@ -1,0 +1,312 @@
+{
+  "metadata": {
+    "title": "Leveraging Conditional Linkage Models in Gray-box Optimization with the Real-Valued Gene-pool Optimal Mixing Evolutionary Algorithm",
+    "authors": [
+      "Anton Bouter",
+      "Stefanus C. Maree",
+      "Tanja Alderliesten",
+      "Peter A.N. Bosman"
+    ],
+    "year": 2020,
+    "source_file": "Bouter et al. - 2020 - Leveraging conditional linkage models in gray-box optimization with the real-valued gene-pool optima.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rosenbrock",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "ill-conditioned",
+          "valley"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RV-GOMEA (UCond-HG)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median number of evaluations to find the optimum with a precision of 10^-10",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rosenbrock",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "ill-conditioned",
+          "valley"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "VkD-CMA"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median number of evaluations to find the optimum with a precision of 10^-10",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "REBChainStrong",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "overlapping dependencies",
+          "ill-conditioned",
+          "rotated"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RV-GOMEA (UCond-HG)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median number of evaluations to find the optimum with a precision of 10^-10",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "REBChainStrong",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "overlapping dependencies",
+          "ill-conditioned",
+          "rotated"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "VkD-CMA"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median number of evaluations to find the optimum with a precision of 10^-10",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "REB5SmallOverlap",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "overlapping dependencies",
+          "ill-conditioned",
+          "rotated"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RV-GOMEA (UCond-HG)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median number of evaluations to find the optimum with a precision of 10^-10",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "REB5SmallOverlap",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "overlapping dependencies",
+          "ill-conditioned",
+          "rotated"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "VkD-CMA"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median number of evaluations to find the optimum with a precision of 10^-10",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "REBGrid",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "overlapping dependencies",
+          "ill-conditioned",
+          "rotated",
+          "grid structure"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RV-GOMEA (UCond-HG)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median number of evaluations to find the optimum with a precision of 10^-10",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "REBGrid",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "overlapping dependencies",
+          "ill-conditioned",
+          "rotated",
+          "grid structure"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "VkD-CMA"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median number of evaluations to find the optimum with a precision of 10^-10",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

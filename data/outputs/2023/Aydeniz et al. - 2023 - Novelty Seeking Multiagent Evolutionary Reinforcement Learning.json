@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "title": "Novelty Seeking Multiagent Evolutionary Reinforcement Learning",
+    "authors": [
+      "Ayhan Alp Aydeniz",
+      "Robert Loftin",
+      "Kagan Tumer"
+    ],
+    "year": 2023,
+    "source_file": "Aydeniz et al. - 2023 - Novelty Seeking Multiagent Evolutionary Reinforcement Learning.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Multi-rover exploration and coordination"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-rover Exploration Domain",
+        "dimensionality": "11D State, 2D Action"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sparse rewards",
+          "tightly-coupled",
+          "partially observable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NS-MERL"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.1
+      },
+      "performance_outcome": {
+        "metric": "Global Team Performance (G)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Multi-rover exploration and coordination"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-rover Exploration Domain",
+        "dimensionality": "11D State, 2D Action"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sparse rewards",
+          "tightly-coupled",
+          "partially observable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MERL (Task-Oriented)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.1
+      },
+      "performance_outcome": {
+        "metric": "Global Team Performance (G)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Multi-rover exploration and coordination"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-rover Exploration Domain",
+        "dimensionality": "11D State, 2D Action"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sparse rewards",
+          "tightly-coupled",
+          "partially observable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Never Give Up (NGU)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.1
+      },
+      "performance_outcome": {
+        "metric": "Global Team Performance (G)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Multi-rover exploration and coordination"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-rover Exploration Domain",
+        "dimensionality": "11D State, 2D Action"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sparse rewards",
+          "tightly-coupled",
+          "partially observable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Pure Difference Evaluation Functions (D)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.1
+      },
+      "performance_outcome": {
+        "metric": "Global Team Performance (G)",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

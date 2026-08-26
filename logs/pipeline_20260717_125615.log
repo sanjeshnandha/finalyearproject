@@ -1,0 +1,38 @@
+2026-07-17 12:56:15.471 | INFO     | gecco_pipeline.extractor:__init__:32 - Initialized GeccoExtractor with model: gemini-3.5-flash and 3 API keys
+2026-07-17 12:56:15.471 | INFO     | gecco_pipeline.processor:__init__:57 - BatchProcessor initialized
+2026-07-17 12:56:15.472 | INFO     | gecco_pipeline.utils:discover_pdfs:62 - Discovered 113 PDF files in data/pdfs/2024
+2026-07-17 12:56:15.476 | INFO     | gecco_pipeline.processor:process_batch:129 - Skipping 41 already-processed PDFs
+2026-07-17 12:56:15.476 | INFO     | gecco_pipeline.processor:process_batch:145 - Processing 72 PDFs...
+2026-07-17 12:56:15.511 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Kelly et al. - 2024 - Behaviour Discovery in Real-Time Strategy Games using Cooperative Co-evolution with Dynamic Binary T.pdf
+2026-07-17 12:56:15.512 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Kelly et al. - 2024 - Behaviour Discovery in Real-Time Strategy Games using Cooperative Co-evolution with Dynamic Binary T.pdf to Gemini File API...
+2026-07-17 12:56:20.506 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/hxd4eunbtf0x
+2026-07-17 12:57:20.235 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 20 entries from Kelly et al. - 2024 - Behaviour Discovery in Real-Time Strategy Games using Cooperative Co-evolution with Dynamic Binary T.pdf
+2026-07-17 12:57:20.242 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2024/Kelly et al. - 2024 - Behaviour Discovery in Real-Time Strategy Games using Cooperative Co-evolution with Dynamic Binary T.json
+2026-07-17 12:57:20.243 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Kelly et al. - 2024 - Evolving Visual Counterfactual Medical Imagery Explanations with Cooperative Co-evolution using Dyna.pdf
+2026-07-17 12:57:20.243 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Kelly et al. - 2024 - Evolving Visual Counterfactual Medical Imagery Explanations with Cooperative Co-evolution using Dyna.pdf to Gemini File API...
+2026-07-17 12:57:24.574 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/hdqum9b2ulz2
+2026-07-17 12:57:47.670 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 4 entries from Kelly et al. - 2024 - Evolving Visual Counterfactual Medical Imagery Explanations with Cooperative Co-evolution using Dyna.pdf
+2026-07-17 12:57:47.674 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2024/Kelly et al. - 2024 - Evolving Visual Counterfactual Medical Imagery Explanations with Cooperative Co-evolution using Dyna.json
+2026-07-17 12:57:47.675 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Kim and Yoon - 2024 - Efficient Pruning of DenseNet via a Surrogate-Model-Assisted Genetic Algorithm.pdf
+2026-07-17 12:57:47.675 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Kim and Yoon - 2024 - Efficient Pruning of DenseNet via a Surrogate-Model-Assisted Genetic Algorithm.pdf to Gemini File API...
+2026-07-17 12:57:52.346 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/zw7rlrq8iouz
+2026-07-17 12:58:14.907 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 2 entries from Kim and Yoon - 2024 - Efficient Pruning of DenseNet via a Surrogate-Model-Assisted Genetic Algorithm.pdf
+2026-07-17 12:58:14.910 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2024/Kim and Yoon - 2024 - Efficient Pruning of DenseNet via a Surrogate-Model-Assisted Genetic Algorithm.json
+2026-07-17 12:58:14.911 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Kim et al. - 2024 - Evolutionary Ensemble for Predicting Drifter Trajectories Based on Genetic Feature Selection.pdf
+2026-07-17 12:58:14.912 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Kim et al. - 2024 - Evolutionary Ensemble for Predicting Drifter Trajectories Based on Genetic Feature Selection.pdf to Gemini File API...
+2026-07-17 12:58:19.142 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/ffwmm1yai1ut
+2026-07-17 12:58:54.962 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 8 entries from Kim et al. - 2024 - Evolutionary Ensemble for Predicting Drifter Trajectories Based on Genetic Feature Selection.pdf
+2026-07-17 12:58:54.968 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2024/Kim et al. - 2024 - Evolutionary Ensemble for Predicting Drifter Trajectories Based on Genetic Feature Selection.json
+2026-07-17 12:58:54.969 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Kowalczykiewicz and Lipiński - 2024 - Introducing vectorized cluster crossover in Grammatical Evolution.pdf
+2026-07-17 12:58:54.969 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Kowalczykiewicz and Lipiński - 2024 - Introducing vectorized cluster crossover in Grammatical Evolution.pdf to Gemini File API...
+2026-07-17 12:58:58.908 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/jr5noahjj22e
+2026-07-17 12:59:24.338 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 8 entries from Kowalczykiewicz and Lipiński - 2024 - Introducing vectorized cluster crossover in Grammatical Evolution.pdf
+2026-07-17 12:59:24.341 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2024/Kowalczykiewicz and Lipiński - 2024 - Introducing vectorized cluster crossover in Grammatical Evolution.json
+2026-07-17 12:59:24.342 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Lalejini et al. - 2024 - Runtime phylogenetic analysis enables extreme subsampling for test-based problems.pdf
+2026-07-17 12:59:24.342 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Lalejini et al. - 2024 - Runtime phylogenetic analysis enables extreme subsampling for test-based problems.pdf to Gemini File API...
+2026-07-17 12:59:29.513 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/gol5lyru89i9
+2026-07-17 13:00:28.780 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 40 entries from Lalejini et al. - 2024 - Runtime phylogenetic analysis enables extreme subsampling for test-based problems.pdf
+2026-07-17 13:00:28.787 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2024/Lalejini et al. - 2024 - Runtime phylogenetic analysis enables extreme subsampling for test-based problems.json
+2026-07-17 13:00:28.788 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Lavinas et al. - 2024 - Dynamically Sampling biomedical Images For Genetic Programming.pdf
+2026-07-17 13:00:28.788 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Lavinas et al. - 2024 - Dynamically Sampling biomedical Images For Genetic Programming.pdf to Gemini File API...
+2026-07-17 13:00:33.114 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/o5i7m11ljiw6

@@ -1,0 +1,304 @@
+{
+  "metadata": {
+    "title": "Particle Swarm Optimization for Automating Prompt Optimization in Large Language Models on Text Classification and Generation Tasks",
+    "authors": [
+      "Linsen Li",
+      "Bin Wang",
+      "Bing Xue",
+      "Mengjie Zhang"
+    ],
+    "year": 2025,
+    "source_file": "Li et al. - 2025 - Particle Swarm Optimization for Automating Prompt Optimization in Large Language Models on Text Clas.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Information Technology",
+        "problem_context": "Prompt Optimization for Sentiment Classification"
+      },
+      "the_database": {
+        "dataset_name": "SST-2",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SST-2",
+        "dimensionality": "768"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "continuous",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSOPrompt"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 30,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy of 94.51%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Information Technology",
+        "problem_context": "Prompt Optimization for Sentiment Classification"
+      },
+      "the_database": {
+        "dataset_name": "SST-2",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SST-2",
+        "dimensionality": "768"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "continuous",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSOPrompt (WG)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 30,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy of 94.67%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Information Technology",
+        "problem_context": "Prompt Optimization for Sentiment Classification"
+      },
+      "the_database": {
+        "dataset_name": "SST-5",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SST-5",
+        "dimensionality": "768"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "continuous",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSOPrompt"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 30,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy of 45.29%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Information Technology",
+        "problem_context": "Prompt Optimization for Sentiment Classification"
+      },
+      "the_database": {
+        "dataset_name": "SST-5",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SST-5",
+        "dimensionality": "768"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "continuous",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSOPrompt (WG)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 30,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy of 47.62%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Information Technology",
+        "problem_context": "Prompt Optimization for News Topic Classification"
+      },
+      "the_database": {
+        "dataset_name": "AG-News",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "AG-News",
+        "dimensionality": "768"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "continuous",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSOPrompt"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 30,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy of 76.38%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Information Technology",
+        "problem_context": "Prompt Optimization for News Topic Classification"
+      },
+      "the_database": {
+        "dataset_name": "AG-News",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "AG-News",
+        "dimensionality": "768"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "continuous",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSOPrompt (WG)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 30,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy of 77.71%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Information Technology",
+        "problem_context": "Prompt Optimization for Text Summarization"
+      },
+      "the_database": {
+        "dataset_name": "SAMSum",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SAMSum",
+        "dimensionality": "768"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "continuous",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSOPrompt"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 30,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "ROUGE-1: 36.53%, ROUGE-2: 11.88%, ROUGE-L: 27.30%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Information Technology",
+        "problem_context": "Prompt Optimization for Text Summarization"
+      },
+      "the_database": {
+        "dataset_name": "SAMSum",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SAMSum",
+        "dimensionality": "768"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "continuous",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSOPrompt (WG)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 30,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "ROUGE-1: 37.69%, ROUGE-2: 12.34%, ROUGE-L: 28.61%",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

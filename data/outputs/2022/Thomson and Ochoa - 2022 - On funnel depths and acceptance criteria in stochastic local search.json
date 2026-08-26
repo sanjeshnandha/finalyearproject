@@ -1,0 +1,125 @@
+{
+  "metadata": {
+    "title": "On Funnel Depths and Acceptance Criteria in Stochastic Local Search",
+    "authors": [
+      "Sarah L. Thomson",
+      "Gabriela Ochoa"
+    ],
+    "year": 2022,
+    "source_file": "Thomson and Ochoa - 2022 - On funnel depths and acceptance criteria in stochastic local search.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "QAPLIB",
+        "source_platform": "University of Florida"
+      },
+      "the_benchmark_problem": {
+        "name": "Quadratic Assignment Problem (QAP)",
+        "dimensionality": "25 to 50 facilities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "funnels",
+          "neutrality"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Iterated Local Search with better-or-equal acceptance (ILS-default)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (iterations) and success rate",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "QAPLIB",
+        "source_platform": "University of Florida"
+      },
+      "the_benchmark_problem": {
+        "name": "Quadratic Assignment Problem (QAP)",
+        "dimensionality": "25 to 50 facilities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "funnels",
+          "neutrality"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Iterated Local Search with annealing-like acceptance (ILS-annealing)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (iterations) and success rate",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "QAPLIB",
+        "source_platform": "University of Florida"
+      },
+      "the_benchmark_problem": {
+        "name": "Quadratic Assignment Problem (QAP)",
+        "dimensionality": "25 to 50 facilities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "funnels",
+          "neutrality"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Iterated Local Search with restart acceptance (ILS-restart)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (iterations) and success rate",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

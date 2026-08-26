@@ -1,0 +1,854 @@
+{
+  "metadata": {
+    "title": "Lazy Hypervolume Subset Selection Algorithm with Contributions Update",
+    "authors": [
+      "Andrzej Jaszkiewicz",
+      "Piotr Zielniewicz"
+    ],
+    "year": 2025,
+    "source_file": "Jaszkiewicz and Zielniewicz - 2025 - Lazy Hypervolume Subset Selection Algorithm with Contributions Update.pdf",
+    "gecco_track": "GECCO '25 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Hypervolume Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hypervolume Subset Selection on Convex Pareto Fronts",
+        "dimensionality": "7D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "convex Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "gHSSInc/DecLazyQHV_std"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "CPU time [ms] for selecting a subset of points",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Hypervolume Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hypervolume Subset Selection on Convex Pareto Fronts",
+        "dimensionality": "7D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "convex Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "gHSSInc/DecLazyQHV_upd"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "CPU time [ms] for selecting a subset of points",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Hypervolume Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hypervolume Subset Selection on Convex Pareto Fronts",
+        "dimensionality": "7D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "convex Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "gHSSInc/DecLazyQHV_adapt"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "CPU time [ms] for selecting a subset of points",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Hypervolume Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hypervolume Subset Selection on Convex Pareto Fronts",
+        "dimensionality": "7D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "convex Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "gHSSInc/DecLazyQHV_best"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "CPU time [ms] for selecting a subset of points",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Hypervolume Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hypervolume Subset Selection on Linear Pareto Fronts",
+        "dimensionality": "7D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "linear Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "gHSSInc/DecLazyQHV_std"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "CPU time [ms] for selecting a subset of points",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Hypervolume Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hypervolume Subset Selection on Linear Pareto Fronts",
+        "dimensionality": "7D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "linear Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "gHSSInc/DecLazyQHV_upd"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "CPU time [ms] for selecting a subset of points",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Hypervolume Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hypervolume Subset Selection on Linear Pareto Fronts",
+        "dimensionality": "7D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "linear Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "gHSSInc/DecLazyQHV_adapt"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "CPU time [ms] for selecting a subset of points",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Hypervolume Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hypervolume Subset Selection on Linear Pareto Fronts",
+        "dimensionality": "7D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "linear Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "gHSSInc/DecLazyQHV_best"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "CPU time [ms] for selecting a subset of points",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Hypervolume Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hypervolume Subset Selection on Concave Pareto Fronts",
+        "dimensionality": "7D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "concave Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "gHSSInc/DecLazyQHV_std"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "CPU time [ms] for selecting a subset of points",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Hypervolume Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hypervolume Subset Selection on Concave Pareto Fronts",
+        "dimensionality": "7D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "concave Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "gHSSInc/DecLazyQHV_upd"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "CPU time [ms] for selecting a subset of points",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Hypervolume Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hypervolume Subset Selection on Concave Pareto Fronts",
+        "dimensionality": "7D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "concave Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "gHSSInc/DecLazyQHV_adapt"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "CPU time [ms] for selecting a subset of points",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Hypervolume Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hypervolume Subset Selection on Concave Pareto Fronts",
+        "dimensionality": "7D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "concave Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "gHSSInc/DecLazyQHV_best"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "CPU time [ms] for selecting a subset of points",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Hypervolume Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hypervolume Subset Selection on Convex Pareto Fronts",
+        "dimensionality": "9D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "convex Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "gHSSInc/DecLazyQHV_std"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "CPU time [ms] for selecting a subset of points",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Hypervolume Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hypervolume Subset Selection on Convex Pareto Fronts",
+        "dimensionality": "9D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "convex Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "gHSSInc/DecLazyQHV_upd"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "CPU time [ms] for selecting a subset of points",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Hypervolume Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hypervolume Subset Selection on Convex Pareto Fronts",
+        "dimensionality": "9D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "convex Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "gHSSInc/DecLazyQHV_adapt"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "CPU time [ms] for selecting a subset of points",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Hypervolume Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hypervolume Subset Selection on Convex Pareto Fronts",
+        "dimensionality": "9D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "convex Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "gHSSInc/DecLazyQHV_best"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "CPU time [ms] for selecting a subset of points",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Hypervolume Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hypervolume Subset Selection on Linear Pareto Fronts",
+        "dimensionality": "9D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "linear Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "gHSSInc/DecLazyQHV_std"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "CPU time [ms] for selecting a subset of points",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Hypervolume Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hypervolume Subset Selection on Linear Pareto Fronts",
+        "dimensionality": "9D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "linear Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "gHSSInc/DecLazyQHV_upd"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "CPU time [ms] for selecting a subset of points",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Hypervolume Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hypervolume Subset Selection on Linear Pareto Fronts",
+        "dimensionality": "9D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "linear Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "gHSSInc/DecLazyQHV_adapt"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "CPU time [ms] for selecting a subset of points",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Hypervolume Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hypervolume Subset Selection on Linear Pareto Fronts",
+        "dimensionality": "9D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "linear Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "gHSSInc/DecLazyQHV_best"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "CPU time [ms] for selecting a subset of points",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Hypervolume Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hypervolume Subset Selection on Concave Pareto Fronts",
+        "dimensionality": "9D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "concave Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "gHSSInc/DecLazyQHV_std"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "CPU time [ms] for selecting a subset of points",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Hypervolume Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hypervolume Subset Selection on Concave Pareto Fronts",
+        "dimensionality": "9D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "concave Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "gHSSInc/DecLazyQHV_upd"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "CPU time [ms] for selecting a subset of points",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Hypervolume Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hypervolume Subset Selection on Concave Pareto Fronts",
+        "dimensionality": "9D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "concave Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "gHSSInc/DecLazyQHV_adapt"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "CPU time [ms] for selecting a subset of points",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Hypervolume Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hypervolume Subset Selection on Concave Pareto Fronts",
+        "dimensionality": "9D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "concave Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "gHSSInc/DecLazyQHV_best"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "CPU time [ms] for selecting a subset of points",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

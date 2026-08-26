@@ -1,0 +1,458 @@
+{
+  "metadata": {
+    "title": "On the Investigation of Evolutionary Multi-Objective Optimization for Discrete Prompt Search",
+    "authors": [
+      "Hien H. Mai",
+      "Ngoc Hoang Luong"
+    ],
+    "year": 2025,
+    "source_file": "Mai and Luong - 2025 - On the Investigation of Evolutionary Multi-Objective Optimization for Discrete Prompt Search.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Information Technology",
+        "problem_context": "Discrete Prompt Search"
+      },
+      "the_database": {
+        "dataset_name": "SST-2",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SST-2",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "multi-objective",
+          "conflicting objectives"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MoEAP3"
+      },
+      "parameters": {
+        "population_size": 64,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.75,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Mean test accuracy of 90.32% (with roberta-large)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Information Technology",
+        "problem_context": "Discrete Prompt Search"
+      },
+      "the_database": {
+        "dataset_name": "AG's News",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "AG's News",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "multi-objective",
+          "conflicting objectives"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MoEAP3"
+      },
+      "parameters": {
+        "population_size": 64,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.75,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Mean test accuracy of 83.92% (with roberta-large)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Information Technology",
+        "problem_context": "Discrete Prompt Search"
+      },
+      "the_database": {
+        "dataset_name": "MR",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MR",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "multi-objective",
+          "conflicting objectives"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MoEAP3"
+      },
+      "parameters": {
+        "population_size": 64,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.75,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Mean test accuracy of 87.19% (with roberta-large)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Information Technology",
+        "problem_context": "Discrete Prompt Search"
+      },
+      "the_database": {
+        "dataset_name": "SNLI",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SNLI",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "multi-objective",
+          "conflicting objectives"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MoEAP3"
+      },
+      "parameters": {
+        "population_size": 64,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.75,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Mean test accuracy of 49.90% (with roberta-large)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Information Technology",
+        "problem_context": "Discrete Prompt Search"
+      },
+      "the_database": {
+        "dataset_name": "RTE",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "RTE",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "multi-objective",
+          "conflicting objectives"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MoEAP3"
+      },
+      "parameters": {
+        "population_size": 64,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.75,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Mean test accuracy of 55.74% (with roberta-large)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Information Technology",
+        "problem_context": "Discrete Prompt Search"
+      },
+      "the_database": {
+        "dataset_name": "MRPC",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MRPC",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "multi-objective",
+          "conflicting objectives"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MoEAP3"
+      },
+      "parameters": {
+        "population_size": 64,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.75,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Mean F1 score of 73.46% (with roberta-large)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Information Technology",
+        "problem_context": "Discrete Prompt Search"
+      },
+      "the_database": {
+        "dataset_name": "SST-2",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SST-2",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "multi-objective",
+          "conflicting objectives"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GAP3"
+      },
+      "parameters": {
+        "population_size": 64,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.75,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Mean test accuracy of 88.13% (with roberta-large)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Information Technology",
+        "problem_context": "Discrete Prompt Search"
+      },
+      "the_database": {
+        "dataset_name": "AG's News",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "AG's News",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "multi-objective",
+          "conflicting objectives"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GAP3"
+      },
+      "parameters": {
+        "population_size": 64,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.75,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Mean test accuracy of 82.56% (with roberta-large)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Information Technology",
+        "problem_context": "Discrete Prompt Search"
+      },
+      "the_database": {
+        "dataset_name": "MR",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MR",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "multi-objective",
+          "conflicting objectives"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GAP3"
+      },
+      "parameters": {
+        "population_size": 64,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.75,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Mean test accuracy of 82.86% (with roberta-large)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Information Technology",
+        "problem_context": "Discrete Prompt Search"
+      },
+      "the_database": {
+        "dataset_name": "SNLI",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SNLI",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "multi-objective",
+          "conflicting objectives"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GAP3"
+      },
+      "parameters": {
+        "population_size": 64,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.75,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Mean test accuracy of 47.51% (with roberta-large)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Information Technology",
+        "problem_context": "Discrete Prompt Search"
+      },
+      "the_database": {
+        "dataset_name": "RTE",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "RTE",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "multi-objective",
+          "conflicting objectives"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GAP3"
+      },
+      "parameters": {
+        "population_size": 64,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.75,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Mean test accuracy of 55.88% (with roberta-large)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Information Technology",
+        "problem_context": "Discrete Prompt Search"
+      },
+      "the_database": {
+        "dataset_name": "MRPC",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MRPC",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "multi-objective",
+          "conflicting objectives"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GAP3"
+      },
+      "parameters": {
+        "population_size": 64,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.75,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Mean F1 score of 68.78% (with roberta-large)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

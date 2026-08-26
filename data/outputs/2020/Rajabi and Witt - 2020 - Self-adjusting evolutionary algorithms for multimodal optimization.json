@@ -1,0 +1,195 @@
+{
+  "metadata": {
+    "title": "Self-Adjusting Evolutionary Algorithms for Multimodal Optimization",
+    "authors": [
+      "Amirhossein Rajabi",
+      "Carsten Witt"
+    ],
+    "year": 2020,
+    "source_file": "Rajabi and Witt - 2020 - Self-adjusting evolutionary algorithms for multimodal optimization.pdf",
+    "gecco_track": "Theory of randomized search heuristics"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Jump",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "plateau",
+          "local optimum",
+          "gap"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SD-(1+1) EA"
+      },
+      "parameters": {
+        "population_size": 1,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Expected runtime",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Jump",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "plateau",
+          "local optimum",
+          "gap"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SASD-(1+lambda) EA"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Expected runtime",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "OneMax",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "linear"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SD-(1+1) EA"
+      },
+      "parameters": {
+        "population_size": 1,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Expected runtime",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "LeadingOnes",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "variable interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SD-(1+1) EA"
+      },
+      "parameters": {
+        "population_size": 1,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Expected runtime",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "NeedHighMut",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "trap",
+          "local optimum",
+          "phase transition"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SD-(1+1) EA"
+      },
+      "parameters": {
+        "population_size": 1,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Expected runtime",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

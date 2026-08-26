@@ -1,0 +1,556 @@
+{
+  "metadata": {
+    "title": "Investigating Combined Algorithm Selection and Hyperparameter Optimization for Fairness",
+    "authors": [
+      "Zhiang Chen",
+      "Mark Connor",
+      "Sudarshan Pant",
+      "Michael O'Neill"
+    ],
+    "year": 2025,
+    "source_file": "Chen et al. - 2025 - Investigating Combined Algorithm Selection and Hyperparameter Optimization for Fairness.pdf",
+    "gecco_track": "GECCO '25 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning / AI Ethics",
+        "problem_context": "Fairness-aware Combined Algorithm Selection and Hyperparameter Optimization (CASH) for Classification"
+      },
+      "the_database": {
+        "dataset_name": "Adult - Census Income",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Combined Algorithm Selection and Hyperparameter Optimization (CASH) for Fairness",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "conflicting objectives"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-Objective Grammatical Evolution (MOGE) with NSGA-II"
+      },
+      "parameters": {
+        "population_size": 250,
+        "max_evaluations_or_generations": 250,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.75
+      },
+      "performance_outcome": {
+        "metric": "Pareto front quality (Accuracy and Fairness (AOD/SPD))",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning / AI Ethics",
+        "problem_context": "Fairness-aware Combined Algorithm Selection and Hyperparameter Optimization (CASH) for Classification"
+      },
+      "the_database": {
+        "dataset_name": "COMPAS - Correctional Offender Management",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Combined Algorithm Selection and Hyperparameter Optimization (CASH) for Fairness",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "conflicting objectives"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-Objective Grammatical Evolution (MOGE) with NSGA-II"
+      },
+      "parameters": {
+        "population_size": 250,
+        "max_evaluations_or_generations": 250,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.75
+      },
+      "performance_outcome": {
+        "metric": "Pareto front quality (Accuracy and Fairness (AOD/SPD))",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning / AI Ethics",
+        "problem_context": "Fairness-aware Combined Algorithm Selection and Hyperparameter Optimization (CASH) for Classification"
+      },
+      "the_database": {
+        "dataset_name": "Heart Disease Indicators",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Combined Algorithm Selection and Hyperparameter Optimization (CASH) for Fairness",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "conflicting objectives"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-Objective Grammatical Evolution (MOGE) with NSGA-II"
+      },
+      "parameters": {
+        "population_size": 250,
+        "max_evaluations_or_generations": 250,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.75
+      },
+      "performance_outcome": {
+        "metric": "Pareto front quality (Accuracy and Fairness (AOD/SPD))",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning / AI Ethics",
+        "problem_context": "Fairness-aware Combined Algorithm Selection and Hyperparameter Optimization (CASH) for Classification"
+      },
+      "the_database": {
+        "dataset_name": "Adult - Census Income",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Combined Algorithm Selection and Hyperparameter Optimization (CASH) for Fairness",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "conflicting objectives"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Single-Objective Grammatical Evolution (SOGE) for Accuracy"
+      },
+      "parameters": {
+        "population_size": 250,
+        "max_evaluations_or_generations": 250,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.75
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (Accuracy)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning / AI Ethics",
+        "problem_context": "Fairness-aware Combined Algorithm Selection and Hyperparameter Optimization (CASH) for Classification"
+      },
+      "the_database": {
+        "dataset_name": "COMPAS - Correctional Offender Management",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Combined Algorithm Selection and Hyperparameter Optimization (CASH) for Fairness",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "conflicting objectives"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Single-Objective Grammatical Evolution (SOGE) for Accuracy"
+      },
+      "parameters": {
+        "population_size": 250,
+        "max_evaluations_or_generations": 250,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.75
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (Accuracy)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning / AI Ethics",
+        "problem_context": "Fairness-aware Combined Algorithm Selection and Hyperparameter Optimization (CASH) for Classification"
+      },
+      "the_database": {
+        "dataset_name": "Heart Disease Indicators",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Combined Algorithm Selection and Hyperparameter Optimization (CASH) for Fairness",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "conflicting objectives"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Single-Objective Grammatical Evolution (SOGE) for Accuracy"
+      },
+      "parameters": {
+        "population_size": 250,
+        "max_evaluations_or_generations": 250,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.75
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (Accuracy)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning / AI Ethics",
+        "problem_context": "Fairness-aware Combined Algorithm Selection and Hyperparameter Optimization (CASH) for Classification"
+      },
+      "the_database": {
+        "dataset_name": "Adult - Census Income",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Combined Algorithm Selection and Hyperparameter Optimization (CASH) for Fairness",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "conflicting objectives"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Single-Objective Grammatical Evolution (SOGE) for Average Odds Difference (AOD)"
+      },
+      "parameters": {
+        "population_size": 250,
+        "max_evaluations_or_generations": 250,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.75
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (Average Odds Difference (AOD))",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning / AI Ethics",
+        "problem_context": "Fairness-aware Combined Algorithm Selection and Hyperparameter Optimization (CASH) for Classification"
+      },
+      "the_database": {
+        "dataset_name": "COMPAS - Correctional Offender Management",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Combined Algorithm Selection and Hyperparameter Optimization (CASH) for Fairness",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "conflicting objectives"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Single-Objective Grammatical Evolution (SOGE) for Average Odds Difference (AOD)"
+      },
+      "parameters": {
+        "population_size": 250,
+        "max_evaluations_or_generations": 250,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.75
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (Average Odds Difference (AOD))",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning / AI Ethics",
+        "problem_context": "Fairness-aware Combined Algorithm Selection and Hyperparameter Optimization (CASH) for Classification"
+      },
+      "the_database": {
+        "dataset_name": "Heart Disease Indicators",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Combined Algorithm Selection and Hyperparameter Optimization (CASH) for Fairness",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "conflicting objectives"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Single-Objective Grammatical Evolution (SOGE) for Average Odds Difference (AOD)"
+      },
+      "parameters": {
+        "population_size": 250,
+        "max_evaluations_or_generations": 250,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.75
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (Average Odds Difference (AOD))",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning / AI Ethics",
+        "problem_context": "Fairness-aware Combined Algorithm Selection and Hyperparameter Optimization (CASH) for Classification"
+      },
+      "the_database": {
+        "dataset_name": "Adult - Census Income",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Combined Algorithm Selection and Hyperparameter Optimization (CASH) for Fairness",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "conflicting objectives"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Single-Objective Grammatical Evolution (SOGE) for Statistical Parity Difference (SPD)"
+      },
+      "parameters": {
+        "population_size": 250,
+        "max_evaluations_or_generations": 250,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.75
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (Statistical Parity Difference (SPD))",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning / AI Ethics",
+        "problem_context": "Fairness-aware Combined Algorithm Selection and Hyperparameter Optimization (CASH) for Classification"
+      },
+      "the_database": {
+        "dataset_name": "COMPAS - Correctional Offender Management",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Combined Algorithm Selection and Hyperparameter Optimization (CASH) for Fairness",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "conflicting objectives"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Single-Objective Grammatical Evolution (SOGE) for Statistical Parity Difference (SPD)"
+      },
+      "parameters": {
+        "population_size": 250,
+        "max_evaluations_or_generations": 250,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.75
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (Statistical Parity Difference (SPD))",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning / AI Ethics",
+        "problem_context": "Fairness-aware Combined Algorithm Selection and Hyperparameter Optimization (CASH) for Classification"
+      },
+      "the_database": {
+        "dataset_name": "Heart Disease Indicators",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Combined Algorithm Selection and Hyperparameter Optimization (CASH) for Fairness",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "conflicting objectives"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Single-Objective Grammatical Evolution (SOGE) for Statistical Parity Difference (SPD)"
+      },
+      "parameters": {
+        "population_size": 250,
+        "max_evaluations_or_generations": 250,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.75
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (Statistical Parity Difference (SPD))",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning / AI Ethics",
+        "problem_context": "Fairness-aware Combined Algorithm Selection and Hyperparameter Optimization (CASH) for Classification"
+      },
+      "the_database": {
+        "dataset_name": "Adult - Census Income",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Combined Algorithm Selection and Hyperparameter Optimization (CASH) for Fairness",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "conflicting objectives"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Random Search"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (Accuracy and Fairness (AOD/SPD))",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning / AI Ethics",
+        "problem_context": "Fairness-aware Combined Algorithm Selection and Hyperparameter Optimization (CASH) for Classification"
+      },
+      "the_database": {
+        "dataset_name": "COMPAS - Correctional Offender Management",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Combined Algorithm Selection and Hyperparameter Optimization (CASH) for Fairness",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "conflicting objectives"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Random Search"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (Accuracy and Fairness (AOD/SPD))",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning / AI Ethics",
+        "problem_context": "Fairness-aware Combined Algorithm Selection and Hyperparameter Optimization (CASH) for Classification"
+      },
+      "the_database": {
+        "dataset_name": "Heart Disease Indicators",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Combined Algorithm Selection and Hyperparameter Optimization (CASH) for Fairness",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "conflicting objectives"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Random Search"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (Accuracy and Fairness (AOD/SPD))",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

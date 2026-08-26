@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "title": "Minimizing Restacks in Load-Unload-Ordered Rectangular Packing via Generational Sequence Pair",
+    "authors": [
+      "Hidenori Ohta"
+    ],
+    "year": 2026,
+    "source_file": "Ohta - 2026 - Minimizing restacks in load-unload-ordered rectangular packing via Generational Sequence Pair.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Precedence-Constrained Rectangular Packing with Restacking (PC-RPR)"
+      },
+      "the_database": {
+        "dataset_name": "Hopper & Turton 2D bin-packing instances",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "PC-RPR Dataset A (Reverse-generated)",
+        "dimensionality": "Variable (N=17 to 49)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "discrete"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Two-Stage Simulated Annealing"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 3000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Restack count and feasibility rate",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Precedence-Constrained Rectangular Packing with Restacking (PC-RPR)"
+      },
+      "the_database": {
+        "dataset_name": "Hopper & Turton 2D bin-packing instances",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "PC-RPR Dataset B (Random-generated)",
+        "dimensionality": "Variable (N=17 to 49)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "discrete"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Two-Stage Simulated Annealing"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 3000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Restack count and feasibility rate",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

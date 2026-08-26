@@ -1,0 +1,129 @@
+{
+  "metadata": {
+    "title": "Surrogate-Assisted Asynchronous Multiobjective Algorithm for Nuclear Power Plant Operations",
+    "authors": [
+      "V. Drouet",
+      "S. Verel",
+      "J.-M. Do"
+    ],
+    "year": 2020,
+    "source_file": "Drouet et al. - 2020 - Surrogate-assisted asynchronous multiobjective algorithm for nuclear power plant operations.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Optimizing the operation cost and stability of power of a real-life power transient in a nuclear power plant"
+      },
+      "the_database": {
+        "dataset_name": "APOLLO3 Simulator",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Nuclear Power Plant Operations (NPPO)",
+        "dimensionality": "6D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "constrained",
+          "expensive",
+          "slope discontinuities"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Non-assisted AMW-MOEA/D"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.167,
+        "crossover_rate": 0.0
+      },
+      "performance_outcome": {
+        "metric": "Mean hypervolume improvement",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Optimizing the operation cost and stability of power of a real-life power transient in a nuclear power plant"
+      },
+      "the_database": {
+        "dataset_name": "APOLLO3 Simulator",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Nuclear Power Plant Operations (NPPO)",
+        "dimensionality": "6D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "constrained",
+          "expensive",
+          "slope discontinuities"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Surrogate-assisted AMW-MOEA/D (G=1, lambda_M=150)"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.167,
+        "crossover_rate": 0.0
+      },
+      "performance_outcome": {
+        "metric": "Mean hypervolume improvement",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Optimizing the operation cost and stability of power of a real-life power transient in a nuclear power plant"
+      },
+      "the_database": {
+        "dataset_name": "APOLLO3 Simulator",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Nuclear Power Plant Operations (NPPO)",
+        "dimensionality": "6D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "constrained",
+          "expensive",
+          "slope discontinuities"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Surrogate-assisted AMW-MOEA/D (G=10, lambda_M=15)"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.167,
+        "crossover_rate": 0.0
+      },
+      "performance_outcome": {
+        "metric": "Mean hypervolume improvement",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

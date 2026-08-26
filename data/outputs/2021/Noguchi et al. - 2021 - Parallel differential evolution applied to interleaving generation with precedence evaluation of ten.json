@@ -1,0 +1,225 @@
+{
+  "metadata": {
+    "title": "Parallel Differential Evolution Applied to Interleaving Generation with Precedence Evaluation of Tentative Solutions",
+    "authors": [
+      "Hayato Noguchi",
+      "Tomohiro Harada",
+      "Ruck Thawonmas"
+    ],
+    "year": 2021,
+    "source_file": "Noguchi et al. - 2021 - Parallel differential evolution applied to interleaving generation with precedence evaluation of ten.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Constant function",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "flat"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Parallel Differential Evolution (PDE)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Execution time and CPU utilization",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Constant function",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "flat"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Interleaving Generation Differential Evolution (IGDE)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Execution time and CPU utilization",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Constant function",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "flat"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Improved Interleaving Generation Differential Evolution (iIGDE)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Execution time and CPU utilization",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rastrigin",
+        "dimensionality": "5D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multimodal"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Parallel Differential Evolution (PDE)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Execution time, CPU utilization, and fitness transition",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rastrigin",
+        "dimensionality": "5D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multimodal"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Interleaving Generation Differential Evolution (IGDE)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Execution time, CPU utilization, and fitness transition",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rastrigin",
+        "dimensionality": "5D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multimodal"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Improved Interleaving Generation Differential Evolution (iIGDE)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Execution time, CPU utilization, and fitness transition",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

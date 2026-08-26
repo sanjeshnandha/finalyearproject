@@ -1,0 +1,495 @@
+{
+  "metadata": {
+    "title": "Benchmarking MOEAs for solving continuous multi-objective RL problems",
+    "authors": [
+      "Carlos Ignacio Hernández Castellanos",
+      "Roberto Santana Hermida"
+    ],
+    "year": 2025,
+    "source_file": "Santana Hermida and Hernández Castellanos - 2025 - Benchmarking MOEAs for solving continuous multi-objective RL problems.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Multi-objective reinforcement learning for robotic locomotion"
+      },
+      "the_database": {
+        "dataset_name": "MuJoCo physics engine",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "mo-halfcheetah-v4",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "uncertainty",
+          "expensive function evaluations",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA2"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 25,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Multi-objective reinforcement learning for robotic locomotion"
+      },
+      "the_database": {
+        "dataset_name": "MuJoCo physics engine",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "mo-halfcheetah-v4",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "uncertainty",
+          "expensive function evaluations",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SMSEMOA"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 25,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Multi-objective reinforcement learning for robotic locomotion"
+      },
+      "the_database": {
+        "dataset_name": "MuJoCo physics engine",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "mo-halfcheetah-v4",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "uncertainty",
+          "expensive function evaluations",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA3"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 25,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Multi-objective reinforcement learning for robotic locomotion"
+      },
+      "the_database": {
+        "dataset_name": "MuJoCo physics engine",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "mo-halfcheetah-v4",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "uncertainty",
+          "expensive function evaluations",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RNSGA2"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 25,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Multi-objective reinforcement learning for robotic locomotion"
+      },
+      "the_database": {
+        "dataset_name": "MuJoCo physics engine",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "mo-halfcheetah-v4",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "uncertainty",
+          "expensive function evaluations",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SPEA2"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 25,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Multi-objective reinforcement learning for robotic locomotion"
+      },
+      "the_database": {
+        "dataset_name": "MuJoCo physics engine",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "mo-halfcheetah-v4",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "uncertainty",
+          "expensive function evaluations",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Differential Evolution (DE)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 25,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Multi-objective reinforcement learning for robotic locomotion"
+      },
+      "the_database": {
+        "dataset_name": "MuJoCo physics engine",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "mo-halfcheetah-v4",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "uncertainty",
+          "expensive function evaluations",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Particle Swarm Optimization (PSO)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 25,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Multi-objective reinforcement learning for robotic locomotion"
+      },
+      "the_database": {
+        "dataset_name": "MuJoCo physics engine",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "mo-halfcheetah-v4",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "uncertainty",
+          "expensive function evaluations",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (GA)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 25,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Multi-objective reinforcement learning for robotic locomotion"
+      },
+      "the_database": {
+        "dataset_name": "MuJoCo physics engine",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "mo-humanoid-v4",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "uncertainty",
+          "expensive function evaluations",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RNSGA2"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Multi-objective reinforcement learning for robotic locomotion"
+      },
+      "the_database": {
+        "dataset_name": "MuJoCo physics engine",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "mo-humanoid-v4",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "uncertainty",
+          "expensive function evaluations",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Particle Swarm Optimization (PSO)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Multi-objective reinforcement learning for robotic locomotion"
+      },
+      "the_database": {
+        "dataset_name": "MuJoCo physics engine",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "mo-humanoid-v4",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "uncertainty",
+          "expensive function evaluations",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (GA)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Multi-objective reinforcement learning for robotic locomotion"
+      },
+      "the_database": {
+        "dataset_name": "MuJoCo physics engine",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "mo-hopper-v4",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "uncertainty",
+          "expensive function evaluations",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SPEA2"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Multi-objective reinforcement learning for robotic locomotion"
+      },
+      "the_database": {
+        "dataset_name": "MuJoCo physics engine",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "mo-hopper-v4",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "uncertainty",
+          "expensive function evaluations",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA2"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

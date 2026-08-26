@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "title": "Combined Layout Optimization of Wind Farm and Cable Connection on Complex Terrain Using a Genetic Algorithm",
+    "authors": [
+      "Daiki Kiribuchi",
+      "Ryoko Hatakeyama",
+      "Tomoshi Otsuki",
+      "Tatsuya Yoshioka",
+      "Kana Konno",
+      "Takumi Matsuda"
+    ],
+    "year": 2023,
+    "source_file": "Kiribuchi et al. - 2023 - Combined Layout Optimization of Wind Farm and Cable Connection on Complex Terrain Using a Genetic Al.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Combined Layout Optimization of Wind Farm and Cable Connection on Complex Terrain"
+      },
+      "the_database": {
+        "dataset_name": "Five sites with complex terrain",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Wind Farm Layout and Cable Connection Layout Optimization",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex terrain",
+          "two-objective",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II with Esau-Williams algorithm"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Hyper-volume",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

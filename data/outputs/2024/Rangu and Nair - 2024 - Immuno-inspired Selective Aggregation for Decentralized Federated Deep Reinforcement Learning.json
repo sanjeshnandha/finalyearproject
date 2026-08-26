@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "title": "Immuno-inspired Selective Aggregation for Decentralized Federated Deep Reinforcement Learning",
+    "authors": [
+      "Gayathri Rangu",
+      "Shivashankar B. Nair"
+    ],
+    "year": 2024,
+    "source_file": "Rangu and Nair - 2024 - Immuno-inspired Selective Aggregation for Decentralized Federated Deep Reinforcement Learning.pdf",
+    "gecco_track": "GECCO '24 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Multi-robot obstacle avoidance"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": "Webots"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-robot Obstacle Avoidance",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "local optima",
+          "dynamic"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "kappa-ISA"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 30000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Moving average of cumulative rewards (Rew_mavg)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Multi-robot obstacle avoidance"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": "Webots"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-robot Obstacle Avoidance",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "local optima",
+          "dynamic"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Cavg-ISA"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 30000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Moving average of cumulative rewards (Rew_mavg)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Multi-robot obstacle avoidance"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": "Webots"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-robot Obstacle Avoidance",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "local optima",
+          "dynamic"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Baseline (Decentralized FedAvg)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 30000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Moving average of cumulative rewards (Rew_mavg)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

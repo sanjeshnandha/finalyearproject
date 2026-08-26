@@ -1,0 +1,342 @@
+{
+  "metadata": {
+    "title": "Symbolic Regression Driven by Training Data and Prior Knowledge",
+    "authors": [
+      "Jiří Kubalík",
+      "Erik Derner",
+      "Robert Babuška"
+    ],
+    "year": 2020,
+    "source_file": "Kubalík et al. - 2020 - Symbolic regression driven by training data and prior knowledge.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "resistance2",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "sparse"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "baseSNGP"
+      },
+      "parameters": {
+        "population_size": 400,
+        "max_evaluations_or_generations": 40,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (succ), MSE_train, MSE_ref, violation",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "resistance2",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "sparse"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "mSNGP"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 40,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (succ), MSE_train, MSE_ref, violation",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "resistance2",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "sparse"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "mSNGP-ls"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 40,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (succ), MSE_train, MSE_ref, violation",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Magnetic manipulation system"
+      },
+      "the_database": {
+        "dataset_name": "Data measured on a real system",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "magman",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "nonlinear",
+          "sparse",
+          "unevenly distributed"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "baseSNGP"
+      },
+      "parameters": {
+        "population_size": 400,
+        "max_evaluations_or_generations": 40,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (succ), MSE_train, MSE_test, MSE_ref, violation",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Magnetic manipulation system"
+      },
+      "the_database": {
+        "dataset_name": "Data measured on a real system",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "magman",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "nonlinear",
+          "sparse",
+          "unevenly distributed"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "mSNGP"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 40,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (succ), MSE_train, MSE_test, MSE_ref, violation",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Magnetic manipulation system"
+      },
+      "the_database": {
+        "dataset_name": "Data measured on a real system",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "magman",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "nonlinear",
+          "sparse",
+          "unevenly distributed"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "mSNGP-ls"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 40,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (succ), MSE_train, MSE_test, MSE_ref, violation",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Pressure dynamics in a laboratory fermenter"
+      },
+      "the_database": {
+        "dataset_name": "Data measured on a real system",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "pressure",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "highly nonlinear",
+          "unevenly distributed"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "baseSNGP"
+      },
+      "parameters": {
+        "population_size": 400,
+        "max_evaluations_or_generations": 40,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (succ), MSE_train, MSE_test",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Pressure dynamics in a laboratory fermenter"
+      },
+      "the_database": {
+        "dataset_name": "Data measured on a real system",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "pressure",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "highly nonlinear",
+          "unevenly distributed"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "mSNGP"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 40,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (succ), MSE_train, MSE_test",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Pressure dynamics in a laboratory fermenter"
+      },
+      "the_database": {
+        "dataset_name": "Data measured on a real system",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "pressure",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "highly nonlinear",
+          "unevenly distributed"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "mSNGP-ls"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 40,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (succ), MSE_train, MSE_test",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

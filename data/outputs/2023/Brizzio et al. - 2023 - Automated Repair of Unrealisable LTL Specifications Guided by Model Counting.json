@@ -1,0 +1,234 @@
+{
+  "metadata": {
+    "title": "Automated Repair of Unrealisable LTL Specifications Guided by Model Counting",
+    "authors": [
+      "Matías Brizzio",
+      "Maxime Cordy",
+      "Mike Papadakis",
+      "César Sánchez",
+      "Nazareno Aguirre",
+      "Renzo Degiovanni"
+    ],
+    "year": 2023,
+    "source_file": "Brizzio et al. - 2023 - Automated Repair of Unrealisable LTL Specifications Guided by Model Counting.pdf",
+    "gecco_track": "Search-based software engineering"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Automated repair of unrealisable Linear-Time Temporal Logic (LTL) specifications"
+      },
+      "the_database": {
+        "dataset_name": "Literature LTL Specifications (Arbiter, MinePump, RG1, RG2, Lift)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Literature LTL Specifications",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AuRUS (Genetic Algorithm)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": 0.1
+      },
+      "performance_outcome": {
+        "metric": "Average number of repairs found and execution time",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Automated repair of unrealisable Linear-Time Temporal Logic (LTL) specifications"
+      },
+      "the_database": {
+        "dataset_name": "Literature LTL Specifications (Arbiter, MinePump, RG1, RG2, Lift)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Literature LTL Specifications",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Random Generation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average number of repairs found and execution time",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Automated repair of unrealisable Linear-Time Temporal Logic (LTL) specifications"
+      },
+      "the_database": {
+        "dataset_name": "SYNTCOMP Benchmark Suite",
+        "source_platform": "SYNTCOMP"
+      },
+      "the_benchmark_problem": {
+        "name": "SYNTCOMP LTL Specifications",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AuRUS (Genetic Algorithm)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": 0.1
+      },
+      "performance_outcome": {
+        "metric": "Average number of repairs found and execution time",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Automated repair of unrealisable Linear-Time Temporal Logic (LTL) specifications"
+      },
+      "the_database": {
+        "dataset_name": "SYNTCOMP Benchmark Suite",
+        "source_platform": "SYNTCOMP"
+      },
+      "the_benchmark_problem": {
+        "name": "SYNTCOMP LTL Specifications",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Random Generation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average number of repairs found and execution time",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Automated repair of unrealisable Linear-Time Temporal Logic (LTL) specifications"
+      },
+      "the_database": {
+        "dataset_name": "SYNTECH15 Dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SYNTECH15 LTL Specifications",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AuRUS (Genetic Algorithm)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": 0.1
+      },
+      "performance_outcome": {
+        "metric": "Average number of repairs found and execution time",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Automated repair of unrealisable Linear-Time Temporal Logic (LTL) specifications"
+      },
+      "the_database": {
+        "dataset_name": "SYNTECH15 Dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SYNTECH15 LTL Specifications",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Random Generation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average number of repairs found and execution time",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

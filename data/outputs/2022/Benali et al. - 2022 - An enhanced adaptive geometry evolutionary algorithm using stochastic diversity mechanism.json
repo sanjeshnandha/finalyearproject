@@ -1,0 +1,206 @@
+{
+  "metadata": {
+    "title": "An Enhanced Adaptive Geometry Evolutionary Algorithm Using Stochastic Diversity Mechanism",
+    "authors": [
+      "Fodil Benali",
+      "Damien Bodénès",
+      "Cyril De Runz",
+      "Nicolas Labroche"
+    ],
+    "year": 2022,
+    "source_file": "Benali et al. - 2022 - An enhanced adaptive geometry evolutionary algorithm using stochastic diversity mechanism.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ Benchmark Suite",
+        "dimensionality": "3D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "concave",
+          "convex",
+          "disconnected",
+          "degenerate"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AGE-MOEA++"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Generational Distance (GD)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ Benchmark Suite",
+        "dimensionality": "3D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "concave",
+          "convex",
+          "disconnected",
+          "degenerate"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AGE-MOEA"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Generational Distance (GD)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ Benchmark Suite",
+        "dimensionality": "3D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "concave",
+          "convex",
+          "disconnected",
+          "degenerate"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Generational Distance (GD)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ Benchmark Suite",
+        "dimensionality": "3D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "concave",
+          "convex",
+          "disconnected",
+          "degenerate"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-III"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Generational Distance (GD)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ Benchmark Suite",
+        "dimensionality": "3D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "concave",
+          "convex",
+          "disconnected",
+          "degenerate"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Generational Distance (GD)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

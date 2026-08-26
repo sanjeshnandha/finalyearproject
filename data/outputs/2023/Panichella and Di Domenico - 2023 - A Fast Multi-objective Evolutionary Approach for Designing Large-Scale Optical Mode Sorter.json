@@ -1,0 +1,606 @@
+{
+  "metadata": {
+    "title": "A Fast Multi-objective Evolutionary Approach for Designing Large-Scale Optical Mode Sorters",
+    "authors": [
+      "Annibale Panichella",
+      "Giuseppe Di Domenico"
+    ],
+    "year": 2023,
+    "source_file": "Panichella and Di Domenico - 2023 - A Fast Multi-objective Evolutionary Approach for Designing Large-Scale Optical Mode Sorter.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Designing Large-Scale Optical Mode Sorters"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Two-Beams",
+        "dimensionality": "12350D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "hyperbolic geometry",
+          "large-scale",
+          "binary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "L2-AGE-MOEA"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Designing Large-Scale Optical Mode Sorters"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Two-Beams + Structure",
+        "dimensionality": "12350D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "hyperbolic geometry",
+          "large-scale",
+          "binary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "L2-AGE-MOEA"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Designing Large-Scale Optical Mode Sorters"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Three-Beams",
+        "dimensionality": "16200D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "hyperbolic geometry",
+          "large-scale",
+          "binary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "L2-AGE-MOEA"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Designing Large-Scale Optical Mode Sorters"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Three-Beams + Structure",
+        "dimensionality": "16200D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "hyperbolic geometry",
+          "large-scale",
+          "binary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "L2-AGE-MOEA"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Designing Large-Scale Optical Mode Sorters"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Two-Beams",
+        "dimensionality": "12350D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "hyperbolic geometry",
+          "large-scale",
+          "binary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "L2-NSGA"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Designing Large-Scale Optical Mode Sorters"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Two-Beams + Structure",
+        "dimensionality": "12350D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "hyperbolic geometry",
+          "large-scale",
+          "binary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "L2-NSGA"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Designing Large-Scale Optical Mode Sorters"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Three-Beams",
+        "dimensionality": "16200D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "hyperbolic geometry",
+          "large-scale",
+          "binary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "L2-NSGA"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Designing Large-Scale Optical Mode Sorters"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Three-Beams + Structure",
+        "dimensionality": "16200D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "hyperbolic geometry",
+          "large-scale",
+          "binary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "L2-NSGA"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Designing Large-Scale Optical Mode Sorters"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Two-Beams",
+        "dimensionality": "12350D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "hyperbolic geometry",
+          "large-scale",
+          "binary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AGE-MOEA-II"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Designing Large-Scale Optical Mode Sorters"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Two-Beams + Structure",
+        "dimensionality": "12350D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "hyperbolic geometry",
+          "large-scale",
+          "binary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AGE-MOEA-II"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Designing Large-Scale Optical Mode Sorters"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Three-Beams",
+        "dimensionality": "16200D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "hyperbolic geometry",
+          "large-scale",
+          "binary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AGE-MOEA-II"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Designing Large-Scale Optical Mode Sorters"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Three-Beams + Structure",
+        "dimensionality": "16200D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "hyperbolic geometry",
+          "large-scale",
+          "binary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AGE-MOEA-II"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Designing Large-Scale Optical Mode Sorters"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Two-Beams",
+        "dimensionality": "12350D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "hyperbolic geometry",
+          "large-scale",
+          "binary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Designing Large-Scale Optical Mode Sorters"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Two-Beams + Structure",
+        "dimensionality": "12350D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "hyperbolic geometry",
+          "large-scale",
+          "binary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Designing Large-Scale Optical Mode Sorters"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Three-Beams",
+        "dimensionality": "16200D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "hyperbolic geometry",
+          "large-scale",
+          "binary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Designing Large-Scale Optical Mode Sorters"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Three-Beams + Structure",
+        "dimensionality": "16200D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "hyperbolic geometry",
+          "large-scale",
+          "binary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

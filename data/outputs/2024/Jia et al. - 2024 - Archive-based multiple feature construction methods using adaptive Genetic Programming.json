@@ -1,0 +1,412 @@
+{
+  "metadata": {
+    "title": "Archive-based multiple feature construction methods using adaptive Genetic Programming",
+    "authors": [
+      "Kaixuan Jia",
+      "Xiaoying Gao",
+      "Jiaxin Niu",
+      "Jianbin Ma"
+    ],
+    "year": 2024,
+    "source_file": "Jia et al. - 2024 - Archive-based multiple feature construction methods using adaptive Genetic Programming.pdf",
+    "gecco_track": "Genetic Programming"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Sonar signal classification"
+      },
+      "the_database": {
+        "dataset_name": "sonar",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "sonar",
+        "dimensionality": "208D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "premature convergence",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AM_FC (Adaptive Multiple Feature Construction Genetic Programming)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average classification accuracy (KNN: 74.32%, DT: 73.96%)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Sonar signal classification"
+      },
+      "the_database": {
+        "dataset_name": "sonar",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "sonar",
+        "dimensionality": "208D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "premature convergence",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "M_FC (Multiple Feature Construction Genetic Programming)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average classification accuracy (KNN: 72.31%, DT: 71.81%)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Sonar signal classification"
+      },
+      "the_database": {
+        "dataset_name": "sonar",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "sonar",
+        "dimensionality": "208D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "premature convergence",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "S_FC (Single Feature Construction Genetic Programming)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average classification accuracy (KNN: 63.28%, DT: 61.53%)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Breast cancer classification"
+      },
+      "the_database": {
+        "dataset_name": "wdbc",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "wdbc",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "premature convergence",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AM_FC (Adaptive Multiple Feature Construction Genetic Programming)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average classification accuracy (KNN: 97.08%, DT: 95.80%)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Breast cancer classification"
+      },
+      "the_database": {
+        "dataset_name": "wdbc",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "wdbc",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "premature convergence",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "M_FC (Multiple Feature Construction Genetic Programming)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average classification accuracy (KNN: 96.37%, DT: 95.47%)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Leukemia classification"
+      },
+      "the_database": {
+        "dataset_name": "Leukemia",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Leukemia",
+        "dimensionality": "7129D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "premature convergence",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AM_FC (Adaptive Multiple Feature Construction Genetic Programming)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average classification accuracy (KNN: 86.50%, DT: 89.17%)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Leukemia classification"
+      },
+      "the_database": {
+        "dataset_name": "Leukemia",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Leukemia",
+        "dimensionality": "7129D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "premature convergence",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "M_FC (Multiple Feature Construction Genetic Programming)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average classification accuracy (KNN: 86.50%, DT: 87.33%)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Ovarian cancer classification"
+      },
+      "the_database": {
+        "dataset_name": "Ovarian",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ovarian",
+        "dimensionality": "15154D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "premature convergence",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AM_FC (Adaptive Multiple Feature Construction Genetic Programming)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average classification accuracy (KNN: 97.42%, DT: 96.50%)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Ovarian cancer classification"
+      },
+      "the_database": {
+        "dataset_name": "Ovarian",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ovarian",
+        "dimensionality": "15154D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "premature convergence",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "M_FC (Multiple Feature Construction Genetic Programming)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average classification accuracy (KNN: 98.28%, DT: 96.88%)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Colon cancer classification"
+      },
+      "the_database": {
+        "dataset_name": "Colon",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Colon",
+        "dimensionality": "2000D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "premature convergence",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AM_FC (Adaptive Multiple Feature Construction Genetic Programming)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average classification accuracy (KNN: 78.00%, DT: 74.83%)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Colon cancer classification"
+      },
+      "the_database": {
+        "dataset_name": "Colon",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Colon",
+        "dimensionality": "2000D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "premature convergence",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "M_FC (Multiple Feature Construction Genetic Programming)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average classification accuracy (KNN: 73.33%, DT: 71.00%)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

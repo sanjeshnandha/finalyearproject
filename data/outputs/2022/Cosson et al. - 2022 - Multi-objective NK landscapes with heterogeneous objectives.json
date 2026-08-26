@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "title": "Multi-objective NK Landscapes with Heterogeneous Objectives",
+    "authors": [
+      "Raphaël Cosson",
+      "Roberto Santana",
+      "Bilel Derbel",
+      "Arnaud Liefooghe"
+    ],
+    "year": 2022,
+    "source_file": "Cosson et al. - 2022 - Multi-objective NK landscapes with heterogeneous objectives.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Heterogeneous Bi-objective NK Landscapes",
+        "dimensionality": "14D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "multimodal",
+          "heterogeneous objectives",
+          "variable interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Exhaustive Enumeration"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 16384,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Pareto front size and number of Pareto local optimal (PLO) solutions",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

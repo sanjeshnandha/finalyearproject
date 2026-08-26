@@ -1,0 +1,136 @@
+{
+  "metadata": {
+    "title": "MAEDyS: Multiagent Evolution via Dynamic Skill Selection",
+    "authors": [
+      "Enna Sachdeva",
+      "Shauharda Khadka",
+      "Somdeb Majumdar",
+      "Kagan Tumer"
+    ],
+    "year": 2021,
+    "source_file": "Sachdeva et al. - 2021 - MAEDyS multiagent evolution via dynamic skill selection.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Robotics/Aerospace",
+        "problem_context": "Multi-agent rover coordination with spatial and temporal coupling"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rover Domain",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sparse",
+          "noisy",
+          "delayed",
+          "partially-observable",
+          "spatially coupled",
+          "temporally coupled"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAEDyS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average team fitness (binary global reward)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Robotics/Aerospace",
+        "problem_context": "Multi-agent rover coordination with spatial and temporal coupling"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rover Domain",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sparse",
+          "noisy",
+          "delayed",
+          "partially-observable",
+          "spatially coupled",
+          "temporally coupled"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Cooperative Co-evolutionary Algorithm (CCEA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average team fitness (binary global reward)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Robotics/Aerospace",
+        "problem_context": "Multi-agent rover coordination with spatial and temporal coupling"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rover Domain",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sparse",
+          "noisy",
+          "delayed",
+          "partially-observable",
+          "spatially coupled",
+          "temporally coupled"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-fitness Learning (MFL)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average team fitness (binary global reward)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+2026-08-04 14:49:26.297 | INFO     | gecco_pipeline.extractor:__init__:32 - Initialized GeccoExtractor with model: gemini-3.5-flash and 3 API keys
+2026-08-04 14:49:26.297 | INFO     | gecco_pipeline.processor:__init__:57 - BatchProcessor initialized
+2026-08-04 14:49:26.298 | INFO     | gecco_pipeline.utils:discover_pdfs:62 - Discovered 184 PDF files in data/pdfs/2026
+2026-08-04 14:49:26.299 | INFO     | gecco_pipeline.processor:process_batch:145 - Processing 184 PDFs...
+2026-08-04 14:49:26.318 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Ajani et al. - 2026 - Measuring Intrinsic Dimension of Multiobjective Landscapes and Dimensionality-Reduced Neuroevolution.pdf
+2026-08-04 14:49:26.319 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Ajani et al. - 2026 - Measuring Intrinsic Dimension of Multiobjective Landscapes and Dimensionality-Reduced Neuroevolution.pdf to Gemini File API...
+2026-08-04 14:49:46.405 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/ksk1vb6ml5hf

@@ -1,0 +1,280 @@
+{
+  "metadata": {
+    "title": "Multimodal Adaptive Graph Evolution",
+    "authors": [
+      "Camilo De La Torre",
+      "Kevin Cortacero",
+      "Dennis G Wilson",
+      "Sylvain Cussat-Blanc"
+    ],
+    "year": 2024,
+    "source_file": "De La Torre et al. - 2024 - Multimodal Adaptive Graph Evolution.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Program synthesis"
+      },
+      "the_database": {
+        "dataset_name": "Second Program Synthesis Benchmark Suite (PSB2)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Basement",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAGE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of successful runs out of 20",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Program synthesis"
+      },
+      "the_database": {
+        "dataset_name": "Second Program Synthesis Benchmark Suite (PSB2)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Basement",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MT-CGP"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of successful runs out of 20",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Program synthesis"
+      },
+      "the_database": {
+        "dataset_name": "Second Program Synthesis Benchmark Suite (PSB2)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CamelCase",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAGE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of successful runs out of 20",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Program synthesis"
+      },
+      "the_database": {
+        "dataset_name": "Second Program Synthesis Benchmark Suite (PSB2)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CamelCase",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MT-CGP"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of successful runs out of 20",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Program synthesis"
+      },
+      "the_database": {
+        "dataset_name": "Second Program Synthesis Benchmark Suite (PSB2)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "FizzBuzz",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAGE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of successful runs out of 20",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Program synthesis"
+      },
+      "the_database": {
+        "dataset_name": "Second Program Synthesis Benchmark Suite (PSB2)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "FizzBuzz",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MT-CGP"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of successful runs out of 20",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Medical image segmentation"
+      },
+      "the_database": {
+        "dataset_name": "P2043 Cell Image Library",
+        "source_platform": "Cellpose"
+      },
+      "the_benchmark_problem": {
+        "name": "Biomedical image segmentation",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAGE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean AP50 value on test data",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Medical image segmentation"
+      },
+      "the_database": {
+        "dataset_name": "P2043 Cell Image Library",
+        "source_platform": "Cellpose"
+      },
+      "the_benchmark_problem": {
+        "name": "Biomedical image segmentation",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CGP"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean AP50 value on test data",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

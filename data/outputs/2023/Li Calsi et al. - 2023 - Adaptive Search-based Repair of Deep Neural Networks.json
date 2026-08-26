@@ -1,0 +1,162 @@
+{
+  "metadata": {
+    "title": "Adaptive Search-based Repair of Deep Neural Networks",
+    "authors": [
+      "Davide Li Calsi",
+      "Matias Duran",
+      "Thomas Laurent",
+      "Xiao-Yi Zhang",
+      "Paolo Arcaini",
+      "Fuyuki Ishikawa"
+    ],
+    "year": 2023,
+    "source_file": "Li Calsi et al. - 2023 - Adaptive Search-based Repair of Deep Neural Networks.pdf",
+    "gecco_track": "Search-Based Software Engineering"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Automotive",
+        "problem_context": "Deep Neural Network Repair"
+      },
+      "the_database": {
+        "dataset_name": "BDD100K",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "VGG16 Image Classifier Repair",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex",
+          "unpredictable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AdRep (PSO)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Repair fitness and test accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Automotive",
+        "problem_context": "Deep Neural Network Repair"
+      },
+      "the_database": {
+        "dataset_name": "BDD100K",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ENetB7 Image Classifier Repair",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex",
+          "unpredictable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AdRep (PSO)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Repair fitness and test accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Automotive",
+        "problem_context": "Deep Neural Network Repair"
+      },
+      "the_database": {
+        "dataset_name": "BDD100K",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "VGG16 Image Classifier Repair",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex",
+          "unpredictable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Arachne (PSO)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Repair fitness and test accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Automotive",
+        "problem_context": "Deep Neural Network Repair"
+      },
+      "the_database": {
+        "dataset_name": "BDD100K",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ENetB7 Image Classifier Repair",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex",
+          "unpredictable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Arachne (PSO)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Repair fitness and test accuracy",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

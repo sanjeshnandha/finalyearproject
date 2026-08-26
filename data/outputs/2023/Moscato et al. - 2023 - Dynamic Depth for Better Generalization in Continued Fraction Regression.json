@@ -1,0 +1,123 @@
+{
+  "metadata": {
+    "title": "Dynamic Depth for Better Generalization in Continued Fraction Regression",
+    "authors": [
+      "Pablo Moscato",
+      "Andrew Ciezak",
+      "Nasimul Noman"
+    ],
+    "year": 2023,
+    "source_file": "Moscato et al. - 2023 - Dynamic Depth for Better Generalization in Continued Fraction Regression.pdf",
+    "gecco_track": "Genetic algorithms"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "Nguyen Datasets",
+        "source_platform": "SRBench"
+      },
+      "the_benchmark_problem": {
+        "name": "Nguyen Datasets",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "low-sample"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Continued Fraction Regression with Adaptive Mutation (CFR-adm)"
+      },
+      "parameters": {
+        "population_size": 13,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.2,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median testing MSE",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "Nguyen Datasets",
+        "source_platform": "SRBench"
+      },
+      "the_benchmark_problem": {
+        "name": "Nguyen Datasets",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "low-sample"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Continued Fraction Regression with Adaptive Depth (CFR-adp)"
+      },
+      "parameters": {
+        "population_size": 13,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.2,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median testing MSE",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "Nguyen Datasets",
+        "source_platform": "SRBench"
+      },
+      "the_benchmark_problem": {
+        "name": "Nguyen Datasets",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "low-sample"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Continued Fraction Regression with Randomized Depth (CFR-adr)"
+      },
+      "parameters": {
+        "population_size": 13,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.2,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median testing MSE",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

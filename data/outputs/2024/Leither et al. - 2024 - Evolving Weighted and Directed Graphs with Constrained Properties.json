@@ -1,0 +1,120 @@
+{
+  "metadata": {
+    "title": "Evolving Weighted and Directed Graphs with Constrained Properties",
+    "authors": [
+      "Sydney Leither",
+      "Vincent R. Ragusa",
+      "Emily Dolson"
+    ],
+    "year": 2024,
+    "source_file": "Leither et al. - 2024 - Evolving Weighted and Directed Graphs with Constrained Properties.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evolving graphs with topological properties"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Graph Generation with Constrained Properties (Set 1: Topological)",
+        "dimensionality": "10, 50, 100 nodes"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "interdependent properties"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Modified NSGA-II"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": 0.005,
+        "crossover_rate": 0.6
+      },
+      "performance_outcome": {
+        "metric": "Average squared-error",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evolving graphs with mixed topological and edge-weight properties"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Graph Generation with Constrained Properties (Set 2: Mixed)",
+        "dimensionality": "10, 50, 100 nodes"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "interdependent properties"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Modified NSGA-II"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": 0.005,
+        "crossover_rate": 0.6
+      },
+      "performance_outcome": {
+        "metric": "Average squared-error",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evolving graphs with edge-weight properties"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Graph Generation with Constrained Properties (Set 3: Edge-Weight)",
+        "dimensionality": "10, 50, 100 nodes"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "interdependent properties"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Modified NSGA-II"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": 0.005,
+        "crossover_rate": 0.6
+      },
+      "performance_outcome": {
+        "metric": "Average squared-error",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

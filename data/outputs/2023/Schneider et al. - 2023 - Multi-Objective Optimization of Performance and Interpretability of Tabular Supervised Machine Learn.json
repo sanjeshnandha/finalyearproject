@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "title": "Multi-Objective Optimization of Performance and Interpretability of Tabular Supervised Machine Learning Models",
+    "authors": [
+      "Lennart Schneider",
+      "Bernd Bischl",
+      "Janek Thomas"
+    ],
+    "year": 2023,
+    "source_file": "Schneider et al. - 2023 - Multi-Objective Optimization of Performance and Interpretability of Tabular Supervised Machine Learn.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Multiple Industries (Finance, Healthcare, etc.)",
+        "problem_context": "Multi-objective optimization of performance and interpretability of XGBoost models"
+      },
+      "the_database": {
+        "dataset_name": "OpenML CC-18 and AutoML benchmark",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML CC-18 and AutoML benchmark suite",
+        "dimensionality": "Variable (4 to 970 features)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "augmented search space",
+          "group structure of features",
+          "interaction and monotonicity constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EAGGAXGBoost"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Dominated Hypervolume (test-set Pareto front)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Multiple Industries (Finance, Healthcare, etc.)",
+        "problem_context": "Multi-objective optimization of performance and interpretability of XGBoost models with max depth 2"
+      },
+      "the_database": {
+        "dataset_name": "OpenML CC-18 and AutoML benchmark",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML CC-18 and AutoML benchmark suite",
+        "dimensionality": "Variable (4 to 970 features)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "augmented search space",
+          "group structure of features",
+          "interaction and monotonicity constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EAGGAXGBoostmd2"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Dominated Hypervolume (test-set Pareto front)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

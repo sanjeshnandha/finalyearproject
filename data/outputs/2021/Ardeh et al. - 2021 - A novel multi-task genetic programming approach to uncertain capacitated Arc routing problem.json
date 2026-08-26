@@ -1,0 +1,167 @@
+{
+  "metadata": {
+    "title": "A Novel Multi-Task Genetic Programming Approach to Uncertain Capacitated Arc Routing Problem",
+    "authors": [
+      "Mazhar Ansari Ardeh",
+      "Yi Mei",
+      "Mengjie Zhang"
+    ],
+    "year": 2021,
+    "source_file": "Ardeh et al. - 2021 - A novel multi-task genetic programming approach to uncertain capacitated Arc routing problem.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Uncertain Capacitated Arc Routing Problem"
+      },
+      "the_database": {
+        "dataset_name": "gdb",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Uncertain Capacitated Arc Routing Problem",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stochastic",
+          "combinatorial",
+          "NP-hard",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DDMTGP"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.15,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean test performance (total cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Uncertain Capacitated Arc Routing Problem"
+      },
+      "the_database": {
+        "dataset_name": "gdb",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Uncertain Capacitated Arc Routing Problem",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stochastic",
+          "combinatorial",
+          "NP-hard",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GPHH"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.15,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean test performance (total cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Uncertain Capacitated Arc Routing Problem"
+      },
+      "the_database": {
+        "dataset_name": "gdb",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Uncertain Capacitated Arc Routing Problem",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stochastic",
+          "combinatorial",
+          "NP-hard",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EMTET"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.15,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean test performance (total cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Uncertain Capacitated Arc Routing Problem"
+      },
+      "the_database": {
+        "dataset_name": "gdb",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Uncertain Capacitated Arc Routing Problem",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stochastic",
+          "combinatorial",
+          "NP-hard",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "IMT"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.15,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean test performance (total cost)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,377 @@
+{
+  "metadata": {
+    "title": "Genetic Adversarial Training of Decision Trees",
+    "authors": [
+      "Francesco Ranzato",
+      "Marco Zanella"
+    ],
+    "year": 2021,
+    "source_file": "Ranzato and Zanella - 2021 - Genetic adversarial training of decision trees.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Adversarial training of decision trees for breast cancer classification"
+      },
+      "the_database": {
+        "dataset_name": "breast-cancer",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "breast-cancer",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MetaSilvae"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy and Stability",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Adversarial training of decision trees for cod-rna classification"
+      },
+      "the_database": {
+        "dataset_name": "cod-rna",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "cod-rna",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MetaSilvae"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy and Stability",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Adversarial training of decision trees for collision detection"
+      },
+      "the_database": {
+        "dataset_name": "collision-detection",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "collision-detection",
+        "dimensionality": "6D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MetaSilvae"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy and Stability",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Adversarial training of decision trees for diabetes classification"
+      },
+      "the_database": {
+        "dataset_name": "diabetes",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "diabetes",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MetaSilvae"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy and Stability",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Adversarial training of decision trees for fashion-mnist classification"
+      },
+      "the_database": {
+        "dataset_name": "fashion-mnist",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "fashion-mnist",
+        "dimensionality": "784D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MetaSilvae"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy and Stability",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Adversarial training of decision trees for ionosphere classification"
+      },
+      "the_database": {
+        "dataset_name": "ionosphere",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ionosphere",
+        "dimensionality": "34D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MetaSilvae"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy and Stability",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Adversarial training of decision trees for digit classification"
+      },
+      "the_database": {
+        "dataset_name": "mnist",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "mnist",
+        "dimensionality": "784D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MetaSilvae"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy and Stability",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Adversarial training of decision trees for binary digit classification (1 vs 5)"
+      },
+      "the_database": {
+        "dataset_name": "mnist-1-5",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "mnist-1-5",
+        "dimensionality": "784D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MetaSilvae"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy and Stability",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Adversarial training of decision trees for binary digit classification (2 vs 6)"
+      },
+      "the_database": {
+        "dataset_name": "mnist-2-6",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "mnist-2-6",
+        "dimensionality": "784D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MetaSilvae"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy and Stability",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Adversarial training of decision trees for sensorless drive diagnosis"
+      },
+      "the_database": {
+        "dataset_name": "sensorless",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "sensorless",
+        "dimensionality": "48D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MetaSilvae"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy and Stability",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Adversarial training of decision trees for wine classification"
+      },
+      "the_database": {
+        "dataset_name": "wine",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "wine",
+        "dimensionality": "13D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MetaSilvae"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy and Stability",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

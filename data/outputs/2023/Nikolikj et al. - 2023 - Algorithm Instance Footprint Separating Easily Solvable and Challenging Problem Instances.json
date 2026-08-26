@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "title": "Algorithm Instance Footprint: Separating Easily Solvable and Challenging Problem Instances",
+    "authors": [
+      "Ana Nikolikj",
+      "Sašo Džeroski",
+      "Mario Andrés Muñoz",
+      "Carola Doerr",
+      "Peter Korošec",
+      "Tome Eftimov"
+    ],
+    "year": 2023,
+    "source_file": "Nikolikj et al. - 2023 - Algorithm Instance Footprint Separating Easily Solvable and Challenging Problem Instances.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BBOB Suite",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noise-free",
+          "single-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Differential Evolution (DE1)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median reached precision",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BBOB Suite",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noise-free",
+          "single-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Differential Evolution (DE2)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median reached precision",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BBOB Suite",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noise-free",
+          "single-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Differential Evolution (DE3)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median reached precision",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

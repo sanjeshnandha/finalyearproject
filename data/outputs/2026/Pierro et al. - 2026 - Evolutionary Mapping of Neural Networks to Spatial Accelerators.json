@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "title": "Evolutionary Mapping of Neural Networks to Spatial Accelerators",
+    "authors": [
+      "Alessandro Pierro",
+      "Jonathan Timcheck",
+      "Jason Yik",
+      "Marius Lindauer",
+      "Eyke Hüllermeier",
+      "Marcel Wever"
+    ],
+    "year": 2026,
+    "source_file": "Pierro et al. - 2026 - Evolutionary Mapping of Neural Networks to Spatial Accelerators.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Partitioning and placement of neural networks on neuromorphic hardware"
+      },
+      "the_database": {
+        "dataset_name": "SparseMLP-1",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SparseMLP-1",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "non-smooth",
+          "highly irregular",
+          "piecewise constant",
+          "sharp discontinuities",
+          "expensive to evaluate"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Nested Evolutionary Strategy"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 125,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average latency per step",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Partitioning and placement of neural networks on neuromorphic hardware"
+      },
+      "the_database": {
+        "dataset_name": "SparseMLP-2",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SparseMLP-2",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "non-smooth",
+          "highly irregular",
+          "piecewise constant",
+          "sharp discontinuities",
+          "expensive to evaluate"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Nested Evolutionary Strategy"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average latency per step",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

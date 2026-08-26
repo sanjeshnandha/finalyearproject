@@ -1,0 +1,345 @@
+{
+  "metadata": {
+    "title": "A Competitive Swarm Algorithm Based on Tri-Competitive Criterion for Constrained Multiobjective Optimization",
+    "authors": [
+      "Jinlong Zhou",
+      "Yinggui Zhang",
+      "Fan Yu"
+    ],
+    "year": 2024,
+    "source_file": "Zhou et al. - 2024 - A Competitive Swarm Algorithm Based on Tri-Competitive Criterion for Constrained Multiobjective Opti.pdf",
+    "gecco_track": "GECCO '24 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "constrained DTLZ",
+        "dimensionality": "100D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TCC-CSO"
+      },
+      "parameters": {
+        "population_size": 105,
+        "max_evaluations_or_generations": 150000,
+        "mutation_rate": 0.01,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "IGD+",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ZXH-CF",
+        "dimensionality": "100D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TCC-CSO"
+      },
+      "parameters": {
+        "population_size": 105,
+        "max_evaluations_or_generations": 150000,
+        "mutation_rate": 0.01,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "IGD+",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "constrained DTLZ",
+        "dimensionality": "100D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMOCSO"
+      },
+      "parameters": {
+        "population_size": 105,
+        "max_evaluations_or_generations": 150000,
+        "mutation_rate": 0.01,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "IGD+",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ZXH-CF",
+        "dimensionality": "100D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMOCSO"
+      },
+      "parameters": {
+        "population_size": 105,
+        "max_evaluations_or_generations": 150000,
+        "mutation_rate": 0.01,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "IGD+",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "constrained DTLZ",
+        "dimensionality": "100D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LMOCSO"
+      },
+      "parameters": {
+        "population_size": 105,
+        "max_evaluations_or_generations": 150000,
+        "mutation_rate": 0.01,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "IGD+",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ZXH-CF",
+        "dimensionality": "100D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LMOCSO"
+      },
+      "parameters": {
+        "population_size": 105,
+        "max_evaluations_or_generations": 150000,
+        "mutation_rate": 0.01,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "IGD+",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "constrained DTLZ",
+        "dimensionality": "100D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "POCEA"
+      },
+      "parameters": {
+        "population_size": 105,
+        "max_evaluations_or_generations": 150000,
+        "mutation_rate": 0.01,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "IGD+",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ZXH-CF",
+        "dimensionality": "100D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "POCEA"
+      },
+      "parameters": {
+        "population_size": 105,
+        "max_evaluations_or_generations": 150000,
+        "mutation_rate": 0.01,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "IGD+",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "constrained DTLZ",
+        "dimensionality": "100D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMOPSO"
+      },
+      "parameters": {
+        "population_size": 105,
+        "max_evaluations_or_generations": 150000,
+        "mutation_rate": 0.01,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "IGD+",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ZXH-CF",
+        "dimensionality": "100D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMOPSO"
+      },
+      "parameters": {
+        "population_size": 105,
+        "max_evaluations_or_generations": 150000,
+        "mutation_rate": 0.01,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "IGD+",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

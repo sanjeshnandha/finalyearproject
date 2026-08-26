@@ -1,0 +1,322 @@
+{
+  "metadata": {
+    "title": "A Heterogeneous Ant Colony Framework with Semantic Manifold Learning for Dynamic Ore-Flow Blending",
+    "authors": [
+      "Hao Tang",
+      "Changhe Li",
+      "Guoyu Chen",
+      "Shoufei Han",
+      "Michalis Mavrovouniotis",
+      "Miqing Li"
+    ],
+    "year": 2026,
+    "source_file": "Tang et al. - 2026 - A Heterogeneous Ant Colony Framework with Semantic Manifold Learning for Dynamic Ore-Flow Blending.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Dynamic Ore-Flow Blending"
+      },
+      "the_database": {
+        "dataset_name": "Real-world mine data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Dynamic Ore-Flow Blending Problem",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stochastic",
+          "dynamic",
+          "spatiotemporal constraints",
+          "uncertainties"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GP-ACO (Genetic Programming-based Heterogeneous Ant Colony Optimization)"
+      },
+      "parameters": {
+        "population_size": 40,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Average Optimality Gap (RMSE of the grade)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Dynamic Ore-Flow Blending"
+      },
+      "the_database": {
+        "dataset_name": "Real-world mine data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Dynamic Ore-Flow Blending Problem",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stochastic",
+          "dynamic",
+          "spatiotemporal constraints",
+          "uncertainties"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Evolutionary Algorithm (EA)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Optimality Gap (RMSE of the grade)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Dynamic Ore-Flow Blending"
+      },
+      "the_database": {
+        "dataset_name": "Real-world mine data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Dynamic Ore-Flow Blending Problem",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stochastic",
+          "dynamic",
+          "spatiotemporal constraints",
+          "uncertainties"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ant Colony Optimization (ACO)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Optimality Gap (RMSE of the grade)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Dynamic Ore-Flow Blending"
+      },
+      "the_database": {
+        "dataset_name": "Real-world mine data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Dynamic Ore-Flow Blending Problem",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stochastic",
+          "dynamic",
+          "spatiotemporal constraints",
+          "uncertainties"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Max-Min Ant System with Local Search (MMAS-LS)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Optimality Gap (RMSE of the grade)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Dynamic Ore-Flow Blending"
+      },
+      "the_database": {
+        "dataset_name": "Real-world mine data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Dynamic Ore-Flow Blending Problem",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stochastic",
+          "dynamic",
+          "spatiotemporal constraints",
+          "uncertainties"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Memory-based Ant Colony Optimization (MACO)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Optimality Gap (RMSE of the grade)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Dynamic Ore-Flow Blending"
+      },
+      "the_database": {
+        "dataset_name": "Real-world mine data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Dynamic Ore-Flow Blending Problem",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stochastic",
+          "dynamic",
+          "spatiotemporal constraints",
+          "uncertainties"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Adaptive Genetic Algorithm with Fractional Sub-populations (ACFGA)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Optimality Gap (RMSE of the grade)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Dynamic Ore-Flow Blending"
+      },
+      "the_database": {
+        "dataset_name": "Real-world mine data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Dynamic Ore-Flow Blending Problem",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stochastic",
+          "dynamic",
+          "spatiotemporal constraints",
+          "uncertainties"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Dynamic Clustering-based Genetic Algorithm (DPCGA)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Optimality Gap (RMSE of the grade)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Dynamic Ore-Flow Blending"
+      },
+      "the_database": {
+        "dataset_name": "Real-world mine data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Dynamic Ore-Flow Blending Problem",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stochastic",
+          "dynamic",
+          "spatiotemporal constraints",
+          "uncertainties"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Deep Reinforcement Learning (DRL)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Optimality Gap (RMSE of the grade)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

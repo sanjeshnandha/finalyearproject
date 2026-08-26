@@ -1,0 +1,242 @@
+{
+  "metadata": {
+    "title": "Scaling MAP-Elites to Deep Neuroevolution",
+    "authors": [
+      "Cédric Colas",
+      "Joost Huizinga",
+      "Vashisht Madhavan",
+      "Jeff Clune"
+    ],
+    "year": 2020,
+    "source_file": "Colas et al. - 2020 - Scaling MAP-Elites to deep neuroevolution.pdf",
+    "gecco_track": "Evolutionary Robotics"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robot locomotion and damage recovery"
+      },
+      "the_database": {
+        "dataset_name": "Mujoco Ant-v2",
+        "source_platform": "OpenAI Gym"
+      },
+      "the_benchmark_problem": {
+        "name": "Ant-v2",
+        "dimensionality": "10^5 parameters"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "deceptive",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ME-ES explore-exploit"
+      },
+      "parameters": {
+        "population_size": 10000,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best performance in map and post-damage recovery performance",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robot locomotion and damage recovery"
+      },
+      "the_database": {
+        "dataset_name": "Mujoco Ant-v2",
+        "source_platform": "OpenAI Gym"
+      },
+      "the_benchmark_problem": {
+        "name": "Ant-v2",
+        "dimensionality": "10^5 parameters"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "deceptive",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ME-GA"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best performance in map and post-damage recovery performance",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robot locomotion in deceptive environment"
+      },
+      "the_database": {
+        "dataset_name": "Deceptive Humanoid",
+        "source_platform": "OpenAI Gym"
+      },
+      "the_benchmark_problem": {
+        "name": "Deceptive Humanoid",
+        "dimensionality": "10^5 parameters"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "deceptive",
+          "non-convex",
+          "high-dimensional",
+          "U-shaped trap"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ME-ES explore-exploit"
+      },
+      "parameters": {
+        "population_size": 10000,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Map performance (best in map)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robot locomotion in deceptive environment"
+      },
+      "the_database": {
+        "dataset_name": "Deceptive Humanoid",
+        "source_platform": "OpenAI Gym"
+      },
+      "the_benchmark_problem": {
+        "name": "Deceptive Humanoid",
+        "dimensionality": "10^5 parameters"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "deceptive",
+          "non-convex",
+          "high-dimensional",
+          "U-shaped trap"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ME-ES exploit"
+      },
+      "parameters": {
+        "population_size": 10000,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Map performance (best in map)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robot maze navigation"
+      },
+      "the_database": {
+        "dataset_name": "Ant Maze",
+        "source_platform": "OpenAI Gym"
+      },
+      "the_benchmark_problem": {
+        "name": "Ant Maze",
+        "dimensionality": "10^5 parameters"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "deceptive",
+          "non-convex",
+          "high-dimensional",
+          "maze trap"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ME-ES explore-exploit"
+      },
+      "parameters": {
+        "population_size": 10000,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Map performance (negative distance to goal)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robot maze navigation"
+      },
+      "the_database": {
+        "dataset_name": "Ant Maze",
+        "source_platform": "OpenAI Gym"
+      },
+      "the_benchmark_problem": {
+        "name": "Ant Maze",
+        "dimensionality": "10^5 parameters"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "deceptive",
+          "non-convex",
+          "high-dimensional",
+          "maze trap"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ME-ES exploit"
+      },
+      "parameters": {
+        "population_size": 10000,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Map performance (negative distance to goal)",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

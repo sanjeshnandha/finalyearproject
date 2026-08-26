@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "title": "Multi-layer local optima networks for the analysis of advanced local search-based algorithms",
+    "authors": [
+      "Marcella S. R. Martins",
+      "Mohamed El Yafrani",
+      "Myriam R. B. S. Delgado",
+      "Ricardo Lüders"
+    ],
+    "year": 2020,
+    "source_file": "Martins et al. - 2020 - Multi-layer local optima networks for the analysis of advanced local search-based algorithms.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "NK-landscape",
+        "dimensionality": "18D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Best-improvement Hill Climbing with Bit-flip"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average shortest path to global optima (lGO)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "NK-landscape",
+        "dimensionality": "18D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Best-improvement Hill Climbing with 1-swap"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average shortest path to global optima (lGO)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "NK-landscape",
+        "dimensionality": "18D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Best-improvement Hill Climbing with Multi-layer (Bit-flip + 1-swap)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average shortest path to global optima (lGO)",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "title": "Novelty Particle Swarm Optimisation for Truss Optimisation Problems",
+    "authors": [
+      "Hirad Assimi",
+      "Frank Neumann",
+      "Markus Wagner",
+      "Xiaodong Li"
+    ],
+    "year": 2021,
+    "source_file": "Assimi et al. - 2021 - Novelty particle swarm optimisation for truss optimisation problems.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Bilevel Truss Optimisation"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "15-bar truss",
+        "dimensionality": "15-bar"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "bilevel",
+          "constrained",
+          "discrete"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Novelty Particle Swarm Optimisation (NdPSO)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best weight (kg)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Bilevel Truss Optimisation"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "72-bar truss",
+        "dimensionality": "72-bar"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "bilevel",
+          "constrained",
+          "discrete"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Novelty Particle Swarm Optimisation (NdPSO)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best Weight (lb)",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "metadata": {
+    "title": "IDEM Enough? Evolving Highly Nonlinear Idempotent Boolean Functions",
+    "authors": [
+      "Claude Carlet",
+      "Marko Đurasevic",
+      "Domagoj Jakobovic",
+      "Luca Mariot",
+      "Stjepan Picek"
+    ],
+    "year": 2026,
+    "source_file": "Carlet et al. - 2026 - IDEM Enough Evolving Highly Nonlinear Idempotent Boolean Functions.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes of idempotent Boolean functions"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Idempotent Boolean Functions",
+        "dimensionality": "6D to 12D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "disruptive operators",
+          "highly constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (Bitstring Representation)"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": 0.5,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best nonlinearity achieved",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes of idempotent Boolean functions"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Idempotent Boolean Functions",
+        "dimensionality": "6D to 12D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "disruptive operators",
+          "highly constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Restricted Genetic Algorithm"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": 0.5,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best nonlinearity achieved",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes of idempotent Boolean functions"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Idempotent Boolean Functions",
+        "dimensionality": "6D to 12D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "disruptive operators",
+          "highly constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Restricted Genetic Algorithm with Local Search"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": 0.5,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best nonlinearity achieved",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes of idempotent Boolean functions"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Idempotent Boolean Functions",
+        "dimensionality": "6D to 12D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "disruptive operators",
+          "highly constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": 0.5,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best nonlinearity achieved",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes of idempotent Boolean functions"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Idempotent Boolean Functions",
+        "dimensionality": "6D to 12D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "disruptive operators",
+          "highly constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Restricted Genetic Programming"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": 0.5,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best nonlinearity achieved",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes of idempotent Boolean functions"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Idempotent Boolean Functions",
+        "dimensionality": "6D to 12D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "disruptive operators",
+          "highly constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Restricted Genetic Programming with Local Search"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": 0.5,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best nonlinearity achieved",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

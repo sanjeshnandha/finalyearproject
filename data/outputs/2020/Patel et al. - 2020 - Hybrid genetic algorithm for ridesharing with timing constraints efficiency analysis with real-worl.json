@@ -1,0 +1,128 @@
+{
+  "metadata": {
+    "title": "Hybrid Genetic Algorithm for Ridesharing with Timing Constraints: Efficiency analysis with Real-World Data",
+    "authors": [
+      "Nirav Patel",
+      "N. S. Narayanaswamy",
+      "Alok Joshi"
+    ],
+    "year": 2020,
+    "source_file": "Patel et al. - 2020 - Hybrid genetic algorithm for ridesharing with timing constraints efficiency analysis with real-worl.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "Tsiligirides and Chao benchmark instances",
+        "source_platform": "KU Leuven repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Orienteering Problem (OP)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "NP-hard",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Hybrid Genetic Algorithm (HGA)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 25,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average % gap with Best Known Solution",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "Solomon and Cordeau benchmark instances",
+        "source_platform": "KU Leuven repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Orienteering Problem with Time Windows (OPTW)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "time windows",
+          "NP-hard",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Hybrid Genetic Algorithm (HGA)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 25,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average % gap with Best Known Solution",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Ridesharing with Timing Constraints"
+      },
+      "the_database": {
+        "dataset_name": "New York TLC Trip Record Data",
+        "source_platform": "Taxi Commission, New York"
+      },
+      "the_benchmark_problem": {
+        "name": "Ridesharing with Timing Constraints",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "highly constrained",
+          "timing windows",
+          "detour time",
+          "waiting-time minimization"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Hybrid Genetic Algorithm (HGA)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 25,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage of shared rides, Percentage of customers going in shared rides, Percentage of total cost saved",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "title": "Multi-Objective Orchestration of Small Language Model Ensembles: Balancing Accuracy, Diversity, and Fairness",
+    "authors": [
+      "Advay Dhar",
+      "Swagatam Das",
+      "Kalyanmoy Deb"
+    ],
+    "year": 2026,
+    "source_file": "Dhar et al. - 2026 - Multi-Objective Orchestration of Small Language Model Ensembles Balancing Accuracy, Diversity, and.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Optimizing Small Language Model (SLM) ensembles for accuracy, diversity, and fairness"
+      },
+      "the_database": {
+        "dataset_name": "MentalChat16k",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MentalChat16k",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "conflicting objectives",
+          "Pareto trade-offs",
+          "bi-level optimization"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-III"
+      },
+      "parameters": {
+        "population_size": 92,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.33,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "ROUGE-1, ROUGE-2, ROUGE-L, BLEU, Jaccard, Semantic Similarity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Education/Career",
+        "problem_context": "Optimizing Small Language Model (SLM) ensembles for accuracy, diversity, and fairness"
+      },
+      "the_database": {
+        "dataset_name": "Career Guidance Counsellor QA Dataset",
+        "source_platform": "Hugging Face Datasets"
+      },
+      "the_benchmark_problem": {
+        "name": "Career Guidance Counsellor QA Dataset",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "conflicting objectives",
+          "Pareto trade-offs",
+          "bi-level optimization"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-III"
+      },
+      "parameters": {
+        "population_size": 92,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.33,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Accuracy, Diversity, Fairness (evaluated by Judge LLM)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

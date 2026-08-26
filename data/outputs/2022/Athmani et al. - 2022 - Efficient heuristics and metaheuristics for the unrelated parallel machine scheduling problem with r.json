@@ -1,0 +1,127 @@
+{
+  "metadata": {
+    "title": "Efficient heuristics and metaheuristics for the unrelated parallel machine scheduling problem with release dates and setup times",
+    "authors": [
+      "Mohamed Elamine Athmani",
+      "Taha Arbaoui",
+      "Younes Mimene",
+      "Farouk Yalaoui"
+    ],
+    "year": 2022,
+    "source_file": "Athmani et al. - 2022 - Efficient heuristics and metaheuristics for the unrelated parallel machine scheduling problem with r.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Unrelated parallel machine scheduling problem with release dates and setup times"
+      },
+      "the_database": {
+        "dataset_name": "1620-instance benchmark",
+        "source_platform": "www.scheduling.cc"
+      },
+      "the_benchmark_problem": {
+        "name": "Unrelated parallel machine scheduling problem with release dates and setup times (R|r_j, s_{ijk}|C_{max})",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "NP-hard",
+          "sequence-dependent setup times",
+          "release dates"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Late Acceptance Hill Climbing (LAHC)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Relative Percentage Deviation (RPD)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Unrelated parallel machine scheduling problem with release dates and setup times"
+      },
+      "the_database": {
+        "dataset_name": "1620-instance benchmark",
+        "source_platform": "www.scheduling.cc"
+      },
+      "the_benchmark_problem": {
+        "name": "Unrelated parallel machine scheduling problem with release dates and setup times (R|r_j, s_{ijk}|C_{max})",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "NP-hard",
+          "sequence-dependent setup times",
+          "release dates"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Simulated Annealing Variant 1 (S1)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Relative Percentage Deviation (RPD)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Unrelated parallel machine scheduling problem with release dates and setup times"
+      },
+      "the_database": {
+        "dataset_name": "1620-instance benchmark",
+        "source_platform": "www.scheduling.cc"
+      },
+      "the_benchmark_problem": {
+        "name": "Unrelated parallel machine scheduling problem with release dates and setup times (R|r_j, s_{ijk}|C_{max})",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "NP-hard",
+          "sequence-dependent setup times",
+          "release dates"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Simulated Annealing Variant 2 (S2)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Relative Percentage Deviation (RPD)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

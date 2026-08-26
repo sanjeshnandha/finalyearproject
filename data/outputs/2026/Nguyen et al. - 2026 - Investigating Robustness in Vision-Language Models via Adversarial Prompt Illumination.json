@@ -1,0 +1,232 @@
+{
+  "metadata": {
+    "title": "Investigating Robustness in Vision-Language Models via Adversarial Prompt Illumination",
+    "authors": [
+      "Thai Huy Nguyen",
+      "Khoa Tran",
+      "Quan Minh Phan",
+      "Ngoc Hoang Luong"
+    ],
+    "year": 2026,
+    "source_file": "Nguyen et al. - 2026 - Investigating Robustness in Vision-Language Models via Adversarial Prompt Illumination.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Adversarial prompt generation for text-to-image retrieval"
+      },
+      "the_database": {
+        "dataset_name": "MS COCO Captions",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Exact-match text-to-image retrieval on MS COCO",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "discrete",
+          "fitness plateaus"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CVT-MAP-Elites"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD Score, Coverage, Max Score (log retrieval rank)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Adversarial prompt generation for medical text-to-image retrieval"
+      },
+      "the_database": {
+        "dataset_name": "ENTRep",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Exact-match text-to-image retrieval on ENTRep",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "discrete",
+          "fitness plateaus"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CVT-MAP-Elites"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD Score, Coverage, Max Score (log retrieval rank)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Adversarial prompt generation for medical text-to-image retrieval"
+      },
+      "the_database": {
+        "dataset_name": "MIMIC",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Exact-match text-to-image retrieval on MIMIC",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "discrete",
+          "fitness plateaus"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CVT-MAP-Elites"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD Score, Coverage, Max Score (log retrieval rank)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Adversarial prompt generation for medical text-to-image retrieval"
+      },
+      "the_database": {
+        "dataset_name": "ENTRep",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Class-match text-to-image retrieval on ENTRep",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "discrete",
+          "fitness plateaus"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CVT-MAP-Elites"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD Score, Coverage, Max Score (log retrieval rank)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Adversarial prompt generation for medical text-to-image retrieval"
+      },
+      "the_database": {
+        "dataset_name": "MIMIC",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Class-match text-to-image retrieval on MIMIC",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "discrete",
+          "fitness plateaus"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CVT-MAP-Elites"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD Score, Coverage, Max Score (log retrieval rank)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Adversarial prompt generation for medical text-to-image retrieval"
+      },
+      "the_database": {
+        "dataset_name": "ENTRep",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Class-match text-to-image retrieval on ENTRep",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "discrete",
+          "fitness plateaus"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (GA)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD Score, Coverage, Max Score (log retrieval rank)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

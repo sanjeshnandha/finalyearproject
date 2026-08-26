@@ -1,0 +1,323 @@
+{
+  "metadata": {
+    "title": "Variation Encoded Large-Scale Swarm Optimizers for Path Planning of Unmanned Aerial Vehicle",
+    "authors": [
+      "Tan-Lin Xiao",
+      "Qiang Yang",
+      "Xu-Dong Gao",
+      "Zhen-Yu Lu",
+      "Yuan-Yuan Ma",
+      "Sang-Woon Jeon",
+      "Jun Zhang"
+    ],
+    "year": 2023,
+    "source_file": "Xiao et al. - 2023 - Variation Encoded Large-Scale Swarm Optimizers for Path Planning of Unmanned Aerial Vehicle.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "UAV Path Planning"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "UAV Path Planning",
+        "dimensionality": "1500D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "nonlinear",
+          "non-convex",
+          "non-differentiable",
+          "multimodal"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "VSDLSO (Variation encoded Stochastic Dominant Learning Swarm Optimizer)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "UAV Path Planning"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "UAV Path Planning",
+        "dimensionality": "1500D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "nonlinear",
+          "non-convex",
+          "non-differentiable",
+          "multimodal"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SSDLSO (Spherical encoded Stochastic Dominant Learning Swarm Optimizer)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "UAV Path Planning"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "UAV Path Planning",
+        "dimensionality": "1500D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "nonlinear",
+          "non-convex",
+          "non-differentiable",
+          "multimodal"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "VLLSO (Variation encoded Level-based Learning Swarm Optimizer)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "UAV Path Planning"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "UAV Path Planning",
+        "dimensionality": "1500D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "nonlinear",
+          "non-convex",
+          "non-differentiable",
+          "multimodal"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SLLSO (Spherical encoded Level-based Learning Swarm Optimizer)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "UAV Path Planning"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "UAV Path Planning",
+        "dimensionality": "1500D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "nonlinear",
+          "non-convex",
+          "non-differentiable",
+          "multimodal"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "VCSO (Variation encoded Competitive Swarm Optimizer)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "UAV Path Planning"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "UAV Path Planning",
+        "dimensionality": "1500D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "nonlinear",
+          "non-convex",
+          "non-differentiable",
+          "multimodal"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SCSO (Spherical encoded Competitive Swarm Optimizer)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "UAV Path Planning"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "UAV Path Planning",
+        "dimensionality": "1500D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "nonlinear",
+          "non-convex",
+          "non-differentiable",
+          "multimodal"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "VSL-PSO (Variation encoded Social Learning Particle Swarm Optimizer)"
+      },
+      "parameters": {
+        "population_size": 150,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "UAV Path Planning"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "UAV Path Planning",
+        "dimensionality": "1500D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "nonlinear",
+          "non-convex",
+          "non-differentiable",
+          "multimodal"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SSL-PSO (Spherical encoded Social Learning Particle Swarm Optimizer)"
+      },
+      "parameters": {
+        "population_size": 150,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

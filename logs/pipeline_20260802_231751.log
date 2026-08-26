@@ -1,0 +1,178 @@
+2026-08-02 23:17:51.274 | INFO     | gecco_pipeline.extractor:__init__:32 - Initialized GeccoExtractor with model: gemini-3.5-flash and 3 API keys
+2026-08-02 23:17:51.274 | INFO     | gecco_pipeline.processor:__init__:57 - BatchProcessor initialized
+2026-08-02 23:17:51.275 | INFO     | gecco_pipeline.utils:discover_pdfs:62 - Discovered 150 PDF files in data/pdfs/2020
+2026-08-02 23:17:51.277 | INFO     | gecco_pipeline.processor:process_batch:129 - Skipping 1 already-processed PDFs
+2026-08-02 23:17:51.277 | INFO     | gecco_pipeline.processor:process_batch:145 - Processing 149 PDFs...
+2026-08-02 23:17:51.303 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Abdelatti and Sodhi - 2020 - An improved GPU-accelerated heuristic technique applied to the capacitated vehicle routing problem.pdf
+2026-08-02 23:17:51.303 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Abdelatti and Sodhi - 2020 - An improved GPU-accelerated heuristic technique applied to the capacitated vehicle routing problem.pdf to Gemini File API...
+2026-08-02 23:17:57.283 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/xxm5otz8rejv
+2026-08-02 23:18:17.962 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 2 entries from Abdelatti and Sodhi - 2020 - An improved GPU-accelerated heuristic technique applied to the capacitated vehicle routing problem.pdf
+2026-08-02 23:18:17.964 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Abdelatti and Sodhi - 2020 - An improved GPU-accelerated heuristic technique applied to the capacitated vehicle routing problem.json
+2026-08-02 23:18:17.965 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Abitz et al. - 2020 - A weighted population update rule for PACO applied to the single machine total weighted tardiness pr.pdf
+2026-08-02 23:18:17.965 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Abitz et al. - 2020 - A weighted population update rule for PACO applied to the single machine total weighted tardiness pr.pdf to Gemini File API...
+2026-08-02 23:18:22.363 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/5rtdwcg4xd7t
+2026-08-02 23:18:51.086 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 4 entries from Abitz et al. - 2020 - A weighted population update rule for PACO applied to the single machine total weighted tardiness pr.pdf
+2026-08-02 23:18:51.090 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Abitz et al. - 2020 - A weighted population update rule for PACO applied to the single machine total weighted tardiness pr.json
+2026-08-02 23:18:51.092 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Ain et al. - 2020 - A genetic programming approach to feature construction for ensemble learning in skin cancer detectio.pdf
+2026-08-02 23:18:51.092 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Ain et al. - 2020 - A genetic programming approach to feature construction for ensemble learning in skin cancer detectio.pdf to Gemini File API...
+2026-08-02 23:18:59.039 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/sb0f0oiyqlb5
+2026-08-02 23:21:49.641 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 10 entries from Ain et al. - 2020 - A genetic programming approach to feature construction for ensemble learning in skin cancer detectio.pdf
+2026-08-02 23:21:49.651 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Ain et al. - 2020 - A genetic programming approach to feature construction for ensemble learning in skin cancer detectio.json
+2026-08-02 23:21:49.653 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Akinola and Wineberg - 2020 - Using implicit multi-objectives properties to mitigate against forgetfulness in coevolutionary algor.pdf
+2026-08-02 23:21:49.653 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Akinola and Wineberg - 2020 - Using implicit multi-objectives properties to mitigate against forgetfulness in coevolutionary algor.pdf to Gemini File API...
+2026-08-02 23:22:00.815 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/kzb077wtv8w0
+2026-08-02 23:22:43.847 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 9 entries from Akinola and Wineberg - 2020 - Using implicit multi-objectives properties to mitigate against forgetfulness in coevolutionary algor.pdf
+2026-08-02 23:22:43.853 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Akinola and Wineberg - 2020 - Using implicit multi-objectives properties to mitigate against forgetfulness in coevolutionary algor.json
+2026-08-02 23:22:43.854 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Al-Helali et al. - 2020 - Multi-tree genetic programming for feature construction-based domain adaptation in symbolic regressi.pdf
+2026-08-02 23:22:43.855 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Al-Helali et al. - 2020 - Multi-tree genetic programming for feature construction-based domain adaptation in symbolic regressi.pdf to Gemini File API...
+2026-08-02 23:22:48.734 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/rhaq4oji04c9
+2026-08-02 23:23:16.218 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 6 entries from Al-Helali et al. - 2020 - Multi-tree genetic programming for feature construction-based domain adaptation in symbolic regressi.pdf
+2026-08-02 23:23:16.225 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Al-Helali et al. - 2020 - Multi-tree genetic programming for feature construction-based domain adaptation in symbolic regressi.json
+2026-08-02 23:23:16.227 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Albunian et al. - 2020 - Causes and effects of fitness landscapes in unit test generation.pdf
+2026-08-02 23:23:16.227 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Albunian et al. - 2020 - Causes and effects of fitness landscapes in unit test generation.pdf to Gemini File API...
+2026-08-02 23:24:12.541 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/nw7jc3vvjkg9
+2026-08-02 23:24:51.875 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 1 entries from Albunian et al. - 2020 - Causes and effects of fitness landscapes in unit test generation.pdf
+2026-08-02 23:24:51.881 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Albunian et al. - 2020 - Causes and effects of fitness landscapes in unit test generation.json
+2026-08-02 23:24:51.883 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Alissa et al. - 2020 - A deep learning approach to predicting solutions in streaming optimisation domains.pdf
+2026-08-02 23:24:51.883 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Alissa et al. - 2020 - A deep learning approach to predicting solutions in streaming optimisation domains.pdf to Gemini File API...
+2026-08-02 23:24:56.632 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/hfl1sn1fiz9c
+2026-08-02 23:25:12.364 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 2 entries from Alissa et al. - 2020 - A deep learning approach to predicting solutions in streaming optimisation domains.pdf
+2026-08-02 23:25:12.373 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Alissa et al. - 2020 - A deep learning approach to predicting solutions in streaming optimisation domains.json
+2026-08-02 23:25:12.374 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Anjum and Ryan - 2020 - Scalability analysis of grammatical evolution based test data generation.pdf
+2026-08-02 23:25:12.375 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Anjum and Ryan - 2020 - Scalability analysis of grammatical evolution based test data generation.pdf to Gemini File API...
+2026-08-02 23:25:20.725 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/h0zp78eqi68b
+2026-08-02 23:25:52.209 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 8 entries from Anjum and Ryan - 2020 - Scalability analysis of grammatical evolution based test data generation.pdf
+2026-08-02 23:25:52.214 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Anjum and Ryan - 2020 - Scalability analysis of grammatical evolution based test data generation.json
+2026-08-02 23:25:52.215 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Antipov et al. - 2020 - Fast mutation in crossover-based algorithms.pdf
+2026-08-02 23:25:52.216 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Antipov et al. - 2020 - Fast mutation in crossover-based algorithms.pdf to Gemini File API...
+2026-08-02 23:26:19.039 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/3qup2piic4g3
+2026-08-02 23:30:38.888 | WARNING  | gecco_pipeline.extractor:_call_with_retry:219 - Attempt 1/3 failed for Antipov et al. - 2020 - Fast mutation in crossover-based algorithms.pdf: 1 validation error for PaperResult
+  Invalid JSON: EOF while parsing a string at line 36 column 62436 [type=json_invalid, input_value='{\n  "metadata": {\n    ...0301\\u0301\\u0301\\u03', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid. Retrying in 2.2s...
+2026-08-02 23:31:49.293 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 8 entries from Antipov et al. - 2020 - Fast mutation in crossover-based algorithms.pdf
+2026-08-02 23:31:49.302 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Antipov et al. - 2020 - Fast mutation in crossover-based algorithms.json
+2026-08-02 23:31:49.303 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Antipov et al. - 2020 - The (1 + (λ,λ)) GA is even faster on multimodal problems.pdf
+2026-08-02 23:31:49.304 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Antipov et al. - 2020 - The (1 + (λ,λ)) GA is even faster on multimodal problems.pdf to Gemini File API...
+2026-08-02 23:31:58.571 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/mvlra1aneiah
+2026-08-02 23:32:13.505 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 1 entries from Antipov et al. - 2020 - The (1 + (λ,λ)) GA is even faster on multimodal problems.pdf
+2026-08-02 23:32:13.507 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Antipov et al. - 2020 - The (1 + (λ,λ)) GA is even faster on multimodal problems.json
+2026-08-02 23:32:13.508 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Arrieta et al. - 2020 - Seeding strategies for multi-objective test case selection an application on simulation-based testi.pdf
+2026-08-02 23:32:13.508 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Arrieta et al. - 2020 - Seeding strategies for multi-objective test case selection an application on simulation-based testi.pdf to Gemini File API...
+2026-08-02 23:32:23.222 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/uvhblwtevzqy
+2026-08-02 23:33:07.698 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 18 entries from Arrieta et al. - 2020 - Seeding strategies for multi-objective test case selection an application on simulation-based testi.pdf
+2026-08-02 23:33:07.705 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Arrieta et al. - 2020 - Seeding strategies for multi-objective test case selection an application on simulation-based testi.json
+2026-08-02 23:33:07.706 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Back et al. - 2020 - Towards sustainable forest management strategies with MOEAs.pdf
+2026-08-02 23:33:07.706 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Back et al. - 2020 - Towards sustainable forest management strategies with MOEAs.pdf to Gemini File API...
+2026-08-02 23:33:17.207 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/xe7fpjgv59eu
+2026-08-02 23:34:03.802 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 3 entries from Back et al. - 2020 - Towards sustainable forest management strategies with MOEAs.pdf
+2026-08-02 23:34:03.813 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Back et al. - 2020 - Towards sustainable forest management strategies with MOEAs.json
+2026-08-02 23:34:03.815 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Ben-Iwhiwhu et al. - 2020 - Evolving inborn knowledge for fast adaptation in dynamic POMDP problems.pdf
+2026-08-02 23:34:03.815 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Ben-Iwhiwhu et al. - 2020 - Evolving inborn knowledge for fast adaptation in dynamic POMDP problems.pdf to Gemini File API...
+2026-08-02 23:34:33.696 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/thx1d2ub0mv3
+2026-08-02 23:34:54.695 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 3 entries from Ben-Iwhiwhu et al. - 2020 - Evolving inborn knowledge for fast adaptation in dynamic POMDP problems.pdf
+2026-08-02 23:34:54.699 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Ben-Iwhiwhu et al. - 2020 - Evolving inborn knowledge for fast adaptation in dynamic POMDP problems.json
+2026-08-02 23:34:54.701 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Berveglieri et al. - 2020 - Designing parallelism in surrogate-assisted multiobjective optimization based on decomposition.pdf
+2026-08-02 23:34:54.701 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Berveglieri et al. - 2020 - Designing parallelism in surrogate-assisted multiobjective optimization based on decomposition.pdf to Gemini File API...
+2026-08-02 23:35:07.058 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/s8045ch96y4h
+2026-08-02 23:35:37.784 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 7 entries from Berveglieri et al. - 2020 - Designing parallelism in surrogate-assisted multiobjective optimization based on decomposition.pdf
+2026-08-02 23:35:37.789 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Berveglieri et al. - 2020 - Designing parallelism in surrogate-assisted multiobjective optimization based on decomposition.json
+2026-08-02 23:35:37.790 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Binder et al. - 2020 - Multi-objective hyperparameter tuning and feature selection using filter ensembles.pdf
+2026-08-02 23:35:37.790 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Binder et al. - 2020 - Multi-objective hyperparameter tuning and feature selection using filter ensembles.pdf to Gemini File API...
+2026-08-02 23:35:42.104 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/elz7hd8vkurz
+2026-08-02 23:36:11.937 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 6 entries from Binder et al. - 2020 - Multi-objective hyperparameter tuning and feature selection using filter ensembles.pdf
+2026-08-02 23:36:11.945 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Binder et al. - 2020 - Multi-objective hyperparameter tuning and feature selection using filter ensembles.json
+2026-08-02 23:36:11.946 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Bingham et al. - 2020 - Evolutionary optimization of deep learning activation functions.pdf
+2026-08-02 23:36:11.946 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Bingham et al. - 2020 - Evolutionary optimization of deep learning activation functions.pdf to Gemini File API...
+2026-08-02 23:36:21.565 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/9mb9glw7emgc
+2026-08-02 23:36:47.839 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 4 entries from Bingham et al. - 2020 - Evolutionary optimization of deep learning activation functions.pdf
+2026-08-02 23:36:47.847 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Bingham et al. - 2020 - Evolutionary optimization of deep learning activation functions.json
+2026-08-02 23:36:47.848 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Bokhari et al. - 2020 - Towards rigorous validation of energy optimisation experiments.pdf
+2026-08-02 23:36:47.849 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Bokhari et al. - 2020 - Towards rigorous validation of energy optimisation experiments.pdf to Gemini File API...
+2026-08-02 23:37:02.722 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/ub9ppmndyagx
+2026-08-02 23:37:27.757 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 2 entries from Bokhari et al. - 2020 - Towards rigorous validation of energy optimisation experiments.pdf
+2026-08-02 23:37:27.764 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Bokhari et al. - 2020 - Towards rigorous validation of energy optimisation experiments.json
+2026-08-02 23:37:27.770 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Bossek et al. - 2020 - Dynamic bi-objective routing of multiple vehicles.pdf
+2026-08-02 23:37:27.770 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Bossek et al. - 2020 - Dynamic bi-objective routing of multiple vehicles.pdf to Gemini File API...
+2026-08-02 23:37:36.432 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/6of7f33weyug
+2026-08-02 23:37:58.131 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 2 entries from Bossek et al. - 2020 - Dynamic bi-objective routing of multiple vehicles.pdf
+2026-08-02 23:37:58.141 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Bossek et al. - 2020 - Dynamic bi-objective routing of multiple vehicles.json
+2026-08-02 23:37:58.142 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Bossek et al. - 2020 - Initial design strategies and their effects on sequential model-based optimization an exploratory c.pdf
+2026-08-02 23:37:58.142 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Bossek et al. - 2020 - Initial design strategies and their effects on sequential model-based optimization an exploratory c.pdf to Gemini File API...
+2026-08-02 23:38:08.774 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/sbiee9bly2ye
+2026-08-02 23:38:25.504 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 1 entries from Bossek et al. - 2020 - Initial design strategies and their effects on sequential model-based optimization an exploratory c.pdf
+2026-08-02 23:38:25.508 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Bossek et al. - 2020 - Initial design strategies and their effects on sequential model-based optimization an exploratory c.json
+2026-08-02 23:38:25.511 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Bossek et al. - 2020 - More effective randomized search heuristics for graph coloring through dynamic optimization.pdf
+2026-08-02 23:38:25.511 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Bossek et al. - 2020 - More effective randomized search heuristics for graph coloring through dynamic optimization.pdf to Gemini File API...
+2026-08-02 23:38:32.445 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/bjvcxv8b7qrp
+2026-08-02 23:38:55.027 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 4 entries from Bossek et al. - 2020 - More effective randomized search heuristics for graph coloring through dynamic optimization.pdf
+2026-08-02 23:38:55.031 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Bossek et al. - 2020 - More effective randomized search heuristics for graph coloring through dynamic optimization.json
+2026-08-02 23:38:55.032 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Bossek et al. - 2020 - The node weight dependent traveling salesperson problem approximation algorithms and randomized sea.pdf
+2026-08-02 23:38:55.033 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Bossek et al. - 2020 - The node weight dependent traveling salesperson problem approximation algorithms and randomized sea.pdf to Gemini File API...
+2026-08-02 23:39:05.464 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/zu910j6qzowh
+2026-08-02 23:39:05.721 | WARNING  | gecco_pipeline.extractor:_call_with_retry:204 - Rate limit hit for Bossek et al. - 2020 - The node weight dependent traveling salesperson problem approximation algorithms and randomized sea.pdf: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\nPlease retry in 52.735717806s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '52s'}]}}
+2026-08-02 23:39:05.722 | WARNING  | gecco_pipeline.extractor:_rotate_key:44 - Rotating to API key index 1
+2026-08-02 23:39:05.812 | INFO     | gecco_pipeline.extractor:_call_with_retry:206 - Retrying with new API key...
+2026-08-02 23:39:05.812 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Bossek et al. - 2020 - The node weight dependent traveling salesperson problem approximation algorithms and randomized sea.pdf to Gemini File API...
+2026-08-02 23:39:19.876 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/5kr0mabtvvlh
+2026-08-02 23:39:44.865 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 5 entries from Bossek et al. - 2020 - The node weight dependent traveling salesperson problem approximation algorithms and randomized sea.pdf
+2026-08-02 23:39:44.868 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Bossek et al. - 2020 - The node weight dependent traveling salesperson problem approximation algorithms and randomized sea.json
+2026-08-02 23:39:44.870 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Bossens et al. - 2020 - Learning behaviour-performance maps with meta-evolution.pdf
+2026-08-02 23:39:44.870 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Bossens et al. - 2020 - Learning behaviour-performance maps with meta-evolution.pdf to Gemini File API...
+2026-08-02 23:39:55.021 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/12kd3jk0vke1
+2026-08-02 23:40:17.435 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 6 entries from Bossens et al. - 2020 - Learning behaviour-performance maps with meta-evolution.pdf
+2026-08-02 23:40:17.437 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Bossens et al. - 2020 - Learning behaviour-performance maps with meta-evolution.json
+2026-08-02 23:40:17.437 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Botello-Aceves et al. - 2020 - Computation of the improvement directions of the Pareto front and its application to MOEAs.pdf
+2026-08-02 23:40:17.437 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Botello-Aceves et al. - 2020 - Computation of the improvement directions of the Pareto front and its application to MOEAs.pdf to Gemini File API...
+2026-08-02 23:40:31.948 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/q0ubhveb52cx
+2026-08-02 23:40:59.250 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 7 entries from Botello-Aceves et al. - 2020 - Computation of the improvement directions of the Pareto front and its application to MOEAs.pdf
+2026-08-02 23:40:59.258 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Botello-Aceves et al. - 2020 - Computation of the improvement directions of the Pareto front and its application to MOEAs.json
+2026-08-02 23:40:59.259 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Bouter et al. - 2020 - Leveraging conditional linkage models in gray-box optimization with the real-valued gene-pool optima.pdf
+2026-08-02 23:40:59.260 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Bouter et al. - 2020 - Leveraging conditional linkage models in gray-box optimization with the real-valued gene-pool optima.pdf to Gemini File API...
+2026-08-02 23:41:08.130 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/7h4y9vmf2v5i
+2026-08-02 23:41:35.837 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 8 entries from Bouter et al. - 2020 - Leveraging conditional linkage models in gray-box optimization with the real-valued gene-pool optima.pdf
+2026-08-02 23:41:35.840 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Bouter et al. - 2020 - Leveraging conditional linkage models in gray-box optimization with the real-valued gene-pool optima.json
+2026-08-02 23:41:35.840 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Brant and Stanley - 2020 - Diversity preservation in minimal criterion coevolution through resource limitation.pdf
+2026-08-02 23:41:35.840 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Brant and Stanley - 2020 - Diversity preservation in minimal criterion coevolution through resource limitation.pdf to Gemini File API...
+2026-08-02 23:41:47.573 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/ove9p74er5cm
+2026-08-02 23:42:08.208 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 2 entries from Brant and Stanley - 2020 - Diversity preservation in minimal criterion coevolution through resource limitation.pdf
+2026-08-02 23:42:08.211 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Brant and Stanley - 2020 - Diversity preservation in minimal criterion coevolution through resource limitation.json
+2026-08-02 23:42:08.212 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Buzdalov et al. - 2020 - Fixed-target runtime analysis.pdf
+2026-08-02 23:42:08.213 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Buzdalov et al. - 2020 - Fixed-target runtime analysis.pdf to Gemini File API...
+2026-08-02 23:42:13.416 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/euv5qmj6a62o
+2026-08-02 23:42:40.444 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 4 entries from Buzdalov et al. - 2020 - Fixed-target runtime analysis.pdf
+2026-08-02 23:42:40.448 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Buzdalov et al. - 2020 - Fixed-target runtime analysis.json
+2026-08-02 23:42:40.449 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Calò et al. - 2020 - Simultaneously searching and solving multiple avoidable collisions for testing autonomous driving sy.pdf
+2026-08-02 23:42:40.449 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Calò et al. - 2020 - Simultaneously searching and solving multiple avoidable collisions for testing autonomous driving sy.pdf to Gemini File API...
+2026-08-02 23:43:05.017 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/3nv9kdvucz62
+2026-08-02 23:43:29.414 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 3 entries from Calò et al. - 2020 - Simultaneously searching and solving multiple avoidable collisions for testing autonomous driving sy.pdf
+2026-08-02 23:43:29.418 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Calò et al. - 2020 - Simultaneously searching and solving multiple avoidable collisions for testing autonomous driving sy.json
+2026-08-02 23:43:29.422 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Carvalho et al. - 2020 - AutoLR an evolutionary approach to learning rate policies.pdf
+2026-08-02 23:43:29.422 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Carvalho et al. - 2020 - AutoLR an evolutionary approach to learning rate policies.pdf to Gemini File API...
+2026-08-02 23:43:38.567 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/9f6j5wcfzgwv
+2026-08-02 23:43:55.942 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 1 entries from Carvalho et al. - 2020 - AutoLR an evolutionary approach to learning rate policies.pdf
+2026-08-02 23:43:55.946 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Carvalho et al. - 2020 - AutoLR an evolutionary approach to learning rate policies.json
+2026-08-02 23:43:55.947 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Chen et al. - 2020 - Improving symbolic regression based on correlation between residuals and variables.pdf
+2026-08-02 23:43:55.947 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Chen et al. - 2020 - Improving symbolic regression based on correlation between residuals and variables.pdf to Gemini File API...
+2026-08-02 23:44:03.383 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/uzq6p5hgjkr4
+2026-08-02 23:44:52.064 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 24 entries from Chen et al. - 2020 - Improving symbolic regression based on correlation between residuals and variables.pdf
+2026-08-02 23:44:52.072 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Chen et al. - 2020 - Improving symbolic regression based on correlation between residuals and variables.json
+2026-08-02 23:44:52.075 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Colas et al. - 2020 - Scaling MAP-Elites to deep neuroevolution.pdf
+2026-08-02 23:44:52.075 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Colas et al. - 2020 - Scaling MAP-Elites to deep neuroevolution.pdf to Gemini File API...
+2026-08-02 23:45:01.149 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/ag0fjwy9c9kl
+2026-08-02 23:45:29.865 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 6 entries from Colas et al. - 2020 - Scaling MAP-Elites to deep neuroevolution.pdf
+2026-08-02 23:45:29.871 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Colas et al. - 2020 - Scaling MAP-Elites to deep neuroevolution.json
+2026-08-02 23:45:29.873 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Costa et al. - 2020 - Exploring the evolution of GANs through quality diversity.pdf
+2026-08-02 23:45:29.874 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Costa et al. - 2020 - Exploring the evolution of GANs through quality diversity.pdf to Gemini File API...
+2026-08-02 23:46:40.776 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/d577uas30p46
+2026-08-02 23:47:23.974 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 4 entries from Costa et al. - 2020 - Exploring the evolution of GANs through quality diversity.pdf
+2026-08-02 23:47:23.979 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Costa et al. - 2020 - Exploring the evolution of GANs through quality diversity.json
+2026-08-02 23:47:23.981 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: De Ath et al. - 2020 - ϵ-shotgun ϵ-greedy batch bayesian optimisation.pdf
+2026-08-02 23:47:23.981 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading De Ath et al. - 2020 - ϵ-shotgun ϵ-greedy batch bayesian optimisation.pdf to Gemini File API...
+2026-08-02 23:47:29.590 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/erhsr3lp7qeb
+2026-08-02 23:47:35.316 | WARNING  | gecco_pipeline.extractor:_call_with_retry:219 - Attempt 1/3 failed for De Ath et al. - 2020 - ϵ-shotgun ϵ-greedy batch bayesian optimisation.pdf: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying in 2.4s...
+2026-08-02 23:49:10.795 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 6 entries from De Ath et al. - 2020 - ϵ-shotgun ϵ-greedy batch bayesian optimisation.pdf
+2026-08-02 23:49:10.801 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/De Ath et al. - 2020 - ϵ-shotgun ϵ-greedy batch bayesian optimisation.json
+2026-08-02 23:49:10.803 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Dewhurst et al. - 2020 - Evolving ab initio trading strategies in heterogeneous environments.pdf
+2026-08-02 23:49:10.803 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Dewhurst et al. - 2020 - Evolving ab initio trading strategies in heterogeneous environments.pdf to Gemini File API...
+2026-08-02 23:49:15.858 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/b4ez3e3lr1eo
+2026-08-02 23:49:20.208 | WARNING  | gecco_pipeline.extractor:_call_with_retry:219 - Attempt 1/3 failed for Dewhurst et al. - 2020 - Evolving ab initio trading strategies in heterogeneous environments.pdf: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying in 2.2s...

@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "title": "GRASP-RVND Metaheuristic for the Traveling Salesman Problem with Drone Launch Station Location",
+    "authors": [
+      "Tarcísio Barroso Marques",
+      "José Elias Claudio Arroyo"
+    ],
+    "year": 2026,
+    "source_file": "Barroso Marques and Claudio Arroyo - 2026 - GRASP-RVND Metaheuristic for Traveling Salesman Problem with Drone Launch Station Location.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem with Drone Launch Station Location (TSP-DLSL)"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "jorlib repository of COIN-OR"
+      },
+      "the_benchmark_problem": {
+        "name": "Traveling Salesman Problem with Drone Launch Station Location (TSP-DLSL)",
+        "dimensionality": "Variable (40 to 324 vertices)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "discrete",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GRASP-RVND"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 20,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness (total cost)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

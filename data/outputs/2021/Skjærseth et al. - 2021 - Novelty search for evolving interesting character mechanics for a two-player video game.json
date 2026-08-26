@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "title": "Novelty Search for Evolving Interesting Character Mechanics for a Two-Player Video Game",
+    "authors": [
+      "Eirik Høgdahl Skjærseth",
+      "Harald Vinje",
+      "Ole Jakob Mengshoel"
+    ],
+    "year": 2021,
+    "source_file": "Skjærseth et al. - 2021 - Novelty search for evolving interesting character mechanics for a two-player video game.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Games",
+        "problem_context": "Generating interesting character mechanics for a fighting game"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Sol character mechanics generation",
+        "dimensionality": "44D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "simulation-based evaluation"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Feasible-Infeasible Novelty Search (FINS)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.3,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Feasibility, diversity, and human enjoyment ranking",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Games",
+        "problem_context": "Generating interesting character mechanics for a fighting game"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Sol character mechanics generation",
+        "dimensionality": "44D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "simulation-based evaluation"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Feasible-Infeasible Dual Novelty Search (FI2NS)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.3,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Feasibility, diversity, and human enjoyment ranking",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

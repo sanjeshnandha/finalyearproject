@@ -1,0 +1,304 @@
+{
+  "metadata": {
+    "title": "Multi-criteria Optimization Algorithms specially tailored for Programmable Networks with Quality Management.",
+    "authors": [
+      "Stanisław Kozdrowski",
+      "Wojciech Makos",
+      "Zbigniew Kopertowski",
+      "Sławomir Sujecki"
+    ],
+    "year": 2025,
+    "source_file": "Kozdrowski et al. - 2025 - Multi-criteria Optimization Algorithms specially tailored for Programmable Networks with Quality Man.pdf",
+    "gecco_track": "GECCO '25 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Telecommunications",
+        "problem_context": "Multi-criteria routing optimization (throughput, loss, delay)"
+      },
+      "the_database": {
+        "dataset_name": "Sndlib database (Polish PL 13-node network)",
+        "source_platform": "SNDlib"
+      },
+      "the_benchmark_problem": {
+        "name": "Polish (PL) 13-node network",
+        "dimensionality": "13 nodes"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV): 0.986, Generational Distance (GD): 0.021, Execution Time: 58s",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Telecommunications",
+        "problem_context": "Multi-criteria routing optimization (throughput, loss, delay)"
+      },
+      "the_database": {
+        "dataset_name": "Sndlib database (American US 39-node network)",
+        "source_platform": "SNDlib"
+      },
+      "the_benchmark_problem": {
+        "name": "American (US) 39-node network",
+        "dimensionality": "39 nodes"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV): 0.984, Generational Distance (GD): 0.012, Execution Time: 748s",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Telecommunications",
+        "problem_context": "Multi-criteria routing optimization (throughput, loss, delay)"
+      },
+      "the_database": {
+        "dataset_name": "Artificial full-mesh 20-node network",
+        "source_platform": "MiniNet with ONOS"
+      },
+      "the_benchmark_problem": {
+        "name": "Artificial 20-node full-mesh network",
+        "dimensionality": "20 nodes"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV): 0.885, Generational Distance (GD): 0.0684, Execution Time: 401s",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Telecommunications",
+        "problem_context": "Multi-criteria routing optimization (throughput, loss, delay)"
+      },
+      "the_database": {
+        "dataset_name": "Artificial full-mesh 40-node network",
+        "source_platform": "MiniNet with ONOS"
+      },
+      "the_benchmark_problem": {
+        "name": "Artificial 40-node full-mesh network",
+        "dimensionality": "40 nodes"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV): 0.902, Generational Distance (GD): 0.0576, Execution Time: 651s",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Telecommunications",
+        "problem_context": "Multi-criteria routing optimization (throughput, loss, delay)"
+      },
+      "the_database": {
+        "dataset_name": "Sndlib database (Polish PL 13-node network)",
+        "source_platform": "SNDlib"
+      },
+      "the_benchmark_problem": {
+        "name": "Polish (PL) 13-node network",
+        "dimensionality": "13 nodes"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ISPEA2"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV): 0.783, Generational Distance (GD): 0.006, Execution Time: 247s",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Telecommunications",
+        "problem_context": "Multi-criteria routing optimization (throughput, loss, delay)"
+      },
+      "the_database": {
+        "dataset_name": "Sndlib database (American US 39-node network)",
+        "source_platform": "SNDlib"
+      },
+      "the_benchmark_problem": {
+        "name": "American (US) 39-node network",
+        "dimensionality": "39 nodes"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ISPEA2"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV): 0.963, Generational Distance (GD): 0.028, Execution Time: 1292s",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Telecommunications",
+        "problem_context": "Multi-criteria routing optimization (throughput, loss, delay)"
+      },
+      "the_database": {
+        "dataset_name": "Artificial full-mesh 20-node network",
+        "source_platform": "MiniNet with ONOS"
+      },
+      "the_benchmark_problem": {
+        "name": "Artificial 20-node full-mesh network",
+        "dimensionality": "20 nodes"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ISPEA2"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV): 0.873, Generational Distance (GD): 0.0734, Execution Time: 2332s",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Telecommunications",
+        "problem_context": "Multi-criteria routing optimization (throughput, loss, delay)"
+      },
+      "the_database": {
+        "dataset_name": "Artificial full-mesh 40-node network",
+        "source_platform": "MiniNet with ONOS"
+      },
+      "the_benchmark_problem": {
+        "name": "Artificial 40-node full-mesh network",
+        "dimensionality": "40 nodes"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ISPEA2"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV): 0.799, Generational Distance (GD): 0.0825, Execution Time: 3073s",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

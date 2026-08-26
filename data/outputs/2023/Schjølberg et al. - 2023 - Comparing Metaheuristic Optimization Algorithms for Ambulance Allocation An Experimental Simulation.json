@@ -1,0 +1,201 @@
+{
+  "metadata": {
+    "title": "Comparing Metaheuristic Optimization Algorithms for Ambulance Allocation: An Experimental Simulation Study",
+    "authors": [
+      "Magnus Eide Schjølberg",
+      "Nicklas I. Paus Bekkevold",
+      "Xavier F. C. Sánchez-Díaz",
+      "Ole Jakob Mengshoel"
+    ],
+    "year": 2023,
+    "source_file": "Schjølberg et al. - 2023 - Comparing Metaheuristic Optimization Algorithms for Ambulance Allocation An Experimental Simulation.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Ambulance allocation to stations to minimize response times"
+      },
+      "the_database": {
+        "dataset_name": "OUH EMS incident responses (2015-2019)",
+        "source_platform": "Oslo University Hospital"
+      },
+      "the_benchmark_problem": {
+        "name": "Ambulance Allocation Problem (Oslo and Akershus)",
+        "dimensionality": "59 variables"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "simulation-based",
+          "stochastic",
+          "complex geographical features"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Stochastic Local Search with Hamming distance (HSLS)"
+      },
+      "parameters": {
+        "population_size": 1,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best average response time of 1270.49 seconds on a normal week",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Ambulance allocation to stations to minimize response times"
+      },
+      "the_database": {
+        "dataset_name": "OUH EMS incident responses (2015-2019)",
+        "source_platform": "Oslo University Hospital"
+      },
+      "the_benchmark_problem": {
+        "name": "Ambulance Allocation Problem (Oslo and Akershus)",
+        "dimensionality": "59 variables"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "simulation-based",
+          "stochastic",
+          "complex geographical features"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Stochastic Local Search with Lazy neighborhood (LazySLS)"
+      },
+      "parameters": {
+        "population_size": 1,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best average response time of 1261.53 seconds on a normal week",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Ambulance allocation to stations to minimize response times"
+      },
+      "the_database": {
+        "dataset_name": "OUH EMS incident responses (2015-2019)",
+        "source_platform": "Oslo University Hospital"
+      },
+      "the_benchmark_problem": {
+        "name": "Ambulance Allocation Problem (Oslo and Akershus)",
+        "dimensionality": "59 variables"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "simulation-based",
+          "stochastic",
+          "complex geographical features"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (GA)"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.15
+      },
+      "performance_outcome": {
+        "metric": "Best average response time of 1251.11 seconds on a normal week",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Ambulance allocation to stations to minimize response times"
+      },
+      "the_database": {
+        "dataset_name": "OUH EMS incident responses (2015-2019)",
+        "source_platform": "Oslo University Hospital"
+      },
+      "the_benchmark_problem": {
+        "name": "Ambulance Allocation Problem (Oslo and Akershus)",
+        "dimensionality": "59 variables"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "simulation-based",
+          "stochastic",
+          "complex geographical features"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Memetic Algorithm with LazySLS (SLSMA)"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.15
+      },
+      "performance_outcome": {
+        "metric": "Best average response time of 1257.84 seconds on a normal week",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Ambulance allocation to stations to minimize response times"
+      },
+      "the_database": {
+        "dataset_name": "OUH EMS incident responses (2015-2019)",
+        "source_platform": "Oslo University Hospital"
+      },
+      "the_benchmark_problem": {
+        "name": "Ambulance Allocation Problem (Oslo and Akershus)",
+        "dimensionality": "59 variables"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "simulation-based",
+          "stochastic",
+          "complex geographical features"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Memetic Algorithm with RobinHood (RHMA)"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.15
+      },
+      "performance_outcome": {
+        "metric": "Best average response time of 1260.14 seconds on a normal week",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "metadata": {
+    "title": "Scalability analysis of Grammatical Evolution Based Test Data Generation",
+    "authors": [
+      "Muhammad Sheraz Anjum",
+      "Conor Ryan"
+    ],
+    "year": 2020,
+    "source_file": "Anjum and Ryan - 2020 - Scalability analysis of grammatical evolution based test data generation.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Automatic Test Data Generation"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "comp(5,3)",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "variable interdependencies",
+          "nested branching"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ariadne (Grammatical Evolution)"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Condition-Decision Coverage",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Automatic Test Data Generation"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "comp(5,3)",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "variable interdependencies",
+          "nested branching"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (32-bit)"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Condition-Decision Coverage",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Automatic Test Data Generation"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "comp(5,3)",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "variable interdependencies",
+          "nested branching"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (16-bit)"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Condition-Decision Coverage",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Automatic Test Data Generation"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "comp(5,3)",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "variable interdependencies",
+          "nested branching"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (8-bit)"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Condition-Decision Coverage",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Automatic Test Data Generation"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "comp(0,1)",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "variable interdependencies"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ariadne (Grammatical Evolution)"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Condition-Decision Coverage",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Automatic Test Data Generation"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "comp(0,1)",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "variable interdependencies"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (32-bit)"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Condition-Decision Coverage",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Automatic Test Data Generation"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "comp(0,1)",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "variable interdependencies"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (16-bit)"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Condition-Decision Coverage",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Automatic Test Data Generation"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "comp(0,1)",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "variable interdependencies"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (8-bit)"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Condition-Decision Coverage",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

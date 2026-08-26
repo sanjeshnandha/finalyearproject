@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "title": "Searching for Quality: Genetic Algorithms and Metamorphic Testing for Software Engineering ML",
+    "authors": [
+      "Leonhard Applis",
+      "Ruben Marang",
+      "Annibale Panichella"
+    ],
+    "year": 2023,
+    "source_file": "Applis et al. - 2023 - Searching for Quality Genetic Algorithms and Metamorphic Testing for Software Engineering ML.pdf",
+    "gecco_track": "Search-Based Software Engineering"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Metamorphic testing of machine learning models (Code2Vec) for method-name prediction"
+      },
+      "the_database": {
+        "dataset_name": "java-small",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "Code2Vec method-name prediction",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "expensive",
+          "stochastic",
+          "discrete"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.5,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "F1-score reduction",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Metamorphic testing of machine learning models (Code2Vec) for method-name prediction"
+      },
+      "the_database": {
+        "dataset_name": "java-small",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "Code2Vec method-name prediction",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "expensive",
+          "stochastic",
+          "discrete"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Random Search"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "F1-score reduction",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

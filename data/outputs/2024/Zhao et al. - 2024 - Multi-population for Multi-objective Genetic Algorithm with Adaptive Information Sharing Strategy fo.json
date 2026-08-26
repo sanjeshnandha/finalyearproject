@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "title": "Multi-population for Multi-objective Genetic Algorithm with Adaptive Information Sharing for Berth Allocation and Quay Crane Assignment Problems",
+    "authors": [
+      "Wanqiu Zhao",
+      "Qi Qiu",
+      "Hong Zhao",
+      "Xu Bian",
+      "He Yu",
+      "Jing Liu",
+      "Xuesong Mei"
+    ],
+    "year": 2024,
+    "source_file": "Zhao et al. - 2024 - Multi-population for Multi-objective Genetic Algorithm with Adaptive Information Sharing Strategy fo.pdf",
+    "gecco_track": "GECCO '24 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Berth Allocation and Quay Crane Assignment Problems (BQCA)"
+      },
+      "the_database": {
+        "dataset_name": "Huawei Challenges Revealed",
+        "source_platform": "Huawei"
+      },
+      "the_benchmark_problem": {
+        "name": "Berth and Quay Crane Assignment (BQCA)",
+        "dimensionality": "50 ships, 30 quay cranes"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "continuous",
+          "dynamic",
+          "constrained",
+          "bi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MPMOGA-AIS"
+      },
+      "parameters": {
+        "population_size": 150,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV) and C-metric",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Berth Allocation and Quay Crane Assignment Problems (BQCA)"
+      },
+      "the_database": {
+        "dataset_name": "Huawei Challenges Revealed",
+        "source_platform": "Huawei"
+      },
+      "the_benchmark_problem": {
+        "name": "Berth and Quay Crane Assignment (BQCA)",
+        "dimensionality": "50 ships, 30 quay cranes"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "continuous",
+          "dynamic",
+          "constrained",
+          "bi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGAII"
+      },
+      "parameters": {
+        "population_size": 150,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV) and C-metric",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

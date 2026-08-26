@@ -1,0 +1,569 @@
+{
+  "metadata": {
+    "title": "Distributional Value Estimation Without Target Networks for Robust Quality-Diversity",
+    "authors": [
+      "Behrad Koohy",
+      "Jamie Bayne"
+    ],
+    "year": 2026,
+    "source_file": "Koohy and Bayne - 2026 - Distributional Value Estimation Without Target Networks for Robust Quality-Diversity.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Continuous control locomotion tasks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hopper",
+        "dimensionality": "11D state, 3D action"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex dynamics",
+          "non-stationary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "QDHUAC"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 2000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD-Score: ~0.9e6, Coverage: ~65%, Max Fitness: ~3000",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Continuous control locomotion tasks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Walker2D",
+        "dimensionality": "17D state, 6D action"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex dynamics",
+          "non-stationary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "QDHUAC"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 2000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD-Score: ~1.5e6, Coverage: ~60%, Max Fitness: ~5000",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Continuous control locomotion tasks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "HalfCheetah",
+        "dimensionality": "18D state, 6D action"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex dynamics",
+          "non-stationary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "QDHUAC"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 2000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD-Score: ~4e6, Coverage: ~45%, Max Fitness: ~8000",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Continuous control locomotion tasks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ant",
+        "dimensionality": "87D state, 8D action"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex dynamics",
+          "non-stationary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "QDHUAC"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 2000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD-Score: ~1.4e6, Coverage: ~35%, Max Fitness: ~1000",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Continuous control locomotion tasks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Humanoid",
+        "dimensionality": "227D state, 17D action"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex dynamics",
+          "non-stationary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "QDHUAC"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 2000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD-Score: ~2.2e5, Coverage: ~50%, Max Fitness: ~4000",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Continuous control locomotion tasks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hopper",
+        "dimensionality": "11D state, 3D action"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex dynamics",
+          "non-stationary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PGA-ME"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 2000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD-Score: ~0.1e6, Coverage: ~10%, Max Fitness: ~1500",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Continuous control locomotion tasks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Walker2D",
+        "dimensionality": "17D state, 6D action"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex dynamics",
+          "non-stationary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PGA-ME"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 2000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD-Score: ~0.1e6, Coverage: ~5%, Max Fitness: ~1000",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Continuous control locomotion tasks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "HalfCheetah",
+        "dimensionality": "18D state, 6D action"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex dynamics",
+          "non-stationary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PGA-ME"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 2000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD-Score: ~1.5e6, Coverage: ~45%, Max Fitness: ~3500",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Continuous control locomotion tasks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ant",
+        "dimensionality": "87D state, 8D action"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex dynamics",
+          "non-stationary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PGA-ME"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 2000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD-Score: ~1.5e6, Coverage: ~40%, Max Fitness: ~900",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Continuous control locomotion tasks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Humanoid",
+        "dimensionality": "227D state, 17D action"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex dynamics",
+          "non-stationary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PGA-ME"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 2000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD-Score: ~0.5e5, Coverage: ~10%, Max Fitness: ~1000",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Continuous control locomotion tasks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hopper",
+        "dimensionality": "11D state, 3D action"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex dynamics",
+          "non-stationary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "QD-PG"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 2000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD-Score: ~0.05e6, Coverage: ~5%, Max Fitness: ~1000",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Continuous control locomotion tasks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Walker2D",
+        "dimensionality": "17D state, 6D action"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex dynamics",
+          "non-stationary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "QD-PG"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 2000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD-Score: ~0.05e6, Coverage: ~5%, Max Fitness: ~1000",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Continuous control locomotion tasks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "HalfCheetah",
+        "dimensionality": "18D state, 6D action"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex dynamics",
+          "non-stationary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "QD-PG"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 2000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD-Score: ~0.2e6, Coverage: ~10%, Max Fitness: ~1000",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Continuous control locomotion tasks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ant",
+        "dimensionality": "87D state, 8D action"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex dynamics",
+          "non-stationary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "QD-PG"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 2000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD-Score: ~1.2e6, Coverage: ~35%, Max Fitness: ~900",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Continuous control locomotion tasks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Humanoid",
+        "dimensionality": "227D state, 17D action"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex dynamics",
+          "non-stationary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "QD-PG"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 2000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD-Score: ~0.5e5, Coverage: ~10%, Max Fitness: ~1000",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

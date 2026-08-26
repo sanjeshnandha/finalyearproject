@@ -1,0 +1,376 @@
+{
+  "metadata": {
+    "title": "Evolutionary Feature Selection: A Novel Wrapper Feature Selection Architecture Based on Evolutionary Strategies",
+    "authors": [
+      "Aaryan Dubey",
+      "Alexandre Hoppe Inoue",
+      "Pedro Terra Fernandes Birmann",
+      "Sammuel Ramos da Silva"
+    ],
+    "year": 2022,
+    "source_file": "Dubey et al. - 2022 - Evolutionary feature selection a novel wrapper feature selection architecture based on evolutionary.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Other",
+        "problem_context": "Feature selection for classification of wine types"
+      },
+      "the_database": {
+        "dataset_name": "Wine",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Wine Classification",
+        "dimensionality": "13D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Evolutionary Feature Selection (EFS)"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 12,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average accuracy of 95.56% with 6 features using KNN classifier",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Feature selection for sonar signal classification"
+      },
+      "the_database": {
+        "dataset_name": "Sonar",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Sonar Classification",
+        "dimensionality": "60D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Evolutionary Feature Selection (EFS)"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 59,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average accuracy of 94.37% with 19 features using KNN classifier",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Feature selection for heart disease classification"
+      },
+      "the_database": {
+        "dataset_name": "Heart-StatLog",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Heart-StatLog Classification",
+        "dimensionality": "13D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Evolutionary Feature Selection (EFS)"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 12,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average accuracy of 88.46% with 6 features using KNN classifier",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Aerospace/Defense",
+        "problem_context": "Feature selection for radar return classification"
+      },
+      "the_database": {
+        "dataset_name": "Ionosphere",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Ionosphere Classification",
+        "dimensionality": "34D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Evolutionary Feature Selection (EFS)"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 33,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average accuracy of 95.83% with 6 features using KNN classifier",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Other",
+        "problem_context": "Feature selection for animal classification"
+      },
+      "the_database": {
+        "dataset_name": "Zoo",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Zoo Classification",
+        "dimensionality": "17D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Evolutionary Feature Selection (EFS)"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 16,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average accuracy of 100% with 8 features using KNN classifier",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Feature selection for breast cancer classification"
+      },
+      "the_database": {
+        "dataset_name": "WDBC",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "WDBC Classification",
+        "dimensionality": "32D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Evolutionary Feature Selection (EFS)"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 31,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average accuracy of 95.36% with 22 features using KNN classifier",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Other",
+        "problem_context": "Feature selection for voting records classification"
+      },
+      "the_database": {
+        "dataset_name": "Congress",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Congress Classification",
+        "dimensionality": "16D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Evolutionary Feature Selection (EFS)"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 15,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average accuracy of 97.95% with 6 features using KNN classifier",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Feature selection for lymphography classification"
+      },
+      "the_database": {
+        "dataset_name": "Lymphography",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Lymphography Classification",
+        "dimensionality": "18D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Evolutionary Feature Selection (EFS)"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 17,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average accuracy of 90.2% with 15 features using KNN classifier",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Feature selection for SPECT heart classification"
+      },
+      "the_database": {
+        "dataset_name": "Spect",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Spect Classification",
+        "dimensionality": "22D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Evolutionary Feature Selection (EFS)"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 21,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average accuracy of 89.01% with 5 features using KNN classifier",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Other",
+        "problem_context": "Feature selection for spam email classification"
+      },
+      "the_database": {
+        "dataset_name": "Spambase",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Spambase Classification",
+        "dimensionality": "57D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Evolutionary Feature Selection (EFS)"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 56,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average accuracy of 89.2% (SVM), 91.52% (Naive Bayes), 94.9% (AdaBoost)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

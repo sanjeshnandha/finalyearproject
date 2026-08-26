@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "title": "Measuring Feature Importance of Symbolic Regression Models Using Partial Effects",
+    "authors": [
+      "Guilherme Seidyo Imai Aldeia",
+      "Fabrício Olivetti de França"
+    ],
+    "year": 2021,
+    "source_file": "Aldeia and de França - 2021 - Measuring feature importance of symbolic regression models using partial effects.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "AI Feynman",
+        "source_platform": "https://space.mit.edu/home/tegmark/aifeynman.html"
+      },
+      "the_benchmark_problem": {
+        "name": "Feynman physics equations",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "nonlinear"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Interaction-Transformation Evolutionary Algorithm (ITEA)"
+      },
+      "parameters": {
+        "population_size": 300,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Explanation error (ExErr)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

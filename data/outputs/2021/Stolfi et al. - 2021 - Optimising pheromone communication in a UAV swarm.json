@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "title": "Optimising Pheromone Communication in a UAV Swarm",
+    "authors": [
+      "Daniel H. Stolfi",
+      "Matthias R. Brust",
+      "Grégoire Danoy",
+      "Pascal Bouvry"
+    ],
+    "year": 2021,
+    "source_file": "Stolfi et al. - 2021 - Optimising pheromone communication in a UAV swarm.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Aerospace",
+        "problem_context": "Optimising pheromone communication in a UAV swarm for surveillance"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": "ARGoS Simulator"
+      },
+      "the_benchmark_problem": {
+        "name": "CACOC+ Mobility Model Parameterisation",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "simulation-based",
+          "noisy",
+          "communication-restricted"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (GA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Area coverage",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

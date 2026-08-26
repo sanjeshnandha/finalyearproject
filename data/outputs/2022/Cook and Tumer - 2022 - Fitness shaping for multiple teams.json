@@ -1,0 +1,162 @@
+{
+  "metadata": {
+    "title": "Fitness Shaping For Multiple Teams",
+    "authors": [
+      "Joshua Cook",
+      "Kagan Tumer"
+    ],
+    "year": 2022,
+    "source_file": "Cook and Tumer - 2022 - Fitness shaping for multiple teams.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Multi-robot exploration in Rover Domain"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rover Domain",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "coupling requirement",
+          "credit assignment",
+          "coordination"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CCEA with D^Sigma"
+      },
+      "parameters": {
+        "population_size": 32,
+        "max_evaluations_or_generations": 4000,
+        "mutation_rate": 0.1,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Cumulative performance across all teams (G^Sigma)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Multi-robot exploration in Rover Domain"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rover Domain",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "coupling requirement",
+          "credit assignment",
+          "coordination"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CCEA with G^Sigma"
+      },
+      "parameters": {
+        "population_size": 32,
+        "max_evaluations_or_generations": 4000,
+        "mutation_rate": 0.1,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Cumulative performance across all teams (G^Sigma)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Multi-robot exploration in Rover Domain"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rover Domain",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "coupling requirement",
+          "credit assignment",
+          "coordination"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CCEA with D"
+      },
+      "parameters": {
+        "population_size": 32,
+        "max_evaluations_or_generations": 4000,
+        "mutation_rate": 0.1,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Cumulative performance across all teams (G^Sigma)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Multi-robot exploration in Rover Domain"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rover Domain",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "coupling requirement",
+          "credit assignment",
+          "coordination"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CCEA with G"
+      },
+      "parameters": {
+        "population_size": 32,
+        "max_evaluations_or_generations": 4000,
+        "mutation_rate": 0.1,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Cumulative performance across all teams (G^Sigma)",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

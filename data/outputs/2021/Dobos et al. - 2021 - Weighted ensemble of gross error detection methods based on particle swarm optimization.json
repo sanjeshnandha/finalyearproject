@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "title": "Weighted Ensemble of Gross Error Detection methods based on Particle Swarm Optimization",
+    "authors": [
+      "Daniel Dobos",
+      "Tien Thanh Nguyen",
+      "John McCall",
+      "Allan Wilson",
+      "Phil Stockton",
+      "Helen Corbett"
+    ],
+    "year": 2021,
+    "source_file": "Dobos et al. - 2021 - Weighted ensemble of gross error detection methods based on particle swarm optimization.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Optimizing weights and threshold for an ensemble of Gross Error Detection methods in a hydrocarbon process plant"
+      },
+      "the_database": {
+        "dataset_name": "CHARM simulated hydrocarbon process plant data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Gross Error Detection Ensemble Weight and Threshold Optimization",
+        "dimensionality": "6D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "0-1 loss function"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Particle Swarm Optimization (PSO)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy and F1 Score",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

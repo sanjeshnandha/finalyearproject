@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "title": "Emergence of Internal State-Modulated Swarming in Multi-Agent Patch Foraging System",
+    "authors": [
+      "Siddharth Chaturvedi",
+      "Ahmed El-Gazzar",
+      "Marcel van Gerven"
+    ],
+    "year": 2026,
+    "source_file": "Chaturvedi et al. - 2026 - Emergence Of Internal State-Modulated Swarming In Multi-Agent Patch Foraging System.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Multi-agent patch foraging system"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Agent Patch Foraging System",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ES"
+      },
+      "parameters": {
+        "population_size": 300,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean fitness (terminal internal resource amount)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

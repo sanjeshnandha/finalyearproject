@@ -1,0 +1,681 @@
+{
+  "metadata": {
+    "title": "Seeding Strategies for Multi-Objective Test Case Selection: An Application on Simulation-based Testing",
+    "authors": [
+      "Aitor Arrieta",
+      "Joseba Andoni Agirre",
+      "Goiuria Sagardui"
+    ],
+    "year": 2020,
+    "source_file": "Arrieta et al. - 2020 - Seeding strategies for multi-objective test case selection an application on simulation-based testi.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Automotive",
+        "problem_context": "Simulation-based test case selection for car window control software"
+      },
+      "the_database": {
+        "dataset_name": "CW Simulink Model",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "CW",
+        "dimensionality": "133"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "black-box",
+          "simulation-based"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II with Dynamic Seeding"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 25000,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Automotive",
+        "problem_context": "Simulation-based test case selection for Electro-Mechanical Braking system"
+      },
+      "the_database": {
+        "dataset_name": "EMB Simulink Model",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "EMB",
+        "dimensionality": "150"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "black-box",
+          "simulation-based"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II with Dynamic Seeding"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 25000,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Automotive",
+        "problem_context": "Simulation-based test case selection for Cruise Control software"
+      },
+      "the_database": {
+        "dataset_name": "CC Simulink Model",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "CC",
+        "dimensionality": "150"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "black-box",
+          "simulation-based"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II with Dynamic Seeding"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 25000,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Simulation-based test case selection for a toy Simulink model"
+      },
+      "the_database": {
+        "dataset_name": "Tiny Simulink Model",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "Tiny",
+        "dimensionality": "150"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "black-box",
+          "simulation-based"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II with Dynamic Seeding"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 25000,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Simulation-based test case selection for Alternating Current Engine control software"
+      },
+      "the_database": {
+        "dataset_name": "AC Engine Simulink Model",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "AC Engine",
+        "dimensionality": "120"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "black-box",
+          "simulation-based"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II with Dynamic Seeding"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 25000,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Simulation-based test case selection for Two Tanks system"
+      },
+      "the_database": {
+        "dataset_name": "Two Tanks Simulink Model",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "Two Tanks",
+        "dimensionality": "150"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "black-box",
+          "simulation-based"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II with Dynamic Seeding"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 25000,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Automotive",
+        "problem_context": "Simulation-based test case selection for car window control software"
+      },
+      "the_database": {
+        "dataset_name": "CW Simulink Model",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "CW",
+        "dimensionality": "133"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "black-box",
+          "simulation-based"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II with Static Seeding (30%)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 25000,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Automotive",
+        "problem_context": "Simulation-based test case selection for Electro-Mechanical Braking system"
+      },
+      "the_database": {
+        "dataset_name": "EMB Simulink Model",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "EMB",
+        "dimensionality": "150"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "black-box",
+          "simulation-based"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II with Static Seeding (30%)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 25000,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Automotive",
+        "problem_context": "Simulation-based test case selection for Cruise Control software"
+      },
+      "the_database": {
+        "dataset_name": "CC Simulink Model",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "CC",
+        "dimensionality": "150"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "black-box",
+          "simulation-based"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II with Static Seeding (30%)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 25000,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Simulation-based test case selection for a toy Simulink model"
+      },
+      "the_database": {
+        "dataset_name": "Tiny Simulink Model",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "Tiny",
+        "dimensionality": "150"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "black-box",
+          "simulation-based"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II with Static Seeding (30%)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 25000,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Simulation-based test case selection for Alternating Current Engine control software"
+      },
+      "the_database": {
+        "dataset_name": "AC Engine Simulink Model",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "AC Engine",
+        "dimensionality": "120"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "black-box",
+          "simulation-based"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II with Static Seeding (30%)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 25000,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Simulation-based test case selection for Two Tanks system"
+      },
+      "the_database": {
+        "dataset_name": "Two Tanks Simulink Model",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "Two Tanks",
+        "dimensionality": "150"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "black-box",
+          "simulation-based"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II with Static Seeding (30%)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 25000,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Automotive",
+        "problem_context": "Simulation-based test case selection for car window control software"
+      },
+      "the_database": {
+        "dataset_name": "CW Simulink Model",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "CW",
+        "dimensionality": "133"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "black-box",
+          "simulation-based"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II (Non-Seeded)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 25000,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Automotive",
+        "problem_context": "Simulation-based test case selection for Electro-Mechanical Braking system"
+      },
+      "the_database": {
+        "dataset_name": "EMB Simulink Model",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "EMB",
+        "dimensionality": "150"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "black-box",
+          "simulation-based"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II (Non-Seeded)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 25000,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Automotive",
+        "problem_context": "Simulation-based test case selection for Cruise Control software"
+      },
+      "the_database": {
+        "dataset_name": "CC Simulink Model",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "CC",
+        "dimensionality": "150"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "black-box",
+          "simulation-based"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II (Non-Seeded)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 25000,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Simulation-based test case selection for a toy Simulink model"
+      },
+      "the_database": {
+        "dataset_name": "Tiny Simulink Model",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "Tiny",
+        "dimensionality": "150"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "black-box",
+          "simulation-based"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II (Non-Seeded)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 25000,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Simulation-based test case selection for Alternating Current Engine control software"
+      },
+      "the_database": {
+        "dataset_name": "AC Engine Simulink Model",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "AC Engine",
+        "dimensionality": "120"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "black-box",
+          "simulation-based"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II (Non-Seeded)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 25000,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Simulation-based test case selection for Two Tanks system"
+      },
+      "the_database": {
+        "dataset_name": "Two Tanks Simulink Model",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "Two Tanks",
+        "dimensionality": "150"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "black-box",
+          "simulation-based"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II (Non-Seeded)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 25000,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

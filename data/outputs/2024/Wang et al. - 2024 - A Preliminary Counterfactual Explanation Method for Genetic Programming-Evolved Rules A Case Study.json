@@ -1,0 +1,129 @@
+{
+  "metadata": {
+    "title": "A Preliminary Counterfactual Explanation Method for Genetic Programming-Evolved Rules: A Case Study on Uncertain Capacitated Arc Routing Problem",
+    "authors": [
+      "Shaolin Wang",
+      "Yi Mei",
+      "Mengjie Zhang"
+    ],
+    "year": 2024,
+    "source_file": "Wang et al. - 2024 - A Preliminary Counterfactual Explanation Method for Genetic Programming-Evolved Rules A Case Study.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Uncertain Capacitated Arc Routing Problem"
+      },
+      "the_database": {
+        "dataset_name": "Ugdb and Uval",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Uncertain Capacitated Arc Routing Problem",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "dynamic",
+          "stochastic",
+          "combinatorial",
+          "uncertain"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (CF-GA)"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Feasibility, changes, and priority loss",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Uncertain Capacitated Arc Routing Problem"
+      },
+      "the_database": {
+        "dataset_name": "Ugdb and Uval",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Uncertain Capacitated Arc Routing Problem",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "dynamic",
+          "stochastic",
+          "combinatorial",
+          "uncertain"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Differential Evolution (CF-DE)"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Feasibility, changes, and priority loss",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Uncertain Capacitated Arc Routing Problem"
+      },
+      "the_database": {
+        "dataset_name": "Ugdb and Uval",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Uncertain Capacitated Arc Routing Problem",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "dynamic",
+          "stochastic",
+          "combinatorial",
+          "uncertain"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Particle Swarm Optimization (CF-PSO)"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Feasibility, changes, and priority loss",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

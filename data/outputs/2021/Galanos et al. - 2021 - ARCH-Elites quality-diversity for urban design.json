@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "title": "ARCH-Elites: Quality-Diversity for Urban Design",
+    "authors": [
+      "Theodoros Galanos",
+      "Antonios Liapis",
+      "Georgios N. Yannakakis",
+      "Reinhard Koenig"
+    ],
+    "year": 2021,
+    "source_file": "Galanos et al. - 2021 - ARCH-Elites quality-diversity for urban design.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Reconfiguring large-scale urban layouts for wind comfort and density"
+      },
+      "the_database": {
+        "dataset_name": "Harvard University campus area",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Harvard University campus urban layout",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ARCH-Elites (MAP-Elites)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 4000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Maximum Fitness (Floor Space Index), Coverage, QD-score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Reconfiguring large-scale urban layouts for wind comfort and density"
+      },
+      "the_database": {
+        "dataset_name": "MIT campus area",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MIT campus urban layout",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ARCH-Elites (MAP-Elites)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 4000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Maximum Fitness (Floor Space Index), Coverage, QD-score",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

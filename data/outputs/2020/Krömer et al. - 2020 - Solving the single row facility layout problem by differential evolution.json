@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "title": "Solving the Single Row Facility Layout Problem by Differential Evolution",
+    "authors": [
+      "Pavel Krömer",
+      "Jan Platoš",
+      "Václav Snášel"
+    ],
+    "year": 2020,
+    "source_file": "Krömer et al. - 2020 - Solving the single row facility layout problem by differential evolution.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Single Row Facility Layout Problem"
+      },
+      "the_database": {
+        "dataset_name": "OPTSICOM SRFLP instances",
+        "source_platform": "OPTSICOM project web page"
+      },
+      "the_benchmark_problem": {
+        "name": "Single Row Facility Layout Problem (SRFLP)",
+        "dimensionality": "60D to 110D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "NP-hard",
+          "combinatorial",
+          "permutation-based"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Differential Evolution (/DE/rand/1)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Single Row Facility Layout Problem"
+      },
+      "the_database": {
+        "dataset_name": "OPTSICOM SRFLP instances",
+        "source_platform": "OPTSICOM project web page"
+      },
+      "the_benchmark_problem": {
+        "name": "Single Row Facility Layout Problem (SRFLP)",
+        "dimensionality": "60D to 110D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "NP-hard",
+          "combinatorial",
+          "permutation-based"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Differential Evolution (/DE/rand/1/opt)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": 0.07,
+        "crossover_rate": 0.03
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Single Row Facility Layout Problem"
+      },
+      "the_database": {
+        "dataset_name": "OPTSICOM SRFLP instances",
+        "source_platform": "OPTSICOM project web page"
+      },
+      "the_benchmark_problem": {
+        "name": "Single Row Facility Layout Problem (SRFLP)",
+        "dimensionality": "60D to 110D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "NP-hard",
+          "combinatorial",
+          "permutation-based"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Success-History Based Parameter Adaptation for Differential Evolution (SHADE)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Single Row Facility Layout Problem"
+      },
+      "the_database": {
+        "dataset_name": "OPTSICOM SRFLP instances",
+        "source_platform": "OPTSICOM project web page"
+      },
+      "the_benchmark_problem": {
+        "name": "Single Row Facility Layout Problem (SRFLP)",
+        "dimensionality": "60D to 110D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "NP-hard",
+          "combinatorial",
+          "permutation-based"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Modified Gaussian Bare-Bones Differential Evolution (MGBBDE)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

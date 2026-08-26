@@ -1,0 +1,556 @@
+{
+  "metadata": {
+    "title": "Novelty Search makes Evolvability Inevitable",
+    "authors": [
+      "Stephane Doncieux",
+      "Giuseppe Paolo",
+      "Alban Laflaquière",
+      "Alexandre Coninx"
+    ],
+    "year": 2020,
+    "source_file": "Doncieux et al. - 2020 - Novelty search makes evolvability inevitable.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Toy Problem",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "redundant",
+          "periodic"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NS novel"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Reachability and Uniformity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Toy Problem",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "redundant",
+          "periodic"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NS random"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Reachability and Uniformity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Toy Problem",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "redundant",
+          "periodic"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Distance to Explored Area (DEA)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Reachability and Uniformity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Toy Problem",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "redundant",
+          "periodic"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Random"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Reachability and Uniformity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Toy Problem",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "redundant",
+          "periodic"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fitness"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Reachability and Uniformity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robot maze navigation"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hard Maze",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "bounded behavior space",
+          "dead ends"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NS novel"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Reachability and Uniformity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robot maze navigation"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hard Maze",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "bounded behavior space",
+          "dead ends"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NS random"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Reachability and Uniformity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robot maze navigation"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hard Maze",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "bounded behavior space",
+          "dead ends"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Distance to Explored Area (DEA)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Reachability and Uniformity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robot maze navigation"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hard Maze",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "bounded behavior space",
+          "dead ends"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Random"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Reachability and Uniformity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robot maze navigation"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hard Maze",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "bounded behavior space",
+          "dead ends"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fitness"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Reachability and Uniformity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robotic arm ball pushing"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Robotic Arm",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "bounded behavior space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NS novel"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Reachability and Uniformity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robotic arm ball pushing"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Robotic Arm",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "bounded behavior space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NS random"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Reachability and Uniformity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robotic arm ball pushing"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Robotic Arm",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "bounded behavior space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Distance to Explored Area (DEA)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Reachability and Uniformity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robotic arm ball pushing"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Robotic Arm",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "bounded behavior space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Random"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Reachability and Uniformity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robotic arm ball pushing"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Robotic Arm",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "bounded behavior space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fitness"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Reachability and Uniformity",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

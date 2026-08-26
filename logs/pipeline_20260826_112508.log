@@ -1,0 +1,41 @@
+2026-08-26 11:25:09.032 | INFO     | gecco_pipeline.extractor:__init__:32 - Initialized GeccoExtractor with model: gemini-3.5-flash and 3 API keys
+2026-08-26 11:25:09.032 | INFO     | gecco_pipeline.processor:__init__:57 - BatchProcessor initialized
+2026-08-26 11:25:09.033 | INFO     | gecco_pipeline.utils:discover_pdfs:62 - Discovered 79 PDF files in data/pdfs/2022
+2026-08-26 11:25:09.033 | INFO     | gecco_pipeline.processor:process_batch:129 - Skipping 72 already-processed PDFs
+2026-08-26 11:25:09.034 | INFO     | gecco_pipeline.processor:process_batch:145 - Processing 7 PDFs...
+2026-08-26 11:25:09.063 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Wang et al. - 2022 - Progressive sampling surrogate-assisted particle swarm optimization for large-scale expensive optimi.pdf
+2026-08-26 11:25:09.063 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Wang et al. - 2022 - Progressive sampling surrogate-assisted particle swarm optimization for large-scale expensive optimi.pdf to Gemini File API...
+2026-08-26 11:25:15.264 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/x75598ki4h8u
+2026-08-26 11:26:24.685 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 50 entries from Wang et al. - 2022 - Progressive sampling surrogate-assisted particle swarm optimization for large-scale expensive optimi.pdf
+2026-08-26 11:26:24.696 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2022/Wang et al. - 2022 - Progressive sampling surrogate-assisted particle swarm optimization for large-scale expensive optimi.json
+2026-08-26 11:26:24.698 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Whitley and Ochoa - 2022 - Local optima organize into lattices under recombination an example using the traveling salesman pro.pdf
+2026-08-26 11:26:24.698 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Whitley and Ochoa - 2022 - Local optima organize into lattices under recombination an example using the traveling salesman pro.pdf to Gemini File API...
+2026-08-26 11:26:28.565 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/855f5wfllk2x
+2026-08-26 11:26:47.291 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 1 entries from Whitley and Ochoa - 2022 - Local optima organize into lattices under recombination an example using the traveling salesman pro.pdf
+2026-08-26 11:26:47.297 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2022/Whitley and Ochoa - 2022 - Local optima organize into lattices under recombination an example using the traveling salesman pro.json
+2026-08-26 11:26:47.299 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Yang et al. - 2022 - Social learning particle swarm optimization with two-surrogate collaboration for offline data-driven.pdf
+2026-08-26 11:26:47.299 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Yang et al. - 2022 - Social learning particle swarm optimization with two-surrogate collaboration for offline data-driven.pdf to Gemini File API...
+2026-08-26 11:26:52.589 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/pki6t2e8a9d4
+2026-08-26 11:27:15.275 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 6 entries from Yang et al. - 2022 - Social learning particle swarm optimization with two-surrogate collaboration for offline data-driven.pdf
+2026-08-26 11:27:15.280 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2022/Yang et al. - 2022 - Social learning particle swarm optimization with two-surrogate collaboration for offline data-driven.json
+2026-08-26 11:27:15.283 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Zheng and Doerr - 2022 - Better approximation guarantees for the NSGA-II by using the current crowding distance.pdf
+2026-08-26 11:27:15.283 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Zheng and Doerr - 2022 - Better approximation guarantees for the NSGA-II by using the current crowding distance.pdf to Gemini File API...
+2026-08-26 11:27:19.319 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/5eifcm8oeztt
+2026-08-26 11:27:41.050 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 2 entries from Zheng and Doerr - 2022 - Better approximation guarantees for the NSGA-II by using the current crowding distance.pdf
+2026-08-26 11:27:41.055 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2022/Zheng and Doerr - 2022 - Better approximation guarantees for the NSGA-II by using the current crowding distance.json
+2026-08-26 11:27:41.059 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: de Souza and Ritt - 2022 - Improved regression models for algorithm configuration.pdf
+2026-08-26 11:27:41.059 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading de Souza and Ritt - 2022 - Improved regression models for algorithm configuration.pdf to Gemini File API...
+2026-08-26 11:27:46.257 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/qy0uqg9d16f1
+2026-08-26 11:28:15.347 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 4 entries from de Souza and Ritt - 2022 - Improved regression models for algorithm configuration.pdf
+2026-08-26 11:28:15.352 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2022/de Souza and Ritt - 2022 - Improved regression models for algorithm configuration.json
+2026-08-26 11:28:15.353 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: de Winter et al. - 2022 - Multi-point acquisition function for constraint parallel efficient multi-objective optimization.pdf
+2026-08-26 11:28:15.354 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading de Winter et al. - 2022 - Multi-point acquisition function for constraint parallel efficient multi-objective optimization.pdf to Gemini File API...
+2026-08-26 11:28:20.149 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/wdjkc6b1fauo
+2026-08-26 11:28:46.983 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 4 entries from de Winter et al. - 2022 - Multi-point acquisition function for constraint parallel efficient multi-objective optimization.pdf
+2026-08-26 11:28:46.992 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2022/de Winter et al. - 2022 - Multi-point acquisition function for constraint parallel efficient multi-objective optimization.json
+2026-08-26 11:28:46.994 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: van Diggelen et al. - 2022 - Environment induced emergence of collective behavior in evolving swarms with limited sensing.pdf
+2026-08-26 11:28:46.994 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading van Diggelen et al. - 2022 - Environment induced emergence of collective behavior in evolving swarms with limited sensing.pdf to Gemini File API...
+2026-08-26 11:28:52.687 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/ippmiyods26n
+2026-08-26 11:29:18.895 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 3 entries from van Diggelen et al. - 2022 - Environment induced emergence of collective behavior in evolving swarms with limited sensing.pdf
+2026-08-26 11:29:18.901 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2022/van Diggelen et al. - 2022 - Environment induced emergence of collective behavior in evolving swarms with limited sensing.json
+2026-08-26 11:29:18.904 | INFO     | gecco_pipeline.processor:_save_processing_report:220 - Processing report saved to data/reports/processing_report_20260826_112918.json

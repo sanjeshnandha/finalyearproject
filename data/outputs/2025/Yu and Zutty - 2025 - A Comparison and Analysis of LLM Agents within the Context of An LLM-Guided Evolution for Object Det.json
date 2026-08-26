@@ -1,0 +1,125 @@
+{
+  "metadata": {
+    "title": "A Comparison and Analysis of LLM Agents within the Context of An LLM-Guided Evolution for Object Detection",
+    "authors": [
+      "YiMing Yu",
+      "Jason Zutty"
+    ],
+    "year": 2025,
+    "source_file": "Yu and Zutty - 2025 - A Comparison and Analysis of LLM Agents within the Context of An LLM-Guided Evolution for Object Det.pdf",
+    "gecco_track": "GECCO '25 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Optimizing YOLOv3 architecture for object detection on the KITTI dataset"
+      },
+      "the_database": {
+        "dataset_name": "KITTI dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "YOLOv3 Architecture Optimization",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LLM-Guided Evolution (Mixtral-8x7B)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 42,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume, Number of Pareto frontier individuals, mAP@50",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Optimizing YOLOv3 architecture for object detection on the KITTI dataset"
+      },
+      "the_database": {
+        "dataset_name": "KITTI dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "YOLOv3 Architecture Optimization",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LLM-Guided Evolution (Llama-3.1-70B)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume, Number of Pareto frontier individuals, mAP@50",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Optimizing YOLOv3 architecture for object detection on the KITTI dataset"
+      },
+      "the_database": {
+        "dataset_name": "KITTI dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "YOLOv3 Architecture Optimization",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LLM-Guided Evolution (Llama-3.3-70B)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume, Number of Pareto frontier individuals, mAP@50",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

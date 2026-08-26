@@ -1,0 +1,862 @@
+{
+  "metadata": {
+    "title": "Designing Landscape-Aware Benchmarks with Explicit Local Optima for Single- and Multi-Objective Optimization",
+    "authors": [
+      "Shuhei Tanaka",
+      "Shoichiro Tanaka",
+      "Kippei Mizuta",
+      "Toshiharu Hatanaka"
+    ],
+    "year": 2026,
+    "source_file": "Tanaka et al. - 2026 - Designing Landscape-Aware Benchmarks with Explicit Local Optima for Single- and Multi-Objective Opti.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BBOB F1 (Sphere)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "separable",
+          "smooth"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(1, 200)-Evolution Strategy"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Spearman rank correlation coefficient",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BBOB F2 (Ellipsoid Separable)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "separable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(1, 200)-Evolution Strategy"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Spearman rank correlation coefficient",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BBOB F3 (Rastrigin Separable)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "separable",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(1, 200)-Evolution Strategy"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Spearman rank correlation coefficient",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BBOB F4 (Skew Rastrigin-Bueche)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "separable",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(1, 200)-Evolution Strategy"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Spearman rank correlation coefficient",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BBOB F5 (Linear Slope)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "separable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(1, 200)-Evolution Strategy"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Spearman rank correlation coefficient",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BBOB F6 (Attractive Sector)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "low or moderate conditioning"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(1, 200)-Evolution Strategy"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Spearman rank correlation coefficient",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BBOB F7 (Step-Ellipsoid)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "low or moderate conditioning"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(1, 200)-Evolution Strategy"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Spearman rank correlation coefficient",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BBOB F8 (Rosenbrock Original)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "low or moderate conditioning"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(1, 200)-Evolution Strategy"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Spearman rank correlation coefficient",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BBOB F9 (Rosenbrock Rotated)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "low or moderate conditioning"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(1, 200)-Evolution Strategy"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Spearman rank correlation coefficient",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BBOB F10 (Ellipsoid)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "high conditioning"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(1, 200)-Evolution Strategy"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Spearman rank correlation coefficient",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BBOB F11 (Discus)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "high conditioning",
+          "strong ill-conditioning"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(1, 200)-Evolution Strategy"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Spearman rank correlation coefficient",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BBOB F12 (Bent Cigar)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "high conditioning"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(1, 200)-Evolution Strategy"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Spearman rank correlation coefficient",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BBOB F13 (Sharp Ridge)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "high conditioning"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(1, 200)-Evolution Strategy"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Spearman rank correlation coefficient",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BBOB F14 (Sum of Different Powers)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "high conditioning"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(1, 200)-Evolution Strategy"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Spearman rank correlation coefficient",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BBOB F15 (Rastrigin)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "adequate global structure"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(1, 200)-Evolution Strategy"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Spearman rank correlation coefficient",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BBOB F16 (Weierstrass)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "adequate global structure",
+          "high ruggedness"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(1, 200)-Evolution Strategy"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Spearman rank correlation coefficient",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BBOB F17 (Schaffer F7, Condition 10)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "adequate global structure"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(1, 200)-Evolution Strategy"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Spearman rank correlation coefficient",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BBOB F18 (Schaffer F7, Condition 1000)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "adequate global structure"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(1, 200)-Evolution Strategy"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Spearman rank correlation coefficient",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BBOB F19 (Griewank-Rosenbrock F8F2)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "adequate global structure"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(1, 200)-Evolution Strategy"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Spearman rank correlation coefficient",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BBOB F20 (Schwefel x sin(x))",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "weak global structure"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(1, 200)-Evolution Strategy"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Spearman rank correlation coefficient",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BBOB F21 (Gallagher 101 Peaks)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "weak global structure"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(1, 200)-Evolution Strategy"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Spearman rank correlation coefficient",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BBOB F22 (Gallagher 21 Peaks)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "weak global structure"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(1, 200)-Evolution Strategy"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Spearman rank correlation coefficient",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BBOB F23 (Katsuura)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "weak global structure",
+          "high ruggedness"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(1, 200)-Evolution Strategy"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Spearman rank correlation coefficient",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BBOB F24 (Lunacek Bi-Rastrigin)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "weak global structure"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(1, 200)-Evolution Strategy"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Spearman rank correlation coefficient",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

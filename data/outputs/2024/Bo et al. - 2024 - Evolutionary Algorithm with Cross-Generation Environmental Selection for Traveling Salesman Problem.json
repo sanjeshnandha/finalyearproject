@@ -1,0 +1,117 @@
+{
+  "metadata": {
+    "title": "Evolutionary Algorithm with Cross-Generation Environmental Selection for Traveling Salesman Problem",
+    "authors": [
+      "Zi-Yang Bo",
+      "Qiang Yang",
+      "Ya-Hui Jia",
+      "Xu-Dong Gao",
+      "Zhen-Yu Lu",
+      "Jun Zhang"
+    ],
+    "year": 2024,
+    "source_file": "Bo et al. - 2024 - Evolutionary Algorithm with Cross-Generation Environmental Selection for Traveling Salesman Problem.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Traveling Salesman Problem",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GA-CGES"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.02,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Tour length (Best, Worst, Mean)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Traveling Salesman Problem",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GA-WES"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.02,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Tour length (Best, Worst, Mean)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Traveling Salesman Problem",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GA-POES"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.02,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Tour length (Best, Worst, Mean)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

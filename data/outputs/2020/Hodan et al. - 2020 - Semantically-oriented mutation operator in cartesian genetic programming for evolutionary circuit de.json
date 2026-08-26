@@ -1,0 +1,119 @@
+{
+  "metadata": {
+    "title": "Semantically-Oriented Mutation Operator in Cartesian Genetic Programming for Evolutionary Circuit Design",
+    "authors": [
+      "David Hodan",
+      "Vojtech Mrazek",
+      "Zdenek Vasicek"
+    ],
+    "year": 2020,
+    "source_file": "Hodan et al. - 2020 - Semantically-oriented mutation operator in cartesian genetic programming for evolutionary circuit de.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "10+10-bit Adder",
+        "dimensionality": "20-bit input"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SOMO-CGP"
+      },
+      "parameters": {
+        "population_size": 2,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "5x5-bit Multiplier",
+        "dimensionality": "10-bit input"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged",
+          "challenging search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SOMO-CGP"
+      },
+      "parameters": {
+        "population_size": 2,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "10-bit Parity",
+        "dimensionality": "10-bit input"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "deceptive"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SOMO-CGP"
+      },
+      "parameters": {
+        "population_size": 2,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

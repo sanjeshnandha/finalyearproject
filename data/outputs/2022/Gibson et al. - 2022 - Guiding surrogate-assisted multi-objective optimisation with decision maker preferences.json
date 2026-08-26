@@ -1,0 +1,621 @@
+{
+  "metadata": {
+    "title": "Guiding Surrogate-Assisted Multi-Objective Optimisation with Decision Maker Preferences",
+    "authors": [
+      "Finley J. Gibson",
+      "Richard M. Everson",
+      "Jonathan E. Fieldsend"
+    ],
+    "year": 2022,
+    "source_file": "Gibson et al. - 2022 - Guiding surrogate-assisted multi-objective optimisation with decision maker preferences.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WFG1",
+        "dimensionality": "3D, 4D, 5D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Directed Summary Attainment Front (DSAF)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Dominated hypervolume (Ha, Hb)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WFG2",
+        "dimensionality": "6D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "discontinuous"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Directed Summary Attainment Front (DSAF)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Dominated hypervolume (Ha, Hb)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WFG3",
+        "dimensionality": "6D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Directed Summary Attainment Front (DSAF)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Dominated hypervolume (Ha, Hb)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WFG4",
+        "dimensionality": "6D, 8D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Directed Summary Attainment Front (DSAF)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Dominated hypervolume (Ha, Hb)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WFG5",
+        "dimensionality": "6D, 8D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "deceptive"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Directed Summary Attainment Front (DSAF)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Dominated hypervolume (Ha, Hb)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WFG6",
+        "dimensionality": "6D, 10D, 12D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Directed Summary Attainment Front (DSAF)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Dominated hypervolume (Ha, Hb)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WFG1",
+        "dimensionality": "3D, 4D, 5D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Summary Attainment Front (SAF)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Dominated hypervolume (Ha, Hb)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WFG2",
+        "dimensionality": "6D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "discontinuous"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Summary Attainment Front (SAF)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Dominated hypervolume (Ha, Hb)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WFG3",
+        "dimensionality": "6D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Summary Attainment Front (SAF)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Dominated hypervolume (Ha, Hb)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WFG4",
+        "dimensionality": "6D, 8D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Summary Attainment Front (SAF)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Dominated hypervolume (Ha, Hb)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WFG5",
+        "dimensionality": "6D, 8D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "deceptive"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Summary Attainment Front (SAF)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Dominated hypervolume (Ha, Hb)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WFG6",
+        "dimensionality": "6D, 10D, 12D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Summary Attainment Front (SAF)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Dominated hypervolume (Ha, Hb)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WFG1",
+        "dimensionality": "3D, 4D, 5D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ParEGO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Dominated hypervolume (Ha, Hb)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WFG2",
+        "dimensionality": "6D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "discontinuous"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ParEGO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Dominated hypervolume (Ha, Hb)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WFG3",
+        "dimensionality": "6D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ParEGO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Dominated hypervolume (Ha, Hb)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WFG4",
+        "dimensionality": "6D, 8D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ParEGO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Dominated hypervolume (Ha, Hb)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WFG5",
+        "dimensionality": "6D, 8D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "deceptive"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ParEGO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Dominated hypervolume (Ha, Hb)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WFG6",
+        "dimensionality": "6D, 10D, 12D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ParEGO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Dominated hypervolume (Ha, Hb)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

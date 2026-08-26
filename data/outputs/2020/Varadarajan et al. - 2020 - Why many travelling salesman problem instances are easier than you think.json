@@ -1,0 +1,234 @@
+{
+  "metadata": {
+    "title": "Why Many Travelling Salesman Problem Instances Are Easier Than You Think",
+    "authors": [
+      "Swetha Varadarajan",
+      "Darrell Whitley",
+      "Gabriela Ochoa"
+    ],
+    "year": 2020,
+    "source_file": "Varadarajan et al. - 2020 - Why many travelling salesman problem instances are easier than you think.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "TSPLIB database"
+      },
+      "the_benchmark_problem": {
+        "name": "att532",
+        "dimensionality": "532"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Big Valley structure",
+          "multiple funnels",
+          "two global optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MGA+EAX"
+      },
+      "parameters": {
+        "population_size": 300,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average generations to convergence and success rate (30/30 runs)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "TSPLIB database"
+      },
+      "the_benchmark_problem": {
+        "name": "att532",
+        "dimensionality": "532"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Big Valley structure",
+          "multiple funnels",
+          "two global optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EAX"
+      },
+      "parameters": {
+        "population_size": 300,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average generations to convergence and success rate (30/30 runs)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "TSPLIB database"
+      },
+      "the_benchmark_problem": {
+        "name": "att532",
+        "dimensionality": "532"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Big Valley structure",
+          "multiple funnels",
+          "two global optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Mixing GA"
+      },
+      "parameters": {
+        "population_size": 16384,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average generations to convergence and success rate (30/30 runs)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "TSPLIB database"
+      },
+      "the_benchmark_problem": {
+        "name": "u2319",
+        "dimensionality": "2319"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "two global optima far apart",
+          "difficult to converge"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MGA+EAX"
+      },
+      "parameters": {
+        "population_size": 300,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average generations to convergence and success rate (22/30 runs)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "TSPLIB database"
+      },
+      "the_benchmark_problem": {
+        "name": "u2319",
+        "dimensionality": "2319"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "two global optima far apart",
+          "difficult to converge"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EAX"
+      },
+      "parameters": {
+        "population_size": 300,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average generations to convergence and success rate (0/30 runs)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "TSPLIB database"
+      },
+      "the_benchmark_problem": {
+        "name": "u2319",
+        "dimensionality": "2319"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "two global optima far apart",
+          "difficult to converge"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Mixing GA"
+      },
+      "parameters": {
+        "population_size": 16384,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average generations to convergence and success rate (0/30 runs)",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

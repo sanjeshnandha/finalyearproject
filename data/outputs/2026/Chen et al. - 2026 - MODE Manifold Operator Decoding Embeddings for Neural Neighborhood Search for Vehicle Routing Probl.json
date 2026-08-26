@@ -1,0 +1,303 @@
+{
+  "metadata": {
+    "title": "MODE: Manifold Operator Decoding Embeddings for Neural Neighborhood Search for Vehicle Routing Problems",
+    "authors": [
+      "Xiang-Ling Chen",
+      "Yi Mei",
+      "Mengjie Zhang"
+    ],
+    "year": 2026,
+    "source_file": "Chen et al. - 2026 - MODE Manifold Operator Decoding Embeddings for Neural Neighborhood Search for Vehicle Routing Probl.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Capacitated Vehicle Routing Problem"
+      },
+      "the_database": {
+        "dataset_name": "Synthetic Uniform CVRP Dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CVRP",
+        "dimensionality": "20, 50, 100 nodes"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MODE (Manifold Operator Decoding Embeddings)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average travel distance (Best Cost: 6.0805 for N=20, 10.3436 for N=50, 15.5915 for N=100)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Capacitated Vehicle Routing Problem"
+      },
+      "the_database": {
+        "dataset_name": "CVRPLIB Set X",
+        "source_platform": "CVRPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "CVRPLIB",
+        "dimensionality": "Up to 1001 nodes"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MODE (Manifold Operator Decoding Embeddings)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average optimality gap to Best Known Solution (4.306%)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Capacitated Vehicle Routing Problem"
+      },
+      "the_database": {
+        "dataset_name": "Synthetic Uniform CVRP Dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CVRP",
+        "dimensionality": "20, 50, 100 nodes"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GAMA"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 20000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average travel distance (Best Cost: 6.0806 for N=20, 10.3512 for N=50, 15.6178 for N=100)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Capacitated Vehicle Routing Problem"
+      },
+      "the_database": {
+        "dataset_name": "CVRPLIB Set X",
+        "source_platform": "CVRPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "CVRPLIB",
+        "dimensionality": "Up to 1001 nodes"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GAMA"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 20000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average optimality gap to Best Known Solution (4.957%)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Capacitated Vehicle Routing Problem"
+      },
+      "the_database": {
+        "dataset_name": "Synthetic Uniform CVRP Dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CVRP",
+        "dimensionality": "20, 50, 100 nodes"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DACT"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 20000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average travel distance (Best Cost: 6.0808 for N=20, 10.3513 for N=50, 15.6853 for N=100)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Capacitated Vehicle Routing Problem"
+      },
+      "the_database": {
+        "dataset_name": "CVRPLIB Set X",
+        "source_platform": "CVRPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "CVRPLIB",
+        "dimensionality": "Up to 1001 nodes"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DACT"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 20000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average optimality gap to Best Known Solution (25.305%)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Capacitated Vehicle Routing Problem"
+      },
+      "the_database": {
+        "dataset_name": "Synthetic Uniform CVRP Dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CVRP",
+        "dimensionality": "20, 50, 100 nodes"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ant Colony Optimization (ACO)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average travel distance (Best Cost: 6.3097 for N=20, 11.3401 for N=50, 18.3076 for N=100)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Capacitated Vehicle Routing Problem"
+      },
+      "the_database": {
+        "dataset_name": "Synthetic Uniform CVRP Dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CVRP",
+        "dimensionality": "20, 50, 100 nodes"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Variable Neighborhood Search (VNS)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average travel distance (Best Cost: 6.0827 for N=20, 10.4140 for N=50, 15.8843 for N=100)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

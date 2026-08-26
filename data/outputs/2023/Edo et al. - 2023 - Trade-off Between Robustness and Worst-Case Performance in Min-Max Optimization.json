@@ -1,0 +1,232 @@
+{
+  "metadata": {
+    "title": "Trade-off Between Robustness and Worst-Case Performance in Min-Max Optimization",
+    "authors": [
+      "Hinata Edo",
+      "Yoshiki Miyauchi",
+      "Atsuo Maki",
+      "Youhei Akimoto"
+    ],
+    "year": 2023,
+    "source_file": "Edo et al. - 2023 - Trade-off Between Robustness and Worst-Case Performance in Min-Max Optimization.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Synthetic Min-Max Test Problem",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "weak Pareto interval",
+          "quadratic"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Proposed approach (Adversarial-CMA-ES with WPI)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average utility value U_fth",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Synthetic Min-Max Test Problem",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "weak Pareto interval",
+          "quadratic"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Adversarial-CMA-ES without WPI"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average utility value U_fth",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robust ship berthing control under steady wind disturbance"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ship Berthing Control Task 1 (Steady Wind Disturbance)",
+        "dimensionality": "99D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "wind disturbance",
+          "collision penalty"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Proposed approach (Adversarial-CMA-ES with Pareto front interpolation)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 500000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average utility value U_10",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robust ship berthing control under steady wind disturbance"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ship Berthing Control Task 1 (Steady Wind Disturbance)",
+        "dimensionality": "99D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "wind disturbance",
+          "collision penalty"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Adversarial-CMA-ES without interpolation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 500000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average utility value U_10",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robust ship berthing control under general state-dependent disturbance"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ship Berthing Control Task 2 (General Disturbance)",
+        "dimensionality": "99D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "state-dependent disturbance",
+          "collision penalty"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Proposed approach (Adversarial-CMA-ES with Pareto front interpolation)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 500000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average utility value U_10",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robust ship berthing control under general state-dependent disturbance"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ship Berthing Control Task 2 (General Disturbance)",
+        "dimensionality": "99D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "state-dependent disturbance",
+          "collision penalty"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Adversarial-CMA-ES without interpolation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 500000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average utility value U_10",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

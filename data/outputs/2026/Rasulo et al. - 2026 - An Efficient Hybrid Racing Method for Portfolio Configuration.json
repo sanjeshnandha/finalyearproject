@@ -1,0 +1,1601 @@
+{
+  "metadata": {
+    "title": "An Efficient Hybrid Racing Method for Portfolio Configuration",
+    "authors": [
+      "Anthony Rasulo",
+      "Manuel López-Ibáñez",
+      "Julia Handl",
+      "Mario Andrés Muñoz",
+      "Kate Smith-Miles"
+    ],
+    "year": 2026,
+    "source_file": "Rasulo et al. - 2026 - An Efficient Hybrid Racing Method for Portfolio Configuration.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "SPEAR-SWV",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SPEAR-SWV",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "F-Race"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.02",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "SPEAR-SWV",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SPEAR-SWV",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SH"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.02",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "SPEAR-SWV",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SPEAR-SWV",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SH-T"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.02",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "SPEAR-SWV",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SPEAR-SWV",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SH-F"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.03",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "SPEAR-IBM-SWV",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SPEAR-IBM-SWV",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "F-Race"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.02",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "SPEAR-IBM-SWV",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SPEAR-IBM-SWV",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SH"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.02",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "SPEAR-IBM-SWV",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SPEAR-IBM-SWV",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SH-T"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.02",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "SPEAR-IBM-SWV",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SPEAR-IBM-SWV",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SH-F"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.03",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "CPLEX-RCW",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CPLEX-RCW",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "F-Race"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.08",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "CPLEX-RCW",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CPLEX-RCW",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SH"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.11",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "CPLEX-RCW",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CPLEX-RCW",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SH-T"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.11",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "CPLEX-RCW",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CPLEX-RCW",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SH-F"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.13",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "SPEAR-IBM",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SPEAR-IBM",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "F-Race"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.06",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "SPEAR-IBM",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SPEAR-IBM",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SH"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.06",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "SPEAR-IBM",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SPEAR-IBM",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SH-T"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.06",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "SPEAR-IBM",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SPEAR-IBM",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SH-F"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.08",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "CPLEX-BIGMIX",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CPLEX-BIGMIX",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "F-Race"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.04",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "CPLEX-BIGMIX",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CPLEX-BIGMIX",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SH"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.02",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "CPLEX-BIGMIX",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CPLEX-BIGMIX",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SH-T"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.03",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "CPLEX-BIGMIX",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CPLEX-BIGMIX",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SH-F"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.05",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "CPLEX-CORLAT-REG",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CPLEX-CORLAT-REG",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "F-Race"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.01",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "CPLEX-CORLAT-REG",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CPLEX-CORLAT-REG",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SH"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: -0.00",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "CPLEX-CORLAT-REG",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CPLEX-CORLAT-REG",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SH-T"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: -0.00",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "CPLEX-CORLAT-REG",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CPLEX-CORLAT-REG",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SH-F"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.00",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "CPLEX-CORLAT",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CPLEX-CORLAT",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "F-Race"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.04",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "CPLEX-CORLAT",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CPLEX-CORLAT",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SH"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.01",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "CPLEX-CORLAT",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CPLEX-CORLAT",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SH-T"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.02",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "CPLEX-CORLAT",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CPLEX-CORLAT",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SH-F"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.04",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "CPLEX-CORLAT-REG-RCW",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CPLEX-CORLAT-REG-RCW",
+        "dimensionality": "5980 x 1000"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "F-Race"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.06",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "CPLEX-CORLAT-REG-RCW",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CPLEX-CORLAT-REG-RCW",
+        "dimensionality": "5980 x 1000"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SH"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.01",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "CPLEX-CORLAT-REG-RCW",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CPLEX-CORLAT-REG-RCW",
+        "dimensionality": "5980 x 1000"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SH-T"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.01",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "CPLEX-CORLAT-REG-RCW",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CPLEX-CORLAT-REG-RCW",
+        "dimensionality": "5980 x 1000"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SH-F"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.05",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "SWGCPsat_SAPScont",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SWGCPsat_SAPScont",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "F-Race"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.01",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "SWGCPsat_SAPScont",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SWGCPsat_SAPScont",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SH"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.01",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "SWGCPsat_SAPScont",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SWGCPsat_SAPScont",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SH-T"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.02",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "SWGCPsat_SAPScont",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SWGCPsat_SAPScont",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SH-F"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.02",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "newQCPsat_SAPScont",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "newQCPsat_SAPScont",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "F-Race"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.01",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "newQCPsat_SAPScont",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "newQCPsat_SAPScont",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SH"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.03",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "newQCPsat_SAPScont",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "newQCPsat_SAPScont",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SH-T"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.03",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "newQCPsat_SAPScont",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "newQCPsat_SAPScont",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SH-F"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.03",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "CPLEX-CATS_REG",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CPLEX-CATS_REG",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "F-Race"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.01",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "CPLEX-CATS_REG",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CPLEX-CATS_REG",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SH"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.02",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "CPLEX-CATS_REG",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CPLEX-CATS_REG",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SH-T"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.02",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "CPLEX-CATS_REG",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CPLEX-CATS_REG",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SH-F"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.03",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "LKH",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "LKH",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "F-Race"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: -0.03",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "LKH",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "LKH",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SH"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.04",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "LKH",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "LKH",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SH-T"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.06",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating algorithm configuration landscapes"
+      },
+      "the_database": {
+        "dataset_name": "LKH",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "LKH",
+        "dimensionality": "1000 configurations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SH-F"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean gap in score from Greedy-All baseline: 0.05",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

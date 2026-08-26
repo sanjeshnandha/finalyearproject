@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "title": "Selecting Image Features for Biopsy Needle Detection in Ultrasound Images Using Genetic Algorithms",
+    "authors": [
+      "Agata M. Wijata",
+      "Bartłomiej Pyciński",
+      "Jakub Nalepa"
+    ],
+    "year": 2024,
+    "source_file": "Wijata et al. - 2024 - Selecting Image Features for Biopsy Needle Detection in Ultrasound Images Using Genetic Algorithms.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Biopsy needle detection in ultrasound images"
+      },
+      "the_database": {
+        "dataset_name": "Dataset A and Dataset B",
+        "source_platform": "SonoSkills BV"
+      },
+      "the_benchmark_problem": {
+        "name": "Feature selection for biopsy needle detection",
+        "dimensionality": "15D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "heterogeneity of images",
+          "artifacts",
+          "extreme class imbalance"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 250,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "F1 score",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

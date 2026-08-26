@@ -1,0 +1,207 @@
+{
+  "metadata": {
+    "title": "Robust Evolutionary Optimization for Demand-Balanced Railway Route Design",
+    "authors": [
+      "George Brooks",
+      "Sean Walton",
+      "Markus Roggenbach",
+      "John Armstrong",
+      "Alma Rahat"
+    ],
+    "year": 2026,
+    "source_file": "Brooks et al. - 2026 - Robust Evolutionary Optimization for Demand-Balanced Railway Route Design.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Transportation",
+        "problem_context": "Robust demand-balanced railway route design"
+      },
+      "the_database": {
+        "dataset_name": "Simulated networks",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Demand-Balanced Railway Route Design",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "stochastic demand",
+          "combinatorial",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Proposed GA"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Feasibility rate and penalized objective value",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Transportation",
+        "problem_context": "Robust demand-balanced railway route design"
+      },
+      "the_database": {
+        "dataset_name": "Simulated networks",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Demand-Balanced Railway Route Design",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "stochastic demand",
+          "combinatorial",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Random Search"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Feasibility rate and penalized objective value",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Transportation",
+        "problem_context": "Robust demand-balanced railway route design"
+      },
+      "the_database": {
+        "dataset_name": "Simulated networks",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Demand-Balanced Railway Route Design",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "stochastic demand",
+          "combinatorial",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Bit-flip Mutation Variant"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Feasibility rate and penalized objective value",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Transportation",
+        "problem_context": "Robust demand-balanced railway route design"
+      },
+      "the_database": {
+        "dataset_name": "Simulated networks",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Demand-Balanced Railway Route Design",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "stochastic demand",
+          "combinatorial",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Uniform Crossover Variant"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Feasibility rate and penalized objective value",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Transportation",
+        "problem_context": "Robust demand-balanced railway route design"
+      },
+      "the_database": {
+        "dataset_name": "Simulated networks",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Demand-Balanced Railway Route Design",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "stochastic demand",
+          "combinatorial",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fitness-only Selection Variant"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Feasibility rate and penalized objective value",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

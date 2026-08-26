@@ -1,0 +1,339 @@
+{
+  "metadata": {
+    "title": "Energy-Aware Metaheuristics",
+    "authors": [
+      "Enrique Alba",
+      "Tomohiro Harada",
+      "Gabriel Luque"
+    ],
+    "year": 2026,
+    "source_file": "Alba et al. - 2026 - Energy-Aware Metaheuristics.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "Pisinger benchmark instance",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "0-1 Knapsack",
+        "dimensionality": "100D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EOS-SSGA"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 35000,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean final fitness: 8818.55",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "NK-Landscapes",
+        "dimensionality": "100D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "epistasis"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EOS-SSGA"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean final fitness: 72.49",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Error-Correcting Codes",
+        "dimensionality": "288D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EOS-SSGA"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 15000,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean final fitness: 0.0629",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "Pisinger benchmark instance",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "0-1 Knapsack",
+        "dimensionality": "100D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EOS-PSO"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 35000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean final fitness: 8120.82",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "NK-Landscapes",
+        "dimensionality": "100D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "epistasis"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EOS-PSO"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean final fitness: 69.19",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Error-Correcting Codes",
+        "dimensionality": "288D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EOS-PSO"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 15000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean final fitness: 0.0586",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "Pisinger benchmark instance",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "0-1 Knapsack",
+        "dimensionality": "100D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EOS-ILS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 35000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean final fitness: 9035.58",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "NK-Landscapes",
+        "dimensionality": "100D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "epistasis"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EOS-ILS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean final fitness: 73.52",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Error-Correcting Codes",
+        "dimensionality": "288D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EOS-ILS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 15000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean final fitness: 0.0633",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

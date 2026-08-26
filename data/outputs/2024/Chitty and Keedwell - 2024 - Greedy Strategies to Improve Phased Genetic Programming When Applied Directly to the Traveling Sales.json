@@ -1,0 +1,236 @@
+{
+  "metadata": {
+    "title": "Greedy Strategies to Improve Phased Genetic Programming When Applied Directly to the Traveling Salesman Problem",
+    "authors": [
+      "Darren M. Chitty",
+      "Ed Keedwell"
+    ],
+    "year": 2024,
+    "source_file": "Chitty and Keedwell - 2024 - Greedy Strategies to Improve Phased Genetic Programming When Applied Directly to the Traveling Sales.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "University of Heidelberg"
+      },
+      "the_benchmark_problem": {
+        "name": "Traveling Salesman Problem",
+        "dimensionality": "280 to 2392 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "NP-hard",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Phased Genetic Programming (Phased-GP)"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.33,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Average relative error (%)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "University of Heidelberg"
+      },
+      "the_benchmark_problem": {
+        "name": "Traveling Salesman Problem",
+        "dimensionality": "280 to 2392 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "NP-hard",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Greedy Phased-GP (Greedy Operators)"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.33,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Average relative error (%)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "University of Heidelberg"
+      },
+      "the_benchmark_problem": {
+        "name": "Traveling Salesman Problem",
+        "dimensionality": "280 to 2392 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "NP-hard",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Greedy Phased-GP (Greedy Programs)"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.33,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Average relative error (%)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "University of Heidelberg"
+      },
+      "the_benchmark_problem": {
+        "name": "Traveling Salesman Problem",
+        "dimensionality": "280 to 2392 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "NP-hard",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Greedy Phased-GP (Greedy Operators & Programs)"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.33,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Average relative error (%)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "University of Heidelberg"
+      },
+      "the_benchmark_problem": {
+        "name": "Traveling Salesman Problem",
+        "dimensionality": "280 to 2392 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "NP-hard",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Adaptive Sequence-Based Selection Hyper-Heuristic (Adaptive-SSHH)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 5000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average relative error (%)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "University of Heidelberg"
+      },
+      "the_benchmark_problem": {
+        "name": "Traveling Salesman Problem",
+        "dimensionality": "280 to 2392 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "NP-hard",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (GA)"
+      },
+      "parameters": {
+        "population_size": 64,
+        "max_evaluations_or_generations": 500000,
+        "mutation_rate": 0.33,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Average relative error (%)",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

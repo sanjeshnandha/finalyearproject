@@ -1,0 +1,810 @@
+{
+  "metadata": {
+    "title": "Hybridizing TPOT with Bayesian Optimization",
+    "authors": [
+      "Angus Kenny",
+      "Tapabrata Ray",
+      "Steffen Limmer",
+      "Hemant Kumar Singh",
+      "Tobias Rodemann",
+      "Markus Olhofer"
+    ],
+    "year": 2023,
+    "source_file": "Kenny et al. - 2023 - Hybridizing TPOT with Bayesian Optimization.pdf",
+    "gecco_track": "Search methodologies"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Optimizing machine learning pipelines for regression"
+      },
+      "the_database": {
+        "dataset_name": "quake",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "quake",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT-BASE"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.1
+      },
+      "performance_outcome": {
+        "metric": "Mean cross validation (CV) error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Optimizing machine learning pipelines for regression"
+      },
+      "the_database": {
+        "dataset_name": "quake",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "quake",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT-BO-S"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.1
+      },
+      "performance_outcome": {
+        "metric": "Mean cross validation (CV) error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Optimizing machine learning pipelines for regression"
+      },
+      "the_database": {
+        "dataset_name": "quake",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "quake",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT-BO-ALT"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.1
+      },
+      "performance_outcome": {
+        "metric": "Mean cross validation (CV) error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Optimizing machine learning pipelines for regression"
+      },
+      "the_database": {
+        "dataset_name": "quake",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "quake",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT-BO-AUTO"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.1
+      },
+      "performance_outcome": {
+        "metric": "Mean cross validation (CV) error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Optimizing machine learning pipelines for regression"
+      },
+      "the_database": {
+        "dataset_name": "abalone",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "abalone",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT-BASE"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.1
+      },
+      "performance_outcome": {
+        "metric": "Mean cross validation (CV) error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Optimizing machine learning pipelines for regression"
+      },
+      "the_database": {
+        "dataset_name": "abalone",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "abalone",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT-BO-S"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.1
+      },
+      "performance_outcome": {
+        "metric": "Mean cross validation (CV) error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Optimizing machine learning pipelines for regression"
+      },
+      "the_database": {
+        "dataset_name": "abalone",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "abalone",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT-BO-ALT"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.1
+      },
+      "performance_outcome": {
+        "metric": "Mean cross validation (CV) error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Optimizing machine learning pipelines for regression"
+      },
+      "the_database": {
+        "dataset_name": "abalone",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "abalone",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT-BO-AUTO"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.1
+      },
+      "performance_outcome": {
+        "metric": "Mean cross validation (CV) error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Optimizing machine learning pipelines for regression"
+      },
+      "the_database": {
+        "dataset_name": "house_16h",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "house_16h",
+        "dimensionality": "16D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT-BASE"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.1
+      },
+      "performance_outcome": {
+        "metric": "Mean cross validation (CV) error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Optimizing machine learning pipelines for regression"
+      },
+      "the_database": {
+        "dataset_name": "house_16h",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "house_16h",
+        "dimensionality": "16D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT-BO-S"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.1
+      },
+      "performance_outcome": {
+        "metric": "Mean cross validation (CV) error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Optimizing machine learning pipelines for regression"
+      },
+      "the_database": {
+        "dataset_name": "house_16h",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "house_16h",
+        "dimensionality": "16D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT-BO-ALT"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.1
+      },
+      "performance_outcome": {
+        "metric": "Mean cross validation (CV) error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Optimizing machine learning pipelines for regression"
+      },
+      "the_database": {
+        "dataset_name": "house_16h",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "house_16h",
+        "dimensionality": "16D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT-BO-AUTO"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.1
+      },
+      "performance_outcome": {
+        "metric": "Mean cross validation (CV) error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Optimizing machine learning pipelines for regression"
+      },
+      "the_database": {
+        "dataset_name": "socmob",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "socmob",
+        "dimensionality": "5D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT-BASE"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.1
+      },
+      "performance_outcome": {
+        "metric": "Mean cross validation (CV) error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Optimizing machine learning pipelines for regression"
+      },
+      "the_database": {
+        "dataset_name": "socmob",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "socmob",
+        "dimensionality": "5D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT-BO-S"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.1
+      },
+      "performance_outcome": {
+        "metric": "Mean cross validation (CV) error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Optimizing machine learning pipelines for regression"
+      },
+      "the_database": {
+        "dataset_name": "socmob",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "socmob",
+        "dimensionality": "5D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT-BO-ALT"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.1
+      },
+      "performance_outcome": {
+        "metric": "Mean cross validation (CV) error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Optimizing machine learning pipelines for regression"
+      },
+      "the_database": {
+        "dataset_name": "socmob",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "socmob",
+        "dimensionality": "5D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT-BO-AUTO"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.1
+      },
+      "performance_outcome": {
+        "metric": "Mean cross validation (CV) error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Optimizing machine learning pipelines for regression"
+      },
+      "the_database": {
+        "dataset_name": "brazilian_houses",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "brazilian_houses",
+        "dimensionality": "12D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT-BASE"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.1
+      },
+      "performance_outcome": {
+        "metric": "Mean cross validation (CV) error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Optimizing machine learning pipelines for regression"
+      },
+      "the_database": {
+        "dataset_name": "brazilian_houses",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "brazilian_houses",
+        "dimensionality": "12D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT-BO-S"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.1
+      },
+      "performance_outcome": {
+        "metric": "Mean cross validation (CV) error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Optimizing machine learning pipelines for regression"
+      },
+      "the_database": {
+        "dataset_name": "brazilian_houses",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "brazilian_houses",
+        "dimensionality": "12D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT-BO-ALT"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.1
+      },
+      "performance_outcome": {
+        "metric": "Mean cross validation (CV) error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Optimizing machine learning pipelines for regression"
+      },
+      "the_database": {
+        "dataset_name": "brazilian_houses",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "brazilian_houses",
+        "dimensionality": "12D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT-BO-AUTO"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.1
+      },
+      "performance_outcome": {
+        "metric": "Mean cross validation (CV) error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Optimizing machine learning pipelines for regression"
+      },
+      "the_database": {
+        "dataset_name": "elevators",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "elevators",
+        "dimensionality": "18D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT-BASE"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.1
+      },
+      "performance_outcome": {
+        "metric": "Mean cross validation (CV) error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Optimizing machine learning pipelines for regression"
+      },
+      "the_database": {
+        "dataset_name": "elevators",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "elevators",
+        "dimensionality": "18D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT-BO-S"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.1
+      },
+      "performance_outcome": {
+        "metric": "Mean cross validation (CV) error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Optimizing machine learning pipelines for regression"
+      },
+      "the_database": {
+        "dataset_name": "elevators",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "elevators",
+        "dimensionality": "18D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT-BO-ALT"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.1
+      },
+      "performance_outcome": {
+        "metric": "Mean cross validation (CV) error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Optimizing machine learning pipelines for regression"
+      },
+      "the_database": {
+        "dataset_name": "elevators",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "elevators",
+        "dimensionality": "18D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT-BO-AUTO"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.1
+      },
+      "performance_outcome": {
+        "metric": "Mean cross validation (CV) error",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,2244 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#">
+    <bib:Document rdf:about="https://dl.acm.org/doi/proceedings/10.1145/3449726">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>ACM Conferences</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_1480"/>
+        <dc:title>Proceedings of the Genetic and Evolutionary Computation Conference Companion</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/proceedings/10.1145/3449726</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24 09:25:07</dcterms:dateSubmitted>
+        <z:language>en</z:language>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_1480">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/1480/3449726.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/proceedings/10.1145/3449726</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24 09:25:14</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:978-1-4503-8351-6">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                   <bib:Series><dc:title>GECCO '21</dc:title></bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>DOI 10.1145/3449726.3463278</dc:identifier>
+                <dc:identifier>ISBN 978-1-4503-8351-6</dc:identifier>
+                <dc:title>Proceedings of the Genetic and Evolutionary Computation Conference Companion</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computing Machinery</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York, NY, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rodríguez-González</foaf:surname>
+                        <foaf:givenName>Ansel Y.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Barajas</foaf:surname>
+                        <foaf:givenName>Samantha</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Aranda</foaf:surname>
+                        <foaf:givenName>Ramón</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Martínez-López</foaf:surname>
+                        <foaf:givenName>Yoan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Madera-Quintana</foaf:surname>
+                        <foaf:givenName>Julio</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1511"/>
+        <dc:title>Ring cellular encode-decode UMDA: simple is effective</dc:title>
+        <dcterms:abstract>The management of today's smart grids is a challenge due to the stochastic nature of renewable energies, the vehicle-to-grid functionalities, the participation of external providers and the bidding in local and external markets. For this reason, the &quot;Competition on Evolutionary Computation in the Energy Domain: Smart Grid Applications&quot; with a framework to test algorithms for these problems is launched each year since 2017. In this paper, a novel algorithm named Ring Cellular Encode-Decode UMDA (RCED-UMDA) is introduced. The experimental results showed that RCED-UMDA achieves better average fitness for both tracks of the 2021 edition of this competition than the previous competition's algorithms.</dcterms:abstract>
+        <dc:date>July 8, 2021</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/10.1145/3449726.3463278</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24</dcterms:dateSubmitted>
+        <z:shortTitle>Ring cellular encode-decode UMDA</z:shortTitle>
+        <z:libraryCatalog>ACM Digital Library</z:libraryCatalog>
+        <bib:pages>1–2</bib:pages>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1511">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/1511/Rodríguez-González et al. - 2021 - Ring cellular encode-decode UMDA simple is effective.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/pdf/10.1145/3449726.3463278?download=true</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24 09:29:39</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://dl.acm.org/doi/10.1145/3449726.3463284">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                   <bib:Series><dc:title>GECCO '21</dc:title></bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>DOI 10.1145/3449726.3463284</dc:identifier>
+                <dc:identifier>ISBN 978-1-4503-8351-6</dc:identifier>
+                <dc:title>Proceedings of the Genetic and Evolutionary Computation Conference Companion</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computing Machinery</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York, NY, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Su</foaf:surname>
+                        <foaf:givenName>Junpeng</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Huang</foaf:surname>
+                        <foaf:givenName>Han</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hao</foaf:surname>
+                        <foaf:givenName>Zhifeng</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1512"/>
+        <dc:title>Cooperative co-evolution strategies with time-dependent grouping for optimization problems in smart grids</dc:title>
+        <dcterms:abstract>The rapid development of smart grids provides end-users numerous services, like energy transactions and load management. Meanwhile, it raises new optimization problems worthy to explore. To solve these problems, cooperative co-evolution strategies with time-dependent grouping are proposed in this paper. Compared with five advanced methods, the proposed algorithms are applied in GECCO 2021 competition on evolutionary computation in the energy domain.</dcterms:abstract>
+        <dc:date>July 8, 2021</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/10.1145/3449726.3463284</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24</dcterms:dateSubmitted>
+        <z:libraryCatalog>ACM Digital Library</z:libraryCatalog>
+        <bib:pages>3–4</bib:pages>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1512">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/1512/Su et al. - 2021 - Cooperative co-evolution strategies with time-dependent grouping for optimization problems in smart.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/pdf/10.1145/3449726.3463284?download=true</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24 09:29:40</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://dl.acm.org/doi/10.1145/3449726.3459572">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                   <bib:Series><dc:title>GECCO '21</dc:title></bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>DOI 10.1145/3449726.3459572</dc:identifier>
+                <dc:identifier>ISBN 978-1-4503-8351-6</dc:identifier>
+                <dc:title>Proceedings of the Genetic and Evolutionary Computation Conference Companion</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computing Machinery</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York, NY, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Assimi</foaf:surname>
+                        <foaf:givenName>Hirad</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Neumann</foaf:surname>
+                        <foaf:givenName>Frank</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wagner</foaf:surname>
+                        <foaf:givenName>Markus</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenName>Xiaodong</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1513"/>
+        <dc:title>Novelty particle swarm optimisation for truss optimisation problems</dc:title>
+        <dcterms:abstract>Bilevel optimisation has been successfully applied to truss optimisation to consider topology and sizing in upper and lower levels, respectively. This study proposes novelty particle swarm optimisation for the upper level to discover new designs by maximising novelty. Our experimental investigations show that our approach outperforms current state-of-the-art methods and obtains multiple high-quality solutions.</dcterms:abstract>
+        <dc:date>July 8, 2021</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/10.1145/3449726.3459572</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24</dcterms:dateSubmitted>
+        <z:libraryCatalog>ACM Digital Library</z:libraryCatalog>
+        <bib:pages>67–68</bib:pages>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1513">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/1513/Assimi et al. - 2021 - Novelty particle swarm optimisation for truss optimisation problems.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/pdf/10.1145/3449726.3459572?download=true</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24 09:29:41</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://dl.acm.org/doi/10.1145/3449726.3459424">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                   <bib:Series><dc:title>GECCO '21</dc:title></bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>DOI 10.1145/3449726.3459424</dc:identifier>
+                <dc:identifier>ISBN 978-1-4503-8351-6</dc:identifier>
+                <dc:title>Proceedings of the Genetic and Evolutionary Computation Conference Companion</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computing Machinery</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York, NY, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chitty</foaf:surname>
+                        <foaf:givenName>Darren M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1514"/>
+        <dc:title>Partial-ACO as a GA mutation operator applied to TSP instances</dc:title>
+        <dcterms:abstract>A recent novel modification to Ant Colony Optimisation (ACO) known as Partial-ACO can be successfully used to solve Travelling Salesman Problems (TSP) by making partial modifications. The approach also dispenses with a pheromone matrix using the population to build pheromone levels on edges enabling scaling to large problems. Consequently, being population based the approach can be also used within a Genetic Algorithm as a mutation operator. Results demonstrate significant improvements when using Partial-ACO as a mutation operator with a range of crossover operators.</dcterms:abstract>
+        <dc:date>July 8, 2021</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/10.1145/3449726.3459424</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24</dcterms:dateSubmitted>
+        <z:libraryCatalog>ACM Digital Library</z:libraryCatalog>
+        <bib:pages>69–70</bib:pages>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1514">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/1514/Chitty - 2021 - Partial-ACO as a GA mutation operator applied to TSP instances.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/pdf/10.1145/3449726.3459424?download=true</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24 09:29:42</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://dl.acm.org/doi/10.1145/3449726.3459413">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                   <bib:Series><dc:title>GECCO '21</dc:title></bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>DOI 10.1145/3449726.3459413</dc:identifier>
+                <dc:identifier>ISBN 978-1-4503-8351-6</dc:identifier>
+                <dc:title>Proceedings of the Genetic and Evolutionary Computation Conference Companion</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computing Machinery</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York, NY, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fister</foaf:surname>
+                        <foaf:givenName>Iztok</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fister</foaf:surname>
+                        <foaf:givenName>Iztok</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Iglesias</foaf:surname>
+                        <foaf:givenName>Andres</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Galvez</foaf:surname>
+                        <foaf:givenName>Akemi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1515"/>
+        <dc:title>On detecting the novelties in metaphor-based algorithms</dc:title>
+        <dcterms:abstract>Following recent criticisms of the metaphor-based algorithms, several studies have reported that the basic core ideas of some nature-inspired algorithms are basically the same, so such methods do not bring any novelty at all. The majority of these papers dealt with the problem on the conceptual level. The aim of this study is to show how similar operations of these algorithms are on the operational level, where searching for the best solutions in the genotype space is affected by the exploration/exploitation components of the search process. In line with this, a new method is proposed for comparing the similarity of algorithms considering both levels.</dcterms:abstract>
+        <dc:date>July 8, 2021</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/10.1145/3449726.3459413</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24</dcterms:dateSubmitted>
+        <z:libraryCatalog>ACM Digital Library</z:libraryCatalog>
+        <bib:pages>71–72</bib:pages>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1515">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/1515/Fister et al. - 2021 - On detecting the novelties in metaphor-based algorithms.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/pdf/10.1145/3449726.3459413?download=true</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24 09:29:46</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://dl.acm.org/doi/10.1145/3449726.3459522">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                   <bib:Series><dc:title>GECCO '21</dc:title></bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>DOI 10.1145/3449726.3459522</dc:identifier>
+                <dc:identifier>ISBN 978-1-4503-8351-6</dc:identifier>
+                <dc:title>Proceedings of the Genetic and Evolutionary Computation Conference Companion</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computing Machinery</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York, NY, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mathias</foaf:surname>
+                        <foaf:givenName>H. David</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wu</foaf:surname>
+                        <foaf:givenName>Annie S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dang</foaf:surname>
+                        <foaf:givenName>Daniel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1516"/>
+        <dc:title>Evolved response thresholds generalize across problem instances for a deterministic-response multiagent system</dc:title>
+        <dcterms:abstract>In this work, we use a multiobjective genetic algorithm to evolve agent response thresholds for a decentralized swarm and demonstrate that swarms with evolved thresholds outperform swarms with thresholds set using other methods. In addition, we provide evidence that the effectiveness of evolved thresholds is due in part to the evolutionary process being able to find, not just good distributions of thresholds for a given task across all agents, but also good combinations of thresholds over all tasks for individual agents. Finally, we show that thresholds evolved for some problem instances can effectively generalize to other problem instances with very different task demands.</dcterms:abstract>
+        <dc:date>July 8, 2021</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/10.1145/3449726.3459522</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24</dcterms:dateSubmitted>
+        <z:libraryCatalog>ACM Digital Library</z:libraryCatalog>
+        <bib:pages>73–74</bib:pages>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1516">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/1516/Mathias et al. - 2021 - Evolved response thresholds generalize across problem instances for a deterministic-response multiag.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/pdf/10.1145/3449726.3459522?download=true</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24 09:29:47</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://dl.acm.org/doi/10.1145/3449726.3459436">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                   <bib:Series><dc:title>GECCO '21</dc:title></bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>DOI 10.1145/3449726.3459436</dc:identifier>
+                <dc:identifier>ISBN 978-1-4503-8351-6</dc:identifier>
+                <dc:title>Proceedings of the Genetic and Evolutionary Computation Conference Companion</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computing Machinery</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York, NY, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Naldini</foaf:surname>
+                        <foaf:givenName>Federico</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pellegrini</foaf:surname>
+                        <foaf:givenName>Paola</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rodriguez</foaf:surname>
+                        <foaf:givenName>Joaquin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1517"/>
+        <dc:title>Ant colony optimization for energy-efficient train operations</dc:title>
+        <dcterms:abstract>Traffic perturbations in railway systems may give rise to conflicts, which cause delays w.r.t. the timetable. Dealing with them requires solving the real-time Rail Traffic Management Problem (rtRTMP). A subproblem of the rtRTMP is the real-time Energy Consumption Minimization Problem (rtECMP). It defines the speed profiles along with the timing of multiple trains in a given network and time horizon. It takes as input the train routing and precedences computed by a rtRTMP solver and its objective is to minimize the weighted sum of train energy consumption and total delay. In this paper, we propose an Ant Colony Optimization algorithm for the rtECMP and we test it on the French Pierrefitte-Gonesse control area with dense mixed traffic. The results show that, in 30 seconds, a remarkable exploration of the search space is performed before convergence.</dcterms:abstract>
+        <dc:date>July 8, 2021</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/10.1145/3449726.3459436</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24</dcterms:dateSubmitted>
+        <z:libraryCatalog>ACM Digital Library</z:libraryCatalog>
+        <bib:pages>75–76</bib:pages>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1517">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/1517/Naldini et al. - 2021 - Ant colony optimization for energy-efficient train operations.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/pdf/10.1145/3449726.3459436?download=true</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24 09:29:48</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://dl.acm.org/doi/10.1145/3449726.3459534">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                   <bib:Series><dc:title>GECCO '21</dc:title></bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>DOI 10.1145/3449726.3459534</dc:identifier>
+                <dc:identifier>ISBN 978-1-4503-8351-6</dc:identifier>
+                <dc:title>Proceedings of the Genetic and Evolutionary Computation Conference Companion</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computing Machinery</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York, NY, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sakal</foaf:surname>
+                        <foaf:givenName>James</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fieldsend</foaf:surname>
+                        <foaf:givenName>Jonathan E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Keedwell</foaf:surname>
+                        <foaf:givenName>Edward</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1518"/>
+        <dc:title>Learning assignment order in an ant colony optimiser for the university course timetabling problem</dc:title>
+        <dcterms:abstract>Previous studies have employed Ant Colony Optimisation to solve the University Course Timetabling task --- which requires the order of lecture assignments to be defined for its construction graph. Various heuristic or random ordering techniques have been proposed in the literature, but uncertainty remains regarding the best approach for this. We investigate the effect that permuting assignment order has on the quality of timetable produced. As part of this we develop a novel MAX-MIN Ant System including dynamic constraint handling and partial function evaluations. We also explore algorithm variants with and without Local Search and employ a form of transfer learning to identify appropriate permutations. We find that between smaller problems in the International Timetabling Competition 2007 benchmark, timetabling performance can be improved using such an approach. However we find that we lose this performance gain when attempting to transfer to considerably larger problems --- indicating that similar structures are required when using a 'learnt' permutation approach in such a framework.</dcterms:abstract>
+        <dc:date>July 8, 2021</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/10.1145/3449726.3459534</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24</dcterms:dateSubmitted>
+        <z:libraryCatalog>ACM Digital Library</z:libraryCatalog>
+        <bib:pages>77–78</bib:pages>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1518">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/1518/Sakal et al. - 2021 - Learning assignment order in an ant colony optimiser for the university course timetabling problem.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/pdf/10.1145/3449726.3459534?download=true</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24 09:29:50</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://dl.acm.org/doi/10.1145/3449726.3459502">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                   <bib:Series><dc:title>GECCO '21</dc:title></bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>DOI 10.1145/3449726.3459502</dc:identifier>
+                <dc:identifier>ISBN 978-1-4503-8351-6</dc:identifier>
+                <dc:title>Proceedings of the Genetic and Evolutionary Computation Conference Companion</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computing Machinery</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York, NY, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenName>Juntao</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cheng</foaf:surname>
+                        <foaf:givenName>Peng</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1519"/>
+        <dc:title>Ant swarm algorithm for self-organizing complex system</dc:title>
+        <dcterms:abstract>This paper proposes a methodology to analyze complex systems' self-organizing characteristics by utilizing a double-layer ant swarm algorithm. The basic components comprising a complex system are defined as interacting nodes, and each node hosts multiple ants, which motions represent possible traces of the corresponding node. A representative group-state for the entire complex system is formed by randomly selecting one ant from all nodes. The methodology further proposes constructing a fitness function to guide the random ant-group moving with reduced entropy generation at the system level. Simultaneously, ants within a single node move by pheromone-based coordination. The proposed methodology is used to analyze Abelian Sandpile Model (ASM). Two types of coordinating algorithms, stochastic greedy and chaotic, are constructed to evaluate the methodologies' robustness. The results demonstrate that both coordinating algorithms can successfully capture ASM's collective characteristics, such as average sandpile height and recursive rates for different heights, although these two algorithms represent different searching dynamics.</dcterms:abstract>
+        <dc:date>July 8, 2021</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/10.1145/3449726.3459502</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24</dcterms:dateSubmitted>
+        <z:libraryCatalog>ACM Digital Library</z:libraryCatalog>
+        <bib:pages>79–80</bib:pages>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1519">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/1519/Zhang and Cheng - 2021 - Ant swarm algorithm for self-organizing complex system.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/pdf/10.1145/3449726.3459502?download=true</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24 09:29:51</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://dl.acm.org/doi/10.1145/3449726.3459558">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                   <bib:Series><dc:title>GECCO '21</dc:title></bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>DOI 10.1145/3449726.3459558</dc:identifier>
+                <dc:identifier>ISBN 978-1-4503-8351-6</dc:identifier>
+                <dc:title>Proceedings of the Genetic and Evolutionary Computation Conference Companion</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computing Machinery</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York, NY, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Alofi</foaf:surname>
+                        <foaf:givenName>Akram</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bokhari</foaf:surname>
+                        <foaf:givenName>Mahmoud A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hendley</foaf:surname>
+                        <foaf:givenName>Robert</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bahsoon</foaf:surname>
+                        <foaf:givenName>Rami</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1520"/>
+        <dc:title>Selecting miners within blockchain-based systems using evolutionary algorithms for energy optimisation</dc:title>
+        <dcterms:abstract>In this paper, we represent the problem of selecting miners within a blockchain-based system as a subset selection problem. We formulate the problem of minimising blockchain energy consumption as an optimisation problem with two conflicting objectives: energy consumption and trust. The proposed model is compared across different algorithms to demonstrate its performance.</dcterms:abstract>
+        <dc:date>July 8, 2021</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/10.1145/3449726.3459558</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24</dcterms:dateSubmitted>
+        <z:libraryCatalog>ACM Digital Library</z:libraryCatalog>
+        <bib:pages>291–292</bib:pages>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1520">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/1520/Alofi et al. - 2021 - Selecting miners within blockchain-based systems using evolutionary algorithms for energy optimisati.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/pdf/10.1145/3449726.3459558?download=true</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24 09:29:52</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://dl.acm.org/doi/10.1145/3449726.3459473">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                   <bib:Series><dc:title>GECCO '21</dc:title></bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>DOI 10.1145/3449726.3459473</dc:identifier>
+                <dc:identifier>ISBN 978-1-4503-8351-6</dc:identifier>
+                <dc:title>Proceedings of the Genetic and Evolutionary Computation Conference Companion</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computing Machinery</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York, NY, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bartz-Beielstein</foaf:surname>
+                        <foaf:givenName>T.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dröscher</foaf:surname>
+                        <foaf:givenName>M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gür</foaf:surname>
+                        <foaf:givenName>A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hinterleitner</foaf:surname>
+                        <foaf:givenName>A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mersmann</foaf:surname>
+                        <foaf:givenName>O.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Peeva</foaf:surname>
+                        <foaf:givenName>D.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Reese</foaf:surname>
+                        <foaf:givenName>L.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rehbach</foaf:surname>
+                        <foaf:givenName>N.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rehbach</foaf:surname>
+                        <foaf:givenName>F.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sen</foaf:surname>
+                        <foaf:givenName>A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Subbotin</foaf:surname>
+                        <foaf:givenName>A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zaefferer</foaf:surname>
+                        <foaf:givenName>M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1521"/>
+        <dc:title>Resource planning for hospitals under special consideration of the COVID-19 pandemic: optimization and sensitivity analysis</dc:title>
+        <dcterms:abstract>Pandemics pose a serious challenge to health-care institutions. To support the resource planning of health authorities from the Cologne region, BaBSim.Hospital, a tool for capacity planning based on discrete event simulation, was created. The predictive quality of the simulation is determined by 29 parameters with reasonable default values obtained in discussions with medical professionals. We aim to investigate and optimize these parameters to improve BaBSim.Hospital using a surrogate-based optimization approach and an in-depth sensitivity analysis.</dcterms:abstract>
+        <dc:date>July 8, 2021</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/10.1145/3449726.3459473</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24</dcterms:dateSubmitted>
+        <z:shortTitle>Resource planning for hospitals under special consideration of the COVID-19 pandemic</z:shortTitle>
+        <z:libraryCatalog>ACM Digital Library</z:libraryCatalog>
+        <bib:pages>293–294</bib:pages>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1521">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/1521/Bartz-Beielstein et al. - 2021 - Resource planning for hospitals under special consideration of the COVID-19 pandemic optimization a.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/pdf/10.1145/3449726.3459473?download=true</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24 09:29:54</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://dl.acm.org/doi/10.1145/3449726.3459477">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                   <bib:Series><dc:title>GECCO '21</dc:title></bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>DOI 10.1145/3449726.3459477</dc:identifier>
+                <dc:identifier>ISBN 978-1-4503-8351-6</dc:identifier>
+                <dc:title>Proceedings of the Genetic and Evolutionary Computation Conference Companion</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computing Machinery</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York, NY, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Candelieri</foaf:surname>
+                        <foaf:givenName>Antonio</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ponti</foaf:surname>
+                        <foaf:givenName>Andrea</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Archetti</foaf:surname>
+                        <foaf:givenName>Francesco</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1522"/>
+        <dc:title>Risk aware optimization of water sensor placement</dc:title>
+        <dcterms:abstract>This paper addresses the identification of optimal &quot;sensing spots&quot;, within a network for monitoring the spread of &quot;effects&quot; triggered by &quot;events&quot;. Many real-world problems fit into this general framework: we focused on the early detection of contamination events in Water Distribution Networks (WDN). We model the sensor placement as a bi-objective optimization problem, aiming at minimizing the mean and standard deviation of detection time over a set of different simulated contamination events and solved using NSGA-II. A problem-specific data structure is proposed enabling a deeper analysis of empirical convergence of the population.</dcterms:abstract>
+        <dc:date>July 8, 2021</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/10.1145/3449726.3459477</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24</dcterms:dateSubmitted>
+        <z:libraryCatalog>ACM Digital Library</z:libraryCatalog>
+        <bib:pages>295–296</bib:pages>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1522">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/1522/Candelieri et al. - 2021 - Risk aware optimization of water sensor placement.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/pdf/10.1145/3449726.3459477?download=true</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24 09:29:55</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://dl.acm.org/doi/10.1145/3449726.3459550">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                   <bib:Series><dc:title>GECCO '21</dc:title></bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>DOI 10.1145/3449726.3459550</dc:identifier>
+                <dc:identifier>ISBN 978-1-4503-8351-6</dc:identifier>
+                <dc:title>Proceedings of the Genetic and Evolutionary Computation Conference Companion</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computing Machinery</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York, NY, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chlebik</foaf:surname>
+                        <foaf:givenName>Jakub</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jaros</foaf:surname>
+                        <foaf:givenName>Jiri</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1523"/>
+        <dc:title>Distributed evolutionary design of HIFU treatment plans</dc:title>
+        <dcterms:abstract>High-Intensity Focused Ultrasound (HIFU) is a modern and still evolving technique used to treat a variety of solid malignant cells in a well-defined volume. Using HIFU treatment allows a noninvasive and non-ionising approach, in comparison to more conventional cancer treatments, that can result in a multitude of complications after treatment.In recent years, a realistic thermal model using patient-specific materials was introduced and an evolutionary strategy was employed to design a HIFU treatment plan. However, the execution times of such a model were too prohibitive to allow routine use. In this poster, we present the latest results of experiments carried on a further optimized fitness model using a distributed evolutionary algorithm. The experiments showed up to a total of 6 time decrease in evaluation time.</dcterms:abstract>
+        <dc:date>July 8, 2021</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/10.1145/3449726.3459550</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24</dcterms:dateSubmitted>
+        <z:libraryCatalog>ACM Digital Library</z:libraryCatalog>
+        <bib:pages>297–298</bib:pages>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1523">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/1523/Chlebik and Jaros - 2021 - Distributed evolutionary design of HIFU treatment plans.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/pdf/10.1145/3449726.3459550?download=true</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24 09:29:57</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://dl.acm.org/doi/10.1145/3449726.3459412">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                   <bib:Series><dc:title>GECCO '21</dc:title></bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>DOI 10.1145/3449726.3459412</dc:identifier>
+                <dc:identifier>ISBN 978-1-4503-8351-6</dc:identifier>
+                <dc:title>Proceedings of the Genetic and Evolutionary Computation Conference Companion</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computing Machinery</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York, NY, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cho</foaf:surname>
+                        <foaf:givenName>Dong-Hee</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kim</foaf:surname>
+                        <foaf:givenName>Yong-Hyuk</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1524"/>
+        <dc:title>An optimal oil skimmer assignment based on a genetic algorithm with minimal mobilized locations</dc:title>
+        <dcterms:abstract>Oil spill cleanups in the ocean often involve oil skimmers to be mobilized from all the reserved locations, which is not efficient. In this study, optimization was performed to minimize the mobilization points of the arrangement in the existing study. For this purpose, a simulation was run to validate the solution produced by the genetic algorithm based on scenarios similar to the actual situation. The scenarios are based on 19 of the largest oil spills that have occurred in South Korea and are compared with the existing work time minimization strategy. By utilizing the mobilization point minimization strategy, the number of areas required for a given work time was reduced by approximately 12.38% on average and approximately 7.08% on average in terms of work time.</dcterms:abstract>
+        <dc:date>July 8, 2021</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/10.1145/3449726.3459412</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24</dcterms:dateSubmitted>
+        <z:libraryCatalog>ACM Digital Library</z:libraryCatalog>
+        <bib:pages>299–300</bib:pages>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1524">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/1524/Cho and Kim - 2021 - An optimal oil skimmer assignment based on a genetic algorithm with minimal mobilized locations.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/pdf/10.1145/3449726.3459412?download=true</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24 09:30:01</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://dl.acm.org/doi/10.1145/3449726.3459573">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                   <bib:Series><dc:title>GECCO '21</dc:title></bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>DOI 10.1145/3449726.3459573</dc:identifier>
+                <dc:identifier>ISBN 978-1-4503-8351-6</dc:identifier>
+                <dc:title>Proceedings of the Genetic and Evolutionary Computation Conference Companion</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computing Machinery</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York, NY, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Coletti</foaf:surname>
+                        <foaf:givenName>Mark A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gao</foaf:surname>
+                        <foaf:givenName>Shang</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Paulissen</foaf:surname>
+                        <foaf:givenName>Spencer</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Haas</foaf:surname>
+                        <foaf:givenName>Nicholas Quentin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Patton</foaf:surname>
+                        <foaf:givenName>Robert</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1525"/>
+        <dc:title>Diagnosing autonomous vehicle driving criteria with an adversarial evolutionary algorithm</dc:title>
+        <dcterms:abstract>We repurposed an adversarial evolutionary algorithm, Gremlin, from finding driving scenarios where a model of an autonomous vehicle drove poorly to troubleshooting driving quality evaluation criteria. We evaluated the driving performance of a &quot;perfect driver&quot; robot in a virtual town environment using the same fitness criteria intended for a deep learner (DL) trained driver. We found that the fitness evaluation criteria poorly handled turns, and used Gremlin to iteratively improve that criteria. We were confident that the same criteria could then be applied to the DL-based models as originally intended, and that this approach could be used as a general means of troubleshooting autonomous vehicle driving criteria.</dcterms:abstract>
+        <dc:date>July 8, 2021</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/10.1145/3449726.3459573</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24</dcterms:dateSubmitted>
+        <z:libraryCatalog>ACM Digital Library</z:libraryCatalog>
+        <bib:pages>301–302</bib:pages>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1525">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/1525/Coletti et al. - 2021 - Diagnosing autonomous vehicle driving criteria with an adversarial evolutionary algorithm.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/pdf/10.1145/3449726.3459573?download=true</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24 09:30:02</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://dl.acm.org/doi/10.1145/3449726.3459494">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                   <bib:Series><dc:title>GECCO '21</dc:title></bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>DOI 10.1145/3449726.3459494</dc:identifier>
+                <dc:identifier>ISBN 978-1-4503-8351-6</dc:identifier>
+                <dc:title>Proceedings of the Genetic and Evolutionary Computation Conference Companion</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computing Machinery</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York, NY, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Connor</foaf:surname>
+                        <foaf:givenName>Mark</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>O'Neill</foaf:surname>
+                        <foaf:givenName>Michael</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1526"/>
+        <dc:title>Optimizing the parameters of a physical exercise dose-response model: an algorithmic comparison</dc:title>
+        <dcterms:abstract>The purpose of this research was to compare the robustness and performance of a local and global optimization algorithm applied to the problem of fitting the parameters of a non-linear dose-response model utilized in the field of exercise physiology. Traditionally the parameters of dose-response models utilised in exercise physiology have been fit with non-linear least squares procedures in combination with local optimization algorithms. These algorithms have demonstrated limitations in their ability to converge on a globally optimal solution. This research purposes the use of an evolutionary computation based algorithm as an alternative method to fit a nonlinear dose-response model. The results of our comparison over 1000 experimental runs demonstrated the superior performance of the evolutionary computation based algorithm to consistently achieve a more consistent model fit and holdout evaluation performance in comparison to the local search algorithm. This initial research would suggest that global evolutionary computation based optimization algorithms are a fast and more robust alternative to local optimization algorithms when fitting the parameters of nonlinear dose-response models.</dcterms:abstract>
+        <dc:date>July 8, 2021</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/10.1145/3449726.3459494</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24</dcterms:dateSubmitted>
+        <z:shortTitle>Optimizing the parameters of a physical exercise dose-response model</z:shortTitle>
+        <z:libraryCatalog>ACM Digital Library</z:libraryCatalog>
+        <bib:pages>303–304</bib:pages>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1526">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/1526/Connor and O'Neill - 2021 - Optimizing the parameters of a physical exercise dose-response model an algorithmic comparison.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/pdf/10.1145/3449726.3459494?download=true</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24 09:30:04</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://dl.acm.org/doi/10.1145/3449726.3459443">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                   <bib:Series><dc:title>GECCO '21</dc:title></bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>DOI 10.1145/3449726.3459443</dc:identifier>
+                <dc:identifier>ISBN 978-1-4503-8351-6</dc:identifier>
+                <dc:title>Proceedings of the Genetic and Evolutionary Computation Conference Companion</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computing Machinery</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York, NY, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cruz-Zelante</foaf:surname>
+                        <foaf:givenName>Francisco</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Segredo</foaf:surname>
+                        <foaf:givenName>Eduardo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Miranda</foaf:surname>
+                        <foaf:givenName>Gara</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1527"/>
+        <dc:title>Dealing with a problematic roundabout by optimizing a traffic light system through evolutionary computation</dc:title>
+        <dcterms:abstract>The Padre Anchieta roundabout (Tenerife) takes on a substantial amount of traffic which, at peak times, often causes significant traffic jams. With the aim of alleviating traffic congestion, this paper analyses the possibility of installing a set of traffic lights in the roundabout. The duration of the phases of traffic lights are optimized through a genetic algorithm. SUMO, an open source traffic simulator, is used to evaluate the traffic of the area by considering real traffic data. Seven different scenarios are evaluated with respect to the roundabout, three of them without traffic lights and the other four with them. Simultaneously, the number of pedestrians, and the particular location of the traffic lights, are modified in each of the aforementioned scenarios, when applicable. To determine which parameters of the evolutionary algorithm provided the best results, a previous parameter setting study based on a statistical comparison procedure was performed. Particularly, the crossover operator and the population size, were analyzed. From the results obtained in the experimental assessment, we conclude that the use of an optimized traffic light system would not improve traffic flow in the roundabout. Another important conclusion is that the larger the number of pedestrians, the slower the traffic flow.</dcterms:abstract>
+        <dc:date>July 8, 2021</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/10.1145/3449726.3459443</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24</dcterms:dateSubmitted>
+        <z:libraryCatalog>ACM Digital Library</z:libraryCatalog>
+        <bib:pages>305–306</bib:pages>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1527">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/1527/Cruz-Zelante et al. - 2021 - Dealing with a problematic roundabout by optimizing a traffic light system through evolutionary comp.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/pdf/10.1145/3449726.3459443?download=true</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24 09:30:06</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://dl.acm.org/doi/10.1145/3449726.3459415">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                   <bib:Series><dc:title>GECCO '21</dc:title></bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>DOI 10.1145/3449726.3459415</dc:identifier>
+                <dc:identifier>ISBN 978-1-4503-8351-6</dc:identifier>
+                <dc:title>Proceedings of the Genetic and Evolutionary Computation Conference Companion</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computing Machinery</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York, NY, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dobos</foaf:surname>
+                        <foaf:givenName>Daniel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nguyen</foaf:surname>
+                        <foaf:givenName>Tien Thanh</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>McCall</foaf:surname>
+                        <foaf:givenName>John</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wilson</foaf:surname>
+                        <foaf:givenName>Allan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Stockton</foaf:surname>
+                        <foaf:givenName>Phil</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Corbett</foaf:surname>
+                        <foaf:givenName>Helen</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1528"/>
+        <dc:title>Weighted ensemble of gross error detection methods based on particle swarm optimization</dc:title>
+        <dcterms:abstract>Gross errors, a kind of non-random error caused by process disturbances or leaks, can make reconciled estimates can be very inaccurate and even infeasible. Detecting gross errors thus prevents financial loss from incorrectly accounting and also identifies potential environmental consequences because of leaking. In this study, we develop an ensemble of gross error detection (GED) methods to improve the effectiveness of the gross error identification on measurement data. We propose a weighted combining method on the outputs of all constituent GED methods and then compare the combined result to a threshold to conclude about the presence of the gross error. We generate a set of measurements with or without gross error and then minimize the GED error rate of the proposed ensemble on this set with respect to the combining weights and threshold. The Particle Swarm Optimization method is used to solve this optimization problem. Experiments conducted on a simulated system show that our ensemble is better than all constituent GED methods and two ensemble methods.</dcterms:abstract>
+        <dc:date>July 8, 2021</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/10.1145/3449726.3459415</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24</dcterms:dateSubmitted>
+        <z:libraryCatalog>ACM Digital Library</z:libraryCatalog>
+        <bib:pages>307–308</bib:pages>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1528">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/1528/Dobos et al. - 2021 - Weighted ensemble of gross error detection methods based on particle swarm optimization.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/pdf/10.1145/3449726.3459415?download=true</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24 09:30:08</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://dl.acm.org/doi/10.1145/3449726.3459535">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                   <bib:Series><dc:title>GECCO '21</dc:title></bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>DOI 10.1145/3449726.3459535</dc:identifier>
+                <dc:identifier>ISBN 978-1-4503-8351-6</dc:identifier>
+                <dc:title>Proceedings of the Genetic and Evolutionary Computation Conference Companion</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computing Machinery</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York, NY, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Draude</foaf:surname>
+                        <foaf:givenName>Sabrina</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Keedwell</foaf:surname>
+                        <foaf:givenName>Edward</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kapelan</foaf:surname>
+                        <foaf:givenName>Zoran</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hiscock</foaf:surname>
+                        <foaf:givenName>Rebecca</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1529"/>
+        <dc:title>Wastewater systems planned maintenance scheduling using multi-objective optimisation</dc:title>
+        <dcterms:abstract>Water utilities (WU) in the UK are responsible for providing sewerage disposal for customers across the country. Blockages within sewer networks can be disruptive for customers, damaging to the local environment and costly to rectify. Effective scheduling of preventative maintenance (PM) is an important for WU to prevent blockages, reduce costs and protect the environment. In this paper, we describe a novel multi-objective optimisation methodology to the scheduling of PM applied to a case study in Swansea, Wales. The results of real-world trials demonstrate that solutions generated by the proposed method achieve a 13.8% increase in jobs completed for compared to the standard approach used in November 2019.</dcterms:abstract>
+        <dc:date>July 8, 2021</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/10.1145/3449726.3459535</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24</dcterms:dateSubmitted>
+        <z:libraryCatalog>ACM Digital Library</z:libraryCatalog>
+        <bib:pages>309–310</bib:pages>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1529">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/1529/Draude et al. - 2021 - Wastewater systems planned maintenance scheduling using multi-objective optimisation.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/pdf/10.1145/3449726.3459535?download=true</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24 09:30:09</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://dl.acm.org/doi/10.1145/3449726.3459561">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                   <bib:Series><dc:title>GECCO '21</dc:title></bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>DOI 10.1145/3449726.3459561</dc:identifier>
+                <dc:identifier>ISBN 978-1-4503-8351-6</dc:identifier>
+                <dc:title>Proceedings of the Genetic and Evolutionary Computation Conference Companion</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computing Machinery</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York, NY, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dubey</foaf:surname>
+                        <foaf:givenName>Rahul</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Louis</foaf:surname>
+                        <foaf:givenName>Sushil J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1530"/>
+        <dc:title>Evolving potential field parameters for deploying UAV-based two-hop wireless mesh networks</dc:title>
+        <dcterms:abstract>We attack the problem of dynamic UAV-based ad-hoc mesh network deployment to find and connect people in an area of interest. Genetic algorithms tune the parameters of potential fields that control UAV movement in order to optimize people coverage and network longevity. We extend earlier work that assumed one-hop communication between UAVs to the more realistic two-hop case and find significant increase in coverage and network longevity. Experimental results show that enabling two-hop communications between UAVs improves the performance on average between 4% to 32.19%.</dcterms:abstract>
+        <dc:date>July 8, 2021</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/10.1145/3449726.3459561</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24</dcterms:dateSubmitted>
+        <z:libraryCatalog>ACM Digital Library</z:libraryCatalog>
+        <bib:pages>311–312</bib:pages>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1530">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/1530/Dubey and Louis - 2021 - Evolving potential field parameters for deploying UAV-based two-hop wireless mesh networks.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/pdf/10.1145/3449726.3459561?download=true</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24 09:30:11</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://dl.acm.org/doi/10.1145/3449726.3459490">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                   <bib:Series><dc:title>GECCO '21</dc:title></bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>DOI 10.1145/3449726.3459490</dc:identifier>
+                <dc:identifier>ISBN 978-1-4503-8351-6</dc:identifier>
+                <dc:title>Proceedings of the Genetic and Evolutionary Computation Conference Companion</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computing Machinery</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York, NY, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Galanos</foaf:surname>
+                        <foaf:givenName>Theodoros</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Liapis</foaf:surname>
+                        <foaf:givenName>Antonios</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yannakakis</foaf:surname>
+                        <foaf:givenName>Georgios N.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Koenig</foaf:surname>
+                        <foaf:givenName>Reinhard</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1531"/>
+        <dc:title>ARCH-Elites: quality-diversity for urban design</dc:title>
+        <dcterms:abstract>This paper introduces ARCH-Elites, a MAP-Elites implementation that can reconfigure large-scale urban layouts at real-world locations via a pre-trained surrogate model instead of costly simulations. In a series of experiments, we generate novel urban designs for two real-world locations in Boston, Massachusetts. Combining the exploration of a possibility space with real-time performance evaluation creates a powerful new paradigm for architectural generative design that can extract and articulate design intelligence.</dcterms:abstract>
+        <dc:date>July 8, 2021</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/10.1145/3449726.3459490</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24</dcterms:dateSubmitted>
+        <z:shortTitle>ARCH-Elites</z:shortTitle>
+        <z:libraryCatalog>ACM Digital Library</z:libraryCatalog>
+        <bib:pages>313–314</bib:pages>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1531">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/1531/Galanos et al. - 2021 - ARCH-Elites quality-diversity for urban design.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/pdf/10.1145/3449726.3459490?download=true</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24 09:30:12</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://dl.acm.org/doi/10.1145/3449726.3459476">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                   <bib:Series><dc:title>GECCO '21</dc:title></bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>DOI 10.1145/3449726.3459476</dc:identifier>
+                <dc:identifier>ISBN 978-1-4503-8351-6</dc:identifier>
+                <dc:title>Proceedings of the Genetic and Evolutionary Computation Conference Companion</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computing Machinery</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York, NY, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Han</foaf:surname>
+                        <foaf:givenName>Kate</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Christie</foaf:surname>
+                        <foaf:givenName>Lee A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zăvoianu</foaf:surname>
+                        <foaf:givenName>Alexandru-Ciprian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>McCall</foaf:surname>
+                        <foaf:givenName>John</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1532"/>
+        <dc:title>Optimising the introduction of connected and autonomous vehicles in a public transport system using macro-level mobility simulations and evolutionary algorithms</dc:title>
+        <dcterms:abstract>The past five years have seen a rapid development of plans and test pilots aimed at introducing connected and autonomous vehicles (CAVs) in public transport systems around the world. Using a real-world scenario from the Leeds Metropolitan Area as a case study, we demonstrate an effective way to combine macro-level mobility simulations based on open data (i.e., geographic information system information and transit timetables) with evolutionary optimisation techniques to discover realistic optimised integration routes for CAVs. The macro-level mobility simulations are used to assess the quality (i.e., fitness) of a potential CAV route by quantifying geographic accessibility improvements using an extended version of Dijkstra's algorithm on an abstract multi-modal transport network.</dcterms:abstract>
+        <dc:date>July 8, 2021</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/10.1145/3449726.3459476</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24</dcterms:dateSubmitted>
+        <z:libraryCatalog>ACM Digital Library</z:libraryCatalog>
+        <bib:pages>315–316</bib:pages>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1532">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/1532/Han et al. - 2021 - Optimising the introduction of connected and autonomous vehicles in a public transport system using.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/pdf/10.1145/3449726.3459476?download=true</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24 09:30:14</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://dl.acm.org/doi/10.1145/3449726.3459569">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                   <bib:Series><dc:title>GECCO '21</dc:title></bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>DOI 10.1145/3449726.3459569</dc:identifier>
+                <dc:identifier>ISBN 978-1-4503-8351-6</dc:identifier>
+                <dc:title>Proceedings of the Genetic and Evolutionary Computation Conference Companion</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computing Machinery</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York, NY, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mousavi</foaf:surname>
+                        <foaf:givenName>Mohsen</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gandomi</foaf:surname>
+                        <foaf:givenName>Amir H.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wahab</foaf:surname>
+                        <foaf:givenName>Magd Abdel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1533"/>
+        <dc:title>Structural damage identification under non-linear EOV effects using genetic programming</dc:title>
+        <dcterms:abstract>The methods to perform long-term condition monitoring of structures can be generally divided into two main categories, i.e. output-only and input-output methods. The former seeks to detect any anomaly in the structural modal data caused by damage without knowing the cause. Input-output normalisation methods have been used for removing Environmental and Operational Variations (EOV) effects, some examples of which include multiple linear regression [1], artificial neural networks [4] and support vector regression [2].</dcterms:abstract>
+        <dc:date>July 8, 2021</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/10.1145/3449726.3459569</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24</dcterms:dateSubmitted>
+        <z:libraryCatalog>ACM Digital Library</z:libraryCatalog>
+        <bib:pages>317–318</bib:pages>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1533">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/1533/Mousavi et al. - 2021 - Structural damage identification under non-linear EOV effects using genetic programming.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/pdf/10.1145/3449726.3459569?download=true</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24 09:30:15</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://dl.acm.org/doi/10.1145/3449726.3459430">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                   <bib:Series><dc:title>GECCO '21</dc:title></bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>DOI 10.1145/3449726.3459430</dc:identifier>
+                <dc:identifier>ISBN 978-1-4503-8351-6</dc:identifier>
+                <dc:title>Proceedings of the Genetic and Evolutionary Computation Conference Companion</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computing Machinery</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York, NY, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Parque</foaf:surname>
+                        <foaf:givenName>Victor</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1534"/>
+        <dc:title>Towards higher order fairness functionals for smooth path planning</dc:title>
+        <dcterms:abstract>Smoothness of mobile and vehicle navigation has become relevant to ensure the safety and the comfortability of riding. The robotics community has been able to render smooth trajectories in mobile robots by using non-linear optimization approaches and well-known fairness metrics considering the curvature variations along the path. In this paper, we introduce the possibility of computing smooth paths from observed mobile robot trajectories from higher order non-linear fairness functionals. Our approach is potential to enable the generation of simple and computationally-efficient path planning smoothing for navigation in mobile robots.</dcterms:abstract>
+        <dc:date>July 8, 2021</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/10.1145/3449726.3459430</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24</dcterms:dateSubmitted>
+        <z:libraryCatalog>ACM Digital Library</z:libraryCatalog>
+        <bib:pages>319–320</bib:pages>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1534">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/1534/Parque - 2021 - Towards higher order fairness functionals for smooth path planning.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/pdf/10.1145/3449726.3459430?download=true</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24 09:30:17</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://dl.acm.org/doi/10.1145/3449726.3459444">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                   <bib:Series><dc:title>GECCO '21</dc:title></bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>DOI 10.1145/3449726.3459444</dc:identifier>
+                <dc:identifier>ISBN 978-1-4503-8351-6</dc:identifier>
+                <dc:title>Proceedings of the Genetic and Evolutionary Computation Conference Companion</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computing Machinery</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York, NY, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Skjærseth</foaf:surname>
+                        <foaf:givenName>Eirik Høgdahl</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vinje</foaf:surname>
+                        <foaf:givenName>Harald</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mengshoel</foaf:surname>
+                        <foaf:givenName>Ole Jakob</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1535"/>
+        <dc:title>Novelty search for evolving interesting character mechanics for a two-player video game</dc:title>
+        <dcterms:abstract>Computational generation of video game content, often referred to as procedural content generation (PCG), holds much promise for generating character mechanics. Character mechanics refers to how characters are allowed to move and behave in a computer game, rather than aesthetics such as graphics and audio. In this paper we study how to generate character mechanics automatically, by means of novelty search. Our results show that some of the auto-generated characters are, by human subjects, perceived as more interesting than built-in game characters.</dcterms:abstract>
+        <dc:date>July 8, 2021</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/10.1145/3449726.3459444</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24</dcterms:dateSubmitted>
+        <z:libraryCatalog>ACM Digital Library</z:libraryCatalog>
+        <bib:pages>321–322</bib:pages>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1535">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/1535/Skjærseth et al. - 2021 - Novelty search for evolving interesting character mechanics for a two-player video game.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/pdf/10.1145/3449726.3459444?download=true</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24 09:30:18</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://dl.acm.org/doi/10.1145/3449726.3459526">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                   <bib:Series><dc:title>GECCO '21</dc:title></bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>DOI 10.1145/3449726.3459526</dc:identifier>
+                <dc:identifier>ISBN 978-1-4503-8351-6</dc:identifier>
+                <dc:title>Proceedings of the Genetic and Evolutionary Computation Conference Companion</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computing Machinery</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York, NY, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Stolfi</foaf:surname>
+                        <foaf:givenName>Daniel H.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Brust</foaf:surname>
+                        <foaf:givenName>Matthias R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Danoy</foaf:surname>
+                        <foaf:givenName>Grégoire</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bouvry</foaf:surname>
+                        <foaf:givenName>Pascal</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1536"/>
+        <dc:title>Optimising pheromone communication in a UAV swarm</dc:title>
+        <dcterms:abstract>Communications in multi-robot systems is a key factor, especially when aiming for real-world applications. In this article we address the optimisation of the communications in a swarm of unmanned aerial vehicles for surveillance applications. More precisely a genetic algorithm is introduced to optimize the exchange of pheromone maps used in the CACOC (Chaotic Ant Colony Optimisation for Coverage) mobility model which enhance the vehicles' routes in order to achieve unpredictable trajectories as well as maximise area coverage.</dcterms:abstract>
+        <dc:date>July 8, 2021</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/10.1145/3449726.3459526</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24</dcterms:dateSubmitted>
+        <z:libraryCatalog>ACM Digital Library</z:libraryCatalog>
+        <bib:pages>323–324</bib:pages>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1536">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/1536/Stolfi et al. - 2021 - Optimising pheromone communication in a UAV swarm.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/pdf/10.1145/3449726.3459526?download=true</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24 09:30:20</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://dl.acm.org/doi/10.1145/3449726.3459469">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                   <bib:Series><dc:title>GECCO '21</dc:title></bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>DOI 10.1145/3449726.3459469</dc:identifier>
+                <dc:identifier>ISBN 978-1-4503-8351-6</dc:identifier>
+                <dc:title>Proceedings of the Genetic and Evolutionary Computation Conference Companion</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computing Machinery</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York, NY, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Weigend</foaf:surname>
+                        <foaf:givenName>Fabian Clemens</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Siegler</foaf:surname>
+                        <foaf:givenName>Jason</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Obst</foaf:surname>
+                        <foaf:givenName>Oliver</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1537"/>
+        <dc:title>A new pathway to approximate energy expenditure and recovery of an athlete</dc:title>
+        <dcterms:abstract>This work proposes to use evolutionary computation as a pathway to allow a new perspective on the modeling of energy expenditure and recovery of an individual athlete during exercise.We revisit a theoretical concept called the &quot;three component hydraulic model&quot; which is designed to simulate metabolic systems during exercise and which is able to address recently highlighted shortcomings of currently applied performance models. This hydraulic model has not been entirely validated on individual athletes because it depends on physiological measures that cannot be acquired in the required precision or quantity.This paper introduces a generalized interpretation and formalization of the three component hydraulic model that removes its ties to concrete metabolic measures and allows to use evolutionary computation to fit its parameters to an athlete.</dcterms:abstract>
+        <dc:date>July 8, 2021</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/10.1145/3449726.3459469</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24</dcterms:dateSubmitted>
+        <z:libraryCatalog>ACM Digital Library</z:libraryCatalog>
+        <bib:pages>325–326</bib:pages>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1537">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/1537/Weigend et al. - 2021 - A new pathway to approximate energy expenditure and recovery of an athlete.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/pdf/10.1145/3449726.3459469?download=true</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24 09:30:21</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://dl.acm.org/doi/10.1145/3449726.3459408">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                   <bib:Series><dc:title>GECCO '21</dc:title></bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>DOI 10.1145/3449726.3459408</dc:identifier>
+                <dc:identifier>ISBN 978-1-4503-8351-6</dc:identifier>
+                <dc:title>Proceedings of the Genetic and Evolutionary Computation Conference Companion</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computing Machinery</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York, NY, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zille</foaf:surname>
+                        <foaf:givenName>Heiner</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mostaghim</foaf:surname>
+                        <foaf:givenName>Sanaz</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Evrard</foaf:surname>
+                        <foaf:givenName>Fabien</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>van Wachem</foaf:surname>
+                        <foaf:givenName>Berend</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1538"/>
+        <dc:title>Unit-aware multi-objective genetic programming for the prediction of the stokes flow around a sphere</dc:title>
+        <dcterms:abstract>In this article we apply a unit-aware Genetic Programming (GP) approach to solve a problem from the area of fluid-dynamics: The Stokes flow around a sphere. We formulate 6 test instances with different complexities and explore the capabilities of single- and multi-objective GP variants to solve this problem with physically correct units of measurement. The study is a starting point to investigate the amount of information necessary to solve fluid-dynamics-related problems, and whether the inclusion of physical dimensions is advantageous or not for such optimization tasks. From the simple flow presented in this study we aim to extend this research to more complex flows with multiple spheres and finite Reynolds numbers.</dcterms:abstract>
+        <dc:date>July 8, 2021</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/10.1145/3449726.3459408</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24</dcterms:dateSubmitted>
+        <z:libraryCatalog>ACM Digital Library</z:libraryCatalog>
+        <bib:pages>327–328</bib:pages>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1538">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/1538/Zille et al. - 2021 - Unit-aware multi-objective genetic programming for the prediction of the stokes flow around a sphere.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/pdf/10.1145/3449726.3459408?download=true</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24 09:30:23</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://dl.acm.org/doi/10.1145/3449726.3459537">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                   <bib:Series><dc:title>GECCO '21</dc:title></bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>DOI 10.1145/3449726.3459537</dc:identifier>
+                <dc:identifier>ISBN 978-1-4503-8351-6</dc:identifier>
+                <dc:title>Proceedings of the Genetic and Evolutionary Computation Conference Companion</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computing Machinery</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York, NY, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Liventsev</foaf:surname>
+                        <foaf:givenName>Vadim</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Härmä</foaf:surname>
+                        <foaf:givenName>Aki</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Petković</foaf:surname>
+                        <foaf:givenName>Milan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1539"/>
+        <dc:title>Neurogenetic programming framework for explainable reinforcement learning</dc:title>
+        <dcterms:abstract>Automatic programming, the task of generating computer programs compliant with a specification without a human developer, is usually tackled either via genetic programming methods based on mutation and recombination of programs, or via neural language models. We propose a novel method that combines both approaches using a concept of a virtual neuro-genetic programmer, or scrum team. We demonstrate its ability to provide performant and explainable solutions for various OpenAI Gym tasks, as well as inject expert knowledge into the otherwise data-driven search for solutions.</dcterms:abstract>
+        <dc:date>July 8, 2021</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/10.1145/3449726.3459537</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24</dcterms:dateSubmitted>
+        <z:libraryCatalog>ACM Digital Library</z:libraryCatalog>
+        <bib:pages>329–330</bib:pages>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1539">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/1539/Liventsev et al. - 2021 - Neurogenetic programming framework for explainable reinforcement learning.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/pdf/10.1145/3449726.3459537?download=true</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24 09:30:24</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://dl.acm.org/doi/10.1145/3449726.3459548">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                   <bib:Series><dc:title>GECCO '21</dc:title></bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>DOI 10.1145/3449726.3459548</dc:identifier>
+                <dc:identifier>ISBN 978-1-4503-8351-6</dc:identifier>
+                <dc:title>Proceedings of the Genetic and Evolutionary Computation Conference Companion</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computing Machinery</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York, NY, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schweim</foaf:surname>
+                        <foaf:givenName>Dirk</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hemberg</foaf:surname>
+                        <foaf:givenName>Erik</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sobania</foaf:surname>
+                        <foaf:givenName>Dominik</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>O'Reilly</foaf:surname>
+                        <foaf:givenName>Una-May</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rothlauf</foaf:surname>
+                        <foaf:givenName>Franz</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1540"/>
+        <dc:title>Using knowledge of human-generated code to bias the search in program synthesis with grammatical evolution</dc:title>
+        <dcterms:abstract>Recent studies show that program synthesis with GE produces code that has different structure compared to human-generated code, e.g., loops and conditions are hardly used. In this article, we extract knowledge from human-generated code to guide evolutionary search. We use a large code-corpus that was mined from the open software repository service GitHub and measure software metrics and properties describing the code-base. We use this knowledge to guide the search by incorporating a new selection scheme. Our new selection scheme favors programs that are structurally similar to the programs in the GitHub code-base. We find noticeable evidence that software metrics can help in guiding evolutionary search.</dcterms:abstract>
+        <dc:date>July 8, 2021</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/10.1145/3449726.3459548</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24</dcterms:dateSubmitted>
+        <z:libraryCatalog>ACM Digital Library</z:libraryCatalog>
+        <bib:pages>331–332</bib:pages>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1540">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/1540/Schweim et al. - 2021 - Using knowledge of human-generated code to bias the search in program synthesis with grammatical evo.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/pdf/10.1145/3449726.3459548?download=true</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-24 09:30:25</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+</rdf:RDF>

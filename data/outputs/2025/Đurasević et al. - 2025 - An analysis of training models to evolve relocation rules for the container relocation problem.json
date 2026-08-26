@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "title": "An analysis of training models to evolve relocation rules for the container relocation problem",
+    "authors": [
+      "Marko Đurasević",
+      "Mateja Đumić",
+      "Francisco Javier Gil Gala",
+      "Domagoj Jakobović"
+    ],
+    "year": 2025,
+    "source_file": "Đurasević et al. - 2025 - An analysis of training models to evolve relocation rules for the container relocation problem.pdf",
+    "gecco_track": "GECCO '25 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Container Relocation Problem"
+      },
+      "the_database": {
+        "dataset_name": "840 instances of different sizes",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Container Relocation Problem",
+        "dimensionality": "Variable (3-10 stacks, 9-100 containers)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "NP-complete"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Total number of relocations",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

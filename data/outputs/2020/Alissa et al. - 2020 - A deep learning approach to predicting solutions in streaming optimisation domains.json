@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "title": "A Deep Learning Approach to Predicting Solutions in Streaming Optimisation Domains",
+    "authors": [
+      "Mohamad Alissa",
+      "Kevin Sim",
+      "Emma Hart"
+    ],
+    "year": 2020,
+    "source_file": "Alissa et al. - 2020 - A deep learning approach to predicting solutions in streaming optimisation domains.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Streaming 1-d bin-packing"
+      },
+      "the_database": {
+        "dataset_name": "DS1",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "1-d bin-packing (DS1)",
+        "dimensionality": "120 items per instance"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "streaming",
+          "temporal",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Encoder-Decoder LSTM"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy (percentage of exact matches to test set solutions)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Streaming 1-d bin-packing"
+      },
+      "the_database": {
+        "dataset_name": "DS2",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "1-d bin-packing (DS2)",
+        "dimensionality": "120 items per instance"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "streaming",
+          "temporal",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Encoder-Decoder LSTM"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy (percentage of exact matches to test set solutions)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

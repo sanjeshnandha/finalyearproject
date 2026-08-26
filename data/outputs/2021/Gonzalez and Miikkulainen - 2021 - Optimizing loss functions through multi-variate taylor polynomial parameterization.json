@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "title": "Optimizing Loss Functions Through Multi-Variate Taylor Polynomial Parameterization",
+    "authors": [
+      "Santiago Gonzalez",
+      "Risto Miikkulainen"
+    ],
+    "year": 2021,
+    "source_file": "Gonzalez and Miikkulainen - 2021 - Optimizing loss functions through multi-variate taylor polynomial parameterization.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Optimizing loss functions for deep neural networks"
+      },
+      "the_database": {
+        "dataset_name": "MNIST",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MNIST Loss Function Optimization",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged",
+          "continuous"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ES"
+      },
+      "parameters": {
+        "population_size": 28,
+        "max_evaluations_or_generations": 60,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean test-set accuracy of 0.9951",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Optimizing loss functions for deep neural networks"
+      },
+      "the_database": {
+        "dataset_name": "CIFAR-10",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CIFAR-10 Loss Function Optimization",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged",
+          "continuous"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ES"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean test-set accuracy of 0.9621",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Optimizing loss functions for deep neural networks"
+      },
+      "the_database": {
+        "dataset_name": "CIFAR-100",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CIFAR-100 Loss Function Optimization",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged",
+          "continuous"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ES"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean test-set accuracy of 0.7708",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Optimizing loss functions for deep neural networks"
+      },
+      "the_database": {
+        "dataset_name": "SVHN",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SVHN Loss Function Optimization",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged",
+          "continuous"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ES"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean test-set accuracy of 0.9727",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

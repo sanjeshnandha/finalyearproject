@@ -1,0 +1,349 @@
+{
+  "metadata": {
+    "title": "Evolutionary Bin Packing for Memory-Efficient Dataflow Inference Acceleration on FPGA",
+    "authors": [
+      "Mairin Kroes",
+      "Lucian Petrica",
+      "Sorin Cotofana",
+      "Michaela Blott"
+    ],
+    "year": 2020,
+    "source_file": "Kroes et al. - 2020 - Evolutionary bin packing for memory-efficient dataflow inference acceleration on FPGA.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Mapping CNN parameter memories to FPGA On-Chip Memories (BRAMs) as a cardinality-constrained bin packing problem."
+      },
+      "the_database": {
+        "dataset_name": "CNN Accelerator Configurations",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CNV-W1A1 Memory Packing",
+        "dimensionality": "43 buffers"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "cardinality-constrained",
+          "variable bin capacities",
+          "NP-hard"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GA-NFD"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.3,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "BRAM count of 96 achieved in 0.1 seconds",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Mapping CNN parameter memories to FPGA On-Chip Memories (BRAMs) as a cardinality-constrained bin packing problem."
+      },
+      "the_database": {
+        "dataset_name": "CNN Accelerator Configurations",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CNV-W2A2 Memory Packing",
+        "dimensionality": "28 buffers"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "cardinality-constrained",
+          "variable bin capacities",
+          "NP-hard"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GA-NFD"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.3,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "BRAM count of 188 achieved in 0.1 seconds",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Mapping CNN parameter memories to FPGA On-Chip Memories (BRAMs) as a cardinality-constrained bin packing problem."
+      },
+      "the_database": {
+        "dataset_name": "CNN Accelerator Configurations",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Tincy-YOLO Memory Packing",
+        "dimensionality": "137 buffers"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "cardinality-constrained",
+          "variable bin capacities",
+          "NP-hard"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GA-NFD"
+      },
+      "parameters": {
+        "population_size": 75,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.4,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "BRAM count of 420 achieved in 0.2 seconds",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Mapping CNN parameter memories to FPGA On-Chip Memories (BRAMs) as a cardinality-constrained bin packing problem."
+      },
+      "the_database": {
+        "dataset_name": "CNN Accelerator Configurations",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DoReFaNet Memory Packing",
+        "dimensionality": "320 buffers"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "cardinality-constrained",
+          "variable bin capacities",
+          "NP-hard"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GA-NFD"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.4,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "BRAM count of 3794 achieved in 0.2 seconds",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Mapping CNN parameter memories to FPGA On-Chip Memories (BRAMs) as a cardinality-constrained bin packing problem."
+      },
+      "the_database": {
+        "dataset_name": "CNN Accelerator Configurations",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ReBNet Arch3 Memory Packing",
+        "dimensionality": "552 buffers"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "cardinality-constrained",
+          "variable bin capacities",
+          "NP-hard"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GA-NFD"
+      },
+      "parameters": {
+        "population_size": 75,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.4,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "BRAM count of 2352 achieved in 28.9 seconds",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Mapping CNN parameter memories to FPGA On-Chip Memories (BRAMs) as a cardinality-constrained bin packing problem."
+      },
+      "the_database": {
+        "dataset_name": "CNN Accelerator Configurations",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "RN50-W1A2 Memory Packing",
+        "dimensionality": "896 buffers"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "cardinality-constrained",
+          "variable bin capacities",
+          "NP-hard"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GA-NFD"
+      },
+      "parameters": {
+        "population_size": 75,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.4,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "BRAM count of 1374 achieved in 1.7 seconds",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Mapping CNN parameter memories to FPGA On-Chip Memories (BRAMs) as a cardinality-constrained bin packing problem."
+      },
+      "the_database": {
+        "dataset_name": "CNN Accelerator Configurations",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "RN101-W1A2 Memory Packing",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "cardinality-constrained",
+          "variable bin capacities",
+          "NP-hard"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GA-NFD"
+      },
+      "parameters": {
+        "population_size": 75,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.4,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "BRAM count of 2616 achieved in 3.3 seconds",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Mapping CNN parameter memories to FPGA On-Chip Memories (BRAMs) as a cardinality-constrained bin packing problem."
+      },
+      "the_database": {
+        "dataset_name": "CNN Accelerator Configurations",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "RN152-W1A2 Memory Packing",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "cardinality-constrained",
+          "variable bin capacities",
+          "NP-hard"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GA-NFD"
+      },
+      "parameters": {
+        "population_size": 75,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.4,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "BRAM count of 3584 achieved in 4.9 seconds",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Mapping CNN parameter memories to FPGA On-Chip Memories (BRAMs) as a cardinality-constrained bin packing problem."
+      },
+      "the_database": {
+        "dataset_name": "CNN Accelerator Configurations",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "RN152-W1A2 Memory Packing",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "cardinality-constrained",
+          "variable bin capacities",
+          "NP-hard"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SA-NFD"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "BRAM count of 3586 achieved in 1.5 seconds",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

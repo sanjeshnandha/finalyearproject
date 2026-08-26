@@ -1,0 +1,267 @@
+{
+  "metadata": {
+    "title": "Length-niching Selection and Spatial Crossover in Variable-length Evolutionary Rule Set Learning",
+    "authors": [
+      "David Pätzel",
+      "Richard Nordsieck",
+      "Jörg Hähner"
+    ],
+    "year": 2024,
+    "source_file": "Pätzel et al. - 2024 - Length-niching Selection and Spatial Crossover in Variable-length Evolutionary Rule Set Learning.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Rule set learning for regression tasks"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": "Zenodo"
+      },
+      "the_benchmark_problem": {
+        "name": "Synthetic regression tasks (Pätzel et al. approach)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "interval-based conditions",
+          "variable-length representation"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GA (Spatial Crossover, Length-niching Selection, Low Mutation)"
+      },
+      "parameters": {
+        "population_size": 32,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.3
+      },
+      "performance_outcome": {
+        "metric": "Mean Absolute Error and Number of Rules",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Rule set learning for regression tasks"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": "Zenodo"
+      },
+      "the_benchmark_problem": {
+        "name": "Synthetic regression tasks (Pätzel et al. approach)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "interval-based conditions",
+          "variable-length representation"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GA (Spatial Crossover, Tournament Selection, Low Mutation)"
+      },
+      "parameters": {
+        "population_size": 32,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.3
+      },
+      "performance_outcome": {
+        "metric": "Mean Absolute Error and Number of Rules",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Rule set learning for regression tasks"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": "Zenodo"
+      },
+      "the_benchmark_problem": {
+        "name": "Synthetic regression tasks (Pätzel et al. approach)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "interval-based conditions",
+          "variable-length representation"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GA (No Crossover, Length-niching Selection, High Mutation)"
+      },
+      "parameters": {
+        "population_size": 32,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": 0.4,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Absolute Error and Number of Rules",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Rule set learning for regression tasks"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": "Zenodo"
+      },
+      "the_benchmark_problem": {
+        "name": "Synthetic regression tasks (Pätzel et al. approach)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "interval-based conditions",
+          "variable-length representation"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GA (Cut-and-splice Crossover, Length-niching Selection, Low Mutation)"
+      },
+      "parameters": {
+        "population_size": 32,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.3
+      },
+      "performance_outcome": {
+        "metric": "Mean Absolute Error and Number of Rules",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Rule set learning for regression tasks"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": "Zenodo"
+      },
+      "the_benchmark_problem": {
+        "name": "Synthetic regression tasks (Pätzel et al. approach)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "interval-based conditions",
+          "variable-length representation"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GA (Spatial Crossover, Tournament Selection, High Mutation)"
+      },
+      "parameters": {
+        "population_size": 32,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": 0.4,
+        "crossover_rate": 0.3
+      },
+      "performance_outcome": {
+        "metric": "Mean Absolute Error and Number of Rules",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Rule set learning for regression tasks"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": "Zenodo"
+      },
+      "the_benchmark_problem": {
+        "name": "Synthetic regression tasks (Pätzel et al. approach)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "interval-based conditions",
+          "variable-length representation"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GA (Cut-and-splice Crossover, Length-niching Selection, High Mutation)"
+      },
+      "parameters": {
+        "population_size": 32,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": 0.4,
+        "crossover_rate": 0.3
+      },
+      "performance_outcome": {
+        "metric": "Mean Absolute Error and Number of Rules",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Rule set learning for regression tasks"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": "Zenodo"
+      },
+      "the_benchmark_problem": {
+        "name": "Synthetic regression tasks (Pätzel et al. approach)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "interval-based conditions",
+          "variable-length representation"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GA (Spatial Crossover, Length-niching Selection, High Mutation)"
+      },
+      "parameters": {
+        "population_size": 32,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": 0.4,
+        "crossover_rate": 0.3
+      },
+      "performance_outcome": {
+        "metric": "Mean Absolute Error and Number of Rules",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

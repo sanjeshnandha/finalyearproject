@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "title": "Interactive LLM-assisted Curriculum Learning for Multi-Task Evolutionary Policy Search",
+    "authors": [
+      "Berfin Sakallioglu",
+      "Giorgia Nadizar",
+      "Eric Medvet"
+    ],
+    "year": 2026,
+    "source_file": "Sakallioglu et al. - 2026 - Interactive LLM-Assisted Curriculum Learning for Multi-Task Evolutionary Policy Search.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "2D robot navigation"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "2D Navigation Task",
+        "dimensionality": "21D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "local optima",
+          "obstacle avoidance"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAP-Elites"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Weighted average of final and average distance to target",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "title": "A Two-Stage Explanation-Based Method Using Particle Swarm Optimization for Black-Box Adversarial Attack",
+    "authors": [
+      "Chaoxin Zhang",
+      "Gonglin Yuan",
+      "Hongwei Ge",
+      "Yaqing Hou"
+    ],
+    "year": 2025,
+    "source_file": "Zhang et al. - 2025 - A Two-Stage Explanation-Based Method Using Particle Swarm Optimization for Black-Box Adversarial Att.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision / Cybersecurity",
+        "problem_context": "Explanation Generation for Deep Neural Networks"
+      },
+      "the_database": {
+        "dataset_name": "ImageNet",
+        "source_platform": "ImageNet"
+      },
+      "the_benchmark_problem": {
+        "name": "Explanation Generation",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "binary-like continuous encoding"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Generation of Pareto front trading off confidence and concept count",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision / Cybersecurity",
+        "problem_context": "Black-Box Adversarial Attack"
+      },
+      "the_database": {
+        "dataset_name": "ImageNet",
+        "source_platform": "ImageNet"
+      },
+      "the_benchmark_problem": {
+        "name": "ResNet-50",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "pixel-level",
+          "restricted perturbation space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Particle Swarm Optimization (PSO)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Attack Success Rate (ASR) of 69.0% (epsilon=0.1) and 43.0% (epsilon=0.01)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision / Cybersecurity",
+        "problem_context": "Black-Box Adversarial Attack"
+      },
+      "the_database": {
+        "dataset_name": "ImageNet",
+        "source_platform": "ImageNet"
+      },
+      "the_benchmark_problem": {
+        "name": "MobileNet",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "pixel-level",
+          "restricted perturbation space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Particle Swarm Optimization (PSO)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Attack Success Rate (ASR) of 83.0% (epsilon=0.1) and 45.0% (epsilon=0.01)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

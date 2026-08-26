@@ -1,0 +1,572 @@
+{
+  "metadata": {
+    "title": "Mutation-Based Test Generation for Quantum Programs with Multi-Objective Search",
+    "authors": [
+      "Xinyi Wang",
+      "Tongxuan Yu",
+      "Paolo Arcaini",
+      "Tao Yue",
+      "Shaukat Ali"
+    ],
+    "year": 2022,
+    "source_file": "Wang et al. - 2022 - Mutation-based test generation for quantum programs with multi-objective search.pdf",
+    "gecco_track": "Search-Based Software Engineering"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Mutation-based test generation for quantum programs"
+      },
+      "the_database": {
+        "dataset_name": "Add Squared (AS) quantum program",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "Add Squared (AS)",
+        "dimensionality": "10 variables"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "combinatorial",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MutTG (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume, MNNKM, TSSMNNKM",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Mutation-based test generation for quantum programs"
+      },
+      "the_database": {
+        "dataset_name": "Bernstein-Vazirani (BV) quantum program",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "Bernstein-Vazirani (BV)",
+        "dimensionality": "10 variables"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "combinatorial",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MutTG (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume, MNNKM, TSSMNNKM",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Mutation-based test generation for quantum programs"
+      },
+      "the_database": {
+        "dataset_name": "Conditional Execution (CE) quantum program",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "Conditional Execution (CE)",
+        "dimensionality": "10 variables"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "combinatorial",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MutTG (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume, MNNKM, TSSMNNKM",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Mutation-based test generation for quantum programs"
+      },
+      "the_database": {
+        "dataset_name": "invQFT (IQ) quantum program",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "invQFT (IQ)",
+        "dimensionality": "10 variables"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "combinatorial",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MutTG (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume, MNNKM, TSSMNNKM",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Mutation-based test generation for quantum programs"
+      },
+      "the_database": {
+        "dataset_name": "QRAM (QR) quantum program",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "QRAM (QR)",
+        "dimensionality": "10 variables"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "combinatorial",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MutTG (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume, MNNKM, TSSMNNKM",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Mutation-based test generation for quantum programs"
+      },
+      "the_database": {
+        "dataset_name": "Add Squared (AS) quantum program",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "Add Squared (AS)",
+        "dimensionality": "10 variables"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "combinatorial",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MutTGND (NSGA-II without discount factor)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume, MNNKM, TSSMNNKM",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Mutation-based test generation for quantum programs"
+      },
+      "the_database": {
+        "dataset_name": "Bernstein-Vazirani (BV) quantum program",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "Bernstein-Vazirani (BV)",
+        "dimensionality": "10 variables"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "combinatorial",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MutTGND (NSGA-II without discount factor)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume, MNNKM, TSSMNNKM",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Mutation-based test generation for quantum programs"
+      },
+      "the_database": {
+        "dataset_name": "Conditional Execution (CE) quantum program",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "Conditional Execution (CE)",
+        "dimensionality": "10 variables"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "combinatorial",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MutTGND (NSGA-II without discount factor)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume, MNNKM, TSSMNNKM",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Mutation-based test generation for quantum programs"
+      },
+      "the_database": {
+        "dataset_name": "invQFT (IQ) quantum program",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "invQFT (IQ)",
+        "dimensionality": "10 variables"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "combinatorial",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MutTGND (NSGA-II without discount factor)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume, MNNKM, TSSMNNKM",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Mutation-based test generation for quantum programs"
+      },
+      "the_database": {
+        "dataset_name": "QRAM (QR) quantum program",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "QRAM (QR)",
+        "dimensionality": "10 variables"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "combinatorial",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MutTGND (NSGA-II without discount factor)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume, MNNKM, TSSMNNKM",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Mutation-based test generation for quantum programs"
+      },
+      "the_database": {
+        "dataset_name": "Add Squared (AS) quantum program",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "Add Squared (AS)",
+        "dimensionality": "10 variables"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "combinatorial",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Random Search"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume, MNNKM, TSSMNNKM",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Mutation-based test generation for quantum programs"
+      },
+      "the_database": {
+        "dataset_name": "Bernstein-Vazirani (BV) quantum program",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "Bernstein-Vazirani (BV)",
+        "dimensionality": "10 variables"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "combinatorial",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Random Search"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume, MNNKM, TSSMNNKM",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Mutation-based test generation for quantum programs"
+      },
+      "the_database": {
+        "dataset_name": "Conditional Execution (CE) quantum program",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "Conditional Execution (CE)",
+        "dimensionality": "10 variables"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "combinatorial",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Random Search"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume, MNNKM, TSSMNNKM",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Mutation-based test generation for quantum programs"
+      },
+      "the_database": {
+        "dataset_name": "invQFT (IQ) quantum program",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "invQFT (IQ)",
+        "dimensionality": "10 variables"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "combinatorial",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Random Search"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume, MNNKM, TSSMNNKM",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Mutation-based test generation for quantum programs"
+      },
+      "the_database": {
+        "dataset_name": "QRAM (QR) quantum program",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "QRAM (QR)",
+        "dimensionality": "10 variables"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "combinatorial",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Random Search"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume, MNNKM, TSSMNNKM",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

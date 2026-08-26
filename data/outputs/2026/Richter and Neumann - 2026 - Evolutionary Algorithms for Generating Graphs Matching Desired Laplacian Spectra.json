@@ -1,0 +1,212 @@
+{
+  "metadata": {
+    "title": "Evolutionary Algorithms for Generating Graphs Matching Desired Laplacian Spectra",
+    "authors": [
+      "Hendrik Richter",
+      "Frank Neumann"
+    ],
+    "year": 2026,
+    "source_file": "Richter and Neumann - 2026 - Evolutionary Algorithms for Generating Graphs Matching Desired Laplacian Spectra.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Star Graph",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EA with basic crossover (bc)"
+      },
+      "parameters": {
+        "population_size": 40,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.75,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (spectral distance d)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Star Graph",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EA with spectral crossover 1 (sc1)"
+      },
+      "parameters": {
+        "population_size": 40,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.75,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (spectral distance d)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Star Graph",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EA with spectral crossover 2 (sc2)"
+      },
+      "parameters": {
+        "population_size": 40,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.75,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (spectral distance d)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Circulant Graph",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EA with basic crossover (bc)"
+      },
+      "parameters": {
+        "population_size": 40,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.75,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (spectral distance d)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Circulant Graph",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EA with spectral crossover 1 (sc1)"
+      },
+      "parameters": {
+        "population_size": 40,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.75,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (spectral distance d)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Circulant Graph",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EA with spectral crossover 2 (sc2)"
+      },
+      "parameters": {
+        "population_size": 40,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.75,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (spectral distance d)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

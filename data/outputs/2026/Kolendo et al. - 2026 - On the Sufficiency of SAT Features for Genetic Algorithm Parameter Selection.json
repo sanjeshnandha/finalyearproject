@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "title": "On the Sufficiency of SAT Features for Genetic Algorithm Parameter Selection",
+    "authors": [
+      "Paweł Kolendo",
+      "Wojciech Chmiel",
+      "Michal Pluhacek"
+    ],
+    "year": 2026,
+    "source_file": "Kolendo et al. - 2026 - On the Sufficiency of SAT Features for Genetic Algorithm Parameter Selection.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "SATLIB",
+        "source_platform": "SATLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "Boolean Satisfiability (SAT)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "mixed discrete-continuous search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Island Genetic Algorithm (IGA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 2500000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage of SAT instances solved and mean clause satisfaction ratio",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

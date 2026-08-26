@@ -1,0 +1,127 @@
+{
+  "metadata": {
+    "title": "Impact of Reformulation for the Real-World Constrained Multi-Objective Problems on the Performance of Evolutionary Algorithms",
+    "authors": [
+      "Jinglin Wang",
+      "Hongyu Zhu",
+      "Yang Nan",
+      "Hisao Ishibuchi"
+    ],
+    "year": 2025,
+    "source_file": "Wang et al. - 2025 - Impact of Reformulation for the Real-World Constrained Multi-Objective Problems on the Performance o.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Real-world constrained multi-objective optimization"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "RCM Suite",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "compact feasible regions",
+          "inter-variable dependencies"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 120,
+        "max_evaluations_or_generations": 1200000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Feasibility Rate (FR) and Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Real-world constrained multi-objective optimization"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "RCM Suite",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "compact feasible regions",
+          "inter-variable dependencies"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CCMO"
+      },
+      "parameters": {
+        "population_size": 120,
+        "max_evaluations_or_generations": 1200000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Feasibility Rate (FR) and Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Real-world constrained multi-objective optimization"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "RCM Suite",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "compact feasible regions",
+          "inter-variable dependencies"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PPS-MOEA/D"
+      },
+      "parameters": {
+        "population_size": 120,
+        "max_evaluations_or_generations": 1200000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Feasibility Rate (FR) and Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

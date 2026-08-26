@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "title": "Efficient EV Charging Allocation in Fog Computing via Committee-Based Surrogate-Assisted PSO",
+    "authors": [
+      "Ibtissem Mokni",
+      "Sonia Yassa",
+      "Stéphane Zuckerman",
+      "Olivier Romain",
+      "Mohamed Nazih Omri"
+    ],
+    "year": 2026,
+    "source_file": "Mokni et al. - 2026 - Efficient EV Charging Allocation in Fog Computing via Committee-Based Surrogate-Assisted PSO.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Electric vehicle charging resource allocation in Fog computing"
+      },
+      "the_database": {
+        "dataset_name": "IRVE database",
+        "source_platform": "French national database (data.gouv.fr)"
+      },
+      "the_benchmark_problem": {
+        "name": "EV Charging Resource Allocation",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "discrete",
+          "high-dimensional",
+          "non-convex",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSO-SA-QBC"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Electric vehicle charging resource allocation in Fog computing"
+      },
+      "the_database": {
+        "dataset_name": "IRVE database",
+        "source_platform": "French national database (data.gouv.fr)"
+      },
+      "the_benchmark_problem": {
+        "name": "EV Charging Resource Allocation",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "discrete",
+          "high-dimensional",
+          "non-convex",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (GA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Electric vehicle charging resource allocation in Fog computing"
+      },
+      "the_database": {
+        "dataset_name": "IRVE database",
+        "source_platform": "French national database (data.gouv.fr)"
+      },
+      "the_benchmark_problem": {
+        "name": "EV Charging Resource Allocation",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "discrete",
+          "high-dimensional",
+          "non-convex",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Differential Evolution (DE)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Electric vehicle charging resource allocation in Fog computing"
+      },
+      "the_database": {
+        "dataset_name": "IRVE database",
+        "source_platform": "French national database (data.gouv.fr)"
+      },
+      "the_benchmark_problem": {
+        "name": "EV Charging Resource Allocation",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "discrete",
+          "high-dimensional",
+          "non-convex",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Particle Swarm Optimization (PSO)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 2850,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

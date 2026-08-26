@@ -1,0 +1,123 @@
+{
+  "metadata": {
+    "title": "DiBB: Distributing Black-Box Optimization",
+    "authors": [
+      "Giuseppe Cuccu",
+      "Luca Rolshoven",
+      "Fabien Vorpe",
+      "Philippe Cudré-Mauroux",
+      "Tobias Glasmachers"
+    ],
+    "year": 2022,
+    "source_file": "Cuccu et al. - 2022 - DiBB distributing black-box optimization.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "COCO BBOB f1-f5",
+        "dimensionality": "320D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Separable",
+        "characteristics": [
+          "separable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PS-CMA-ES"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "ECDF (fraction of precision targets reached)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "COCO BBOB f10-f14",
+        "dimensionality": "320D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "ill-conditioned"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PS-CMA-ES"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "ECDF (fraction of precision targets reached)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Neuroevolution for robotic locomotion (Walker2D)"
+      },
+      "the_database": {
+        "dataset_name": "PyBullet Walker2D",
+        "source_platform": "OpenAI Gym"
+      },
+      "the_benchmark_problem": {
+        "name": "Walker2D",
+        "dimensionality": "11590"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "neuroevolution",
+          "robotics control"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PS-LM-MA-ES"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average score over 100 runs",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

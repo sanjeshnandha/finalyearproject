@@ -1,0 +1,878 @@
+{
+  "metadata": {
+    "title": "Particle Swarm Optimization with Ring Topology for Multi-modal Multi-objective Problems",
+    "authors": [
+      "Youwei Sun",
+      "Chaoli Sun"
+    ],
+    "year": 2023,
+    "source_file": "Sun and Sun - 2023 - Particle Swarm Optimization with Ring Topology for Multi-modal Multi-objective Problems.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CEC2019 MMF Suite",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-modal",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSO-RT"
+      },
+      "parameters": {
+        "population_size": 800,
+        "max_evaluations_or_generations": 80000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Pareto sets proximity (PSP) and Inverted Generational Distance (IGDX)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SYM-PART simple",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-modal",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSO-RT"
+      },
+      "parameters": {
+        "population_size": 800,
+        "max_evaluations_or_generations": 80000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Pareto sets proximity (PSP) and Inverted Generational Distance (IGDX)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SYM-PART rotated",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-modal",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSO-RT"
+      },
+      "parameters": {
+        "population_size": 800,
+        "max_evaluations_or_generations": 80000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Pareto sets proximity (PSP) and Inverted Generational Distance (IGDX)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Omni-test",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-modal",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSO-RT"
+      },
+      "parameters": {
+        "population_size": 800,
+        "max_evaluations_or_generations": 80000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Pareto sets proximity (PSP) and Inverted Generational Distance (IGDX)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CEC2019 MMF Suite",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-modal",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MMEAWI"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 80000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Pareto sets proximity (PSP) and Inverted Generational Distance (IGDX)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SYM-PART simple",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-modal",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MMEAWI"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 80000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Pareto sets proximity (PSP) and Inverted Generational Distance (IGDX)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SYM-PART rotated",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-modal",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MMEAWI"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 80000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Pareto sets proximity (PSP) and Inverted Generational Distance (IGDX)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Omni-test",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-modal",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MMEAWI"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 80000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Pareto sets proximity (PSP) and Inverted Generational Distance (IGDX)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CEC2019 MMF Suite",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-modal",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SSMOPSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 80000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Pareto sets proximity (PSP) and Inverted Generational Distance (IGDX)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SYM-PART simple",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-modal",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SSMOPSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 80000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Pareto sets proximity (PSP) and Inverted Generational Distance (IGDX)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SYM-PART rotated",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-modal",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SSMOPSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 80000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Pareto sets proximity (PSP) and Inverted Generational Distance (IGDX)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Omni-test",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-modal",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SSMOPSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 80000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Pareto sets proximity (PSP) and Inverted Generational Distance (IGDX)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CEC2019 MMF Suite",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-modal",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MO-Ring-PSO-SCD"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 80000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Pareto sets proximity (PSP) and Inverted Generational Distance (IGDX)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SYM-PART simple",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-modal",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MO-Ring-PSO-SCD"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 80000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Pareto sets proximity (PSP) and Inverted Generational Distance (IGDX)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SYM-PART rotated",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-modal",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MO-Ring-PSO-SCD"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 80000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Pareto sets proximity (PSP) and Inverted Generational Distance (IGDX)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Omni-test",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-modal",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MO-Ring-PSO-SCD"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 80000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Pareto sets proximity (PSP) and Inverted Generational Distance (IGDX)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CEC2019 MMF Suite",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-modal",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TriMOEA-TA&R"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 80000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Pareto sets proximity (PSP) and Inverted Generational Distance (IGDX)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SYM-PART simple",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-modal",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TriMOEA-TA&R"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 80000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Pareto sets proximity (PSP) and Inverted Generational Distance (IGDX)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SYM-PART rotated",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-modal",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TriMOEA-TA&R"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 80000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Pareto sets proximity (PSP) and Inverted Generational Distance (IGDX)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Omni-test",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-modal",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TriMOEA-TA&R"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 80000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Pareto sets proximity (PSP) and Inverted Generational Distance (IGDX)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CEC2019 MMF Suite",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-modal",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DN-NSGAII"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 80000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Pareto sets proximity (PSP) and Inverted Generational Distance (IGDX)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SYM-PART simple",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-modal",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DN-NSGAII"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 80000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Pareto sets proximity (PSP) and Inverted Generational Distance (IGDX)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SYM-PART rotated",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-modal",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DN-NSGAII"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 80000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Pareto sets proximity (PSP) and Inverted Generational Distance (IGDX)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Omni-test",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-modal",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DN-NSGAII"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 80000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Pareto sets proximity (PSP) and Inverted Generational Distance (IGDX)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

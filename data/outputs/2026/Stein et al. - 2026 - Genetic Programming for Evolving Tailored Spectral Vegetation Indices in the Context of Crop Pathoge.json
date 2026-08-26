@@ -1,0 +1,375 @@
+{
+  "metadata": {
+    "title": "Genetic Programming for Evolving Tailored Spectral Vegetation Indices in the Context of Crop Pathogen Detection",
+    "authors": [
+      "Anthony Stein",
+      "Johanna Vaske",
+      "Simon Mielke"
+    ],
+    "year": 2026,
+    "source_file": "Stein et al. - 2026 - Genetic Programming for Evolving Tailored Spectral Vegetation Indices in the Context of Crop Pathoge.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Agriculture",
+        "problem_context": "Reconstructing NDVI index from hyperspectral crop data"
+      },
+      "the_database": {
+        "dataset_name": "Hyperspectral imaging (HSI) data of soybean and winter wheat leaves",
+        "source_platform": "University of Hohenheim"
+      },
+      "the_benchmark_problem": {
+        "name": "NDVI Reconstruction",
+        "dimensionality": "75D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "symbolic regression"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Absolute Error (MAE) of 0.0328 on test set",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Agriculture",
+        "problem_context": "Reconstructing NDVI index from hyperspectral crop data"
+      },
+      "the_database": {
+        "dataset_name": "Hyperspectral imaging (HSI) data of soybean and winter wheat leaves",
+        "source_platform": "University of Hohenheim"
+      },
+      "the_benchmark_problem": {
+        "name": "NDVI Reconstruction",
+        "dimensionality": "75D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "symbolic regression"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Cartesian Genetic Programming"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Absolute Error (MAE) of 0.0421 on test set",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Agriculture",
+        "problem_context": "Reconstructing combined SVIs from hyperspectral crop data"
+      },
+      "the_database": {
+        "dataset_name": "Hyperspectral imaging (HSI) data of soybean and winter wheat leaves",
+        "source_platform": "University of Hohenheim"
+      },
+      "the_benchmark_problem": {
+        "name": "Combined SVIs Reconstruction",
+        "dimensionality": "75D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "symbolic regression"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Absolute Error (MAE) of 0.0201 on test set",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Agriculture",
+        "problem_context": "Reconstructing combined SVIs from hyperspectral crop data"
+      },
+      "the_database": {
+        "dataset_name": "Hyperspectral imaging (HSI) data of soybean and winter wheat leaves",
+        "source_platform": "University of Hohenheim"
+      },
+      "the_benchmark_problem": {
+        "name": "Combined SVIs Reconstruction",
+        "dimensionality": "75D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "symbolic regression"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Cartesian Genetic Programming"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Absolute Error (MAE) of 0.0237 on test set",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Agriculture",
+        "problem_context": "Evolving tailored spectral vegetation indices for crop pathogen detection"
+      },
+      "the_database": {
+        "dataset_name": "Hyperspectral imaging (HSI) data of soybean and winter wheat leaves",
+        "source_platform": "University of Hohenheim"
+      },
+      "the_benchmark_problem": {
+        "name": "Asian Soybean Rust (ASR) Detection",
+        "dimensionality": "75D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "symbolic regression"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "micro-averaged class interval error (microMAE) of 0.1008 (ASR6) and 0.0918 (ASR10) on test set",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Agriculture",
+        "problem_context": "Evolving tailored spectral vegetation indices for crop pathogen detection"
+      },
+      "the_database": {
+        "dataset_name": "Hyperspectral imaging (HSI) data of soybean and winter wheat leaves",
+        "source_platform": "University of Hohenheim"
+      },
+      "the_benchmark_problem": {
+        "name": "Asian Soybean Rust (ASR) Detection",
+        "dimensionality": "75D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "symbolic regression"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Cartesian Genetic Programming"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "micro-averaged class interval error (microMAE) of 0.1012 (ASR6) and 0.0928 (ASR10) on test set",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Agriculture",
+        "problem_context": "Evolving tailored spectral vegetation indices for crop pathogen detection"
+      },
+      "the_database": {
+        "dataset_name": "Hyperspectral imaging (HSI) data of soybean and winter wheat leaves",
+        "source_platform": "University of Hohenheim"
+      },
+      "the_benchmark_problem": {
+        "name": "Wheat Yellow Rust (WYR) Detection",
+        "dimensionality": "75D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "symbolic regression"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "micro-averaged class interval error (microMAE) of 0.0568 on test set",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Agriculture",
+        "problem_context": "Evolving tailored spectral vegetation indices for crop pathogen detection"
+      },
+      "the_database": {
+        "dataset_name": "Hyperspectral imaging (HSI) data of soybean and winter wheat leaves",
+        "source_platform": "University of Hohenheim"
+      },
+      "the_benchmark_problem": {
+        "name": "Wheat Yellow Rust (WYR) Detection",
+        "dimensionality": "75D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "symbolic regression"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Cartesian Genetic Programming"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "micro-averaged class interval error (microMAE) of 0.0649 on test set",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Agriculture",
+        "problem_context": "Evolving tailored spectral vegetation indices for crop pathogen detection"
+      },
+      "the_database": {
+        "dataset_name": "Hyperspectral imaging (HSI) data of soybean and winter wheat leaves",
+        "source_platform": "University of Hohenheim"
+      },
+      "the_benchmark_problem": {
+        "name": "Wheat Powdery Mildew (WPM) Detection",
+        "dimensionality": "75D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "symbolic regression"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "micro-averaged class interval error (microMAE) of 0.0360 on test set",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Agriculture",
+        "problem_context": "Evolving tailored spectral vegetation indices for crop pathogen detection"
+      },
+      "the_database": {
+        "dataset_name": "Hyperspectral imaging (HSI) data of soybean and winter wheat leaves",
+        "source_platform": "University of Hohenheim"
+      },
+      "the_benchmark_problem": {
+        "name": "Wheat Powdery Mildew (WPM) Detection",
+        "dimensionality": "75D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "symbolic regression"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Cartesian Genetic Programming"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "micro-averaged class interval error (microMAE) of 0.0444 on test set",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "metadata": {
+    "title": "Modeling and solution to hot rolling production rescheduling problem",
+    "authors": [
+      "Ge-Jian XU",
+      "Guo-Dong Zhao",
+      "Yang Yang",
+      "Hua Zou"
+    ],
+    "year": 2025,
+    "source_file": "Xu et al. - 2025 - Modeling and Solution to Hot Rolling Production Rescheduling Problem.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "LZ_09_F1",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LRU-SaMODE"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "LZ_09_F2",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LRU-SaMODE"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "LZ_09_F3",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LRU-SaMODE"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Hot rolling production rescheduling"
+      },
+      "the_database": {
+        "dataset_name": "Actual production data from iron and steel enterprises",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hot rolling production rescheduling problem",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LRU-SaMODE"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV) index",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Hot rolling production rescheduling"
+      },
+      "the_database": {
+        "dataset_name": "Actual production data from iron and steel enterprises",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hot rolling production rescheduling problem",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DT-LRU-SaMODE"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV) index",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Hot rolling production rescheduling"
+      },
+      "the_database": {
+        "dataset_name": "Actual production data from iron and steel enterprises",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hot rolling production rescheduling problem",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SMODE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Pareto solution set distribution",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Hot rolling production rescheduling"
+      },
+      "the_database": {
+        "dataset_name": "Actual production data from iron and steel enterprises",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hot rolling production rescheduling problem",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "JADE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Pareto solution set distribution",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

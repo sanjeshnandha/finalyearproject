@@ -1,0 +1,412 @@
+{
+  "metadata": {
+    "title": "Multi-Tree Genetic Programming for Feature Construction-Based Domain Adaptation in Symbolic Regression with Incomplete Data",
+    "authors": [
+      "Baligh Al-Helali",
+      "Qi Chen",
+      "Bing Xue",
+      "Mengjie Zhang"
+    ],
+    "year": 2020,
+    "source_file": "Al-Helali et al. - 2020 - Multi-tree genetic programming for feature construction-based domain adaptation in symbolic regressi.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Other (Real Estate)",
+        "problem_context": "Symbolic regression with incomplete data"
+      },
+      "the_database": {
+        "dataset_name": "Housing",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Housing",
+        "dimensionality": "13D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MTGPDA"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Relative Squared Error (RSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Symbolic regression with incomplete data"
+      },
+      "the_database": {
+        "dataset_name": "Concrete",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Concrete",
+        "dimensionality": "9D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MTGPDA"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Relative Squared Error (RSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Symbolic regression with incomplete data"
+      },
+      "the_database": {
+        "dataset_name": "Yacht",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Yacht",
+        "dimensionality": "6D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MTGPDA"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Relative Squared Error (RSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Other (Environmental)",
+        "problem_context": "Symbolic regression with incomplete data"
+      },
+      "the_database": {
+        "dataset_name": "Forestfires",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Forestfires",
+        "dimensionality": "13D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MTGPDA"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Relative Squared Error (RSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Symbolic regression with incomplete data"
+      },
+      "the_database": {
+        "dataset_name": "Auto-mpg",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Auto-mpg",
+        "dimensionality": "6D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MTGPDA"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Relative Squared Error (RSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Symbolic regression with incomplete data"
+      },
+      "the_database": {
+        "dataset_name": "Imports",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Imports",
+        "dimensionality": "14D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MTGPDA"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Relative Squared Error (RSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Other (Real Estate)",
+        "problem_context": "Symbolic regression with incomplete data"
+      },
+      "the_database": {
+        "dataset_name": "Housing",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Housing",
+        "dimensionality": "13D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Baseline (WkNN + GP-based Symbolic Regression)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Relative Squared Error (RSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Symbolic regression with incomplete data"
+      },
+      "the_database": {
+        "dataset_name": "Concrete",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Concrete",
+        "dimensionality": "9D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Baseline (WkNN + GP-based Symbolic Regression)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Relative Squared Error (RSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Symbolic regression with incomplete data"
+      },
+      "the_database": {
+        "dataset_name": "Yacht",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Yacht",
+        "dimensionality": "6D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Baseline (WkNN + GP-based Symbolic Regression)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Relative Squared Error (RSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Other (Environmental)",
+        "problem_context": "Symbolic regression with incomplete data"
+      },
+      "the_database": {
+        "dataset_name": "Forestfires",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Forestfires",
+        "dimensionality": "13D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Baseline (WkNN + GP-based Symbolic Regression)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Relative Squared Error (RSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Symbolic regression with incomplete data"
+      },
+      "the_database": {
+        "dataset_name": "Auto-mpg",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Auto-mpg",
+        "dimensionality": "6D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Baseline (WkNN + GP-based Symbolic Regression)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Relative Squared Error (RSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Symbolic regression with incomplete data"
+      },
+      "the_database": {
+        "dataset_name": "Imports",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Imports",
+        "dimensionality": "14D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Baseline (WkNN + GP-based Symbolic Regression)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Relative Squared Error (RSE)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

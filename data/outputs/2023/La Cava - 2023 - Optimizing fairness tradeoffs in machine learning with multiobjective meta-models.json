@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "title": "Optimizing fairness tradeoffs in machine learning with multiobjective meta-models",
+    "authors": [
+      "William G. La Cava"
+    ],
+    "year": 2023,
+    "source_file": "La Cava - 2023 - Optimizing fairness tradeoffs in machine learning with multiobjective meta-models.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Government/Social Policy",
+        "problem_context": "Predicting crime rates with subgroup fairness constraints"
+      },
+      "the_database": {
+        "dataset_name": "Communities",
+        "source_platform": "UCI"
+      },
+      "the_benchmark_problem": {
+        "name": "Communities",
+        "dimensionality": "122 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FOMO (NSGA2)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (Subgroup Fairness, AUROC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance/Economics",
+        "problem_context": "Predicting income levels with subgroup fairness constraints"
+      },
+      "the_database": {
+        "dataset_name": "Adult",
+        "source_platform": "Census"
+      },
+      "the_benchmark_problem": {
+        "name": "Adult",
+        "dimensionality": "98 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FOMO (NSGA2)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (Subgroup Fairness, AUROC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Education/Legal",
+        "problem_context": "Predicting law school bar passage with subgroup fairness constraints"
+      },
+      "the_database": {
+        "dataset_name": "Lawschool",
+        "source_platform": "ERIC"
+      },
+      "the_benchmark_problem": {
+        "name": "Lawschool",
+        "dimensionality": "17 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FOMO (NSGA2)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (Subgroup Fairness, AUROC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Education",
+        "problem_context": "Predicting student achievement with subgroup fairness constraints"
+      },
+      "the_database": {
+        "dataset_name": "Student",
+        "source_platform": "Secondary Schools"
+      },
+      "the_benchmark_problem": {
+        "name": "Student",
+        "dimensionality": "43 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FOMO (NSGA2)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (Subgroup Fairness, AUROC)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

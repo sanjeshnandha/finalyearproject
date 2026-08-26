@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "title": "LLM-POET: Evolving Complex Environments using Large Language Models",
+    "authors": [
+      "Fuma Aki",
+      "Riku Ikeda",
+      "Takumi Saito",
+      "Ciaran Regan",
+      "Mizuki Oka"
+    ],
+    "year": 2024,
+    "source_file": "Aki et al. - 2024 - LLM-POET Evolving Complex Environments using Large Language Models.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Design and control of soft-robot agents in evolved environments"
+      },
+      "the_database": {
+        "dataset_name": "Evolution Gym",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Evolution Gym",
+        "dimensionality": "100*20 size"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex",
+          "diverse",
+          "open-ended"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LLM-POET"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.5,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average score difference between POET and PPO (1.11 ± 0.42)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Design and control of soft-robot agents in evolved environments"
+      },
+      "the_database": {
+        "dataset_name": "Evolution Gym",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Evolution Gym",
+        "dimensionality": "100*20 size"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex",
+          "diverse",
+          "open-ended"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Enhanced-POET"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average score difference between POET and PPO (0.83 ± 0.42)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

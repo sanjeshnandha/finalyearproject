@@ -1,0 +1,212 @@
+{
+  "metadata": {
+    "title": "A Memetic Algorithm to Identify Search Patterns for Maximal Coverage of Drifting Oceanic Particles",
+    "authors": [
+      "So-Jung Lee",
+      "Yong-Hyuk Kim"
+    ],
+    "year": 2024,
+    "source_file": "Lee and Kim - 2024 - A Memetic Algorithm to Identify Search Patterns for Maximal Coverage of Drifting Oceanic Particles.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Maximal Coverage of Drifting Oceanic Particles"
+      },
+      "the_database": {
+        "dataset_name": "Ocean drifting particle data",
+        "source_platform": "Geo System Research"
+      },
+      "the_benchmark_problem": {
+        "name": "Maximal Coverage of Drifting Oceanic Particles (6x9 grid)",
+        "dimensionality": "54 cells"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.5,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best coverage",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Maximal Coverage of Drifting Oceanic Particles"
+      },
+      "the_database": {
+        "dataset_name": "Ocean drifting particle data",
+        "source_platform": "Geo System Research"
+      },
+      "the_benchmark_problem": {
+        "name": "Maximal Coverage of Drifting Oceanic Particles (8x12 grid)",
+        "dimensionality": "96 cells"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.5,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best coverage",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Maximal Coverage of Drifting Oceanic Particles"
+      },
+      "the_database": {
+        "dataset_name": "Ocean drifting particle data",
+        "source_platform": "Geo System Research"
+      },
+      "the_benchmark_problem": {
+        "name": "Maximal Coverage of Drifting Oceanic Particles (6x9 grid)",
+        "dimensionality": "54 cells"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Memetic Algorithm (PMX)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.5,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best coverage",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Maximal Coverage of Drifting Oceanic Particles"
+      },
+      "the_database": {
+        "dataset_name": "Ocean drifting particle data",
+        "source_platform": "Geo System Research"
+      },
+      "the_benchmark_problem": {
+        "name": "Maximal Coverage of Drifting Oceanic Particles (6x9 grid)",
+        "dimensionality": "54 cells"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Memetic Algorithm (Order Crossover)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.5,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best coverage",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Maximal Coverage of Drifting Oceanic Particles"
+      },
+      "the_database": {
+        "dataset_name": "Ocean drifting particle data",
+        "source_platform": "Geo System Research"
+      },
+      "the_benchmark_problem": {
+        "name": "Maximal Coverage of Drifting Oceanic Particles (8x12 grid)",
+        "dimensionality": "96 cells"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Memetic Algorithm (PMX)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.5,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best coverage",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Maximal Coverage of Drifting Oceanic Particles"
+      },
+      "the_database": {
+        "dataset_name": "Ocean drifting particle data",
+        "source_platform": "Geo System Research"
+      },
+      "the_benchmark_problem": {
+        "name": "Maximal Coverage of Drifting Oceanic Particles (8x12 grid)",
+        "dimensionality": "96 cells"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Memetic Algorithm (Order Crossover)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.5,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best coverage",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,909 @@
+{
+  "metadata": {
+    "title": "On Reference Set Selection for Constrained Multiobjective Optimization Problems",
+    "authors": [
+      "Luka Opravš",
+      "Dimo Brockhoff",
+      "Tea Tušar"
+    ],
+    "year": 2026,
+    "source_file": "Opravš et al. - 2026 - On Reference Set Selection for Constrained Multiobjective Optimization Problems.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "COBI Problem 1",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "low conditioning",
+          "one linear constraint",
+          "one convex-quadratic constraint"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "equi-w"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGDx, IGD+, Hypervolume, computation time",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "COBI Problem 1",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "low conditioning",
+          "one linear constraint",
+          "one convex-quadratic constraint"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "equi-x"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGDx, IGD+, Hypervolume, computation time",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "COBI Problem 1",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "low conditioning",
+          "one linear constraint",
+          "one convex-quadratic constraint"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "bound-x"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGDx, IGD+, Hypervolume, computation time",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "COBI Problem 1",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "low conditioning",
+          "one linear constraint",
+          "one convex-quadratic constraint"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "equi-f"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGDx, IGD+, Hypervolume, computation time",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "COBI Problem 1",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "low conditioning",
+          "one linear constraint",
+          "one convex-quadratic constraint"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "bound-f"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGDx, IGD+, Hypervolume, computation time",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "COBI Problem 1",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "low conditioning",
+          "one linear constraint",
+          "one convex-quadratic constraint"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "max-HV"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGDx, IGD+, Hypervolume, computation time",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "COBI Problem 2",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "high conditioning",
+          "two linear constraints",
+          "one convex-quadratic constraint"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "equi-w"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGDx, IGD+, Hypervolume, computation time",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "COBI Problem 2",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "high conditioning",
+          "two linear constraints",
+          "one convex-quadratic constraint"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "equi-x"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGDx, IGD+, Hypervolume, computation time",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "COBI Problem 2",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "high conditioning",
+          "two linear constraints",
+          "one convex-quadratic constraint"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "bound-x"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGDx, IGD+, Hypervolume, computation time",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "COBI Problem 2",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "high conditioning",
+          "two linear constraints",
+          "one convex-quadratic constraint"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "equi-f"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGDx, IGD+, Hypervolume, computation time",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "COBI Problem 2",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "high conditioning",
+          "two linear constraints",
+          "one convex-quadratic constraint"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "bound-f"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGDx, IGD+, Hypervolume, computation time",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "COBI Problem 2",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "high conditioning",
+          "two linear constraints",
+          "one convex-quadratic constraint"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "max-HV"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGDx, IGD+, Hypervolume, computation time",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "COBI Problem 3",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "high conditioning",
+          "two linear constraints",
+          "one convex-quadratic constraint",
+          "non-convex Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "equi-w"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGDx, IGD+, Hypervolume, computation time",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "COBI Problem 3",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "high conditioning",
+          "two linear constraints",
+          "one convex-quadratic constraint",
+          "non-convex Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "equi-x"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGDx, IGD+, Hypervolume, computation time",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "COBI Problem 3",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "high conditioning",
+          "two linear constraints",
+          "one convex-quadratic constraint",
+          "non-convex Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "bound-x"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGDx, IGD+, Hypervolume, computation time",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "COBI Problem 3",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "high conditioning",
+          "two linear constraints",
+          "one convex-quadratic constraint",
+          "non-convex Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "equi-f"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGDx, IGD+, Hypervolume, computation time",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "COBI Problem 3",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "high conditioning",
+          "two linear constraints",
+          "one convex-quadratic constraint",
+          "non-convex Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "bound-f"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGDx, IGD+, Hypervolume, computation time",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "COBI Problem 3",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "high conditioning",
+          "two linear constraints",
+          "one convex-quadratic constraint",
+          "non-convex Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "max-HV"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGDx, IGD+, Hypervolume, computation time",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "COBI Problem 4",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multipeak constraint",
+          "three disconnected feasible regions",
+          "highly conditioned peak"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "equi-w"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGDx, IGD+, Hypervolume, computation time",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "COBI Problem 4",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multipeak constraint",
+          "three disconnected feasible regions",
+          "highly conditioned peak"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "equi-x"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGDx, IGD+, Hypervolume, computation time",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "COBI Problem 4",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multipeak constraint",
+          "three disconnected feasible regions",
+          "highly conditioned peak"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "bound-x"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGDx, IGD+, Hypervolume, computation time",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "COBI Problem 4",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multipeak constraint",
+          "three disconnected feasible regions",
+          "highly conditioned peak"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "equi-f"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGDx, IGD+, Hypervolume, computation time",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "COBI Problem 4",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multipeak constraint",
+          "three disconnected feasible regions",
+          "highly conditioned peak"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "bound-f"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGDx, IGD+, Hypervolume, computation time",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "COBI Problem 4",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multipeak constraint",
+          "three disconnected feasible regions",
+          "highly conditioned peak"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "max-HV"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGDx, IGD+, Hypervolume, computation time",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

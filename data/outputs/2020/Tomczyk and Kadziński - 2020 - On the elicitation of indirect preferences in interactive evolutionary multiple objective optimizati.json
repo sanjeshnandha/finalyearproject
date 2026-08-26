@@ -1,0 +1,347 @@
+{
+  "metadata": {
+    "title": "On the elicitation of indirect preferences in interactive evolutionary multiple objective optimization",
+    "authors": [
+      "Michał K. Tomczyk",
+      "Miłosz Kadziński"
+    ],
+    "year": 2020,
+    "source_file": "Tomczyk and Kadziński - 2020 - On the elicitation of indirect preferences in interactive evolutionary multiple objective optimizati.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WFG Benchmark Suite (WFG1-9)",
+        "dimensionality": "2D to 5D objectives"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "biased",
+          "disconnected Pareto front",
+          "degenerate"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "IEMO/D with RAND"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Best and Average Relative Score Difference (BRSD and ARSD)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WFG Benchmark Suite (WFG1-9)",
+        "dimensionality": "2D to 5D objectives"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "biased",
+          "disconnected Pareto front",
+          "degenerate"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "IEMO/D with MS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Best and Average Relative Score Difference (BRSD and ARSD)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WFG Benchmark Suite (WFG1-9)",
+        "dimensionality": "2D to 5D objectives"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "biased",
+          "disconnected Pareto front",
+          "degenerate"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "IEMO/D with PWIT"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Best and Average Relative Score Difference (BRSD and ARSD)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WFG Benchmark Suite (WFG1-9)",
+        "dimensionality": "2D to 5D objectives"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "biased",
+          "disconnected Pareto front",
+          "degenerate"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "IEMO/D with PWIT-500"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Best and Average Relative Score Difference (BRSD and ARSD)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WFG Benchmark Suite (WFG1-9)",
+        "dimensionality": "2D to 5D objectives"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "biased",
+          "disconnected Pareto front",
+          "degenerate"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "IEMO/D with GP-IG^th"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Best and Average Relative Score Difference (BRSD and ARSD)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WFG Benchmark Suite (WFG1-9)",
+        "dimensionality": "2D to 5D objectives"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "biased",
+          "disconnected Pareto front",
+          "degenerate"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "IEMO/D with PC"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Best and Average Relative Score Difference (BRSD and ARSD)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WFG Benchmark Suite (WFG1-9)",
+        "dimensionality": "2D to 5D objectives"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "biased",
+          "disconnected Pareto front",
+          "degenerate"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "IEMO/D with INT"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Best and Average Relative Score Difference (BRSD and ARSD)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WFG Benchmark Suite (WFG1-9)",
+        "dimensionality": "2D to 5D objectives"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "biased",
+          "disconnected Pareto front",
+          "degenerate"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "IEMO/D with ORDER-3"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Best and Average Relative Score Difference (BRSD and ARSD)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WFG Benchmark Suite (WFG1-9)",
+        "dimensionality": "2D to 5D objectives"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "biased",
+          "disconnected Pareto front",
+          "degenerate"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "IEMO/D with BEST-3"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Best and Average Relative Score Difference (BRSD and ARSD)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

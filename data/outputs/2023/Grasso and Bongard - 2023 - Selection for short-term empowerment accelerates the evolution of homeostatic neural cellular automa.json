@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "title": "Selection for short-term empowerment accelerates the evolution of homeostatic neural cellular automata.",
+    "authors": [
+      "Caitlin Grasso",
+      "Josh Bongard"
+    ],
+    "year": 2023,
+    "source_file": "Grasso and Bongard - 2023 - Selection for short-term empowerment accelerates the evolution of homeostatic neural cellular automa.pdf",
+    "gecco_track": "Artificial Life"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "NCA Morphogenesis (Square Target Shape)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Age Fitness Pareto Optimization (AFPO) with Bi-loss"
+      },
+      "parameters": {
+        "population_size": 400,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average L2 loss over 2000 generations",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "NCA Morphogenesis (Square Target Shape)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Age Fitness Pareto Optimization (AFPO) with Tri-loss-empowerment"
+      },
+      "parameters": {
+        "population_size": 400,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average L2 loss over 2000 generations",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "NCA Morphogenesis (Square Target Shape)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Age Fitness Pareto Optimization (AFPO) with Tri-loss"
+      },
+      "parameters": {
+        "population_size": 400,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average L2 loss over 2000 generations",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "NCA Morphogenesis (Up-scaled Square Target Shape)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Age Fitness Pareto Optimization (AFPO) with Tri-loss-empowerment"
+      },
+      "parameters": {
+        "population_size": 400,
+        "max_evaluations_or_generations": 1500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average L2 loss over 1500 generations",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

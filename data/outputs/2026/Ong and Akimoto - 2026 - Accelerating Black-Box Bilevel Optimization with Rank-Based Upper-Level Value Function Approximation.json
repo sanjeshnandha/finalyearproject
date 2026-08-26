@@ -1,0 +1,236 @@
+{
+  "metadata": {
+    "title": "Accelerating Black-Box Bilevel Optimization with Rank-Based Upper-Level Value Function Approximation",
+    "authors": [
+      "Marc Ong",
+      "Youhei Akimoto"
+    ],
+    "year": 2026,
+    "source_file": "Ong and Akimoto - 2026 - Accelerating Black-Box Bilevel Optimization with Rank-Based Upper-Level Value Function Approximation.pdf",
+    "gecco_track": "Continuous Optimization"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SMD Suite",
+        "dimensionality": "40D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "ill-conditioning",
+          "nonconvexity",
+          "multimodality"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "URA-CMA-ES"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median upper-level accuracy |F - F*|",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SMD Suite",
+        "dimensionality": "40D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "ill-conditioning",
+          "nonconvexity",
+          "multimodality"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "BOC"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median upper-level accuracy |F - F*|",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SMD Suite",
+        "dimensionality": "40D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "ill-conditioning",
+          "nonconvexity",
+          "multimodality"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "BL-CMA-ES"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median upper-level accuracy |F - F*|",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WRA Suite",
+        "dimensionality": "40D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "strong variable interaction",
+          "non-smoothness",
+          "non-convexity"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "URA-CMA-ES"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median final objective function accuracy |F - F*|",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WRA Suite",
+        "dimensionality": "40D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "strong variable interaction",
+          "non-smoothness",
+          "non-convexity"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "BOC"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median final objective function accuracy |F - F*|",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WRA Suite",
+        "dimensionality": "40D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "strong variable interaction",
+          "non-smoothness",
+          "non-convexity"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "BL-CMA-ES"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median final objective function accuracy |F - F*|",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

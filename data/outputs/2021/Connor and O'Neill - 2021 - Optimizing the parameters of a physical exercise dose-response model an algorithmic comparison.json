@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "title": "Optimizing the Parameters of A Physical Exercise Dose-Response Model: An Algorithmic Comparison",
+    "authors": [
+      "Mark Connor",
+      "Michael O'Neill"
+    ],
+    "year": 2021,
+    "source_file": "Connor and O'Neill - 2021 - Optimizing the parameters of a physical exercise dose-response model an algorithmic comparison.pdf",
+    "gecco_track": "Applied computing -> Health care information systems"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Fitting the parameters of a non-linear physical exercise dose-response model"
+      },
+      "the_database": {
+        "dataset_name": "Open-source dataset of 166 exercise training sessions",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Physical exercise dose-response model parameter fitting",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-linear"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Differential Evolution (DE)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Coefficient of determination (R^2) and Sum of squared errors (loss)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Fitting the parameters of a non-linear physical exercise dose-response model"
+      },
+      "the_database": {
+        "dataset_name": "Open-source dataset of 166 exercise training sessions",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Physical exercise dose-response model parameter fitting",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-linear"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Seeded Differential Evolution (DE Seeded)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Coefficient of determination (R^2) and Sum of squared errors (loss)",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

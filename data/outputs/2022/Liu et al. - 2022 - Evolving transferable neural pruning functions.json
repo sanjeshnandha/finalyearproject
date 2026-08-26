@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "title": "Evolving Transferable Neural Pruning Functions",
+    "authors": [
+      "Yuchen Liu",
+      "S.Y. Kung",
+      "David Wentzlaff"
+    ],
+    "year": 2022,
+    "source_file": "Liu et al. - 2022 - Evolving transferable neural pruning functions.pdf",
+    "gecco_track": "Genetic and Evolutionary Computation Conference (GECCO '22)"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Evolving transferable neural pruning functions"
+      },
+      "the_database": {
+        "dataset_name": "MNIST and CIFAR-10",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "LeNet-5 on MNIST and VGG-16 on CIFAR-10",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming"
+      },
+      "parameters": {
+        "population_size": 40,
+        "max_evaluations_or_generations": 25,
+        "mutation_rate": 0.75,
+        "crossover_rate": 0.75
+      },
+      "performance_outcome": {
+        "metric": "Joint fitness value (weighted geometric mean of validation accuracies)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Evolving neural pruning functions directly on a large-scale dataset"
+      },
+      "the_database": {
+        "dataset_name": "ILSVRC-2012",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ResNet-18 on ILSVRC-2012",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming"
+      },
+      "parameters": {
+        "population_size": 40,
+        "max_evaluations_or_generations": 25,
+        "mutation_rate": 0.75,
+        "crossover_rate": 0.75
+      },
+      "performance_outcome": {
+        "metric": "Validation accuracy of pruned ResNet-18 after 4 epochs of retraining",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

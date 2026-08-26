@@ -1,0 +1,230 @@
+{
+  "metadata": {
+    "title": "A Study of Ant-Based Pheromone Spaces for Generation Perturbative Hyper-Heuristics",
+    "authors": [
+      "Emilio Singh",
+      "Nelishia Pillay"
+    ],
+    "year": 2023,
+    "source_file": "Singh and Pillay - 2023 - A Study of Ant-Based Pheromone Spaces for Generation Perturbative Hyper-Heuristics.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Capacitated Vehicle Routing Problem"
+      },
+      "the_database": {
+        "dataset_name": "CVRPLIB",
+        "source_platform": "CVRPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "Capacitated Vehicle Routing Problem (CVRP)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "feasibility constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HACO-GP (1D)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 750,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average fitness value",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Capacitated Vehicle Routing Problem"
+      },
+      "the_database": {
+        "dataset_name": "CVRPLIB",
+        "source_platform": "CVRPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "Capacitated Vehicle Routing Problem (CVRP)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "feasibility constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HACO-GP (2D)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 750,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average fitness value",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Capacitated Vehicle Routing Problem"
+      },
+      "the_database": {
+        "dataset_name": "CVRPLIB",
+        "source_platform": "CVRPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "Capacitated Vehicle Routing Problem (CVRP)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "feasibility constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HACO-GP (3D)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 750,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average fitness value",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Media",
+        "problem_context": "Movie Scene Scheduling Problem"
+      },
+      "the_database": {
+        "dataset_name": "MSSP Dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Movie Scene Scheduling Problem (MSSP)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "fewer feasibility constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HACO-GP (1D)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 750,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average fitness value",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Media",
+        "problem_context": "Movie Scene Scheduling Problem"
+      },
+      "the_database": {
+        "dataset_name": "MSSP Dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Movie Scene Scheduling Problem (MSSP)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "fewer feasibility constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HACO-GP (2D)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 750,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average fitness value",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Media",
+        "problem_context": "Movie Scene Scheduling Problem"
+      },
+      "the_database": {
+        "dataset_name": "MSSP Dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Movie Scene Scheduling Problem (MSSP)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "fewer feasibility constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HACO-GP (3D)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 750,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average fitness value",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

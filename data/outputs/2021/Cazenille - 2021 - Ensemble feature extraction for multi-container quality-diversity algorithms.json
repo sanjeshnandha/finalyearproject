@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "title": "Ensemble Feature Extraction for Multi-Container Quality-Diversity Algorithms",
+    "authors": [
+      "Leo Cazenille"
+    ],
+    "year": 2021,
+    "source_file": "Cazenille - 2021 - Ensemble feature extraction for multi-container quality-diversity algorithms.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Bipedal robot locomotion"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": "OpenAI Gym"
+      },
+      "the_benchmark_problem": {
+        "name": "BipedalWalker-v3",
+        "dimensionality": "2804"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stochastic",
+          "deceptive"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAP-Elites"
+      },
+      "parameters": {
+        "population_size": 10000,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.1,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Unique QD-Score: 439.360, Unique Coverage: 57.680%, Best Fitness: 33.229 (for hardcoded-4)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Bipedal robot locomotion"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": "OpenAI Gym"
+      },
+      "the_benchmark_problem": {
+        "name": "BipedalWalker-v3",
+        "dimensionality": "2804"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stochastic",
+          "deceptive"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MC-AURORA"
+      },
+      "parameters": {
+        "population_size": 10000,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.1,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Unique QD-Score: 604.357, Unique Coverage: 78.176%, Best Fitness: 23.998 (for qt-reco-9-ns)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Bipedal robot locomotion"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": "OpenAI Gym"
+      },
+      "the_benchmark_problem": {
+        "name": "BipedalWalker-v3",
+        "dimensionality": "2804"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stochastic",
+          "deceptive"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AURORA"
+      },
+      "parameters": {
+        "population_size": 10000,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.1,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Unique QD-Score: 602.999, Unique Coverage: 94.856%, Best Fitness: 14.067 (for qt-reco-1)",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

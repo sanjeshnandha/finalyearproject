@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "title": "Evolution of Distributed Neural Controllers for Voxel-based Soft Robots",
+    "authors": [
+      "Eric Medvet",
+      "Alberto Bartoli",
+      "Andrea De Lorenzo",
+      "Giulio Fidel"
+    ],
+    "year": 2020,
+    "source_file": "Medvet et al. - 2020 - Evolution of distributed neural controllers for voxel-based soft robots.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Locomotion of voxel-based soft robots"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Voxel-based Soft Robot Locomotion (Non-sensing Controller)",
+        "dimensionality": "Variable (4 to 44)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Evolutionary Algorithm (EA)"
+      },
+      "parameters": {
+        "population_size": 250,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Normalized velocity (distance traveled divided by VSR longest dimension over 60s)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Locomotion of voxel-based soft robots"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Voxel-based Soft Robot Locomotion (Centralized Controller)",
+        "dimensionality": "Variable (104 to 11704)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Evolutionary Algorithm (EA)"
+      },
+      "parameters": {
+        "population_size": 250,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Normalized velocity (distance traveled divided by VSR longest dimension over 60s)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Locomotion of voxel-based soft robots"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Voxel-based Soft Robot Locomotion (Distributed Controller)",
+        "dimensionality": "Variable (576 to 6336)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Evolutionary Algorithm (EA)"
+      },
+      "parameters": {
+        "population_size": 250,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Normalized velocity (distance traveled divided by VSR longest dimension over 60s)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

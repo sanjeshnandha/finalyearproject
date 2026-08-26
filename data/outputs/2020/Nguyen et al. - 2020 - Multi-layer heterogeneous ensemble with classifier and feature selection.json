@@ -1,0 +1,1107 @@
+{
+  "metadata": {
+    "title": "Multi-layer Heterogeneous Ensemble with Classifier and Feature Selection",
+    "authors": [
+      "Tien Thanh Nguyen",
+      "Nang Van Pham",
+      "Manh Truong Dang",
+      "Anh Vu Luong",
+      "John McCall",
+      "Alan Wee Chung Liew"
+    ],
+    "year": 2020,
+    "source_file": "Nguyen et al. - 2020 - Multi-layer heterogeneous ensemble with classifier and feature selection.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Chemistry/Biology",
+        "problem_context": "Classification of biodegradability"
+      },
+      "the_database": {
+        "dataset_name": "Biodeg",
+        "source_platform": "UCI Repository / OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Biodeg",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MULES (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification error rate of 0.1230",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Breast cancer classification"
+      },
+      "the_database": {
+        "dataset_name": "Breast-Cancer",
+        "source_platform": "UCI Repository / OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Breast-Cancer",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MULES (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification error rate of 0.0488",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Breast tissue classification"
+      },
+      "the_database": {
+        "dataset_name": "Breast-Tissue",
+        "source_platform": "UCI Repository / OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Breast-Tissue",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MULES (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification error rate of 0.2813",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Games/Recreation",
+        "problem_context": "Chess game state classification"
+      },
+      "the_database": {
+        "dataset_name": "Chess-krvk",
+        "source_platform": "UCI Repository / OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Chess-krvk",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MULES (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification error rate of 0.1280",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Heart disease classification"
+      },
+      "the_database": {
+        "dataset_name": "Cleveland",
+        "source_platform": "UCI Repository / OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Cleveland",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MULES (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification error rate of 0.4111",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Social Science/Healthcare",
+        "problem_context": "Contraceptive method choice classification"
+      },
+      "the_database": {
+        "dataset_name": "Contraceptive",
+        "source_platform": "UCI Repository / OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Contraceptive",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MULES (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification error rate of 0.4276",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Electricity price change classification"
+      },
+      "the_database": {
+        "dataset_name": "Electricity",
+        "source_platform": "UCI Repository / OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Electricity",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MULES (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification error rate of 0.0674",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Embryonal tumor classification"
+      },
+      "the_database": {
+        "dataset_name": "Embryonal",
+        "source_platform": "UCI Repository / OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Embryonal",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MULES (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification error rate of 0.3889",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Psychology/Cognitive Science",
+        "problem_context": "Hayes-roth dataset classification"
+      },
+      "the_database": {
+        "dataset_name": "Hayes-roth",
+        "source_platform": "UCI Repository / OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Hayes-roth",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MULES (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification error rate of 0.1667",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Earth Science/Terrain",
+        "problem_context": "Hill-valley terrain classification"
+      },
+      "the_database": {
+        "dataset_name": "Hill-valley",
+        "source_platform": "UCI Repository / OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Hill-valley",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MULES (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification error rate of 0.0234",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Speech Recognition",
+        "problem_context": "Isolated letter speech recognition"
+      },
+      "the_database": {
+        "dataset_name": "Isolet",
+        "source_platform": "UCI Repository / OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Isolet",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MULES (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification error rate of 0.0483",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision/OCR",
+        "problem_context": "Letter image recognition"
+      },
+      "the_database": {
+        "dataset_name": "Letter",
+        "source_platform": "UCI Repository / OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Letter",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MULES (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification error rate of 0.0332",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Leukemia subtype classification"
+      },
+      "the_database": {
+        "dataset_name": "Leukemia",
+        "source_platform": "UCI Repository / OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Leukemia",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MULES (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification error rate of 0.0455",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Synthetic/Artificial",
+        "problem_context": "Madelon feature selection benchmark"
+      },
+      "the_database": {
+        "dataset_name": "Madelon",
+        "source_platform": "UCI Repository / OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Madelon",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MULES (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification error rate of 0.2283",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Physics/Astronomy",
+        "problem_context": "Gamma telescope event classification"
+      },
+      "the_database": {
+        "dataset_name": "Magic",
+        "source_platform": "UCI Repository / OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Magic",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MULES (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification error rate of 0.1197",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Business/Marketing",
+        "problem_context": "Marketing demographic classification"
+      },
+      "the_database": {
+        "dataset_name": "Marketing",
+        "source_platform": "UCI Repository / OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Marketing",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MULES (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification error rate of 0.6563",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Chemistry/Pharmacology",
+        "problem_context": "Musk molecule classification"
+      },
+      "the_database": {
+        "dataset_name": "Musk1",
+        "source_platform": "UCI Repository / OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Musk1",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MULES (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification error rate of 0.1329",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Speech/Linguistics",
+        "problem_context": "Phoneme classification"
+      },
+      "the_database": {
+        "dataset_name": "Phoneme",
+        "source_platform": "UCI Repository / OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Phoneme",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MULES (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification error rate of 0.0986",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Synthetic/Artificial",
+        "problem_context": "Ring dataset classification"
+      },
+      "the_database": {
+        "dataset_name": "Ring",
+        "source_platform": "UCI Repository / OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Ring",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MULES (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification error rate of 0.0342",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Remote Sensing/Geography",
+        "problem_context": "Satellite image classification"
+      },
+      "the_database": {
+        "dataset_name": "Satimage",
+        "source_platform": "UCI Repository / OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Satimage",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MULES (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification error rate of 0.0756",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision/Biometrics",
+        "problem_context": "Skin segmentation classification"
+      },
+      "the_database": {
+        "dataset_name": "Skin-NonSkin",
+        "source_platform": "UCI Repository / OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Skin-NonSkin",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MULES (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification error rate of 4.3500E-04",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Cybersecurity/IT",
+        "problem_context": "Spam email classification"
+      },
+      "the_database": {
+        "dataset_name": "Spambase",
+        "source_platform": "UCI Repository / OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Spambase",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MULES (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification error rate of 0.0492",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Texture classification"
+      },
+      "the_database": {
+        "dataset_name": "Texture",
+        "source_platform": "UCI Repository / OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Texture",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MULES (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification error rate of 0.0145",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Games/Recreation",
+        "problem_context": "Tic-tac-toe endgame classification"
+      },
+      "the_database": {
+        "dataset_name": "Tic-tac-toe",
+        "source_platform": "UCI Repository / OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Tic-tac-toe",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MULES (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification error rate of 0.0208",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "History/Social",
+        "problem_context": "Titanic survival prediction"
+      },
+      "the_database": {
+        "dataset_name": "Titanic",
+        "source_platform": "UCI Repository / OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Titanic",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MULES (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification error rate of 0.2284",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Synthetic/Artificial",
+        "problem_context": "Twonorm dataset classification"
+      },
+      "the_database": {
+        "dataset_name": "Twonorm",
+        "source_platform": "UCI Repository / OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Twonorm",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MULES (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification error rate of 0.0293",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Transportation/Computer Vision",
+        "problem_context": "Vehicle silhouette classification"
+      },
+      "the_database": {
+        "dataset_name": "Vehicle",
+        "source_platform": "UCI Repository / OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Vehicle",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MULES (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification error rate of 0.1811",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Vertebral column pathology classification"
+      },
+      "the_database": {
+        "dataset_name": "Vertebral",
+        "source_platform": "UCI Repository / OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Vertebral",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MULES (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification error rate of 0.1720",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Signal Processing",
+        "problem_context": "Waveform with noise classification"
+      },
+      "the_database": {
+        "dataset_name": "Waveform_w_noise",
+        "source_platform": "UCI Repository / OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Waveform_w_noise",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MULES (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification error rate of 0.1233",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Signal Processing",
+        "problem_context": "Waveform without noise classification"
+      },
+      "the_database": {
+        "dataset_name": "Waveform_wo_noise",
+        "source_platform": "UCI Repository / OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Waveform_wo_noise",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MULES (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification error rate of 0.1353",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Agriculture/Food Science",
+        "problem_context": "Wine origin classification"
+      },
+      "the_database": {
+        "dataset_name": "Wine",
+        "source_platform": "UCI Repository / OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Wine",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MULES (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification error rate of 0.0000",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Agriculture/Food Science",
+        "problem_context": "Red wine quality classification"
+      },
+      "the_database": {
+        "dataset_name": "Wine_red",
+        "source_platform": "UCI Repository / OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Wine_red",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MULES (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification error rate of 0.3250",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Agriculture/Food Science",
+        "problem_context": "White wine quality classification"
+      },
+      "the_database": {
+        "dataset_name": "Wine_white",
+        "source_platform": "UCI Repository / OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Wine_white",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MULES (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification error rate of 0.3449",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

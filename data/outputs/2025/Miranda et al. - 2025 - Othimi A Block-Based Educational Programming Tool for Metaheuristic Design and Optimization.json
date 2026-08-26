@@ -1,0 +1,663 @@
+{
+  "metadata": {
+    "title": "Othimi: A Block-Based Educational Programming Tool for Metaheuristic Design and Optimization",
+    "authors": [
+      "Gara Miranda",
+      "Casiano Rodriguez-Leon",
+      "Eduardo Segredo"
+    ],
+    "year": 2025,
+    "source_file": "Miranda et al. - 2025 - Othimi A Block-Based Educational Programming Tool for Metaheuristic Design and Optimization.pdf",
+    "gecco_track": "GECCO '25 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "knapPI",
+        "source_platform": "http://artemisa.unicauca.edu.co/~johnyortega/instances_01_KP/"
+      },
+      "the_benchmark_problem": {
+        "name": "Knapsack Problem (I100)",
+        "dimensionality": "100 items"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Pair Selection (PairSel)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean objective value of 6308.2 over 10 repetitions (Optimal: 9147)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "knapPI",
+        "source_platform": "http://artemisa.unicauca.edu.co/~johnyortega/instances_01_KP/"
+      },
+      "the_benchmark_problem": {
+        "name": "Knapsack Problem (I100)",
+        "dimensionality": "100 items"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Tournament Selection (TournSel)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean objective value of 2685.4 over 10 repetitions (Optimal: 9147)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "knapPI",
+        "source_platform": "http://artemisa.unicauca.edu.co/~johnyortega/instances_01_KP/"
+      },
+      "the_benchmark_problem": {
+        "name": "Knapsack Problem (I100)",
+        "dimensionality": "100 items"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Pair Selection with Simple Mutation (PairSM)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.05,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean objective value of 6312.8 over 10 repetitions (Optimal: 9147)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "knapPI",
+        "source_platform": "http://artemisa.unicauca.edu.co/~johnyortega/instances_01_KP/"
+      },
+      "the_benchmark_problem": {
+        "name": "Knapsack Problem (I100)",
+        "dimensionality": "100 items"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Tournament Selection with Simple Mutation (TournSM)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.05,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean objective value of 5005.4 over 10 repetitions (Optimal: 9147)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "knapPI",
+        "source_platform": "http://artemisa.unicauca.edu.co/~johnyortega/instances_01_KP/"
+      },
+      "the_benchmark_problem": {
+        "name": "Knapsack Problem (I100)",
+        "dimensionality": "100 items"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Pair Selection with Mutation and Local Search (PairLS)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.05,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean objective value of 9069.4 over 10 repetitions (Optimal: 9147)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "knapPI",
+        "source_platform": "http://artemisa.unicauca.edu.co/~johnyortega/instances_01_KP/"
+      },
+      "the_benchmark_problem": {
+        "name": "Knapsack Problem (I100)",
+        "dimensionality": "100 items"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Tournament Selection with Mutation and Local Search (TournLS)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.05,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean objective value of 8414.3 over 10 repetitions (Optimal: 9147)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "knapPI",
+        "source_platform": "http://artemisa.unicauca.edu.co/~johnyortega/instances_01_KP/"
+      },
+      "the_benchmark_problem": {
+        "name": "Knapsack Problem (I200)",
+        "dimensionality": "200 items"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Pair Selection (PairSel)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean objective value of 6369.9 over 10 repetitions (Optimal: 11238)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "knapPI",
+        "source_platform": "http://artemisa.unicauca.edu.co/~johnyortega/instances_01_KP/"
+      },
+      "the_benchmark_problem": {
+        "name": "Knapsack Problem (I200)",
+        "dimensionality": "200 items"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Tournament Selection (TournSel)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean objective value of 2913.3 over 10 repetitions (Optimal: 11238)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "knapPI",
+        "source_platform": "http://artemisa.unicauca.edu.co/~johnyortega/instances_01_KP/"
+      },
+      "the_benchmark_problem": {
+        "name": "Knapsack Problem (I200)",
+        "dimensionality": "200 items"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Pair Selection with Simple Mutation (PairSM)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.05,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean objective value of 6963.8 over 10 repetitions (Optimal: 11238)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "knapPI",
+        "source_platform": "http://artemisa.unicauca.edu.co/~johnyortega/instances_01_KP/"
+      },
+      "the_benchmark_problem": {
+        "name": "Knapsack Problem (I200)",
+        "dimensionality": "200 items"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Tournament Selection with Simple Mutation (TournSM)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.05,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean objective value of 6445.1 over 10 repetitions (Optimal: 11238)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "knapPI",
+        "source_platform": "http://artemisa.unicauca.edu.co/~johnyortega/instances_01_KP/"
+      },
+      "the_benchmark_problem": {
+        "name": "Knapsack Problem (I200)",
+        "dimensionality": "200 items"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Pair Selection with Mutation and Local Search (PairLS)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.05,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean objective value of 10899.2 over 10 repetitions (Optimal: 11238)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "knapPI",
+        "source_platform": "http://artemisa.unicauca.edu.co/~johnyortega/instances_01_KP/"
+      },
+      "the_benchmark_problem": {
+        "name": "Knapsack Problem (I200)",
+        "dimensionality": "200 items"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Tournament Selection with Mutation and Local Search (TournLS)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.05,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean objective value of 10756.7 over 10 repetitions (Optimal: 11238)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "knapPI",
+        "source_platform": "http://artemisa.unicauca.edu.co/~johnyortega/instances_01_KP/"
+      },
+      "the_benchmark_problem": {
+        "name": "Knapsack Problem (I500)",
+        "dimensionality": "500 items"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Pair Selection (PairSel)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean objective value of 12185.3 over 10 repetitions (Optimal: 28857)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "knapPI",
+        "source_platform": "http://artemisa.unicauca.edu.co/~johnyortega/instances_01_KP/"
+      },
+      "the_benchmark_problem": {
+        "name": "Knapsack Problem (I500)",
+        "dimensionality": "500 items"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Tournament Selection (TournSel)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean objective value of 4932.2 over 10 repetitions (Optimal: 28857)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "knapPI",
+        "source_platform": "http://artemisa.unicauca.edu.co/~johnyortega/instances_01_KP/"
+      },
+      "the_benchmark_problem": {
+        "name": "Knapsack Problem (I500)",
+        "dimensionality": "500 items"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Pair Selection with Simple Mutation (PairSM)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.05,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean objective value of 18493.7 over 10 repetitions (Optimal: 28857)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "knapPI",
+        "source_platform": "http://artemisa.unicauca.edu.co/~johnyortega/instances_01_KP/"
+      },
+      "the_benchmark_problem": {
+        "name": "Knapsack Problem (I500)",
+        "dimensionality": "500 items"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Tournament Selection with Simple Mutation (TournSM)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.05,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean objective value of 16928.1 over 10 repetitions (Optimal: 28857)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "knapPI",
+        "source_platform": "http://artemisa.unicauca.edu.co/~johnyortega/instances_01_KP/"
+      },
+      "the_benchmark_problem": {
+        "name": "Knapsack Problem (I500)",
+        "dimensionality": "500 items"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Pair Selection with Mutation and Local Search (PairLS)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.05,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean objective value of 28440.7 over 10 repetitions (Optimal: 28857)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "knapPI",
+        "source_platform": "http://artemisa.unicauca.edu.co/~johnyortega/instances_01_KP/"
+      },
+      "the_benchmark_problem": {
+        "name": "Knapsack Problem (I500)",
+        "dimensionality": "500 items"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Tournament Selection with Mutation and Local Search (TournLS)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.05,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean objective value of 28462.7 over 10 repetitions (Optimal: 28857)",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

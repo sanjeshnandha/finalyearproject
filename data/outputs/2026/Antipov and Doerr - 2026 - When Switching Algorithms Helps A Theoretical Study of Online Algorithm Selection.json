@@ -1,0 +1,194 @@
+{
+  "metadata": {
+    "title": "When Switching Algorithms Helps: A Theoretical Study of Online Algorithm Selection",
+    "authors": [
+      "Denis Antipov",
+      "Carola Doerr"
+    ],
+    "year": 2026,
+    "source_file": "Antipov and Doerr - 2026 - When Switching Algorithms Helps A Theoretical Study of Online Algorithm Selection.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "OneMax",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "pseudo-Boolean",
+          "linear"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Online Algorithm Selection (OAS) ((1 + \\lambda) EA to (1 + (\\lambda, \\beta)) GA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Expected runtime (number of fitness evaluations)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "OneMax",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "pseudo-Boolean",
+          "linear"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "OAS with automatic detection ((1 + 1) EA to (1 + (\\lambda, \\beta)) GA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Expected runtime (number of fitness evaluations)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "OneMax",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "pseudo-Boolean",
+          "linear"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Hyper-heuristic (HH) selecting between (1 + 1) EA and (1 + (\\lambda, \\beta)) GA"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Expected runtime (number of fitness evaluations)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "OneMax",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "pseudo-Boolean",
+          "linear"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(1 + \\lambda) EA"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Expected runtime (number of fitness evaluations)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "OneMax",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "pseudo-Boolean",
+          "linear"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(1 + (\\lambda, \\beta)) GA"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Expected runtime (number of fitness evaluations)",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

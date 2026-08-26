@@ -1,0 +1,53 @@
+2026-07-10 20:02:20.831 | INFO     | gecco_pipeline.extractor:__init__:32 - Initialized GeccoExtractor with model: gemini-3.5-flash and 3 API keys
+2026-07-10 20:02:20.831 | INFO     | gecco_pipeline.processor:__init__:57 - BatchProcessor initialized
+2026-07-10 20:02:20.832 | INFO     | gecco_pipeline.utils:discover_pdfs:62 - Discovered 98 PDF files in data/pdfs/2025
+2026-07-10 20:02:20.833 | INFO     | gecco_pipeline.processor:process_batch:129 - Skipping 42 already-processed PDFs
+2026-07-10 20:02:20.833 | INFO     | gecco_pipeline.processor:process_batch:145 - Processing 56 PDFs...
+2026-07-10 20:02:20.843 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Cui and Hähner - 2025 - CRust_GP A Framework for the Modular Construction and Evaluation of Cartesian Genetic Programming i.pdf
+2026-07-10 20:02:20.843 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Cui and Hähner - 2025 - CRust_GP A Framework for the Modular Construction and Evaluation of Cartesian Genetic Programming i.pdf to Gemini File API...
+2026-07-10 20:02:24.168 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/9eshc07por4w
+2026-07-10 20:02:37.302 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 0 entries from Cui and Hähner - 2025 - CRust_GP A Framework for the Modular Construction and Evaluation of Cartesian Genetic Programming i.pdf
+2026-07-10 20:02:37.304 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2025/Cui and Hähner - 2025 - CRust_GP A Framework for the Modular Construction and Evaluation of Cartesian Genetic Programming i.json
+2026-07-10 20:02:37.305 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Gandor and Książek - 2025 - GLCM and Genetic Algorithms for Automated Diabetic Retinopathy Prediction Based on Retinal Images.pdf
+2026-07-10 20:02:37.305 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Gandor and Książek - 2025 - GLCM and Genetic Algorithms for Automated Diabetic Retinopathy Prediction Based on Retinal Images.pdf to Gemini File API...
+2026-07-10 20:02:40.713 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/y7eao25zn10x
+2026-07-10 20:03:08.488 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 5 entries from Gandor and Książek - 2025 - GLCM and Genetic Algorithms for Automated Diabetic Retinopathy Prediction Based on Retinal Images.pdf
+2026-07-10 20:03:08.490 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2025/Gandor and Książek - 2025 - GLCM and Genetic Algorithms for Automated Diabetic Retinopathy Prediction Based on Retinal Images.json
+2026-07-10 20:03:08.491 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Kozdrowski et al. - 2025 - Multi-criteria Optimization Algorithms specially tailored for Programmable Networks with Quality Man.pdf
+2026-07-10 20:03:08.491 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Kozdrowski et al. - 2025 - Multi-criteria Optimization Algorithms specially tailored for Programmable Networks with Quality Man.pdf to Gemini File API...
+2026-07-10 20:03:12.933 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/unqlv64epgq9
+2026-07-10 20:03:52.630 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 8 entries from Kozdrowski et al. - 2025 - Multi-criteria Optimization Algorithms specially tailored for Programmable Networks with Quality Man.pdf
+2026-07-10 20:03:52.636 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2025/Kozdrowski et al. - 2025 - Multi-criteria Optimization Algorithms specially tailored for Programmable Networks with Quality Man.json
+2026-07-10 20:03:52.637 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Li et al. - 2025 - A Constrained Multi-objective Co-Evolutionary Algorithm Based on Operator Score and Reward.pdf
+2026-07-10 20:03:52.637 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Li et al. - 2025 - A Constrained Multi-objective Co-Evolutionary Algorithm Based on Operator Score and Reward.pdf to Gemini File API...
+2026-07-10 20:03:55.717 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/6bct3gnbhfj9
+2026-07-10 20:04:28.931 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 12 entries from Li et al. - 2025 - A Constrained Multi-objective Co-Evolutionary Algorithm Based on Operator Score and Reward.pdf
+2026-07-10 20:04:28.935 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2025/Li et al. - 2025 - A Constrained Multi-objective Co-Evolutionary Algorithm Based on Operator Score and Reward.json
+2026-07-10 20:04:28.935 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Li et al. - 2025 - A Hyper-feasible Solutions Based Update Weight Vectors Evolutionary Algorithm for Constrained Multio.pdf
+2026-07-10 20:04:28.935 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Li et al. - 2025 - A Hyper-feasible Solutions Based Update Weight Vectors Evolutionary Algorithm for Constrained Multio.pdf to Gemini File API...
+2026-07-10 20:04:32.736 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/1bd2nd99svgk
+2026-07-10 20:05:08.864 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 18 entries from Li et al. - 2025 - A Hyper-feasible Solutions Based Update Weight Vectors Evolutionary Algorithm for Constrained Multio.pdf
+2026-07-10 20:05:08.869 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2025/Li et al. - 2025 - A Hyper-feasible Solutions Based Update Weight Vectors Evolutionary Algorithm for Constrained Multio.json
+2026-07-10 20:05:08.870 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Li et al. - 2025 - A Tabu Search Algorithm Based on Symmetry Local Search for Multi-objective Combinatorial Optimizatio.pdf
+2026-07-10 20:05:08.870 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Li et al. - 2025 - A Tabu Search Algorithm Based on Symmetry Local Search for Multi-objective Combinatorial Optimizatio.pdf to Gemini File API...
+2026-07-10 20:05:13.452 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/d31sokxb8umd
+2026-07-10 20:06:33.546 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 45 entries from Li et al. - 2025 - A Tabu Search Algorithm Based on Symmetry Local Search for Multi-objective Combinatorial Optimizatio.pdf
+2026-07-10 20:06:33.558 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2025/Li et al. - 2025 - A Tabu Search Algorithm Based on Symmetry Local Search for Multi-objective Combinatorial Optimizatio.json
+2026-07-10 20:06:33.561 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Li et al. - 2025 - Particle Swarm Optimization for Automating Prompt Optimization in Large Language Models on Text Clas.pdf
+2026-07-10 20:06:33.561 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Li et al. - 2025 - Particle Swarm Optimization for Automating Prompt Optimization in Large Language Models on Text Clas.pdf to Gemini File API...
+2026-07-10 20:06:37.065 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/6jtn29px23t1
+2026-07-10 20:07:21.590 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 8 entries from Li et al. - 2025 - Particle Swarm Optimization for Automating Prompt Optimization in Large Language Models on Text Clas.pdf
+2026-07-10 20:07:21.594 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2025/Li et al. - 2025 - Particle Swarm Optimization for Automating Prompt Optimization in Large Language Models on Text Clas.json
+2026-07-10 20:07:21.596 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Mai and Luong - 2025 - On the Investigation of Evolutionary Multi-Objective Optimization for Discrete Prompt Search.pdf
+2026-07-10 20:07:21.596 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Mai and Luong - 2025 - On the Investigation of Evolutionary Multi-Objective Optimization for Discrete Prompt Search.pdf to Gemini File API...
+2026-07-10 20:07:26.267 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/ast7x8exzen1
+2026-07-10 20:08:09.378 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 12 entries from Mai and Luong - 2025 - On the Investigation of Evolutionary Multi-Objective Optimization for Discrete Prompt Search.pdf
+2026-07-10 20:08:09.382 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2025/Mai and Luong - 2025 - On the Investigation of Evolutionary Multi-Objective Optimization for Discrete Prompt Search.json
+2026-07-10 20:08:09.383 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Martín-Santamaría et al. - 2025 - Empirical Complexity Analysis of Optimization Algorithms.pdf
+2026-07-10 20:08:09.383 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Martín-Santamaría et al. - 2025 - Empirical Complexity Analysis of Optimization Algorithms.pdf to Gemini File API...
+2026-07-10 20:08:13.268 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/ewteycaeketz
+2026-07-10 20:08:40.357 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 2 entries from Martín-Santamaría et al. - 2025 - Empirical Complexity Analysis of Optimization Algorithms.pdf
+2026-07-10 20:08:40.361 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2025/Martín-Santamaría et al. - 2025 - Empirical Complexity Analysis of Optimization Algorithms.json
+2026-07-10 20:08:40.362 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Masood - 2025 - Model-Adaptive Reference Points Generation based on Gaussian Process for Many-Objective Optimization.pdf
+2026-07-10 20:08:40.362 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Masood - 2025 - Model-Adaptive Reference Points Generation based on Gaussian Process for Many-Objective Optimization.pdf to Gemini File API...
+2026-07-10 20:08:43.778 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/6me7u0wxkhwd

@@ -1,0 +1,279 @@
+{
+  "metadata": {
+    "title": "Evolutionary Ensemble for Predicting Drifter Trajectories Based on Genetic Feature Selection",
+    "authors": [
+      "Tae-Hoon Kim",
+      "Seung-Hyun Moon",
+      "Yong-Hyuk Kim"
+    ],
+    "year": 2024,
+    "source_file": "Kim et al. - 2024 - Evolutionary Ensemble for Predicting Drifter Trajectories Based on Genetic Feature Selection.pdf",
+    "gecco_track": "GECCO '24 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Predicting drifter trajectories in the ocean"
+      },
+      "the_database": {
+        "dataset_name": "Korea Hydrographic and Oceanographic Agency drifter dataset",
+        "source_platform": "Korea Hydrographic and Oceanographic Agency"
+      },
+      "the_benchmark_problem": {
+        "name": "Latitude Prediction (Feature Selection)",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Search (GS)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Absolute Error (MAE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Predicting drifter trajectories in the ocean"
+      },
+      "the_database": {
+        "dataset_name": "Korea Hydrographic and Oceanographic Agency drifter dataset",
+        "source_platform": "Korea Hydrographic and Oceanographic Agency"
+      },
+      "the_benchmark_problem": {
+        "name": "Longitude Prediction (Feature Selection)",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Search (GS)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Absolute Error (MAE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Predicting drifter trajectories in the ocean"
+      },
+      "the_database": {
+        "dataset_name": "Korea Hydrographic and Oceanographic Agency drifter dataset",
+        "source_platform": "Korea Hydrographic and Oceanographic Agency"
+      },
+      "the_benchmark_problem": {
+        "name": "Latitude Correction (Feature Selection)",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Search (GS)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Absolute Error (MAE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Predicting drifter trajectories in the ocean"
+      },
+      "the_database": {
+        "dataset_name": "Korea Hydrographic and Oceanographic Agency drifter dataset",
+        "source_platform": "Korea Hydrographic and Oceanographic Agency"
+      },
+      "the_benchmark_problem": {
+        "name": "Longitude Correction (Feature Selection)",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Search (GS)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Absolute Error (MAE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Predicting drifter trajectories in the ocean"
+      },
+      "the_database": {
+        "dataset_name": "Korea Hydrographic and Oceanographic Agency drifter dataset",
+        "source_platform": "Korea Hydrographic and Oceanographic Agency"
+      },
+      "the_benchmark_problem": {
+        "name": "Latitude Prediction (Ensemble Weight Optimization)",
+        "dimensionality": "4D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (GA)"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 60,
+        "mutation_rate": 0.05,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Absolute Error (MAE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Predicting drifter trajectories in the ocean"
+      },
+      "the_database": {
+        "dataset_name": "Korea Hydrographic and Oceanographic Agency drifter dataset",
+        "source_platform": "Korea Hydrographic and Oceanographic Agency"
+      },
+      "the_benchmark_problem": {
+        "name": "Longitude Prediction (Ensemble Weight Optimization)",
+        "dimensionality": "4D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (GA)"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 60,
+        "mutation_rate": 0.05,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Absolute Error (MAE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Predicting drifter trajectories in the ocean"
+      },
+      "the_database": {
+        "dataset_name": "Korea Hydrographic and Oceanographic Agency drifter dataset",
+        "source_platform": "Korea Hydrographic and Oceanographic Agency"
+      },
+      "the_benchmark_problem": {
+        "name": "Latitude Correction (Ensemble Weight Optimization)",
+        "dimensionality": "4D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (GA)"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 60,
+        "mutation_rate": 0.05,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Absolute Error (MAE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Predicting drifter trajectories in the ocean"
+      },
+      "the_database": {
+        "dataset_name": "Korea Hydrographic and Oceanographic Agency drifter dataset",
+        "source_platform": "Korea Hydrographic and Oceanographic Agency"
+      },
+      "the_benchmark_problem": {
+        "name": "Longitude Correction (Ensemble Weight Optimization)",
+        "dimensionality": "4D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (GA)"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 60,
+        "mutation_rate": 0.05,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Absolute Error (MAE)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

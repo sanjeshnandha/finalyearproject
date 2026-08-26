@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "title": "Multi-Objective Multi-Gene Genetic Programming for the Prediction of Leakage in Water Distribution Networks",
+    "authors": [
+      "Matthew Hayslep",
+      "Edward Keedwell",
+      "Raziyeh Farmani"
+    ],
+    "year": 2023,
+    "source_file": "Hayslep et al. - 2023 - Multi-Objective Multi-Gene Genetic Programming for the Prediction of Leakage in Water Distribution N.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Prediction of Leakage in Water Distribution Networks"
+      },
+      "the_database": {
+        "dataset_name": "750 UK DMAs from a single WDN",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Average of the Weekly Minimum Night Flow (AWM) prediction",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-Objective Multi-Gene Genetic Programming (MO-MGGP)"
+      },
+      "parameters": {
+        "population_size": 40,
+        "max_evaluations_or_generations": 400,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Test R^2",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

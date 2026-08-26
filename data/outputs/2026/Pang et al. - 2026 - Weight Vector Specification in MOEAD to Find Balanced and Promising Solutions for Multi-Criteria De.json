@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "title": "Weight Vector Specification in MOEA/D to Find Balanced and Promising Solutions for Multi-Criteria Decision Making",
+    "authors": [
+      "Lie Meng Pang",
+      "Michael T.M. Emmerich",
+      "Hisao Ishibuchi"
+    ],
+    "year": 2026,
+    "source_file": "Pang et al. - 2026 - Weight Vector Specification in MOEAD to Find Balanced and Promising Solutions for Multi-Criteria De.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Max-DTLZ1",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D-2IPBI"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average number of satisfied solutions",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Max-DTLZ2",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D-2IPBI"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average number of satisfied solutions",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Max-DTLZ1",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D-IPBI"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average number of satisfied solutions",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Max-DTLZ2",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D-IPBI"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average number of satisfied solutions",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

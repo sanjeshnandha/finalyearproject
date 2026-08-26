@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "title": "Modular Controllers Facilitate the Co-Optimization of Morphology and Control in Soft Robots",
+    "authors": [
+      "Alican Mertan",
+      "Nick Cheney"
+    ],
+    "year": 2023,
+    "source_file": "Mertan and Cheney - 2023 - Modular Controllers Facilitate the Co-Optimization of Morphology and Control in Soft Robots.pdf",
+    "gecco_track": "Evolutionary Robotics"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Co-optimization of morphology and control in soft robots"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "EvoGym Walker-v0",
+        "dimensionality": "5x5 bounding box design space, 6497 controller parameters"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "fragile co-adaptation",
+          "highly coupled"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Modular Controller with (16+16)-ES"
+      },
+      "parameters": {
+        "population_size": 16,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": 0.1,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Co-optimization of morphology and control in soft robots"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "EvoGym Walker-v0",
+        "dimensionality": "5x5 bounding box design space, 7289 controller parameters"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "fragile co-adaptation",
+          "highly coupled"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Global Controller with (16+16)-ES"
+      },
+      "parameters": {
+        "population_size": 16,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": 0.1,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "metadata": {
+    "title": "Search Space Selection Using Constrained Mixed-Integer Optimization Method",
+    "authors": [
+      "Kento Uchida",
+      "Yohei Watanabe",
+      "Ryoki Hamano",
+      "Shinichi Shirakawa"
+    ],
+    "year": 2025,
+    "source_file": "Uchida et al. - 2025 - Search Space Selection Using Constrained Mixed-Integer Optimization Method.pdf",
+    "gecco_track": "Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Sphere",
+        "dimensionality": "10D, 20D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Proposed (1+1)-CMA-ES with margin"
+      },
+      "parameters": {
+        "population_size": 1,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Regret from optimum",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ellipsoid",
+        "dimensionality": "10D, 20D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "constrained",
+          "ill-conditioned"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Proposed (1+1)-CMA-ES with margin"
+      },
+      "parameters": {
+        "population_size": 1,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Regret from optimum",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rosenbrock",
+        "dimensionality": "10D, 20D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "valley"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Proposed (1+1)-CMA-ES with margin"
+      },
+      "parameters": {
+        "population_size": 1,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Regret from best evaluation",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Sphere",
+        "dimensionality": "10D, 20D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ES with margin (CMA-ES w M)"
+      },
+      "parameters": {
+        "population_size": 1,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Regret from optimum",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ellipsoid",
+        "dimensionality": "10D, 20D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "constrained",
+          "ill-conditioned"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ES with margin (CMA-ES w M)"
+      },
+      "parameters": {
+        "population_size": 1,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Regret from optimum",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rosenbrock",
+        "dimensionality": "10D, 20D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "valley"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ES with margin (CMA-ES w M)"
+      },
+      "parameters": {
+        "population_size": 1,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Regret from best evaluation",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

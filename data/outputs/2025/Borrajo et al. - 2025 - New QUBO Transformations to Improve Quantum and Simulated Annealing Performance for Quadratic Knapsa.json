@@ -1,0 +1,494 @@
+{
+  "metadata": {
+    "title": "New QUBO Transformations to Improve Quantum and Simulated Annealing Performance for Quadratic Knapsack",
+    "authors": [
+      "Nicolás Borrajo",
+      "Juan Marcos Ramírez",
+      "Farzam Nosrati",
+      "Jose Aguilar",
+      "Vincenzo Mancuso",
+      "Antonio Fernández"
+    ],
+    "year": 2025,
+    "source_file": "Borrajo et al. - 2025 - New QUBO Transformations to Improve Quantum and Simulated Annealing Performance for Quadratic Knapsa.pdf",
+    "gecco_track": "GECCO '25 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Quadratic Knapsack Problem",
+        "dimensionality": "Variable (20D, 35D, 50D, 65D)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "dense"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Simulated Annealing with each_W QUBO formulation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Feasible Mean, Global Mean, Feasible %, Max, Max %, Time (s)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Quadratic Knapsack Problem",
+        "dimensionality": "Variable (20D, 35D, 50D, 65D)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "dense"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Simulated Annealing with log_W QUBO formulation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Feasible Mean, Global Mean, Feasible %, Max, Max %, Time (s)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Quadratic Knapsack Problem",
+        "dimensionality": "Variable (20D, 35D, 50D, 65D)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "dense"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Simulated Annealing with each_w_max QUBO formulation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Feasible Mean, Global Mean, Feasible %, Max, Max %, Time (s)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Quadratic Knapsack Problem",
+        "dimensionality": "Variable (20D, 35D, 50D, 65D)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "dense"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Simulated Annealing with each_w_max_nsr QUBO formulation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Feasible Mean, Global Mean, Feasible %, Max, Max %, Time (s)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Quadratic Knapsack Problem",
+        "dimensionality": "Variable (20D, 35D, 50D, 65D)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "dense"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Simulated Annealing with bontekoe_equality QUBO formulation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Feasible Mean, Global Mean, Feasible %, Max, Max %, Time (s)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Quadratic Knapsack Problem",
+        "dimensionality": "Variable (20D, 35D, 50D, 65D)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "dense"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Simulated Annealing with iterative_equality QUBO formulation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Feasible Mean, Global Mean, Feasible %, Max, Max %, Time (s)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Quadratic Knapsack Problem",
+        "dimensionality": "Variable (20D, 35D, 50D, 65D)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "dense"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Simulated Annealing with half_w_max_equality QUBO formulation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Feasible Mean, Global Mean, Feasible %, Max, Max %, Time (s)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Quadratic Knapsack Problem",
+        "dimensionality": "Variable (20D, 35D, 50D, 65D)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "dense"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Simulated Annealing with sqrt_w_max_equality QUBO formulation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Feasible Mean, Global Mean, Feasible %, Max, Max %, Time (s)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Quadratic Knapsack Problem",
+        "dimensionality": "Variable (20D, 35D, 50D, 65D)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "dense"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Simulated Annealing with log_w_max QUBO formulation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Feasible Mean, Global Mean, Feasible %, Max, Max %, Time (s)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Quadratic Knapsack Problem",
+        "dimensionality": "Variable (20D, 35D)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "dense",
+          "noisy (due to hardware limitations)",
+          "sparse architecture (hardware)"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Quantum Annealing with log_W QUBO formulation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1250,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Feasible Mean, Global Mean, Feasible %, Max, Max %",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Quadratic Knapsack Problem",
+        "dimensionality": "Variable (20D, 35D)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "dense",
+          "noisy (due to hardware limitations)",
+          "sparse architecture (hardware)"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Quantum Annealing with each_w_max QUBO formulation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1250,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Feasible Mean, Global Mean, Feasible %, Max, Max %",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Quadratic Knapsack Problem",
+        "dimensionality": "Variable (20D, 35D)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "dense",
+          "noisy (due to hardware limitations)",
+          "sparse architecture (hardware)"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Quantum Annealing with sqrt_w_max_equality QUBO formulation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1250,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Feasible Mean, Global Mean, Feasible %, Max, Max %",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Quadratic Knapsack Problem",
+        "dimensionality": "Variable (20D, 35D)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "dense",
+          "noisy (due to hardware limitations)",
+          "sparse architecture (hardware)"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Quantum Annealing with log_w_max QUBO formulation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1250,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Feasible Mean, Global Mean, Feasible %, Max, Max %",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

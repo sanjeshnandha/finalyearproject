@@ -1,0 +1,807 @@
+{
+  "metadata": {
+    "title": "Lexidate: Model Evaluation and Selection with Lexicase",
+    "authors": [
+      "Jose Guadalupe Hernandez",
+      "Anil Kumar Saini",
+      "Jason H. Moore"
+    ],
+    "year": 2024,
+    "source_file": "Hernandez et al. - 2024 - Lexidate Model Evaluation and Selection with Lexicase.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Automated Machine Learning (AutoML) Pipeline Optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Suite",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 167104",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with 10-fold Cross-Validation"
+      },
+      "parameters": {
+        "population_size": 48,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Automated Machine Learning (AutoML) Pipeline Optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Suite",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 167104",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with Lexidate (90/10 split)"
+      },
+      "parameters": {
+        "population_size": 48,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Automated Machine Learning (AutoML) Pipeline Optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Suite",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 167104",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with Lexidate (70/30 split)"
+      },
+      "parameters": {
+        "population_size": 48,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Automated Machine Learning (AutoML) Pipeline Optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Suite",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 167104",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with Lexidate (50/50 split)"
+      },
+      "parameters": {
+        "population_size": 48,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Automated Machine Learning (AutoML) Pipeline Optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Suite",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 167184",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with 10-fold Cross-Validation"
+      },
+      "parameters": {
+        "population_size": 48,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Automated Machine Learning (AutoML) Pipeline Optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Suite",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 167184",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with Lexidate (90/10 split)"
+      },
+      "parameters": {
+        "population_size": 48,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Automated Machine Learning (AutoML) Pipeline Optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Suite",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 167184",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with Lexidate (70/30 split)"
+      },
+      "parameters": {
+        "population_size": 48,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Automated Machine Learning (AutoML) Pipeline Optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Suite",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 167184",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with Lexidate (50/50 split)"
+      },
+      "parameters": {
+        "population_size": 48,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Automated Machine Learning (AutoML) Pipeline Optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Suite",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 167168",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with 10-fold Cross-Validation"
+      },
+      "parameters": {
+        "population_size": 48,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Automated Machine Learning (AutoML) Pipeline Optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Suite",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 167168",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with Lexidate (90/10 split)"
+      },
+      "parameters": {
+        "population_size": 48,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Automated Machine Learning (AutoML) Pipeline Optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Suite",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 167168",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2_with Lexidate (70/30 split)"
+      },
+      "parameters": {
+        "population_size": 48,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Automated Machine Learning (AutoML) Pipeline Optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Suite",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 167168",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with Lexidate (50/50 split)"
+      },
+      "parameters": {
+        "population_size": 48,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Automated Machine Learning (AutoML) Pipeline Optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Suite",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 167161",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with 10-fold Cross-Validation"
+      },
+      "parameters": {
+        "population_size": 48,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Automated Machine Learning (AutoML) Pipeline Optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Suite",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 167161",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with Lexidate (90/10 split)"
+      },
+      "parameters": {
+        "population_size": 48,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Automated Machine Learning (AutoML) Pipeline Optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Suite",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 167161",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with Lexidate (70/30 split)"
+      },
+      "parameters": {
+        "population_size": 48,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Automated Machine Learning (AutoML) Pipeline Optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Suite",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 167161",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with Lexidate (50/50 split)"
+      },
+      "parameters": {
+        "population_size": 48,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Automated Machine Learning (AutoML) Pipeline Optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Suite",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 167185",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with 10-fold Cross-Validation"
+      },
+      "parameters": {
+        "population_size": 48,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Automated Machine Learning (AutoML) Pipeline Optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Suite",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 167185",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with Lexidate (90/10 split)"
+      },
+      "parameters": {
+        "population_size": 48,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Automated Machine Learning (AutoML) Pipeline Optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Suite",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 167185",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with Lexidate (70/30 split)"
+      },
+      "parameters": {
+        "population_size": 48,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Automated Machine Learning (AutoML) Pipeline Optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Suite",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 167185",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with Lexidate (50/50 split)"
+      },
+      "parameters": {
+        "population_size": 48,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Automated Machine Learning (AutoML) Pipeline Optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Suite",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 189905",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with 10-fold Cross-Validation"
+      },
+      "parameters": {
+        "population_size": 48,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Automated Machine Learning (AutoML) Pipeline Optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Suite",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 189905",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with Lexidate (90/10 split)"
+      },
+      "parameters": {
+        "population_size": 48,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Automated Machine Learning (AutoML) Pipeline Optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Suite",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 189905",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with Lexidate (70/30 split)"
+      },
+      "parameters": {
+        "population_size": 48,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "Automated Machine Learning (AutoML) Pipeline Optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Suite",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 189905",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with Lexidate (50/50 split)"
+      },
+      "parameters": {
+        "population_size": 48,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test accuracy",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

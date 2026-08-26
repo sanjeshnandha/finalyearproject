@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "title": "Diversity Preservation in Minimal Criterion Coevolution through Resource Limitation",
+    "authors": [
+      "Jonathan C. Brant",
+      "Kenneth O. Stanley"
+    ],
+    "year": 2020,
+    "source_file": "Brant and Stanley - 2020 - Diversity preservation in minimal criterion coevolution through resource limitation.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating open-ended coevolution of maze-navigating agents and maze environments"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Coevolved Maze Navigation",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "deceptive",
+          "rugged",
+          "dead-ends"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Minimal Criterion Coevolution with Resource Limitation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Solution path diversity, maze expansion rate, agent NN size, and number of deceptive junctures",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating open-ended coevolution of maze-navigating agents and maze environments"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Coevolved Maze Navigation",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "deceptive",
+          "rugged",
+          "dead-ends"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Minimal Criterion Coevolution with Speciation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Solution path diversity, maze expansion rate, agent NN size, and number of deceptive junctures",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,365 @@
+{
+  "metadata": {
+    "title": "Feature Encapsulation by Stages Using Grammatical Evolution",
+    "authors": [
+      "Darian Reyes Fern\u0001andez de Bulnes",
+      "Allan de Lima",
+      "Aidan Murphy",
+      "Douglas Mota Dias",
+      "Conor Ryan"
+    ],
+    "year": 2024,
+    "source_file": "Reyes Fernández De Bulnes et al. - 2024 - Feature Encapsulation by Stages Using Grammatical Evolution.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Parity 3",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "discrete"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammatical Evolution with Feature Encapsulation by Stages"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Successful runs (out of 30)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Parity 3",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "discrete"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard Grammatical Evolution"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Successful runs (out of 30)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multiplier 3 x 3",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "discrete"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammatical Evolution with Feature Encapsulation by Stages"
+      },
+      "parameters": {
+        "population_size": 400,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Successful runs (out of 30)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multiplier 3 x 3",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "discrete"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard Grammatical Evolution"
+      },
+      "parameters": {
+        "population_size": 400,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Successful runs (out of 30)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multiplexer 11",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "discrete"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammatical Evolution with Feature Encapsulation by Stages"
+      },
+      "parameters": {
+        "population_size": 4000,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Successful runs (out of 30)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multiplexer 11",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "discrete"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard Grammatical Evolution"
+      },
+      "parameters": {
+        "population_size": 4000,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Successful runs (out of 30)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Heart disease classification"
+      },
+      "the_database": {
+        "dataset_name": "Heart disease",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Heart disease classification",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammatical Evolution with Feature Encapsulation by Stages"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average fitness on the test set",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Heart disease classification"
+      },
+      "the_database": {
+        "dataset_name": "Heart disease",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Heart disease classification",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard Grammatical Evolution"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average fitness on the test set",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Car evaluation classification"
+      },
+      "the_database": {
+        "dataset_name": "Car evaluation",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Car evaluation classification",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammatical Evolution with Feature Encapsulation by Stages"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average fitness on the test set",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Car evaluation classification"
+      },
+      "the_database": {
+        "dataset_name": "Car evaluation",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Car evaluation classification",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard Grammatical Evolution"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average fitness on the test set",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

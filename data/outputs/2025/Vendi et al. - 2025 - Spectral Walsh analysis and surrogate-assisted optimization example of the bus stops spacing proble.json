@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "title": "Spectral Walsh analysis and surrogate-assisted optimization: example of the bus stops spacing problem",
+    "authors": [
+      "Valentin Vendi",
+      "Sébastien Verel",
+      "Cyril Fonlupt"
+    ],
+    "year": 2025,
+    "source_file": "Vendi et al. - 2025 - Spectral Walsh analysis and surrogate-assisted optimization example of the bus stops spacing proble.pdf",
+    "gecco_track": "GECCO '25 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Bus stops spacing problem (single-line)"
+      },
+      "the_database": {
+        "dataset_name": "Single bus line scenario data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Bus stop spacing problem (single-line)",
+        "dimensionality": "108D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "interactions between consecutive bus stops"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Asynchronous master-workers algorithm with sparse Walsh surrogate"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average fitness value of 2700",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Bus stops spacing problem (single-line)"
+      },
+      "the_database": {
+        "dataset_name": "Single bus line scenario data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Bus stop spacing problem (single-line)",
+        "dimensionality": "108D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "interactions between consecutive bus stops"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Asynchronous master-workers algorithm with DRILS surrogate"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average fitness value of 2704",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "metadata": {
+    "title": "Region-based Evaluation Particle Swarm Optimization with Dual Solution Libraries for Real-time Traffic Signal Timing Optimization",
+    "authors": [
+      "Chi Zhang",
+      "Jian-Yu Li",
+      "Chun-Hua Chen",
+      "Yun Li",
+      "Zhi-Hui Zhan"
+    ],
+    "year": 2023,
+    "source_file": "Zhang et al. - 2023 - Region-based Evaluation Particle Swarm Optimization with Dual Solution Libraries for Real-time Traff.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traffic Signal Timing Optimization (TSTO)"
+      },
+      "the_database": {
+        "dataset_name": "Xinhu Road and Yu'an Road intersection traffic flow data",
+        "source_platform": "Online Shenzhen Traffic Police Station Homepage"
+      },
+      "the_benchmark_problem": {
+        "name": "Traffic Signal Timing Optimization (TSTO)",
+        "dimensionality": "4D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "expensive",
+          "stochastic",
+          "noisy"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "REPSO"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average traffic delay",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traffic Signal Timing Optimization (TSTO)"
+      },
+      "the_database": {
+        "dataset_name": "Xinhu Road and Yu'an Road intersection traffic flow data",
+        "source_platform": "Online Shenzhen Traffic Police Station Homepage"
+      },
+      "the_benchmark_problem": {
+        "name": "Traffic Signal Timing Optimization (TSTO)",
+        "dimensionality": "4D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "expensive",
+          "stochastic",
+          "noisy"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Particle Swarm Optimization (PSO)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average traffic delay",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traffic Signal Timing Optimization (TSTO)"
+      },
+      "the_database": {
+        "dataset_name": "Xinhu Road and Yu'an Road intersection traffic flow data",
+        "source_platform": "Online Shenzhen Traffic Police Station Homepage"
+      },
+      "the_benchmark_problem": {
+        "name": "Traffic Signal Timing Optimization (TSTO)",
+        "dimensionality": "4D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "expensive",
+          "stochastic",
+          "noisy"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SLPSO"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average traffic delay",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traffic Signal Timing Optimization (TSTO)"
+      },
+      "the_database": {
+        "dataset_name": "Xinhu Road and Yu'an Road intersection traffic flow data",
+        "source_platform": "Online Shenzhen Traffic Police Station Homepage"
+      },
+      "the_benchmark_problem": {
+        "name": "Traffic Signal Timing Optimization (TSTO)",
+        "dimensionality": "4D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "expensive",
+          "stochastic",
+          "noisy"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MEL-PSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average traffic delay",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

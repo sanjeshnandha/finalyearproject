@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "title": "Evolving Robust Schedules: Advantages of Genetic Algorithms for FJSSP-W under Uncertainties",
+    "authors": [
+      "David Hutter",
+      "Thomas Steinberger",
+      "Michael Hellwig"
+    ],
+    "year": 2026,
+    "source_file": "Hutter et al. - 2026 - Evolving Robust Schedules Advantages of Genetic Algorithms for FJSSP-W under Uncertainties.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Flexible Job-Shop Scheduling Problem with Worker Flexibility (FJSSP-W) under uncertainties"
+      },
+      "the_database": {
+        "dataset_name": "27 noisy FJSSP-W benchmark instances",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Flexible Job-Shop Scheduling Problem with Worker Flexibility (FJSSP-W)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "combinatorial",
+          "stochastic processing times",
+          "machine breakdowns",
+          "worker unavailability"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Robust Genetic Algorithm (R-GA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Service level, number of conflicts, and idle time under uncertainty",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Flexible Job-Shop Scheduling Problem with Worker Flexibility (FJSSP-W) under uncertainties"
+      },
+      "the_database": {
+        "dataset_name": "27 noisy FJSSP-W benchmark instances",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Flexible Job-Shop Scheduling Problem with Worker Flexibility (FJSSP-W)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "combinatorial",
+          "stochastic processing times",
+          "machine breakdowns",
+          "worker unavailability"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Matrix Adaptation Evolution Strategy (MA-ES)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Service level, number of conflicts, and idle time under uncertainty",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

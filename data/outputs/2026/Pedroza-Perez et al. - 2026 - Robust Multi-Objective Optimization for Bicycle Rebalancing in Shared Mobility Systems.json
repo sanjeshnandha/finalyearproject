@@ -1,0 +1,201 @@
+{
+  "metadata": {
+    "title": "Robust Multi-Objective Optimization for Bicycle Rebalancing in Shared Mobility Systems",
+    "authors": [
+      "Diego Daniel Pedroza-Perez",
+      "Gabriel Luque",
+      "Sergio Nesmachnow",
+      "Jamal Toutouh"
+    ],
+    "year": 2026,
+    "source_file": "Pedroza-Perez et al. - 2026 - Robust Multi-Objective Optimization for Bicycle Rebalancing in Shared Mobility Systems.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Transportation",
+        "problem_context": "Static overnight bicycle rebalancing under demand uncertainty modeled as a tri-objective vehicle routing problem"
+      },
+      "the_database": {
+        "dataset_name": "Barcelona Bicing system",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Barcelona Bicing 460-station rebalancing problem",
+        "dimensionality": "460 stations, 20 trucks"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stochastic demand",
+          "interdependent",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II with BB1-MAX"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Relative hypervolume (rhv) of 0.750 (median), IGD+ of 0.065 (median), GD+ of 0.078 (median)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Transportation",
+        "problem_context": "Static overnight bicycle rebalancing under demand uncertainty modeled as a tri-objective vehicle routing problem"
+      },
+      "the_database": {
+        "dataset_name": "Barcelona Bicing system",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Barcelona Bicing 460-station rebalancing problem",
+        "dimensionality": "460 stations, 20 trucks"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stochastic demand",
+          "interdependent",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II with BB1-MIN"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Relative hypervolume (rhv) of 0.438 (median), IGD+ of 0.217 (median), GD+ of 0.159 (median)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Transportation",
+        "problem_context": "Static overnight bicycle rebalancing under demand uncertainty modeled as a tri-objective vehicle routing problem"
+      },
+      "the_database": {
+        "dataset_name": "Barcelona Bicing system",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Barcelona Bicing 460-station rebalancing problem",
+        "dimensionality": "460 stations, 20 trucks"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stochastic demand",
+          "interdependent",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II with BB2-MAX"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Relative hypervolume (rhv) of 0.503 (median), IGD+ of 0.176 (median), GD+ of 0.151 (median)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Transportation",
+        "problem_context": "Static overnight bicycle rebalancing under demand uncertainty modeled as a tri-objective vehicle routing problem"
+      },
+      "the_database": {
+        "dataset_name": "Barcelona Bicing system",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Barcelona Bicing 460-station rebalancing problem",
+        "dimensionality": "460 stations, 20 trucks"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stochastic demand",
+          "interdependent",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II with BB2-MIN"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Relative hypervolume (rhv) of 0.467 (median), IGD+ of 0.203 (median), GD+ of 0.152 (median)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Transportation",
+        "problem_context": "Static overnight bicycle rebalancing under demand uncertainty modeled as a tri-objective vehicle routing problem"
+      },
+      "the_database": {
+        "dataset_name": "Barcelona Bicing system",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Barcelona Bicing 460-station rebalancing problem",
+        "dimensionality": "460 stations, 20 trucks"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stochastic demand",
+          "interdependent",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II with AB2"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Relative hypervolume (rhv) of 0.504 (median), IGD+ of 0.181 (median), GD+ of 0.141 (median)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

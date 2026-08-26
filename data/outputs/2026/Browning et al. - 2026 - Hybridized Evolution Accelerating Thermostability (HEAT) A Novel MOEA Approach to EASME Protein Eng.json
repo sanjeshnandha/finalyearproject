@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "title": "Hybridized Evolution Accelerating Thermostability (HEAT): A Novel MOEA Approach to EASME Protein Engineering",
+    "authors": [
+      "James Satterthwaite Larkin Browning Jr.",
+      "Daniel R. Tauritz",
+      "John F. Beckmann"
+    ],
+    "year": 2026,
+    "source_file": "Browning et al. - 2026 - Hybridized Evolution Accelerating Thermostability (HEAT) A Novel MOEA Approach to EASME Protein Eng.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Biotechnology",
+        "problem_context": "Evolving thermostable variants of the 2ZK9 protein"
+      },
+      "the_database": {
+        "dataset_name": "2ZK9",
+        "source_platform": "RCSB Protein Data Bank"
+      },
+      "the_benchmark_problem": {
+        "name": "2ZK9 protein thermostability",
+        "dimensionality": "185"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "stochastic"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HEAT (NSGA-II variation)"
+      },
+      "parameters": {
+        "population_size": 8,
+        "max_evaluations_or_generations": 125,
+        "mutation_rate": 0.1,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Slope of native contact decay and minimum native contacts",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

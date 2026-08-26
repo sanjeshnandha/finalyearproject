@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "title": "Towards Crossing the Reality Gap with Evolved Plastic Neurocontrollers",
+    "authors": [
+      "Huanneng Qiu",
+      "Matthew Garratt",
+      "David Howard",
+      "Sreenatha Anavatti"
+    ],
+    "year": 2020,
+    "source_file": "Qiu et al. - 2020 - Towards crossing the reality gap with evolved plastic neurocontrollers.pdf",
+    "gecco_track": "Evolutionary Robotics"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Height control of a hexacopter"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hexacopter Height Control (Identified Heave Model)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "nonlinear",
+          "dynamic"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NEAT (Non-plastic SNN)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean fitness value of 0.9189",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Height control of a hexacopter"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hexacopter Height Control (Hexacopter Model)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "nonlinear",
+          "highly dynamic",
+          "strong couplings"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Evolved Plastic SNN (NEAT + EA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean fitness value of 0.9298",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Height control of a hexacopter"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hexacopter Height Control (Hexacopter Model)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "nonlinear",
+          "highly dynamic",
+          "strong couplings"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NEAT (Non-plastic SNN)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean fitness value of 0.9169",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

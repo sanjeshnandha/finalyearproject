@@ -1,0 +1,237 @@
+{
+  "metadata": {
+    "title": "Simple Genetic Operators are Universal Approximators of Probability Distributions (and other Advantages of Expressive Encodings)",
+    "authors": [
+      "Elliot Meyerson",
+      "Xin Qiu",
+      "Risto Miikkulainen"
+    ],
+    "year": 2022,
+    "source_file": "Meyerson et al. - 2022 - Simple genetic operators are universal approximators of probability distributions (and other advanta.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Deterministic Flipping Challenge (DFC)",
+        "dimensionality": "16D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "dynamic",
+          "temporal",
+          "deterministic"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(1+\\lambda)-EA with direct encoding"
+      },
+      "parameters": {
+        "population_size": 1,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Adaptation complexity",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Deterministic Flipping Challenge (DFC)",
+        "dimensionality": "16D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "dynamic",
+          "temporal",
+          "deterministic"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(1+\\lambda)-EA with GP encoding"
+      },
+      "parameters": {
+        "population_size": 1,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Adaptation complexity",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Random Flipping Challenge (RFC)",
+        "dimensionality": "16D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "dynamic",
+          "temporal",
+          "stochastic"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(1+\\lambda)-EA with direct encoding"
+      },
+      "parameters": {
+        "population_size": 1,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Adaptation complexity",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Random Flipping Challenge (RFC)",
+        "dimensionality": "16D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "dynamic",
+          "temporal",
+          "stochastic"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(1+\\lambda)-EA with GP encoding"
+      },
+      "parameters": {
+        "population_size": 1,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Adaptation complexity",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Large Block Assembly Problem (LBAP)",
+        "dimensionality": "64D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "deceptive",
+          "no fitness gradient",
+          "disjoint subspaces"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(1+\\lambda)-EA* with direct encoding"
+      },
+      "parameters": {
+        "population_size": 1,
+        "max_evaluations_or_generations": 2000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Max fitness achieved",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Large Block Assembly Problem (LBAP)",
+        "dimensionality": "64D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "deceptive",
+          "no fitness gradient",
+          "disjoint subspaces"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(1+\\lambda)-EA* with GP encoding"
+      },
+      "parameters": {
+        "population_size": 1,
+        "max_evaluations_or_generations": 2000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Max fitness achieved",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

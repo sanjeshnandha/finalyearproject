@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "title": "Towards Higher Order Fairness Functionals for Smooth Path Planning",
+    "authors": [
+      "Victor Parque"
+    ],
+    "year": 2021,
+    "source_file": "Parque - 2021 - Towards higher order fairness functionals for smooth path planning.pdf",
+    "gecco_track": "Evolutionary robotics"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Smooth Path Planning for Mobile Robots"
+      },
+      "the_database": {
+        "dataset_name": "observed mobile robot trajectories",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Bézier curve fitting and fairing",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-linear"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ratio-Based Differential Evolution"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Convergence speed",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

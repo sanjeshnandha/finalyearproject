@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "title": "Causes and Effects of Fitness Landscapes in Unit Test Generation",
+    "authors": [
+      "Nasser Albunian",
+      "Gordon Fraser",
+      "Dirk Sudholt"
+    ],
+    "year": 2020,
+    "source_file": "Albunian et al. - 2020 - Causes and effects of fitness landscapes in unit test generation.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Unit test generation to maximize branch coverage"
+      },
+      "the_database": {
+        "dataset_name": "331 Java classes from the DynaMOSA study",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "JUnit test generation (Branch coverage)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "neutrality",
+          "plateaus",
+          "ruggedness",
+          "flat regions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Many-Objective Sorting Algorithm (MOSA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success Rate (SR) of branch coverage",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "metadata": {
+    "title": "From Six to Two: SLIM-DUO, a Simplified Extension of SLIM-GSGP",
+    "authors": [
+      "Liah Rosenfeld",
+      "Leonardo Vanneschi"
+    ],
+    "year": 2026,
+    "source_file": "Rosenfeld and Vanneschi - 2026 - From Six to Two SLIM-DUO, a Simplified Extension of SLIM-GSGP.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Predicting concrete strength"
+      },
+      "the_database": {
+        "dataset_name": "Concrete",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Concrete",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "unimodal error surface"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DUO-SUM"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Root Mean Squared Error (RMSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Predicting concrete strength"
+      },
+      "the_database": {
+        "dataset_name": "Concrete",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Concrete",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "unimodal error surface"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DUO-MUL"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Root Mean Squared Error (RMSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Predicting energy performance of residential buildings"
+      },
+      "the_database": {
+        "dataset_name": "Energy",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Energy",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "unimodal error surface"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DUO-SUM"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Root Mean Squared Error (RMSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Predicting energy performance of residential buildings"
+      },
+      "the_database": {
+        "dataset_name": "Energy",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Energy",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "unimodal error surface"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DUO-MUL"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Root Mean Squared Error (RMSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance/Economics",
+        "problem_context": "Forecasting financial index"
+      },
+      "the_database": {
+        "dataset_name": "Istanbul",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Istanbul",
+        "dimensionality": "7D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "unimodal error surface"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DUO-SUM"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Root Mean Squared Error (RMSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance/Economics",
+        "problem_context": "Forecasting financial index"
+      },
+      "the_database": {
+        "dataset_name": "Istanbul",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Istanbul",
+        "dimensionality": "7D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "unimodal error surface"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DUO-MUL"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Root Mean Squared Error (RMSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Computational pharmacokinetics in drug discovery"
+      },
+      "the_database": {
+        "dataset_name": "PPB",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "PPB",
+        "dimensionality": "626D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "unimodal error surface"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DUO-SUM"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Root Mean Squared Error (RMSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Computational pharmacokinetics in drug discovery"
+      },
+      "the_database": {
+        "dataset_name": "PPB",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "PPB",
+        "dimensionality": "626D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "unimodal error surface"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DUO-MUL"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Root Mean Squared Error (RMSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Predicting residential building parameters"
+      },
+      "the_database": {
+        "dataset_name": "RBSP",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "RBSP",
+        "dimensionality": "107D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "unimodal error surface"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DUO-SUM"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Root Mean Squared Error (RMSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Predicting residential building parameters"
+      },
+      "the_database": {
+        "dataset_name": "RBSP",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "RBSP",
+        "dimensionality": "107D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "unimodal error surface"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DUO-MUL"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Root Mean Squared Error (RMSE)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

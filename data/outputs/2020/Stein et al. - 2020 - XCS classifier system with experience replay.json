@@ -1,0 +1,428 @@
+{
+  "metadata": {
+    "title": "XCS Classifier System with Experience Replay",
+    "authors": [
+      "Anthony Stein",
+      "Roland Maier",
+      "Lukas Rosenbauer",
+      "Jörg Hähner"
+    ],
+    "year": 2020,
+    "source_file": "Stein et al. - 2020 - XCS classifier system with experience replay.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating classifier systems on logic problems"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "6-Real Multiplexer",
+        "dimensionality": "6D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "heterogeneity",
+          "epistasis"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "XCS-ER"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 40000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average reward",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating classifier systems on logic problems"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "6-Real Multiplexer",
+        "dimensionality": "6D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "heterogeneity",
+          "epistasis"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "XCS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 40000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average reward",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating classifier systems on checkerboard-like problems"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Mario Pixel Art",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "heterogeneity",
+          "checkerboard-like"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "XCS-ER"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average reward",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating classifier systems on checkerboard-like problems"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Mario Pixel Art",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "heterogeneity",
+          "checkerboard-like"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "XCS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average reward",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Breast cancer diagnostics classification"
+      },
+      "the_database": {
+        "dataset_name": "Wisconsin Breast Cancer",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Wisconsin Breast Cancer",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "XCS-ER"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 50000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average reward",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Breast cancer diagnostics classification"
+      },
+      "the_database": {
+        "dataset_name": "Wisconsin Breast Cancer",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Wisconsin Breast Cancer",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "XCS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 50000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average reward",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating reinforcement learning algorithms"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "16Chain",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "XCS-ER"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 50000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean 100 Episode Reward",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating reinforcement learning algorithms"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "16Chain",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "XCS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 50000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean 100 Episode Reward",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating reinforcement learning algorithms on control tasks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CartPole",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "XCS-ER"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 50000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean 100 Episode Reward",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating reinforcement learning algorithms on control tasks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CartPole",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "XCS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 50000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean 100 Episode Reward",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating reinforcement learning algorithms on control tasks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MountainCar",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "sparse reward"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "XCS-ER"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 60000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean 100 Episode Reward",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating reinforcement learning algorithms on control tasks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MountainCar",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "sparse reward"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "XCS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 60000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean 100 Episode Reward",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

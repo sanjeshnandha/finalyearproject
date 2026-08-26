@@ -1,0 +1,78 @@
+2026-07-22 12:32:11.731 | INFO     | gecco_pipeline.extractor:__init__:32 - Initialized GeccoExtractor with model: gemini-3.5-flash and 3 API keys
+2026-07-22 12:32:11.731 | INFO     | gecco_pipeline.processor:__init__:57 - BatchProcessor initialized
+2026-07-22 12:32:11.732 | INFO     | gecco_pipeline.utils:discover_pdfs:62 - Discovered 92 PDF files in data/pdfs/2023
+2026-07-22 12:32:11.733 | INFO     | gecco_pipeline.processor:process_batch:129 - Skipping 2 already-processed PDFs
+2026-07-22 12:32:11.733 | INFO     | gecco_pipeline.processor:process_batch:145 - Processing 90 PDFs...
+2026-07-22 12:32:11.744 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Andersen et al. - 2023 - Producing Diverse Rashomon Sets of Counterfactual Explanations with Niching Particle Swarm Optimizat.pdf
+2026-07-22 12:32:11.744 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Andersen et al. - 2023 - Producing Diverse Rashomon Sets of Counterfactual Explanations with Niching Particle Swarm Optimizat.pdf to Gemini File API...
+2026-07-22 12:32:36.911 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/8cmmcizjn8xw
+2026-07-22 12:33:43.482 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 45 entries from Andersen et al. - 2023 - Producing Diverse Rashomon Sets of Counterfactual Explanations with Niching Particle Swarm Optimizat.pdf
+2026-07-22 12:33:43.490 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Andersen et al. - 2023 - Producing Diverse Rashomon Sets of Counterfactual Explanations with Niching Particle Swarm Optimizat.json
+2026-07-22 12:33:43.492 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Andreadis et al. - 2023 - MOREA a GPU-accelerated Evolutionary Algorithm for Multi-Objective Deformable Registration of 3D Me.pdf
+2026-07-22 12:33:43.492 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Andreadis et al. - 2023 - MOREA a GPU-accelerated Evolutionary Algorithm for Multi-Objective Deformable Registration of 3D Me.pdf to Gemini File API...
+2026-07-22 12:33:48.346 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/k8lyaump3tgk
+2026-07-22 12:34:04.391 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 1 entries from Andreadis et al. - 2023 - MOREA a GPU-accelerated Evolutionary Algorithm for Multi-Objective Deformable Registration of 3D Me.pdf
+2026-07-22 12:34:04.396 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Andreadis et al. - 2023 - MOREA a GPU-accelerated Evolutionary Algorithm for Multi-Objective Deformable Registration of 3D Me.json
+2026-07-22 12:34:04.397 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Applis et al. - 2023 - Searching for Quality Genetic Algorithms and Metamorphic Testing for Software Engineering ML.pdf
+2026-07-22 12:34:04.397 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Applis et al. - 2023 - Searching for Quality Genetic Algorithms and Metamorphic Testing for Software Engineering ML.pdf to Gemini File API...
+2026-07-22 12:34:07.886 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/fdlw2st3xe4n
+2026-07-22 12:34:27.470 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 2 entries from Applis et al. - 2023 - Searching for Quality Genetic Algorithms and Metamorphic Testing for Software Engineering ML.pdf
+2026-07-22 12:34:27.475 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Applis et al. - 2023 - Searching for Quality Genetic Algorithms and Metamorphic Testing for Software Engineering ML.json
+2026-07-22 12:34:27.477 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Aydeniz et al. - 2023 - Novelty Seeking Multiagent Evolutionary Reinforcement Learning.pdf
+2026-07-22 12:34:27.477 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Aydeniz et al. - 2023 - Novelty Seeking Multiagent Evolutionary Reinforcement Learning.pdf to Gemini File API...
+2026-07-22 12:34:31.972 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/jxt8dxsatwkx
+2026-07-22 12:34:51.926 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 4 entries from Aydeniz et al. - 2023 - Novelty Seeking Multiagent Evolutionary Reinforcement Learning.pdf
+2026-07-22 12:34:51.929 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Aydeniz et al. - 2023 - Novelty Seeking Multiagent Evolutionary Reinforcement Learning.json
+2026-07-22 12:34:51.930 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Bentley et al. - 2023 - Using a Variational Autoencoder to Learn Valid Search Spaces of Safely Monitored Autonomous Robots f.pdf
+2026-07-22 12:34:51.930 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Bentley et al. - 2023 - Using a Variational Autoencoder to Learn Valid Search Spaces of Safely Monitored Autonomous Robots f.pdf to Gemini File API...
+2026-07-22 12:34:56.336 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/vofz2vp6y6op
+2026-07-22 12:35:16.269 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 2 entries from Bentley et al. - 2023 - Using a Variational Autoencoder to Learn Valid Search Spaces of Safely Monitored Autonomous Robots f.pdf
+2026-07-22 12:35:16.272 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Bentley et al. - 2023 - Using a Variational Autoencoder to Learn Valid Search Spaces of Safely Monitored Autonomous Robots f.json
+2026-07-22 12:35:16.273 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Blackwell - 2023 - The Barrier Tree Benchmark Many Basins and Double Funnels.pdf
+2026-07-22 12:35:16.273 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Blackwell - 2023 - The Barrier Tree Benchmark Many Basins and Double Funnels.pdf to Gemini File API...
+2026-07-22 12:35:19.961 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/wp9cbeoc1tsv
+2026-07-22 12:36:08.866 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 25 entries from Blackwell - 2023 - The Barrier Tree Benchmark Many Basins and Double Funnels.pdf
+2026-07-22 12:36:08.873 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Blackwell - 2023 - The Barrier Tree Benchmark Many Basins and Double Funnels.json
+2026-07-22 12:36:08.874 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Boige et al. - 2023 - Gradient-Informed Quality Diversity for the Illumination of Discrete Spaces.pdf
+2026-07-22 12:36:08.874 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Boige et al. - 2023 - Gradient-Informed Quality Diversity for the Illumination of Discrete Spaces.pdf to Gemini File API...
+2026-07-22 12:36:12.521 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/c7d96w9b6trj
+2026-07-22 12:36:58.392 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 16 entries from Boige et al. - 2023 - Gradient-Informed Quality Diversity for the Illumination of Discrete Spaces.pdf
+2026-07-22 12:36:58.397 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Boige et al. - 2023 - Gradient-Informed Quality Diversity for the Illumination of Discrete Spaces.json
+2026-07-22 12:36:58.398 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Bostelmann-Arp et al. - 2023 - Multi-Objective Seed Curve Optimization for Coverage Path Planning in Precision Farming.pdf
+2026-07-22 12:36:58.398 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Bostelmann-Arp et al. - 2023 - Multi-Objective Seed Curve Optimization for Coverage Path Planning in Precision Farming.pdf to Gemini File API...
+2026-07-22 12:37:01.807 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/gnqkh15d51ow
+2026-07-22 12:37:22.557 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 3 entries from Bostelmann-Arp et al. - 2023 - Multi-Objective Seed Curve Optimization for Coverage Path Planning in Precision Farming.pdf
+2026-07-22 12:37:22.561 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Bostelmann-Arp et al. - 2023 - Multi-Objective Seed Curve Optimization for Coverage Path Planning in Precision Farming.json
+2026-07-22 12:37:22.562 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Brizzio et al. - 2023 - Automated Repair of Unrealisable LTL Specifications Guided by Model Counting.pdf
+2026-07-22 12:37:22.562 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Brizzio et al. - 2023 - Automated Repair of Unrealisable LTL Specifications Guided by Model Counting.pdf to Gemini File API...
+2026-07-22 12:37:26.162 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/3x9w1xh82but
+2026-07-22 12:37:53.783 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 6 entries from Brizzio et al. - 2023 - Automated Repair of Unrealisable LTL Specifications Guided by Model Counting.pdf
+2026-07-22 12:37:53.792 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Brizzio et al. - 2023 - Automated Repair of Unrealisable LTL Specifications Guided by Model Counting.json
+2026-07-22 12:37:53.794 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Caetano et al. - 2023 - Symbolic Regression Trees as Embedded Representations.pdf
+2026-07-22 12:37:53.794 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Caetano et al. - 2023 - Symbolic Regression Trees as Embedded Representations.pdf to Gemini File API...
+2026-07-22 12:37:57.148 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/jioiz6ekamdf
+2026-07-22 12:38:25.328 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 5 entries from Caetano et al. - 2023 - Symbolic Regression Trees as Embedded Representations.pdf
+2026-07-22 12:38:25.333 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Caetano et al. - 2023 - Symbolic Regression Trees as Embedded Representations.json
+2026-07-22 12:38:25.334 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Carazo-Barbero et al. - 2023 - EA-based ASV Trajectory Planner for Detecting Cyanobacterial Blooms in Freshwater.pdf
+2026-07-22 12:38:25.335 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Carazo-Barbero et al. - 2023 - EA-based ASV Trajectory Planner for Detecting Cyanobacterial Blooms in Freshwater.pdf to Gemini File API...
+2026-07-22 12:38:29.512 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/0q3orm2xcix8
+2026-07-22 12:38:59.631 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 6 entries from Carazo-Barbero et al. - 2023 - EA-based ASV Trajectory Planner for Detecting Cyanobacterial Blooms in Freshwater.pdf
+2026-07-22 12:38:59.637 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Carazo-Barbero et al. - 2023 - EA-based ASV Trajectory Planner for Detecting Cyanobacterial Blooms in Freshwater.json
+2026-07-22 12:38:59.638 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Chen et al. - 2023 - Relieving Genetic Programming from Coefficient Learning for Symbolic Regression via Correlation and.pdf
+2026-07-22 12:38:59.638 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Chen et al. - 2023 - Relieving Genetic Programming from Coefficient Learning for Symbolic Regression via Correlation and.pdf to Gemini File API...
+2026-07-22 12:39:03.668 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/vuja0zad8msr
+2026-07-22 12:39:53.875 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 20 entries from Chen et al. - 2023 - Relieving Genetic Programming from Coefficient Learning for Symbolic Regression via Correlation and.pdf
+2026-07-22 12:39:53.883 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Chen et al. - 2023 - Relieving Genetic Programming from Coefficient Learning for Symbolic Regression via Correlation and.json
+2026-07-22 12:39:53.885 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Clément et al. - 2023 - Computing Star Discrepancies with Numerical Black-Box Optimization Algorithms.pdf
+2026-07-22 12:39:53.885 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Clément et al. - 2023 - Computing Star Discrepancies with Numerical Black-Box Optimization Algorithms.pdf to Gemini File API...
+2026-07-22 12:39:57.774 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/1wkrpi6vpe7a
+2026-07-22 12:40:20.123 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 8 entries from Clément et al. - 2023 - Computing Star Discrepancies with Numerical Black-Box Optimization Algorithms.pdf
+2026-07-22 12:40:20.128 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Clément et al. - 2023 - Computing Star Discrepancies with Numerical Black-Box Optimization Algorithms.json
+2026-07-22 12:40:20.129 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Cochevelou et al. - 2023 - Differentiable Soft-Robot Generation.pdf
+2026-07-22 12:40:20.129 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Cochevelou et al. - 2023 - Differentiable Soft-Robot Generation.pdf to Gemini File API...
+2026-07-22 12:40:23.737 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/vjy7jkubjev0
+2026-07-22 12:40:46.033 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 4 entries from Cochevelou et al. - 2023 - Differentiable Soft-Robot Generation.pdf
+2026-07-22 12:40:46.040 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Cochevelou et al. - 2023 - Differentiable Soft-Robot Generation.json
+2026-07-22 12:40:46.040 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Cook et al. - 2023 - Leveraging Fitness Critics To Learn Robust Teamwork.pdf
+2026-07-22 12:40:46.040 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Cook et al. - 2023 - Leveraging Fitness Critics To Learn Robust Teamwork.pdf to Gemini File API...
+2026-07-22 12:40:50.546 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/xt4vd5wrbf5h

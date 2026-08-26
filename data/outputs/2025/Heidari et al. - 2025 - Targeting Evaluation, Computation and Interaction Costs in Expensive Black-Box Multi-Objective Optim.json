@@ -1,0 +1,3051 @@
+{
+  "metadata": {
+    "title": "Targeting Evaluation, Computation and Interaction Costs in Expensive Black-Box Multi-Objective Optimization",
+    "authors": [
+      "Arash Heidari",
+      "Sebastian Rojas Gonzalez",
+      "Ivo Couckuyt"
+    ],
+    "year": 2025,
+    "source_file": "Heidari et al. - 2025 - Targeting Evaluation, Computation and Interaction Costs in Expensive Black-Box Multi-Objective Optim.pdf",
+    "gecco_track": "GECCO '25 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "3 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TriMO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean HyperVolume value",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "4 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TriMO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean HyperVolume value",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "5 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TriMO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean HyperVolume value",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ5",
+        "dimensionality": "3 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TriMO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean HyperVolume value",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ5",
+        "dimensionality": "4 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TriMO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean HyperVolume value",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ5",
+        "dimensionality": "5 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TriMO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean HyperVolume value",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "3 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "L-BFGS-B"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean HyperVolume value",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "4 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "L-BFGS-B"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean HyperVolume value",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "5 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "L-BFGS-B"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean HyperVolume value",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ5",
+        "dimensionality": "3 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "L-BFGS-B"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean HyperVolume value",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ5",
+        "dimensionality": "4 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "L-BFGS-B"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean HyperVolume value",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ5",
+        "dimensionality": "5 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "L-BFGS-B"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean HyperVolume value",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "3 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "I-TriMO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "3 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TRIPE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "3 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "WAPE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "3 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Interactive ParEGO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "3 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TriMO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "3 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "L-BFGS-B"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "4 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "I-TriMO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "4 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TRIPE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "4 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "WAPE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "4 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Interactive ParEGO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "4 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TriMO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "4 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "L-BFGS-B"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "5 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "I-TriMO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "5 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TRIPE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "5 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "WAPE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "5 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Interactive ParEGO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "5 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TriMO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "5 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "L-BFGS-B"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "7 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "I-TriMO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "7 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TRIPE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "7 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "WAPE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "7 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Interactive ParEGO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "7 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TriMO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "7 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "L-BFGS-B"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "5 input dimensions, 3 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "I-TriMO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "5 input dimensions, 3 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TRIPE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "5 input dimensions, 3 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "WAPE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "5 input dimensions, 3 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Interactive ParEGO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "5 input dimensions, 3 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TriMO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "5 input dimensions, 3 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "L-BFGS-B"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ5",
+        "dimensionality": "3 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "I-TriMO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ5",
+        "dimensionality": "3 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TRIPE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ5",
+        "dimensionality": "3 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "WAPE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ5",
+        "dimensionality": "3 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Interactive ParEGO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ5",
+        "dimensionality": "3 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TriMO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ5",
+        "dimensionality": "3 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "L-BFGS-B"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ5",
+        "dimensionality": "4 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "I-TriMO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ5",
+        "dimensionality": "4 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TRIPE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ5",
+        "dimensionality": "4 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "WAPE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ5",
+        "dimensionality": "4 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Interactive ParEGO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ5",
+        "dimensionality": "4 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TriMO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ5",
+        "dimensionality": "4 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "L-BFGS-B"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ5",
+        "dimensionality": "5 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "I-TriMO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ5",
+        "dimensionality": "5 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TRIPE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ5",
+        "dimensionality": "5 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "WAPE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ5",
+        "dimensionality": "5 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Interactive ParEGO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ5",
+        "dimensionality": "5 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TriMO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ5",
+        "dimensionality": "5 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "L-BFGS-B"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (Inner Optimization Cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "3 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "I-TriMO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Opportunity Cost (OC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "3 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TRIPE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Opportunity Cost (OC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "3 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "WAPE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Opportunity Cost (OC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "3 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Interactive ParEGO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Opportunity Cost (OC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "4 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "I-TriMO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Opportunity Cost (OC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "4 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TRIPE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Opportunity Cost (OC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "4 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "WAPE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Opportunity Cost (OC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "4 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Interactive ParEGO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Opportunity Cost (OC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "5 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "I-TriMO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Opportunity Cost (OC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "5 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TRIPE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Opportunity Cost (OC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "5 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "WAPE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Opportunity Cost (OC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "5 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Interactive ParEGO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Opportunity Cost (OC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "7 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "I-TriMO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Opportunity Cost (OC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "7 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TRIPE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Opportunity Cost (OC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "7 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "WAPE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Opportunity Cost (OC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "7 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Interactive ParEGO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Opportunity Cost (OC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "5 input dimensions, 3 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "I-TriMO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Opportunity Cost (OC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "5 input dimensions, 3 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TRIPE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Opportunity Cost (OC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "5 input dimensions, 3 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "WAPE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Opportunity Cost (OC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": "5 input dimensions, 3 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Interactive ParEGO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Opportunity Cost (OC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ5",
+        "dimensionality": "3 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "I-TriMO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Opportunity Cost (OC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ5",
+        "dimensionality": "3 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TRIPE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Opportunity Cost (OC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ5",
+        "dimensionality": "3 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "WAPE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Opportunity Cost (OC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ5",
+        "dimensionality": "3 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Interactive ParEGO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Opportunity Cost (OC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ5",
+        "dimensionality": "4 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "I-TriMO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Opportunity Cost (OC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ5",
+        "dimensionality": "4 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TRIPE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Opportunity Cost (OC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ5",
+        "dimensionality": "4 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "WAPE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Opportunity Cost (OC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ5",
+        "dimensionality": "4 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Interactive ParEGO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Opportunity Cost (OC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ5",
+        "dimensionality": "5 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "I-TriMO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Opportunity Cost (OC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ5",
+        "dimensionality": "5 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TRIPE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Opportunity Cost (OC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ5",
+        "dimensionality": "5 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "WAPE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Opportunity Cost (OC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ5",
+        "dimensionality": "5 input dimensions, 2 objectives"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Interactive ParEGO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Opportunity Cost (OC)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

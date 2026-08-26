@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "title": "EvoTS: Evolutionary Transformer Search for Time Series Forecasting",
+    "authors": [
+      "AbdElRahman ElSaid",
+      "Damir Pulatov"
+    ],
+    "year": 2026,
+    "source_file": "ElSaid and Pulatov - 2026 - EvoTS Evolutionary Transformer Search for Time Series Forecasting.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Evolutionary neural architecture search for time series forecasting"
+      },
+      "the_database": {
+        "dataset_name": "ETTh1",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ETTh1 Dataset Forecasting",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "structured design space",
+          "discrete structural variation"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EvoTS"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Mean Squared Error (MSE) of 0.3224 (horizon 96) to 0.3724 (horizon 720) in M->M setting",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Evolutionary neural architecture search for time series forecasting"
+      },
+      "the_database": {
+        "dataset_name": "ETTh2",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ETTh2 Dataset Forecasting",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "structured design space",
+          "discrete structural variation"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EvoTS"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Mean Squared Error (MSE) of 0.2591 (horizon 96) to 0.3485 (horizon 720) in M->M setting",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Evolutionary neural architecture search for time series forecasting"
+      },
+      "the_database": {
+        "dataset_name": "ETTm1",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ETTm1 Dataset Forecasting",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "structured design space",
+          "discrete structural variation"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EvoTS"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Mean Squared Error (MSE) of 0.2580 (horizon 96) to 0.3858 (horizon 720) in M->M setting",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Evolutionary neural architecture search for time series forecasting"
+      },
+      "the_database": {
+        "dataset_name": "ETTm2",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ETTm2 Dataset Forecasting",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "structured design space",
+          "discrete structural variation"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EvoTS"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Mean Squared Error (MSE) of 0.1470 (horizon 96) to 0.3196 (horizon 720) in M->M setting",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

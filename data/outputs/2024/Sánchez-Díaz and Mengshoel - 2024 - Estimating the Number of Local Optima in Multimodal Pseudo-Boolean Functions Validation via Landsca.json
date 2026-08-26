@@ -1,0 +1,205 @@
+{
+  "metadata": {
+    "title": "Estimating the Number of Local Optima in Multimodal Pseudo-Boolean Functions: Validation via Landscapes of Triangles",
+    "authors": [
+      "Xavier F. C. S!nchez-D!az",
+      "Ole Jakob Mengshoel"
+    ],
+    "year": 2024,
+    "source_file": "Sánchez-Díaz and Mengshoel - 2024 - Estimating the Number of Local Optima in Multimodal Pseudo-Boolean Functions Validation via Landsca.pdf",
+    "gecco_track": "GECCO '24 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Symmetric Triangle Function (n=16, m=1, s=4)",
+        "dimensionality": "16D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multimodal",
+          "pseudo-Boolean",
+          "symmetric",
+          "peaked local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HCEA (1+1 EA)"
+      },
+      "parameters": {
+        "population_size": 1,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.0625,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median number of repetitions to find a duplicate local optimum (r_N)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Triangle Function (n=16, m=1, s=8)",
+        "dimensionality": "16D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multimodal",
+          "pseudo-Boolean",
+          "symmetric",
+          "peaked local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HCEA (1+1 EA)"
+      },
+      "parameters": {
+        "population_size": 1,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.0625,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median number of repetitions to find a duplicate local optimum (r_N)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "2-range Asymmetric Triangle Function (n=16, m=(2,1), s=(2,4))",
+        "dimensionality": "16D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multimodal",
+          "pseudo-Boolean",
+          "asymmetric",
+          "peaked local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HCEA (1+1 EA)"
+      },
+      "parameters": {
+        "population_size": 1,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.0625,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median number of repetitions to find a duplicate local optimum (r_N)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Incomplete Triangle Function (n=14, m=1, s=4)",
+        "dimensionality": "14D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multimodal",
+          "pseudo-Boolean",
+          "incomplete",
+          "peaked local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HCEA (1+1 EA)"
+      },
+      "parameters": {
+        "population_size": 1,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.0714,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median number of repetitions to find a duplicate local optimum (r_N)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "2-range Asymmetric Incomplete Triangle Function (n=14, m=(2,1), s=(2,4))",
+        "dimensionality": "14D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multimodal",
+          "pseudo-Boolean",
+          "asymmetric",
+          "incomplete",
+          "peaked local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HCEA (1+1 EA)"
+      },
+      "parameters": {
+        "population_size": 1,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.0714,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median number of repetitions to find a duplicate local optimum (r_N)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

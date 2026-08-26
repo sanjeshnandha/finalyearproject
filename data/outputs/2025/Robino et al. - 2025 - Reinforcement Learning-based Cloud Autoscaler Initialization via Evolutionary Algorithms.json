@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "title": "Reinforcement Learning-based Cloud Autoscaler Initialization via Evolutionary Algorithms",
+    "authors": [
+      "Luciano Robino",
+      "Yisel Garí",
+      "Elina Pacini",
+      "Cristian Mateos",
+      "Virginia Yannibelli",
+      "David A. Monge"
+    ],
+    "year": 2025,
+    "source_file": "Robino et al. - 2025 - Reinforcement Learning-based Cloud Autoscaler Initialization via Evolutionary Algorithms.pdf",
+    "gecco_track": "GECCO '25 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Cloud Computing",
+        "problem_context": "Autoscaling of scientific workflows in the Cloud"
+      },
+      "the_database": {
+        "dataset_name": "LIGO's Inspiral workflow",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "LIGO's Inspiral",
+        "dimensionality": "256"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "competing objectives"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-III"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "makespan, cost, and AggMC",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Cloud Computing",
+        "problem_context": "Autoscaling of scientific workflows in the Cloud"
+      },
+      "the_database": {
+        "dataset_name": "LIGO's Inspiral workflow",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "LIGO's Inspiral",
+        "dimensionality": "256"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "competing objectives"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "I-DBEA"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "makespan, cost, and AggMC",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

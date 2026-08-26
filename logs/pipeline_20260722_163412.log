@@ -1,0 +1,7 @@
+2026-07-22 16:34:12.362 | INFO     | gecco_pipeline.extractor:__init__:32 - Initialized GeccoExtractor with model: gemini-3.5-flash and 3 API keys
+2026-07-22 16:34:12.362 | INFO     | gecco_pipeline.processor:__init__:57 - BatchProcessor initialized
+2026-07-22 16:34:12.363 | INFO     | gecco_pipeline.utils:discover_pdfs:62 - Discovered 92 PDF files in data/pdfs/2023
+2026-07-22 16:34:12.367 | INFO     | gecco_pipeline.processor:process_batch:129 - Skipping 66 already-processed PDFs
+2026-07-22 16:34:12.367 | INFO     | gecco_pipeline.processor:process_batch:145 - Processing 26 PDFs...
+2026-07-22 16:34:12.377 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Macé et al. - 2023 - The Quality-Diversity Transformer Generating Behavior-Conditioned Trajectories with Decision Transf.pdf
+2026-07-22 16:34:12.377 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Macé et al. - 2023 - The Quality-Diversity Transformer Generating Behavior-Conditioned Trajectories with Decision Transf.pdf to Gemini File API...

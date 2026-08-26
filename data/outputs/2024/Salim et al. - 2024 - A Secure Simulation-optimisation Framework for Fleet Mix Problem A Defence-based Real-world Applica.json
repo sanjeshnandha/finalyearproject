@@ -1,0 +1,155 @@
+{
+  "metadata": {
+    "title": "A Secure Simulation-optimisation Framework for Fleet Mix Problem: A Defence-based Real-world Application",
+    "authors": [
+      "Sara Salim",
+      "Ismail M. Ali",
+      "Sondoss Elsawah"
+    ],
+    "year": 2024,
+    "source_file": "Salim et al. - 2024 - A Secure Simulation-optimisation Framework for Fleet Mix Problem A Defence-based Real-world Applica.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Fleet mix problem in defence planning"
+      },
+      "the_database": {
+        "dataset_name": "Australian Army fleet modernisation data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Fleet Mix Problem",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Secured Genetic Algorithm (S-GA)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": 0.7,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Total costs, CPU time, and deployability score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Fleet mix problem in defence planning"
+      },
+      "the_database": {
+        "dataset_name": "Australian Army fleet modernisation data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Fleet Mix Problem",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Simulation-optimisation-based Genetic Algorithm (SO-GA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Total costs, CPU time, and deployability score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Fleet mix problem in defence planning"
+      },
+      "the_database": {
+        "dataset_name": "Australian Army fleet modernisation data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Fleet Mix Problem",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (GA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Total costs, CPU time, and deployability score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Fleet mix problem in defence planning"
+      },
+      "the_database": {
+        "dataset_name": "Australian Army fleet modernisation data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Fleet Mix Problem",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Differential Evolution (DE)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Total costs, CPU time, and deployability score",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

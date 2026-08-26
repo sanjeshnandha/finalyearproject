@@ -1,0 +1,707 @@
+{
+  "metadata": {
+    "title": "A Generalizability Measure for Program Synthesis with Genetic Programming",
+    "authors": [
+      "Dominik Sobania",
+      "Franz Rothlauf"
+    ],
+    "year": 2021,
+    "source_file": "Sobania and Rothlauf - 2021 - A generalizability measure for program synthesis with genetic programming.pdf",
+    "gecco_track": "Search-Based Software Engineering"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Program Synthesis"
+      },
+      "the_database": {
+        "dataset_name": "General Program Synthesis Benchmark Suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Compare String Lengths",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammar-Guided Genetic Programming (Proportionate Selection)"
+      },
+      "parameters": {
+        "population_size": 3000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Success rate on test set (s_test)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Program Synthesis"
+      },
+      "the_database": {
+        "dataset_name": "General Program Synthesis Benchmark Suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Compare String Lengths",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammar-Guided Genetic Programming (Tournament Selection)"
+      },
+      "parameters": {
+        "population_size": 3000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Success rate on test set (s_test)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Program Synthesis"
+      },
+      "the_database": {
+        "dataset_name": "General Program Synthesis Benchmark Suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Compare String Lengths",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammar-Guided Genetic Programming (Lexicase Selection)"
+      },
+      "parameters": {
+        "population_size": 3000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Success rate on test set (s_test)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Program Synthesis"
+      },
+      "the_database": {
+        "dataset_name": "General Program Synthesis Benchmark Suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Count Odds",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammar-Guided Genetic Programming (Proportionate Selection)"
+      },
+      "parameters": {
+        "population_size": 3000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Success rate on test set (s_test)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Program Synthesis"
+      },
+      "the_database": {
+        "dataset_name": "General Program Synthesis Benchmark Suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Count Odds",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammar-Guided Genetic Programming (Tournament Selection)"
+      },
+      "parameters": {
+        "population_size": 3000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Success rate on test set (s_test)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Program Synthesis"
+      },
+      "the_database": {
+        "dataset_name": "General Program Synthesis Benchmark Suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Count Odds",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammar-Guided Genetic Programming (Lexicase Selection)"
+      },
+      "parameters": {
+        "population_size": 3000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Success rate on test set (s_test)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Program Synthesis"
+      },
+      "the_database": {
+        "dataset_name": "General Program Synthesis Benchmark Suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Grade",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammar-Guided Genetic Programming (Proportionate Selection)"
+      },
+      "parameters": {
+        "population_size": 3000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Success rate on test set (s_test)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Program Synthesis"
+      },
+      "the_database": {
+        "dataset_name": "General Program Synthesis Benchmark Suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Grade",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammar-Guided Genetic Programming (Tournament Selection)"
+      },
+      "parameters": {
+        "population_size": 3000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Success rate on test set (s_test)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Program Synthesis"
+      },
+      "the_database": {
+        "dataset_name": "General Program Synthesis Benchmark Suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Grade",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammar-Guided Genetic Programming (Lexicase Selection)"
+      },
+      "parameters": {
+        "population_size": 3000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Success rate on test set (s_test)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Program Synthesis"
+      },
+      "the_database": {
+        "dataset_name": "General Program Synthesis Benchmark Suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Median",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammar-Guided Genetic Programming (Proportionate Selection)"
+      },
+      "parameters": {
+        "population_size": 3000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Success rate on test set (s_test)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Program Synthesis"
+      },
+      "the_database": {
+        "dataset_name": "General Program Synthesis Benchmark Suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Median",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammar-Guided Genetic Programming (Tournament Selection)"
+      },
+      "parameters": {
+        "population_size": 3000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Success rate on test set (s_test)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Program Synthesis"
+      },
+      "the_database": {
+        "dataset_name": "General Program Synthesis Benchmark Suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Median",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammar-Guided Genetic Programming (Lexicase Selection)"
+      },
+      "parameters": {
+        "population_size": 3000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Success rate on test set (s_test)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Program Synthesis"
+      },
+      "the_database": {
+        "dataset_name": "General Program Synthesis Benchmark Suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Small Or Large",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammar-Guided Genetic Programming (Proportionate Selection)"
+      },
+      "parameters": {
+        "population_size": 3000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Success rate on test set (s_test)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Program Synthesis"
+      },
+      "the_database": {
+        "dataset_name": "General Program Synthesis Benchmark Suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Small Or Large",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammar-Guided Genetic Programming (Tournament Selection)"
+      },
+      "parameters": {
+        "population_size": 3000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Success rate on test set (s_test)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Program Synthesis"
+      },
+      "the_database": {
+        "dataset_name": "General Program Synthesis Benchmark Suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Small Or Large",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammar-Guided Genetic Programming (Lexicase Selection)"
+      },
+      "parameters": {
+        "population_size": 3000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Success rate on test set (s_test)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Program Synthesis"
+      },
+      "the_database": {
+        "dataset_name": "General Program Synthesis Benchmark Suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Smallest",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammar-Guided Genetic Programming (Proportionate Selection)"
+      },
+      "parameters": {
+        "population_size": 3000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Success rate on test set (s_test)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Program Synthesis"
+      },
+      "the_database": {
+        "dataset_name": "General Program Synthesis Benchmark Suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Smallest",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammar-Guided Genetic Programming (Tournament Selection)"
+      },
+      "parameters": {
+        "population_size": 3000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Success rate on test set (s_test)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Program Synthesis"
+      },
+      "the_database": {
+        "dataset_name": "General Program Synthesis Benchmark Suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Smallest",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammar-Guided Genetic Programming (Lexicase Selection)"
+      },
+      "parameters": {
+        "population_size": 3000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Success rate on test set (s_test)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Program Synthesis"
+      },
+      "the_database": {
+        "dataset_name": "General Program Synthesis Benchmark Suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Super Anagrams",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammar-Guided Genetic Programming (Proportionate Selection)"
+      },
+      "parameters": {
+        "population_size": 3000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Success rate on test set (s_test)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Program Synthesis"
+      },
+      "the_database": {
+        "dataset_name": "General Program Synthesis Benchmark Suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Super Anagrams",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammar-Guided Genetic Programming (Tournament Selection)"
+      },
+      "parameters": {
+        "population_size": 3000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Success rate on test set (s_test)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Program Synthesis"
+      },
+      "the_database": {
+        "dataset_name": "General Program Synthesis Benchmark Suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Super Anagrams",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammar-Guided Genetic Programming (Lexicase Selection)"
+      },
+      "parameters": {
+        "population_size": 3000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Success rate on test set (s_test)",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

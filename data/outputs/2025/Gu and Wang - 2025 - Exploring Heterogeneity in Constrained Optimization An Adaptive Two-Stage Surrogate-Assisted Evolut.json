@@ -1,0 +1,754 @@
+{
+  "metadata": {
+    "title": "Exploring Heterogeneity in Constrained Optimization: An Adaptive Two-Stage Surrogate-Assisted Evolutionary Algorithm",
+    "authors": [
+      "Chenyan Gu",
+      "Handing Wang"
+    ],
+    "year": 2025,
+    "source_file": "Gu and Wang - 2025 - Exploring Heterogeneity in Constrained Optimization An Adaptive Two-Stage Surrogate-Assisted Evolut.pdf",
+    "gecco_track": "GECCO '25 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CEC2010 Constrained Real-Parameter Optimization Suite",
+        "dimensionality": "10D, 30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "expensive",
+          "heterogeneous objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ATS-SADE"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average objective value and Wilcoxon rank-sum test results",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CEC2010 Constrained Real-Parameter Optimization Suite",
+        "dimensionality": "10D, 30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "expensive",
+          "heterogeneous objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MPMLS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average objective value and Wilcoxon rank-sum test results",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CEC2010 Constrained Real-Parameter Optimization Suite",
+        "dimensionality": "10D, 30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "expensive",
+          "heterogeneous objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GLOSADE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average objective value and Wilcoxon rank-sum test results",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CEC2010 Constrained Real-Parameter Optimization Suite",
+        "dimensionality": "10D, 30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "expensive",
+          "heterogeneous objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SA-TSDE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average objective value and Wilcoxon rank-sum test results",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CEC2010 Constrained Real-Parameter Optimization Suite",
+        "dimensionality": "10D, 30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "expensive",
+          "heterogeneous objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DSI-C2oDE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average objective value and Wilcoxon rank-sum test results",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CEC2017 Constrained Real-Parameter Optimization Suite",
+        "dimensionality": "10D, 30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "expensive",
+          "heterogeneous objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ATS-SADE"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average objective value and Wilcoxon rank-sum test results",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CEC2017 Constrained Real-Parameter Optimization Suite",
+        "dimensionality": "10D, 30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "expensive",
+          "heterogeneous objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MPMLS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average objective value and Wilcoxon rank-sum test results",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CEC2017 Constrained Real-Parameter Optimization Suite",
+        "dimensionality": "10D, 30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "expensive",
+          "heterogeneous objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GLOSADE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average objective value and Wilcoxon rank-sum test results",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CEC2017 Constrained Real-Parameter Optimization Suite",
+        "dimensionality": "10D, 30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "expensive",
+          "heterogeneous objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SA-TSDE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average objective value and Wilcoxon rank-sum test results",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CEC2017 Constrained Real-Parameter Optimization Suite",
+        "dimensionality": "10D, 30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "expensive",
+          "heterogeneous objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DSI-C2oDE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average objective value and Wilcoxon rank-sum test results",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CEC2010 Constrained Real-Parameter Optimization Suite",
+        "dimensionality": "10D, 30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "expensive",
+          "heterogeneous objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ATS-SADE (η=1e-4)"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Rank and Wilcoxon rank-sum test results",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CEC2010 Constrained Real-Parameter Optimization Suite",
+        "dimensionality": "10D, 30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "expensive",
+          "heterogeneous objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ATS-SADE (η=1e-5)"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Rank and Wilcoxon rank-sum test results",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CEC2010 Constrained Real-Parameter Optimization Suite",
+        "dimensionality": "10D, 30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "expensive",
+          "heterogeneous objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ATS-SADE (η=1e-6)"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Rank and Wilcoxon rank-sum test results",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CEC2017 Constrained Real-Parameter Optimization Suite",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "expensive",
+          "heterogeneous objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ATS-SADE (latency=2)"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Rank and Wilcoxon rank-sum test results",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CEC2017 Constrained Real-Parameter Optimization Suite",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "expensive",
+          "heterogeneous objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ATS-SADE (latency=5)"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Rank and Wilcoxon rank-sum test results",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CEC2017 Constrained Real-Parameter Optimization Suite",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "expensive",
+          "heterogeneous objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ATS-SADE (latency=10)"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Rank and Wilcoxon rank-sum test results",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CEC2010 Constrained Real-Parameter Optimization Suite (subset)",
+        "dimensionality": "10D, 30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "expensive",
+          "heterogeneous objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ATS-SADE"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Performance comparison (better/worse/similar) on 6 test problems",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CEC2010 Constrained Real-Parameter Optimization Suite (subset)",
+        "dimensionality": "10D, 30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "expensive",
+          "heterogeneous objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ATS-SADE-fix"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Performance comparison (better/worse/similar) on 6 test problems",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CEC2010 Constrained Real-Parameter Optimization Suite (subset: c07, c13, c15)",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "expensive",
+          "heterogeneous objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ATS-SADE"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Performance comparison (better/worse/similar)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CEC2010 Constrained Real-Parameter Optimization Suite (subset: c07, c13, c15)",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "expensive",
+          "heterogeneous objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ATS-SADE-ur"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Performance comparison (better/worse/similar)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "title": "Guided Local Search with an Adaptive Neighbourhood Size Heuristic for Large Scale Vehicle Routing Problems",
+    "authors": [
+      "Joao Guilherme Cavalcanti Costa",
+      "Yi Mei",
+      "Mengjie Zhang"
+    ],
+    "year": 2022,
+    "source_file": "Costa et al. - 2022 - Guided local search with an adaptive neighbourhood size heuristic for large scale vehicle routing pr.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Large-Scale Vehicle Routing Problem"
+      },
+      "the_database": {
+        "dataset_name": "X dataset",
+        "source_platform": "CVRPLib"
+      },
+      "the_benchmark_problem": {
+        "name": "Capacitated Vehicle Routing Problem",
+        "dimensionality": "100 to 1000 customers"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "NP-hard",
+          "large-scale"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Knowledge-Guided Local Search with Adaptive Neighbourhood Size (KGLS-AdaptNS)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Total Cost",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Large-Scale Vehicle Routing Problem"
+      },
+      "the_database": {
+        "dataset_name": "Very-large-scale dataset",
+        "source_platform": "CVRPLib"
+      },
+      "the_benchmark_problem": {
+        "name": "Capacitated Vehicle Routing Problem",
+        "dimensionality": "3000 to 30000 customers"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "NP-hard",
+          "very-large-scale"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Knowledge-Guided Local Search with Adaptive Neighbourhood Size (KGLS-AdaptNS)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Total Cost",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Large-Scale Vehicle Routing Problem"
+      },
+      "the_database": {
+        "dataset_name": "X dataset",
+        "source_platform": "CVRPLib"
+      },
+      "the_benchmark_problem": {
+        "name": "Capacitated Vehicle Routing Problem",
+        "dimensionality": "100 to 1000 customers"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "NP-hard",
+          "large-scale"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Knowledge-Guided Local Search (KGLS)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Total Cost",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Large-Scale Vehicle Routing Problem"
+      },
+      "the_database": {
+        "dataset_name": "Very-large-scale dataset",
+        "source_platform": "CVRPLib"
+      },
+      "the_benchmark_problem": {
+        "name": "Capacitated Vehicle Routing Problem",
+        "dimensionality": "3000 to 30000 customers"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "NP-hard",
+          "very-large-scale"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Knowledge-Guided Local Search (KGLS)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Total Cost",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

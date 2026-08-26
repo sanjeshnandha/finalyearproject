@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "title": "Real-like MAX-SAT Instances and the Landscape Structure Across the Phase Transition",
+    "authors": [
+      "Francisco Chicano",
+      "Gabriela Ochoa",
+      "Marco Tomassini"
+    ],
+    "year": 2021,
+    "source_file": "Chicano et al. - 2021 - Real-like MAX-SAT instances and the landscape structure across the phase transition.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MAX-3SAT",
+        "dimensionality": "50 and 500 variables"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "neutrality",
+          "plateaus",
+          "multi-funnel",
+          "sinks"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Iterated Local Search (ILS)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median number of iterations to find the best known solution and success rate",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MAX-3SAT",
+        "dimensionality": "50 and 500 variables"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "neutrality",
+          "plateaus",
+          "multi-funnel",
+          "sinks"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "WalkSAT"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median number of steps to find the best known solution and success rate",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

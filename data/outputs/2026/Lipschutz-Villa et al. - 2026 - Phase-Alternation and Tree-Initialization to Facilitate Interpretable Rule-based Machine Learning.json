@@ -1,0 +1,240 @@
+{
+  "metadata": {
+    "title": "Phase-Alternation and Tree-Initialization to Facilitate Interpretable Rule-based Machine Learning",
+    "authors": [
+      "Gabriel Lipschutz-Villa",
+      "Harsh Bandhey",
+      "Khoi Dinh",
+      "Michael Heider",
+      "Malek Kamoun",
+      "Ryan J. Urbanowicz"
+    ],
+    "year": 2026,
+    "source_file": "Lipschutz-Villa et al. - 2026 - Phase-Alternation and Tree-Initialization to Facilitate Interpretable Rule-based Machine Learning.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating rule-based machine learning on simulated datasets"
+      },
+      "the_database": {
+        "dataset_name": "GAMETES simulated datasets",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "GAMETES (A-F)",
+        "dimensionality": "100D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "epistatic",
+          "univariate and multivariate associations"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HEROS-Tree-Alt"
+      },
+      "parameters": {
+        "population_size": 2000,
+        "max_evaluations_or_generations": 200000,
+        "mutation_rate": 0.04,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced testing accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating rule-based machine learning on simulated datasets"
+      },
+      "the_database": {
+        "dataset_name": "Multiplexer (MUX) simulated datasets",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MUX (6-70)",
+        "dimensionality": "6D to 70D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "clean",
+          "epistatic",
+          "boolean multiplexer"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HEROS-Tree-Alt"
+      },
+      "parameters": {
+        "population_size": 2000,
+        "max_evaluations_or_generations": 200000,
+        "mutation_rate": 0.04,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced testing accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating rule-based machine learning on simulated datasets"
+      },
+      "the_database": {
+        "dataset_name": "GAMETES simulated datasets",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "GAMETES (A-F)",
+        "dimensionality": "100D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "epistatic",
+          "univariate and multivariate associations"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HEROS"
+      },
+      "parameters": {
+        "population_size": 2000,
+        "max_evaluations_or_generations": 200000,
+        "mutation_rate": 0.04,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced testing accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating rule-based machine learning on simulated datasets"
+      },
+      "the_database": {
+        "dataset_name": "Multiplexer (MUX) simulated datasets",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MUX (6-70)",
+        "dimensionality": "6D to 70D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "clean",
+          "epistatic",
+          "boolean multiplexer"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HEROS"
+      },
+      "parameters": {
+        "population_size": 2000,
+        "max_evaluations_or_generations": 200000,
+        "mutation_rate": 0.04,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced testing accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating rule-based machine learning on simulated datasets"
+      },
+      "the_database": {
+        "dataset_name": "GAMETES simulated datasets",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "GAMETES (A-F)",
+        "dimensionality": "100D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "epistatic",
+          "univariate and multivariate associations"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "BioHEL"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Balanced testing accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating rule-based machine learning on simulated datasets"
+      },
+      "the_database": {
+        "dataset_name": "Multiplexer (MUX) simulated datasets",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MUX (6-70)",
+        "dimensionality": "6D to 70D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "clean",
+          "epistatic",
+          "boolean multiplexer"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "BioHEL"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Balanced testing accuracy",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

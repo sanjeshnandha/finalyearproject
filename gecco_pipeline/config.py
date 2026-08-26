@@ -10,13 +10,17 @@ class Settings(BaseSettings):
     GOOGLE_API_KEY: str = Field(description="Google AI API key for Gemini")
     MODEL_NAME: str = Field(default="gemini-2.5-flash")
 
+    @property
+    def api_keys(self) -> list[str]:
+        return [k.strip() for k in self.GOOGLE_API_KEY.split(",") if k.strip()]
+
     # Paths
     PDF_BASE_DIR: Path = Field(default=Path("data/pdfs"))
     OUTPUT_DIR: Path = Field(default=Path("data/outputs"))
     REPORTS_DIR: Path = Field(default=Path("data/reports"))
 
     # Processing
-    MAX_RETRIES: int = Field(default=3)
+    MAX_RETRIES: int = Field(default=20)
     RETRY_BASE_DELAY: float = Field(default=2.0, description="Base delay in seconds for exponential backoff")
     BATCH_SIZE: int = Field(default=5, description="Number of concurrent extractions")
     RATE_LIMIT_RPM: int = Field(default=60, description="Max requests per minute")

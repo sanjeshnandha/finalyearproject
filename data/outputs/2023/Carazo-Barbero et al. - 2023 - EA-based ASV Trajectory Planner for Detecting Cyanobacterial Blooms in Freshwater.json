@@ -1,0 +1,238 @@
+{
+  "metadata": {
+    "title": "EA-based ASV Trajectory Planner for Detecting Cyanobacterial Blooms in Freshwater",
+    "authors": [
+      "Gonzalo Carazo-Barbero",
+      "Eva Besada-Portas",
+      "José Luis Risco-Martín",
+      "José Antonio López-Orozco"
+    ],
+    "year": 2023,
+    "source_file": "Carazo-Barbero et al. - 2023 - EA-based ASV Trajectory Planner for Detecting Cyanobacterial Blooms in Freshwater.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Environmental Monitoring / Robotics",
+        "problem_context": "Autonomous Surface Vehicle (ASV) Trajectory Planning for Cyanobacterial Bloom Detection"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data (COMSOL and Matlab)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Scenario A (Single static CB area)",
+        "dimensionality": "Variable (Spline nodes: 5 to 12 nodes, 4*(N_f - 1) + 1 variables)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "spatiotemporal",
+          "single bloom area"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II with trajectory refinement (V1)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "HyperVolume Estimation (HVE), Mission Duration (OF1), Trajectory Length (OF2), Maximal Particle Contribution (OF3)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Environmental Monitoring / Robotics",
+        "problem_context": "Autonomous Surface Vehicle (ASV) Trajectory Planning for Cyanobacterial Bloom Detection"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data (COMSOL and Matlab)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Scenario B (Two static CB areas)",
+        "dimensionality": "Variable (Spline nodes: 5 to 12 nodes, 4*(N_f - 1) + 1 variables)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "spatiotemporal",
+          "two bloom areas"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II with trajectory refinement (V1)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "HyperVolume Estimation (HVE), Mission Duration (OF1), Trajectory Length (OF2), Maximal Particle Contribution (OF3)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Environmental Monitoring / Robotics",
+        "problem_context": "Autonomous Surface Vehicle (ASV) Trajectory Planning for Cyanobacterial Bloom Detection"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data (COMSOL and Matlab)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Scenario C (Dynamic fast-moving CB)",
+        "dimensionality": "Variable (Spline nodes: 5 to 12 nodes, 4*(N_f - 1) + 1 variables)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "spatiotemporal",
+          "dynamic fast-moving bloom"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II with trajectory refinement (V1)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "HyperVolume Estimation (HVE), Mission Duration (OF1), Trajectory Length (OF2), Maximal Particle Contribution (OF3)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Environmental Monitoring / Robotics",
+        "problem_context": "Autonomous Surface Vehicle (ASV) Trajectory Planning for Cyanobacterial Bloom Detection"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data (COMSOL and Matlab)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Scenario A (Single static CB area)",
+        "dimensionality": "Fixed (12 spline nodes, 45 variables)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "spatiotemporal",
+          "single bloom area"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II without trajectory refinement (V2)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "HyperVolume Estimation (HVE), Mission Duration (OF1), Trajectory Length (OF2), Maximal Particle Contribution (OF3)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Environmental Monitoring / Robotics",
+        "problem_context": "Autonomous Surface Vehicle (ASV) Trajectory Planning for Cyanobacterial Bloom Detection"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data (COMSOL and Matlab)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Scenario B (Two static CB areas)",
+        "dimensionality": "Fixed (12 spline nodes, 45 variables)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "spatiotemporal",
+          "two bloom areas"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II without trajectory refinement (V2)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "HyperVolume Estimation (HVE), Mission Duration (OF1), Trajectory Length (OF2), Maximal Particle Contribution (OF3)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Environmental Monitoring / Robotics",
+        "problem_context": "Autonomous Surface Vehicle (ASV) Trajectory Planning for Cyanobacterial Bloom Detection"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data (COMSOL and Matlab)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Scenario C (Dynamic fast-moving CB)",
+        "dimensionality": "Fixed (12 spline nodes, 45 variables)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "spatiotemporal",
+          "dynamic fast-moving bloom"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II without trajectory refinement (V2)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "HyperVolume Estimation (HVE), Mission Duration (OF1), Trajectory Length (OF2), Maximal Particle Contribution (OF3)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

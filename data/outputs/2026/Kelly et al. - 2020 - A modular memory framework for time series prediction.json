@@ -1,0 +1,460 @@
+{
+  "metadata": {
+    "title": "A Modular Memory Framework for Time Series Prediction",
+    "authors": [
+      "Stephen Kelly",
+      "Jacob Newsted",
+      "Wolfgang Banzhaf",
+      "Cedric Gondro"
+    ],
+    "year": 2020,
+    "source_file": "Kelly et al. - 2020 - A modular memory framework for time series prediction.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Time Series Forecasting of chaotic laser intensity pulsations"
+      },
+      "the_database": {
+        "dataset_name": "Laser",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Laser",
+        "dimensionality": "Univariate"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "chaotic",
+          "non-stationary",
+          "partial-observability"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPG-CM"
+      },
+      "parameters": {
+        "population_size": 360,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Square Error (MSE) on test data (best: 0.0127, mean: 0.0181)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Time Series Forecasting of chaotic laser intensity pulsations"
+      },
+      "the_database": {
+        "dataset_name": "Laser",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Laser",
+        "dimensionality": "Univariate"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "chaotic",
+          "non-stationary",
+          "partial-observability"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ARIMA"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Square Error (MSE) on test data (mean: 0.0341)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Time Series Forecasting of chaotic laser intensity pulsations"
+      },
+      "the_database": {
+        "dataset_name": "Laser",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Laser",
+        "dimensionality": "Univariate"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "chaotic",
+          "non-stationary",
+          "partial-observability"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RCGP"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Square Error (MSE) on test data (best: 0.0044, mean: 0.0258)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Time Series Forecasting of chaotic laser intensity pulsations"
+      },
+      "the_database": {
+        "dataset_name": "Laser",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Laser",
+        "dimensionality": "Univariate"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "chaotic",
+          "non-stationary",
+          "partial-observability"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RCGPANN"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Square Error (MSE) on test data (best: 0.0164, mean: 0.0215)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Time Series Forecasting of chaotic Mackey-Glass series"
+      },
+      "the_database": {
+        "dataset_name": "Mackey-Glass",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Mackey-Glass",
+        "dimensionality": "Univariate"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "chaotic",
+          "non-stationary",
+          "partial-observability"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPG-CM"
+      },
+      "parameters": {
+        "population_size": 360,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Square Error (MSE) on test data (best: 0.0144, mean: 0.0459)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Time Series Forecasting of chaotic Mackey-Glass series"
+      },
+      "the_database": {
+        "dataset_name": "Mackey-Glass",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Mackey-Glass",
+        "dimensionality": "Univariate"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "chaotic",
+          "non-stationary",
+          "partial-observability"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ARIMA"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Square Error (MSE) on test data (mean: 0.0715)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Time Series Forecasting of chaotic Mackey-Glass series"
+      },
+      "the_database": {
+        "dataset_name": "Mackey-Glass",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Mackey-Glass",
+        "dimensionality": "Univariate"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "chaotic",
+          "non-stationary",
+          "partial-observability"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RCGP"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Square Error (MSE) on test data (best: 0.0257, mean: 0.0645)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Time Series Forecasting of chaotic Mackey-Glass series"
+      },
+      "the_database": {
+        "dataset_name": "Mackey-Glass",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Mackey-Glass",
+        "dimensionality": "Univariate"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "chaotic",
+          "non-stationary",
+          "partial-observability"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RCGPANN"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Square Error (MSE) on test data (best: 0.0332, mean: 0.0476)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Time Series Forecasting of sunspot activity"
+      },
+      "the_database": {
+        "dataset_name": "Sunspots",
+        "source_platform": "SIDC"
+      },
+      "the_benchmark_problem": {
+        "name": "Sunspots",
+        "dimensionality": "Univariate"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "chaotic",
+          "non-stationary",
+          "partial-observability"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPG-CM"
+      },
+      "parameters": {
+        "population_size": 360,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Square Error (MSE) on test data (best: 0.0038, mean: 0.0182)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Time Series Forecasting of sunspot activity"
+      },
+      "the_database": {
+        "dataset_name": "Sunspots",
+        "source_platform": "SIDC"
+      },
+      "the_benchmark_problem": {
+        "name": "Sunspots",
+        "dimensionality": "Univariate"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "chaotic",
+          "non-stationary",
+          "partial-observability"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ARIMA"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Square Error (MSE) on test data (mean: 0.0350)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Time Series Forecasting of sunspot activity"
+      },
+      "the_database": {
+        "dataset_name": "Sunspots",
+        "source_platform": "SIDC"
+      },
+      "the_benchmark_problem": {
+        "name": "Sunspots",
+        "dimensionality": "Univariate"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "chaotic",
+          "non-stationary",
+          "partial-observability"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RCGP"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Square Error (MSE) on test data (best: 0.012, mean: 1.20e+30)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Time Series Forecasting of sunspot activity"
+      },
+      "the_database": {
+        "dataset_name": "Sunspots",
+        "source_platform": "SIDC"
+      },
+      "the_benchmark_problem": {
+        "name": "Sunspots",
+        "dimensionality": "Univariate"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "chaotic",
+          "non-stationary",
+          "partial-observability"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RCGPANN"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Square Error (MSE) on test data (best: 0.0049, mean: 0.025)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

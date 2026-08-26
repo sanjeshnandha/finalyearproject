@@ -1,0 +1,281 @@
+{
+  "metadata": {
+    "title": "Two-Stage Multi-Objective Genetic Programming with Archive for Uncertain Capacitated Arc Routing Problem",
+    "authors": [
+      "Shaolin Wang",
+      "Yi Mei",
+      "Mengjie Zhang"
+    ],
+    "year": 2021,
+    "source_file": "Wang et al. - 2021 - Two-stage multi-objective genetic programming with archive for uncertain capacitated arc routing pro.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Uncertain Capacitated Arc Routing Problem"
+      },
+      "the_database": {
+        "dataset_name": "Ugdb and Uval datasets",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Uncertain Capacitated Arc Routing Problem (Ugdb and Uval)",
+        "dimensionality": "22 to 97 tasks"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "stochastic",
+          "uncertain",
+          "NP-hard",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TSNSGPII-a"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.15,
+        "crossover_rate": 0.85
+      },
+      "performance_outcome": {
+        "metric": "Hyper-Volume (HV), Inverted Generational Distance (IGD), Average total cost, and Size",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Uncertain Capacitated Arc Routing Problem"
+      },
+      "the_database": {
+        "dataset_name": "Ugdb and Uval datasets",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Uncertain Capacitated Arc Routing Problem (Ugdb and Uval)",
+        "dimensionality": "22 to 97 tasks"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "stochastic",
+          "uncertain",
+          "NP-hard",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SPEA2"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.15,
+        "crossover_rate": 0.85
+      },
+      "performance_outcome": {
+        "metric": "Hyper-Volume (HV), Inverted Generational Distance (IGD), Average total cost, and Size",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Uncertain Capacitated Arc Routing Problem"
+      },
+      "the_database": {
+        "dataset_name": "Ugdb and Uval datasets",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Uncertain Capacitated Arc Routing Problem (Ugdb and Uval)",
+        "dimensionality": "22 to 97 tasks"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "stochastic",
+          "uncertain",
+          "NP-hard",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "alpha-MOGP"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.15,
+        "crossover_rate": 0.85
+      },
+      "performance_outcome": {
+        "metric": "Hyper-Volume (HV), Inverted Generational Distance (IGD), Average total cost, and Size",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Uncertain Capacitated Arc Routing Problem"
+      },
+      "the_database": {
+        "dataset_name": "Ugdb and Uval datasets",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Uncertain Capacitated Arc Routing Problem (Ugdb and Uval)",
+        "dimensionality": "22 to 97 tasks"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "stochastic",
+          "uncertain",
+          "NP-hard",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGPII"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.15,
+        "crossover_rate": 0.85
+      },
+      "performance_outcome": {
+        "metric": "Hyper-Volume (HV) and Inverted Generational Distance (IGD)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Uncertain Capacitated Arc Routing Problem"
+      },
+      "the_database": {
+        "dataset_name": "Ugdb and Uval datasets",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Uncertain Capacitated Arc Routing Problem (Ugdb and Uval)",
+        "dimensionality": "22 to 97 tasks"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "stochastic",
+          "uncertain",
+          "NP-hard",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGPII-a"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.15,
+        "crossover_rate": 0.85
+      },
+      "performance_outcome": {
+        "metric": "Hyper-Volume (HV) and Inverted Generational Distance (IGD)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Uncertain Capacitated Arc Routing Problem"
+      },
+      "the_database": {
+        "dataset_name": "Ugdb and Uval datasets",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Uncertain Capacitated Arc Routing Problem (Ugdb and Uval)",
+        "dimensionality": "22 to 97 tasks"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "stochastic",
+          "uncertain",
+          "NP-hard",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TSNSGPII"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.15,
+        "crossover_rate": 0.85
+      },
+      "performance_outcome": {
+        "metric": "Hyper-Volume (HV) and Inverted Generational Distance (IGD)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Uncertain Capacitated Arc Routing Problem"
+      },
+      "the_database": {
+        "dataset_name": "Ugdb and Uval datasets",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Uncertain Capacitated Arc Routing Problem (Ugdb and Uval)",
+        "dimensionality": "22 to 97 tasks"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "stochastic",
+          "uncertain",
+          "NP-hard",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming Hyper-Heuristic (GPHH)"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.15,
+        "crossover_rate": 0.85
+      },
+      "performance_outcome": {
+        "metric": "Average total cost and Size",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

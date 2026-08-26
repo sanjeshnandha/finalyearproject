@@ -1,0 +1,446 @@
+{
+  "metadata": {
+    "title": "Addressing Combinatorial Optimization with Estimation of Distribution Algorithms Based on Diffusion Models",
+    "authors": [
+      "Roberto Santana",
+      "Jose A. Lozano"
+    ],
+    "year": 2026,
+    "source_file": "Santana and Lozano - 2026 - Addressing Combinatorial Optimization with Estimation of Distribution Algorithms Based on Diffusion.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "OneMax",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "additive"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Diff-EDA"
+      },
+      "parameters": {
+        "population_size": 3000,
+        "max_evaluations_or_generations": 250,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (proportion of runs reaching the optimum)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "OneMax",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "additive"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DbD-EDA"
+      },
+      "parameters": {
+        "population_size": 3000,
+        "max_evaluations_or_generations": 250,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (proportion of runs reaching the optimum)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Deceptive3",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "deceptive",
+          "additive blocks"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Diff-EDA"
+      },
+      "parameters": {
+        "population_size": 3000,
+        "max_evaluations_or_generations": 250,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (proportion of runs reaching the optimum)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Deceptive3",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "deceptive",
+          "additive blocks"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DbD-EDA"
+      },
+      "parameters": {
+        "population_size": 3000,
+        "max_evaluations_or_generations": 250,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (proportion of runs reaching the optimum)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "HIFF",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "hierarchical",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Diff-EDA"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 250,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (proportion of runs reaching the optimum)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "HIFF",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "hierarchical",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DbD-EDA"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 250,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (proportion of runs reaching the optimum)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Combinatorial optimization"
+      },
+      "the_database": {
+        "dataset_name": "SATLIB",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SAT (uf100)",
+        "dimensionality": "100D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "constrained",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Diff-EDA"
+      },
+      "parameters": {
+        "population_size": 10000,
+        "max_evaluations_or_generations": 250,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average best fitness (number of satisfied clauses)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Combinatorial optimization"
+      },
+      "the_database": {
+        "dataset_name": "SATLIB",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SAT (uf100)",
+        "dimensionality": "100D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "constrained",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DbD-EDA"
+      },
+      "parameters": {
+        "population_size": 10000,
+        "max_evaluations_or_generations": 250,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average best fitness (number of satisfied clauses)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Combinatorial optimization"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ising (SG_100)",
+        "dimensionality": "100D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "spin glass",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Diff-EDA"
+      },
+      "parameters": {
+        "population_size": 10000,
+        "max_evaluations_or_generations": 250,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average best fitness",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Combinatorial optimization"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ising (SG_100)",
+        "dimensionality": "100D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "spin glass",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DbD-EDA"
+      },
+      "parameters": {
+        "population_size": 10000,
+        "max_evaluations_or_generations": 250,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average best fitness",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Combinatorial optimization"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "UBQP (bqp100)",
+        "dimensionality": "100D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "quadratic",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Diff-EDA"
+      },
+      "parameters": {
+        "population_size": 10000,
+        "max_evaluations_or_generations": 250,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average best fitness",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Combinatorial optimization"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "UBQP (bqp100)",
+        "dimensionality": "100D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "quadratic",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DbD-EDA"
+      },
+      "parameters": {
+        "population_size": 10000,
+        "max_evaluations_or_generations": 250,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average best fitness",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

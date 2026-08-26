@@ -1,0 +1,1070 @@
+{
+  "metadata": {
+    "title": "Genetic programming approaches to learning fair classifiers",
+    "authors": [
+      "William La Cava",
+      "Jason H. Moore"
+    ],
+    "year": 2020,
+    "source_file": "La Cava and Moore - 2020 - Genetic programming approaches to learning fair classifiers.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Public Safety",
+        "problem_context": "Predicting rates of community crime"
+      },
+      "the_database": {
+        "dataset_name": "Communities",
+        "source_platform": "UCI"
+      },
+      "the_benchmark_problem": {
+        "name": "Communities",
+        "dimensionality": "122D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GerryFair"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Public Safety",
+        "problem_context": "Predicting rates of community crime"
+      },
+      "the_database": {
+        "dataset_name": "Communities",
+        "source_platform": "UCI"
+      },
+      "the_benchmark_problem": {
+        "name": "Communities",
+        "dimensionality": "122D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GerryFairGB"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Public Safety",
+        "problem_context": "Predicting rates of community crime"
+      },
+      "the_database": {
+        "dataset_name": "Communities",
+        "source_platform": "UCI"
+      },
+      "the_benchmark_problem": {
+        "name": "Communities",
+        "dimensionality": "122D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT (Tourn)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Public Safety",
+        "problem_context": "Predicting rates of community crime"
+      },
+      "the_database": {
+        "dataset_name": "Communities",
+        "source_platform": "UCI"
+      },
+      "the_benchmark_problem": {
+        "name": "Communities",
+        "dimensionality": "122D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT (LEX)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Public Safety",
+        "problem_context": "Predicting rates of community crime"
+      },
+      "the_database": {
+        "dataset_name": "Communities",
+        "source_platform": "UCI"
+      },
+      "the_benchmark_problem": {
+        "name": "Communities",
+        "dimensionality": "122D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT (FLEX)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Public Safety",
+        "problem_context": "Predicting rates of community crime"
+      },
+      "the_database": {
+        "dataset_name": "Communities",
+        "source_platform": "UCI"
+      },
+      "the_benchmark_problem": {
+        "name": "Communities",
+        "dimensionality": "122D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT (NSGA2)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Public Safety",
+        "problem_context": "Predicting rates of community crime"
+      },
+      "the_database": {
+        "dataset_name": "Communities",
+        "source_platform": "UCI"
+      },
+      "the_benchmark_problem": {
+        "name": "Communities",
+        "dimensionality": "122D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT (FLEX-NSGA2)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Public Safety",
+        "problem_context": "Predicting rates of community crime"
+      },
+      "the_database": {
+        "dataset_name": "Communities",
+        "source_platform": "UCI"
+      },
+      "the_benchmark_problem": {
+        "name": "Communities",
+        "dimensionality": "122D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT (Random)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Demographics",
+        "problem_context": "Predicting income level"
+      },
+      "the_database": {
+        "dataset_name": "Adult",
+        "source_platform": "Census"
+      },
+      "the_benchmark_problem": {
+        "name": "Adult",
+        "dimensionality": "98D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GerryFair"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Demographics",
+        "problem_context": "Predicting income level"
+      },
+      "the_database": {
+        "dataset_name": "Adult",
+        "source_platform": "Census"
+      },
+      "the_benchmark_problem": {
+        "name": "Adult",
+        "dimensionality": "98D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GerryFairGB"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Demographics",
+        "problem_context": "Predicting income level"
+      },
+      "the_database": {
+        "dataset_name": "Adult",
+        "source_platform": "Census"
+      },
+      "the_benchmark_problem": {
+        "name": "Adult",
+        "dimensionality": "98D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT (Tourn)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Demographics",
+        "problem_context": "Predicting income level"
+      },
+      "the_database": {
+        "dataset_name": "Adult",
+        "source_platform": "Census"
+      },
+      "the_benchmark_problem": {
+        "name": "Adult",
+        "dimensionality": "98D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT (LEX)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Demographics",
+        "problem_context": "Predicting income level"
+      },
+      "the_database": {
+        "dataset_name": "Adult",
+        "source_platform": "Census"
+      },
+      "the_benchmark_problem": {
+        "name": "Adult",
+        "dimensionality": "98D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT (FLEX)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Demographics",
+        "problem_context": "Predicting income level"
+      },
+      "the_database": {
+        "dataset_name": "Adult",
+        "source_platform": "Census"
+      },
+      "the_benchmark_problem": {
+        "name": "Adult",
+        "dimensionality": "98D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT (NSGA2)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Demographics",
+        "problem_context": "Predicting income level"
+      },
+      "the_database": {
+        "dataset_name": "Adult",
+        "source_platform": "Census"
+      },
+      "the_benchmark_problem": {
+        "name": "Adult",
+        "dimensionality": "98D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT (FLEX-NSGA2)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Demographics",
+        "problem_context": "Predicting income level"
+      },
+      "the_database": {
+        "dataset_name": "Adult",
+        "source_platform": "Census"
+      },
+      "the_benchmark_problem": {
+        "name": "Adult",
+        "dimensionality": "98D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT (Random)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Education",
+        "problem_context": "Predicting law school bar passage"
+      },
+      "the_database": {
+        "dataset_name": "Lawschool",
+        "source_platform": "ERIC"
+      },
+      "the_benchmark_problem": {
+        "name": "Lawschool",
+        "dimensionality": "17D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GerryFair"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Education",
+        "problem_context": "Predicting law school bar passage"
+      },
+      "the_database": {
+        "dataset_name": "Lawschool",
+        "source_platform": "ERIC"
+      },
+      "the_benchmark_problem": {
+        "name": "Lawschool",
+        "dimensionality": "17D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GerryFairGB"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Education",
+        "problem_context": "Predicting law school bar passage"
+      },
+      "the_database": {
+        "dataset_name": "Lawschool",
+        "source_platform": "ERIC"
+      },
+      "the_benchmark_problem": {
+        "name": "Lawschool",
+        "dimensionality": "17D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT (Tourn)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Education",
+        "problem_context": "Predicting law school bar passage"
+      },
+      "the_database": {
+        "dataset_name": "Lawschool",
+        "source_platform": "ERIC"
+      },
+      "the_benchmark_problem": {
+        "name": "Lawschool",
+        "dimensionality": "17D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT (LEX)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Education",
+        "problem_context": "Predicting law school bar passage"
+      },
+      "the_database": {
+        "dataset_name": "Lawschool",
+        "source_platform": "ERIC"
+      },
+      "the_benchmark_problem": {
+        "name": "Lawschool",
+        "dimensionality": "17D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT (FLEX)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Education",
+        "problem_context": "Predicting law school bar passage"
+      },
+      "the_database": {
+        "dataset_name": "Lawschool",
+        "source_platform": "ERIC"
+      },
+      "the_benchmark_problem": {
+        "name": "Lawschool",
+        "dimensionality": "17D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT (NSGA2)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Education",
+        "problem_context": "Predicting law school bar passage"
+      },
+      "the_database": {
+        "dataset_name": "Lawschool",
+        "source_platform": "ERIC"
+      },
+      "the_benchmark_problem": {
+        "name": "Lawschool",
+        "dimensionality": "17D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT (FLEX-NSGA2)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Education",
+        "problem_context": "Predicting law school bar passage"
+      },
+      "the_database": {
+        "dataset_name": "Lawschool",
+        "source_platform": "ERIC"
+      },
+      "the_benchmark_problem": {
+        "name": "Lawschool",
+        "dimensionality": "17D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT (Random)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Education",
+        "problem_context": "Predicting student achievement"
+      },
+      "the_database": {
+        "dataset_name": "Student",
+        "source_platform": "Secondary Schools"
+      },
+      "the_benchmark_problem": {
+        "name": "Student",
+        "dimensionality": "43D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GerryFair"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Education",
+        "problem_context": "Predicting student achievement"
+      },
+      "the_database": {
+        "dataset_name": "Student",
+        "source_platform": "Secondary Schools"
+      },
+      "the_benchmark_problem": {
+        "name": "Student",
+        "dimensionality": "43D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GerryFairGB"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Education",
+        "problem_context": "Predicting student achievement"
+      },
+      "the_database": {
+        "dataset_name": "Student",
+        "source_platform": "Secondary Schools"
+      },
+      "the_benchmark_problem": {
+        "name": "Student",
+        "dimensionality": "43D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT (Tourn)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Education",
+        "problem_context": "Predicting student achievement"
+      },
+      "the_database": {
+        "dataset_name": "Student",
+        "source_platform": "Secondary Schools"
+      },
+      "the_benchmark_problem": {
+        "name": "Student",
+        "dimensionality": "43D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT (LEX)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Education",
+        "problem_context": "Predicting student achievement"
+      },
+      "the_database": {
+        "dataset_name": "Student",
+        "source_platform": "Secondary Schools"
+      },
+      "the_benchmark_problem": {
+        "name": "Student",
+        "dimensionality": "43D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT (FLEX)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Education",
+        "problem_context": "Predicting student achievement"
+      },
+      "the_database": {
+        "dataset_name": "Student",
+        "source_platform": "Secondary Schools"
+      },
+      "the_benchmark_problem": {
+        "name": "Student",
+        "dimensionality": "43D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT (NSGA2)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Education",
+        "problem_context": "Predicting student achievement"
+      },
+      "the_database": {
+        "dataset_name": "Student",
+        "source_platform": "Secondary Schools"
+      },
+      "the_benchmark_problem": {
+        "name": "Student",
+        "dimensionality": "43D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT (FLEX-NSGA2)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Education",
+        "problem_context": "Predicting student achievement"
+      },
+      "the_database": {
+        "dataset_name": "Student",
+        "source_platform": "Secondary Schools"
+      },
+      "the_benchmark_problem": {
+        "name": "Student",
+        "dimensionality": "43D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT (Random)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

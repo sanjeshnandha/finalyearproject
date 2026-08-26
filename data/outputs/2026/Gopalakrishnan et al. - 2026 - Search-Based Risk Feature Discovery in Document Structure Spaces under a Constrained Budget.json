@@ -1,0 +1,319 @@
+{
+  "metadata": {
+    "title": "Search-Based Risk Feature Discovery in Document Structure Spaces under a Constrained Budget",
+    "authors": [
+      "Saisubramaniam Gopalakrishnan",
+      "Harikrishnan P M",
+      "Dagnachew Birru"
+    ],
+    "year": 2026,
+    "source_file": "Gopalakrishnan et al. - 2026 - Search-Based Risk Feature Discovery in Document Structure Spaces under a Constrained Budget.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance, Insurance, and Healthcare",
+        "problem_context": "Search-Based Software Testing (SBST) for Intelligent Document Processing (IDP) systems"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Single-Page (24D) Configuration",
+        "dimensionality": "24D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "interaction-heavy",
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GA-Explore"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Max Risk: 4.095, Mean Risk: 3.255, Unique Layouts: 378, AUC: 0.980",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance, Insurance, and Healthcare",
+        "problem_context": "Search-Based Software Testing (SBST) for Intelligent Document Processing (IDP) systems"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Page (27D) Configuration",
+        "dimensionality": "27D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "interaction-heavy",
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GA-Explore"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Max Risk: 5.064, Mean Risk: 3.810, Unique Layouts: 325, AUC: 0.914",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance, Insurance, and Healthcare",
+        "problem_context": "Search-Based Software Testing (SBST) for Intelligent Document Processing (IDP) systems"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Single-Page (24D) Configuration",
+        "dimensionality": "24D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "interaction-heavy",
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GA-Exploit"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.6
+      },
+      "performance_outcome": {
+        "metric": "Max Risk: 4.125, Mean Risk: 3.734, Unique Layouts: 109, AUC: 0.950",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance, Insurance, and Healthcare",
+        "problem_context": "Search-Based Software Testing (SBST) for Intelligent Document Processing (IDP) systems"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Page (27D) Configuration",
+        "dimensionality": "27D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "interaction-heavy",
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GA-Exploit"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.6
+      },
+      "performance_outcome": {
+        "metric": "Max Risk: 4.497, Mean Risk: 4.252, Unique Layouts: 102, AUC: 0.989",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance, Insurance, and Healthcare",
+        "problem_context": "Search-Based Software Testing (SBST) for Intelligent Document Processing (IDP) systems"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Single-Page (24D) Configuration",
+        "dimensionality": "24D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "interaction-heavy",
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Particle Swarm Optimization (PSO)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Max Risk: 3.920, Mean Risk: 2.319, Unique Layouts: 341, AUC: 0.965",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance, Insurance, and Healthcare",
+        "problem_context": "Search-Based Software Testing (SBST) for Intelligent Document Processing (IDP) systems"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Page (27D) Configuration",
+        "dimensionality": "27D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "interaction-heavy",
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Particle Swarm Optimization (PSO)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Max Risk: 5.751, Mean Risk: 2.546, Unique Layouts: 614, AUC: 0.827",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance, Insurance, and Healthcare",
+        "problem_context": "Search-Based Software Testing (SBST) for Intelligent Document Processing (IDP) systems"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Single-Page (24D) Configuration",
+        "dimensionality": "24D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "interaction-heavy",
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAP-Elites"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Max Risk: 4.143, Mean Risk: 2.459, Unique Layouts: 466, AUC: 0.973",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance, Insurance, and Healthcare",
+        "problem_context": "Search-Based Software Testing (SBST) for Intelligent Document Processing (IDP) systems"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Page (27D) Configuration",
+        "dimensionality": "27D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "interaction-heavy",
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAP-Elites"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Max Risk: 4.706, Mean Risk: 2.688, Unique Layouts: 671, AUC: 0.961",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

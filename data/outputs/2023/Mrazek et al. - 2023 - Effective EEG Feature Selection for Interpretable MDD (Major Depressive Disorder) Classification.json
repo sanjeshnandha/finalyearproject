@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "title": "Effective EEG Feature Selection for Interpretable MDD (Major Depressive Disorder) Classification",
+    "authors": [
+      "Vojtech Mrazek",
+      "Soyiba Jawed",
+      "Muhammad Arif",
+      "Aamir Saeed Malik"
+    ],
+    "year": 2023,
+    "source_file": "Mrazek et al. - 2023 - Effective EEG Feature Selection for Interpretable MDD (Major Depressive Disorder) Classification.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "EEG Feature Selection for Major Depressive Disorder Classification"
+      },
+      "the_database": {
+        "dataset_name": "PLOS One MDD Dataset",
+        "source_platform": "PLOS One"
+      },
+      "the_benchmark_problem": {
+        "name": "EEG Feature Selection (SVM Classifier)",
+        "dimensionality": "19 channels"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "multiobjective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 15,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average accuracy of 93.46%, sensitivity of 92.0%, specificity of 92.6%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "EEG Feature Selection for Major Depressive Disorder Classification"
+      },
+      "the_database": {
+        "dataset_name": "PLOS One MDD Dataset",
+        "source_platform": "PLOS One"
+      },
+      "the_benchmark_problem": {
+        "name": "EEG Feature Selection (k-NN Classifier)",
+        "dimensionality": "19 channels"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "multiobjective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 15,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average accuracy of 91.66%, sensitivity of 89.4%, specificity of 93.5%",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

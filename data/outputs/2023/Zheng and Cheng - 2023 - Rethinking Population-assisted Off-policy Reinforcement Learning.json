@@ -1,0 +1,236 @@
+{
+  "metadata": {
+    "title": "Rethinking Population-assisted Off-policy Reinforcement Learning",
+    "authors": [
+      "Bowen Zheng",
+      "Ran Cheng"
+    ],
+    "year": 2023,
+    "source_file": "Zheng and Cheng - 2023 - Rethinking Population-assisted Off-policy Reinforcement Learning.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating robotic locomotion benchmarks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "HalfCheetah-v3",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "continuous control",
+          "high-dimensional",
+          "noisy"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Tailored ERL"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 3000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Max average return of the last 100 evaluations",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating robotic locomotion benchmarks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hopper-v3",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "continuous control",
+          "high-dimensional",
+          "noisy"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Tailored ERL"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 3000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Max average return of the last 100 evaluations",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating robotic locomotion benchmarks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ant-v3",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "continuous control",
+          "high-dimensional",
+          "noisy"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Tailored ERL"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 3000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Max average return of the last 100 evaluations",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating robotic locomotion benchmarks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Walker2d-v3",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "continuous control",
+          "high-dimensional",
+          "noisy"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Tailored ERL"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 3000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Max average return of the last 100 evaluations",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating robotic locomotion benchmarks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "HalfCheetah-v3",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "continuous control",
+          "high-dimensional",
+          "noisy"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ERL-GA"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 3000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Max average return of the last 100 evaluations",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating robotic locomotion benchmarks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ant-v3",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "continuous control",
+          "high-dimensional",
+          "noisy"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ERL-GA"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 3000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Max average return of the last 100 evaluations",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

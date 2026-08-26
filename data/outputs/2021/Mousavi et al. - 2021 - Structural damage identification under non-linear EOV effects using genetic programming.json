@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "title": "Structural Damage Identification under Non-linear EOV Effects Using Genetic Programming",
+    "authors": [
+      "Mohsen Mousavi",
+      "Amir H. Gandomi",
+      "Magd Abdel Wahab"
+    ],
+    "year": 2021,
+    "source_file": "Mousavi et al. - 2021 - Structural damage identification under non-linear EOV effects using genetic programming.pdf",
+    "gecco_track": "Applied computing -> Engineering"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Long-term condition monitoring and structural damage identification of civil infrastructures"
+      },
+      "the_database": {
+        "dataset_name": "Z24 bridge vibration data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Z24 bridge",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-linear",
+          "environmental and operational variations"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming (GP)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Absolute prediction error of temperature and damage detection accuracy",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "title": "Accelerating LLM-Based Algorithm Evolution for the 3D Container Loading Problem",
+    "authors": [
+      "Guorui Quan",
+      "Mingfei Sun",
+      "Manuel López-Ibáñez",
+      "Nicolás Álvarez-Gil",
+      "Silvino Fernández Alzueta"
+    ],
+    "year": 2026,
+    "source_file": "Quan et al. - 2026 - Accelerating LLM-Based Algorithm Evolution for the 3D Container Loading Problem.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "3D Single Container Loading Problem (SCLP)"
+      },
+      "the_database": {
+        "dataset_name": "BR0-BR7",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "3D Single Container Loading Problem (SCLP)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "NP-hard",
+          "high-dimensional geometry",
+          "rigid physical constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LLM-Based Algorithm Evolution with AAC-tuning"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 4000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage volume utilization",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "3D Single Container Loading Problem (SCLP)"
+      },
+      "the_database": {
+        "dataset_name": "BR0-BR7",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "3D Single Container Loading Problem (SCLP)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "NP-hard",
+          "high-dimensional geometry",
+          "rigid physical constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Vanilla EoH"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 4000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage volume utilization",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

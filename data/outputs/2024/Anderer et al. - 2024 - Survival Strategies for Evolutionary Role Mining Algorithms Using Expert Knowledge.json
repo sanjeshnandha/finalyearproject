@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "title": "Survival Strategies for Evolutionary Role Mining Algorithms Using Expert Knowledge",
+    "authors": [
+      "Simon Anderer",
+      "Nicolas Justen",
+      "Bernd Scheuermann",
+      "Sanaz Mostaghim"
+    ],
+    "year": 2024,
+    "source_file": "Anderer et al. - 2024 - Survival Strategies for Evolutionary Role Mining Algorithms Using Expert Knowledge.pdf",
+    "gecco_track": "GECCO '24 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "IT Security",
+        "problem_context": "Role Mining Problem"
+      },
+      "the_database": {
+        "dataset_name": "RMPlib",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "PLAIN_small_02",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "addRole-EA with Fitness Protection"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of roles of the best individual",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "IT Security",
+        "problem_context": "Role Mining Problem"
+      },
+      "the_database": {
+        "dataset_name": "RMPlib",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "PLAIN_small_02",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "addRole-EA with Incubator Protection"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of roles of the best individual",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "IT Security",
+        "problem_context": "Role Mining Problem"
+      },
+      "the_database": {
+        "dataset_name": "RMPlib",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "PLAIN_small_02",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "addRole-EA with Population Split Protection"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of roles of the best individual",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

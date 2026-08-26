@@ -1,0 +1,236 @@
+{
+  "metadata": {
+    "title": "Constraint Handling within MOEA/D Through an Additional Scalarizing Function",
+    "authors": [
+      "Saúl Zapotecas-Martínez",
+      "Antonin Ponsich"
+    ],
+    "year": 2020,
+    "source_file": "Zapotecas-Martínez and Ponsich - 2020 - Constraint handling within MOEAD through an additional scalarizing function.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CEC 2009 CF Test Suite",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "linear, convex, concave, or disconnected Pareto fronts",
+          "regions prohibited by constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "epsilon-MOEA/D-sigma"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CEC 2009 CF Test Suite",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "linear, convex, concave, or disconnected Pareto fronts",
+          "regions prohibited by constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "cMOEA/D"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CEC 2009 CF Test Suite",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "linear, convex, concave, or disconnected Pareto fronts",
+          "regions prohibited by constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D-CDP"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CEC 2009 CF Test Suite",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "linear, convex, concave, or disconnected Pareto fronts",
+          "regions prohibited by constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D-SR"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CEC 2009 CF Test Suite",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "linear, convex, concave, or disconnected Pareto fronts",
+          "regions prohibited by constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "eMOEA/D"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CEC 2009 CF Test Suite",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "linear, convex, concave, or disconnected Pareto fronts",
+          "regions prohibited by constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DG-MOEA/D"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

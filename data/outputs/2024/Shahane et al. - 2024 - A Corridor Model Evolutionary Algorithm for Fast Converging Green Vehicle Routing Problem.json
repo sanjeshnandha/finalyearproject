@@ -1,0 +1,129 @@
+{
+  "metadata": {
+    "title": "A Corridor Model Evolutionary Algorithm for Fast Converging Green Vehicle Routing Problem",
+    "authors": [
+      "Ananta Anil Shahane",
+      "Niki van Stein",
+      "Yingjie Fan"
+    ],
+    "year": 2024,
+    "source_file": "Shahane et al. - 2024 - A Corridor Model Evolutionary Algorithm for Fast Converging Green Vehicle Routing Problem.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Green Vehicle Routing Problem (G-VRP)"
+      },
+      "the_database": {
+        "dataset_name": "92 standard GVRP benchmarks",
+        "source_platform": "http://vrp.atd-lab.inf.puc-rio.br"
+      },
+      "the_benchmark_problem": {
+        "name": "Green Vehicle Routing Problem (GVRP)",
+        "dimensionality": "Variable (up to 200 customers)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "NP-hard",
+          "discrete",
+          "bi-objective",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Tumble Weed Model Evolutionary Algorithm"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hyper-volume and average minimum distance (beating No Corridor in 67/92 benchmarks)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Green Vehicle Routing Problem (G-VRP)"
+      },
+      "the_database": {
+        "dataset_name": "92 standard GVRP benchmarks",
+        "source_platform": "http://vrp.atd-lab.inf.puc-rio.br"
+      },
+      "the_benchmark_problem": {
+        "name": "Green Vehicle Routing Problem (GVRP)",
+        "dimensionality": "Variable (up to 200 customers)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "NP-hard",
+          "discrete",
+          "bi-objective",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Self Adaptation Model Evolutionary Algorithm"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hyper-volume and average minimum distance (beating No Corridor in 14/92 benchmarks for distance, 53/92 for fuel)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Green Vehicle Routing Problem (G-VRP)"
+      },
+      "the_database": {
+        "dataset_name": "92 standard GVRP benchmarks",
+        "source_platform": "http://vrp.atd-lab.inf.puc-rio.br"
+      },
+      "the_benchmark_problem": {
+        "name": "Green Vehicle Routing Problem (GVRP)",
+        "dimensionality": "Variable (up to 200 customers)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "NP-hard",
+          "discrete",
+          "bi-objective",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "No Corridor Model Evolutionary Algorithm"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hyper-volume and average minimum distance (baseline comparison)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "metadata": {
+    "title": "Computation of the improvement directions of the Pareto front and its application to MOEAs",
+    "authors": [
+      "Salvador Botello-Aceves",
+      "Arturo Hernandez-Aguirre",
+      "S. Ivvan Valdez"
+    ],
+    "year": 2020,
+    "source_file": "Botello-Aceves et al. - 2020 - Computation of the improvement directions of the Pareto front and its application to MOEAs.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ZDT Suite",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "discontinuous",
+          "convex",
+          "concave"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II + IDM"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 6500,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ZDT Suite",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "discontinuous",
+          "convex",
+          "concave"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ Suite",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "scalable",
+          "multimodal"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II + IDM"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 6500,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ Suite",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "scalable",
+          "multimodal"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CEC 2009 UF Suite",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex Pareto sets",
+          "unconstrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D + IDM"
+      },
+      "parameters": {
+        "population_size": 120,
+        "max_evaluations_or_generations": 51500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CEC 2009 UF Suite",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex Pareto sets",
+          "unconstrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D"
+      },
+      "parameters": {
+        "population_size": 120,
+        "max_evaluations_or_generations": 50000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CEC 2009 UF Suite",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex Pareto sets",
+          "unconstrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/DDS"
+      },
+      "parameters": {
+        "population_size": 120,
+        "max_evaluations_or_generations": 51500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

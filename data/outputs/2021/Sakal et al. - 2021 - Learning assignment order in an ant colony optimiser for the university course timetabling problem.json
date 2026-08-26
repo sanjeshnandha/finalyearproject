@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "title": "Learning Assignment Order in an Ant Colony Optimiser for the University Course Timetabling Problem",
+    "authors": [
+      "James Sakal",
+      "Jonathan E. Fieldsend",
+      "Edward Keedwell"
+    ],
+    "year": 2021,
+    "source_file": "Sakal et al. - 2021 - Learning assignment order in an ant colony optimiser for the university course timetabling problem.pdf",
+    "gecco_track": "GECCO '21 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "University Course Timetabling"
+      },
+      "the_database": {
+        "dataset_name": "ITC 2007 Track 3",
+        "source_platform": "International Timetabling Competition"
+      },
+      "the_benchmark_problem": {
+        "name": "Curriculum-based Course Timetabling (ITC 2007 Track 3)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAX-MIN Ant System (MMAS) with Predictor"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean best solution score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "University Course Timetabling"
+      },
+      "the_database": {
+        "dataset_name": "ITC 2007 Track 3",
+        "source_platform": "International Timetabling Competition"
+      },
+      "the_benchmark_problem": {
+        "name": "Curriculum-based Course Timetabling (ITC 2007 Track 3)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAX-MIN Ant System (MMAS) with Random Permutation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean best solution score",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

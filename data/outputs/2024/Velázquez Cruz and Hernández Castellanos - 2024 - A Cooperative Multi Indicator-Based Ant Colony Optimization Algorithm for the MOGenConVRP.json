@@ -1,0 +1,194 @@
+{
+  "metadata": {
+    "title": "A Cooperative Multi Indicator-Based Ant Colony Optimization Algorithm for the MOGenConVRP",
+    "authors": [
+      "Rodrigo Fernando Velázquez Cruz",
+      "Carlos Ignacio Hernández Castellanos"
+    ],
+    "year": 2024,
+    "source_file": "Velázquez Cruz and Hernández Castellanos - 2024 - A Cooperative Multi Indicator-Based Ant Colony Optimization Algorithm for the MOGenConVRP.pdf",
+    "gecco_track": "GECCO '24 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Generalized Consistent Vehicle Routing Problem (MOGenConVRP)"
+      },
+      "the_database": {
+        "dataset_name": "Christofides instances",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MOGenConVRP",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "cMIBACO"
+      },
+      "parameters": {
+        "population_size": 90,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume, R2, Riesz s-energy, and execution time",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Generalized Consistent Vehicle Routing Problem (MOGenConVRP)"
+      },
+      "the_database": {
+        "dataset_name": "Christofides instances",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MOGenConVRP",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "IBACO_HV"
+      },
+      "parameters": {
+        "population_size": 90,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume, R2, Riesz s-energy, and execution time",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Generalized Consistent Vehicle Routing Problem (MOGenConVRP)"
+      },
+      "the_database": {
+        "dataset_name": "Christofides instances",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MOGenConVRP",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "IBACO_R2"
+      },
+      "parameters": {
+        "population_size": 90,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume, R2, Riesz s-energy, and execution time",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Generalized Consistent Vehicle Routing Problem (MOGenConVRP)"
+      },
+      "the_database": {
+        "dataset_name": "Christofides instances",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MOGenConVRP",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "IBACO_eps+"
+      },
+      "parameters": {
+        "population_size": 90,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume, R2, Riesz s-energy, and execution time",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Generalized Consistent Vehicle Routing Problem (MOGenConVRP)"
+      },
+      "the_database": {
+        "dataset_name": "Christofides instances",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MOGenConVRP",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "IBACO_ws"
+      },
+      "parameters": {
+        "population_size": 90,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume, R2, Riesz s-energy, and execution time",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

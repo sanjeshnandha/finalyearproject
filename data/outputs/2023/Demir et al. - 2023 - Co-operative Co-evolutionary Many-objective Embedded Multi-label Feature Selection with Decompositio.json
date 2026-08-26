@@ -1,0 +1,904 @@
+{
+  "metadata": {
+    "title": "Co-operative Co-evolutionary Many-objective Embedded Multi-label Feature Selection with Decomposition-based PSO",
+    "authors": [
+      "Kaan Demir",
+      "Bach Hoai Nguyen",
+      "Bing Xue",
+      "Mengjie Zhang"
+    ],
+    "year": 2023,
+    "source_file": "Demir et al. - 2023 - Co-operative Co-evolutionary Many-objective Embedded Multi-label Feature Selection with Decompositio.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computing/Technology",
+        "problem_context": "Multi-label Feature Selection for Image Classification"
+      },
+      "the_database": {
+        "dataset_name": "Flags",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Flags",
+        "dimensionality": "19D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "large search space",
+          "complex interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MMFS/D"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Micro-F1 HV: 0.590, Hamming-Loss HV: 0.574, Average-Precision HV: 0.669, Computation Time: 0.686 hours",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computing/Technology",
+        "problem_context": "Multi-label Feature Selection for Image Classification"
+      },
+      "the_database": {
+        "dataset_name": "Flags",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Flags",
+        "dimensionality": "19D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "large search space",
+          "complex interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Micro-F1 HV: 0.658, Hamming-Loss HV: 0.642, Average-Precision HV: 0.745, Computation Time: 1.294 hours",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computing/Technology",
+        "problem_context": "Multi-label Feature Selection for Image Classification"
+      },
+      "the_database": {
+        "dataset_name": "Flags",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Flags",
+        "dimensionality": "19D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "large search space",
+          "complex interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-III"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Micro-F1 HV: 0.504, Hamming-Loss HV: 0.497, Average-Precision HV: 0.569, Computation Time: 1.093 hours",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Music",
+        "problem_context": "Multi-label Feature Selection for Music Classification"
+      },
+      "the_database": {
+        "dataset_name": "CAL500",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CAL500",
+        "dimensionality": "68D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "large search space",
+          "complex interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MMFS/D"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Micro-F1 HV: 0.810, Hamming-Loss HV: 0.342, Average-Precision HV: 0.428, Computation Time: 6.064 hours",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Music",
+        "problem_context": "Multi-label Feature Selection for Music Classification"
+      },
+      "the_database": {
+        "dataset_name": "CAL500",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CAL500",
+        "dimensionality": "68D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "large search space",
+          "complex interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Micro-F1 HV: 0.804, Hamming-Loss HV: 0.327, Average-Precision HV: 0.417, Computation Time: 45.251 hours",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Music",
+        "problem_context": "Multi-label Feature Selection for Music Classification"
+      },
+      "the_database": {
+        "dataset_name": "CAL500",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CAL500",
+        "dimensionality": "68D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "large search space",
+          "complex interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-III"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Micro-F1 HV: 0.813, Hamming-Loss HV: 0.346, Average-Precision HV: 0.426, Computation Time: 44.811 hours",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Music",
+        "problem_context": "Multi-label Feature Selection for Music Emotion Classification"
+      },
+      "the_database": {
+        "dataset_name": "Emotions",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Emotions",
+        "dimensionality": "72D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "large search space",
+          "complex interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MMFS/D"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Micro-F1 HV: 0.710, Hamming-Loss HV: 0.527, Average-Precision HV: 0.646, Computation Time: 1.632 hours",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Music",
+        "problem_context": "Multi-label Feature Selection for Music Emotion Classification"
+      },
+      "the_database": {
+        "dataset_name": "Emotions",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Emotions",
+        "dimensionality": "72D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "large search space",
+          "complex interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Micro-F1 HV: 0.662, Hamming-Loss HV: 0.495, Average-Precision HV: 0.603, Computation Time: 3.538 hours",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Music",
+        "problem_context": "Multi-label Feature Selection for Music Emotion Classification"
+      },
+      "the_database": {
+        "dataset_name": "Emotions",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Emotions",
+        "dimensionality": "72D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "large search space",
+          "complex interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-III"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Micro-F1 HV: 0.717, Hamming-Loss HV: 0.556, Average-Precision HV: 0.658, Computation Time: 3.667 hours",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Biology",
+        "problem_context": "Multi-label Feature Selection for Yeast Gene Classification"
+      },
+      "the_database": {
+        "dataset_name": "Yeast",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Yeast",
+        "dimensionality": "103D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "large search space",
+          "complex interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MMFS/D"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Micro-F1 HV: 0.726, Hamming-Loss HV: 0.560, Average-Precision HV: 0.650, Computation Time: 6.448 hours",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Biology",
+        "problem_context": "Multi-label Feature Selection for Yeast Gene Classification"
+      },
+      "the_database": {
+        "dataset_name": "Yeast",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Yeast",
+        "dimensionality": "103D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "large search space",
+          "complex interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Micro-F1 HV: 0.693, Hamming-Loss HV: 0.537, Average-Precision HV: 0.622, Computation Time: 27.139 hours",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Biology",
+        "problem_context": "Multi-label Feature Selection for Yeast Gene Classification"
+      },
+      "the_database": {
+        "dataset_name": "Yeast",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Yeast",
+        "dimensionality": "103D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "large search space",
+          "complex interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-III"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Micro-F1 HV: 0.718, Hamming-Loss HV: 0.566, Average-Precision HV: 0.645, Computation Time: 25.729 hours",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computing/Technology",
+        "problem_context": "Multi-label Feature Selection for Image Scene Classification"
+      },
+      "the_database": {
+        "dataset_name": "Scene",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Scene",
+        "dimensionality": "294D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "large search space",
+          "complex interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MMFS/D"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Micro-F1 HV: 0.812, Hamming-Loss HV: 0.627, Average-Precision HV: 0.712, Computation Time: 7.136 hours",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computing/Technology",
+        "problem_context": "Multi-label Feature Selection for Image Scene Classification"
+      },
+      "the_database": {
+        "dataset_name": "Scene",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Scene",
+        "dimensionality": "294D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "large search space",
+          "complex interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Micro-F1 HV: 0.675, Hamming-Loss HV: 0.530, Average-Precision HV: 0.600, Computation Time: 16.294 hours",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computing/Technology",
+        "problem_context": "Multi-label Feature Selection for Image Scene Classification"
+      },
+      "the_database": {
+        "dataset_name": "Scene",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Scene",
+        "dimensionality": "294D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "large search space",
+          "complex interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-III"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Micro-F1 HV: 0.772, Hamming-Loss HV: 0.613, Average-Precision HV: 0.696, Computation Time: 16.707 hours",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Legal/Business",
+        "problem_context": "Multi-label Feature Selection for Email Text Classification"
+      },
+      "the_database": {
+        "dataset_name": "Enron",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Enron",
+        "dimensionality": "1001D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "large search space",
+          "complex interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MMFS/D"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Micro-F1 HV: 0.839, Hamming-Loss HV: 0.438, Average-Precision HV: 0.512, Computation Time: 22.066 hours",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Legal/Business",
+        "problem_context": "Multi-label Feature Selection for Email Text Classification"
+      },
+      "the_database": {
+        "dataset_name": "Enron",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Enron",
+        "dimensionality": "1001D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "large search space",
+          "complex interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Micro-F1 HV: 0.654, Hamming-Loss HV: 0.342, Average-Precision HV: 0.402, Computation Time: 53.132 hours",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Legal/Business",
+        "problem_context": "Multi-label Feature Selection for Email Text Classification"
+      },
+      "the_database": {
+        "dataset_name": "Enron",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Enron",
+        "dimensionality": "1001D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "large search space",
+          "complex interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-III"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Micro-F1 HV: 0.779, Hamming-Loss HV: 0.433, Average-Precision HV: 0.496, Computation Time: 51.438 hours",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Biology",
+        "problem_context": "Multi-label Feature Selection for Protein Classification"
+      },
+      "the_database": {
+        "dataset_name": "Genbase",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Genbase",
+        "dimensionality": "1186D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "large search space",
+          "complex interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MMFS/D"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Micro-F1 HV: 0.856, Hamming-Loss HV: 0.510, Average-Precision HV: 0.528, Computation Time: 12.899 hours",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Biology",
+        "problem_context": "Multi-label Feature Selection for Protein Classification"
+      },
+      "the_database": {
+        "dataset_name": "Genbase",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Genbase",
+        "dimensionality": "1186D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "large search space",
+          "complex interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Micro-F1 HV: 0.648, Hamming-Loss HV: 0.391, Average-Precision HV: 0.417, Computation Time: 10.529 hours",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Biology",
+        "problem_context": "Multi-label Feature Selection for Protein Classification"
+      },
+      "the_database": {
+        "dataset_name": "Genbase",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Genbase",
+        "dimensionality": "1186D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "large search space",
+          "complex interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-III"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Micro-F1 HV: 0.806, Hamming-Loss HV: 0.570, Average-Precision HV: 0.619, Computation Time: 10.751 hours",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Multi-label Feature Selection for Medical Text Classification"
+      },
+      "the_database": {
+        "dataset_name": "Medical",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Medical",
+        "dimensionality": "1449D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "large search space",
+          "complex interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MMFS/D"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Micro-F1 HV: 0.865, Hamming-Loss HV: 0.462, Average-Precision HV: 0.490, Computation Time: 23.033 hours",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Multi-label Feature Selection for Medical Text Classification"
+      },
+      "the_database": {
+        "dataset_name": "Medical",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Medical",
+        "dimensionality": "1449D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "large search space",
+          "complex interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Micro-F1 HV: 0.659, Hamming-Loss HV: 0.474, Average-Precision HV: 0.505, Computation Time: 26.094 hours",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Multi-label Feature Selection for Medical Text Classification"
+      },
+      "the_database": {
+        "dataset_name": "Medical",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Medical",
+        "dimensionality": "1449D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "large search space",
+          "complex interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-III"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Micro-F1 HV: 0.798, Hamming-Loss HV: 0.633, Average-Precision HV: 0.666, Computation Time: 26.182 hours",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

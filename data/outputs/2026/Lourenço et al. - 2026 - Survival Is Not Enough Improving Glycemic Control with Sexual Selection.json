@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "title": "Survival Is Not Enough: Improving Glycemic Control with Sexual Selection",
+    "authors": [
+      "Nuno Lourenço",
+      "Óscar Garnica",
+      "J. Ignacio Hidalgo"
+    ],
+    "year": 2026,
+    "source_file": "Lourenço et al. - 2026 - Survival Is Not Enough Improving Glycemic Control with Sexual Selection.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Blood glucose prediction for Type 1 Diabetes patients"
+      },
+      "the_database": {
+        "dataset_name": "Clinical dataset of 10 patients with Type 1 Diabetes",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Blood Glucose Prediction (120-minute prediction horizon)",
+        "dimensionality": "39D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "non-linear",
+          "rugged",
+          "time-series"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Structured Grammatical Evolution with Desire Driven Selection (SGE+DDS)"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Root Mean Square Error (RMSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Blood glucose prediction for Type 1 Diabetes patients"
+      },
+      "the_database": {
+        "dataset_name": "Clinical dataset of 10 patients with Type 1 Diabetes",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Blood Glucose Prediction (120-minute prediction horizon)",
+        "dimensionality": "39D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "non-linear",
+          "rugged",
+          "time-series"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Structured Grammatical Evolution with Tournament Selection (SGE+Tournament)"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Root Mean Square Error (RMSE)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

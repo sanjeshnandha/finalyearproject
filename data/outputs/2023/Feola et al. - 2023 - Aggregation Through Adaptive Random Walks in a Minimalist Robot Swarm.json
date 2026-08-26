@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "title": "Aggregation through adaptive random walks in a minimalist robot swarm",
+    "authors": [
+      "Luigi Feola",
+      "Antoine Sion",
+      "Andreagiovanni Reina",
+      "Vito Trianni",
+      "Elio Tuci"
+    ],
+    "year": 2023,
+    "source_file": "Feola et al. - 2023 - Aggregation Through Adaptive Random Walks in a Minimalist Robot Swarm.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Cue-based aggregation in a minimalist robot swarm"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Cue-based aggregation",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "iRace"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Cue-based metric G",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Neighbour-based aggregation in a minimalist robot swarm"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Neighbour-based aggregation",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "iRace"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Cluster metric C",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

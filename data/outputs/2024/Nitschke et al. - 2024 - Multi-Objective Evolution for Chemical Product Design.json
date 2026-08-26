@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "title": "Multi-Objective Evolution for Chemical Product Design",
+    "authors": [
+      "Bilal Aslan",
+      "Flavio Correa da Silva",
+      "Geoff Nitschke"
+    ],
+    "year": 2024,
+    "source_file": "Nitschke et al. - 2024 - Multi-Objective Evolution for Chemical Product Design.pdf",
+    "gecco_track": "Evolutionary Multi-objective Optimization"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Automated domestic detergent synthesis"
+      },
+      "the_database": {
+        "dataset_name": "PubChem",
+        "source_platform": "PubChem"
+      },
+      "the_benchmark_problem": {
+        "name": "Automated domestic detergent synthesis",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "unevenly distributed",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MO-CMA-ES with Direct Correlation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Solution set diversity (cardinality of unique molecules discovered) and quality (mean and variance of property values)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Automated domestic detergent synthesis"
+      },
+      "the_database": {
+        "dataset_name": "PubChem",
+        "source_platform": "PubChem"
+      },
+      "the_benchmark_problem": {
+        "name": "Automated domestic detergent synthesis",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "unevenly distributed",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MO-CMA-ES with Extended Search"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Solution set diversity (cardinality of unique molecules discovered) and quality (mean and variance of property values)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

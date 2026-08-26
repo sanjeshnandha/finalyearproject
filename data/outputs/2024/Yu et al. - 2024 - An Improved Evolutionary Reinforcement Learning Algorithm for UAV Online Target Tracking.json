@@ -1,0 +1,168 @@
+{
+  "metadata": {
+    "title": "An Improved Evolutionary Reinforcement Learning Algorithm for UAV Online Target Tracking",
+    "authors": [
+      "Bai-Jiang Yu",
+      "Feng-Feng Wei",
+      "Tai-You Chen",
+      "Wei-Neng Chen"
+    ],
+    "year": 2024,
+    "source_file": "Yu et al. - 2024 - An Improved Evolutionary Reinforcement Learning Algorithm for UAV Online Target Tracking.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "UAV Online Target Tracking"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Sinusoidal Trajectory",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "sparse rewards",
+          "deceptive reward signals",
+          "time-varying",
+          "unpredictable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "IERL"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Reward",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "UAV Online Target Tracking"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Random Trajectory",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "sparse rewards",
+          "deceptive reward signals",
+          "time-varying",
+          "unpredictable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "IERL"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Reward",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "UAV Online Target Tracking"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Sinusoidal Trajectory",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "sparse rewards",
+          "deceptive reward signals",
+          "time-varying",
+          "unpredictable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (GA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Reward",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "UAV Online Target Tracking"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Random Trajectory",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "sparse rewards",
+          "deceptive reward signals",
+          "time-varying",
+          "unpredictable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (GA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Reward",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

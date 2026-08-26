@@ -1,0 +1,201 @@
+{
+  "metadata": {
+    "title": "Enhancing Electric Vehicle Charging Schedules: A Surrogate-Assisted Approach",
+    "authors": [
+      "Abdennour Azerine",
+      "Mahmoud Golabi",
+      "Ammar Oulamara",
+      "Lhassane Idoumghar"
+    ],
+    "year": 2024,
+    "source_file": "Azerine et al. - 2024 - Enhancing Electric Vehicle Charging Schedules A Surrogate-Assisted Approach.pdf",
+    "gecco_track": "Planning for deterministic actions"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Electric Vehicle Charging Scheduling Problem (EVCSP)"
+      },
+      "the_database": {
+        "dataset_name": "Dataset from Zaidi et al. [10]",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Electric Vehicle Charging Scheduling Problem (EVCSP)",
+        "dimensionality": "Variable (78 to 112 demands, 40 chargers)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "NP-hard",
+          "constrained",
+          "preemptive"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RF-based Surrogate-Assisted Genetic Algorithm"
+      },
+      "parameters": {
+        "population_size": 40,
+        "max_evaluations_or_generations": 400,
+        "mutation_rate": 0.1,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Objective value z (deviation between requested and final state-of-charge) and execution time",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Electric Vehicle Charging Scheduling Problem (EVCSP)"
+      },
+      "the_database": {
+        "dataset_name": "Dataset from Zaidi et al. [10]",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Electric Vehicle Charging Scheduling Problem (EVCSP)",
+        "dimensionality": "Variable (78 to 112 demands, 40 chargers)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "NP-hard",
+          "constrained",
+          "preemptive"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "XGB-based Surrogate-Assisted Genetic Algorithm"
+      },
+      "parameters": {
+        "population_size": 40,
+        "max_evaluations_or_generations": 400,
+        "mutation_rate": 0.1,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Objective value z (deviation between requested and final state-of-charge) and execution time",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Electric Vehicle Charging Scheduling Problem (EVCSP)"
+      },
+      "the_database": {
+        "dataset_name": "Dataset from Zaidi et al. [10]",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Electric Vehicle Charging Scheduling Problem (EVCSP)",
+        "dimensionality": "Variable (78 to 112 demands, 40 chargers)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "NP-hard",
+          "constrained",
+          "preemptive"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ELM-based Surrogate-Assisted Genetic Algorithm"
+      },
+      "parameters": {
+        "population_size": 40,
+        "max_evaluations_or_generations": 400,
+        "mutation_rate": 0.1,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Objective value z (deviation between requested and final state-of-charge) and execution time",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Electric Vehicle Charging Scheduling Problem (EVCSP)"
+      },
+      "the_database": {
+        "dataset_name": "Dataset from Zaidi et al. [10]",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Electric Vehicle Charging Scheduling Problem (EVCSP)",
+        "dimensionality": "Variable (78 to 112 demands, 40 chargers)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "NP-hard",
+          "constrained",
+          "preemptive"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm with MILP (MM)"
+      },
+      "parameters": {
+        "population_size": 40,
+        "max_evaluations_or_generations": 400,
+        "mutation_rate": 0.1,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Objective value z (deviation between requested and final state-of-charge) and execution time",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Electric Vehicle Charging Scheduling Problem (EVCSP)"
+      },
+      "the_database": {
+        "dataset_name": "Dataset from Zaidi et al. [10]",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Electric Vehicle Charging Scheduling Problem (EVCSP)",
+        "dimensionality": "Variable (78 to 112 demands, 40 chargers)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "NP-hard",
+          "constrained",
+          "preemptive"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Simulated Annealing"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Objective value z (deviation between requested and final state-of-charge) and execution time",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

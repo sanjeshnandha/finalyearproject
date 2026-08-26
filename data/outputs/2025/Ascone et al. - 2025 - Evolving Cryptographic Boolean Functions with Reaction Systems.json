@@ -1,0 +1,460 @@
+{
+  "metadata": {
+    "title": "Evolving Cryptographic Boolean Functions with Reaction Systems",
+    "authors": [
+      "Rocco Ascone",
+      "Luca Mariot",
+      "Luca Manzoni",
+      "Gloria Pietropolli"
+    ],
+    "year": 2025,
+    "source_file": "Ascone et al. - 2025 - Evolving Cryptographic Boolean Functions with Reaction Systems.pdf",
+    "gecco_track": "GECCO '25 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evolving cryptographic Boolean functions"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Bent Boolean Functions",
+        "dimensionality": "6D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "super-exponential search space",
+          "conflicting criteria"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Evolutionary Boolean Reaction Systems (EvoBRS)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200000,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Nonlinearity",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evolving cryptographic Boolean functions"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Bent Boolean Functions",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "super-exponential search space",
+          "conflicting criteria"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Evolutionary Boolean Reaction Systems (EvoBRS)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200000,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Nonlinearity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evolving cryptographic Boolean functions"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Bent Boolean Functions",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "super-exponential search space",
+          "conflicting criteria"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Evolutionary Boolean Reaction Systems (EvoBRS)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200000,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Nonlinearity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evolving cryptographic Boolean functions"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Bent Boolean Functions",
+        "dimensionality": "6D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "super-exponential search space",
+          "conflicting criteria"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (OP)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200000,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Nonlinearity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evolving cryptographic Boolean functions"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Bent Boolean Functions",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "super-exponential search space",
+          "conflicting criteria"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (OP)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200000,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Nonlinearity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evolving cryptographic Boolean functions"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Bent Boolean Functions",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "super-exponential search space",
+          "conflicting criteria"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (OP)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200000,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Nonlinearity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evolving cryptographic Boolean functions"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Bent Boolean Functions",
+        "dimensionality": "6D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "super-exponential search space",
+          "conflicting criteria"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (CP)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200000,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Nonlinearity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evolving cryptographic Boolean functions"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Bent Boolean Functions",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "super-exponential search space",
+          "conflicting criteria"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (CP)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200000,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Nonlinearity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evolving cryptographic Boolean functions"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Bent Boolean Functions",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "super-exponential search space",
+          "conflicting criteria"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (CP)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200000,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Nonlinearity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evolving cryptographic Boolean functions"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Bent Boolean Functions",
+        "dimensionality": "6D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "super-exponential search space",
+          "conflicting criteria"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (MoO)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200000,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Nonlinearity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evolving cryptographic Boolean functions"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Bent Boolean Functions",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "super-exponential search space",
+          "conflicting criteria"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (MoO)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200000,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Nonlinearity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evolving cryptographic Boolean functions"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Bent Boolean Functions",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "super-exponential search space",
+          "conflicting criteria"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (MoO)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200000,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Nonlinearity",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

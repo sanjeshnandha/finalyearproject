@@ -1,0 +1,128 @@
+{
+  "metadata": {
+    "title": "An Enhanced Surrogate-Assisted Multi-Objective Differential Evolution Algorithm with Self-Adaptive Strategies for Order Planning in Hot Rolling Process",
+    "authors": [
+      "Gelegen Che",
+      "Lixin Tang",
+      "Guodong Zhao",
+      "Qingxin Guo",
+      "Jianqiang Guo"
+    ],
+    "year": 2024,
+    "source_file": "Che et al. - 2024 - An Enhanced Surrogate-Assisted Multi-Objective Differential Evolution Algorithm with Self-Adaptive S.pdf",
+    "gecco_track": "Genetic and Evolutionary Computation Conference (GECCO '24 Companion)"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Order planning for hot rolling process (OPHR)"
+      },
+      "the_database": {
+        "dataset_name": "120 real-world instances",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Order Planning in Hot Rolling Process (OPHR)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "NP-hard",
+          "expensive"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RBFNN-SaMODE"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD, GD, and HV",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Order planning for hot rolling process (OPHR)"
+      },
+      "the_database": {
+        "dataset_name": "120 real-world instances",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Order Planning in Hot Rolling Process (OPHR)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "NP-hard",
+          "expensive"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SaMODE"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD, GD, and HV",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Order planning for hot rolling process (OPHR)"
+      },
+      "the_database": {
+        "dataset_name": "120 real-world instances",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Order Planning in Hot Rolling Process (OPHR)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "NP-hard",
+          "expensive"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MODE"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "IGD, GD, and HV",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

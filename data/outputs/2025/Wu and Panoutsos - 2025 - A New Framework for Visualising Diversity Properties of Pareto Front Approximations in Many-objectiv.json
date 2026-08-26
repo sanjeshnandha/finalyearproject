@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "title": "A New Framework for Visualising Diversity Properties of Pareto Front Approximations in Many-objective Optimisation",
+    "authors": [
+      "Kai Eivind Wu",
+      "George Panoutsos"
+    ],
+    "year": 2025,
+    "source_file": "Wu and Panoutsos - 2025 - A New Framework for Visualising Diversity Properties of Pareto Front Approximations in Many-objectiv.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MaF 5",
+        "dimensionality": "3D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "fully covered",
+          "spherical",
+          "hypersphere"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-III"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Regional diversity distribution",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MaF 6",
+        "dimensionality": "3D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "degenerate",
+          "circular arc"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-III"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Regional diversity distribution",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

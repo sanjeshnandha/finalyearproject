@@ -1,0 +1,273 @@
+{
+  "metadata": {
+    "title": "Expensive Constrained Multi-objective Evolutionary Algorithm with Pareto Set Learning",
+    "authors": [
+      "Ruitao Mai",
+      "Yifeng Qiu",
+      "Wenji Li",
+      "Zhaojun Wang",
+      "Biao Xu",
+      "Wei Chen",
+      "Jiafan Zhuang",
+      "Yun Li",
+      "Zhun Fan"
+    ],
+    "year": 2024,
+    "source_file": "Mai et al. - 2024 - Expensive Constrained Multi-objective Evolutionary Algorithm with Pareto Set Learning.pdf",
+    "gecco_track": "Genetic Algorithms"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MW Suite (MW1-MW14)",
+        "dimensionality": "6D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "expensive"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PPS-PSL"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted generational distance (IGD) and Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MW Suite (MW1-MW14)",
+        "dimensionality": "6D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "expensive"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CCMO"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted generational distance (IGD) and Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MW Suite (MW1-MW14)",
+        "dimensionality": "6D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "expensive"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PPS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted generational distance (IGD) and Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MW Suite (MW1-MW14)",
+        "dimensionality": "6D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "expensive"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "M1-2"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted generational distance (IGD) and Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MW Suite (MW1-MW14)",
+        "dimensionality": "6D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "expensive"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "M2-2"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted generational distance (IGD) and Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MW Suite (MW1-MW14)",
+        "dimensionality": "6D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "expensive"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-Objective EGO"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted generational distance (IGD) and Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MW Suite (MW1-MW14)",
+        "dimensionality": "6D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "expensive"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MGSAEA"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted generational distance (IGD) and Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

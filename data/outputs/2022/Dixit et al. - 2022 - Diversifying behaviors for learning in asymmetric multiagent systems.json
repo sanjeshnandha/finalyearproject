@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "title": "Diversifying behaviors for learning in Asymmetric Multiagent Systems",
+    "authors": [
+      "Gaurav Dixit",
+      "Everardo Gonzalez",
+      "Kagan Tumer"
+    ],
+    "year": 2022,
+    "source_file": "Dixit et al. - 2022 - Diversifying behaviors for learning in asymmetric multiagent systems.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating multiagent coordination in a simulated rover exploration task"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Asymmetric Rover Exploration",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "tightly coupled",
+          "sparse feedback",
+          "dynamic environment"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MCAA (Multiagent Coevolution for Asymmetric Agents)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 7000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Cumulative Team Fitness",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating multiagent coordination in a simulated rover exploration task"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Asymmetric Rover Exploration",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "tightly coupled",
+          "sparse feedback",
+          "dynamic environment"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MERL (Multiagent Evolutionary Reinforcement Learning)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 7000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Cumulative Team Fitness",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating multiagent coordination in a simulated rover exploration task"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Asymmetric Rover Exploration",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "tightly coupled",
+          "sparse feedback",
+          "dynamic environment"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Malthusian Reinforcement Learning"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 7000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Cumulative Team Fitness",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating multiagent coordination in a simulated rover exploration task"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Asymmetric Rover Exploration",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "tightly coupled",
+          "sparse feedback",
+          "dynamic environment"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Intrinsic Curiosity Module"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 7000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Cumulative Team Fitness",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

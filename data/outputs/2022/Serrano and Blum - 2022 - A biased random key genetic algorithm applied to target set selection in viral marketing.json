@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "title": "A Biased Random Key Genetic Algorithm Applied to Target Set Selection in Viral Marketing",
+    "authors": [
+      "Albert López Serrano",
+      "Christian Blum"
+    ],
+    "year": 2022,
+    "source_file": "Serrano and Blum - 2022 - A biased random key genetic algorithm applied to target set selection in viral marketing.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Marketing / Social Networks",
+        "problem_context": "Target Set Selection (TSS) problem under the Linear Threshold diffusion model"
+      },
+      "the_database": {
+        "dataset_name": "27 real-life social networks (including Karate, Football, Dolphins, CA-AstroPh, Amazon0302)",
+        "source_platform": "Stanford Network Analysis Project (SNAP) open access repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Target Set Selection (TSS) Problem",
+        "dimensionality": "Variable (34 to 1,134,890 vertices)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "NP-hard",
+          "combinatorial",
+          "scale-free-like degree distributions",
+          "power-law characteristics"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Biased Random Key Genetic Algorithm (BRKGA)"
+      },
+      "parameters": {
+        "population_size": 46,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Target set size of the generated solutions",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

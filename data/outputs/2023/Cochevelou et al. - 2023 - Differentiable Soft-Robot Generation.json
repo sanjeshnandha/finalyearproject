@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "title": "Differentiable Soft-Robot Generation",
+    "authors": [
+      "François Cochevelou",
+      "David Bonner",
+      "Martin-Pierre Schmidt"
+    ],
+    "year": 2023,
+    "source_file": "Cochevelou et al. - 2023 - Differentiable Soft-Robot Generation.pdf",
+    "gecco_track": "Bio-inspired optimization"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Co-optimizing morphology and muscle actuation of a 3D soft robot"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Walking scenario",
+        "dimensionality": "125000 variables"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-linear",
+          "local minima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Adam"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Distance travelled by the center of gravity on the x axis",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Co-optimizing morphology and muscle actuation of a 3D soft robot"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Walking up stairs scenario",
+        "dimensionality": "2 million variables"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-linear",
+          "local minima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Adam"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Distance travelled by the center of gravity on the x axis",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Co-optimizing morphology and muscle actuation of a 3D soft robot"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Avoiding obstacles scenario",
+        "dimensionality": "2 million variables"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-linear",
+          "local minima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Adam"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 400,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Distance travelled by the center of gravity on the x axis",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Co-optimizing morphology and muscle actuation of a 3D soft robot"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-rigidity walking scenario",
+        "dimensionality": "70x35x50 resolution"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "local minima",
+          "non-linear"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Adam"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Distance travelled by the center of gravity on the x axis",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

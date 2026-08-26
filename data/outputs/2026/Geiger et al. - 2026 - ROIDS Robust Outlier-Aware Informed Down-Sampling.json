@@ -1,0 +1,436 @@
+{
+  "metadata": {
+    "title": "ROIDS: Robust Outlier-Aware Informed Down-Sampling",
+    "authors": [
+      "Alina Geiger",
+      "Martin Briesch",
+      "Dominik Sobania",
+      "Franz Rothlauf"
+    ],
+    "year": 2026,
+    "source_file": "Geiger et al. - 2026 - ROIDS Robust Outlier-Aware Informed Down-Sampling.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "nguyen-6 even + outliers",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "outliers",
+          "noisy"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming with ROIDS"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Median Mean Squared Error (MSE) on test cases: 0.014",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "nguyen-6 even + outliers",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "outliers",
+          "noisy"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming with IDS"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Median Mean Squared Error (MSE) on test cases: 0.097",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "nguyen-6 even + outliers",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "outliers",
+          "noisy"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming with RDS"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Median Mean Squared Error (MSE) on test cases: 0.013",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "friedman1 + outliers",
+        "dimensionality": "5D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "outliers",
+          "noisy"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming with ROIDS"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Median Mean Squared Error (MSE) on test cases: 7.318",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "friedman1 + outliers",
+        "dimensionality": "5D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "outliers",
+          "noisy"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming with IDS"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Median Mean Squared Error (MSE) on test cases: 14.955",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "friedman1 + outliers",
+        "dimensionality": "5D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "outliers",
+          "noisy"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming with RDS"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Median Mean Squared Error (MSE) on test cases: 8.273",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Aerospace",
+        "problem_context": "Airfoil self-noise prediction"
+      },
+      "the_database": {
+        "dataset_name": "Airfoil Self-Noise",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "airfoil",
+        "dimensionality": "5D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming with ROIDS"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Median Mean Squared Error (MSE) on test cases: 31.132",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Aerospace",
+        "problem_context": "Airfoil self-noise prediction"
+      },
+      "the_database": {
+        "dataset_name": "Airfoil Self-Noise",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "airfoil",
+        "dimensionality": "5D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming with IDS"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Median Mean Squared Error (MSE) on test cases: 34.462",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Aerospace",
+        "problem_context": "Airfoil self-noise prediction"
+      },
+      "the_database": {
+        "dataset_name": "Airfoil Self-Noise",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "airfoil",
+        "dimensionality": "5D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming with RDS"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Median Mean Squared Error (MSE) on test cases: 36.599",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Maritime/Marine Engineering",
+        "problem_context": "Yacht hull resistance prediction"
+      },
+      "the_database": {
+        "dataset_name": "Yacht Hydrodynamics",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "yacht",
+        "dimensionality": "6D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "outliers"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming with ROIDS"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Median Mean Squared Error (MSE) on test cases: 1.550",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Maritime/Marine Engineering",
+        "problem_context": "Yacht hull resistance prediction"
+      },
+      "the_database": {
+        "dataset_name": "Yacht Hydrodynamics",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "yacht",
+        "dimensionality": "6D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "outliers"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming with IDS"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Median Mean Squared Error (MSE) on test cases: 2.010",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Maritime/Marine Engineering",
+        "problem_context": "Yacht hull resistance prediction"
+      },
+      "the_database": {
+        "dataset_name": "Yacht Hydrodynamics",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "yacht",
+        "dimensionality": "6D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "outliers"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming with RDS"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Median Mean Squared Error (MSE) on test cases: 1.047",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

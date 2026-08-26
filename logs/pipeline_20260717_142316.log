@@ -1,0 +1,66 @@
+2026-07-17 14:23:16.752 | INFO     | gecco_pipeline.extractor:__init__:32 - Initialized GeccoExtractor with model: gemini-3.5-flash and 3 API keys
+2026-07-17 14:23:16.753 | INFO     | gecco_pipeline.processor:__init__:57 - BatchProcessor initialized
+2026-07-17 14:23:16.753 | INFO     | gecco_pipeline.utils:discover_pdfs:62 - Discovered 113 PDF files in data/pdfs/2024
+2026-07-17 14:23:16.759 | INFO     | gecco_pipeline.processor:process_batch:129 - Skipping 47 already-processed PDFs
+2026-07-17 14:23:16.759 | INFO     | gecco_pipeline.processor:process_batch:145 - Processing 66 PDFs...
+2026-07-17 14:23:16.784 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Lavinas et al. - 2024 - Dynamically Sampling biomedical Images For Genetic Programming.pdf
+2026-07-17 14:23:16.785 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Lavinas et al. - 2024 - Dynamically Sampling biomedical Images For Genetic Programming.pdf to Gemini File API...
+2026-07-17 14:23:16.803 | ERROR    | gecco_pipeline.extractor:_upload_pdf:137 - Failed to upload Lavinas et al. - 2024 - Dynamically Sampling biomedical Images For Genetic Programming.pdf: [Errno 8] nodename nor servname provided, or not known
+2026-07-17 14:23:16.803 | WARNING  | gecco_pipeline.extractor:_call_with_retry:219 - Attempt 1/3 failed for Lavinas et al. - 2024 - Dynamically Sampling biomedical Images For Genetic Programming.pdf: [Errno 8] nodename nor servname provided, or not known. Retrying in 2.2s...
+2026-07-17 14:23:19.031 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Lavinas et al. - 2024 - Dynamically Sampling biomedical Images For Genetic Programming.pdf to Gemini File API...
+2026-07-17 14:23:23.960 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/mpx5tqov9ulz
+2026-07-17 14:23:47.783 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 4 entries from Lavinas et al. - 2024 - Dynamically Sampling biomedical Images For Genetic Programming.pdf
+2026-07-17 14:23:47.785 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2024/Lavinas et al. - 2024 - Dynamically Sampling biomedical Images For Genetic Programming.json
+2026-07-17 14:23:47.786 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Lee and Kim - 2024 - A Memetic Algorithm to Identify Search Patterns for Maximal Coverage of Drifting Oceanic Particles.pdf
+2026-07-17 14:23:47.786 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Lee and Kim - 2024 - A Memetic Algorithm to Identify Search Patterns for Maximal Coverage of Drifting Oceanic Particles.pdf to Gemini File API...
+2026-07-17 14:23:55.131 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/gadodaor3qnt
+2026-07-17 14:24:25.043 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 6 entries from Lee and Kim - 2024 - A Memetic Algorithm to Identify Search Patterns for Maximal Coverage of Drifting Oceanic Particles.pdf
+2026-07-17 14:24:25.048 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2024/Lee and Kim - 2024 - A Memetic Algorithm to Identify Search Patterns for Maximal Coverage of Drifting Oceanic Particles.json
+2026-07-17 14:24:25.048 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Leither et al. - 2024 - Evolving Weighted and Directed Graphs with Constrained Properties.pdf
+2026-07-17 14:24:25.049 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Leither et al. - 2024 - Evolving Weighted and Directed Graphs with Constrained Properties.pdf to Gemini File API...
+2026-07-17 14:24:30.291 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/tlm5wael81yk
+2026-07-17 14:24:57.418 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 3 entries from Leither et al. - 2024 - Evolving Weighted and Directed Graphs with Constrained Properties.pdf
+2026-07-17 14:24:57.419 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2024/Leither et al. - 2024 - Evolving Weighted and Directed Graphs with Constrained Properties.json
+2026-07-17 14:24:57.420 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Li and Kötzing - 2024 - Algorithm Performance Comparison for Integer-Valued OneMax.pdf
+2026-07-17 14:24:57.420 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Li and Kötzing - 2024 - Algorithm Performance Comparison for Integer-Valued OneMax.pdf to Gemini File API...
+2026-07-17 14:25:02.756 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/afl7vp5tqxcq
+2026-07-17 14:25:24.784 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 3 entries from Li and Kötzing - 2024 - Algorithm Performance Comparison for Integer-Valued OneMax.pdf
+2026-07-17 14:25:24.788 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2024/Li and Kötzing - 2024 - Algorithm Performance Comparison for Integer-Valued OneMax.json
+2026-07-17 14:25:24.790 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Li et al. - 2024 - Multi-objective multi-population Genetic Programming for feature selection and classification to hig.pdf
+2026-07-17 14:25:24.790 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Li et al. - 2024 - Multi-objective multi-population Genetic Programming for feature selection and classification to hig.pdf to Gemini File API...
+2026-07-17 14:25:29.502 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/j7l9juh2owdj
+2026-07-17 14:26:01.249 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 7 entries from Li et al. - 2024 - Multi-objective multi-population Genetic Programming for feature selection and classification to hig.pdf
+2026-07-17 14:26:01.254 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2024/Li et al. - 2024 - Multi-objective multi-population Genetic Programming for feature selection and classification to hig.json
+2026-07-17 14:26:01.254 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Li et al. - 2024 - Symmetry Parallel Search Strategy For Permutation-related Optimization Problems.pdf
+2026-07-17 14:26:01.255 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Li et al. - 2024 - Symmetry Parallel Search Strategy For Permutation-related Optimization Problems.pdf to Gemini File API...
+2026-07-17 14:26:12.728 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/i5v1l3e8vkr7
+2026-07-17 14:26:39.698 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 4 entries from Li et al. - 2024 - Symmetry Parallel Search Strategy For Permutation-related Optimization Problems.pdf
+2026-07-17 14:26:39.703 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2024/Li et al. - 2024 - Symmetry Parallel Search Strategy For Permutation-related Optimization Problems.json
+2026-07-17 14:26:39.704 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Liang et al. - 2024 - A Multi-objective Evolutionary Algorithm based on Hierarchical Grouping for Large-scale Multi-object.pdf
+2026-07-17 14:26:39.704 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Liang et al. - 2024 - A Multi-objective Evolutionary Algorithm based on Hierarchical Grouping for Large-scale Multi-object.pdf to Gemini File API...
+2026-07-17 14:26:56.044 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/flgziq9lr1e8
+2026-07-17 14:27:33.458 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 14 entries from Liang et al. - 2024 - A Multi-objective Evolutionary Algorithm based on Hierarchical Grouping for Large-scale Multi-object.pdf
+2026-07-17 14:27:33.464 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2024/Liang et al. - 2024 - A Multi-objective Evolutionary Algorithm based on Hierarchical Grouping for Large-scale Multi-object.json
+2026-07-17 14:27:33.465 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Liu et al. - 2024 - Visualization of Multiobjective Multimodal Benchmarking Based on Basin Connectivity.pdf
+2026-07-17 14:27:33.465 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Liu et al. - 2024 - Visualization of Multiobjective Multimodal Benchmarking Based on Basin Connectivity.pdf to Gemini File API...
+2026-07-17 14:28:01.243 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/nvgeul3bpnm9
+2026-07-17 14:28:18.725 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 1 entries from Liu et al. - 2024 - Visualization of Multiobjective Multimodal Benchmarking Based on Basin Connectivity.pdf
+2026-07-17 14:28:18.728 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2024/Liu et al. - 2024 - Visualization of Multiobjective Multimodal Benchmarking Based on Basin Connectivity.json
+2026-07-17 14:28:18.730 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Llanza et al. - 2024 - Evolutionary Algorithm Based Adaptive Image Anonymization.pdf
+2026-07-17 14:28:18.730 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Llanza et al. - 2024 - Evolutionary Algorithm Based Adaptive Image Anonymization.pdf to Gemini File API...
+2026-07-17 14:28:37.174 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/xuy3cia2xklv
+2026-07-17 14:29:02.093 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 3 entries from Llanza et al. - 2024 - Evolutionary Algorithm Based Adaptive Image Anonymization.pdf
+2026-07-17 14:29:02.096 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2024/Llanza et al. - 2024 - Evolutionary Algorithm Based Adaptive Image Anonymization.json
+2026-07-17 14:29:02.097 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Luo et al. - 2024 - A Micro Dynamic Multi-objective Evolutionary Algorithm for Small-scale Smart Greenhouse with Low-pow.pdf
+2026-07-17 14:29:02.097 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Luo et al. - 2024 - A Micro Dynamic Multi-objective Evolutionary Algorithm for Small-scale Smart Greenhouse with Low-pow.pdf to Gemini File API...
+2026-07-17 14:29:07.778 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/5jrxjaead9ld
+2026-07-17 14:29:36.293 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 4 entries from Luo et al. - 2024 - A Micro Dynamic Multi-objective Evolutionary Algorithm for Small-scale Smart Greenhouse with Low-pow.pdf
+2026-07-17 14:29:36.297 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2024/Luo et al. - 2024 - A Micro Dynamic Multi-objective Evolutionary Algorithm for Small-scale Smart Greenhouse with Low-pow.json
+2026-07-17 14:29:36.298 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Mai et al. - 2024 - Expensive Constrained Multi-objective Evolutionary Algorithm with Pareto Set Learning.pdf
+2026-07-17 14:29:36.298 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Mai et al. - 2024 - Expensive Constrained Multi-objective Evolutionary Algorithm with Pareto Set Learning.pdf to Gemini File API...
+2026-07-17 14:29:43.971 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/etr9n97nc32d
+2026-07-17 14:30:20.676 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 7 entries from Mai et al. - 2024 - Expensive Constrained Multi-objective Evolutionary Algorithm with Pareto Set Learning.pdf
+2026-07-17 14:30:20.681 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2024/Mai et al. - 2024 - Expensive Constrained Multi-objective Evolutionary Algorithm with Pareto Set Learning.json
+2026-07-17 14:30:20.682 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Moradi et al. - 2024 - Sensitivity Analysis of Surrogate-assisted Bilevel Optimisation.pdf
+2026-07-17 14:30:20.682 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Moradi et al. - 2024 - Sensitivity Analysis of Surrogate-assisted Bilevel Optimisation.pdf to Gemini File API...
+2026-07-17 14:30:27.635 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/9f8da16ashsm

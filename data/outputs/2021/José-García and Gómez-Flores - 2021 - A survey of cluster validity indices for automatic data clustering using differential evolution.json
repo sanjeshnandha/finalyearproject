@@ -1,0 +1,157 @@
+{
+  "metadata": {
+    "title": "A survey of cluster validity indices for automatic data clustering using differential evolution",
+    "authors": [
+      "Adán José-García",
+      "Wilfrido Gómez-Flores"
+    ],
+    "year": 2021,
+    "source_file": "José-García and Gómez-Flores - 2021 - A survey of cluster validity indices for automatic data clustering using differential evolution.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating automatic clustering on linearly separable well-separated datasets"
+      },
+      "the_database": {
+        "dataset_name": "G1 Synthetic Datasets (Orange, Data_4_3, Data_6_2, Data_10_2, Hepta, WingNut)",
+        "source_platform": "mvc-repository.github.io"
+      },
+      "the_benchmark_problem": {
+        "name": "G1: Linearly separable well-separated clustering",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "well-separated clusters",
+          "linearly separable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ACDE (Automatic Clustering using Differential Evolution)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Adjusted Rand Index (ARI) and Normalized Absolute Error (NAE)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating automatic clustering on linearly separable overlapped datasets"
+      },
+      "the_database": {
+        "dataset_name": "G2 Synthetic Datasets (Overlapping, TwoDiamonds, Tetra, Square1, Size5, Data_5_2)",
+        "source_platform": "mvc-repository.github.io"
+      },
+      "the_benchmark_problem": {
+        "name": "G2: Linearly separable overlapped clustering",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "overlapped clusters",
+          "linearly separable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ACDE (Automatic Clustering using Differential Evolution)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Adjusted Rand Index (ARI) and Normalized Absolute Error (NAE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating automatic clustering on non-linearly separable arbitrarily-shaped datasets"
+      },
+      "the_database": {
+        "dataset_name": "G3 Synthetic Datasets (Moon, Inside, Arcs, Chainlink, Atom, Spirals)",
+        "source_platform": "mvc-repository.github.io"
+      },
+      "the_benchmark_problem": {
+        "name": "G3: Non-linearly separable arbitrarily-shaped clustering",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "arbitrarily-shaped clusters",
+          "non-linearly separable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ACDE (Automatic Clustering using Differential Evolution)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Adjusted Rand Index (ARI) and Normalized Absolute Error (NAE)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare, Engineering/Manufacturing, and others",
+        "problem_context": "Automatic clustering of real-life datasets"
+      },
+      "the_database": {
+        "dataset_name": "G4 Real-life Datasets (Iris, Wine, Breast, Glass, Seeds, Voting)",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "G4: Real-life clustering problems",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "real-life data distributions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ACDE (Automatic Clustering using Differential Evolution)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Adjusted Rand Index (ARI) and Normalized Absolute Error (NAE)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

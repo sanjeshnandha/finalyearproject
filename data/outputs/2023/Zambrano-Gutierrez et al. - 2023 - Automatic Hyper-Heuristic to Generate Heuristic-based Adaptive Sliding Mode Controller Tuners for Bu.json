@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "title": "Automatic Hyper-Heuristic to Generate Heuristic-based Adaptive Sliding Mode Controller Tuners for Buck-Boost Converters",
+    "authors": [
+      "Daniel F. Zambrano-Gutierrez",
+      "Jorge M. Cruz-Duarte",
+      "Herman Castañeda"
+    ],
+    "year": 2023,
+    "source_file": "Zambrano-Gutierrez et al. - 2023 - Automatic Hyper-Heuristic to Generate Heuristic-based Adaptive Sliding Mode Controller Tuners for Bu.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Tuning an Adaptive Sliding Mode Controller (ASMC) for a DC-DC Buck-Boost converter"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Adaptive Sliding Mode Controller Tuning for DC-DC Buck-Boost Converter",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "nonlinear",
+          "discontinuous",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Tailored Metaheuristic (MH*)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 30,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average fitness value of 1.2e-2",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Tuning an Adaptive Sliding Mode Controller (ASMC) for a DC-DC Buck-Boost converter"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Adaptive Sliding Mode Controller Tuning for DC-DC Buck-Boost Converter",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "nonlinear",
+          "discontinuous",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Particle Swarm Optimization (PSO)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average fitness value of 3.1e-1",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Tuning an Adaptive Sliding Mode Controller (ASMC) for a DC-DC Buck-Boost converter"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Adaptive Sliding Mode Controller Tuning for DC-DC Buck-Boost Converter",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "nonlinear",
+          "discontinuous",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (GA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average fitness value of 2.9",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "metadata": {
+    "title": "Constructing Streams of Optimization Instances for Benchmarking Algorithm Selection and Configuration Approaches in Streaming Scenarios",
+    "authors": [
+      "Margherita Battistotti",
+      "Manuel L3pez-Ib11ez",
+      "Kate Smith-Miles",
+      "Julia Handl",
+      "Mario Andr2s Mu1oz"
+    ],
+    "year": 2026,
+    "source_file": "Battistotti et al. - 2026 - Constructing Streams of Optimization Instances for Benchmarking Algorithm Selection and Configuratio.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "BBOB Suite",
+        "source_platform": "COCO platform"
+      },
+      "the_benchmark_problem": {
+        "name": "MA-BBOB",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "conditioned",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Gradient Descent (GD)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 20000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Area Over the Convergence Curve (AOCC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "BBOB Suite",
+        "source_platform": "COCO platform"
+      },
+      "the_benchmark_problem": {
+        "name": "MA-BBOB",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "conditioned",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Differential Evolution (modde)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 40000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Area Over the Convergence Curve (AOCC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "BBOB Suite",
+        "source_platform": "COCO platform"
+      },
+      "the_benchmark_problem": {
+        "name": "MA-BBOB",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "conditioned",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Constrained Optimization by Linear Approximation (RCobyla)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 40000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Area Over the Convergence Curve (AOCC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "BBOB Suite",
+        "source_platform": "COCO platform"
+      },
+      "the_benchmark_problem": {
+        "name": "MA-BBOB",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "conditioned",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Covariance Matrix Adaptation (DiagonalCMA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 40000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Area Over the Convergence Curve (AOCC)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

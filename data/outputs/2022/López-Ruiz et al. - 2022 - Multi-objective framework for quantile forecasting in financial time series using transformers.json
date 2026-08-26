@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "title": "Multi-objective Framework for Quantile Forecasting in Financial Time Series Using Transformers",
+    "authors": [
+      "Samuel López-Ruiz",
+      "Carlos Ignacio Hernández-Castellanos",
+      "Katya Rodríguez-Vázquez"
+    ],
+    "year": 2022,
+    "source_file": "López-Ruiz et al. - 2022 - Multi-objective framework for quantile forecasting in financial time series using transformers.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance",
+        "problem_context": "Quantile Forecasting in Financial Time Series"
+      },
+      "the_database": {
+        "dataset_name": "S&P 500 Futures (ES) and Nasdaq Futures (NQ)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Quantile Forecasting of S&P 500 Futures",
+        "dimensionality": "129"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance",
+        "problem_context": "Quantile Forecasting in Financial Time Series"
+      },
+      "the_database": {
+        "dataset_name": "S&P 500 Futures (ES) and Nasdaq Futures (NQ)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Quantile Forecasting of S&P 500 Futures",
+        "dimensionality": "129"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-III"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

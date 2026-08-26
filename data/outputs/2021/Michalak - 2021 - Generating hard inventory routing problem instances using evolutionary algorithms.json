@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "title": "Generating Hard Inventory Routing Problem Instances using Evolutionary Algorithms",
+    "authors": [
+      "Krzysztof Michalak"
+    ],
+    "year": 2021,
+    "source_file": "Michalak - 2021 - Generating hard inventory routing problem instances using evolutionary algorithms.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Generating hard instances of the Inventory Routing Problem (IRP)"
+      },
+      "the_database": {
+        "dataset_name": "absXnYY reference instances",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Inventory Routing Problem (IRP)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Infeasibility Driven Evolutionary Algorithm (IDEA)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.1,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "CPLEX solving time of the generated instances",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

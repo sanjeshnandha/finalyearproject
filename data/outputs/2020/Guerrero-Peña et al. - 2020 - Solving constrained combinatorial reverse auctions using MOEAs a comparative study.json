@@ -1,0 +1,312 @@
+{
+  "metadata": {
+    "title": "Solving Constrained Combinatorial Reverse Auctions Using MOEAs: A Comparative Study",
+    "authors": [
+      "Elaine Guerrero-Peña",
+      "Fernanda Nakano Kazama",
+      "Paulo de Barros Correia",
+      "Aluizio F. R. Araújo"
+    ],
+    "year": 2020,
+    "source_file": "Guerrero-Peña et al. - 2020 - Solving constrained combinatorial reverse auctions using MOEAs a comparative study.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Winner Determination Problem in Multi Attribute Combinatorial Reverse Auctions"
+      },
+      "the_database": {
+        "dataset_name": "Custom price survey of electronic products",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Constrained MACRA WDP",
+        "dimensionality": "Variable (20 to 150)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "combinatorial",
+          "NP-hard"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume, Execution Time, and Number of Feasible Solutions",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Winner Determination Problem in Multi Attribute Combinatorial Reverse Auctions"
+      },
+      "the_database": {
+        "dataset_name": "Custom price survey of electronic products",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Unconstrained MACRA WDP",
+        "dimensionality": "Variable (20 to 150)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "unconstrained",
+          "combinatorial",
+          "NP-hard"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume, Execution Time, and Number of Feasible Solutions",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Winner Determination Problem in Multi Attribute Combinatorial Reverse Auctions"
+      },
+      "the_database": {
+        "dataset_name": "Custom price survey of electronic products",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Constrained MACRA WDP",
+        "dimensionality": "Variable (20 to 150)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "combinatorial",
+          "NP-hard"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SPEA2"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume, Execution Time, and Number of Feasible Solutions",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Winner Determination Problem in Multi Attribute Combinatorial Reverse Auctions"
+      },
+      "the_database": {
+        "dataset_name": "Custom price survey of electronic products",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Unconstrained MACRA WDP",
+        "dimensionality": "Variable (20 to 150)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "unconstrained",
+          "combinatorial",
+          "NP-hard"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SPEA2"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume, Execution Time, and Number of Feasible Solutions",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Winner Determination Problem in Multi Attribute Combinatorial Reverse Auctions"
+      },
+      "the_database": {
+        "dataset_name": "Custom price survey of electronic products",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Constrained MACRA WDP",
+        "dimensionality": "Variable (20 to 150)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "combinatorial",
+          "NP-hard"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PESA-II"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume, Execution Time, and Number of Feasible Solutions",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Winner Determination Problem in Multi Attribute Combinatorial Reverse Auctions"
+      },
+      "the_database": {
+        "dataset_name": "Custom price survey of electronic products",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Unconstrained MACRA WDP",
+        "dimensionality": "Variable (20 to 150)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "unconstrained",
+          "combinatorial",
+          "NP-hard"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PESA-II"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume, Execution Time, and Number of Feasible Solutions",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Winner Determination Problem in Multi Attribute Combinatorial Reverse Auctions"
+      },
+      "the_database": {
+        "dataset_name": "Custom price survey of electronic products",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Constrained MACRA WDP",
+        "dimensionality": "Variable (20 to 150)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "combinatorial",
+          "NP-hard"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "C-MOEA/D"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume, Execution Time, and Number of Feasible Solutions",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Winner Determination Problem in Multi Attribute Combinatorial Reverse Auctions"
+      },
+      "the_database": {
+        "dataset_name": "Custom price survey of electronic products",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Unconstrained MACRA WDP",
+        "dimensionality": "Variable (20 to 150)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "unconstrained",
+          "combinatorial",
+          "NP-hard"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "C-MOEA/D"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume, Execution Time, and Number of Feasible Solutions",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

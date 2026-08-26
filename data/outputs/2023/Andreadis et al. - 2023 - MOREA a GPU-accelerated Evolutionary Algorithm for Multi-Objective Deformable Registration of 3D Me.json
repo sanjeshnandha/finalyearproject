@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "title": "MOREA: a GPU-accelerated Evolutionary Algorithm for Multi-Objective Deformable Registration of 3D Medical Images",
+    "authors": [
+      "Georgios Andreadis",
+      "Peter A.N. Bosman",
+      "Tanja Alderliesten"
+    ],
+    "year": 2023,
+    "source_file": "Andreadis et al. - 2023 - MOREA a GPU-accelerated Evolutionary Algorithm for Multi-Objective Deformable Registration of 3D Me.pdf",
+    "gecco_track": "Applied computing -> Health informatics"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Deformable Image Registration of 3D Medical Images"
+      },
+      "the_database": {
+        "dataset_name": "Abdominal CT scans of cervical cancer patients",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "3D Deformable Image Registration (DIR)",
+        "dimensionality": "3600-dimensional"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "multi-objective",
+          "expensive to compute",
+          "large deformations"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOREA"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hausdorff distance of the bladder contour",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "metadata": {
+    "title": "GeneCAI: Genetic Evolution for Acquiring Compact AI",
+    "authors": [
+      "Mojan Javaheripi",
+      "Mohammad Samragh",
+      "Tara Javidi",
+      "Farinaz Koushanfar"
+    ],
+    "year": 2020,
+    "source_file": "Javaheripi et al. - 2020 - GeneCAI genetic evolution for acquiring compact AI.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Deep Neural Network Compression"
+      },
+      "the_database": {
+        "dataset_name": "CIFAR-10",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ResNet-50 Compression",
+        "dimensionality": "50D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "flat regions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GeneCAI (Genetic Algorithm)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "FLOPs reduction and Top-1 Accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Deep Neural Network Compression"
+      },
+      "the_database": {
+        "dataset_name": "CIFAR-10",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ResNet-110 Compression",
+        "dimensionality": "110D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "flat regions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GeneCAI (Genetic Algorithm)"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "FLOPs reduction and Top-1 Accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Deep Neural Network Compression"
+      },
+      "the_database": {
+        "dataset_name": "ImageNet",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ResNet-50 Compression",
+        "dimensionality": "50D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "flat regions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GeneCAI (Genetic Algorithm)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "FLOPs reduction and Top-1 Accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Deep Neural Network Compression"
+      },
+      "the_database": {
+        "dataset_name": "ImageNet",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "VGG-16 Compression",
+        "dimensionality": "16D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "flat regions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GeneCAI (Genetic Algorithm)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "FLOPs reduction and Top-1 Accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Deep Neural Network Compression"
+      },
+      "the_database": {
+        "dataset_name": "ImageNet",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MobileNetV1 Compression",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "flat regions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GeneCAI (Genetic Algorithm)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "FLOPs reduction and Top-1 Accuracy",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

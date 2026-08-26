@@ -1,0 +1,224 @@
+{
+  "metadata": {
+    "title": "Guiding Genetic Programming with Graph Neural Networks",
+    "authors": [
+      "Piotr Wyrwiński",
+      "Krzysztof Krawiec"
+    ],
+    "year": 2024,
+    "source_file": "Wyrwiński and Krawiec - 2024 - Guiding Genetic Programming with Graph Neural Networks.pdf",
+    "gecco_track": "Genetic Programming"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "Custom Synthetic SR Dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Synthetic Symbolic Regression Suite",
+        "dimensionality": "1 to 6D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex fitness dependency"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EvoNUDGE"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Success rate (MSE < 10^-10)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "Custom Synthetic SR Dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Synthetic Symbolic Regression Suite",
+        "dimensionality": "1 to 6D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex fitness dependency"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Success rate (MSE < 10^-10)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "Custom Synthetic SR Dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Synthetic Symbolic Regression Suite",
+        "dimensionality": "1 to 6D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex fitness dependency"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NUDGE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (MSE < 10^-10)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "AI Feynman Suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "AI Feynman Suite",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex fitness dependency"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EvoNUDGE"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Success rate (MSE < 10^-10)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "AI Feynman Suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "AI Feynman Suite",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex fitness dependency"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Success rate (MSE < 10^-10)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "AI Feynman Suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "AI Feynman Suite",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex fitness dependency"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NUDGE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (MSE < 10^-10)",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

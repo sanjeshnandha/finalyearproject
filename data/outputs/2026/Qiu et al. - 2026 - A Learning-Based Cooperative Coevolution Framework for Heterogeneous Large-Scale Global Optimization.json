@@ -1,0 +1,430 @@
+{
+  "metadata": {
+    "title": "A Learning-Based Cooperative Coevolution Framework for Heterogeneous Large-Scale Global Optimization",
+    "authors": [
+      "Wenjie Qiu",
+      "Zixin Wang",
+      "Hongyu Fang",
+      "Zeyuan Ma",
+      "Yue-Jiao Gong"
+    ],
+    "year": 2026,
+    "source_file": "Qiu et al. - 2026 - A Learning-Based Cooperative Coevolution Framework for Heterogeneous Large-Scale Global Optimization.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Auto-H-LSGO Type 1",
+        "dimensionality": "3000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "heterogeneous",
+          "large-scale",
+          "varying dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LH-CC-X"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 3000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean best fitness",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Auto-H-LSGO Type 2",
+        "dimensionality": "3000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "heterogeneous",
+          "large-scale",
+          "varying dimensions",
+          "varying basic functions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LH-CC-X"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 3000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean best fitness",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Auto-H-LSGO Type 1",
+        "dimensionality": "3000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "heterogeneous",
+          "large-scale",
+          "varying dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "OEDG-CMAES"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 3000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean best fitness",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Auto-H-LSGO Type 2",
+        "dimensionality": "3000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "heterogeneous",
+          "large-scale",
+          "varying dimensions",
+          "varying basic functions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "OEDG-CMAES"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 3000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean best fitness",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Auto-H-LSGO Type 1",
+        "dimensionality": "3000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "heterogeneous",
+          "large-scale",
+          "varying dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "OEDG-MMES-CMAES"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 3000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean best fitness",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Auto-H-LSGO Type 2",
+        "dimensionality": "3000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "heterogeneous",
+          "large-scale",
+          "varying dimensions",
+          "varying basic functions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "OEDG-MMES-CMAES"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 3000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean best fitness",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Auto-H-LSGO Type 1",
+        "dimensionality": "3000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "heterogeneous",
+          "large-scale",
+          "varying dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SEP-CMAES"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 3000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean best fitness",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Auto-H-LSGO Type 2",
+        "dimensionality": "3000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "heterogeneous",
+          "large-scale",
+          "varying dimensions",
+          "varying basic functions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SEP-CMAES"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 3000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean best fitness",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Auto-H-LSGO Type 1",
+        "dimensionality": "3000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "heterogeneous",
+          "large-scale",
+          "varying dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MMES"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 3000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean best fitness",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Auto-H-LSGO Type 2",
+        "dimensionality": "3000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "heterogeneous",
+          "large-scale",
+          "varying dimensions",
+          "varying basic functions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MMES"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 3000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean best fitness",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Auto-H-LSGO Type 2",
+        "dimensionality": "3000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "heterogeneous",
+          "large-scale",
+          "varying dimensions",
+          "varying basic functions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LH-CC-G"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 3000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean best fitness",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

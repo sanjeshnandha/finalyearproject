@@ -1,0 +1,267 @@
+{
+  "metadata": {
+    "title": "Designing parallelism in Surrogate-assisted multiobjective optimization based on decomposition",
+    "authors": [
+      "Nicolas Berveglieri",
+      "Bilel Derbel",
+      "Arnaud Liefooghe",
+      "Hern\u0001an Aguirre",
+      "Qingfu Zhang",
+      "Kiyoshi Tanaka"
+    ],
+    "year": 2020,
+    "source_file": "Berveglieri et al. - 2020 - Designing parallelism in surrogate-assisted multiobjective optimization based on decomposition.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "bbob-biobj f1-f1 (Sphere-Sphere)",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "separable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "S-MOEA/D-QEI"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 1250,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "bbob-biobj f14-f20 (Sum of powers - Schwefel)",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "ill-conditioned",
+          "weakly-structured"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "S-MOEA/D-QEI"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 1250,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "bbob-biobj f1-f1 (Sphere-Sphere)",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "separable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "S-MOEA/D-LocalBatch"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 1250,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "bbob-biobj f14-f20 (Sum of powers - Schwefel)",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "ill-conditioned",
+          "weakly-structured"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "S-MOEA/D-LocalBatch"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 1250,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "bbob-biobj f1-f1 (Sphere-Sphere)",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "separable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MP-S-MOEA/D-W"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 1250,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "bbob-biobj f14-f20 (Sum of powers - Schwefel)",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "ill-conditioned",
+          "weakly-structured"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MP-S-MOEA/D-W"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 1250,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "bbob-biobj f1-f20 (Sphere - Schwefel)",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "separable",
+          "weakly-structured"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "S-MOEA/D-Multimodel"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 1250,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

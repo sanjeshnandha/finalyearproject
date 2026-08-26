@@ -1,0 +1,460 @@
+{
+  "metadata": {
+    "title": "A Two-Stage Multi-Objective Evolutionary Reinforcement Learning Framework for Continuous Robot Control",
+    "authors": [
+      "Hai Long Tran",
+      "Long Doan",
+      "Ngoc Hoang Luong",
+      "Huynh Thi Thanh Binh"
+    ],
+    "year": 2023,
+    "source_file": "Tran et al. - 2023 - A Two-Stage Multi-Objective Evolutionary Reinforcement Learning Framework for Continuous Robot Contr.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Continuous robot control in simulation"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ant",
+        "dimensionality": "27D state space, 8D action space"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "continuous state space",
+          "continuous action space",
+          "bi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOPDERL"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume: 1.85e7±0.20e7, Spread-out-distance: 6.11e3±0.89e3",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Continuous robot control in simulation"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ant",
+        "dimensionality": "27D state space, 8D action space"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "continuous state space",
+          "continuous action space",
+          "bi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PGMORL"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume: 0.94e7±0.26e7, Spread-out-distance: 2.62e3±0.54e3",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Continuous robot control in simulation"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "HalfCheetah",
+        "dimensionality": "17D state space, 6D action space"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "continuous state space",
+          "continuous action space",
+          "bi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOPDERL"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume: 1.25e7±0.02e7, Spread-out-distance: 3.62e3±0.15e3",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Continuous robot control in simulation"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "HalfCheetah",
+        "dimensionality": "17D state space, 6D action space"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "continuous state space",
+          "continuous action space",
+          "bi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PGMORL"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume: 1.03e7±0.09e7, Spread-out-distance: 3.19e3±0.51e3",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Continuous robot control in simulation"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Swimmer",
+        "dimensionality": "8D state space, 2D action space"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "continuous state space",
+          "continuous action space",
+          "bi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOPDERL"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume: 4.97e4±0.09e4, Spread-out-distance: 3.20e2±0.26e2",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Continuous robot control in simulation"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Swimmer",
+        "dimensionality": "8D state space, 2D action space"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "continuous state space",
+          "continuous action space",
+          "bi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PGMORL"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume: 1.54e4±0.4e4, Spread-out-distance: 0.56e2±0.35e2",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Continuous robot control in simulation"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Walker2d",
+        "dimensionality": "17D state space, 6D action space"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "continuous state space",
+          "continuous action space",
+          "bi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOPDERL"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume: 5.61e6±0.73e6, Spread-out-distance: 1.75e3±0.64e3",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Continuous robot control in simulation"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Walker2d",
+        "dimensionality": "17D state space, 6D action space"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "continuous state space",
+          "continuous action space",
+          "bi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PGMORL"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume: 6.27e6±0.79e6, Spread-out-distance: 0.98e3±0.23e3",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Continuous robot control in simulation"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hopper-v2",
+        "dimensionality": "11D state space, 3D action space"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "continuous state space",
+          "continuous action space",
+          "bi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOPDERL"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume: 1.46e7±0.08e7, Spread-out-distance: 3.42e3±0.58e3",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Continuous robot control in simulation"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hopper-v2",
+        "dimensionality": "11D state space, 3D action space"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "continuous state space",
+          "continuous action space",
+          "bi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PGMORL"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume: 1.28e7±0.16e7, Spread-out-distance: 1.66e3±0.39e3",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Continuous robot control in simulation"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hopper-v3",
+        "dimensionality": "11D state space, 3D action space"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "continuous state space",
+          "continuous action space",
+          "three-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOPDERL"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume: 1.57e10±0.13e10",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Continuous robot control in simulation"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hopper-v3",
+        "dimensionality": "11D state space, 3D action space"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "continuous state space",
+          "continuous action space",
+          "three-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PGMORL"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume: 1.26e10±0.12e10",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "metadata": {
+    "title": "A Generic Framework for Optimisation under Uncertainty with Recourse: Theory and Examples",
+    "authors": [
+      "Joshua Knowles",
+      "Per Kristian Lehre",
+      "Shishen Lin",
+      "Frank Neumann",
+      "Janina Schreiber",
+      "Christine Zarges"
+    ],
+    "year": 2026,
+    "source_file": "Knowles et al. - 2026 - A Generic Framework for Optimisation under Uncertainty with Recourse Theory and Examples.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "OneMax (MoBB) with recourse",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "stochastic",
+          "recourse",
+          "malicious oracle"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Non-elitist 2-tournament Selection EA (Algorithm 1)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": 0.1,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (fitness evaluations)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "OneMax (MoBB) with recourse",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "stochastic",
+          "recourse",
+          "malicious oracle"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(1+1) EA"
+      },
+      "parameters": {
+        "population_size": 1,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (fitness evaluations)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "OneMax (MoBB) with recourse",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "stochastic",
+          "recourse",
+          "malicious oracle"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Randomized Local Search (RLS)"
+      },
+      "parameters": {
+        "population_size": 1,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean runtime (fitness evaluations)",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

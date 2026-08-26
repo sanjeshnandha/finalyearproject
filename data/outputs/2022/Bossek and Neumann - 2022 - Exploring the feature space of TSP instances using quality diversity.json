@@ -1,0 +1,230 @@
+{
+  "metadata": {
+    "title": "Exploring the Feature Space of TSP Instances Using Quality Diversity",
+    "authors": [
+      "Jakob Bossek",
+      "Frank Neumann"
+    ],
+    "year": 2022,
+    "source_file": "Bossek and Neumann - 2022 - Exploring the feature space of TSP instances using quality diversity.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "TSP Instance Generation (n=100) for FI vs. NI",
+        "dimensionality": "100 nodes"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged",
+          "feature-space coverage"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Quality Diversity (QD) with disruptive mutations"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean number of boxes covered and tour length ratio",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "TSP Instance Generation (n=100) for FI vs. NI",
+        "dimensionality": "100 nodes"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged",
+          "feature-space coverage"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(1+1) EA with disruptive mutations"
+      },
+      "parameters": {
+        "population_size": 1,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean number of boxes covered and tour length ratio",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "TSP Instance Generation (n=100) for FI vs. NI",
+        "dimensionality": "100 nodes"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged",
+          "feature-space coverage"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(50+1) EA-HV with disruptive mutations"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean number of boxes covered and tour length ratio",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "TSP Instance Generation (n=500) for EAX vs. LKH",
+        "dimensionality": "500 nodes"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged",
+          "feature-space coverage"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Quality Diversity (QD) with disruptive mutations"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean number of boxes covered and PAR10 ratio",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "TSP Instance Generation (n=500) for EAX vs. LKH",
+        "dimensionality": "500 nodes"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged",
+          "feature-space coverage"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(1+1) EA with disruptive mutations"
+      },
+      "parameters": {
+        "population_size": 1,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean number of boxes covered and PAR10 ratio",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "TSP Instance Generation (n=500) for EAX vs. LKH",
+        "dimensionality": "500 nodes"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged",
+          "feature-space coverage"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(50+1) EA-HV with disruptive mutations"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean number of boxes covered and PAR10 ratio",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

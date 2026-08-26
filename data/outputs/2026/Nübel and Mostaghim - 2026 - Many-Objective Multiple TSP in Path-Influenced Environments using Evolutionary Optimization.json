@@ -1,0 +1,280 @@
+{
+  "metadata": {
+    "title": "Many-Objective Multiple TSP in Path-Influenced Environments Using Evolutionary Optimization",
+    "authors": [
+      "Carlo Nübel",
+      "Sanaz Mostaghim"
+    ],
+    "year": 2026,
+    "source_file": "Nübel and Mostaghim - 2026 - Many-Objective Multiple TSP in Path-Influenced Environments using Evolutionary Optimization.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-agent pathfinding and task allocation with movable obstacles"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Many-Objective Multiple Traveling Salesperson Problem in Path-Influenced Environments (MTSP-PIE)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "path-influenced",
+          "obstacle-shifting",
+          "many-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV), GD+, IGDplus",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-agent pathfinding and task allocation with movable obstacles"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Many-Objective Multiple Traveling Salesperson Problem in Path-Influenced Environments (MTSP-PIE)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "path-influenced",
+          "obstacle-shifting",
+          "many-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-III"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV), GD+, IGDplus",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-agent pathfinding and task allocation with movable obstacles"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Many-Objective Multiple Traveling Salesperson Problem in Path-Influenced Environments (MTSP-PIE)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "path-influenced",
+          "obstacle-shifting",
+          "many-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AGE-MOEA-II"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV), GD+, IGDplus",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-agent pathfinding and task allocation with movable obstacles"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Many-Objective Multiple Traveling Salesperson Problem in Path-Influenced Environments (MTSP-PIE)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "path-influenced",
+          "obstacle-shifting",
+          "many-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RVEA"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV), GD+, IGDplus",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-agent pathfinding and task allocation with movable obstacles"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Many-Objective Multiple Traveling Salesperson Problem in Path-Influenced Environments (MTSP-PIE)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "path-influenced",
+          "obstacle-shifting",
+          "many-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CTAEA"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV), GD+, IGDplus",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-agent pathfinding and task allocation with movable obstacles"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Many-Objective Multiple Traveling Salesperson Problem in Path-Influenced Environments (MTSP-PIE)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "path-influenced",
+          "obstacle-shifting",
+          "many-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV), GD+, IGDplus",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-agent pathfinding and task allocation with movable obstacles"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Many-Objective Multiple Traveling Salesperson Problem in Path-Influenced Environments (MTSP-PIE)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "path-influenced",
+          "obstacle-shifting",
+          "many-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SMS-EMOA"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV), GD+, IGDplus",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

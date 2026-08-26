@@ -1,0 +1,306 @@
+{
+  "metadata": {
+    "title": "Quality Diversity for Multi-task Optimization",
+    "authors": [
+      "Jean-Baptiste Mouret",
+      "Glenn Maguire"
+    ],
+    "year": 2020,
+    "source_file": "Mouret and Maguire - 2020 - Quality diversity for multi-task optimization.pdf",
+    "gecco_track": "Genetic and Evolutionary Computation Conference"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating kinematic arm control"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Planar Kinematic Arm",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "continuous",
+          "kinematic"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-task MAP-Elites"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean fitness over the whole map",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating kinematic arm control"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Planar Kinematic Arm",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "continuous",
+          "kinematic"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ES"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean fitness over the whole map",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating kinematic arm control"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Planar Kinematic Arm",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "continuous",
+          "kinematic"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Vanilla MAP-Elites (all tasks)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean fitness over the whole map",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating kinematic arm control"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Planar Kinematic Arm",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "continuous",
+          "kinematic"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Vanilla MAP-Elites (random task)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean fitness over the whole map",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Six-legged robot locomotion gait optimization"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Six-Legged Locomotion",
+        "dimensionality": "36D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "noisy",
+          "discontinuous gradient"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-task MAP-Elites"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean fitness for all tasks",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Six-legged robot locomotion gait optimization"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Six-Legged Locomotion",
+        "dimensionality": "36D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "noisy",
+          "discontinuous gradient"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ES"
+      },
+      "parameters": {
+        "population_size": 14,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean fitness for all tasks",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Six-legged robot locomotion gait optimization"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Six-Legged Locomotion",
+        "dimensionality": "36D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "noisy",
+          "discontinuous gradient"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Vanilla MAP-Elites (all tasks)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean fitness for all tasks",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Six-legged robot locomotion gait optimization"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Six-Legged Locomotion",
+        "dimensionality": "36D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "noisy",
+          "discontinuous gradient"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Vanilla MAP-Elites (random task)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean fitness for all tasks",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

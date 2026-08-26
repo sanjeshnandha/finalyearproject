@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "title": "Multi-objective QUBO Solver: Bi-objective Quadratic Assignment Problem",
+    "authors": [
+      "Mayowa Ayodele",
+      "Richard Allmendinger",
+      "Manuel López-Ibáñez",
+      "Matthieu Parizy"
+    ],
+    "year": 2022,
+    "source_file": "Ayodele et al. - 2022 - Multi-objective QUBO solver bi-objective quadratic assignment problem.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "qapStr",
+        "source_platform": "https://eden.dei.uc.pt/~paquete/qap/"
+      },
+      "the_benchmark_problem": {
+        "name": "Bi-objective Quadratic Assignment Problem",
+        "dimensionality": "625D, 2500D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "constrained",
+          "quadratic",
+          "binary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Scalarisation-Based Digital Annealer (SB-DA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "qapStr",
+        "source_platform": "https://eden.dei.uc.pt/~paquete/qap/"
+      },
+      "the_benchmark_problem": {
+        "name": "Bi-objective Quadratic Assignment Problem",
+        "dimensionality": "625D, 2500D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "constrained",
+          "quadratic",
+          "binary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-objective Digital Annealer (MDA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

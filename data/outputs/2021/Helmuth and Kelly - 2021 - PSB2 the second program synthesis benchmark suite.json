@@ -1,0 +1,914 @@
+{
+  "metadata": {
+    "title": "PSB2: The Second Program Synthesis Benchmark Suite",
+    "authors": [
+      "Thomas Helmuth",
+      "Peter Kelly"
+    ],
+    "year": 2021,
+    "source_file": "Helmuth and Kelly - 2021 - PSB2 the second program synthesis benchmark suite.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating program synthesis landscapes"
+      },
+      "the_database": {
+        "dataset_name": "PSB2 Dataset",
+        "source_platform": "Zenodo"
+      },
+      "the_benchmark_problem": {
+        "name": "Basement",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "requires iteration",
+          "requires conditional execution"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PushGP"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (number of runs out of 100 that pass all training and test cases)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating program synthesis landscapes"
+      },
+      "the_database": {
+        "dataset_name": "PSB2 Dataset",
+        "source_platform": "Zenodo"
+      },
+      "the_benchmark_problem": {
+        "name": "Bouncing Balls",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "requires iteration",
+          "requires conditional execution"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PushGP"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (number of runs out of 100 that pass all training and test cases)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating program synthesis landscapes"
+      },
+      "the_database": {
+        "dataset_name": "PSB2 Dataset",
+        "source_platform": "Zenodo"
+      },
+      "the_benchmark_problem": {
+        "name": "Bowling",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "requires iteration",
+          "requires conditional execution"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PushGP"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (number of runs out of 100 that pass all training and test cases)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating program synthesis landscapes"
+      },
+      "the_database": {
+        "dataset_name": "PSB2 Dataset",
+        "source_platform": "Zenodo"
+      },
+      "the_benchmark_problem": {
+        "name": "Camel Case",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "requires iteration",
+          "requires conditional execution"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PushGP"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (number of runs out of 100 that pass all training and test cases)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating program synthesis landscapes"
+      },
+      "the_database": {
+        "dataset_name": "PSB2 Dataset",
+        "source_platform": "Zenodo"
+      },
+      "the_benchmark_problem": {
+        "name": "Coin Sums",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "requires iteration",
+          "requires conditional execution"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PushGP"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (number of runs out of 100 that pass all training and test cases)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating program synthesis landscapes"
+      },
+      "the_database": {
+        "dataset_name": "PSB2 Dataset",
+        "source_platform": "Zenodo"
+      },
+      "the_benchmark_problem": {
+        "name": "Cut Vector",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "requires iteration",
+          "requires conditional execution"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PushGP"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (number of runs out of 100 that pass all training and test cases)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating program synthesis landscapes"
+      },
+      "the_database": {
+        "dataset_name": "PSB2 Dataset",
+        "source_platform": "Zenodo"
+      },
+      "the_benchmark_problem": {
+        "name": "Dice Game",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "requires iteration",
+          "requires conditional execution"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PushGP"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (number of runs out of 100 that pass all training and test cases)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating program synthesis landscapes"
+      },
+      "the_database": {
+        "dataset_name": "PSB2 Dataset",
+        "source_platform": "Zenodo"
+      },
+      "the_benchmark_problem": {
+        "name": "Find Pair",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "requires iteration",
+          "requires conditional execution"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PushGP"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (number of runs out of 100 that pass all training and test cases)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating program synthesis landscapes"
+      },
+      "the_database": {
+        "dataset_name": "PSB2 Dataset",
+        "source_platform": "Zenodo"
+      },
+      "the_benchmark_problem": {
+        "name": "Fizz Buzz",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "requires iteration",
+          "requires conditional execution"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PushGP"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (number of runs out of 100 that pass all training and test cases)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating program synthesis landscapes"
+      },
+      "the_database": {
+        "dataset_name": "PSB2 Dataset",
+        "source_platform": "Zenodo"
+      },
+      "the_benchmark_problem": {
+        "name": "Fuel Cost",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "requires iteration",
+          "requires conditional execution"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PushGP"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (number of runs out of 100 that pass all training and test cases)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating program synthesis landscapes"
+      },
+      "the_database": {
+        "dataset_name": "PSB2 Dataset",
+        "source_platform": "Zenodo"
+      },
+      "the_benchmark_problem": {
+        "name": "GCD",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "requires iteration",
+          "requires conditional execution"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PushGP"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (number of runs out of 100 that pass all training and test cases)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating program synthesis landscapes"
+      },
+      "the_database": {
+        "dataset_name": "PSB2 Dataset",
+        "source_platform": "Zenodo"
+      },
+      "the_benchmark_problem": {
+        "name": "Indices of Substring",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "requires iteration",
+          "requires conditional execution"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PushGP"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (number of runs out of 100 that pass all training and test cases)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating program synthesis landscapes"
+      },
+      "the_database": {
+        "dataset_name": "PSB2 Dataset",
+        "source_platform": "Zenodo"
+      },
+      "the_benchmark_problem": {
+        "name": "Leaders",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "requires iteration",
+          "requires conditional execution"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PushGP"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (number of runs out of 100 that pass all training and test cases)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating program synthesis landscapes"
+      },
+      "the_database": {
+        "dataset_name": "PSB2 Dataset",
+        "source_platform": "Zenodo"
+      },
+      "the_benchmark_problem": {
+        "name": "Luhn",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "requires iteration",
+          "requires conditional execution"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PushGP"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (number of runs out of 100 that pass all training and test cases)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating program synthesis landscapes"
+      },
+      "the_database": {
+        "dataset_name": "PSB2 Dataset",
+        "source_platform": "Zenodo"
+      },
+      "the_benchmark_problem": {
+        "name": "Mastermind",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "requires iteration",
+          "requires conditional execution"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PushGP"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (number of runs out of 100 that pass all training and test cases)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating program synthesis landscapes"
+      },
+      "the_database": {
+        "dataset_name": "PSB2 Dataset",
+        "source_platform": "Zenodo"
+      },
+      "the_benchmark_problem": {
+        "name": "Middle Character",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "requires iteration",
+          "requires conditional execution"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PushGP"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (number of runs out of 100 that pass all training and test cases)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating program synthesis landscapes"
+      },
+      "the_database": {
+        "dataset_name": "PSB2 Dataset",
+        "source_platform": "Zenodo"
+      },
+      "the_benchmark_problem": {
+        "name": "Paired Digits",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "requires iteration",
+          "requires conditional execution"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PushGP"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (number of runs out of 100 that pass all training and test cases)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating program synthesis landscapes"
+      },
+      "the_database": {
+        "dataset_name": "PSB2 Dataset",
+        "source_platform": "Zenodo"
+      },
+      "the_benchmark_problem": {
+        "name": "Shopping List",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "requires iteration",
+          "requires conditional execution"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PushGP"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (number of runs out of 100 that pass all training and test cases)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating program synthesis landscapes"
+      },
+      "the_database": {
+        "dataset_name": "PSB2 Dataset",
+        "source_platform": "Zenodo"
+      },
+      "the_benchmark_problem": {
+        "name": "Snow Day",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "requires iteration",
+          "requires conditional execution"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PushGP"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (number of runs out of 100 that pass all training and test cases)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating program synthesis landscapes"
+      },
+      "the_database": {
+        "dataset_name": "PSB2 Dataset",
+        "source_platform": "Zenodo"
+      },
+      "the_benchmark_problem": {
+        "name": "Solve Boolean",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "requires iteration",
+          "requires conditional execution"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PushGP"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (number of runs out of 100 that pass all training and test cases)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating program synthesis landscapes"
+      },
+      "the_database": {
+        "dataset_name": "PSB2 Dataset",
+        "source_platform": "Zenodo"
+      },
+      "the_benchmark_problem": {
+        "name": "Spin Words",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "requires iteration",
+          "requires conditional execution"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PushGP"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (number of runs out of 100 that pass all training and test cases)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating program synthesis landscapes"
+      },
+      "the_database": {
+        "dataset_name": "PSB2 Dataset",
+        "source_platform": "Zenodo"
+      },
+      "the_benchmark_problem": {
+        "name": "Square Digits",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "requires iteration",
+          "requires conditional execution"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PushGP"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (number of runs out of 100 that pass all training and test cases)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating program synthesis landscapes"
+      },
+      "the_database": {
+        "dataset_name": "PSB2 Dataset",
+        "source_platform": "Zenodo"
+      },
+      "the_benchmark_problem": {
+        "name": "Substitution Cipher",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "requires iteration",
+          "requires conditional execution"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PushGP"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (number of runs out of 100 that pass all training and test cases)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating program synthesis landscapes"
+      },
+      "the_database": {
+        "dataset_name": "PSB2 Dataset",
+        "source_platform": "Zenodo"
+      },
+      "the_benchmark_problem": {
+        "name": "Twitter",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "requires iteration",
+          "requires conditional execution"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PushGP"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (number of runs out of 100 that pass all training and test cases)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating program synthesis landscapes"
+      },
+      "the_database": {
+        "dataset_name": "PSB2 Dataset",
+        "source_platform": "Zenodo"
+      },
+      "the_benchmark_problem": {
+        "name": "Vector Distance",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "requires iteration",
+          "requires conditional execution"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PushGP"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (number of runs out of 100 that pass all training and test cases)",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

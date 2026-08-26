@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "title": "PLAN: A Leafcutter Ant Colony Optimization Algorithm for Ride-Hailing Services",
+    "authors": [
+      "Anoushka Alavilli",
+      "Mai Vu"
+    ],
+    "year": 2022,
+    "source_file": "Alavilli and Vu - 2022 - PLAN a leafcutter ant colony optimization algorithm for ride-hailing services.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Ride-hailing vehicle allocation and routing"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Model City Simulation",
+        "dimensionality": "9 nodes"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "network flow",
+          "dynamic demand",
+          "hot spots"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PLAN (Predictive Leafcutter Ant optimization for Networks)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average fulfillment cost and customer wait time",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Ride-hailing vehicle allocation and routing"
+      },
+      "the_database": {
+        "dataset_name": "NYC Yellow Taxi Trip Data",
+        "source_platform": "NYC OpenData"
+      },
+      "the_benchmark_problem": {
+        "name": "NYC Morning Commute",
+        "dimensionality": "9 clusters"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "real-world demand",
+          "hot spots",
+          "K-means clustered"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PLAN (Predictive Leafcutter Ant optimization for Networks)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average wait time and wait time reduction",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,419 @@
+{
+  "metadata": {
+    "title": "Feature Standardisation and Coefficient Optimisation for Effective Symbolic Regression",
+    "authors": [
+      "Grant Dick",
+      "Caitlin A. Owen",
+      "Peter A. Whigham"
+    ],
+    "year": 2020,
+    "source_file": "Dick et al. - 2020 - Feature standardisation and coefficient optimisation for effective symbolic regression.pdf",
+    "gecco_track": "Genetic Programming"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Friedman 1",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-linear"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GP_ZGD"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Root Relative Squared Error (RRSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Friedman 1",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-linear"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ADGSGP"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Root Relative Squared Error (RRSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Pagie 1",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "grid-based"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GP_ZGD"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Root Relative Squared Error (RRSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Pagie 1",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "grid-based"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ADGSGP"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Root Relative Squared Error (RRSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Biology/Agriculture",
+        "problem_context": "Predicting abalone age from physical measurements"
+      },
+      "the_database": {
+        "dataset_name": "Abalone",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Abalone",
+        "dimensionality": "9D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GP_ZGD"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Root Relative Squared Error (RRSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Biology/Agriculture",
+        "problem_context": "Predicting abalone age from physical measurements"
+      },
+      "the_database": {
+        "dataset_name": "Abalone",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Abalone",
+        "dimensionality": "9D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ADGSGP"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Root Relative Squared Error (RRSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Real Estate",
+        "problem_context": "Predicting housing prices in Boston suburbs"
+      },
+      "the_database": {
+        "dataset_name": "Boston Housing",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Boston Housing",
+        "dimensionality": "13D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GP_ZGD"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Root Relative Squared Error (RRSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Real Estate",
+        "problem_context": "Predicting housing prices in Boston suburbs"
+      },
+      "the_database": {
+        "dataset_name": "Boston Housing",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Boston Housing",
+        "dimensionality": "13D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ADGSGP"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Root Relative Squared Error (RRSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Predicting compressive strength of concrete"
+      },
+      "the_database": {
+        "dataset_name": "Concrete Compressive Strength",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Concrete Strength",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GP_ZGD"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Root Relative Squared Error (RRSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Predicting compressive strength of concrete"
+      },
+      "the_database": {
+        "dataset_name": "Concrete Compressive Strength",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Concrete Strength",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ADGSGP"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Root Relative Squared Error (RRSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Predicting Parkinson's disease symptom score"
+      },
+      "the_database": {
+        "dataset_name": "Parkinsons Telemonitoring",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Parkinsons",
+        "dimensionality": "19D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GP_ZGD"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Root Relative Squared Error (RRSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Predicting Parkinson's disease symptom score"
+      },
+      "the_database": {
+        "dataset_name": "Parkinsons Telemonitoring",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Parkinsons",
+        "dimensionality": "19D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ADGSGP"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Root Relative Squared Error (RRSE)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

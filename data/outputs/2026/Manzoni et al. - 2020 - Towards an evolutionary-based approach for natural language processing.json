@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "title": "Towards an evolutionary-based approach for natural language processing",
+    "authors": [
+      "Luca Manzoni",
+      "Domagoj Jakobovic",
+      "Luca Mariot",
+      "Stjepan Picek",
+      "Mauro Castelli"
+    ],
+    "year": 2020,
+    "source_file": "Manzoni et al. - 2020 - Towards an evolutionary-based approach for natural language processing.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Information Technology",
+        "problem_context": "Next word prediction in newspaper headlines"
+      },
+      "the_database": {
+        "dataset_name": "Million News Headlines (MNH) dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Next word prediction",
+        "dimensionality": "Variable (10D, 15D, 20D, 25D, 50D, 100D)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.3,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Cosine similarity",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

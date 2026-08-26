@@ -1,0 +1,111 @@
+2026-08-23 10:43:46.403 | INFO     | gecco_pipeline.extractor:__init__:32 - Initialized GeccoExtractor with model: gemini-3.5-flash and 3 API keys
+2026-08-23 10:43:46.403 | INFO     | gecco_pipeline.processor:__init__:57 - BatchProcessor initialized
+2026-08-23 10:43:46.404 | INFO     | gecco_pipeline.utils:discover_pdfs:62 - Discovered 98 PDF files in data/pdfs/2021
+2026-08-23 10:43:46.405 | INFO     | gecco_pipeline.processor:process_batch:129 - Skipping 70 already-processed PDFs
+2026-08-23 10:43:46.405 | INFO     | gecco_pipeline.processor:process_batch:145 - Processing 28 PDFs...
+2026-08-23 10:43:46.415 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Paolo et al. - 2021 - Sparse reward exploration via novelty search and emitters.pdf
+2026-08-23 10:43:46.415 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Paolo et al. - 2021 - Sparse reward exploration via novelty search and emitters.pdf to Gemini File API...
+2026-08-23 10:43:58.006 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/z8q5vfxkxy0s
+2026-08-23 10:44:38.931 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 24 entries from Paolo et al. - 2021 - Sparse reward exploration via novelty search and emitters.pdf
+2026-08-23 10:44:38.935 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Paolo et al. - 2021 - Sparse reward exploration via novelty search and emitters.json
+2026-08-23 10:44:38.935 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Pei et al. - 2021 - Genetic programming for borderline instance detection in high-dimensional unbalanced classification.pdf
+2026-08-23 10:44:38.935 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Pei et al. - 2021 - Genetic programming for borderline instance detection in high-dimensional unbalanced classification.pdf to Gemini File API...
+2026-08-23 10:44:52.636 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/ubcip8rij7wl
+2026-08-23 10:45:25.560 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 12 entries from Pei et al. - 2021 - Genetic programming for borderline instance detection in high-dimensional unbalanced classification.pdf
+2026-08-23 10:45:25.564 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Pei et al. - 2021 - Genetic programming for borderline instance detection in high-dimensional unbalanced classification.json
+2026-08-23 10:45:25.566 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Qing et al. - 2021 - Cooperative coevolutionary multiobjective genetic programming for microarray data classification.pdf
+2026-08-23 10:45:25.566 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Qing et al. - 2021 - Cooperative coevolutionary multiobjective genetic programming for microarray data classification.pdf to Gemini File API...
+2026-08-23 10:45:30.930 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/18my8dseswgi
+2026-08-23 10:45:59.718 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 8 entries from Qing et al. - 2021 - Cooperative coevolutionary multiobjective genetic programming for microarray data classification.pdf
+2026-08-23 10:45:59.723 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Qing et al. - 2021 - Cooperative coevolutionary multiobjective genetic programming for microarray data classification.json
+2026-08-23 10:45:59.724 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Ranzato and Zanella - 2021 - Genetic adversarial training of decision trees.pdf
+2026-08-23 10:45:59.725 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Ranzato and Zanella - 2021 - Genetic adversarial training of decision trees.pdf to Gemini File API...
+2026-08-23 10:46:08.493 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/f0nqvd0qshba
+2026-08-23 10:46:47.372 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 11 entries from Ranzato and Zanella - 2021 - Genetic adversarial training of decision trees.pdf
+2026-08-23 10:46:47.378 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Ranzato and Zanella - 2021 - Genetic adversarial training of decision trees.json
+2026-08-23 10:46:47.380 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Ritt and Benavides - 2021 - The tiebreaking space of constructive heuristics for the permutation flowshop minimizing makespan.pdf
+2026-08-23 10:46:47.380 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Ritt and Benavides - 2021 - The tiebreaking space of constructive heuristics for the permutation flowshop minimizing makespan.pdf to Gemini File API...
+2026-08-23 10:46:58.014 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/c77gg25i865q
+2026-08-23 10:47:21.089 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 2 entries from Ritt and Benavides - 2021 - The tiebreaking space of constructive heuristics for the permutation flowshop minimizing makespan.pdf
+2026-08-23 10:47:21.094 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Ritt and Benavides - 2021 - The tiebreaking space of constructive heuristics for the permutation flowshop minimizing makespan.json
+2026-08-23 10:47:21.097 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Ruberto et al. - 2021 - Towards effective GP multi-class classification based on dynamic targets.pdf
+2026-08-23 10:47:21.097 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Ruberto et al. - 2021 - Towards effective GP multi-class classification based on dynamic targets.pdf to Gemini File API...
+2026-08-23 10:47:34.938 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/q3w6yxr0ofx4
+2026-08-23 10:48:08.412 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 8 entries from Ruberto et al. - 2021 - Towards effective GP multi-class classification based on dynamic targets.pdf
+2026-08-23 10:48:08.416 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Ruberto et al. - 2021 - Towards effective GP multi-class classification based on dynamic targets.json
+2026-08-23 10:48:08.419 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Sachdeva et al. - 2021 - MAEDyS multiagent evolution via dynamic skill selection.pdf
+2026-08-23 10:48:08.419 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Sachdeva et al. - 2021 - MAEDyS multiagent evolution via dynamic skill selection.pdf to Gemini File API...
+2026-08-23 10:48:33.054 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/7e0ktrzijnw7
+2026-08-23 10:48:57.334 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 3 entries from Sachdeva et al. - 2021 - MAEDyS multiagent evolution via dynamic skill selection.pdf
+2026-08-23 10:48:57.340 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Sachdeva et al. - 2021 - MAEDyS multiagent evolution via dynamic skill selection.json
+2026-08-23 10:48:57.340 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Salehi et al. - 2021 - BR-NS an archive-less approach to novelty search.pdf
+2026-08-23 10:48:57.341 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Salehi et al. - 2021 - BR-NS an archive-less approach to novelty search.pdf to Gemini File API...
+2026-08-23 10:49:20.996 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/byysmotrli0o
+2026-08-23 10:49:43.976 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 4 entries from Salehi et al. - 2021 - BR-NS an archive-less approach to novelty search.pdf
+2026-08-23 10:49:43.989 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Salehi et al. - 2021 - BR-NS an archive-less approach to novelty search.json
+2026-08-23 10:49:43.991 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Sfikas et al. - 2021 - Monte Carlo elites quality-diversity selection as a multi-armed bandit problem.pdf
+2026-08-23 10:49:43.991 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Sfikas et al. - 2021 - Monte Carlo elites quality-diversity selection as a multi-armed bandit problem.pdf to Gemini File API...
+2026-08-23 10:50:01.852 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/4az9c0qcei42
+2026-08-23 10:50:48.883 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 27 entries from Sfikas et al. - 2021 - Monte Carlo elites quality-diversity selection as a multi-armed bandit problem.pdf
+2026-08-23 10:50:48.890 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Sfikas et al. - 2021 - Monte Carlo elites quality-diversity selection as a multi-armed bandit problem.json
+2026-08-23 10:50:48.892 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Shang et al. - 2021 - Distance-based subset selection revisited.pdf
+2026-08-23 10:50:48.892 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Shang et al. - 2021 - Distance-based subset selection revisited.pdf to Gemini File API...
+2026-08-23 10:51:29.652 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/wctjld1tqoc8
+2026-08-23 10:51:50.630 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 3 entries from Shang et al. - 2021 - Distance-based subset selection revisited.pdf
+2026-08-23 10:51:50.634 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Shang et al. - 2021 - Distance-based subset selection revisited.json
+2026-08-23 10:51:50.635 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Shlapentokh-Rothman et al. - 2021 - Coevolutionary modeling of cyber attack patterns and mitigations using public datasets.pdf
+2026-08-23 10:51:50.635 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Shlapentokh-Rothman et al. - 2021 - Coevolutionary modeling of cyber attack patterns and mitigations using public datasets.pdf to Gemini File API...
+2026-08-23 10:51:55.600 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/6hswj1uf8ozq
+2026-08-23 10:52:32.729 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 10 entries from Shlapentokh-Rothman et al. - 2021 - Coevolutionary modeling of cyber attack patterns and mitigations using public datasets.pdf
+2026-08-23 10:52:32.730 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Shlapentokh-Rothman et al. - 2021 - Coevolutionary modeling of cyber attack patterns and mitigations using public datasets.json
+2026-08-23 10:52:32.730 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Sobania and Rothlauf - 2021 - A generalizability measure for program synthesis with genetic programming.pdf
+2026-08-23 10:52:32.730 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Sobania and Rothlauf - 2021 - A generalizability measure for program synthesis with genetic programming.pdf to Gemini File API...
+2026-08-23 10:52:42.781 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/84dedk46409n
+2026-08-23 10:52:43.479 | WARNING  | gecco_pipeline.extractor:_call_with_retry:204 - Rate limit hit for Sobania and Rothlauf - 2021 - A generalizability measure for program synthesis with genetic programming.pdf: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\nPlease retry in 16.467530229s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '16s'}]}}
+2026-08-23 10:52:43.480 | WARNING  | gecco_pipeline.extractor:_rotate_key:44 - Rotating to API key index 1
+2026-08-23 10:52:43.514 | INFO     | gecco_pipeline.extractor:_call_with_retry:206 - Retrying with new API key...
+2026-08-23 10:52:43.515 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Sobania and Rothlauf - 2021 - A generalizability measure for program synthesis with genetic programming.pdf to Gemini File API...
+2026-08-23 10:52:54.680 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/wqad0l6ymdf1
+2026-08-23 10:53:34.246 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 21 entries from Sobania and Rothlauf - 2021 - A generalizability measure for program synthesis with genetic programming.pdf
+2026-08-23 10:53:34.253 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Sobania and Rothlauf - 2021 - A generalizability measure for program synthesis with genetic programming.json
+2026-08-23 10:53:34.256 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Spanellis et al. - 2021 - The Environment and Body-Brain Complexity.pdf
+2026-08-23 10:53:34.256 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Spanellis et al. - 2021 - The Environment and Body-Brain Complexity.pdf to Gemini File API...
+2026-08-23 10:53:45.379 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/ulmrr875q7zj
+2026-08-23 10:54:07.501 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 2 entries from Spanellis et al. - 2021 - The Environment and Body-Brain Complexity.pdf
+2026-08-23 10:54:07.503 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Spanellis et al. - 2021 - The Environment and Body-Brain Complexity.json
+2026-08-23 10:54:07.504 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Szczepanski et al. - 2021 - A hybrid CPMOLS approach for multi-objective imbalanced classification.pdf
+2026-08-23 10:54:07.504 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Szczepanski et al. - 2021 - A hybrid CPMOLS approach for multi-objective imbalanced classification.pdf to Gemini File API...
+2026-08-23 10:54:16.354 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/doof6fk5hruk
+2026-08-23 10:54:58.900 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 18 entries from Szczepanski et al. - 2021 - A hybrid CPMOLS approach for multi-objective imbalanced classification.pdf
+2026-08-23 10:54:58.903 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Szczepanski et al. - 2021 - A hybrid CPMOLS approach for multi-objective imbalanced classification.json
+2026-08-23 10:54:58.903 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Tari and Ochoa - 2021 - Local search pivoting rules and the landscape global structure.pdf
+2026-08-23 10:54:58.903 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Tari and Ochoa - 2021 - Local search pivoting rules and the landscape global structure.pdf to Gemini File API...
+2026-08-23 10:55:09.648 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/77e4cb05jxvr
+2026-08-23 10:55:39.713 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 10 entries from Tari and Ochoa - 2021 - Local search pivoting rules and the landscape global structure.pdf
+2026-08-23 10:55:39.716 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Tari and Ochoa - 2021 - Local search pivoting rules and the landscape global structure.json
+2026-08-23 10:55:39.716 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Taylor et al. - 2021 - Bayesian preference learning for interactive multi-objective optimisation.pdf
+2026-08-23 10:55:39.716 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Taylor et al. - 2021 - Bayesian preference learning for interactive multi-objective optimisation.pdf to Gemini File API...
+2026-08-23 10:56:17.874 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/r44de82frgc2
+2026-08-23 10:57:11.904 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 28 entries from Taylor et al. - 2021 - Bayesian preference learning for interactive multi-objective optimisation.pdf
+2026-08-23 10:57:11.909 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Taylor et al. - 2021 - Bayesian preference learning for interactive multi-objective optimisation.json
+2026-08-23 10:57:11.910 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Tisdale et al. - 2021 - Directing evolution the automated design of evolutionary pathways using directed graphs.pdf
+2026-08-23 10:57:11.910 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Tisdale et al. - 2021 - Directing evolution the automated design of evolutionary pathways using directed graphs.pdf to Gemini File API...
+2026-08-23 10:58:07.366 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/uf3i7zbkqmvu
+2026-08-23 10:59:11.812 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 10 entries from Tisdale et al. - 2021 - Directing evolution the automated design of evolutionary pathways using directed graphs.pdf
+2026-08-23 10:59:11.820 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Tisdale et al. - 2021 - Directing evolution the automated design of evolutionary pathways using directed graphs.json
+2026-08-23 10:59:11.821 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Tomczyk and Kadziński - 2021 - Interactive evolutionary multiple objective optimization algorithm using a fast calculation of holis.pdf
+2026-08-23 10:59:11.822 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Tomczyk and Kadziński - 2021 - Interactive evolutionary multiple objective optimization algorithm using a fast calculation of holis.pdf to Gemini File API...
+2026-08-23 10:59:39.696 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/pswxg3vyz6pl
+2026-08-23 11:00:06.421 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 3 entries from Tomczyk and Kadziński - 2021 - Interactive evolutionary multiple objective optimization algorithm using a fast calculation of holis.pdf
+2026-08-23 11:00:06.425 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Tomczyk and Kadziński - 2021 - Interactive evolutionary multiple objective optimization algorithm using a fast calculation of holis.json
+2026-08-23 11:00:06.427 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Tornede et al. - 2021 - Coevolution of remaining useful lifetime estimation pipelines for automated predictive maintenance.pdf
+2026-08-23 11:00:06.427 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Tornede et al. - 2021 - Coevolution of remaining useful lifetime estimation pipelines for automated predictive maintenance.pdf to Gemini File API...
+2026-08-23 11:15:34.451 | ERROR    | gecco_pipeline.extractor:_upload_pdf:137 - Failed to upload Tornede et al. - 2021 - Coevolution of remaining useful lifetime estimation pipelines for automated predictive maintenance.pdf: [Errno 54] Connection reset by peer
+2026-08-23 11:15:34.452 | WARNING  | gecco_pipeline.extractor:_call_with_retry:219 - Attempt 1/3 failed for Tornede et al. - 2021 - Coevolution of remaining useful lifetime estimation pipelines for automated predictive maintenance.pdf: [Errno 54] Connection reset by peer. Retrying in 2.6s...
+2026-08-23 11:15:37.069 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Tornede et al. - 2021 - Coevolution of remaining useful lifetime estimation pipelines for automated predictive maintenance.pdf to Gemini File API...
+2026-08-23 11:15:42.290 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/z33rve21uauh
+2026-08-23 11:16:07.873 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 5 entries from Tornede et al. - 2021 - Coevolution of remaining useful lifetime estimation pipelines for automated predictive maintenance.pdf
+2026-08-23 11:16:07.874 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Tornede et al. - 2021 - Coevolution of remaining useful lifetime estimation pipelines for automated predictive maintenance.json
+2026-08-23 11:16:07.875 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Toutouh and O'Reilly - 2021 - Signal propagation in a gradient-based and evolutionary learning system.pdf
+2026-08-23 11:16:07.875 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Toutouh and O'Reilly - 2021 - Signal propagation in a gradient-based and evolutionary learning system.pdf to Gemini File API...
+2026-08-23 11:16:31.997 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/6a91lwo56qy3

@@ -1,0 +1,278 @@
+{
+  "metadata": {
+    "title": "Introducing Vectorized Cluster Crossover in Grammatical Evolution",
+    "authors": [
+      "Michał Kowalczykiewicz",
+      "Piotr Lipiński"
+    ],
+    "year": 2024,
+    "source_file": "Kowalczykiewicz and Lipiński - 2024 - Introducing vectorized cluster crossover in Grammatical Evolution.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Symbolic Regression"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Benchmark I",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammatical Evolution"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.025,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean fitness",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Symbolic Regression"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Benchmark I",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammatical Evolution with ClusterCrossover"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.025,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean fitness",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Symbolic Regression"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Benchmark II",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammatical Evolution"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.025,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean fitness",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Symbolic Regression"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Benchmark II",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammatical Evolution with ClusterCrossover"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.025,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean fitness",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Symbolic Regression"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Benchmark III",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammatical Evolution"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.025,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Symbolic Regression"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Benchmark III",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammatical Evolution with ClusterCrossover"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.025,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Symbolic Regression"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Benchmark IV",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammatical Evolution"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.025,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean fitness",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Symbolic Regression"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Benchmark IV",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammatical Evolution with ClusterCrossover"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.025,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean fitness",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

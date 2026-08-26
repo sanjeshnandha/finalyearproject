@@ -1,0 +1,322 @@
+{
+  "metadata": {
+    "title": "On the Use of Bi-Objective Evolutionary Algorithms for the Stochastic Multiple Knapsack Problem under Dynamic Constraints",
+    "authors": [
+      "Ishara Hewa Pathiranage",
+      "Aneta Neumann"
+    ],
+    "year": 2026,
+    "source_file": "Hewa Pathiranage and Neumann - 2026 - On the Use of Bi-Objective Evolutionary Algorithms for the Stochastic Multiple Knapsack Problem unde.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "FK1, FK3, FK4 benchmark instances",
+        "source_platform": "https://site.unibo.it/operations-research/en/research/library-of-codes-and-instances-1"
+      },
+      "the_benchmark_problem": {
+        "name": "Chance Constrained Multiple Knapsack Problem (CC-MKP)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stochastic",
+          "constrained",
+          "combinatorial",
+          "NP-hard"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": null,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Best obtained profit",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "FK1, FK3, FK4 benchmark instances",
+        "source_platform": "https://site.unibo.it/operations-research/en/research/library-of-codes-and-instances-1"
+      },
+      "the_benchmark_problem": {
+        "name": "Chance Constrained Multiple Knapsack Problem (CC-MKP)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stochastic",
+          "constrained",
+          "combinatorial",
+          "NP-hard"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": null,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Best obtained profit",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "FK1, FK3, FK4 benchmark instances",
+        "source_platform": "https://site.unibo.it/operations-research/en/research/library-of-codes-and-instances-1"
+      },
+      "the_benchmark_problem": {
+        "name": "Chance Constrained Multiple Knapsack Problem (CC-MKP)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stochastic",
+          "constrained",
+          "combinatorial",
+          "NP-hard"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-III"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": null,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Best obtained profit",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "FK1, FK3, FK4 benchmark instances",
+        "source_platform": "https://site.unibo.it/operations-research/en/research/library-of-codes-and-instances-1"
+      },
+      "the_benchmark_problem": {
+        "name": "Chance Constrained Multiple Knapsack Problem (CC-MKP)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stochastic",
+          "constrained",
+          "combinatorial",
+          "NP-hard"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SPEA2"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": null,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Best obtained profit",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "FK1, FK3, FK4 benchmark instances",
+        "source_platform": "https://site.unibo.it/operations-research/en/research/library-of-codes-and-instances-1"
+      },
+      "the_benchmark_problem": {
+        "name": "Dynamic Chance Constrained Multiple Knapsack Problem (DCC-MKP)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "dynamic",
+          "stochastic",
+          "constrained",
+          "combinatorial",
+          "NP-hard"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": null,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Average partial offline error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "FK1, FK3, FK4 benchmark instances",
+        "source_platform": "https://site.unibo.it/operations-research/en/research/library-of-codes-and-instances-1"
+      },
+      "the_benchmark_problem": {
+        "name": "Dynamic Chance Constrained Multiple Knapsack Problem (DCC-MKP)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "dynamic",
+          "stochastic",
+          "constrained",
+          "combinatorial",
+          "NP-hard"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": null,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Average partial offline error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "FK1, FK3, FK4 benchmark instances",
+        "source_platform": "https://site.unibo.it/operations-research/en/research/library-of-codes-and-instances-1"
+      },
+      "the_benchmark_problem": {
+        "name": "Dynamic Chance Constrained Multiple Knapsack Problem (DCC-MKP)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "dynamic",
+          "stochastic",
+          "constrained",
+          "combinatorial",
+          "NP-hard"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-III"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": null,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Average partial offline error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "FK1, FK3, FK4 benchmark instances",
+        "source_platform": "https://site.unibo.it/operations-research/en/research/library-of-codes-and-instances-1"
+      },
+      "the_benchmark_problem": {
+        "name": "Dynamic Chance Constrained Multiple Knapsack Problem (DCC-MKP)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "dynamic",
+          "stochastic",
+          "constrained",
+          "combinatorial",
+          "NP-hard"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SPEA2"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": null,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Average partial offline error",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

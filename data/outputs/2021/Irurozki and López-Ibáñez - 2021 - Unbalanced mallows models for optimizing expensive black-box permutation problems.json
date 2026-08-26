@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "title": "Unbalanced Mallows Models for Optimizing Expensive Black-Box Permutation Problems",
+    "authors": [
+      "Ekhine Irurozki",
+      "Manuel López-Ibáñez"
+    ],
+    "year": 2021,
+    "source_file": "Irurozki and López-Ibáñez - 2021 - Unbalanced mallows models for optimizing expensive black-box permutation problems.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "LOLIB repository",
+        "source_platform": "http://grafo.etsii.urjc.es/optsicom/lolib/"
+      },
+      "the_benchmark_problem": {
+        "name": "Linear Ordering Problem (LOP)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged",
+          "permutation landscape"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "UMM (Unbalanced Mallows Model)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 400,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean fitness of the best solution found",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "reC05, reC13, reC19, rec31",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Permutation Flowshop Scheduling Problem (PFSP)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged",
+          "permutation landscape"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "UMM (Unbalanced Mallows Model)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 400,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean fitness of the best solution found",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "LOLIB repository",
+        "source_platform": "http://grafo.etsii.urjc.es/optsicom/lolib/"
+      },
+      "the_benchmark_problem": {
+        "name": "Linear Ordering Problem (LOP)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged",
+          "permutation landscape"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CEGO (Combinatorial Efficient Global Optimization)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 400,
+        "mutation_rate": null,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Mean fitness of the best solution found",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "reC05, reC13, reC19, rec31",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Permutation Flowshop Scheduling Problem (PFSP)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged",
+          "permutation landscape"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CEGO (Combinatorial Efficient Global Optimization)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 400,
+        "mutation_rate": null,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Mean fitness of the best solution found",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

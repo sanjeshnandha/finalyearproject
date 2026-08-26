@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "title": "Accelerating Co-Evolutionary Learning Through Phylogeny-Informed Interaction Estimation",
+    "authors": [
+      "Jack Garbus",
+      "Thomas Willkens",
+      "Alexander Lalejini",
+      "Jordan Pollack"
+    ],
+    "year": 2024,
+    "source_file": "Garbus et al. - 2024 - Accelerating Co-Evolutionary Learning Through Phylogeny-Informed Interaction Estimation.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating co-evolutionary sorting networks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "16-input Sorting Networks",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Co-evolutionary Lexicase Selection with Parents-versus-All Matchmaking"
+      },
+      "parameters": {
+        "population_size": 600,
+        "max_evaluations_or_generations": 100000000,
+        "mutation_rate": null,
+        "crossover_rate": 0.0
+      },
+      "performance_outcome": {
+        "metric": "Average number of swaps of the best sorting network",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating co-evolutionary sorting networks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "16-input Sorting Networks",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Co-evolutionary Lexicase Selection with Random-Cohort Matchmaking"
+      },
+      "parameters": {
+        "population_size": 600,
+        "max_evaluations_or_generations": 100000000,
+        "mutation_rate": null,
+        "crossover_rate": 0.0
+      },
+      "performance_outcome": {
+        "metric": "Average number of swaps of the best sorting network",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating co-evolutionary sorting networks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "16-input Sorting Networks",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Co-evolutionary Lexicase Selection with All-versus-All (Control)"
+      },
+      "parameters": {
+        "population_size": 600,
+        "max_evaluations_or_generations": 100000000,
+        "mutation_rate": null,
+        "crossover_rate": 0.0
+      },
+      "performance_outcome": {
+        "metric": "Average number of swaps of the best sorting network",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

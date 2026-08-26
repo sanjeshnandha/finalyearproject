@@ -1,0 +1,214 @@
+{
+  "metadata": {
+    "title": "Modelling Parameter Configuration Spaces with Local Optima Networks",
+    "authors": [
+      "German Treimun-Costa",
+      "Elizabeth Montero",
+      "Gabriela Ochoa",
+      "Nicolás Rojas-Morales"
+    ],
+    "year": 2020,
+    "source_file": "Treimun-Costa et al. - 2020 - Modelling parameter configuration spaces with local optima networks.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Sphere",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard Genetic Algorithm"
+      },
+      "parameters": {
+        "population_size": 2,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.03,
+        "crossover_rate": 0.0
+      },
+      "performance_outcome": {
+        "metric": "Average number of evaluations to find the global optimum",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rosenbrock",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard Genetic Algorithm"
+      },
+      "parameters": {
+        "population_size": 4,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.06,
+        "crossover_rate": 0.1
+      },
+      "performance_outcome": {
+        "metric": "Average number of evaluations to find the global optimum",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Step",
+        "dimensionality": "5D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard Genetic Algorithm"
+      },
+      "parameters": {
+        "population_size": 18,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.03,
+        "crossover_rate": 0.4
+      },
+      "performance_outcome": {
+        "metric": "Average number of evaluations to find the global optimum",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Schaffer's F6",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard Genetic Algorithm"
+      },
+      "parameters": {
+        "population_size": 8,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.07,
+        "crossover_rate": 0.0
+      },
+      "performance_outcome": {
+        "metric": "Average number of evaluations to find the global optimum",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rastrigin",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard Genetic Algorithm"
+      },
+      "parameters": {
+        "population_size": 2,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.03,
+        "crossover_rate": 0.0
+      },
+      "performance_outcome": {
+        "metric": "Average number of evaluations to find the global optimum",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Schwefel",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard Genetic Algorithm"
+      },
+      "parameters": {
+        "population_size": 4,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.03,
+        "crossover_rate": 0.1
+      },
+      "performance_outcome": {
+        "metric": "Average number of evaluations to find the global optimum",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

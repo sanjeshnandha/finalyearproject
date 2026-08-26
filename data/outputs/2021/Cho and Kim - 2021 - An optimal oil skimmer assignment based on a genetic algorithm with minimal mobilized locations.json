@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "title": "An Optimal Oil Skimmer Assignment Based on a Genetic Algorithm with Minimal Mobilized Locations",
+    "authors": [
+      "Dong-Hee Cho",
+      "Yong-Hyuk Kim"
+    ],
+    "year": 2021,
+    "source_file": "Cho and Kim - 2021 - An optimal oil skimmer assignment based on a genetic algorithm with minimal mobilized locations.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Optimal Oil Skimmer Assignment"
+      },
+      "the_database": {
+        "dataset_name": "19 oil spill scenarios in South Korea",
+        "source_platform": "GEOSR"
+      },
+      "the_benchmark_problem": {
+        "name": "Oil Skimmer Assignment Problem",
+        "dimensionality": "16"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (GA)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 60000,
+        "mutation_rate": 0.001,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average number of mobilization points and work time",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

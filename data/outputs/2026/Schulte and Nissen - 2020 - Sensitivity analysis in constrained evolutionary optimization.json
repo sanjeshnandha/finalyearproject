@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "title": "Sensitivity Analysis in Constrained Evolutionary Optimization",
+    "authors": [
+      "Julian Schulte",
+      "Volker Nissen"
+    ],
+    "year": 2020,
+    "source_file": "Schulte and Nissen - 2020 - Sensitivity analysis in constrained evolutionary optimization.pdf",
+    "gecco_track": "Multi-criterion optimization and decision-making"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "Chu and Beasley MKP benchmark suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multidimensional Knapsack Problem (MKP)",
+        "dimensionality": "100D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (GA)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.02,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Sensitivity analysis of multidimensional knapsack problem"
+      },
+      "the_database": {
+        "dataset_name": "Chu and Beasley MKP benchmark suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Bilevel Multidimensional Knapsack Problem",
+        "dimensionality": "5D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "bilevel",
+          "constrained",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.2,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Pareto-optimal front (profit vs constraint values)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

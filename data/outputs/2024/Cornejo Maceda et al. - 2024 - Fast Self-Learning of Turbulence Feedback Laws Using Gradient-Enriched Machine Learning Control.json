@@ -1,0 +1,240 @@
+{
+  "metadata": {
+    "title": "Fast Self-Learning of Turbulence Feedback Laws Using Gradient-Enriched Machine Learning Control",
+    "authors": [
+      "Guy Y. Cornejo Maceda",
+      "Zhutao Jiang",
+      "François Lusseyran",
+      "Bernd R. Noack"
+    ],
+    "year": 2024,
+    "source_file": "Cornejo Maceda et al. - 2024 - Fast Self-Learning of Turbulence Feedback Laws Using Gradient-Enriched Machine Learning Control.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Stabilizing the flow past a cluster of three rotating cylinders (Fluidic Pinball)"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Fluidic Pinball",
+        "dimensionality": "36D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "nonlinear",
+          "time delays",
+          "high dimensionality"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "gMLC (Gradient-enriched Machine Learning Control)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Cost reduction (J_FP)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Stabilizing the flow past a cluster of three rotating cylinders (Fluidic Pinball)"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Fluidic Pinball",
+        "dimensionality": "36D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "nonlinear",
+          "time delays",
+          "high dimensionality"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MLC (Machine Learning Control)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.6
+      },
+      "performance_outcome": {
+        "metric": "Cost reduction (J_FP)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Stabilizing the oscillations of the shear layer in an open cavity flow experiment (Narrow-bandwidth regime)"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Open Cavity Flow (Narrow-bandwidth regime)",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "nonlinear",
+          "experimental noise"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "gMLC (Gradient-enriched Machine Learning Control)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Cost reduction (J_OC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Stabilizing the oscillations of the shear layer in an open cavity flow experiment (Narrow-bandwidth regime)"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Open Cavity Flow (Narrow-bandwidth regime)",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "nonlinear",
+          "experimental noise"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MLC (Machine Learning Control)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.6
+      },
+      "performance_outcome": {
+        "metric": "Cost reduction (J_OC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Stabilizing the oscillations of the shear layer in an open cavity flow experiment (Mode-switching regime)"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Open Cavity Flow (Mode-switching regime)",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "nonlinear",
+          "experimental noise"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "gMLC (Gradient-enriched Machine Learning Control)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Cost reduction (J_OC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Stabilizing the oscillations of the shear layer in an open cavity flow experiment (Mode-switching regime)"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Open Cavity Flow (Mode-switching regime)",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "nonlinear",
+          "experimental noise"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MLC (Machine Learning Control)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.6
+      },
+      "performance_outcome": {
+        "metric": "Cost reduction (J_OC)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

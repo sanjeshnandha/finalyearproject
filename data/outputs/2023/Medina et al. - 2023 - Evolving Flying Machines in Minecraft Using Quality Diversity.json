@@ -1,0 +1,328 @@
+{
+  "metadata": {
+    "title": "Evolving Flying Machines in Minecraft Using Quality Diversity",
+    "authors": [
+      "Alejandro Medina",
+      "Melanie Richey",
+      "Mark Mueller",
+      "Jacob Schrum"
+    ],
+    "year": 2023,
+    "source_file": "Medina et al. - 2023 - Evolving Flying Machines in Minecraft Using Quality Diversity.pdf",
+    "gecco_track": "Search methodologies"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Games",
+        "problem_context": "Evolving flying machines in Minecraft"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Evolving Flying Machines in Minecraft (Original Block Set)",
+        "dimensionality": "81D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stagnant",
+          "noisy",
+          "rugged",
+          "flat regions",
+          "nondeterministic"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Pure Fitness-based Evolution (PF)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 60100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Success rate (percentage of runs out of 30 that produced at least one flying machine)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Games",
+        "problem_context": "Evolving flying machines in Minecraft"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Evolving Flying Machines in Minecraft (Observer Block Set)",
+        "dimensionality": "81D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stagnant",
+          "noisy",
+          "rugged",
+          "flat regions",
+          "nondeterministic"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Pure Fitness-based Evolution (PF)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 60100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Success rate (percentage of runs out of 30 that produced at least one flying machine)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Games",
+        "problem_context": "Evolving flying machines in Minecraft"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Evolving Flying Machines in Minecraft (Original Block Set)",
+        "dimensionality": "81D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stagnant",
+          "noisy",
+          "rugged",
+          "flat regions",
+          "nondeterministic"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAP-Elites with Block Count (ME.C)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 60100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Success rate (percentage of runs out of 30 that produced at least one flying machine)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Games",
+        "problem_context": "Evolving flying machines in Minecraft"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Evolving Flying Machines in Minecraft (Observer Block Set)",
+        "dimensionality": "81D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stagnant",
+          "noisy",
+          "rugged",
+          "flat regions",
+          "nondeterministic"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAP-Elites with Block Count (ME.C)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 60100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Success rate (percentage of runs out of 30 that produced at least one flying machine)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Games",
+        "problem_context": "Evolving flying machines in Minecraft"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Evolving Flying Machines in Minecraft (Original Block Set)",
+        "dimensionality": "81D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stagnant",
+          "noisy",
+          "rugged",
+          "flat regions",
+          "nondeterministic"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAP-Elites with Block Count and Negative Space (ME.CN)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 60100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Success rate (percentage of runs out of 30 that produced at least one flying machine)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Games",
+        "problem_context": "Evolving flying machines in Minecraft"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Evolving Flying Machines in Minecraft (Observer Block Set)",
+        "dimensionality": "81D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stagnant",
+          "noisy",
+          "rugged",
+          "flat regions",
+          "nondeterministic"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAP-Elites with Block Count and Negative Space (ME.CN)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 60100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Success rate (percentage of runs out of 30 that produced at least one flying machine)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Games",
+        "problem_context": "Evolving flying machines in Minecraft"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Evolving Flying Machines in Minecraft (Original Block Set)",
+        "dimensionality": "81D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stagnant",
+          "noisy",
+          "rugged",
+          "flat regions",
+          "nondeterministic"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAP-Elites with Piston Orientation (ME.PO)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 60100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Success rate (percentage of runs out of 30 that produced at least one flying machine)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Games",
+        "problem_context": "Evolving flying machines in Minecraft"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Evolving Flying Machines in Minecraft (Observer Block Set)",
+        "dimensionality": "81D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stagnant",
+          "noisy",
+          "rugged",
+          "flat regions",
+          "nondeterministic"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAP-Elites with Piston Orientation (ME.PO)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 60100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Success rate (percentage of runs out of 30 that produced at least one flying machine)",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "metadata": {
+    "title": "Efficient Edge Computing: Harnessing Compact Machine Learning Models for Workload Optimization",
+    "authors": [
+      "Mahdi Abbasi",
+      "Hassan Haghighi",
+      "Mohammad R. Pour-Hosseini",
+      "Seifeddine Benelghali",
+      "Ehsan Mohamadi Pasand",
+      "Bahman Javadi",
+      "Parham Moradi"
+    ],
+    "year": 2024,
+    "source_file": "Pour-Hosseini et al. - 2024 - Efficient Edge Computing Harnessing Compact Machine Learning Models for Workload Optimization.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Workload allocation in the edge layer"
+      },
+      "the_database": {
+        "dataset_name": "BCM-XCS dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Workload allocation in the edge layer",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "resource-constrained",
+          "dynamic",
+          "varying workloads"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TinyXCS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Memory usage, energy consumption, and latency",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Workload allocation in the edge layer"
+      },
+      "the_database": {
+        "dataset_name": "BCM-XCS dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Workload allocation in the edge layer",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "resource-constrained",
+          "dynamic",
+          "varying workloads"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Basic XCS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Memory usage, energy consumption, and latency",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Workload allocation in the edge layer"
+      },
+      "the_database": {
+        "dataset_name": "BCM-XCS dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Workload allocation in the edge layer",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "resource-constrained",
+          "dynamic",
+          "varying workloads"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "BCM-XCS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Memory usage, energy consumption, and latency",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "title": "LsmGrid: A Data-Aware Neuroevolution Framework for Designing Minimal Liquid State Machines",
+    "authors": [
+      "Andrés Ignacio Romo",
+      "Andrés Otero",
+      "José M. Lanza-Gutierrez"
+    ],
+    "year": 2026,
+    "source_file": "Romo et al. - 2026 - LsmGrid A Data-Aware Neuroevolution Framework for Designing Minimal Liquid State Machines.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Audio/Speech Processing",
+        "problem_context": "Designing minimal Liquid State Machines for spoken digit recognition"
+      },
+      "the_database": {
+        "dataset_name": "Free Spoken Digits Dataset (FSDD)",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "Free Spoken Digits Dataset (FSDD)",
+        "dimensionality": "39 channels"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "context-dependent"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HC-GP (Hill Climbing and Genetic Programming)"
+      },
+      "parameters": {
+        "population_size": 1,
+        "max_evaluations_or_generations": 30,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best accuracy of 92.7%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Audio/Speech Processing",
+        "problem_context": "Designing minimal Liquid State Machines for spoken digit recognition"
+      },
+      "the_database": {
+        "dataset_name": "N-TIDIGITS",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "N-TIDIGITS",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "context-dependent"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HC-GP (Hill Climbing and Genetic Programming)"
+      },
+      "parameters": {
+        "population_size": 1,
+        "max_evaluations_or_generations": 30,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best accuracy of 82.3%",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

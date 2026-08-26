@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "title": "Initial Design Strategies and their Effects on Sequential Model-Based Optimization: An Exploratory Case Study Based on BBOB",
+    "authors": [
+      "Jakob Bossek",
+      "Carola Doerr",
+      "Pascal Kerschke"
+    ],
+    "year": 2020,
+    "source_file": "Bossek et al. - 2020 - Initial design strategies and their effects on sequential model-based optimization an exploratory c.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BBOB Suite",
+        "dimensionality": "2D, 3D, 4D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "separable",
+          "unimodal",
+          "multimodal",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Efficient Global Optimization (EGO)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 512,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Target precision (gap to the global optimum)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

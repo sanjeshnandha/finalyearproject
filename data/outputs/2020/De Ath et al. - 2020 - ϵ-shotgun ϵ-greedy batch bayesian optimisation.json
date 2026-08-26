@@ -1,0 +1,224 @@
+{
+  "metadata": {
+    "title": "̵-shotgun: ̵-greedy Batch Bayesian Optimisation",
+    "authors": [
+      "George De Ath",
+      "Richard M. Everson",
+      "Jonathan E. Fieldsend",
+      "Alma A. M. Rahat"
+    ],
+    "year": 2020,
+    "source_file": "De Ath et al. - 2020 - ϵ-shotgun ϵ-greedy batch bayesian optimisation.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WangFreitas",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "large, shallow local minimum",
+          "narrow, deep global minimum surrounded by plateaus"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "epsilonS-PF"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median difference between estimated optimum and true optimum",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WangFreitas",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "large, shallow local minimum",
+          "narrow, deep global minimum surrounded by plateaus"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "epsilonS-RS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median difference between estimated optimum and true optimum",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Active Learning for Robot Pushing"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "push4",
+        "dimensionality": "4D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "epsilonS-PF"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median value of |f* - f_min|",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Active Learning for Robot Pushing"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "push4",
+        "dimensionality": "4D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "epsilonS-RS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median value of |f* - f_min|",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Pipe Shape Optimisation"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "PitzDaily",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained domain"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "epsilonS-PF"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median best seen flow loss",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Pipe Shape Optimisation"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "PitzDaily",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained domain"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "epsilonS-RS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median best seen flow loss",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

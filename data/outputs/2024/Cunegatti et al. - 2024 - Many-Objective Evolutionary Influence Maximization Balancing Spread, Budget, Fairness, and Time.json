@@ -1,0 +1,510 @@
+{
+  "metadata": {
+    "title": "Many-Objective Evolutionary Influence Maximization: Balancing Spread, Budget, Fairness, and Time",
+    "authors": [
+      "Elia Cunegatti",
+      "Leonardo Lucio Custode",
+      "Giovanni Iacca"
+    ],
+    "year": 2024,
+    "source_file": "Cunegatti et al. - 2024 - Many-Objective Evolutionary Influence Maximization Balancing Spread, Budget, Fairness, and Time.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Social Networks",
+        "problem_context": "Influence Maximization"
+      },
+      "the_database": {
+        "dataset_name": "email-eu-Core",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Influence Maximization",
+        "dimensionality": "k=100"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEIM"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Social Networks",
+        "problem_context": "Influence Maximization"
+      },
+      "the_database": {
+        "dataset_name": "facebook-combined",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Influence Maximization",
+        "dimensionality": "k=100"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEIM"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Social Networks",
+        "problem_context": "Influence Maximization"
+      },
+      "the_database": {
+        "dataset_name": "gnutella",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Influence Maximization",
+        "dimensionality": "k=100"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEIM"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Social Networks",
+        "problem_context": "Influence Maximization"
+      },
+      "the_database": {
+        "dataset_name": "wiki-vote",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Influence Maximization",
+        "dimensionality": "k=100"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEIM"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Social Networks",
+        "problem_context": "Influence Maximization"
+      },
+      "the_database": {
+        "dataset_name": "lastfm",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Influence Maximization",
+        "dimensionality": "k=100"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEIM"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Social Networks",
+        "problem_context": "Influence Maximization"
+      },
+      "the_database": {
+        "dataset_name": "CA-HepTh",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Influence Maximization",
+        "dimensionality": "k=100"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEIM"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Social Networks",
+        "problem_context": "Influence Maximization"
+      },
+      "the_database": {
+        "dataset_name": "Jazz",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Influence Maximization",
+        "dimensionality": "k=20% of nodes"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEIM"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Social Networks",
+        "problem_context": "Influence Maximization"
+      },
+      "the_database": {
+        "dataset_name": "Cora-ML",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Influence Maximization",
+        "dimensionality": "k=20% of nodes"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEIM"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Social Networks",
+        "problem_context": "Influence Maximization"
+      },
+      "the_database": {
+        "dataset_name": "Power Grid",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Influence Maximization",
+        "dimensionality": "k=20% of nodes"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEIM"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Social Networks",
+        "problem_context": "Influence Maximization"
+      },
+      "the_database": {
+        "dataset_name": "email-eu-Core",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Influence Maximization",
+        "dimensionality": "k=100"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA [7]"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Social Networks",
+        "problem_context": "Influence Maximization"
+      },
+      "the_database": {
+        "dataset_name": "facebook-combined",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Influence Maximization",
+        "dimensionality": "k=100"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA [7]"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Social Networks",
+        "problem_context": "Influence Maximization"
+      },
+      "the_database": {
+        "dataset_name": "gnutella",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Influence Maximization",
+        "dimensionality": "k=100"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA [7]"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Social Networks",
+        "problem_context": "Influence Maximization"
+      },
+      "the_database": {
+        "dataset_name": "wiki-vote",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Influence Maximization",
+        "dimensionality": "k=100"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA [7]"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Social Networks",
+        "problem_context": "Influence Maximization"
+      },
+      "the_database": {
+        "dataset_name": "lastfm",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Influence Maximization",
+        "dimensionality": "k=100"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA [7]"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Social Networks",
+        "problem_context": "Influence Maximization"
+      },
+      "the_database": {
+        "dataset_name": "CA-HepTh",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Influence Maximization",
+        "dimensionality": "k=100"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA [7]"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

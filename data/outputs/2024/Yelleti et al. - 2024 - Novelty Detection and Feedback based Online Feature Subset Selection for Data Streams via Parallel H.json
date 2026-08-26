@@ -1,0 +1,807 @@
+{
+  "metadata": {
+    "title": "Novelty Detection and Feedback based Online Feature Subset Selection for Data Streams via Parallel Hybrid Particle Swarm Optimization Algorithm",
+    "authors": [
+      "Vivek Yelleti",
+      "Vadlamani Ravi",
+      "P. Radha Krishna"
+    ],
+    "year": 2024,
+    "source_file": "Yelleti et al. - 2024 - Novelty Detection and Feedback based Online Feature Subset Selection for Data Streams via Parallel H.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Online Feature Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "Omentum",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Omentum",
+        "dimensionality": "10935D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "BPSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean AUC and Mean Cardinality",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Online Feature Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "Omentum",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Omentum",
+        "dimensionality": "10935D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSO(1-3)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean AUC and Mean Cardinality",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Online Feature Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "Omentum",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Omentum",
+        "dimensionality": "10935D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSO(4-2)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean AUC and Mean Cardinality",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Online Feature Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "Omentum",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Omentum",
+        "dimensionality": "10935D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "BBPSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean AUC and Mean Cardinality",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Online Feature Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "Omentum",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Omentum",
+        "dimensionality": "10935D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "BBPSO-L"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean AUC and Mean Cardinality",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Online Feature Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "Omentum",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Omentum",
+        "dimensionality": "10935D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "BBPSO-L+TNS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean AUC and Mean Cardinality",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Online Feature Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "Uterus",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Uterus",
+        "dimensionality": "10935D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "BPSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean AUC and Mean Cardinality",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Online Feature Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "Uterus",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Uterus",
+        "dimensionality": "10935D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSO(1-3)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean AUC and Mean Cardinality",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Online Feature Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "Uterus",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Uterus",
+        "dimensionality": "10935D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSO(4-2)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean AUC and Mean Cardinality",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Online Feature Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "Uterus",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Uterus",
+        "dimensionality": "10935D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "BBPSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean AUC and Mean Cardinality",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Online Feature Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "Uterus",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Uterus",
+        "dimensionality": "10935D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "BBPSO-L"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean AUC and Mean Cardinality",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Online Feature Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "Uterus",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Uterus",
+        "dimensionality": "10935D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "BBPSO-L+TNS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean AUC and Mean Cardinality",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Online Feature Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "Epsilon",
+        "source_platform": "LIBSVM"
+      },
+      "the_benchmark_problem": {
+        "name": "Epsilon",
+        "dimensionality": "2000D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "BPSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean AUC and Mean Cardinality",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Online Feature Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "Epsilon",
+        "source_platform": "LIBSVM"
+      },
+      "the_benchmark_problem": {
+        "name": "Epsilon",
+        "dimensionality": "2000D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSO(1-3)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean AUC and Mean Cardinality",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Online Feature Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "Epsilon",
+        "source_platform": "LIBSVM"
+      },
+      "the_benchmark_problem": {
+        "name": "Epsilon",
+        "dimensionality": "2000D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSO(4-2)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean AUC and Mean Cardinality",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Online Feature Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "Epsilon",
+        "source_platform": "LIBSVM"
+      },
+      "the_benchmark_problem": {
+        "name": "Epsilon",
+        "dimensionality": "2000D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "BBPSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean AUC and Mean Cardinality",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Online Feature Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "Epsilon",
+        "source_platform": "LIBSVM"
+      },
+      "the_benchmark_problem": {
+        "name": "Epsilon",
+        "dimensionality": "2000D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "BBPSO-L"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean AUC and Mean Cardinality",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Online Feature Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "Epsilon",
+        "source_platform": "LIBSVM"
+      },
+      "the_benchmark_problem": {
+        "name": "Epsilon",
+        "dimensionality": "2000D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "BBPSO-L+TNS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean AUC and Mean Cardinality",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Cybersecurity",
+        "problem_context": "Online Feature Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "IEEE Malware",
+        "source_platform": "IEEE Dataport"
+      },
+      "the_benchmark_problem": {
+        "name": "IEEE Malware",
+        "dimensionality": "1000D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "BPSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean AUC and Mean Cardinality",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Cybersecurity",
+        "problem_context": "Online Feature Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "IEEE Malware",
+        "source_platform": "IEEE Dataport"
+      },
+      "the_benchmark_problem": {
+        "name": "IEEE Malware",
+        "dimensionality": "1000D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSO(1-3)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean AUC and Mean Cardinality",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Cybersecurity",
+        "problem_context": "Online Feature Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "IEEE Malware",
+        "source_platform": "IEEE Dataport"
+      },
+      "the_benchmark_problem": {
+        "name": "IEEE Malware",
+        "dimensionality": "1000D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSO(4-2)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean AUC and Mean Cardinality",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Cybersecurity",
+        "problem_context": "Online Feature Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "IEEE Malware",
+        "source_platform": "IEEE Dataport"
+      },
+      "the_benchmark_problem": {
+        "name": "IEEE Malware",
+        "dimensionality": "1000D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "BBPSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean AUC and Mean Cardinality",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Cybersecurity",
+        "problem_context": "Online Feature Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "IEEE Malware",
+        "source_platform": "IEEE Dataport"
+      },
+      "the_benchmark_problem": {
+        "name": "IEEE Malware",
+        "dimensionality": "1000D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "BBPSO-L"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean AUC and Mean Cardinality",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Cybersecurity",
+        "problem_context": "Online Feature Subset Selection"
+      },
+      "the_database": {
+        "dataset_name": "IEEE Malware",
+        "source_platform": "IEEE Dataport"
+      },
+      "the_benchmark_problem": {
+        "name": "IEEE Malware",
+        "dimensionality": "1000D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "BBPSO-L+TNS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean AUC and Mean Cardinality",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

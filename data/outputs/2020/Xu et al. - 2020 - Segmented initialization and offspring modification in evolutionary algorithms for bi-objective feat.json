@@ -1,0 +1,699 @@
+{
+  "metadata": {
+    "title": "Segmented Initialization and Offspring Modification in Evolutionary Algorithms for Bi-objective Feature Selection",
+    "authors": [
+      "Hang Xu",
+      "Bing Xue",
+      "Mengjie Zhang"
+    ],
+    "year": 2020,
+    "source_file": "Xu et al. - 2020 - Segmented initialization and offspring modification in evolutionary algorithms for bi-objective feat.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Environmental Science",
+        "problem_context": "Bi-objective Feature Selection"
+      },
+      "the_database": {
+        "dataset_name": "Climate",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Climate Feature Selection",
+        "dimensionality": "18D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discontinuous",
+          "discrete",
+          "combinatorial",
+          "binary-coded search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 18,
+        "max_evaluations_or_generations": 1800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean IGD: 2.7541e-02, Mean HV: 8.8843e-01",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Environmental Science",
+        "problem_context": "Bi-objective Feature Selection"
+      },
+      "the_database": {
+        "dataset_name": "Climate",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Climate Feature Selection",
+        "dimensionality": "18D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discontinuous",
+          "discrete",
+          "combinatorial",
+          "binary-coded search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SIOM-NSGAII"
+      },
+      "parameters": {
+        "population_size": 18,
+        "max_evaluations_or_generations": 1800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean IGD: 2.8094e-02, Mean HV: 8.8913e-01",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Environmental Science",
+        "problem_context": "Bi-objective Feature Selection"
+      },
+      "the_database": {
+        "dataset_name": "Climate",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Climate Feature Selection",
+        "dimensionality": "18D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discontinuous",
+          "discrete",
+          "combinatorial",
+          "binary-coded search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/HD"
+      },
+      "parameters": {
+        "population_size": 18,
+        "max_evaluations_or_generations": 1800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean IGD: 2.6056e-02, Mean HV: 8.8859e-01",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Environmental Science",
+        "problem_context": "Bi-objective Feature Selection"
+      },
+      "the_database": {
+        "dataset_name": "Climate",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Climate Feature Selection",
+        "dimensionality": "18D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discontinuous",
+          "discrete",
+          "combinatorial",
+          "binary-coded search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SIOM-MOEAHD"
+      },
+      "parameters": {
+        "population_size": 18,
+        "max_evaluations_or_generations": 1800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean IGD: 2.5309e-02, Mean HV: 8.8940e-01",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Environmental Science",
+        "problem_context": "Bi-objective Feature Selection"
+      },
+      "the_database": {
+        "dataset_name": "Climate",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Climate Feature Selection",
+        "dimensionality": "18D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discontinuous",
+          "discrete",
+          "combinatorial",
+          "binary-coded search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HypE"
+      },
+      "parameters": {
+        "population_size": 18,
+        "max_evaluations_or_generations": 1800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean IGD: 2.3140e-02, Mean HV: 8.8964e-01",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Environmental Science",
+        "problem_context": "Bi-objective Feature Selection"
+      },
+      "the_database": {
+        "dataset_name": "Climate",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Climate Feature Selection",
+        "dimensionality": "18D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discontinuous",
+          "discrete",
+          "combinatorial",
+          "binary-coded search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SIOM-HypE"
+      },
+      "parameters": {
+        "population_size": 18,
+        "max_evaluations_or_generations": 1800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean IGD: 2.0473e-02, Mean HV: 8.9046e-01",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Chemical/Pharmacology",
+        "problem_context": "Bi-objective Feature Selection"
+      },
+      "the_database": {
+        "dataset_name": "MUSK1",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "MUSK1 Feature Selection",
+        "dimensionality": "166D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discontinuous",
+          "discrete",
+          "combinatorial",
+          "binary-coded search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 166,
+        "max_evaluations_or_generations": 16600,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean IGD: 8.3886e-02, Mean HV: 8.3315e-01",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Chemical/Pharmacology",
+        "problem_context": "Bi-objective Feature Selection"
+      },
+      "the_database": {
+        "dataset_name": "MUSK1",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "MUSK1 Feature Selection",
+        "dimensionality": "166D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discontinuous",
+          "discrete",
+          "combinatorial",
+          "binary-coded search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SIOM-NSGAII"
+      },
+      "parameters": {
+        "population_size": 166,
+        "max_evaluations_or_generations": 16600,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean IGD: 4.0700e-02, Mean HV: 9.0255e-01",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Chemical/Pharmacology",
+        "problem_context": "Bi-objective Feature Selection"
+      },
+      "the_database": {
+        "dataset_name": "MUSK1",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "MUSK1 Feature Selection",
+        "dimensionality": "166D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discontinuous",
+          "discrete",
+          "combinatorial",
+          "binary-coded search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/HD"
+      },
+      "parameters": {
+        "population_size": 166,
+        "max_evaluations_or_generations": 16600,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean IGD: 5.9125e-02, Mean HV: 8.6995e-01",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Chemical/Pharmacology",
+        "problem_context": "Bi-objective Feature Selection"
+      },
+      "the_database": {
+        "dataset_name": "MUSK1",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "MUSK1 Feature Selection",
+        "dimensionality": "166D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discontinuous",
+          "discrete",
+          "combinatorial",
+          "binary-coded search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SIOM-MOEAHD"
+      },
+      "parameters": {
+        "population_size": 166,
+        "max_evaluations_or_generations": 16600,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean IGD: 4.2565e-02, Mean HV: 8.9757e-01",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Chemical/Pharmacology",
+        "problem_context": "Bi-objective Feature Selection"
+      },
+      "the_database": {
+        "dataset_name": "MUSK1",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "MUSK1 Feature Selection",
+        "dimensionality": "166D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discontinuous",
+          "discrete",
+          "combinatorial",
+          "binary-coded search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HypE"
+      },
+      "parameters": {
+        "population_size": 166,
+        "max_evaluations_or_generations": 16600,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean IGD: 7.8597e-02, Mean HV: 8.3748e-01",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Chemical/Pharmacology",
+        "problem_context": "Bi-objective Feature Selection"
+      },
+      "the_database": {
+        "dataset_name": "MUSK1",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "MUSK1 Feature Selection",
+        "dimensionality": "166D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discontinuous",
+          "discrete",
+          "combinatorial",
+          "binary-coded search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SIOM-HypE"
+      },
+      "parameters": {
+        "population_size": 166,
+        "max_evaluations_or_generations": 16600,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean IGD: 5.3750e-02, Mean HV: 8.7525e-01",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Bi-objective Feature Selection"
+      },
+      "the_database": {
+        "dataset_name": "Leukemia",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Leukemia Feature Selection",
+        "dimensionality": "7070D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discontinuous",
+          "discrete",
+          "combinatorial",
+          "binary-coded search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 20000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean IGD: 2.3960e-01, Mean HV: 5.4917e-01",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Bi-objective Feature Selection"
+      },
+      "the_database": {
+        "dataset_name": "Leukemia",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Leukemia Feature Selection",
+        "dimensionality": "7070D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discontinuous",
+          "discrete",
+          "combinatorial",
+          "binary-coded search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SIOM-NSGAII"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 20000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean IGD: 5.0753e-02, Mean HV: 7.2973e-01",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Bi-objective Feature Selection"
+      },
+      "the_database": {
+        "dataset_name": "Leukemia",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Leukemia Feature Selection",
+        "dimensionality": "7070D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discontinuous",
+          "discrete",
+          "combinatorial",
+          "binary-coded search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/HD"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 20000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean IGD: 2.6176e-01, Mean HV: 5.2839e-01",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Bi-objective Feature Selection"
+      },
+      "the_database": {
+        "dataset_name": "Leukemia",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Leukemia Feature Selection",
+        "dimensionality": "7070D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discontinuous",
+          "discrete",
+          "combinatorial",
+          "binary-coded search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SIOM-MOEAHD"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 20000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean IGD: 6.6186e-02, Mean HV: 7.1279e-01",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Bi-objective Feature Selection"
+      },
+      "the_database": {
+        "dataset_name": "Leukemia",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Leukemia Feature Selection",
+        "dimensionality": "7070D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discontinuous",
+          "discrete",
+          "combinatorial",
+          "binary-coded search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HypE"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 20000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean IGD: 2.4756e-01, Mean HV: 5.3623e-01",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Bi-objective Feature Selection"
+      },
+      "the_database": {
+        "dataset_name": "Leukemia",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Leukemia Feature Selection",
+        "dimensionality": "7070D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discontinuous",
+          "discrete",
+          "combinatorial",
+          "binary-coded search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SIOM-HypE"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 20000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean IGD: 5.5212e-02, Mean HV: 7.2762e-01",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

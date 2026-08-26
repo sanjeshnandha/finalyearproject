@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "title": "On the Impact of Tangled Program Graph Marking Schemes under the Atari Reinforcement Learning Benchmark",
+    "authors": [
+      "Alexandru Ianta",
+      "Ryan Amaral",
+      "Caleidgh Bayer",
+      "Robert J. Smith",
+      "Malcolm I. Heywood"
+    ],
+    "year": 2021,
+    "source_file": "Ianta et al. - 2021 - On the impact of tangled program graph marking schemes under the atari reinforcement learning benchm.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment / Video Games",
+        "problem_context": "Visual Reinforcement Learning"
+      },
+      "the_database": {
+        "dataset_name": "Arcade Learning Environment (ALE)",
+        "source_platform": "OpenAI Gym"
+      },
+      "the_benchmark_problem": {
+        "name": "Atari Reinforcement Learning Benchmark",
+        "dimensionality": "8400D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "stochastic",
+          "non-deterministic",
+          "sequential decision making"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Tangled Program Graph (TPG) with Team-based marking"
+      },
+      "parameters": {
+        "population_size": 360,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Normalized game score relative to Rainbow",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment / Video Games",
+        "problem_context": "Visual Reinforcement Learning"
+      },
+      "the_database": {
+        "dataset_name": "Arcade Learning Environment (ALE)",
+        "source_platform": "OpenAI Gym"
+      },
+      "the_benchmark_problem": {
+        "name": "Atari Reinforcement Learning Benchmark",
+        "dimensionality": "8400D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "stochastic",
+          "non-deterministic",
+          "sequential decision making"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Tangled Program Graph (TPG) with Learner-based marking"
+      },
+      "parameters": {
+        "population_size": 360,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Normalized game score relative to Rainbow",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

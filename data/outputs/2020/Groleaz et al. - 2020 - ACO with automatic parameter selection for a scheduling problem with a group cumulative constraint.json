@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "title": "ACO with automatic parameter selection for a scheduling problem with a group cumulative constraint",
+    "authors": [
+      "Lucas Groleaz",
+      "Samba N. Ndiaye",
+      "Christine Solnon"
+    ],
+    "year": 2020,
+    "source_file": "Groleaz et al. - 2020 - ACO with automatic parameter selection for a scheduling problem with a group cumulative constraint.pdf",
+    "gecco_track": "Applied Computing"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Scheduling jobs on machines to minimize tardiness under group cumulative constraints"
+      },
+      "the_database": {
+        "dataset_name": "Industrial dataset from Infologic",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Resource-Constrained Project Scheduling Problem with Group Cumulative Constraint (RCPSP-GC)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "NP-hard",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ACO paramILS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of solved instances within 1 hour and average ratio to reference solution",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Scheduling jobs on machines to minimize tardiness under group cumulative constraints"
+      },
+      "the_database": {
+        "dataset_name": "Industrial dataset from Infologic",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Resource-Constrained Project Scheduling Problem with Group Cumulative Constraint (RCPSP-GC)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "NP-hard",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ACO Single Best"
+      },
+      "parameters": {
+        "population_size": 40,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of solved instances within 1 hour and average ratio to reference solution",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Scheduling jobs on machines to minimize tardiness under group cumulative constraints"
+      },
+      "the_database": {
+        "dataset_name": "Industrial dataset from Infologic",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Resource-Constrained Project Scheduling Problem with Group Cumulative Constraint (RCPSP-GC)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "NP-hard",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Llama ACO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of solved instances within 1 hour and average ratio to reference solution",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Scheduling jobs on machines to minimize tardiness under group cumulative constraints"
+      },
+      "the_database": {
+        "dataset_name": "Industrial dataset from Infologic",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Resource-Constrained Project Scheduling Problem with Group Cumulative Constraint (RCPSP-GC)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "NP-hard",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Tabu Search"
+      },
+      "parameters": {
+        "population_size": 40,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of solved instances within 1 hour and average ratio to reference solution",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

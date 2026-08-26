@@ -1,0 +1,473 @@
+{
+  "metadata": {
+    "title": "Prior-Informed Symbolic Regression for Multiview Scientific Discovery",
+    "authors": [
+      "Hernan Lira",
+      "Luis Martí",
+      "Nayat Sanchez-Pi"
+    ],
+    "year": 2026,
+    "source_file": "Lira et al. - 2026 - Prior-Informed Symbolic Regression for Multiview Scientific Discovery.pdf",
+    "gecco_track": "Genetic Programming"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Environmental/Oceanography",
+        "problem_context": "Modeling microbial metabolism across ocean depth layers"
+      },
+      "the_database": {
+        "dataset_name": "Ocean Microbiome Dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ocean Microbiome Dataset (50 KO targets)",
+        "dimensionality": "20D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "low-sample"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Prior-Informed Multiview Symbolic Regression"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Mean Test MSE: 0.007",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Environmental/Oceanography",
+        "problem_context": "Modeling microbial metabolism across ocean depth layers"
+      },
+      "the_database": {
+        "dataset_name": "Ocean Microbiome Dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ocean Microbiome Dataset (50 KO targets)",
+        "dimensionality": "20D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "low-sample"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard Multiview Symbolic Regression"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Mean Test MSE: 0.976",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Environmental/Oceanography",
+        "problem_context": "Modeling microbial metabolism across ocean depth layers"
+      },
+      "the_database": {
+        "dataset_name": "Ocean Microbiome Dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ocean Microbiome Dataset (50 KO targets)",
+        "dimensionality": "20D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "low-sample"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multiview Symbolic Regression with Motifs"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Mean Test MSE: 0.934",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SYN-1",
+        "dimensionality": "20D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-convex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Prior-Informed Multiview Symbolic Regression"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Mean Test MSE: 0.59, Exact Recovery Rate: 10%",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SYN-1",
+        "dimensionality": "20D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-convex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard Multiview Symbolic Regression"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Mean Test MSE: 1.23, Exact Recovery Rate: 0%",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SYN-2",
+        "dimensionality": "20D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-convex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Prior-Informed Multiview Symbolic Regression"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Mean Test MSE: 1.07, Exact Recovery Rate: 0%",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SYN-2",
+        "dimensionality": "20D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-convex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard Multiview Symbolic Regression"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Mean Test MSE: 1.93, Exact Recovery Rate: 0%",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SYN-3",
+        "dimensionality": "20D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-convex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Prior-Informed Multiview Symbolic Regression"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Mean Test MSE: 1.45, Exact Recovery Rate: 20%",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SYN-3",
+        "dimensionality": "20D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-convex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard Multiview Symbolic Regression"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Mean Test MSE: 1.96, Exact Recovery Rate: 0%",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SYN-4",
+        "dimensionality": "20D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-convex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Prior-Informed Multiview Symbolic Regression"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Mean Test MSE: 0.71, Exact Recovery Rate: 50%",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SYN-4",
+        "dimensionality": "20D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-convex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard Multiview Symbolic Regression"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Mean Test MSE: 1.61, Exact Recovery Rate: 0%",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SYN-5",
+        "dimensionality": "20D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-convex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Prior-Informed Multiview Symbolic Regression"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Mean Test MSE: 1.96, Exact Recovery Rate: 10%",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SYN-5",
+        "dimensionality": "20D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-convex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard Multiview Symbolic Regression"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Mean Test MSE: 2.10, Exact Recovery Rate: 0%",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

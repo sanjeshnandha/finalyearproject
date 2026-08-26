@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "title": "Interactive Evolution and Exploration Within Latent Level-Design Space of Generative Adversarial Networks",
+    "authors": [
+      "Jacob Schrum",
+      "Jake Gutierrez",
+      "Vanessa Volz",
+      "Jialin Liu",
+      "Simon Lucas",
+      "Sebastian Risi"
+    ],
+    "year": 2020,
+    "source_file": "Schrum et al. - 2020 - Interactive evolution and exploration within latent level-design space of generative adversarial net.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Video Games",
+        "problem_context": "Procedural Content Generation of Super Mario Bros. levels"
+      },
+      "the_database": {
+        "dataset_name": "Video Game Level Corpus (VGLC)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Super Mario Bros. Level Generation",
+        "dimensionality": "5D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "subjective",
+          "latent space",
+          "discrete tile-based representation"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Interactive Latent Variable Evolution (LVE)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "User preference and subjective quality",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Video Games",
+        "problem_context": "Procedural Content Generation of The Legend of Zelda rooms"
+      },
+      "the_database": {
+        "dataset_name": "Video Game Level Corpus (VGLC)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "The Legend of Zelda Room Generation",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "subjective",
+          "latent space",
+          "discrete tile-based representation"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Interactive Latent Variable Evolution (LVE)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "User preference and subjective quality",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

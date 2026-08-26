@@ -1,0 +1,207 @@
+{
+  "metadata": {
+    "title": "Surrogate-assisted Multi-objective Combinatorial Optimization based on Decomposition and Walsh Basis",
+    "authors": [
+      "Geoffrey Pruvost",
+      "Bilel Derbel",
+      "Arnaud Liefooghe",
+      "Sébastien Verel",
+      "Qingfu Zhang"
+    ],
+    "year": 2020,
+    "source_file": "Pruvost et al. - 2020 - Surrogate-assisted multi-objective combinatorial optimization based on decomposition and walsh basis.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Bi-objective NK Landscapes",
+        "dimensionality": "25D, 50D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "multi-modal",
+          "non-linear",
+          "epistatic interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 1500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Bi-objective NK Landscapes",
+        "dimensionality": "25D, 50D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "multi-modal",
+          "non-linear",
+          "epistatic interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "S-CMO (Filter-Local)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 1500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Bi-objective NK Landscapes",
+        "dimensionality": "25D, 50D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "multi-modal",
+          "non-linear",
+          "epistatic interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "S-CMO (Filter-Global)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 1500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Bi-objective NK Landscapes",
+        "dimensionality": "25D, 50D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "multi-modal",
+          "non-linear",
+          "epistatic interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "S-CMO (Substitute-Local)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 1500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Bi-objective NK Landscapes",
+        "dimensionality": "25D, 50D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "multi-modal",
+          "non-linear",
+          "epistatic interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "S-CMO (Substitute-Global)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 1500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average hypervolume",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

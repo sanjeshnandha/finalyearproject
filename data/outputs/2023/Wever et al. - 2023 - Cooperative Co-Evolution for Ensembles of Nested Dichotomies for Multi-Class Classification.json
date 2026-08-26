@@ -1,0 +1,715 @@
+{
+  "metadata": {
+    "title": "Cooperative Co-Evolution of Ensembles of Nested Dichotomies for Multi-Class Classification",
+    "authors": [
+      "Marcel Wever",
+      "Miran Özdogan",
+      "Eyke Hüllermeier"
+    ],
+    "year": 2023,
+    "source_file": "Wever et al. - 2023 - Cooperative Co-Evolution for Ensembles of Nested Dichotomies for Multi-Class Classification.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Other",
+        "problem_context": "Multi-Class Classification"
+      },
+      "the_database": {
+        "dataset_name": "OpenML",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 2 (anneal)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "plateaus"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CONDA"
+      },
+      "parameters": {
+        "population_size": 16,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Other",
+        "problem_context": "Multi-Class Classification"
+      },
+      "the_database": {
+        "dataset_name": "OpenML",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 2 (anneal)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "plateaus"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NDEA"
+      },
+      "parameters": {
+        "population_size": 16,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Other",
+        "problem_context": "Multi-Class Classification"
+      },
+      "the_database": {
+        "dataset_name": "OpenML",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 7 (audiology)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "plateaus"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CONDA"
+      },
+      "parameters": {
+        "population_size": 16,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Other",
+        "problem_context": "Multi-Class Classification"
+      },
+      "the_database": {
+        "dataset_name": "OpenML",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 7 (audiology)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "plateaus"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NDEA"
+      },
+      "parameters": {
+        "population_size": 16,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Other",
+        "problem_context": "Multi-Class Classification"
+      },
+      "the_database": {
+        "dataset_name": "OpenML",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 9 (autos)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "plateaus"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CONDA"
+      },
+      "parameters": {
+        "population_size": 16,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Other",
+        "problem_context": "Multi-Class Classification"
+      },
+      "the_database": {
+        "dataset_name": "OpenML",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 9 (autos)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "plateaus"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NDEA"
+      },
+      "parameters": {
+        "population_size": 16,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Other",
+        "problem_context": "Multi-Class Classification"
+      },
+      "the_database": {
+        "dataset_name": "OpenML",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 18 (mfeat-morphological)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "plateaus"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CONDA"
+      },
+      "parameters": {
+        "population_size": 16,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Other",
+        "problem_context": "Multi-Class Classification"
+      },
+      "the_database": {
+        "dataset_name": "OpenML",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 18 (mfeat-morphological)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "plateaus"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NDEA"
+      },
+      "parameters": {
+        "population_size": 16,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Other",
+        "problem_context": "Multi-Class Classification"
+      },
+      "the_database": {
+        "dataset_name": "OpenML",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 40 (glass)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "plateaus"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CONDA"
+      },
+      "parameters": {
+        "population_size": 16,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Other",
+        "problem_context": "Multi-Class Classification"
+      },
+      "the_database": {
+        "dataset_name": "OpenML",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 40 (glass)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "plateaus"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NDEA"
+      },
+      "parameters": {
+        "population_size": 16,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Other",
+        "problem_context": "Multi-Class Classification"
+      },
+      "the_database": {
+        "dataset_name": "OpenML",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 41 (soybean)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "plateaus"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CONDA"
+      },
+      "parameters": {
+        "population_size": 16,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Other",
+        "problem_context": "Multi-Class Classification"
+      },
+      "the_database": {
+        "dataset_name": "OpenML",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 41 (soybean)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "plateaus"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NDEA"
+      },
+      "parameters": {
+        "population_size": 16,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Other",
+        "problem_context": "Multi-Class Classification"
+      },
+      "the_database": {
+        "dataset_name": "OpenML",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 3022 (vowel)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "plateaus"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CONDA"
+      },
+      "parameters": {
+        "population_size": 16,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Other",
+        "problem_context": "Multi-Class Classification"
+      },
+      "the_database": {
+        "dataset_name": "OpenML",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 3022 (vowel)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "plateaus"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NDEA"
+      },
+      "parameters": {
+        "population_size": 16,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Other",
+        "problem_context": "Multi-Class Classification"
+      },
+      "the_database": {
+        "dataset_name": "OpenML",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 9964 (semeion)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "plateaus"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CONDA"
+      },
+      "parameters": {
+        "population_size": 16,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Other",
+        "problem_context": "Multi-Class Classification"
+      },
+      "the_database": {
+        "dataset_name": "OpenML",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 9964 (semeion)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "plateaus"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NDEA"
+      },
+      "parameters": {
+        "population_size": 16,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Other",
+        "problem_context": "Multi-Class Classification"
+      },
+      "the_database": {
+        "dataset_name": "OpenML",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 145681 (wine-quality-white)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "plateaus"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CONDA"
+      },
+      "parameters": {
+        "population_size": 16,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Other",
+        "problem_context": "Multi-Class Classification"
+      },
+      "the_database": {
+        "dataset_name": "OpenML",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 145681 (wine-quality-white)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "plateaus"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NDEA"
+      },
+      "parameters": {
+        "population_size": 16,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Other",
+        "problem_context": "Multi-Class Classification"
+      },
+      "the_database": {
+        "dataset_name": "OpenML",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 146204 (led24)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "plateaus"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CONDA"
+      },
+      "parameters": {
+        "population_size": 16,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Other",
+        "problem_context": "Multi-Class Classification"
+      },
+      "the_database": {
+        "dataset_name": "OpenML",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 146204 (led24)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "plateaus"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NDEA"
+      },
+      "parameters": {
+        "population_size": 16,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

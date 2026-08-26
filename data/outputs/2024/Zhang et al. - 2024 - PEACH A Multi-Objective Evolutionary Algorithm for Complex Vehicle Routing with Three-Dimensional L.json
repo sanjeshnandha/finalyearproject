@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "title": "PEACH: A Multi-Objective Evolutionary Algorithm for Complex Vehicle Routing with Three-Dimensional Loading Constraints",
+    "authors": [
+      "Han Zhang",
+      "Qing Li",
+      "Xin Yao"
+    ],
+    "year": 2024,
+    "source_file": "Zhang et al. - 2024 - PEACH A Multi-Objective Evolutionary Algorithm for Complex Vehicle Routing with Three-Dimensional L.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Split Delivery Vehicle Routing Problem with Three-Dimensional Loading Constraints (3L-SDVRP)"
+      },
+      "the_database": {
+        "dataset_name": "EMO2021 logistics competition dataset",
+        "source_platform": "Huawei"
+      },
+      "the_benchmark_problem": {
+        "name": "3L-SDVRP",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "NP-hard",
+          "constrained",
+          "routing and packing"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PEACH"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 12000,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Hyper Volume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Split Delivery Vehicle Routing Problem with Three-Dimensional Loading Constraints (3L-SDVRP)"
+      },
+      "the_database": {
+        "dataset_name": "EMO2021 logistics competition dataset",
+        "source_platform": "Huawei"
+      },
+      "the_benchmark_problem": {
+        "name": "3L-SDVRP",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "NP-hard",
+          "constrained",
+          "routing and packing"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Baseline 1 (SDVRLH2-inspired)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 12000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hyper Volume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Split Delivery Vehicle Routing Problem with Three-Dimensional Loading Constraints (3L-SDVRP)"
+      },
+      "the_database": {
+        "dataset_name": "EMO2021 logistics competition dataset",
+        "source_platform": "Huawei"
+      },
+      "the_benchmark_problem": {
+        "name": "3L-SDVRP",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "NP-hard",
+          "constrained",
+          "routing and packing"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Baseline 2 (MOGA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 12000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hyper Volume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Split Delivery Vehicle Routing Problem with Three-Dimensional Loading Constraints (3L-SDVRP)"
+      },
+      "the_database": {
+        "dataset_name": "EMO2021 logistics competition dataset",
+        "source_platform": "Huawei"
+      },
+      "the_benchmark_problem": {
+        "name": "3L-SDVRP",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "NP-hard",
+          "constrained",
+          "routing and packing"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EMO2021 Logistics Competition Champion Algorithm"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hyper Volume (HV)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

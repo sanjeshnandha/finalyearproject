@@ -1,0 +1,217 @@
+{
+  "metadata": {
+    "title": "TinyverseGP: Towards a Modular Cross-domain Benchmarking Framework for Genetic Programming",
+    "authors": [
+      "Roman Kalkreuth",
+      "Fabricio Olivetti de França",
+      "Julian Dierkes",
+      "Marie Anastacio",
+      "Anja Jankovic",
+      "Zdenek Vasicek",
+      "Holger Hoos"
+    ],
+    "year": 2025,
+    "source_file": "Kalkreuth et al. - 2025 - TinyverseGP Towards a Modular Cross-domain Benchmarking Framework for Genetic Programming.pdf",
+    "gecco_track": "GECCO '25 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Logic Synthesis / Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "General Boolean Function Benchmark Suite (GBFS)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "General Boolean Function Benchmark Suite (GBFS)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Tree-based Genetic Programming"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Ability to synthesize Boolean expressions matching input-output mapping",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Logic Synthesis / Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "General Boolean Function Benchmark Suite (GBFS)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "General Boolean Function Benchmark Suite (GBFS)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Graph-based Genetic Programming"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Ability to synthesize Boolean expressions matching input-output mapping",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Symbolic Regression / Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "SRBench",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SRBench",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Tree-based Genetic Programming"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy and compactness of mathematical expression",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Symbolic Regression / Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "SRBench",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SRBench",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Graph-based Genetic Programming"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy and compactness of mathematical expression",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Policy Search"
+      },
+      "the_database": {
+        "dataset_name": "Gymnasium environments",
+        "source_platform": "Gymnasium"
+      },
+      "the_benchmark_problem": {
+        "name": "Gymnasium environments",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Tree-based Genetic Programming"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Return (Ετ~π[Σ=1 γ·rt])",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Policy Search"
+      },
+      "the_database": {
+        "dataset_name": "Gymnasium environments",
+        "source_platform": "Gymnasium"
+      },
+      "the_benchmark_problem": {
+        "name": "Gymnasium environments",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Graph-based Genetic Programming"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Return (Ετ~π[Σ=1 γ·rt])",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

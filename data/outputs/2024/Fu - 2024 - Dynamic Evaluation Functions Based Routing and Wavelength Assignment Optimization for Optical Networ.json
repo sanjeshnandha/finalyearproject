@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "title": "Dynamic Evaluation Functions Based Routing and Wavelength Assignment Optimization for Optical Network Capacity Expansion",
+    "authors": [
+      "Yu Fu"
+    ],
+    "year": 2024,
+    "source_file": "Fu - 2024 - Dynamic Evaluation Functions Based Routing and Wavelength Assignment Optimization for Optical Networ.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Routing and Wavelength Assignment Optimization for Optical Network Capacity Expansion"
+      },
+      "the_database": {
+        "dataset_name": "Real-case RWA instances",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "eRWA",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "NP-hard",
+          "constrained",
+          "discrete"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DEF-ILS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average number of added edges (Obj)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

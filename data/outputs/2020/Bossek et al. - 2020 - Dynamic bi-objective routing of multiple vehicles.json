@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "title": "Dynamic Bi-Objective Routing of Multiple Vehicles",
+    "authors": [
+      "Jakob Bossek",
+      "Christian Grimme",
+      "Heike Trautmann"
+    ],
+    "year": 2020,
+    "source_file": "Bossek et al. - 2020 - Dynamic bi-objective routing of multiple vehicles.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Dynamic Bi-Objective Vehicle Routing of Multiple Vehicles"
+      },
+      "the_database": {
+        "dataset_name": "50 simulated VRP instances (from Meisel et al. 2015)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Dynamic Bi-Objective Vehicle Routing Problem",
+        "dimensionality": "100 customers"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "dynamic",
+          "combinatorial",
+          "bi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DEMOA"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 455000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume indicator and f1-measure (tour length difference)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Dynamic Bi-Objective Vehicle Routing of Multiple Vehicles"
+      },
+      "the_database": {
+        "dataset_name": "50 simulated VRP instances (from Meisel et al. 2015)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Dynamic Bi-Objective Vehicle Routing Problem",
+        "dimensionality": "100 customers"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "bi-objective",
+          "static offline approximation of dynamic problem"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Clairvoyant EMOA"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 20000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume indicator and f1-measure (tour length difference)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

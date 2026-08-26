@@ -1,0 +1,988 @@
+{
+  "metadata": {
+    "title": "Evolutionary Sparse Coding and Graph Regularisation for Embedded Multi-label Feature Selection",
+    "authors": [
+      "Kaan Demir",
+      "Bach Hoai Nguyen",
+      "Bing Xue",
+      "Mengjie Zhang"
+    ],
+    "year": 2024,
+    "source_file": "Demir et al. - 2024 - Evolutionary Sparse Coding and Graph Regularisation for Embedded Multi-label Feature Selection.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Multi-label image classification"
+      },
+      "the_database": {
+        "dataset_name": "Corel5k",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-label Feature Selection",
+        "dimensionality": "499"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-smooth",
+          "complex feature-to-feature interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSOLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification performance (ML-kNN)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Multi-label image classification"
+      },
+      "the_database": {
+        "dataset_name": "Corel5k",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-label Feature Selection",
+        "dimensionality": "499"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-smooth",
+          "complex feature-to-feature interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSOFE"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification performance (ML-kNN)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Multi-label image classification"
+      },
+      "the_database": {
+        "dataset_name": "Corel5k",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-label Feature Selection",
+        "dimensionality": "499"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-smooth",
+          "complex feature-to-feature interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSOSC"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification performance (ML-kNN)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Music/Audio Analysis",
+        "problem_context": "Multi-label music emotion prediction"
+      },
+      "the_database": {
+        "dataset_name": "Emotions",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-label Feature Selection",
+        "dimensionality": "72"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-smooth",
+          "complex feature-to-feature interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSOLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification performance (ML-kNN)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Music/Audio Analysis",
+        "problem_context": "Multi-label music emotion prediction"
+      },
+      "the_database": {
+        "dataset_name": "Emotions",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-label Feature Selection",
+        "dimensionality": "72"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-smooth",
+          "complex feature-to-feature interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSOFE"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification performance (ML-kNN)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Music/Audio Analysis",
+        "problem_context": "Multi-label music emotion prediction"
+      },
+      "the_database": {
+        "dataset_name": "Emotions",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-label Feature Selection",
+        "dimensionality": "72"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-smooth",
+          "complex feature-to-feature interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSOSC"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification performance (ML-kNN)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Information Technology",
+        "problem_context": "Multi-label text classification"
+      },
+      "the_database": {
+        "dataset_name": "Enron",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-label Feature Selection",
+        "dimensionality": "1001"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-smooth",
+          "complex feature-to-feature interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSOLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification performance (ML-kNN)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Information Technology",
+        "problem_context": "Multi-label text classification"
+      },
+      "the_database": {
+        "dataset_name": "Enron",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-label Feature Selection",
+        "dimensionality": "1001"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-smooth",
+          "complex feature-to-feature interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSOFE"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification performance (ML-kNN)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Information Technology",
+        "problem_context": "Multi-label text classification"
+      },
+      "the_database": {
+        "dataset_name": "Enron",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-label Feature Selection",
+        "dimensionality": "1001"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-smooth",
+          "complex feature-to-feature interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSOSC"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification performance (ML-kNN)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Multi-label image classification"
+      },
+      "the_database": {
+        "dataset_name": "Flags",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-label Feature Selection",
+        "dimensionality": "19"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-smooth",
+          "complex feature-to-feature interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSOLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification performance (ML-kNN)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Multi-label image classification"
+      },
+      "the_database": {
+        "dataset_name": "Flags",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-label Feature Selection",
+        "dimensionality": "19"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-smooth",
+          "complex feature-to-feature interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSOFE"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification performance (ML-kNN)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Multi-label image classification"
+      },
+      "the_database": {
+        "dataset_name": "Flags",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-label Feature Selection",
+        "dimensionality": "19"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-smooth",
+          "complex feature-to-feature interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSOSC"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification performance (ML-kNN)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Biology/Bioinformatics",
+        "problem_context": "Multi-label protein classification"
+      },
+      "the_database": {
+        "dataset_name": "Genbase",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-label Feature Selection",
+        "dimensionality": "1186"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-smooth",
+          "complex feature-to-feature interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSOLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification performance (ML-kNN)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Biology/Bioinformatics",
+        "problem_context": "Multi-label protein classification"
+      },
+      "the_database": {
+        "dataset_name": "Genbase",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-label Feature Selection",
+        "dimensionality": "1186"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-smooth",
+          "complex feature-to-feature interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSOFE"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification performance (ML-kNN)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Biology/Bioinformatics",
+        "problem_context": "Multi-label protein classification"
+      },
+      "the_database": {
+        "dataset_name": "Genbase",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-label Feature Selection",
+        "dimensionality": "1186"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-smooth",
+          "complex feature-to-feature interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSOSC"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification performance (ML-kNN)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Multimedia/Video Analysis",
+        "problem_context": "Multi-label video classification"
+      },
+      "the_database": {
+        "dataset_name": "Mediamill",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-label Feature Selection",
+        "dimensionality": "120"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-smooth",
+          "complex feature-to-feature interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSOLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification performance (ML-kNN)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Multimedia/Video Analysis",
+        "problem_context": "Multi-label video classification"
+      },
+      "the_database": {
+        "dataset_name": "Mediamill",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-label Feature Selection",
+        "dimensionality": "120"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-smooth",
+          "complex feature-to-feature interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSOFE"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification performance (ML-kNN)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Multimedia/Video Analysis",
+        "problem_context": "Multi-label video classification"
+      },
+      "the_database": {
+        "dataset_name": "Mediamill",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-label Feature Selection",
+        "dimensionality": "120"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-smooth",
+          "complex feature-to-feature interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSOSC"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification performance (ML-kNN)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Multi-label medical text classification"
+      },
+      "the_database": {
+        "dataset_name": "Medical",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-label Feature Selection",
+        "dimensionality": "1449"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-smooth",
+          "complex feature-to-feature interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSOLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification performance (ML-kNN)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Multi-label medical text classification"
+      },
+      "the_database": {
+        "dataset_name": "Medical",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-label Feature Selection",
+        "dimensionality": "1449"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-smooth",
+          "complex feature-to-feature interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSOFE"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification performance (ML-kNN)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Multi-label medical text classification"
+      },
+      "the_database": {
+        "dataset_name": "Medical",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-label Feature Selection",
+        "dimensionality": "1449"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-smooth",
+          "complex feature-to-feature interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSOSC"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification performance (ML-kNN)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Multi-label image classification"
+      },
+      "the_database": {
+        "dataset_name": "Scene",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-label Feature Selection",
+        "dimensionality": "294"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-smooth",
+          "complex feature-to-feature interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSOLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification performance (ML-kNN)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Multi-label image classification"
+      },
+      "the_database": {
+        "dataset_name": "Scene",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-label Feature Selection",
+        "dimensionality": "294"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-smooth",
+          "complex feature-to-feature interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSOFE"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification performance (ML-kNN)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Multi-label image classification"
+      },
+      "the_database": {
+        "dataset_name": "Scene",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-label Feature Selection",
+        "dimensionality": "294"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-smooth",
+          "complex feature-to-feature interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSOSC"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification performance (ML-kNN)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Biology/Bioinformatics",
+        "problem_context": "Multi-label gene functional classification"
+      },
+      "the_database": {
+        "dataset_name": "Yeast",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-label Feature Selection",
+        "dimensionality": "103"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-smooth",
+          "complex feature-to-feature interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSOLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification performance (ML-kNN)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Biology/Bioinformatics",
+        "problem_context": "Multi-label gene functional classification"
+      },
+      "the_database": {
+        "dataset_name": "Yeast",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-label Feature Selection",
+        "dimensionality": "103"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-smooth",
+          "complex feature-to-feature interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSOFE"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification performance (ML-kNN)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Biology/Bioinformatics",
+        "problem_context": "Multi-label gene functional classification"
+      },
+      "the_database": {
+        "dataset_name": "Yeast",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-label Feature Selection",
+        "dimensionality": "103"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-smooth",
+          "complex feature-to-feature interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSOSC"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification performance (ML-kNN)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

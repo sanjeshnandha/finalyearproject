@@ -1,0 +1,313 @@
+{
+  "metadata": {
+    "title": "Intepretable Local Explanations Through Genetic Programming",
+    "authors": [
+      "Hayden Andersen",
+      "Andrew Lensen",
+      "Will N. Browne",
+      "Yi Mei"
+    ],
+    "year": 2024,
+    "source_file": "Andersen et al. - 2024 - Intepretable Local Explanations Through Genetic Programming.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Biology",
+        "problem_context": "Local explanation of black-box classifier"
+      },
+      "the_database": {
+        "dataset_name": "Penguins",
+        "source_platform": "R repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Penguins",
+        "dimensionality": "4D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming"
+      },
+      "parameters": {
+        "population_size": 120,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Fidelity (Weighted Mean Squared Error) and Features Selected",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Local explanation of black-box classifier"
+      },
+      "the_database": {
+        "dataset_name": "Breast Cancer Wisconsin (BCW)",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Breast Cancer Wisconsin (BCW)",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming"
+      },
+      "parameters": {
+        "population_size": 120,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Fidelity (Weighted Mean Squared Error) and Features Selected",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Agriculture",
+        "problem_context": "Local explanation of black-box classifier"
+      },
+      "the_database": {
+        "dataset_name": "Wine",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Wine",
+        "dimensionality": "13D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming"
+      },
+      "parameters": {
+        "population_size": 120,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Fidelity (Weighted Mean Squared Error) and Features Selected",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Local explanation of black-box classifier"
+      },
+      "the_database": {
+        "dataset_name": "Segmentation",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Segmentation",
+        "dimensionality": "18D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming"
+      },
+      "parameters": {
+        "population_size": 120,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Fidelity (Weighted Mean Squared Error) and Features Selected",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Local explanation of black-box classifier"
+      },
+      "the_database": {
+        "dataset_name": "kc2",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "kc2",
+        "dimensionality": "21D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming"
+      },
+      "parameters": {
+        "population_size": 120,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Fidelity (Weighted Mean Squared Error) and Features Selected",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Local explanation of black-box classifier"
+      },
+      "the_database": {
+        "dataset_name": "Steel Plates Faults (SPF)",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Steel Plates Faults (SPF)",
+        "dimensionality": "27D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming"
+      },
+      "parameters": {
+        "population_size": 120,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Fidelity (Weighted Mean Squared Error) and Features Selected",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Aerospace",
+        "problem_context": "Local explanation of black-box classifier"
+      },
+      "the_database": {
+        "dataset_name": "Ionosphere",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Ionosphere",
+        "dimensionality": "33D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming"
+      },
+      "parameters": {
+        "population_size": 120,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Fidelity (Weighted Mean Squared Error) and Features Selected",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Local explanation of black-box classifier"
+      },
+      "the_database": {
+        "dataset_name": "Dermatology",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Dermatology",
+        "dimensionality": "34D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming"
+      },
+      "parameters": {
+        "population_size": 120,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Fidelity (Weighted Mean Squared Error) and Features Selected",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Local explanation of black-box classifier"
+      },
+      "the_database": {
+        "dataset_name": "Madelon",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Madelon",
+        "dimensionality": "500D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming"
+      },
+      "parameters": {
+        "population_size": 120,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Fidelity (Weighted Mean Squared Error) and Features Selected",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

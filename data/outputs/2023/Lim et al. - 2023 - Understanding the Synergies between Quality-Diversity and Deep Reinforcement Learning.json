@@ -1,0 +1,435 @@
+{
+  "metadata": {
+    "title": "Understanding the Synergies between Quality-Diversity and Deep Reinforcement Learning",
+    "authors": [
+      "Bryan Lim",
+      "Manon Flageat",
+      "Antoine Cully"
+    ],
+    "year": 2023,
+    "source_file": "Lim et al. - 2023 - Understanding the Synergies between Quality-Diversity and Deep Reinforcement Learning.pdf",
+    "gecco_track": "Evolutionary Robotics"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Locomotion control in Brax simulator"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "HalfCheetah (Brax)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional search spaces"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PGA-ME (TD3)"
+      },
+      "parameters": {
+        "population_size": 128,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Max-Fitness and QD-Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Locomotion control in Brax simulator"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "HalfCheetah (Brax)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional search spaces"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PGA-ME (SAC)"
+      },
+      "parameters": {
+        "population_size": 128,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Max-Fitness and QD-Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Locomotion control in Brax simulator"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "HalfCheetah (Brax)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional search spaces"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PGA-ME (DroQ - Reg.)"
+      },
+      "parameters": {
+        "population_size": 128,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Max-Fitness and QD-Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Locomotion control in Brax simulator"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "HalfCheetah (Brax)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional search spaces"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PGA-ME (DroQ - Reg. + C-UTD)"
+      },
+      "parameters": {
+        "population_size": 128,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Max-Fitness and QD-Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Locomotion control in Brax simulator"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ant (Brax)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional search spaces"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PGA-ME (TD3)"
+      },
+      "parameters": {
+        "population_size": 128,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Max-Fitness and QD-Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Locomotion control in Brax simulator"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ant (Brax)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional search spaces"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PGA-ME (SAC)"
+      },
+      "parameters": {
+        "population_size": 128,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Max-Fitness and QD-Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Locomotion control in Brax simulator"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ant (Brax)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional search spaces"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PGA-ME (DroQ - Reg.)"
+      },
+      "parameters": {
+        "population_size": 128,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Max-Fitness and QD-Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Locomotion control in Brax simulator"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ant (Brax)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional search spaces"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PGA-ME (DroQ - Reg. + C-UTD)"
+      },
+      "parameters": {
+        "population_size": 128,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Max-Fitness and QD-Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Locomotion control in Brax simulator"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Humanoid (Brax)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional search spaces"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PGA-ME (TD3)"
+      },
+      "parameters": {
+        "population_size": 128,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Max-Fitness and QD-Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Locomotion control in Brax simulator"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Humanoid (Brax)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional search spaces"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PGA-ME (SAC)"
+      },
+      "parameters": {
+        "population_size": 128,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Max-Fitness and QD-Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Locomotion control in Brax simulator"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Humanoid (Brax)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional search spaces"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PGA-ME (DroQ - Reg.)"
+      },
+      "parameters": {
+        "population_size": 128,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Max-Fitness and QD-Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Locomotion control in Brax simulator"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Humanoid (Brax)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional search spaces"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PGA-ME (DroQ - Reg. + C-UTD)"
+      },
+      "parameters": {
+        "population_size": 128,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Max-Fitness and QD-Score",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "title": "Modeling wildfire using evolutionary cellular automata",
+    "authors": [
+      "Maxfield E. Green",
+      "Todd F. DeLuca",
+      "Karl WD. Kaiser"
+    ],
+    "year": 2020,
+    "source_file": "Green et al. - 2020 - Modeling wildfire using evolutionary cellular automata.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Environmental",
+        "problem_context": "Wildfire spread prediction"
+      },
+      "the_database": {
+        "dataset_name": "Synthetically generated landscapes using Perlin noise",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Wildfire Spread Simulation",
+        "dimensionality": "6D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stochastic",
+          "spatial",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.08,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average Intersection over Union (IoU)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Environmental",
+        "problem_context": "Wildfire spread prediction"
+      },
+      "the_database": {
+        "dataset_name": "Synthetically generated landscapes using Perlin noise",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Wildfire Spread Simulation",
+        "dimensionality": "6D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stochastic",
+          "spatial",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (Logistic Model)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 1.0,
+        "crossover_rate": 0.4
+      },
+      "performance_outcome": {
+        "metric": "Average Intersection over Union (IoU)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

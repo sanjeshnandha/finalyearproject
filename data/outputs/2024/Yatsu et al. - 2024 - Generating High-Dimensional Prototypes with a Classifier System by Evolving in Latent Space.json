@@ -1,0 +1,214 @@
+{
+  "metadata": {
+    "title": "Generating High-Dimensional Prototypes with a Classifier System by Evolving in Latent Space",
+    "authors": [
+      "Naoya Yatsu",
+      "Hiroki Shiraishi",
+      "Hiroyuki Sato",
+      "Keiki Takadama"
+    ],
+    "year": 2024,
+    "source_file": "Yatsu et al. - 2024 - Generating High-Dimensional Prototypes with a Classifier System by Evolving in Latent Space.pdf",
+    "gecco_track": "Learning Classifier Systems"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Prototype Generation for Image Classification"
+      },
+      "the_database": {
+        "dataset_name": "MNIST",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MNIST",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "kNNUCS-PG w/ LS-OvL"
+      },
+      "parameters": {
+        "population_size": 12800,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.04,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Classification Accuracy: 0.913, Prototype Size: 1570.1",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Prototype Generation for Image Classification"
+      },
+      "the_database": {
+        "dataset_name": "fashion-MNIST",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "fashion-MNIST",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "kNNUCS-PG w/ LS-OvL"
+      },
+      "parameters": {
+        "population_size": 12800,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.04,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Classification Accuracy: 0.794, Prototype Size: 1839.0",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Prototype Generation for Image Classification"
+      },
+      "the_database": {
+        "dataset_name": "MNIST",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MNIST",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "kNNUCS-PG"
+      },
+      "parameters": {
+        "population_size": 12800,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.04,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Classification Accuracy: 0.901, Prototype Size: 2513.7",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Prototype Generation for Image Classification"
+      },
+      "the_database": {
+        "dataset_name": "fashion-MNIST",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "fashion-MNIST",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "kNNUCS-PG"
+      },
+      "parameters": {
+        "population_size": 12800,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.04,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Classification Accuracy: 0.796, Prototype Size: 2245.9",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Prototype Generation for Image Classification"
+      },
+      "the_database": {
+        "dataset_name": "MNIST",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MNIST",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SSMA-SFLSDE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification Accuracy: 0.893, Prototype Size: 222.6",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Prototype Generation for Image Classification"
+      },
+      "the_database": {
+        "dataset_name": "fashion-MNIST",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "fashion-MNIST",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SSMA-SFLSDE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification Accuracy: 0.777, Prototype Size: 171.7",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

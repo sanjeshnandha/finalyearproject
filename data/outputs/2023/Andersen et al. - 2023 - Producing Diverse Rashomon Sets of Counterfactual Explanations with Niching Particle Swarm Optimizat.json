@@ -1,0 +1,1681 @@
+{
+  "metadata": {
+    "title": "Producing Diverse Rashomon Sets of Counterfactual Explanations with Niching Particle Swarm Optimisation",
+    "authors": [
+      "Hayden Andersen",
+      "Andrew Lensen",
+      "Will N. Browne",
+      "Yi Mei"
+    ],
+    "year": 2023,
+    "source_file": "Andersen et al. - 2023 - Producing Diverse Rashomon Sets of Counterfactual Explanations with Niching Particle Swarm Optimizat.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Penguins",
+        "source_platform": "R repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Penguins Counterfactual Generation",
+        "dimensionality": "4D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Penguins",
+        "source_platform": "R repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Penguins Counterfactual Generation",
+        "dimensionality": "4D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SPSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Penguins",
+        "source_platform": "R repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Penguins Counterfactual Generation",
+        "dimensionality": "4D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "E-SPSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Penguins",
+        "source_platform": "R repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Penguins Counterfactual Generation",
+        "dimensionality": "4D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FER-PSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Penguins",
+        "source_platform": "R repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Penguins Counterfactual Generation",
+        "dimensionality": "4D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ring Topology PSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Breast Cancer Wisconsin (BCW)",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Breast Cancer Wisconsin Counterfactual Generation",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Breast Cancer Wisconsin (BCW)",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Breast Cancer Wisconsin Counterfactual Generation",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SPSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Breast Cancer Wisconsin (BCW)",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Breast Cancer Wisconsin Counterfactual Generation",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "E-SPSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Breast Cancer Wisconsin (BCW)",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Breast Cancer Wisconsin Counterfactual Generation",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FER-PSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Breast Cancer Wisconsin (BCW)",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Breast Cancer Wisconsin Counterfactual Generation",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ring Topology PSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Wine",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Wine Counterfactual Generation",
+        "dimensionality": "13D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Wine",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Wine Counterfactual Generation",
+        "dimensionality": "13D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SPSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Wine",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Wine Counterfactual Generation",
+        "dimensionality": "13D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "E-SPSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Wine",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Wine Counterfactual Generation",
+        "dimensionality": "13D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FER-PSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Wine",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Wine Counterfactual Generation",
+        "dimensionality": "13D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ring Topology PSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Segmentation",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Segmentation Counterfactual Generation",
+        "dimensionality": "18D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Segmentation",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Segmentation Counterfactual Generation",
+        "dimensionality": "18D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SPSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Segmentation",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Segmentation Counterfactual Generation",
+        "dimensionality": "18D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "E-SPSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Segmentation",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Segmentation Counterfactual Generation",
+        "dimensionality": "18D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FER-PSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Segmentation",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Segmentation Counterfactual Generation",
+        "dimensionality": "18D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ring Topology PSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "kc2",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "kc2 Counterfactual Generation",
+        "dimensionality": "21D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "kc2",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "kc2 Counterfactual Generation",
+        "dimensionality": "21D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SPSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "kc2",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "kc2 Counterfactual Generation",
+        "dimensionality": "21D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "E-SPSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "kc2",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "kc2 Counterfactual Generation",
+        "dimensionality": "21D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FER-PSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "kc2",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "kc2 Counterfactual Generation",
+        "dimensionality": "21D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ring Topology PSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Steel Plates Faults (SPF)",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Steel Plates Faults Counterfactual Generation",
+        "dimensionality": "27D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Steel Plates Faults (SPF)",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Steel Plates Faults Counterfactual Generation",
+        "dimensionality": "27D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SPSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Steel Plates Faults (SPF)",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Steel Plates Faults Counterfactual Generation",
+        "dimensionality": "27D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "E-SPSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Steel Plates Faults (SPF)",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Steel Plates Faults Counterfactual Generation",
+        "dimensionality": "27D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FER-PSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Steel Plates Faults (SPF)",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Steel Plates Faults Counterfactual Generation",
+        "dimensionality": "27D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ring Topology PSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Ionosphere",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Ionosphere Counterfactual Generation",
+        "dimensionality": "33D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Ionosphere",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Ionosphere Counterfactual Generation",
+        "dimensionality": "33D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SPSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Ionosphere",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Ionosphere Counterfactual Generation",
+        "dimensionality": "33D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "E-SPSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Ionosphere",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Ionosphere Counterfactual Generation",
+        "dimensionality": "33D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FER-PSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Ionosphere",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Ionosphere Counterfactual Generation",
+        "dimensionality": "33D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ring Topology PSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Dermatology",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Dermatology Counterfactual Generation",
+        "dimensionality": "34D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Dermatology",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Dermatology Counterfactual Generation",
+        "dimensionality": "34D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SPSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Dermatology",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Dermatology Counterfactual Generation",
+        "dimensionality": "34D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "E-SPSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Dermatology",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Dermatology Counterfactual Generation",
+        "dimensionality": "34D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FER-PSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Dermatology",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Dermatology Counterfactual Generation",
+        "dimensionality": "34D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ring Topology PSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Madelon",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Madelon Counterfactual Generation",
+        "dimensionality": "500D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Madelon",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Madelon Counterfactual Generation",
+        "dimensionality": "500D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SPSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Madelon",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Madelon Counterfactual Generation",
+        "dimensionality": "500D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "E-SPSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Madelon",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Madelon Counterfactual Generation",
+        "dimensionality": "500D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FER-PSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Generating diverse Rashomon sets of counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Madelon",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Madelon Counterfactual Generation",
+        "dimensionality": "500D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex decision boundaries",
+          "invalid regions",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ring Topology PSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Rashomon set size, features modified, L1 distance, L2 distance",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

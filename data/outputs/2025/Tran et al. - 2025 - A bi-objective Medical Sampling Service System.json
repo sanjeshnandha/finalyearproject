@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "title": "A bi-objective Medical Sampling Service System",
+    "authors": [
+      "Tran Thi Hue",
+      "Hoang Tuan Ky",
+      "Nguyen Khanh Phuong",
+      "Huynh Thi Thanh Binh"
+    ],
+    "year": 2025,
+    "source_file": "Tran et al. - 2025 - A bi-objective Medical Sampling Service System.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Medical Sampling Service System with Variable Technician Speed and Drone Energy Consumption (MSSVTDE)"
+      },
+      "the_database": {
+        "dataset_name": "Sacramento et al. dataset",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "MSSVTDE",
+        "dimensionality": "20 to 200 patients"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HNSGAII-TS"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 1500,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Medical Sampling Service System with Variable Technician Speed and Drone Energy Consumption (MSSVTDE)"
+      },
+      "the_database": {
+        "dataset_name": "Sacramento et al. dataset",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "MSSVTDE",
+        "dimensionality": "20 to 200 patients"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 1500,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Medical Sampling Service System with Variable Technician Speed and Drone Energy Consumption (MSSVTDE)"
+      },
+      "the_database": {
+        "dataset_name": "Sacramento et al. dataset",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "MSSVTDE",
+        "dimensionality": "20 to 200 patients"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Tabu Search"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Medical Sampling Service System with Variable Technician Speed and Drone Energy Consumption (MSSVTDE)"
+      },
+      "the_database": {
+        "dataset_name": "Sacramento et al. dataset",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "MSSVTDE",
+        "dimensionality": "20 to 200 patients"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

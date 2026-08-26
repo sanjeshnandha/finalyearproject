@@ -1,0 +1,165 @@
+{
+  "metadata": {
+    "title": "Coevolutionary Generative Adversarial Networks for Medical Image Augumentation at Scale",
+    "authors": [
+      "Diana Flores",
+      "Erik Hemberg",
+      "Jamal Toutouh",
+      "Una-May O'Reily"
+    ],
+    "year": 2022,
+    "source_file": "Flores et al. - 2022 - Coevolutionary generative adversarial networks for medical image augumentation at scale.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating generative adversarial networks on handwritten digit generation"
+      },
+      "the_database": {
+        "dataset_name": "MNIST",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MNIST",
+        "dimensionality": "28x28"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-convex",
+          "minmax",
+          "unstable training dynamics",
+          "pathologies"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Lipizzaner"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.0001,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Frechet Inception Distance (FID)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Chest X-Ray image data augmentation for COVID-19 detection"
+      },
+      "the_database": {
+        "dataset_name": "COVID-19 positive chest X-Ray images",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "COVID-19 Chest X-Ray Image Generation (4LP)",
+        "dimensionality": "28x28"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-convex",
+          "minmax",
+          "unstable training dynamics"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Lipizzaner"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.0001,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inception Score (IS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Chest X-Ray image data augmentation for COVID-19 detection"
+      },
+      "the_database": {
+        "dataset_name": "COVID-19 positive chest X-Ray images",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "COVID-19 Chest X-Ray Image Generation (CNN28)",
+        "dimensionality": "28x28"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-convex",
+          "minmax",
+          "unstable training dynamics"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Lipizzaner"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.0001,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inception Score (IS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Chest X-Ray image data augmentation for COVID-19 detection"
+      },
+      "the_database": {
+        "dataset_name": "COVID-19 positive chest X-Ray images",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "COVID-19 Chest X-Ray Image Generation (CNN64)",
+        "dimensionality": "64x64"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-convex",
+          "minmax",
+          "unstable training dynamics"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Lipizzaner"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.0001,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inception Score (IS)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

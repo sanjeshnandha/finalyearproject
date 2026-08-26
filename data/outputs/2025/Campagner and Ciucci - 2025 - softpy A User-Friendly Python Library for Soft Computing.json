@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "title": "softpy: A User-Friendly Python Library for Soft Computing",
+    "authors": [
+      "Andrea Campagner",
+      "Davide Ciucci"
+    ],
+    "year": 2025,
+    "source_file": "Campagner and Ciucci - 2025 - softpy A User-Friendly Python Library for Soft Computing.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Hyperparameter Optimization for Fuzzy C-Means"
+      },
+      "the_database": {
+        "dataset_name": "Iris dataset",
+        "source_platform": "sklearn.datasets"
+      },
+      "the_benchmark_problem": {
+        "name": "Hyperparameter Optimization for Fuzzy C-Means",
+        "dimensionality": "4D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GeneticAlgorithm"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 10,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Negative Davies-Bouldin score",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

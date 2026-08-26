@@ -1,0 +1,427 @@
+{
+  "metadata": {
+    "title": "Asynchronous Neuro-Evolutionary Symbolic Regression with Maturity-Based Replacement",
+    "authors": [
+      "Jiří Kubalík",
+      "Naďa Fučelová",
+      "Robert Babuška"
+    ],
+    "year": 2026,
+    "source_file": "Kubalík et al. - 2026 - Asynchronous Neuro-Evolutionary Symbolic Regression with Maturity-Based Replacement.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Nguyen-9c",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ANSR"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test Root Mean Square Error (RMSEt)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Nguyen-9c",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SEASR"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test Root Mean Square Error (RMSEt)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Nguyen-10c",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ANSR"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test Root Mean Square Error (RMSEt)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Nguyen-10c",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SEASR"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test Root Mean Square Error (RMSEt)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Jin-6",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ANSR"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test Root Mean Square Error (RMSEt)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Jin-6",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SEASR"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test Root Mean Square Error (RMSEt)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Learning equivalent resistance of parallel resistors"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Parallel Resistors",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ANSR"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test Root Mean Square Error (RMSEt)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Learning equivalent resistance of parallel resistors"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Parallel Resistors",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SEASR"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test Root Mean Square Error (RMSEt)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "System identification of a laboratory servo positioning system"
+      },
+      "the_database": {
+        "dataset_name": "Laboratory servo positioning system data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rotational Motion Under Dry Friction",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "nonlinear"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ANSR"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test Root Mean Square Error (RMSEt)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "System identification of a laboratory servo positioning system"
+      },
+      "the_database": {
+        "dataset_name": "Laboratory servo positioning system data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rotational Motion Under Dry Friction",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "nonlinear"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SEASR"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test Root Mean Square Error (RMSEt)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Constructing a dynamic model of a custom-built quadcopter"
+      },
+      "the_database": {
+        "dataset_name": "Quadcopter flight data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Drone Dynamics",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "nonlinear"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ANSR"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test Root Mean Square Error (RMSEt)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Constructing a dynamic model of a custom-built quadcopter"
+      },
+      "the_database": {
+        "dataset_name": "Quadcopter flight data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Drone Dynamics",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "nonlinear"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SEASR"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test Root Mean Square Error (RMSEt)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

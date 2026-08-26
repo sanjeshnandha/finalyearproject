@@ -1,0 +1,443 @@
+{
+  "metadata": {
+    "title": "Relatedness Measures to Aid the Transfer of Building Blocks among Multiple Tasks",
+    "authors": [
+      "Trung B. Nguyen",
+      "Will N. Browne",
+      "Mengjie Zhang"
+    ],
+    "year": 2020,
+    "source_file": "Nguyen et al. - 2020 - Relatedness measures to aid the transfer of building blocks among multiple tasks.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating Boolean logic problems"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "12-bit Hierarchical Carry-one, 9-bit Hierarchical Multiplexer, and 9-bit Hierarchical Majority-on",
+        "dimensionality": "9-bit and 12-bit"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "hierarchical",
+          "complex underlying patterns",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "mXOF"
+      },
+      "parameters": {
+        "population_size": 2000,
+        "max_evaluations_or_generations": 500000,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.2
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating Boolean logic problems"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "12-bit Hierarchical Carry-one, 9-bit Hierarchical Multiplexer, and 9-bit Hierarchical Majority-on",
+        "dimensionality": "9-bit and 12-bit"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "hierarchical",
+          "complex underlying patterns",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "XOF"
+      },
+      "parameters": {
+        "population_size": 2000,
+        "max_evaluations_or_generations": 500000,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.2
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating Boolean logic problems"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "18-bit Hierarchical Carry-one and 18-bit Hierarchical Multiplexer",
+        "dimensionality": "18-bit"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "hierarchical",
+          "complex underlying patterns",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "mXOF"
+      },
+      "parameters": {
+        "population_size": 20000,
+        "max_evaluations_or_generations": 2000000,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.2
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating Boolean logic problems"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "18-bit Hierarchical Carry-one and 18-bit Hierarchical Multiplexer",
+        "dimensionality": "18-bit"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "hierarchical",
+          "complex underlying patterns",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "XOF"
+      },
+      "parameters": {
+        "population_size": 20000,
+        "max_evaluations_or_generations": 2000000,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.2
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating Boolean logic problems"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "18-bit Hierarchical Carry-one and 18-bit Hierarchical Multiplexer",
+        "dimensionality": "18-bit"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "hierarchical",
+          "complex underlying patterns",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "XCSCFC"
+      },
+      "parameters": {
+        "population_size": 50000,
+        "max_evaluations_or_generations": 2000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating Boolean logic problems"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "18-bit Hierarchical Carry-one and 18-bit Hierarchical Multiplexer",
+        "dimensionality": "18-bit"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "hierarchical",
+          "complex underlying patterns",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "XCS"
+      },
+      "parameters": {
+        "population_size": 50000,
+        "max_evaluations_or_generations": 2000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating Boolean logic problems"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "37-bit Multiplexer and 11-bit Even-parity",
+        "dimensionality": "37-bit and 11-bit"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "mXOF"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 500000,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.2
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating Boolean logic problems"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "37-bit Multiplexer and 11-bit Even-parity",
+        "dimensionality": "37-bit and 11-bit"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "XOF"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 500000,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.2
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating Boolean logic problems"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "10-bit Carry-one and 11-bit Even-parity",
+        "dimensionality": "10-bit and 11-bit"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "mXOF"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 500000,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.2
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating Boolean logic problems"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "10-bit Carry-one and 11-bit Even-parity",
+        "dimensionality": "10-bit and 11-bit"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "XOF"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 500000,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.2
+      },
+      "performance_outcome": {
+        "metric": "Accuracy",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Other",
+        "problem_context": "Multi-class classification of animals"
+      },
+      "the_database": {
+        "dataset_name": "UCI Zoo dataset",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Zoo",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "mXOF"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 50000,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.2
+      },
+      "performance_outcome": {
+        "metric": "Classification Accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Other",
+        "problem_context": "Multi-class classification of animals"
+      },
+      "the_database": {
+        "dataset_name": "UCI Zoo dataset",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Zoo",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "mXOF"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 50000,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.2
+      },
+      "performance_outcome": {
+        "metric": "Classification Accuracy",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "title": "Bivariate Estimation-of-Distribution Algorithms Can Find an Exponential Number of Optima",
+    "authors": [
+      "Benjamin Doerr",
+      "Martin S. Krejca"
+    ],
+    "year": 2020,
+    "source_file": "Doerr and Krejca - 2020 - Bivariate estimation-of-distribution algorithms can find an exponential number of optima.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "EqualBlocksOneMax (EBOM)",
+        "dimensionality": "50D to 200D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "multimodal",
+          "exponential number of optima",
+          "bivariate dependencies",
+          "hill-climbing landscape"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MIMIC"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of distinct optima found",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

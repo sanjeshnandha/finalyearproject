@@ -1,0 +1,207 @@
+{
+  "metadata": {
+    "title": "Adapted Ant Colony Optimization for Large-Scale Orienteering Problem",
+    "authors": [
+      "De-Ming Wu",
+      "Qiang Yang",
+      "Chang-Jun Zhou",
+      "Zhong-Long Zheng",
+      "Jun Zhang"
+    ],
+    "year": 2024,
+    "source_file": "Wu et al. - 2024 - Adapted Ant Colony Optimization for Large-Scale Orienteering Problem.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Orienteering Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "TSPLIB Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Orienteering Problem (21 Large-Scale Instances)",
+        "dimensionality": "Variable (1291 to 7397 nodes)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "constrained",
+          "routing",
+          "large-scale"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ant System (AS)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 400,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best, Mean, and Worst profit achieved over 30 independent runs",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Orienteering Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "TSPLIB Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Orienteering Problem (21 Large-Scale Instances)",
+        "dimensionality": "Variable (1291 to 7397 nodes)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "constrained",
+          "routing",
+          "large-scale"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Elite Ant System (EAS)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 400,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best, Mean, and Worst profit achieved over 30 independent runs",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Orienteering Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "TSPLIB Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Orienteering Problem (21 Large-Scale Instances)",
+        "dimensionality": "Variable (1291 to 7397 nodes)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "constrained",
+          "routing",
+          "large-scale"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Rank-based Ant System (AS_rank)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 400,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best, Mean, and Worst profit achieved over 30 independent runs",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Orienteering Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "TSPLIB Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Orienteering Problem (21 Large-Scale Instances)",
+        "dimensionality": "Variable (1291 to 7397 nodes)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "constrained",
+          "routing",
+          "large-scale"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Min-Max Ant System (MMAS)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 400,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best, Mean, and Worst profit achieved over 30 independent runs",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Orienteering Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "TSPLIB Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Orienteering Problem (21 Large-Scale Instances)",
+        "dimensionality": "Variable (1291 to 7397 nodes)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "constrained",
+          "routing",
+          "large-scale"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ant Colony System (ACS)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 400,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best, Mean, and Worst profit achieved over 30 independent runs",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

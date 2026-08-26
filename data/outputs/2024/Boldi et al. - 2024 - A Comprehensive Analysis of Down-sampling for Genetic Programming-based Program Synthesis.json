@@ -1,0 +1,415 @@
+{
+  "metadata": {
+    "title": "A Comprehensive Analysis of Down-sampling for Genetic Programming-based Program Synthesis",
+    "authors": [
+      "Ryan Boldi",
+      "Ashley Bao",
+      "Martin Briesch",
+      "Thomas Helmuth",
+      "Dominik Sobania",
+      "Lee Spector",
+      "Alexander Lalejini"
+    ],
+    "year": 2024,
+    "source_file": "Boldi et al. - 2024 - A Comprehensive Analysis of Down-sampling for Genetic Programming-based Program Synthesis.pdf",
+    "gecco_track": "Genetic Programming"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating program synthesis benchmark suites"
+      },
+      "the_database": {
+        "dataset_name": "PSB1 and PSB2 benchmark suites",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Count Odds",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PushGP with Lexicase Selection and Informed Down-sampling"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "49 generalizing solutions out of 50 runs",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating program synthesis benchmark suites"
+      },
+      "the_database": {
+        "dataset_name": "PSB1 and PSB2 benchmark suites",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Fizz Buzz",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PushGP with Lexicase Selection and Informed Down-sampling"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "45 generalizing solutions out of 50 runs",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating program synthesis benchmark suites"
+      },
+      "the_database": {
+        "dataset_name": "PSB1 and PSB2 benchmark suites",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Fuel Cost",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PushGP with Lexicase Selection and Informed Down-sampling"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "41 generalizing solutions out of 50 runs",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating program synthesis benchmark suites"
+      },
+      "the_database": {
+        "dataset_name": "PSB1 and PSB2 benchmark suites",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Small or Large",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PushGP with Lexicase Selection and Informed Down-sampling"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "38 generalizing solutions out of 50 runs",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating program synthesis benchmark suites"
+      },
+      "the_database": {
+        "dataset_name": "PSB1 and PSB2 benchmark suites",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Middle Character",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PushGP with Lexicase Selection and Informed Down-sampling"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "26 generalizing solutions out of 50 runs",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating program synthesis benchmark suites"
+      },
+      "the_database": {
+        "dataset_name": "PSB1 and PSB2 benchmark suites",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Scrabble Score",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PushGP with Lexicase Selection and Informed Down-sampling"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "2 generalizing solutions out of 50 runs",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating program synthesis benchmark suites"
+      },
+      "the_database": {
+        "dataset_name": "PSB1 and PSB2 benchmark suites",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Count Odds",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PushGP with Tournament Selection (t=30) and Informed Down-sampling"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "34 generalizing solutions out of 50 runs",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating program synthesis benchmark suites"
+      },
+      "the_database": {
+        "dataset_name": "PSB1 and PSB2 benchmark suites",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Fizz Buzz",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PushGP with Tournament Selection (t=30) and Informed Down-sampling"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "7 generalizing solutions out of 50 runs",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating program synthesis benchmark suites"
+      },
+      "the_database": {
+        "dataset_name": "PSB1 and PSB2 benchmark suites",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Fuel Cost",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PushGP with Tournament Selection (t=30) and Informed Down-sampling"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "37 generalizing solutions out of 50 runs",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating program synthesis benchmark suites"
+      },
+      "the_database": {
+        "dataset_name": "PSB1 and PSB2 benchmark suites",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Small or Large",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PushGP with Tournament Selection (t=30) and Informed Down-sampling"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "41 generalizing solutions out of 50 runs",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating program synthesis benchmark suites"
+      },
+      "the_database": {
+        "dataset_name": "PSB1 and PSB2 benchmark suites",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Middle Character",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PushGP with Tournament Selection (t=30) and Informed Down-sampling"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "10 generalizing solutions out of 50 runs",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating program synthesis benchmark suites"
+      },
+      "the_database": {
+        "dataset_name": "PSB1 and PSB2 benchmark suites",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Scrabble Score",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PushGP with Tournament Selection (t=30) and Informed Down-sampling"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "0 generalizing solutions out of 50 runs",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

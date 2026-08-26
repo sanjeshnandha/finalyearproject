@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "title": "Hybrid Deterministic and Metaheuristic Optimization for Physical Adversarial Attack on End-to-End Autoencoder Wireless Communication Systems",
+    "authors": [
+      "Ho Viet Duc Luong",
+      "Trinh Van Chien",
+      "Lang Hong Nguyet Anh",
+      "Huynh Thi Thanh Binh"
+    ],
+    "year": 2025,
+    "source_file": "Duc Luong et al. - 2025 - Hybrid Deterministic and Metaheuristic Optimization for Physical Adversarial Attack on End-to-End Au.pdf",
+    "gecco_track": "GECCO '25 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Telecommunications / Wireless Communication",
+        "problem_context": "Adversarial Attack on End-to-End Autoencoder Wireless Communication Systems (White-box Attack)"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Maximizing Block Error Rate (BLER) in Autoencoder Wireless Communication",
+        "dimensionality": "Variable (10D, 14D, 22D)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-differentiable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PAGA (Genetic Algorithm-based)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 250,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Block Error Rate (BLER)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Telecommunications / Wireless Communication",
+        "problem_context": "Adversarial Attack on End-to-End Autoencoder Wireless Communication Systems (Black-box Attack)"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Maximizing Block Error Rate (BLER) in Autoencoder Wireless Communication",
+        "dimensionality": "Variable (10D, 14D, 22D)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-differentiable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PAMFGA (Multifactorial Genetic Algorithm)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 250,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Block Error Rate (BLER)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

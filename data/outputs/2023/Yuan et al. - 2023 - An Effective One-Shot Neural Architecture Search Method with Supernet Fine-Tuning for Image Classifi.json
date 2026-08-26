@@ -1,0 +1,180 @@
+{
+  "metadata": {
+    "title": "An Effective One-Shot Neural Architecture Search Method with Supernet Fine-Tuning for Image Classification",
+    "authors": [
+      "Gonglin Yuan",
+      "Bing Xue",
+      "Mengjie Zhang"
+    ],
+    "year": 2023,
+    "source_file": "Yuan et al. - 2023 - An Effective One-Shot Neural Architecture Search Method with Supernet Fine-Tuning for Image Classifi.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Neural Architecture Search for Image Classification"
+      },
+      "the_database": {
+        "dataset_name": "CIFAR10",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CIFAR10 Image Classification",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EOFGA"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 10,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification error rate of 2.56% (median) / 2.50% (best)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Neural Architecture Search for Image Classification"
+      },
+      "the_database": {
+        "dataset_name": "CIFAR100",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CIFAR100 Image Classification",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EOFGA"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 10,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification error rate of 17.07% (median) / 16.85% (best)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Neural Architecture Search for Image Classification"
+      },
+      "the_database": {
+        "dataset_name": "ImageNet",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ImageNet Image Classification",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EOFGA"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 10,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Top-1 error rate of 24.4% / Top-5 error rate of 7.4%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Neural Architecture Search for Image Classification"
+      },
+      "the_database": {
+        "dataset_name": "CIFAR10",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CIFAR10 Image Classification",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EOWGA"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 10,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification error rate of 2.90%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Neural Architecture Search for Image Classification"
+      },
+      "the_database": {
+        "dataset_name": "CIFAR100",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CIFAR100 Image Classification",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EOWGA"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 10,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Classification error rate of 18.69%",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "title": "Multi-objective Traveling Salesman Problem with Profits and Passengers: Exact, Heuristic and Evolutionary Approaches",
+    "authors": [
+      "Juvenal B. A. Silva",
+      "Tarcisio A. P. Brito",
+      "Ricardo A. Rios",
+      "Tatiane N. Rios",
+      "Islame F. C. Fernandes"
+    ],
+    "year": 2025,
+    "source_file": "Silva et al. - 2025 - Multi-objective Traveling Salesman Problem with Profits and Passengers Exact, Heuristic and Evoluti.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem with Profits and Passengers (MoTSPPP) for ridesharing"
+      },
+      "the_database": {
+        "dataset_name": "84 instances proposed by Marques et al.",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-objective Traveling Salesman Problem with Profits and Passengers (MoTSPPP)",
+        "dimensionality": "Up to 200 vertices"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "NP-hard",
+          "discrete",
+          "multi-objective",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 300,
+        "max_evaluations_or_generations": 800000,
+        "mutation_rate": 0.56,
+        "crossover_rate": 0.93
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV) and Inverted Generational Distance (IGD)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem with Profits and Passengers (MoTSPPP) for ridesharing"
+      },
+      "the_database": {
+        "dataset_name": "84 instances proposed by Marques et al.",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-objective Traveling Salesman Problem with Profits and Passengers (MoTSPPP)",
+        "dimensionality": "Up to 200 vertices"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "NP-hard",
+          "discrete",
+          "multi-objective",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D"
+      },
+      "parameters": {
+        "population_size": 300,
+        "max_evaluations_or_generations": 800000,
+        "mutation_rate": 0.34,
+        "crossover_rate": 0.58
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV) and Inverted Generational Distance (IGD)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

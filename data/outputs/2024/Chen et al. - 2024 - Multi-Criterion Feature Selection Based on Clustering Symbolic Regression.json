@@ -1,0 +1,1204 @@
+{
+  "metadata": {
+    "title": "Multi-Criterion Feature Selection Based on Clustering Symbolic Regression",
+    "authors": [
+      "Yehang Chen",
+      "Yu Zhang",
+      "Xinyue Li",
+      "Wang Hu"
+    ],
+    "year": 2024,
+    "source_file": "Chen et al. - 2024 - Multi-Criterion Feature Selection Based on Clustering Symbolic Regression.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Feature selection for breast cancer classification"
+      },
+      "the_database": {
+        "dataset_name": "Breast Cancer",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Breast Cancer Feature Selection",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FSSR"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy of SVM on the test set: 95.54%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Agriculture",
+        "problem_context": "Feature selection for wine classification"
+      },
+      "the_database": {
+        "dataset_name": "Wine",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Wine Feature Selection",
+        "dimensionality": "13D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FSSR"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy of SVM on the test set: 96.23%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Aerospace/Space Science",
+        "problem_context": "Feature selection for ionosphere radar data classification"
+      },
+      "the_database": {
+        "dataset_name": "Ionosphere",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Ionosphere Feature Selection",
+        "dimensionality": "34D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FSSR"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy of SVM on the test set: 94.13%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "IT/Cybersecurity",
+        "problem_context": "Feature selection for spam email classification"
+      },
+      "the_database": {
+        "dataset_name": "Spambase",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Spambase Feature Selection",
+        "dimensionality": "57D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FSSR"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy of SVM on the test set: 95.32%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Feature selection for synthetic classification benchmark"
+      },
+      "the_database": {
+        "dataset_name": "Madelon",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Madelon Feature Selection",
+        "dimensionality": "500D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FSSR"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy of SVM on the test set: 88.99%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Speech Recognition",
+        "problem_context": "Feature selection for vowel classification"
+      },
+      "the_database": {
+        "dataset_name": "Vowel",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Vowel Feature Selection",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FSSR"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy of SVM on the test set: 94.73%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Defense/Military",
+        "problem_context": "Feature selection for sonar signals classification"
+      },
+      "the_database": {
+        "dataset_name": "Sonar",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Sonar Feature Selection",
+        "dimensionality": "13D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FSSR"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy of SVM on the test set: 96.23%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Speech Recognition",
+        "problem_context": "Feature selection for letter recognition"
+      },
+      "the_database": {
+        "dataset_name": "Isolet",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Isolet Feature Selection",
+        "dimensionality": "617D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FSSR"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy of SVM on the test set: 96.01%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Biology",
+        "problem_context": "Feature selection for abalone age prediction"
+      },
+      "the_database": {
+        "dataset_name": "Abalone",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Abalone Feature Selection",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FSSR"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy of SVM on the test set: 56.33%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Feature selection for breast cancer classification"
+      },
+      "the_database": {
+        "dataset_name": "Breast Cancer",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Breast Cancer Feature Selection",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Particle Swarm Optimization (PSO)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy of SVM on the test set: 92.34%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Agriculture",
+        "problem_context": "Feature selection for wine classification"
+      },
+      "the_database": {
+        "dataset_name": "Wine",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Wine Feature Selection",
+        "dimensionality": "13D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Particle Swarm Optimization (PSO)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy of SVM on the test set: 90.62%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Aerospace/Space Science",
+        "problem_context": "Feature selection for ionosphere radar data classification"
+      },
+      "the_database": {
+        "dataset_name": "Ionosphere",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Ionosphere Feature Selection",
+        "dimensionality": "34D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Particle Swarm Optimization (PSO)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy of SVM on the test set: 88.03%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "IT/Cybersecurity",
+        "problem_context": "Feature selection for spam email classification"
+      },
+      "the_database": {
+        "dataset_name": "Spambase",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Spambase Feature Selection",
+        "dimensionality": "57D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Particle Swarm Optimization (PSO)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy of SVM on the test set: 90.92%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Feature selection for synthetic classification benchmark"
+      },
+      "the_database": {
+        "dataset_name": "Madelon",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Madelon Feature Selection",
+        "dimensionality": "500D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Particle Swarm Optimization (PSO)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy of SVM on the test set: 70.19%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Speech Recognition",
+        "problem_context": "Feature selection for vowel classification"
+      },
+      "the_database": {
+        "dataset_name": "Vowel",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Vowel Feature Selection",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Particle Swarm Optimization (PSO)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy of SVM on the test set: 92.56%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Defense/Military",
+        "problem_context": "Feature selection for sonar signals classification"
+      },
+      "the_database": {
+        "dataset_name": "Sonar",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Sonar Feature Selection",
+        "dimensionality": "13D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Particle Swarm Optimization (PSO)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy of SVM on the test set: 90.62%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Speech Recognition",
+        "problem_context": "Feature selection for letter recognition"
+      },
+      "the_database": {
+        "dataset_name": "Isolet",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Isolet Feature Selection",
+        "dimensionality": "617D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Particle Swarm Optimization (PSO)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy of SVM on the test set: 94.66%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Biology",
+        "problem_context": "Feature selection for abalone age prediction"
+      },
+      "the_database": {
+        "dataset_name": "Abalone",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Abalone Feature Selection",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Particle Swarm Optimization (PSO)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy of SVM on the test set: 52.74%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Feature selection for breast cancer classification"
+      },
+      "the_database": {
+        "dataset_name": "Breast Cancer",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Breast Cancer Feature Selection",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Deluge Genetic Algorithm (DGA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy of SVM on the test set: 90.87%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Agriculture",
+        "problem_context": "Feature selection for wine classification"
+      },
+      "the_database": {
+        "dataset_name": "Wine",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Wine Feature Selection",
+        "dimensionality": "13D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Deluge Genetic Algorithm (DGA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy of SVM on the test set: 95.85%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Aerospace/Space Science",
+        "problem_context": "Feature selection for ionosphere radar data classification"
+      },
+      "the_database": {
+        "dataset_name": "Ionosphere",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Ionosphere Feature Selection",
+        "dimensionality": "34D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Deluge Genetic Algorithm (DGA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy of SVM on the test set: 92.78%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "IT/Cybersecurity",
+        "problem_context": "Feature selection for spam email classification"
+      },
+      "the_database": {
+        "dataset_name": "Spambase",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Spambase Feature Selection",
+        "dimensionality": "57D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Deluge Genetic Algorithm (DGA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy of SVM on the test set: 95.21%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Feature selection for synthetic classification benchmark"
+      },
+      "the_database": {
+        "dataset_name": "Madelon",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Madelon Feature Selection",
+        "dimensionality": "500D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Deluge Genetic Algorithm (DGA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy of SVM on the test set: 85.32%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Speech Recognition",
+        "problem_context": "Feature selection for vowel classification"
+      },
+      "the_database": {
+        "dataset_name": "Vowel",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Vowel Feature Selection",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Deluge Genetic Algorithm (DGA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy of SVM on the test set: 95.22%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Defense/Military",
+        "problem_context": "Feature selection for sonar signals classification"
+      },
+      "the_database": {
+        "dataset_name": "Sonar",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Sonar Feature Selection",
+        "dimensionality": "13D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Deluge Genetic Algorithm (DGA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy of SVM on the test set: 94.32%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Speech Recognition",
+        "problem_context": "Feature selection for letter recognition"
+      },
+      "the_database": {
+        "dataset_name": "Isolet",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Isolet Feature Selection",
+        "dimensionality": "617D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Deluge Genetic Algorithm (DGA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy of SVM on the test set: 95.79%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Biology",
+        "problem_context": "Feature selection for abalone age prediction"
+      },
+      "the_database": {
+        "dataset_name": "Abalone",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Abalone Feature Selection",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Deluge Genetic Algorithm (DGA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy of SVM on the test set: 51.54%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Feature selection for breast cancer classification"
+      },
+      "the_database": {
+        "dataset_name": "Breast Cancer",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Breast Cancer Feature Selection",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Wrapper-filter ant colony optimization feature selection (WFACOFS)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy of SVM on the test set: 92.40%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Agriculture",
+        "problem_context": "Feature selection for wine classification"
+      },
+      "the_database": {
+        "dataset_name": "Wine",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Wine Feature Selection",
+        "dimensionality": "13D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Wrapper-filter ant colony optimization feature selection (WFACOFS)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy of SVM on the test set: 96.27%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Aerospace/Space Science",
+        "problem_context": "Feature selection for ionosphere radar data classification"
+      },
+      "the_database": {
+        "dataset_name": "Ionosphere",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Ionosphere Feature Selection",
+        "dimensionality": "34D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Wrapper-filter ant colony optimization feature selection (WFACOFS)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy of SVM on the test set: 94.09%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "IT/Cybersecurity",
+        "problem_context": "Feature selection for spam email classification"
+      },
+      "the_database": {
+        "dataset_name": "Spambase",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Spambase Feature Selection",
+        "dimensionality": "57D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Wrapper-filter ant colony optimization feature selection (WFACOFS)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy of SVM on the test set: 95.44%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Feature selection for synthetic classification benchmark"
+      },
+      "the_database": {
+        "dataset_name": "Madelon",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Madelon Feature Selection",
+        "dimensionality": "500D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Wrapper-filter ant colony optimization feature selection (WFACOFS)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy of SVM on the test set: 84.45%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Speech Recognition",
+        "problem_context": "Feature selection for vowel classification"
+      },
+      "the_database": {
+        "dataset_name": "Vowel",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Vowel Feature Selection",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Wrapper-filter ant colony optimization feature selection (WFACOFS)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy of SVM on the test set: 92.78%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Defense/Military",
+        "problem_context": "Feature selection for sonar signals classification"
+      },
+      "the_database": {
+        "dataset_name": "Sonar",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Sonar Feature Selection",
+        "dimensionality": "13D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Wrapper-filter ant colony optimization feature selection (WFACOFS)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy of SVM on the test set: 93.59%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Speech Recognition",
+        "problem_context": "Feature selection for letter recognition"
+      },
+      "the_database": {
+        "dataset_name": "Isolet",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Isolet Feature Selection",
+        "dimensionality": "617D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Wrapper-filter ant colony optimization feature selection (WFACOFS)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy of SVM on the test set: 96.05%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Biology",
+        "problem_context": "Feature selection for abalone age prediction"
+      },
+      "the_database": {
+        "dataset_name": "Abalone",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Abalone Feature Selection",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Wrapper-filter ant colony optimization feature selection (WFACOFS)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean accuracy of SVM on the test set: 50.72%",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

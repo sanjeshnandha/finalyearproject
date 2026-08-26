@@ -1,0 +1,385 @@
+{
+  "metadata": {
+    "title": "Discovering Representations for Black-box Optimization",
+    "authors": [
+      "Adam Gaier",
+      "Alexander Asteroth",
+      "Jean-Baptiste Mouret"
+    ],
+    "year": 2020,
+    "source_file": "Gaier et al. - 2020 - Discovering representations for black-box optimization.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating Quality Diversity algorithms on high-dimensional inverse kinematics"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Planar Arm Inverse Kinematics",
+        "dimensionality": "1000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "redundant",
+          "non-linear",
+          "continuous"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DDE-Elites"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean archive fitness and coverage",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating Quality Diversity algorithms on high-dimensional inverse kinematics"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Planar Arm Inverse Kinematics",
+        "dimensionality": "1000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "redundant",
+          "non-linear",
+          "continuous"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ME-Line"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean archive fitness and coverage",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating Quality Diversity algorithms on high-dimensional inverse kinematics"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Planar Arm Inverse Kinematics",
+        "dimensionality": "1000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "redundant",
+          "non-linear",
+          "continuous"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAP-Elites"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean archive fitness and coverage",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating Quality Diversity algorithms on high-dimensional inverse kinematics"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Planar Arm Inverse Kinematics",
+        "dimensionality": "1000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "redundant",
+          "non-linear",
+          "continuous"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DDE-XOver"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean archive fitness and coverage",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating Quality Diversity algorithms on high-dimensional inverse kinematics"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Planar Arm Inverse Kinematics",
+        "dimensionality": "200D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "redundant",
+          "non-linear",
+          "continuous"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DDE-Elites"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean archive fitness and coverage",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating Quality Diversity algorithms on high-dimensional inverse kinematics"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Planar Arm Inverse Kinematics",
+        "dimensionality": "200D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "redundant",
+          "non-linear",
+          "continuous"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ME-Line"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean archive fitness and coverage",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating Quality Diversity algorithms on high-dimensional inverse kinematics"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Planar Arm Inverse Kinematics",
+        "dimensionality": "20D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "redundant",
+          "non-linear",
+          "continuous"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DDE-Elites"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean archive fitness and coverage",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating Quality Diversity algorithms on high-dimensional inverse kinematics"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Planar Arm Inverse Kinematics",
+        "dimensionality": "20D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "redundant",
+          "non-linear",
+          "continuous"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ME-Line"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean archive fitness and coverage",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating black-box optimization with learned representations on inverse kinematics"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Planar Arm Inverse Kinematics",
+        "dimensionality": "1000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "redundant",
+          "non-linear",
+          "continuous"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ES with Data-Driven Encoding (DDE)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Distance to target",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating black-box optimization with learned representations on inverse kinematics"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Planar Arm Inverse Kinematics",
+        "dimensionality": "1000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "redundant",
+          "non-linear",
+          "continuous"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ES with Direct Encoding"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Distance to target",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "title": "Using Multiple Generative Adversarial Networks to Build Better-Connected Levels for Mega Man",
+    "authors": [
+      "Benjamin Capps",
+      "Jacob Schrum"
+    ],
+    "year": 2021,
+    "source_file": "Capps and Schrum - 2021 - Using multiple generative adversarial networks to build better-connected levels for mega man.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Games / Entertainment",
+        "problem_context": "Procedural Content Generation of Mega Man levels using OneGAN"
+      },
+      "the_database": {
+        "dataset_name": "Video Game Level Corpus (VGLC)",
+        "source_platform": "VGLC"
+      },
+      "the_benchmark_problem": {
+        "name": "Mega Man Level Generation (OneGAN)",
+        "dimensionality": "90D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "flat regions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "A* path length",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Games / Entertainment",
+        "problem_context": "Procedural Content Generation of Mega Man levels using MultiGAN"
+      },
+      "the_database": {
+        "dataset_name": "Video Game Level Corpus (VGLC)",
+        "source_platform": "VGLC"
+      },
+      "the_benchmark_problem": {
+        "name": "Mega Man Level Generation (MultiGAN)",
+        "dimensionality": "90D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "flat regions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "A* path length",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

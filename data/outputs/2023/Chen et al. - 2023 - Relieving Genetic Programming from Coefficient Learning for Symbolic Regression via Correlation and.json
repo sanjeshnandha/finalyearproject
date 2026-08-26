@@ -1,0 +1,676 @@
+{
+  "metadata": {
+    "title": "Relieving Coefficient Learning in Genetic Programming for Symbolic Regression via Correlation and Linear Scaling",
+    "authors": [
+      "Qi Chen",
+      "Bing Xue",
+      "Wolfgang Banzhaf",
+      "Mengjie Zhang"
+    ],
+    "year": 2023,
+    "source_file": "Chen et al. - 2023 - Relieving Genetic Programming from Coefficient Learning for Symbolic Regression via Correlation and.pdf",
+    "gecco_track": "Genetic Programming"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Symbolic regression on Tower dataset"
+      },
+      "the_database": {
+        "dataset_name": "Tower",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Tower",
+        "dimensionality": "25D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GP"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Root Mean Squared Error (RMSE) and R-square (R2)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Symbolic regression on Tower dataset"
+      },
+      "the_database": {
+        "dataset_name": "Tower",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Tower",
+        "dimensionality": "25D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GPLLS"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Root Mean Squared Error (RMSE) and R-square (R2)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Symbolic regression on Tower dataset"
+      },
+      "the_database": {
+        "dataset_name": "Tower",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Tower",
+        "dimensionality": "25D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GPCorLLS"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Root Mean Squared Error (RMSE) and R-square (R2)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Symbolic regression on Tower dataset"
+      },
+      "the_database": {
+        "dataset_name": "Tower",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Tower",
+        "dimensionality": "25D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GPLS"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Root Mean Squared Error (RMSE) and R-square (R2)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Symbolic regression on Tower dataset"
+      },
+      "the_database": {
+        "dataset_name": "Tower",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Tower",
+        "dimensionality": "25D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GPCorLS"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Root Mean Squared Error (RMSE) and R-square (R2)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Predicting concrete compressive strength"
+      },
+      "the_database": {
+        "dataset_name": "Concrete",
+        "source_platform": "scikit-learn"
+      },
+      "the_benchmark_problem": {
+        "name": "Concrete",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GP"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Root Mean Squared Error (RMSE) and R-square (R2)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Predicting concrete compressive strength"
+      },
+      "the_database": {
+        "dataset_name": "Concrete",
+        "source_platform": "scikit-learn"
+      },
+      "the_benchmark_problem": {
+        "name": "Concrete",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GPLLS"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Root Mean Squared Error (RMSE) and R-square (R2)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Predicting concrete compressive strength"
+      },
+      "the_database": {
+        "dataset_name": "Concrete",
+        "source_platform": "scikit-learn"
+      },
+      "the_benchmark_problem": {
+        "name": "Concrete",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GPCorLLS"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Root Mean Squared Error (RMSE) and R-square (R2)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Predicting concrete compressive strength"
+      },
+      "the_database": {
+        "dataset_name": "Concrete",
+        "source_platform": "scikit-learn"
+      },
+      "the_benchmark_problem": {
+        "name": "Concrete",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GPLS"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Root Mean Squared Error (RMSE) and R-square (R2)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Predicting concrete compressive strength"
+      },
+      "the_database": {
+        "dataset_name": "Concrete",
+        "source_platform": "scikit-learn"
+      },
+      "the_benchmark_problem": {
+        "name": "Concrete",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GPCorLS"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Root Mean Squared Error (RMSE) and R-square (R2)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Keijzer5",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GP"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Root Mean Squared Error (RMSE) and R-square (R2)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Keijzer5",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GPLLS"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Root Mean Squared Error (RMSE) and R-square (R2)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Keijzer5",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GPCorLLS"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Root Mean Squared Error (RMSE) and R-square (R2)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Keijzer5",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GPLS"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Root Mean Squared Error (RMSE) and R-square (R2)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Keijzer5",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GPCorLS"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Root Mean Squared Error (RMSE) and R-square (R2)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Korns8",
+        "dimensionality": "5D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GP"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Root Mean Squared Error (RMSE) and R-square (R2)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Korns8",
+        "dimensionality": "5D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GPLLS"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Root Mean Squared Error (RMSE) and R-square (R2)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Korns8",
+        "dimensionality": "5D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GPCorLLS"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Root Mean Squared Error (RMSE) and R-square (R2)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Korns8",
+        "dimensionality": "5D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GPLS"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Root Mean Squared Error (RMSE) and R-square (R2)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Korns8",
+        "dimensionality": "5D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GPCorLS"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Root Mean Squared Error (RMSE) and R-square (R2)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

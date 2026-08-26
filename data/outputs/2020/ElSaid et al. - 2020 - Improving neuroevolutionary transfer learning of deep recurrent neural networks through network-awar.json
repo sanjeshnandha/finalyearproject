@@ -1,0 +1,234 @@
+{
+  "metadata": {
+    "title": "Improving Neuroevolutionary Transfer Learning of Deep Recurrent Neural Networks through Network-Aware Adaptation",
+    "authors": [
+      "AbdElRahman ElSaid",
+      "Joshua Karns",
+      "Zimeng Lyu",
+      "Daniel Krutz",
+      "Alexander Ororbia II",
+      "Travis Desell"
+    ],
+    "year": 2020,
+    "source_file": "ElSaid et al. - 2020 - Improving neuroevolutionary transfer learning of deep recurrent neural networks through network-awar.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Aviation/Aerospace",
+        "problem_context": "Predicting aviation engine parameters (exhaust gas temperature) from flight data"
+      },
+      "the_database": {
+        "dataset_name": "National General Aviation Flight Information Database (NGAFID)",
+        "source_platform": "NGAFID"
+      },
+      "the_benchmark_problem": {
+        "name": "NGAFID Engine Parameter Prediction",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "non-stationary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EXAMM with N-ASTL"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 4000,
+        "mutation_rate": 0.7,
+        "crossover_rate": 0.3
+      },
+      "performance_outcome": {
+        "metric": "Mean Squared Error (MSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Aviation/Aerospace",
+        "problem_context": "Predicting aviation non-engine parameters (Altitude, IAS, LatAc, NormAc, Pitch, Roll) from flight data"
+      },
+      "the_database": {
+        "dataset_name": "National General Aviation Flight Information Database (NGAFID)",
+        "source_platform": "NGAFID"
+      },
+      "the_benchmark_problem": {
+        "name": "NGAFID Non-Engine Parameter Prediction",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "non-stationary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EXAMM with N-ASTL"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 4000,
+        "mutation_rate": 0.7,
+        "crossover_rate": 0.3
+      },
+      "performance_outcome": {
+        "metric": "Mean Squared Error (MSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Aviation/Aerospace",
+        "problem_context": "Predicting aviation engine parameters (exhaust gas temperature) from flight data"
+      },
+      "the_database": {
+        "dataset_name": "National General Aviation Flight Information Database (NGAFID)",
+        "source_platform": "NGAFID"
+      },
+      "the_benchmark_problem": {
+        "name": "NGAFID Engine Parameter Prediction",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "non-stationary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EXAMM with ASTL"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 4000,
+        "mutation_rate": 0.7,
+        "crossover_rate": 0.3
+      },
+      "performance_outcome": {
+        "metric": "Mean Squared Error (MSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Aviation/Aerospace",
+        "problem_context": "Predicting aviation non-engine parameters (Altitude, IAS, LatAc, NormAc, Pitch, Roll) from flight data"
+      },
+      "the_database": {
+        "dataset_name": "National General Aviation Flight Information Database (NGAFID)",
+        "source_platform": "NGAFID"
+      },
+      "the_benchmark_problem": {
+        "name": "NGAFID Non-Engine Parameter Prediction",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "non-stationary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EXAMM with ASTL"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 4000,
+        "mutation_rate": 0.7,
+        "crossover_rate": 0.3
+      },
+      "performance_outcome": {
+        "metric": "Mean Squared Error (MSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Aviation/Aerospace",
+        "problem_context": "Predicting aviation engine parameters (exhaust gas temperature) from flight data"
+      },
+      "the_database": {
+        "dataset_name": "National General Aviation Flight Information Database (NGAFID)",
+        "source_platform": "NGAFID"
+      },
+      "the_benchmark_problem": {
+        "name": "NGAFID Engine Parameter Prediction",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "non-stationary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EXAMM (from scratch)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 4000,
+        "mutation_rate": 0.7,
+        "crossover_rate": 0.3
+      },
+      "performance_outcome": {
+        "metric": "Mean Squared Error (MSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Aviation/Aerospace",
+        "problem_context": "Predicting aviation non-engine parameters (Altitude, IAS, LatAc, NormAc, Pitch, Roll) from flight data"
+      },
+      "the_database": {
+        "dataset_name": "National General Aviation Flight Information Database (NGAFID)",
+        "source_platform": "NGAFID"
+      },
+      "the_benchmark_problem": {
+        "name": "NGAFID Non-Engine Parameter Prediction",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "non-stationary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EXAMM (from scratch)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 4000,
+        "mutation_rate": 0.7,
+        "crossover_rate": 0.3
+      },
+      "performance_outcome": {
+        "metric": "Mean Squared Error (MSE)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

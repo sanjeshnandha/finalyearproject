@@ -1,0 +1,235 @@
+{
+  "metadata": {
+    "title": "Hyperparameter Tuning in Echo State Networks",
+    "authors": [
+      "Filip Matzner"
+    ],
+    "year": 2022,
+    "source_file": "Matzner - 2022 - Hyperparameter tuning in echo state networks.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Hyperparameter tuning of Echo State Networks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "NARMA10",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "fragile balance",
+          "nonlinear sensitivity",
+          "sensitive to hyperparameter changes"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "active CMA-ES"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Squared Error (MSE) of 4.67e-9",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Hyperparameter tuning of Echo State Networks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MG17",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "fragile balance",
+          "nonlinear sensitivity",
+          "sensitive to hyperparameter changes"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "active CMA-ES"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Squared Error (MSE) of 1.27e-13",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Hyperparameter tuning of Echo State Networks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MG30",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "fragile balance",
+          "nonlinear sensitivity",
+          "sensitive to hyperparameter changes"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "active CMA-ES"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Squared Error (MSE) of 6.74e-10",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Hyperparameter tuning of Echo State Networks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "NARMA10 (no feedback)",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "fragile balance",
+          "nonlinear sensitivity",
+          "sensitive to hyperparameter changes"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "active CMA-ES"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Squared Error (MSE) of 7.0e-5",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Hyperparameter tuning of Echo State Networks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "NARMA10 variant by Rodan and Tino",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "fragile balance",
+          "nonlinear sensitivity",
+          "sensitive to hyperparameter changes"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "active CMA-ES"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Normalized Mean Squared Error (NMSE) of 3.08e-4",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Hyperparameter tuning of Echo State Networks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "NARMA30",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "fragile balance",
+          "nonlinear sensitivity",
+          "sensitive to hyperparameter changes"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "active CMA-ES"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Normalized Mean Squared Error (NMSE) of 0.02",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,336 @@
+{
+  "metadata": {
+    "title": "Adaptively Preserving Solutions in Both Feasible and Infeasible Regions on Generalized Multiple Constraint Ranking",
+    "authors": [
+      "Yohanes Bimo Dwianto",
+      "Hiroaki Fukumoto",
+      "Akira Oyama"
+    ],
+    "year": 2020,
+    "source_file": "Dwianto et al. - 2020 - Adaptively preserving solutions in both feasible and infeasible regions on generalized multiple cons.pdf",
+    "gecco_track": "Bio-inspired optimization"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Car structure design optimization"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Car structure design problem",
+        "dimensionality": "222D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "highly constrained",
+          "small feasible region",
+          "active constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Real-coded Genetic Algorithm with G-MCR-C_9"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 30000,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Best constrained optimum (Car mass)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "MOPTA 2008 vehicle design problem"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MOPTA 2008",
+        "dimensionality": "124D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "highly constrained",
+          "small feasible region",
+          "active constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Real-coded Genetic Algorithm with G-MCR-C_9"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 30000,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Best constrained optimum (Objective value)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Wind turbine design for power generation"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Wind turbine design",
+        "dimensionality": "32D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "highly constrained",
+          "small feasible region",
+          "active constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Real-coded Genetic Algorithm with G-MCR-C_9"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Best constrained optimum (Power generation cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Car structure design optimization"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Car structure design problem",
+        "dimensionality": "222D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "highly constrained",
+          "small feasible region",
+          "active constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Real-coded Genetic Algorithm with MCR"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 30000,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Best constrained optimum (Car mass)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "MOPTA 2008 vehicle design problem"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MOPTA 2008",
+        "dimensionality": "124D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "highly constrained",
+          "small feasible region",
+          "active constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Real-coded Genetic Algorithm with MCR"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 30000,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Best constrained optimum (Objective value)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Wind turbine design for power generation"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Wind turbine design",
+        "dimensionality": "32D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "highly constrained",
+          "small feasible region",
+          "active constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Real-coded Genetic Algorithm with MCR"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Best constrained optimum (Power generation cost)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CEC 2006 Suite",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Real-coded Genetic Algorithm with G-MCR-C_9"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 30000,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Best constrained optimum",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CEC 2010 Suite",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Real-coded Genetic Algorithm with G-MCR-C_9"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 30000,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Best constrained optimum",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CEC 2017 Suite",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Real-coded Genetic Algorithm with G-MCR-C_9"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 30000,
+        "mutation_rate": null,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Best constrained optimum",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

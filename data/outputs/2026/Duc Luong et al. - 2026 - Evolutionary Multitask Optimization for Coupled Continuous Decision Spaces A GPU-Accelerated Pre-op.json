@@ -1,0 +1,358 @@
+{
+  "metadata": {
+    "title": "Evolutionary Multitask Optimization for Coupled Continuous Decision Spaces: A GPU-Accelerated Pre-optimization for Movable-Antenna-and-RIS-aided Systems",
+    "authors": [
+      "Ho Viet Duc Luong",
+      "Tran Le Dung",
+      "Lang Hong Nguyet Anh",
+      "Trinh Van Chien"
+    ],
+    "year": 2026,
+    "source_file": "Duc Luong et al. - 2026 - Evolutionary Multitask Optimization for Coupled Continuous Decision Spaces A GPU-Accelerated Pre-op.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Telecommunications",
+        "problem_context": "Joint optimization of movable antenna positions and RIS phase shifts"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Movable-Antenna-and-RIS-aided System Optimization (Task 0: Sum-Rate Maximization)",
+        "dimensionality": "96D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "strongly coupled",
+          "high-dimensional",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MGRAP (Multifactorial GPU-accelerated RIS and Antenna Pre-optimization)"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Expected sum-rate of 81.51 ± 1.42 bps/Hz",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Telecommunications",
+        "problem_context": "Joint optimization of movable antenna positions and RIS phase shifts"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Movable-Antenna-and-RIS-aided System Optimization (Task 1: Min-Rate Maximization)",
+        "dimensionality": "96D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "strongly coupled",
+          "high-dimensional",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MGRAP (Multifactorial GPU-accelerated RIS and Antenna Pre-optimization)"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Expected worst-user rate of 93.15 ± 1.02",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Telecommunications",
+        "problem_context": "Joint optimization of movable antenna positions and RIS phase shifts"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Movable-Antenna-and-RIS-aided System Optimization (Task 2: Energy Efficiency Maximization)",
+        "dimensionality": "96D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "strongly coupled",
+          "high-dimensional",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MGRAP (Multifactorial GPU-accelerated RIS and Antenna Pre-optimization)"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Expected energy efficiency of 20.36 ± 1.07",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Telecommunications",
+        "problem_context": "Joint optimization of movable antenna positions and RIS phase shifts"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Movable-Antenna-and-RIS-aided System Optimization (Task 0: Sum-Rate Maximization)",
+        "dimensionality": "96D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "strongly coupled",
+          "high-dimensional",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Differential Evolution Optimization (DEO)"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Expected sum-rate of 78.45 ± 1.51 bps/Hz",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Telecommunications",
+        "problem_context": "Joint optimization of movable antenna positions and RIS phase shifts"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Movable-Antenna-and-RIS-aided System Optimization (Task 1: Min-Rate Maximization)",
+        "dimensionality": "96D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "strongly coupled",
+          "high-dimensional",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Differential Evolution Optimization (DEO)"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Expected worst-user rate of 90.13 ± 1.03",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Telecommunications",
+        "problem_context": "Joint optimization of movable antenna positions and RIS phase shifts"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Movable-Antenna-and-RIS-aided System Optimization (Task 2: Energy Efficiency Maximization)",
+        "dimensionality": "96D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "strongly coupled",
+          "high-dimensional",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Differential Evolution Optimization (DEO)"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Expected energy efficiency of 20.03 ± 1.08",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Telecommunications",
+        "problem_context": "Joint optimization of movable antenna positions and RIS phase shifts"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Movable-Antenna-and-RIS-aided System Optimization (Task 0: Sum-Rate Maximization)",
+        "dimensionality": "96D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "strongly coupled",
+          "high-dimensional",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Pre-optimized Irregular Arrays optimized by PSO (PIA)"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Expected sum-rate of 77.34 ± 1.47 bps/Hz",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Telecommunications",
+        "problem_context": "Joint optimization of movable antenna positions and RIS phase shifts"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Movable-Antenna-and-RIS-aided System Optimization (Task 1: Min-Rate Maximization)",
+        "dimensionality": "96D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "strongly coupled",
+          "high-dimensional",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Pre-optimized Irregular Arrays optimized by PSO (PIA)"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Expected worst-user rate of 91.16 ± 1.02",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Telecommunications",
+        "problem_context": "Joint optimization of movable antenna positions and RIS phase shifts"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Movable-Antenna-and-RIS-aided System Optimization (Task 2: Energy Efficiency Maximization)",
+        "dimensionality": "96D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "strongly coupled",
+          "high-dimensional",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Pre-optimized Irregular Arrays optimized by PSO (PIA)"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Expected energy efficiency of 20.07 ± 1.06",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

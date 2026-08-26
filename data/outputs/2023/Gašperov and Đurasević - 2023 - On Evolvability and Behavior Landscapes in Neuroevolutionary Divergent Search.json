@@ -1,0 +1,199 @@
+{
+  "metadata": {
+    "title": "On Evolvability and Behavior Landscapes in Neuroevolutionary Divergent Search",
+    "authors": [
+      "Bruno Gašperov",
+      "Marko Đurasević"
+    ],
+    "year": 2023,
+    "source_file": "Gašperov and Đurasević - 2023 - On Evolvability and Behavior Landscapes in Neuroevolutionary Divergent Search.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robotic arm control task (Fetch Pick and Place)"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Fetch Pick and Place",
+        "dimensionality": "2D Behavior Space"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "epistasis",
+          "dissimila"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Novelty Search (Highly Selective Walk)"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": 0.0
+      },
+      "performance_outcome": {
+        "metric": "Mean evolvability",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robotic arm control task (Fetch Pick and Place)"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Fetch Pick and Place",
+        "dimensionality": "2D Behavior Space"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "epistasis",
+          "dissimila"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Novelty Search (Adaptive Walk)"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": 0.0
+      },
+      "performance_outcome": {
+        "metric": "Mean evolvability",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robotic arm control task (Fetch Pick and Place)"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Fetch Pick and Place",
+        "dimensionality": "2D Behavior Space"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "epistasis",
+          "dissimila"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Random Walk"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": 0.0
+      },
+      "performance_outcome": {
+        "metric": "Mean evolvability",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robotic arm control task (Fetch Pick and Place)"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Fetch Pick and Place",
+        "dimensionality": "2D Behavior Space"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "epistasis",
+          "dissimila"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Novelty Search (Gaussian Kernel Density Estimation)"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": 0.0
+      },
+      "performance_outcome": {
+        "metric": "Mean evolvability",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robotic arm control task (Fetch Pick and Place)"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Fetch Pick and Place",
+        "dimensionality": "2D Behavior Space"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "epistasis",
+          "dissimila"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Novelty Search (k-Nearest Neighbors)"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": 0.0
+      },
+      "performance_outcome": {
+        "metric": "Mean evolvability",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

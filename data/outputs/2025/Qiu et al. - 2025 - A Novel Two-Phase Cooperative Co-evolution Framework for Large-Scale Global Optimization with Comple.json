@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "title": "A Novel Two-Phase Cooperative Co-evolution Framework for Large-Scale Global Optimization with Complex Overlapping",
+    "authors": [
+      "Wenjie Qiu",
+      "Hongshu Guo",
+      "Zeyuan Ma",
+      "Yue-Jiao Gong"
+    ],
+    "year": 2025,
+    "source_file": "Qiu et al. - 2025 - A Novel Two-Phase Cooperative Co-evolution Framework for Large-Scale Global Optimization with Comple.pdf",
+    "gecco_track": "Continuous space search"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Auto Overlapping Benchmark (AOB)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "overlapping",
+          "large-scale"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HCC-ES"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 3000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean best fitness",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Auto Overlapping Benchmark (AOB)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "overlapping",
+          "large-scale"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MM-ES"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 3000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean best fitness",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Auto Overlapping Benchmark (AOB)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "overlapping",
+          "large-scale"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RDDSM-CMAES"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 3000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean best fitness",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Auto Overlapping Benchmark (AOB)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "overlapping",
+          "large-scale"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DG2-CMAES"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 3000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean best fitness",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

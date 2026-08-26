@@ -1,0 +1,231 @@
+{
+  "metadata": {
+    "title": "Learning behaviour-performance maps with meta-evolution",
+    "authors": [
+      "David M. Bossens",
+      "Jean-Baptiste Mouret",
+      "Danesh Tarapore"
+    ],
+    "year": 2020,
+    "source_file": "Bossens et al. - 2020 - Learning behaviour-performance maps with meta-evolution.pdf",
+    "gecco_track": "Evolutionary Robotics"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Evolving robot controllers for damage recovery"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "RHex robot gait adaptation",
+        "dimensionality": "24D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Meta-evolution with CMA-ES"
+      },
+      "parameters": {
+        "population_size": 5,
+        "max_evaluations_or_generations": 2800000,
+        "mutation_rate": 0.05,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average test-set performance (distance walked in meters)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Evolving robot controllers for damage recovery"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "RHex robot gait adaptation",
+        "dimensionality": "24D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAP-Elites (Body-orientation)"
+      },
+      "parameters": {
+        "population_size": 2000,
+        "max_evaluations_or_generations": 2800000,
+        "mutation_rate": 0.05,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average test-set performance (distance walked in meters)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Evolving robot controllers for damage recovery"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "RHex robot gait adaptation",
+        "dimensionality": "24D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAP-Elites (Duty-factor)"
+      },
+      "parameters": {
+        "population_size": 2000,
+        "max_evaluations_or_generations": 2800000,
+        "mutation_rate": 0.05,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average test-set performance (distance walked in meters)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Evolving robot controllers for damage recovery"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "RHex robot gait adaptation",
+        "dimensionality": "24D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAP-Elites (Linear-velocity)"
+      },
+      "parameters": {
+        "population_size": 2000,
+        "max_evaluations_or_generations": 2800000,
+        "mutation_rate": 0.05,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average test-set performance (distance walked in meters)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Evolving robot controllers for damage recovery"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "RHex robot gait adaptation",
+        "dimensionality": "24D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAP-Elites (Random-weights)"
+      },
+      "parameters": {
+        "population_size": 2000,
+        "max_evaluations_or_generations": 2800000,
+        "mutation_rate": 0.05,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average test-set performance (distance walked in meters)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Evolving robot controllers for damage recovery"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "RHex robot gait adaptation",
+        "dimensionality": "24D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Traditional EA (CMA-ES)"
+      },
+      "parameters": {
+        "population_size": 5,
+        "max_evaluations_or_generations": 2800000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best test-performance after 80 function evaluations (distance walked in meters)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

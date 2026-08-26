@@ -1,0 +1,37 @@
+2026-08-22 21:59:13.509 | INFO     | gecco_pipeline.extractor:__init__:32 - Initialized GeccoExtractor with model: gemini-3.5-flash and 3 API keys
+2026-08-22 21:59:13.509 | INFO     | gecco_pipeline.processor:__init__:57 - BatchProcessor initialized
+2026-08-22 21:59:13.510 | INFO     | gecco_pipeline.utils:discover_pdfs:62 - Discovered 98 PDF files in data/pdfs/2021
+2026-08-22 21:59:13.511 | INFO     | gecco_pipeline.processor:process_batch:129 - Skipping 67 already-processed PDFs
+2026-08-22 21:59:13.511 | INFO     | gecco_pipeline.processor:process_batch:145 - Processing 31 PDFs...
+2026-08-22 21:59:13.525 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Nazmi et al. - 2021 - An effective action covering for multi-label learning classifier systems a graph-theoretic approach.pdf
+2026-08-22 21:59:13.525 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Nazmi et al. - 2021 - An effective action covering for multi-label learning classifier systems a graph-theoretic approach.pdf to Gemini File API...
+2026-08-22 21:59:24.042 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/7z2qvccy2o3s
+2026-08-22 22:00:38.073 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 10 entries from Nazmi et al. - 2021 - An effective action covering for multi-label learning classifier systems a graph-theoretic approach.pdf
+2026-08-22 22:00:38.078 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Nazmi et al. - 2021 - An effective action covering for multi-label learning classifier systems a graph-theoretic approach.json
+2026-08-22 22:00:38.080 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Neumann et al. - 2021 - Diversifying greedy sampling and evolutionary diversity optimisation for constrained monotone submod.pdf
+2026-08-22 22:00:38.080 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Neumann et al. - 2021 - Diversifying greedy sampling and evolutionary diversity optimisation for constrained monotone submod.pdf to Gemini File API...
+2026-08-22 22:00:43.318 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/uykv08q3w2ci
+2026-08-22 22:01:27.704 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 4 entries from Neumann et al. - 2021 - Diversifying greedy sampling and evolutionary diversity optimisation for constrained monotone submod.pdf
+2026-08-22 22:01:27.706 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Neumann et al. - 2021 - Diversifying greedy sampling and evolutionary diversity optimisation for constrained monotone submod.json
+2026-08-22 22:01:27.707 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Noguchi et al. - 2021 - Parallel differential evolution applied to interleaving generation with precedence evaluation of ten.pdf
+2026-08-22 22:01:27.707 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Noguchi et al. - 2021 - Parallel differential evolution applied to interleaving generation with precedence evaluation of ten.pdf to Gemini File API...
+2026-08-22 22:01:41.574 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/ai7ytnulahly
+2026-08-22 22:02:31.339 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 6 entries from Noguchi et al. - 2021 - Parallel differential evolution applied to interleaving generation with precedence evaluation of ten.pdf
+2026-08-22 22:02:31.343 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Noguchi et al. - 2021 - Parallel differential evolution applied to interleaving generation with precedence evaluation of ten.json
+2026-08-22 22:02:31.343 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Paolo et al. - 2021 - Sparse reward exploration via novelty search and emitters.pdf
+2026-08-22 22:02:31.344 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Paolo et al. - 2021 - Sparse reward exploration via novelty search and emitters.pdf to Gemini File API...
+2026-08-22 22:02:35.394 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/tgfund8c5n0h
+2026-08-23 01:02:30.458 | WARNING  | gecco_pipeline.extractor:_call_with_retry:219 - Attempt 1/3 failed for Paolo et al. - 2021 - Sparse reward exploration via novelty search and emitters.pdf: [Errno 54] Connection reset by peer. Retrying in 2.5s...
+2026-08-23 01:19:03.344 | WARNING  | gecco_pipeline.extractor:_call_with_retry:219 - Attempt 2/3 failed for Paolo et al. - 2021 - Sparse reward exploration via novelty search and emitters.pdf: [Errno 54] Connection reset by peer. Retrying in 4.3s...
+2026-08-23 01:53:29.662 | ERROR    | gecco_pipeline.extractor:_call_with_retry:225 - All 3 attempts failed for Paolo et al. - 2021 - Sparse reward exploration via novelty search and emitters.pdf: [Errno 54] Connection reset by peer
+2026-08-23 01:53:29.664 | ERROR    | gecco_pipeline.processor:process_batch:170 - Failed: Paolo et al. - 2021 - Sparse reward exploration via novelty search and emitters.pdf — [Errno 54] Connection reset by peer
+2026-08-23 01:53:29.666 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Pei et al. - 2021 - Genetic programming for borderline instance detection in high-dimensional unbalanced classification.pdf
+2026-08-23 01:53:29.667 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Pei et al. - 2021 - Genetic programming for borderline instance detection in high-dimensional unbalanced classification.pdf to Gemini File API...
+2026-08-23 01:53:33.987 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/hz4aaai0ba0m
+2026-08-23 02:03:41.873 | WARNING  | gecco_pipeline.extractor:_call_with_retry:219 - Attempt 1/3 failed for Pei et al. - 2021 - Genetic programming for borderline instance detection in high-dimensional unbalanced classification.pdf: [Errno 54] Connection reset by peer. Retrying in 2.2s...
+2026-08-23 02:20:15.047 | WARNING  | gecco_pipeline.extractor:_call_with_retry:219 - Attempt 2/3 failed for Pei et al. - 2021 - Genetic programming for borderline instance detection in high-dimensional unbalanced classification.pdf: [Errno 54] Connection reset by peer. Retrying in 4.9s...
+2026-08-23 04:51:30.937 | ERROR    | gecco_pipeline.extractor:_call_with_retry:225 - All 3 attempts failed for Pei et al. - 2021 - Genetic programming for borderline instance detection in high-dimensional unbalanced classification.pdf: [Errno 54] Connection reset by peer
+2026-08-23 04:51:30.939 | ERROR    | gecco_pipeline.processor:process_batch:170 - Failed: Pei et al. - 2021 - Genetic programming for borderline instance detection in high-dimensional unbalanced classification.pdf — [Errno 54] Connection reset by peer
+2026-08-23 04:51:30.940 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Qing et al. - 2021 - Cooperative coevolutionary multiobjective genetic programming for microarray data classification.pdf
+2026-08-23 04:51:30.941 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Qing et al. - 2021 - Cooperative coevolutionary multiobjective genetic programming for microarray data classification.pdf to Gemini File API...
+2026-08-23 04:51:34.412 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/vzrfqq7lhm6c

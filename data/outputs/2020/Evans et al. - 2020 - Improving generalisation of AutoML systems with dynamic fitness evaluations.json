@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "title": "Improving generalisation of AutoML systems with dynamic fitness evaluations",
+    "authors": [
+      "Benjamin P. Evans",
+      "Bing Xue",
+      "Mengjie Zhang"
+    ],
+    "year": 2020,
+    "source_file": "Evans et al. - 2020 - Improving generalisation of AutoML systems with dynamic fitness evaluations.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Automated Machine Learning pipeline optimization"
+      },
+      "the_database": {
+        "dataset_name": "AutoML Benchmark Suite (28 datasets including adult, anneal, blood, car, credit-g, etc.)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "AutoML Pipeline Optimization",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged",
+          "local optima",
+          "high variance"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT with Dynamic Fitness"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average weighted f1-score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Automated Machine Learning pipeline optimization"
+      },
+      "the_database": {
+        "dataset_name": "AutoML Benchmark Suite (28 datasets including adult, anneal, blood, car, credit-g, etc.)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "AutoML Pipeline Optimization",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged",
+          "local optima",
+          "high variance"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average weighted f1-score",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

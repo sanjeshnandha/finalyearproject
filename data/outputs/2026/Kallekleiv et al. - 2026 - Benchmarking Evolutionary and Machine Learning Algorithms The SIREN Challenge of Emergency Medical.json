@@ -1,0 +1,167 @@
+{
+  "metadata": {
+    "title": "Benchmarking Evolutionary and Machine Learning Algorithms: The SIREN Challenge of Emergency Medical Services",
+    "authors": [
+      "Torjus Åmellem Kallekleiv",
+      "Xavier F. C. Sánchez-Díaz",
+      "Ole Jakob Mengshoel"
+    ],
+    "year": 2026,
+    "source_file": "Kallekleiv et al. - 2026 - Benchmarking Evolutionary and Machine Learning Algorithms The SIREN Challenge of Emergency Medical.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Ambulance allocation optimization"
+      },
+      "the_database": {
+        "dataset_name": "Oslo and Akershus EMS dataset",
+        "source_platform": "Oslo University Hospital"
+      },
+      "the_benchmark_problem": {
+        "name": "Ambulance Allocation Problem",
+        "dimensionality": "76 variables"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "simulation-based",
+          "time-varying",
+          "multiple objectives",
+          "uncertain"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (GA)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.03,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Overall response time violation rate (p_v)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Ambulance allocation optimization"
+      },
+      "the_database": {
+        "dataset_name": "Oslo and Akershus EMS dataset",
+        "source_platform": "Oslo University Hospital"
+      },
+      "the_benchmark_problem": {
+        "name": "Ambulance Allocation Problem",
+        "dimensionality": "76 variables"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "simulation-based",
+          "time-varying",
+          "multiple objectives",
+          "uncertain"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Memetic Algorithm (MA)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.03,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Overall response time violation rate (p_v)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Ambulance allocation optimization"
+      },
+      "the_database": {
+        "dataset_name": "Oslo and Akershus EMS dataset",
+        "source_platform": "Oslo University Hospital"
+      },
+      "the_benchmark_problem": {
+        "name": "Ambulance Allocation Problem",
+        "dimensionality": "76 variables"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "simulation-based",
+          "time-varying",
+          "multiple objectives",
+          "uncertain"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.03,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Overall response time violation rate (p_v)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Ambulance allocation optimization"
+      },
+      "the_database": {
+        "dataset_name": "Oslo and Akershus EMS dataset",
+        "source_platform": "Oslo University Hospital"
+      },
+      "the_benchmark_problem": {
+        "name": "Ambulance Allocation Problem",
+        "dimensionality": "76 variables"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "simulation-based",
+          "time-varying",
+          "multiple objectives",
+          "uncertain"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "M-NSGA-II"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.03,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Overall response time violation rate (p_v)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

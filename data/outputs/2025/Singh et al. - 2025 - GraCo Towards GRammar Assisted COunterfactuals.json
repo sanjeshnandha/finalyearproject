@@ -1,0 +1,448 @@
+{
+  "metadata": {
+    "title": "GraCo: Towards GRammar Assisted COunterfactuals",
+    "authors": [
+      "Dhiraj Kumar Singh",
+      "Allan de Lima",
+      "Darian Reyes Fernández de Bulnes",
+      "Conor Ryan"
+    ],
+    "year": 2025,
+    "source_file": "Singh et al. - 2025 - GraCo Towards GRammar Assisted COunterfactuals.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Generating plausible and actionable counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Pima Indians Diabetes Database (D1)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Pima Indians Diabetes Database (D1)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "many-objective",
+          "constrained search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GraCo (Grammatical Evolution with NSGA-III)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Goodness of counterfactual (GOC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Government/Social",
+        "problem_context": "Generating plausible and actionable counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Adult dataset (D2)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Adult dataset (D2)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "many-objective",
+          "constrained search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GraCo (Grammatical Evolution with NSGA-III)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Goodness of counterfactual (GOC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance/Banking",
+        "problem_context": "Generating plausible and actionable counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Statlog (German credit) dataset (D3)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Statlog (German credit) dataset (D3)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "many-objective",
+          "constrained search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GraCo (Grammatical Evolution with NSGA-III)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Goodness of counterfactual (GOC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance/Banking",
+        "problem_context": "Generating plausible and actionable counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Default of Credit Card Client dataset (D4)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Default of Credit Card Client dataset (D4)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "many-objective",
+          "constrained search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GraCo (Grammatical Evolution with NSGA-III)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Goodness of counterfactual (GOC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Generating plausible and actionable counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Pima Indians Diabetes Database (D1)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Pima Indians Diabetes Database (D1)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "many-objective",
+          "constrained search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GE NSGA-II (Grammatical Evolution with NSGA-II)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Goodness of counterfactual (GOC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Government/Social",
+        "problem_context": "Generating plausible and actionable counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Adult dataset (D2)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Adult dataset (D2)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "many-objective",
+          "constrained search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GE NSGA-II (Grammatical Evolution with NSGA-II)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Goodness of counterfactual (GOC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance/Banking",
+        "problem_context": "Generating plausible and actionable counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Statlog (German credit) dataset (D3)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Statlog (German credit) dataset (D3)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "many-objective",
+          "constrained search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GE NSGA-II (Grammatical Evolution with NSGA-II)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Goodness of counterfactual (GOC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance/Banking",
+        "problem_context": "Generating plausible and actionable counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Default of Credit Card Client dataset (D4)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Default of Credit Card Client dataset (D4)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "many-objective",
+          "constrained search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GE NSGA-II (Grammatical Evolution with NSGA-II)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Goodness of counterfactual (GOC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Generating plausible and actionable counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Pima Indians Diabetes Database (D1)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Pima Indians Diabetes Database (D1)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "many-objective",
+          "constrained search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CERTIFAI (Genetic Algorithm)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Goodness of counterfactual (GOC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Government/Social",
+        "problem_context": "Generating plausible and actionable counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Adult dataset (D2)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Adult dataset (D2)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "many-objective",
+          "constrained search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CERTIFAI (Genetic Algorithm)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Goodness of counterfactual (GOC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance/Banking",
+        "problem_context": "Generating plausible and actionable counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Statlog (German credit) dataset (D3)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Statlog (German credit) dataset (D3)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "many-objective",
+          "constrained search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CERTIFAI (Genetic Algorithm)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Goodness of counterfactual (GOC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance/Banking",
+        "problem_context": "Generating plausible and actionable counterfactual explanations"
+      },
+      "the_database": {
+        "dataset_name": "Default of Credit Card Client dataset (D4)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Default of Credit Card Client dataset (D4)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "many-objective",
+          "constrained search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CERTIFAI (Genetic Algorithm)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Goodness of counterfactual (GOC)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

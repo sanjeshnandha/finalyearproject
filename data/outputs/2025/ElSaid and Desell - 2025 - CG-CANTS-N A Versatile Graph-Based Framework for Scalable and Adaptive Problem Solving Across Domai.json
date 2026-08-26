@@ -1,0 +1,338 @@
+{
+  "metadata": {
+    "title": "CG-CANTS-N: A Versatile Graph-Based Framework for Scalable and Adaptive Problem Solving Across Domains",
+    "authors": [
+      "AbdElRahman ElSaid",
+      "Travis Desell"
+    ],
+    "year": 2025,
+    "source_file": "ElSaid and Desell - 2025 - CG-CANTS-N A Versatile Graph-Based Framework for Scalable and Adaptive Problem Solving Across Domai.pdf",
+    "gecco_track": "GECCO '25 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Time series forecasting"
+      },
+      "the_database": {
+        "dataset_name": "Cessna C172 Aircraft",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Cessna C172 Aircraft Time Series Forecasting",
+        "dimensionality": "31D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CG-CANTS-N"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Prediction Error (MSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Time series forecasting"
+      },
+      "the_database": {
+        "dataset_name": "Cessna C172 Aircraft",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Cessna C172 Aircraft Time Series Forecasting",
+        "dimensionality": "31D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EXA-GP"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Prediction Error (MSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Time series forecasting"
+      },
+      "the_database": {
+        "dataset_name": "Cessna C172 Aircraft",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Cessna C172 Aircraft Time Series Forecasting",
+        "dimensionality": "31D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EXAMM"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Prediction Error (MSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Time series forecasting"
+      },
+      "the_database": {
+        "dataset_name": "Coal-Fired Power Plant Burner",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Coal-Fired Power Plant Burner Time Series Forecasting",
+        "dimensionality": "12D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CG-CANTS-N"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Prediction Error (MSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Time series forecasting"
+      },
+      "the_database": {
+        "dataset_name": "Coal-Fired Power Plant Burner",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Coal-Fired Power Plant Burner Time Series Forecasting",
+        "dimensionality": "12D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EXA-GP"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Prediction Error (MSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Time series forecasting"
+      },
+      "the_database": {
+        "dataset_name": "Coal-Fired Power Plant Burner",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Coal-Fired Power Plant Burner Time Series Forecasting",
+        "dimensionality": "12D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EXAMM"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Prediction Error (MSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Time series forecasting"
+      },
+      "the_database": {
+        "dataset_name": "Wind Turbine",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Wind Turbine Time Series Forecasting",
+        "dimensionality": "123D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CG-CANTS-N"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Prediction Error (MSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Time series forecasting"
+      },
+      "the_database": {
+        "dataset_name": "Wind Turbine",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Wind Turbine Time Series Forecasting",
+        "dimensionality": "123D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EXA-GP"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Prediction Error (MSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Time series forecasting"
+      },
+      "the_database": {
+        "dataset_name": "Wind Turbine",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Wind Turbine Time Series Forecasting",
+        "dimensionality": "123D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EXAMM"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Prediction Error (MSE)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

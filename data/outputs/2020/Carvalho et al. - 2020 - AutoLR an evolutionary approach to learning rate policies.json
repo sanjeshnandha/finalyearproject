@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "title": "AutoLR: An Evolutionary Approach to Learning Rate Policies",
+    "authors": [
+      "Pedro Carvalho",
+      "Nuno Lourenço",
+      "Filipe Assunção",
+      "Penousal Machado"
+    ],
+    "year": 2020,
+    "source_file": "Carvalho et al. - 2020 - AutoLR an evolutionary approach to learning rate policies.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Optimizing learning rate schedulers for Convolutional Neural Networks (CNNs)"
+      },
+      "the_database": {
+        "dataset_name": "Fashion-MNIST",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Fashion-MNIST Image Classification",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Structured Grammatical Evolution (SGE)"
+      },
+      "parameters": {
+        "population_size": 5,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.15,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test accuracy",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

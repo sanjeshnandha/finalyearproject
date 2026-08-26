@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "title": "Just-in-Time Batch Scheduling Subject to Batch Size",
+    "authors": [
+      "Sergey Polyakovskiy",
+      "Dhananjay Thiruvady",
+      "Rym M’Hallah"
+    ],
+    "year": 2020,
+    "source_file": "Polyakovskiy et al. - 2020 - Just-in-time batch scheduling subject to batch size.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Just-in-Time Batch Scheduling Subject to Batch Size"
+      },
+      "the_database": {
+        "dataset_name": "Benchmark for JITBS with 2D bin packing constraints",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Just-in-Time Batch Scheduling (JITBS)",
+        "dimensionality": "Variable (n = 20 to 100)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "NP-hard",
+          "asymmetric penalties",
+          "capacity-constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Linkage Tree Genetic Algorithm (LTGA)"
+      },
+      "parameters": {
+        "population_size": 40,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average performance ratio",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Just-in-Time Batch Scheduling Subject to Batch Size"
+      },
+      "the_database": {
+        "dataset_name": "Benchmark for JITBS with 2D bin packing constraints",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Just-in-Time Batch Scheduling (JITBS)",
+        "dimensionality": "Variable (n = 20 to 100)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "NP-hard",
+          "asymmetric penalties",
+          "capacity-constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Construct, Solve, Merge & Adapt (CMSA)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average performance ratio",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "metadata": {
+    "title": "Safe Crossover of Neural Networks Through Neuron Alignment",
+    "authors": [
+      "Thomas Uriot",
+      "Dario Izzo"
+    ],
+    "year": 2020,
+    "source_file": "Uriot and Izzo - 2020 - Safe crossover of neural networks through neuron alignment.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Evolving neural network weights for image classification"
+      },
+      "the_database": {
+        "dataset_name": "MNIST",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MNIST classification with 1-hidden-layer FNN (512 neurons)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "competing conventions",
+          "permutation problem",
+          "flat regions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SC-CCA"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Validation loss and accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Evolving neural network weights for image classification"
+      },
+      "the_database": {
+        "dataset_name": "MNIST",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MNIST classification with 1-hidden-layer FNN (512 neurons)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "competing conventions",
+          "permutation problem",
+          "flat regions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SC-PwC"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Validation loss and accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Evolving neural network weights for image classification"
+      },
+      "the_database": {
+        "dataset_name": "MNIST",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MNIST classification with 1-hidden-layer FNN (512 neurons)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "competing conventions",
+          "permutation problem",
+          "flat regions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Naive Crossover"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Validation loss and accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Evolving neural network weights for image classification"
+      },
+      "the_database": {
+        "dataset_name": "CIFAR-10",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CIFAR-10 classification with 3-hidden-layer FNN (100 neurons each)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "competing conventions",
+          "permutation problem",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SC-CCA"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Validation loss and accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Evolving neural network weights for image classification"
+      },
+      "the_database": {
+        "dataset_name": "CIFAR-10",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CIFAR-10 classification with 3-hidden-layer FNN (100 neurons each)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "competing conventions",
+          "permutation problem",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SC-PwC"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Validation loss and accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Evolving neural network weights for image classification"
+      },
+      "the_database": {
+        "dataset_name": "CIFAR-10",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CIFAR-10 classification with 3-hidden-layer FNN (100 neurons each)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "competing conventions",
+          "permutation problem",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Naive Crossover"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Validation loss and accuracy",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

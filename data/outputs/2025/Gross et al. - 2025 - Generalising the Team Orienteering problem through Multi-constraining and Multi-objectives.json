@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "title": "Generalising the Team Orienteering problem through Multi-constraining and Multi-objectives",
+    "authors": [
+      "Raimundo Gross",
+      "Nicolás Gálvez Ramírez",
+      "Elizabeth Montero",
+      "Adriana Menchaca-Méndez"
+    ],
+    "year": 2025,
+    "source_file": "Gross et al. - 2025 - Generalising the Team Orienteering problem through Multi-constraining and Multi-objectives.pdf",
+    "gecco_track": "GECCO '25 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Routing problems / Team Orienteering Problem"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data (from Cordeau et al. [2])",
+        "source_platform": "https://www.mech.kuleuven.be/en/cib/op#autotoc-item-autotoc-10"
+      },
+      "the_benchmark_problem": {
+        "name": "Bi-objective Multi-constrained Team Orienteering Problem",
+        "dimensionality": "Variable (50 to 242 nodes)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Adapted NSGA-II (with Partially Mapped Crossover, Swap, Waiting time, and Insertion mutation operators)"
+      },
+      "parameters": {
+        "population_size": 48,
+        "max_evaluations_or_generations": 625000,
+        "mutation_rate": null,
+        "crossover_rate": 0.3
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (Hv), Two-sets coverage (I), Execution time",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Routing problems / Team Orienteering Problem"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data (from Cordeau et al. [2])",
+        "source_platform": "https://www.mech.kuleuven.be/en/cib/op#autotoc-item-autotoc-10"
+      },
+      "the_benchmark_problem": {
+        "name": "Bi-objective Multi-constrained Team Orienteering Problem",
+        "dimensionality": "Variable (50 to 242 nodes)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Adapted NSGA-II (with Partially Mapped Crossover, Swap, Waiting time, and Insertion mutation operators)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 1500000,
+        "mutation_rate": null,
+        "crossover_rate": 0.1
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (Hv), Two-sets coverage (I), Execution time",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

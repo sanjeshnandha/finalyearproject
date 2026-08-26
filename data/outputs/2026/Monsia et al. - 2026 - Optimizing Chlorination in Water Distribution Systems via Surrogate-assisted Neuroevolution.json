@@ -1,0 +1,130 @@
+{
+  "metadata": {
+    "title": "Optimizing Chlorination in Water Distribution Systems via Surrogate-assisted Neuroevolution",
+    "authors": [
+      "Rivaaj Monsia",
+      "Daniel Young",
+      "Olivier Francon",
+      "Risto Miikkulainen"
+    ],
+    "year": 2026,
+    "source_file": "Monsia et al. - 2026 - Optimizing Chlorination in Water Distribution Systems via Surrogate-assisted Neuroevolution.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Optimizing chlorination in water distribution systems"
+      },
+      "the_database": {
+        "dataset_name": "AI for Drinking Water Chlorination Challenge at IJCAI 2025",
+        "source_platform": "IJCAI"
+      },
+      "the_benchmark_problem": {
+        "name": "Water Distribution System Chlorination Control",
+        "dimensionality": "5 booster stations"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "nonlinear",
+          "noisy",
+          "deceptive",
+          "complex topology"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NEAT"
+      },
+      "parameters": {
+        "population_size": 350,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Bound violations: 0.113, Fairness: 0.195, Smoothness: 0.452, Cost: 3456.000, Infection Risk: 5.160",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Optimizing chlorination in water distribution systems"
+      },
+      "the_database": {
+        "dataset_name": "AI for Drinking Water Chlorination Challenge at IJCAI 2025",
+        "source_platform": "IJCAI"
+      },
+      "the_benchmark_problem": {
+        "name": "Water Distribution System Chlorination Control",
+        "dimensionality": "5 booster stations"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "nonlinear",
+          "noisy",
+          "deceptive",
+          "complex topology"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 350,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Bound violations: 0.401, Fairness: 24.014, Smoothness: 17.693, Cost: 750000.0, Infection Risk: 5.160",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Optimizing chlorination in water distribution systems"
+      },
+      "the_database": {
+        "dataset_name": "AI for Drinking Water Chlorination Challenge at IJCAI 2025",
+        "source_platform": "IJCAI"
+      },
+      "the_benchmark_problem": {
+        "name": "Water Distribution System Chlorination Control",
+        "dimensionality": "5 booster stations"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "nonlinear",
+          "noisy",
+          "deceptive",
+          "complex topology"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II (Curriculum)"
+      },
+      "parameters": {
+        "population_size": 350,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Bound violations: 0.463, Fairness: 5.180, Smoothness: 6.852, Cost: 484300.0, Infection Risk: 3.627",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

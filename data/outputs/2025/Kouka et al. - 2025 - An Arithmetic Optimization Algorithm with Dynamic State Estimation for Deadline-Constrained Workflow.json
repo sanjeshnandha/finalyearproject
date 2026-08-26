@@ -1,0 +1,1096 @@
+{
+  "metadata": {
+    "title": "An Arithmetic Optimization Algorithm with Dynamic State Estimation for Deadline-Constrained Workflow Scheduling",
+    "authors": [
+      "Najwa Kouka",
+      "Sabrina De Capitani di Vimercati",
+      "Vincenzo Piuri",
+      "Pierangela Samarati"
+    ],
+    "year": 2025,
+    "source_file": "Kouka et al. - 2025 - An Arithmetic Optimization Algorithm with Dynamic State Estimation for Deadline-Constrained Workflow.pdf",
+    "gecco_track": "GECCO '25 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Science / Cloud Computing",
+        "problem_context": "Deadline-Constrained Many-Objective Workflow Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "SIPHT workflow",
+        "source_platform": "Pegasus project"
+      },
+      "the_benchmark_problem": {
+        "name": "SIPHT workflow scheduling",
+        "dimensionality": "60 tasks"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMaOAOA (Arithmetic Optimization Algorithm with Dynamic State Estimation and Infeasible Solution Repairing)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Success Rate",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Science / Cloud Computing",
+        "problem_context": "Deadline-Constrained Many-Objective Workflow Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "SIPHT workflow",
+        "source_platform": "Pegasus project"
+      },
+      "the_benchmark_problem": {
+        "name": "SIPHT workflow scheduling",
+        "dimensionality": "100 tasks"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMaOAOA (Arithmetic Optimization Algorithm with Dynamic State Estimation and Infeasible Solution Repairing)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Success Rate",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Science / Cloud Computing",
+        "problem_context": "Deadline-Constrained Many-Objective Workflow Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "SIPHT workflow",
+        "source_platform": "Pegasus project"
+      },
+      "the_benchmark_problem": {
+        "name": "SIPHT workflow scheduling",
+        "dimensionality": "1000 tasks"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMaOAOA (Arithmetic Optimization Algorithm with Dynamic State Estimation and Infeasible Solution Repairing)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Success Rate",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Science / Cloud Computing",
+        "problem_context": "Deadline-Constrained Many-Objective Workflow Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "CyberShake workflow",
+        "source_platform": "Pegasus project"
+      },
+      "the_benchmark_problem": {
+        "name": "CyberShake workflow scheduling",
+        "dimensionality": "50 tasks"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMaOAOA (Arithmetic Optimization Algorithm with Dynamic State Estimation and Infeasible Solution Repairing)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Success Rate",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Science / Cloud Computing",
+        "problem_context": "Deadline-Constrained Many-Objective Workflow Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "CyberShake workflow",
+        "source_platform": "Pegasus project"
+      },
+      "the_benchmark_problem": {
+        "name": "CyberShake workflow scheduling",
+        "dimensionality": "100 tasks"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMaOAOA (Arithmetic Optimization Algorithm with Dynamic State Estimation and Infeasible Solution Repairing)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Success Rate",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Science / Cloud Computing",
+        "problem_context": "Deadline-Constrained Many-Objective Workflow Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "CyberShake workflow",
+        "source_platform": "Pegasus project"
+      },
+      "the_benchmark_problem": {
+        "name": "CyberShake workflow scheduling",
+        "dimensionality": "1000 tasks"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMaOAOA (Arithmetic Optimization Algorithm with Dynamic State Estimation and Infeasible Solution Repairing)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Success Rate",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Science / Cloud Computing",
+        "problem_context": "Deadline-Constrained Many-Objective Workflow Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "SIPHT workflow",
+        "source_platform": "Pegasus project"
+      },
+      "the_benchmark_problem": {
+        "name": "SIPHT workflow scheduling",
+        "dimensionality": "60 tasks"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SE-AOA (State Estimation-based Arithmetic Optimization Algorithm with Infeasible Solution Repairing)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Success Rate",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Science / Cloud Computing",
+        "problem_context": "Deadline-Constrained Many-Objective Workflow Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "SIPHT workflow",
+        "source_platform": "Pegasus project"
+      },
+      "the_benchmark_problem": {
+        "name": "SIPHT workflow scheduling",
+        "dimensionality": "100 tasks"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SE-AOA (State Estimation-based Arithmetic Optimization Algorithm with Infeasible Solution Repairing)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Success Rate",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Science / Cloud Computing",
+        "problem_context": "Deadline-Constrained Many-Objective Workflow Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "SIPHT workflow",
+        "source_platform": "Pegasus project"
+      },
+      "the_benchmark_problem": {
+        "name": "SIPHT workflow scheduling",
+        "dimensionality": "1000 tasks"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SE-AOA (State Estimation-based Arithmetic Optimization Algorithm with Infeasible Solution Repairing)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Success Rate",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Science / Cloud Computing",
+        "problem_context": "Deadline-Constrained Many-Objective Workflow Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "CyberShake workflow",
+        "source_platform": "Pegasus project"
+      },
+      "the_benchmark_problem": {
+        "name": "CyberShake workflow scheduling",
+        "dimensionality": "50 tasks"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SE-AOA (State Estimation-based Arithmetic Optimization Algorithm with Infeasible Solution Repairing)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Success Rate",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Science / Cloud Computing",
+        "problem_context": "Deadline-Constrained Many-Objective Workflow Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "CyberShake workflow",
+        "source_platform": "Pegasus project"
+      },
+      "the_benchmark_problem": {
+        "name": "CyberShake workflow scheduling",
+        "dimensionality": "100 tasks"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SE-AOA (State Estimation-based Arithmetic Optimization Algorithm with Infeasible Solution Repairing)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Success Rate",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Science / Cloud Computing",
+        "problem_context": "Deadline-Constrained Many-Objective Workflow Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "CyberShake workflow",
+        "source_platform": "Pegasus project"
+      },
+      "the_benchmark_problem": {
+        "name": "CyberShake workflow scheduling",
+        "dimensionality": "1000 tasks"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SE-AOA (State Estimation-based Arithmetic Optimization Algorithm with Infeasible Solution Repairing)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Success Rate",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Science / Cloud Computing",
+        "problem_context": "Deadline-Constrained Many-Objective Workflow Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "SIPHT workflow",
+        "source_platform": "Pegasus project"
+      },
+      "the_benchmark_problem": {
+        "name": "SIPHT workflow scheduling",
+        "dimensionality": "60 tasks"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AOA (Arithmetic Optimization Algorithm)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Success Rate",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Science / Cloud Computing",
+        "problem_context": "Deadline-Constrained Many-Objective Workflow Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "SIPHT workflow",
+        "source_platform": "Pegasus project"
+      },
+      "the_benchmark_problem": {
+        "name": "SIPHT workflow scheduling",
+        "dimensionality": "100 tasks"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AOA (Arithmetic Optimization Algorithm)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Success Rate",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Science / Cloud Computing",
+        "problem_context": "Deadline-Constrained Many-Objective Workflow Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "SIPHT workflow",
+        "source_platform": "Pegasus project"
+      },
+      "the_benchmark_problem": {
+        "name": "SIPHT workflow scheduling",
+        "dimensionality": "1000 tasks"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AOA (Arithmetic Optimization Algorithm)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Success Rate",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Science / Cloud Computing",
+        "problem_context": "Deadline-Constrained Many-Objective Workflow Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "CyberShake workflow",
+        "source_platform": "Pegasus project"
+      },
+      "the_benchmark_problem": {
+        "name": "CyberShake workflow scheduling",
+        "dimensionality": "50 tasks"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AOA (Arithmetic Optimization Algorithm)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Success Rate",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Science / Cloud Computing",
+        "problem_context": "Deadline-Constrained Many-Objective Workflow Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "CyberShake workflow",
+        "source_platform": "Pegasus project"
+      },
+      "the_benchmark_problem": {
+        "name": "CyberShake workflow scheduling",
+        "dimensionality": "100 tasks"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AOA (Arithmetic Optimization Algorithm)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Success Rate",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Science / Cloud Computing",
+        "problem_context": "Deadline-Constrained Many-Objective Workflow Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "CyberShake workflow",
+        "source_platform": "Pegasus project"
+      },
+      "the_benchmark_problem": {
+        "name": "CyberShake workflow scheduling",
+        "dimensionality": "1000 tasks"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AOA (Arithmetic Optimization Algorithm)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Success Rate",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Science / Cloud Computing",
+        "problem_context": "Deadline-Constrained Many-Objective Workflow Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "SIPHT workflow",
+        "source_platform": "Pegasus project"
+      },
+      "the_benchmark_problem": {
+        "name": "SIPHT workflow scheduling",
+        "dimensionality": "60 tasks"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Constrained Non-dominated Sorting Genetic Algorithm III (CNSGAIII)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Success Rate",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Science / Cloud Computing",
+        "problem_context": "Deadline-Constrained Many-Objective Workflow Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "SIPHT workflow",
+        "source_platform": "Pegasus project"
+      },
+      "the_benchmark_problem": {
+        "name": "SIPHT workflow scheduling",
+        "dimensionality": "100 tasks"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Constrained Non-dominated Sorting Genetic Algorithm III (CNSGAIII)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Success Rate",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Science / Cloud Computing",
+        "problem_context": "Deadline-Constrained Many-Objective Workflow Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "SIPHT workflow",
+        "source_platform": "Pegasus project"
+      },
+      "the_benchmark_problem": {
+        "name": "SIPHT workflow scheduling",
+        "dimensionality": "1000 tasks"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Constrained Non-dominated Sorting Genetic Algorithm III (CNSGAIII)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Success Rate",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Science / Cloud Computing",
+        "problem_context": "Deadline-Constrained Many-Objective Workflow Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "CyberShake workflow",
+        "source_platform": "Pegasus project"
+      },
+      "the_benchmark_problem": {
+        "name": "CyberShake workflow scheduling",
+        "dimensionality": "50 tasks"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Constrained Non-dominated Sorting Genetic Algorithm III (CNSGAIII)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Success Rate",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Science / Cloud Computing",
+        "problem_context": "Deadline-Constrained Many-Objective Workflow Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "CyberShake workflow",
+        "source_platform": "Pegasus project"
+      },
+      "the_benchmark_problem": {
+        "name": "CyberShake workflow scheduling",
+        "dimensionality": "100 tasks"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Constrained Non-dominated Sorting Genetic Algorithm III (CNSGAIII)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Success Rate",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Science / Cloud Computing",
+        "problem_context": "Deadline-Constrained Many-Objective Workflow Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "CyberShake workflow",
+        "source_platform": "Pegasus project"
+      },
+      "the_benchmark_problem": {
+        "name": "CyberShake workflow scheduling",
+        "dimensionality": "1000 tasks"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Constrained Non-dominated Sorting Genetic Algorithm III (CNSGAIII)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Success Rate",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Science / Cloud Computing",
+        "problem_context": "Deadline-Constrained Many-Objective Workflow Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "SIPHT workflow",
+        "source_platform": "Pegasus project"
+      },
+      "the_benchmark_problem": {
+        "name": "SIPHT workflow scheduling",
+        "dimensionality": "60 tasks"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Many-Objective Particle Swarm Optimization (MaOPSO)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Success Rate",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Science / Cloud Computing",
+        "problem_context": "Deadline-Constrained Many-Objective Workflow Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "SIPHT workflow",
+        "source_platform": "Pegasus project"
+      },
+      "the_benchmark_problem": {
+        "name": "SIPHT workflow scheduling",
+        "dimensionality": "100 tasks"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Many-Objective Particle Swarm Optimization (MaOPSO)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Success Rate",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Science / Cloud Computing",
+        "problem_context": "Deadline-Constrained Many-Objective Workflow Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "SIPHT workflow",
+        "source_platform": "Pegasus project"
+      },
+      "the_benchmark_problem": {
+        "name": "SIPHT workflow scheduling",
+        "dimensionality": "1000 tasks"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Many-Objective Particle Swarm Optimization (MaOPSO)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Success Rate",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Science / Cloud Computing",
+        "problem_context": "Deadline-Constrained Many-Objective Workflow Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "CyberShake workflow",
+        "source_platform": "Pegasus project"
+      },
+      "the_benchmark_problem": {
+        "name": "CyberShake workflow scheduling",
+        "dimensionality": "50 tasks"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Many-Objective Particle Swarm Optimization (MaOPSO)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Success Rate",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Science / Cloud Computing",
+        "problem_context": "Deadline-Constrained Many-Objective Workflow Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "CyberShake workflow",
+        "source_platform": "Pegasus project"
+      },
+      "the_benchmark_problem": {
+        "name": "CyberShake workflow scheduling",
+        "dimensionality": "100 tasks"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Many-Objective Particle Swarm Optimization (MaOPSO)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Success Rate",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Science / Cloud Computing",
+        "problem_context": "Deadline-Constrained Many-Objective Workflow Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "CyberShake workflow",
+        "source_platform": "Pegasus project"
+      },
+      "the_benchmark_problem": {
+        "name": "CyberShake workflow scheduling",
+        "dimensionality": "1000 tasks"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Many-Objective Particle Swarm Optimization (MaOPSO)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD) and Success Rate",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

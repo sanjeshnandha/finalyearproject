@@ -1,0 +1,200 @@
+{
+  "metadata": {
+    "title": "Leveraging Fitness Critics To Learn Robust Teamwork",
+    "authors": [
+      "Joshua Cook",
+      "Tristan Scheiner",
+      "Kagan Tumer"
+    ],
+    "year": 2023,
+    "source_file": "Cook et al. - 2023 - Leveraging Fitness Critics To Learn Robust Teamwork.pdf",
+    "gecco_track": "Genetic algorithms"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating multi-agent cooperation in a simulated Rover Domain"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rover Domain",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "sparse",
+          "cooperative"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LERT (Learned Evaluations for Robust Teaming)"
+      },
+      "parameters": {
+        "population_size": 32,
+        "max_evaluations_or_generations": 4000,
+        "mutation_rate": 0.1,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average team performance (G^Sigma)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating multi-agent cooperation in a simulated Rover Domain"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rover Domain",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "sparse",
+          "cooperative"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "D^Sigma (Difference Evaluation for Multiple Teams)"
+      },
+      "parameters": {
+        "population_size": 32,
+        "max_evaluations_or_generations": 4000,
+        "mutation_rate": 0.1,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average team performance (G^Sigma)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating multi-agent cooperation in a simulated Rover Domain"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rover Domain",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "sparse",
+          "cooperative"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "G^Sigma (Global Evaluation for Multiple Teams)"
+      },
+      "parameters": {
+        "population_size": 32,
+        "max_evaluations_or_generations": 4000,
+        "mutation_rate": 0.1,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average team performance (G^Sigma)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating multi-agent cooperation in a simulated Rover Domain"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rover Domain",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "sparse",
+          "cooperative"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "End-State Approximation"
+      },
+      "parameters": {
+        "population_size": 32,
+        "max_evaluations_or_generations": 4000,
+        "mutation_rate": 0.1,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average team performance (G^Sigma)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating multi-agent cooperation in a simulated Rover Domain"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rover Domain",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "sparse",
+          "cooperative"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Counterfactual Approximation"
+      },
+      "parameters": {
+        "population_size": 32,
+        "max_evaluations_or_generations": 4000,
+        "mutation_rate": 0.1,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average team performance (G^Sigma)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

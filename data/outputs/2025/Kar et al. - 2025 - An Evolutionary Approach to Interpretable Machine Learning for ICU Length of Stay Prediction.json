@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "title": "An Evolutionary Approach to Interpretable Machine Learning for ICU Length of Stay Prediction",
+    "authors": [
+      "Reshma Kar",
+      "Eslin Kiran Ilangovan",
+      "Gulhan Bizel",
+      "Braja Gopal Patra"
+    ],
+    "year": 2025,
+    "source_file": "Kar et al. - 2025 - An Evolutionary Approach to Interpretable Machine Learning for ICU Length of Stay Prediction.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "ICU length of stay prediction"
+      },
+      "the_database": {
+        "dataset_name": "Medical Information Mart for Intensive Care-IV (MIMIC-IV) dataset",
+        "source_platform": "PhysioNet"
+      },
+      "the_benchmark_problem": {
+        "name": "ICU Length of Stay Prediction",
+        "dimensionality": "18D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex nonlinear relationships"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Gravitational Search Algorithm (GSA)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Absolute Percentage Error (MAPE)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

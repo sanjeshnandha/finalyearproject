@@ -1,0 +1,273 @@
+{
+  "metadata": {
+    "title": "ATOMIC: an Interpretable Clustering Method Based on Data Topology",
+    "authors": [
+      "Matthew Vandergrift",
+      "Ting Hu"
+    ],
+    "year": 2024,
+    "source_file": "Vandergrift and Hu - 2024 - ATOMIC an Interpretable Clustering Method Based on Data Topology.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Environmental Science",
+        "problem_context": "Interpretable clustering and feature selection"
+      },
+      "the_database": {
+        "dataset_name": "Biodegradation",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Biodegradation Clustering",
+        "dimensionality": "41D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "non-convex",
+          "overlapping clusters"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ATOMIC (Novelty Search with Local Competition)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.6,
+        "crossover_rate": 0.4
+      },
+      "performance_outcome": {
+        "metric": "Silhouette Metric: 0.9132, Davies-Bouldin Score: 0.4457, Feature Reduction: 95% (2/41 variables)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Archaeology / Chemistry",
+        "problem_context": "Interpretable clustering and feature selection"
+      },
+      "the_database": {
+        "dataset_name": "Ceramic",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Ceramic Clustering",
+        "dimensionality": "18D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "non-convex",
+          "overlapping clusters"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ATOMIC (Novelty Search with Local Competition)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.6,
+        "crossover_rate": 0.4
+      },
+      "performance_outcome": {
+        "metric": "Silhouette Metric: 0.6112, Davies-Bouldin Score: 0.5335, Feature Reduction: 83% (3/18 variables)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Interpretable clustering and feature selection"
+      },
+      "the_database": {
+        "dataset_name": "Cervical Cancer",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Cervical Cancer Clustering",
+        "dimensionality": "18D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "non-convex",
+          "overlapping clusters"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ATOMIC (Novelty Search with Local Competition)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.6,
+        "crossover_rate": 0.4
+      },
+      "performance_outcome": {
+        "metric": "Silhouette Metric: 0.1118, Davies-Bouldin Score: 0.9272, Feature Reduction: 55% (8/18 variables)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Forensics / Materials Science",
+        "problem_context": "Interpretable clustering and feature selection"
+      },
+      "the_database": {
+        "dataset_name": "Glass Identification",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Glass Identification Clustering",
+        "dimensionality": "9D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "non-convex",
+          "overlapping clusters"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ATOMIC (Novelty Search with Local Competition)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.6,
+        "crossover_rate": 0.4
+      },
+      "performance_outcome": {
+        "metric": "Silhouette Metric: 0.5785, Davies-Bouldin Score: 0.4078, Feature Reduction: 66% (3/9 variables)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Space Physics",
+        "problem_context": "Interpretable clustering and feature selection"
+      },
+      "the_database": {
+        "dataset_name": "Ionosphere",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Ionosphere Clustering",
+        "dimensionality": "33D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "non-convex",
+          "overlapping clusters"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ATOMIC (Novelty Search with Local Competition)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.6,
+        "crossover_rate": 0.4
+      },
+      "performance_outcome": {
+        "metric": "Silhouette Metric: 0.4004, Davies-Bouldin Score: 0.9106, Feature Reduction: 69.9% (10/33 variables)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Environmental Science",
+        "problem_context": "Interpretable clustering and feature selection"
+      },
+      "the_database": {
+        "dataset_name": "Ozone 8-Hours",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Ozone 8-Hours Clustering",
+        "dimensionality": "72D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "non-convex",
+          "overlapping clusters"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ATOMIC (Novelty Search with Local Competition)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.6,
+        "crossover_rate": 0.4
+      },
+      "performance_outcome": {
+        "metric": "Silhouette Metric: 0.0297, Davies-Bouldin Score: 1.1201, Feature Reduction: 48% (37/72 variables)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Interpretable clustering and feature selection"
+      },
+      "the_database": {
+        "dataset_name": "Wholesale customers",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Wholesale Customers Clustering",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "non-convex",
+          "overlapping clusters"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ATOMIC (Novelty Search with Local Competition)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.6,
+        "crossover_rate": 0.4
+      },
+      "performance_outcome": {
+        "metric": "Silhouette Metric: 0.7624, Davies-Bouldin Score: 0.3938, Feature Reduction: 62.5% (3/8 variables)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

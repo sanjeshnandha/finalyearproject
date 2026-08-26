@@ -1,0 +1,448 @@
+{
+  "metadata": {
+    "title": "Evolving Diverse Sets of Tours for the Travelling Salesperson Problem",
+    "authors": [
+      "Anh Viet Do",
+      "Jakob Bossek",
+      "Aneta Neumann",
+      "Frank Neumann"
+    ],
+    "year": 2020,
+    "source_file": "Do et al. - 2020 - Evolving diverse sets of tours for the travelling salesperson problem.pdf",
+    "gecco_track": "GECCO '20"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesperson Problem"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Unconstrained TSP",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "NP-hard"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Diversity maximising (μ + 1)-EA with 2-OPT and Edge Diversity (ED)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "gtype (diversity score)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesperson Problem"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Unconstrained TSP",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "NP-hard"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Diversity maximising (μ + 1)-EA with 3-OPT and Edge Diversity (ED)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "gtype (diversity score)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesperson Problem"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Unconstrained TSP",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "NP-hard"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Diversity maximising (μ + 1)-EA with 4-OPT and Edge Diversity (ED)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "gtype (diversity score)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesperson Problem"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Unconstrained TSP",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "NP-hard"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Diversity maximising (μ + 1)-EA with 2-OPT and Pairwise Edge Distance (PD)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "gtype (diversity score)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesperson Problem"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Unconstrained TSP",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "NP-hard"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Diversity maximising (μ + 1)-EA with 3-OPT and Pairwise Edge Distance (PD)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "gtype (diversity score)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesperson Problem"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Unconstrained TSP",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "NP-hard"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Diversity maximising (μ + 1)-EA with 4-OPT and Pairwise Edge Distance (PD)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "gtype (diversity score)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesperson Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPlib",
+        "source_platform": "TSPlib Library"
+      },
+      "the_benchmark_problem": {
+        "name": "TSPlib (eil51, eil76, eil101)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "NP-hard"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Diversity maximising (μ + 1)-EA with 2-OPT and Edge Diversity (ED)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "gtype (diversity score)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesperson Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPlib",
+        "source_platform": "TSPlib Library"
+      },
+      "the_benchmark_problem": {
+        "name": "TSPlib (eil51, eil76, eil101)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "NP-hard"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Diversity maximising (μ + 1)-EA with 3-OPT and Edge Diversity (ED)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "gtype (diversity score)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesperson Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPlib",
+        "source_platform": "TSPlib Library"
+      },
+      "the_benchmark_problem": {
+        "name": "TSPlib (eil51, eil76, eil101)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "NP-hard"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Diversity maximising (μ + 1)-EA with 4-OPT and Edge Diversity (ED)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "gtype (diversity score)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesperson Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPlib",
+        "source_platform": "TSPlib Library"
+      },
+      "the_benchmark_problem": {
+        "name": "TSPlib (eil51, eil76, eil101)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "NP-hard"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Diversity maximising (μ + 1)-EA with 2-OPT and Pairwise Edge Distance (PD)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "gtype (diversity score)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesperson Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPlib",
+        "source_platform": "TSPlib Library"
+      },
+      "the_benchmark_problem": {
+        "name": "TSPlib (eil51, eil76, eil101)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "NP-hard"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Diversity maximising (μ + 1)-EA with 3-OPT and Pairwise Edge Distance (PD)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "gtype (diversity score)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesperson Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPlib",
+        "source_platform": "TSPlib Library"
+      },
+      "the_benchmark_problem": {
+        "name": "TSPlib (eil51, eil76, eil101)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "NP-hard"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Diversity maximising (μ + 1)-EA with 4-OPT and Pairwise Edge Distance (PD)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "gtype (diversity score)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

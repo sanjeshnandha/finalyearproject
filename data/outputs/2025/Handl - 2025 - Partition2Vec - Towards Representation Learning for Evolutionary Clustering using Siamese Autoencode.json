@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "title": "Partition2Vec - Towards Representation Learning for Evolutionary Clustering using Siamese Autoencoders",
+    "authors": [
+      "Julia Handl"
+    ],
+    "year": 2025,
+    "source_file": "Handl - 2025 - Partition2Vec - Towards Representation Learning for Evolutionary Clustering using Siamese Autoencode.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evolutionary Clustering"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data (4 clusters at corners of a rectangle)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Clustering Problem",
+        "dimensionality": "N=8"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "redundant",
+          "multiple equivalent solutions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II (Integer Representation)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume indicator",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evolutionary Clustering"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data (4 clusters at corners of a rectangle)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Clustering Problem",
+        "dimensionality": "N=16"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "redundant",
+          "multiple equivalent solutions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II (Integer Representation)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume indicator",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evolutionary Clustering"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data (4 clusters at corners of a rectangle)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Clustering Problem (Latent Space)",
+        "dimensionality": "N=8 (8D latent space)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "continuous space",
+          "reduced redundancy"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II (Latent Representation via Siamese Autoencoder)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume indicator",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evolutionary Clustering"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data (4 clusters at corners of a rectangle)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Clustering Problem (Latent Space)",
+        "dimensionality": "N=16 (16D latent space)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "continuous space",
+          "reduced redundancy",
+          "mapping inaccuracies"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II (Latent Representation via Siamese Autoencoder)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume indicator",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

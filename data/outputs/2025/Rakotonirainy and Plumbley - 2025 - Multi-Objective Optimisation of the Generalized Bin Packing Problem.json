@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "title": "Multi-Objective Optimisation of the Generalized Bin Packing Problem",
+    "authors": [
+      "R Georgina Rakotonirainy",
+      "Andrea Plumbley"
+    ],
+    "year": 2025,
+    "source_file": "Rakotonirainy and Plumbley - 2025 - Multi-Objective Optimisation of the Generalized Bin Packing Problem.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Generalized Bin Packing Problem with cost and time constraints"
+      },
+      "the_database": {
+        "dataset_name": "1D test instances from Baldi et al. [3]",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "1D Multi-Objective Generalized Bin Packing Problem",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Cost objective, maximum lateness, percentage deviation from lower bound, and number of unique solutions",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Generalized Bin Packing Problem with cost and time constraints"
+      },
+      "the_database": {
+        "dataset_name": "2D test instances generated using 2DCPackGen",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "2D Multi-Objective Generalized Bin Packing Problem",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Cost objective, maximum lateness, percentage deviation from lower bound, and number of unique solutions",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

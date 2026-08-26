@@ -1,0 +1,334 @@
+{
+  "metadata": {
+    "title": "Covariance Matrix Adaptation for the Rapid Illumination of Behavior Space",
+    "authors": [
+      "Matthew C. Fontaine",
+      "Julian Togelius",
+      "Stefanos Nikolaidis",
+      "Amy K. Hoover"
+    ],
+    "year": 2020,
+    "source_file": "Fontaine et al. - 2020 - Covariance matrix adaptation for the rapid illumination of behavior space.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Sphere",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "distorted behavior space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ES"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 2500000,
+        "mutation_rate": 0.5,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Max Fitness",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Sphere",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "distorted behavior space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAP-Elites"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 2500000,
+        "mutation_rate": 0.5,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD-Score",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Sphere",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "distorted behavior space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ME (improvement emitter)"
+      },
+      "parameters": {
+        "population_size": 37,
+        "max_evaluations_or_generations": 2500000,
+        "mutation_rate": 0.5,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD-Score",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rastrigin",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "distorted behavior space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ES"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 2500000,
+        "mutation_rate": 0.5,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Max Fitness",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rastrigin",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "distorted behavior space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAP-Elites"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 2500000,
+        "mutation_rate": 0.5,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD-Score",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rastrigin",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "distorted behavior space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ME (improvement emitter)"
+      },
+      "parameters": {
+        "population_size": 37,
+        "max_evaluations_or_generations": 2500000,
+        "mutation_rate": 0.5,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD-Score",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment / Video Games",
+        "problem_context": "Finding diverse agent policies in Hearthstone"
+      },
+      "the_database": {
+        "dataset_name": "SabberStone Simulator",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "Hearthstone",
+        "dimensionality": "109D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-linear",
+          "distorted behavior space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ME"
+      },
+      "parameters": {
+        "population_size": 37,
+        "max_evaluations_or_generations": 50000,
+        "mutation_rate": 0.05,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD-Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment / Video Games",
+        "problem_context": "Finding diverse agent policies in Hearthstone"
+      },
+      "the_database": {
+        "dataset_name": "SabberStone Simulator",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "Hearthstone",
+        "dimensionality": "109D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-linear",
+          "distorted behavior space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAP-Elites"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 50000,
+        "mutation_rate": 0.05,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD-Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment / Video Games",
+        "problem_context": "Finding diverse agent policies in Hearthstone"
+      },
+      "the_database": {
+        "dataset_name": "SabberStone Simulator",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "Hearthstone",
+        "dimensionality": "109D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-linear",
+          "distorted behavior space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ES"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 50000,
+        "mutation_rate": 0.05,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD-Score",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

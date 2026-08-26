@@ -1,0 +1,176 @@
+{
+  "metadata": {
+    "title": "Evolutionary-Driven Bayesian Optimization for Automated Molecular Docking with AutoDock Vina",
+    "authors": [
+      "Alejandro Lopez-Rincon",
+      "Brigitta Varga",
+      "David Rojas-Velazquez",
+      "Alberto Tonda"
+    ],
+    "year": 2026,
+    "source_file": "Lopez-Rincon et al. - 2026 - Evolutionary‑Driven Bayesian Optimization for Automated Molecular Docking with AutoDock Vina.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Automated molecular docking grid box placement"
+      },
+      "the_database": {
+        "dataset_name": "ZINC database and PDB ID: 1N26",
+        "source_platform": "ZINC and RCSB Protein Data Bank"
+      },
+      "the_benchmark_problem": {
+        "name": "Molecular Docking Grid Box Placement (IL-6R with resveratrol analogues)",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "rugged",
+          "multi-modal",
+          "non-convex",
+          "expensive",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EA-BO (CMA-ES)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean affinity score",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Automated molecular docking grid box placement"
+      },
+      "the_database": {
+        "dataset_name": "ZINC database and PDB ID: 1N26",
+        "source_platform": "ZINC and RCSB Protein Data Bank"
+      },
+      "the_benchmark_problem": {
+        "name": "Molecular Docking Grid Box Placement (IL-6R with resveratrol analogues)",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "rugged",
+          "multi-modal",
+          "non-convex",
+          "expensive",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Optuna"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean affinity score",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Automated molecular docking grid box placement"
+      },
+      "the_database": {
+        "dataset_name": "ZINC database and PDB ID: 1N26",
+        "source_platform": "ZINC and RCSB Protein Data Bank"
+      },
+      "the_benchmark_problem": {
+        "name": "Molecular Docking Grid Box Placement (IL-6R with resveratrol analogues)",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "rugged",
+          "multi-modal",
+          "non-convex",
+          "expensive",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GP-BO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean affinity score",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Automated molecular docking grid box placement"
+      },
+      "the_database": {
+        "dataset_name": "ZINC database and PDB ID: 1N26",
+        "source_platform": "ZINC and RCSB Protein Data Bank"
+      },
+      "the_benchmark_problem": {
+        "name": "Molecular Docking Grid Box Placement (IL-6R with resveratrol analogues)",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "rugged",
+          "multi-modal",
+          "non-convex",
+          "expensive",
+          "black-box"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Scikit-Optimize (skopt)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean affinity score",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

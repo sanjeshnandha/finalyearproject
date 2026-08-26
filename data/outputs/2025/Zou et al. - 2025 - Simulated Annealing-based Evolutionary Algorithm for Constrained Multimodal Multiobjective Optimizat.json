@@ -1,0 +1,398 @@
+{
+  "metadata": {
+    "title": "Simulated Annealing-based Evolutionary Algorithm for Constrained Multimodal Multiobjective Optimization",
+    "authors": [
+      "Juan Zou",
+      "Yu Li",
+      "Qi Deng",
+      "Tian-Bin Xie",
+      "Sheng-Xiang Yang",
+      "Jin-Hua Zheng"
+    ],
+    "year": 2025,
+    "source_file": "Zou et al. - 2025 - Simulated Annealing-based Evolutionary Algorithm for Constrained Multimodal Multiobjective Optimizat.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CMMF and CMMOP Test Suites",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multiple constraints",
+          "multiple Pareto optimal solution sets",
+          "narrow feasible regions",
+          "infeasible barriers"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMMOSA"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 20000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD+, IGDX, and CPSP",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CMMF and CMMOP Test Suites",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multiple constraints",
+          "multiple Pareto optimal solution sets",
+          "narrow feasible regions",
+          "infeasible barriers"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMMODE"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 20000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD+, IGDX, and CPSP",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CMMF and CMMOP Test Suites",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multiple constraints",
+          "multiple Pareto optimal solution sets",
+          "narrow feasible regions",
+          "infeasible barriers"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMMOCEA"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 20000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD+, IGDX, and CPSP",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CMMF and CMMOP Test Suites",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multiple constraints",
+          "multiple Pareto optimal solution sets",
+          "narrow feasible regions",
+          "infeasible barriers"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DSRDE"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 20000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD+, IGDX, and CPSP",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CMMF and CMMOP Test Suites",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multiple constraints",
+          "multiple Pareto optimal solution sets",
+          "narrow feasible regions",
+          "infeasible barriers"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMMO-MTA"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 20000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD+, IGDX, and CPSP",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Constrained multimodal multiobjective location selection problem"
+      },
+      "the_database": {
+        "dataset_name": "CMMOP_LS",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CMMOP_LS",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "multimodal",
+          "multiobjective",
+          "location selection"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMMOSA"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 20000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD+ (1.3749e-2), IGDX (2.6059e-2), CPSP (2.6131e-2)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Constrained multimodal multiobjective location selection problem"
+      },
+      "the_database": {
+        "dataset_name": "CMMOP_LS",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CMMOP_LS",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "multimodal",
+          "multiobjective",
+          "location selection"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMMODE"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 20000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD+ (1.7914e-2), IGDX (4.0730e-2), CPSP (4.1217e-2)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Constrained multimodal multiobjective location selection problem"
+      },
+      "the_database": {
+        "dataset_name": "CMMOP_LS",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CMMOP_LS",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "multimodal",
+          "multiobjective",
+          "location selection"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMMOCEA"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 20000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD+ (1.5172e-2), IGDX (2.6646e-2), CPSP (2.6769e-2)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Constrained multimodal multiobjective location selection problem"
+      },
+      "the_database": {
+        "dataset_name": "CMMOP_LS",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CMMOP_LS",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "multimodal",
+          "multiobjective",
+          "location selection"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DSRDE"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 20000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD+ (1.7123e-2), IGDX (3.3913e-2), CPSP (3.4185e-2)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Constrained multimodal multiobjective location selection problem"
+      },
+      "the_database": {
+        "dataset_name": "CMMOP_LS",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CMMOP_LS",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "multimodal",
+          "multiobjective",
+          "location selection"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMMO-MTA"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 20000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD+ (1.4967e-2), IGDX (2.7878e-2), CPSP (2.7970e-2)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

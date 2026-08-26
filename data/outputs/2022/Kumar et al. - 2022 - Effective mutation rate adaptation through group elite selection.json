@@ -1,0 +1,299 @@
+{
+  "metadata": {
+    "title": "Effective Mutation Rate Adaptation through Group Elite Selection",
+    "authors": [
+      "Akarsh Kumar",
+      "Bo Liu",
+      "Risto Miikkulainen",
+      "Peter Stone"
+    ],
+    "year": 2022,
+    "source_file": "Kumar et al. - 2022 - Effective mutation rate adaptation through group elite selection.pdf",
+    "gecco_track": "Genetic Algorithms"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ackley",
+        "dimensionality": "100D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GESMR"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": 0.0
+      },
+      "performance_outcome": {
+        "metric": "Elite function value",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rastrigin",
+        "dimensionality": "100D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GESMR"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": 0.0
+      },
+      "performance_outcome": {
+        "metric": "Elite function value",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rosenbrock",
+        "dimensionality": "100D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "relatively non-rugged",
+          "smooth"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GESMR"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": 0.0
+      },
+      "performance_outcome": {
+        "metric": "Elite function value",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Sphere",
+        "dimensionality": "100D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "relatively non-rugged",
+          "smooth"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GESMR"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": 0.0
+      },
+      "performance_outcome": {
+        "metric": "Elite function value",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Technology",
+        "problem_context": "Neuroevolution for image classification"
+      },
+      "the_database": {
+        "dataset_name": "MNIST",
+        "source_platform": "Y. LeCun"
+      },
+      "the_benchmark_problem": {
+        "name": "MNIST Image Classification",
+        "dimensionality": "High-dimensional"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "loss landscape"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GESMR"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": 0.0
+      },
+      "performance_outcome": {
+        "metric": "Cross Entropy Loss",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Neuroevolution for reinforcement learning control"
+      },
+      "the_database": {
+        "dataset_name": "OpenAI Gym",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CartPole",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "control task"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GESMR"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": 0.0
+      },
+      "performance_outcome": {
+        "metric": "Cumulative reward",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ackley",
+        "dimensionality": "100D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Self-adaptation of MR (SAMR)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": 0.0
+      },
+      "performance_outcome": {
+        "metric": "Elite function value",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ackley",
+        "dimensionality": "100D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ES"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Elite final function value",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "title": "Investigating the Climbing Mechanism of the Weight-Guided Random Bit Climber for Many-Objective Optimization",
+    "authors": [
+      "Yudai Tagawa",
+      "Hernán Aguirre",
+      "Kiyoshi Tanaka"
+    ],
+    "year": 2025,
+    "source_file": "Tagawa et al. - 2025 - Investigating the Climbing Mechanism of the Weight-Guided Random Bit Climber for Many-Objective Opti.pdf",
+    "gecco_track": "GECCO '25 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MNK-landscapes",
+        "dimensionality": "100 bits"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "epistatic",
+          "rugged",
+          "binary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Weight-Guided Random Bit Climber (wgRBC)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MNK-landscapes",
+        "dimensionality": "100 bits"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "epistatic",
+          "rugged",
+          "binary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Distributed Random Bit Climber (dRBC)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MNK-landscapes",
+        "dimensionality": "100 bits"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "epistatic",
+          "rugged",
+          "binary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-III"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MNK-landscapes",
+        "dimensionality": "100 bits"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "epistatic",
+          "rugged",
+          "binary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

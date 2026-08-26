@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "title": "What Makes The Dynamic Capacitated Arc Routing Problem Hard To Solve: Insights From Fitness Landscape Analysis",
+    "authors": [
+      "Hao Tong",
+      "Leandro L. Minku",
+      "Stefan Menzel",
+      "Bernhard Sendhoff",
+      "Xin Yao"
+    ],
+    "year": 2022,
+    "source_file": "Tong et al. - 2022 - What makes the dynamic capacitated Arc routing problem hard to solve insights from fitness landscap.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Dynamic Capacitated Arc Routing Problem"
+      },
+      "the_database": {
+        "dataset_name": "egl dataset (egl-E2-A)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Dynamic Capacitated Arc Routing Problem (egl-E2-A)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged",
+          "smooth at solution level for many tasks",
+          "small basin of attraction for global optimum"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Hybrid Local Search (HyLS)"
+      },
+      "parameters": {
+        "population_size": 400,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average time to reach local optimum",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Dynamic Capacitated Arc Routing Problem"
+      },
+      "the_database": {
+        "dataset_name": "egl dataset (egl-E2-A)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Dynamic Capacitated Arc Routing Problem (egl-E2-A)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged",
+          "small basin of attraction for global optimum"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Memetic Algorithm with Extended Neighborhood Search (MAENS)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Approximate global optimum",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

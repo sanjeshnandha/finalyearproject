@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "title": "Dynamically Sampling biomedical Images For Genetic Programming",
+    "authors": [
+      "Yuri Lavinas",
+      "Nathan Haut",
+      "William Punch",
+      "Wolfgang Banzhaf",
+      "Sylvain Cussat-Blanc"
+    ],
+    "year": 2024,
+    "source_file": "Lavinas et al. - 2024 - Dynamically Sampling biomedical Images For Genetic Programming.pdf",
+    "gecco_track": "Genetic Programming"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Biomedical image segmentation"
+      },
+      "the_database": {
+        "dataset_name": "CELLPOSE",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CELLPOSE dataset",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard CGP"
+      },
+      "parameters": {
+        "population_size": 6,
+        "max_evaluations_or_generations": 15000,
+        "mutation_rate": 0.15,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Precision (AP)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Biomedical image segmentation"
+      },
+      "the_database": {
+        "dataset_name": "CELLPOSE",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CELLPOSE dataset",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "dyn-CGP with Uncertainty sampling"
+      },
+      "parameters": {
+        "population_size": 6,
+        "max_evaluations_or_generations": 15000,
+        "mutation_rate": 0.15,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Precision (AP)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Biomedical image segmentation"
+      },
+      "the_database": {
+        "dataset_name": "CELLPOSE",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CELLPOSE dataset",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "dyn-CGP with Weighted uncertainty sampling"
+      },
+      "parameters": {
+        "population_size": 6,
+        "max_evaluations_or_generations": 15000,
+        "mutation_rate": 0.15,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Precision (AP)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Biomedical image segmentation"
+      },
+      "the_database": {
+        "dataset_name": "CELLPOSE",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CELLPOSE dataset",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "dyn-CGP with Uniform sampling"
+      },
+      "parameters": {
+        "population_size": 6,
+        "max_evaluations_or_generations": 15000,
+        "mutation_rate": 0.15,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Precision (AP)",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

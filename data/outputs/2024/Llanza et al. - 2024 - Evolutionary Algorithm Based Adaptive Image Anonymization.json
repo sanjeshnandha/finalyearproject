@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "title": "Evolutionary Algorithm Based Adaptive Image Anonymization",
+    "authors": [
+      "Arcadi Llanza",
+      "Nadiya Shvai",
+      "Amir Nakib"
+    ],
+    "year": 2024,
+    "source_file": "Llanza et al. - 2024 - Evolutionary Algorithm Based Adaptive Image Anonymization.pdf",
+    "gecco_track": "GECCO '24 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Adaptive Image Anonymization"
+      },
+      "the_database": {
+        "dataset_name": "ImageNet",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ImageNet Face Anonymization",
+        "dimensionality": "250D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (GA)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "EAIA success rate: 16.50%, Class concordance rate: 85.01%, Median number of Function Evaluations: 22.0",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Adaptive Image Anonymization"
+      },
+      "the_database": {
+        "dataset_name": "ImageNet",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ImageNet Face Anonymization",
+        "dimensionality": "1000D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (GA)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "EAIA success rate: 53.00%, Class concordance rate: 91.56%, Median number of Function Evaluations: 198.0",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Adaptive Image Anonymization"
+      },
+      "the_database": {
+        "dataset_name": "ImageNet",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ImageNet Face Anonymization",
+        "dimensionality": "5000D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (GA)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "EAIA success rate: 95.00%, Class concordance rate: 99.10%, Median number of Function Evaluations: 1127.0",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

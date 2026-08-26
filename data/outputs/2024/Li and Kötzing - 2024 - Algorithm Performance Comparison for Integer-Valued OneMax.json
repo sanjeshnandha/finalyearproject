@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "title": "Algorithm Performance Comparison for Integer-Valued OneMax",
+    "authors": [
+      "Xiaoyue Li",
+      "Timo Kötzing"
+    ],
+    "year": 2024,
+    "source_file": "Li and Kötzing - 2024 - Algorithm Performance Comparison for Integer-Valued OneMax.pdf",
+    "gecco_track": "Discrete optimization"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Integer-valued OneMax",
+        "dimensionality": "Variable (n in {20, 40, 60, 100})"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "discrete search space",
+          "l1-distance to optimum"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RLS_alpha,beta"
+      },
+      "parameters": {
+        "population_size": 1,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median run time (fitness evaluations)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Integer-valued OneMax",
+        "dimensionality": "Variable (n in {20, 60, 100})"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "discrete search space",
+          "l1-distance to optimum"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ESwR"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median run time (fitness evaluations)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Integer-valued OneMax",
+        "dimensionality": "Variable (n in {20, 60, 100})"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "discrete search space",
+          "l1-distance to optimum"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ESwM"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median run time (fitness evaluations)",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,1067 @@
+{
+  "metadata": {
+    "title": "When to Truncate the Archive? On the Effect of the Truncation Frequency in Multi-Objective Optimisation",
+    "authors": [
+      "Zhiji Cui",
+      "Zimin Liang",
+      "Lie Meng Pang",
+      "Hisao Ishibuchi",
+      "Miqing Li"
+    ],
+    "year": 2025,
+    "source_file": "Cui et al. - 2025 - When to Truncate the Archive On the Effect of the Truncation Frequency in Multi-Objective Optimisat.pdf",
+    "gecco_track": "Multi-criterion optimization and decision-making"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating multi-objective archive truncation strategies"
+      },
+      "the_database": {
+        "dataset_name": "Simulated sequences from Simplex Pareto Front",
+        "source_platform": "Custom Simulated Data"
+      },
+      "the_benchmark_problem": {
+        "name": "Simplex Pareto Front (Archiving Task)",
+        "dimensionality": "3D (objective space)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "simplex-shaped Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II with Immediate Truncation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD value (mean ± standard deviation)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating multi-objective archive truncation strategies"
+      },
+      "the_database": {
+        "dataset_name": "Simulated sequences from Simplex Pareto Front",
+        "source_platform": "Custom Simulated Data"
+      },
+      "the_benchmark_problem": {
+        "name": "Simplex Pareto Front (Archiving Task)",
+        "dimensionality": "3D (objective space)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "simplex-shaped Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II with Batch Truncation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD value (mean ± standard deviation)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating multi-objective archive truncation strategies"
+      },
+      "the_database": {
+        "dataset_name": "Simulated sequences from Simplex Pareto Front",
+        "source_platform": "Custom Simulated Data"
+      },
+      "the_benchmark_problem": {
+        "name": "Simplex Pareto Front (Archiving Task)",
+        "dimensionality": "3D (objective space)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "simplex-shaped Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II with Unbounded Truncation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD value (mean ± standard deviation)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating multi-objective archive truncation strategies"
+      },
+      "the_database": {
+        "dataset_name": "Simulated sequences from Simplex Pareto Front",
+        "source_platform": "Custom Simulated Data"
+      },
+      "the_benchmark_problem": {
+        "name": "Simplex Pareto Front (Archiving Task)",
+        "dimensionality": "3D (objective space)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "simplex-shaped Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SMS-EMOA with Immediate Truncation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD value (mean ± standard deviation)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating multi-objective archive truncation strategies"
+      },
+      "the_database": {
+        "dataset_name": "Simulated sequences from Simplex Pareto Front",
+        "source_platform": "Custom Simulated Data"
+      },
+      "the_benchmark_problem": {
+        "name": "Simplex Pareto Front (Archiving Task)",
+        "dimensionality": "3D (objective space)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "simplex-shaped Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SMS-EMOA with Batch Truncation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD value (mean ± standard deviation)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating multi-objective archive truncation strategies"
+      },
+      "the_database": {
+        "dataset_name": "Simulated sequences from Simplex Pareto Front",
+        "source_platform": "Custom Simulated Data"
+      },
+      "the_benchmark_problem": {
+        "name": "Simplex Pareto Front (Archiving Task)",
+        "dimensionality": "3D (objective space)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "simplex-shaped Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SMS-EMOA with Unbounded Truncation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD value (mean ± standard deviation)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating multi-objective archive truncation strategies"
+      },
+      "the_database": {
+        "dataset_name": "Simulated sequences from Simplex Pareto Front",
+        "source_platform": "Custom Simulated Data"
+      },
+      "the_benchmark_problem": {
+        "name": "Simplex Pareto Front (Archiving Task)",
+        "dimensionality": "3D (objective space)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "simplex-shaped Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "IBEA with Immediate Truncation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD value (mean ± standard deviation)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating multi-objective archive truncation strategies"
+      },
+      "the_database": {
+        "dataset_name": "Simulated sequences from Simplex Pareto Front",
+        "source_platform": "Custom Simulated Data"
+      },
+      "the_benchmark_problem": {
+        "name": "Simplex Pareto Front (Archiving Task)",
+        "dimensionality": "3D (objective space)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "simplex-shaped Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "IBEA with Batch Truncation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD value (mean ± standard deviation)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating multi-objective archive truncation strategies"
+      },
+      "the_database": {
+        "dataset_name": "Simulated sequences from Simplex Pareto Front",
+        "source_platform": "Custom Simulated Data"
+      },
+      "the_benchmark_problem": {
+        "name": "Simplex Pareto Front (Archiving Task)",
+        "dimensionality": "3D (objective space)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "simplex-shaped Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "IBEA with Unbounded Truncation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD value (mean ± standard deviation)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating multi-objective archive truncation strategies"
+      },
+      "the_database": {
+        "dataset_name": "Simulated sequences from Simplex Pareto Front",
+        "source_platform": "Custom Simulated Data"
+      },
+      "the_benchmark_problem": {
+        "name": "Simplex Pareto Front (Archiving Task)",
+        "dimensionality": "3D (objective space)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "simplex-shaped Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D with Immediate Truncation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD value (mean ± standard deviation)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating multi-objective archive truncation strategies"
+      },
+      "the_database": {
+        "dataset_name": "Simulated sequences from Simplex Pareto Front",
+        "source_platform": "Custom Simulated Data"
+      },
+      "the_benchmark_problem": {
+        "name": "Simplex Pareto Front (Archiving Task)",
+        "dimensionality": "3D (objective space)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "simplex-shaped Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D with Batch Truncation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD value (mean ± standard deviation)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating multi-objective archive truncation strategies"
+      },
+      "the_database": {
+        "dataset_name": "Simulated sequences from Simplex Pareto Front",
+        "source_platform": "Custom Simulated Data"
+      },
+      "the_benchmark_problem": {
+        "name": "Simplex Pareto Front (Archiving Task)",
+        "dimensionality": "3D (objective space)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "simplex-shaped Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D with Unbounded Truncation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD value (mean ± standard deviation)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating multi-objective archive truncation strategies"
+      },
+      "the_database": {
+        "dataset_name": "Simulated sequences from Simplex Pareto Front",
+        "source_platform": "Custom Simulated Data"
+      },
+      "the_benchmark_problem": {
+        "name": "Simplex Pareto Front (Archiving Task)",
+        "dimensionality": "3D (objective space)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "simplex-shaped Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-III with Immediate Truncation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD value (mean ± standard deviation)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating multi-objective archive truncation strategies"
+      },
+      "the_database": {
+        "dataset_name": "Simulated sequences from Simplex Pareto Front",
+        "source_platform": "Custom Simulated Data"
+      },
+      "the_benchmark_problem": {
+        "name": "Simplex Pareto Front (Archiving Task)",
+        "dimensionality": "3D (objective space)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "simplex-shaped Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-III with Batch Truncation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD value (mean ± standard deviation)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating multi-objective archive truncation strategies"
+      },
+      "the_database": {
+        "dataset_name": "Simulated sequences from Simplex Pareto Front",
+        "source_platform": "Custom Simulated Data"
+      },
+      "the_benchmark_problem": {
+        "name": "Simplex Pareto Front (Archiving Task)",
+        "dimensionality": "3D (objective space)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "simplex-shaped Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-III with Unbounded Truncation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD value (mean ± standard deviation)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating multi-objective archive truncation strategies"
+      },
+      "the_database": {
+        "dataset_name": "Simulated sequences from Inverted Simplex Pareto Front",
+        "source_platform": "Custom Simulated Data"
+      },
+      "the_benchmark_problem": {
+        "name": "Inverted Simplex Pareto Front (Archiving Task)",
+        "dimensionality": "3D (objective space)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "inverted simplex-shaped Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II with Immediate Truncation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD value (mean ± standard deviation)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating multi-objective archive truncation strategies"
+      },
+      "the_database": {
+        "dataset_name": "Simulated sequences from Inverted Simplex Pareto Front",
+        "source_platform": "Custom Simulated Data"
+      },
+      "the_benchmark_problem": {
+        "name": "Inverted Simplex Pareto Front (Archiving Task)",
+        "dimensionality": "3D (objective space)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "inverted simplex-shaped Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II with Batch Truncation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD value (mean ± standard deviation)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating multi-objective archive truncation strategies"
+      },
+      "the_database": {
+        "dataset_name": "Simulated sequences from Inverted Simplex Pareto Front",
+        "source_platform": "Custom Simulated Data"
+      },
+      "the_benchmark_problem": {
+        "name": "Inverted Simplex Pareto Front (Archiving Task)",
+        "dimensionality": "3D (objective space)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "inverted simplex-shaped Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II with Unbounded Truncation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD value (mean ± standard deviation)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating multi-objective archive truncation strategies"
+      },
+      "the_database": {
+        "dataset_name": "Simulated sequences from Inverted Simplex Pareto Front",
+        "source_platform": "Custom Simulated Data"
+      },
+      "the_benchmark_problem": {
+        "name": "Inverted Simplex Pareto Front (Archiving Task)",
+        "dimensionality": "3D (objective space)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "inverted simplex-shaped Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SMS-EMOA with Immediate Truncation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD value (mean ± standard deviation)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating multi-objective archive truncation strategies"
+      },
+      "the_database": {
+        "dataset_name": "Simulated sequences from Inverted Simplex Pareto Front",
+        "source_platform": "Custom Simulated Data"
+      },
+      "the_benchmark_problem": {
+        "name": "Inverted Simplex Pareto Front (Archiving Task)",
+        "dimensionality": "3D (objective space)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "inverted simplex-shaped Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SMS-EMOA with Batch Truncation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD value (mean ± standard deviation)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating multi-objective archive truncation strategies"
+      },
+      "the_database": {
+        "dataset_name": "Simulated sequences from Inverted Simplex Pareto Front",
+        "source_platform": "Custom Simulated Data"
+      },
+      "the_benchmark_problem": {
+        "name": "Inverted Simplex Pareto Front (Archiving Task)",
+        "dimensionality": "3D (objective space)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "inverted simplex-shaped Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SMS-EMOA with Unbounded Truncation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD value (mean ± standard deviation)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating multi-objective archive truncation strategies"
+      },
+      "the_database": {
+        "dataset_name": "Simulated sequences from Inverted Simplex Pareto Front",
+        "source_platform": "Custom Simulated Data"
+      },
+      "the_benchmark_problem": {
+        "name": "Inverted Simplex Pareto Front (Archiving Task)",
+        "dimensionality": "3D (objective space)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "inverted simplex-shaped Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "IBEA with Immediate Truncation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD value (mean ± standard deviation)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating multi-objective archive truncation strategies"
+      },
+      "the_database": {
+        "dataset_name": "Simulated sequences from Inverted Simplex Pareto Front",
+        "source_platform": "Custom Simulated Data"
+      },
+      "the_benchmark_problem": {
+        "name": "Inverted Simplex Pareto Front (Archiving Task)",
+        "dimensionality": "3D (objective space)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "inverted simplex-shaped Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "IBEA with Batch Truncation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD value (mean ± standard deviation)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating multi-objective archive truncation strategies"
+      },
+      "the_database": {
+        "dataset_name": "Simulated sequences from Inverted Simplex Pareto Front",
+        "source_platform": "Custom Simulated Data"
+      },
+      "the_benchmark_problem": {
+        "name": "Inverted Simplex Pareto Front (Archiving Task)",
+        "dimensionality": "3D (objective space)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "inverted simplex-shaped Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "IBEA with Unbounded Truncation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD value (mean ± standard deviation)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating multi-objective archive truncation strategies"
+      },
+      "the_database": {
+        "dataset_name": "Simulated sequences from Inverted Simplex Pareto Front",
+        "source_platform": "Custom Simulated Data"
+      },
+      "the_benchmark_problem": {
+        "name": "Inverted Simplex Pareto Front (Archiving Task)",
+        "dimensionality": "3D (objective space)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "inverted simplex-shaped Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D with Immediate Truncation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD value (mean ± standard deviation)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating multi-objective archive truncation strategies"
+      },
+      "the_database": {
+        "dataset_name": "Simulated sequences from Inverted Simplex Pareto Front",
+        "source_platform": "Custom Simulated Data"
+      },
+      "the_benchmark_problem": {
+        "name": "Inverted Simplex Pareto Front (Archiving Task)",
+        "dimensionality": "3D (objective space)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "inverted simplex-shaped Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D with Batch Truncation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD value (mean ± standard deviation)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating multi-objective archive truncation strategies"
+      },
+      "the_database": {
+        "dataset_name": "Simulated sequences from Inverted Simplex Pareto Front",
+        "source_platform": "Custom Simulated Data"
+      },
+      "the_benchmark_problem": {
+        "name": "Inverted Simplex Pareto Front (Archiving Task)",
+        "dimensionality": "3D (objective space)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "inverted simplex-shaped Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D with Unbounded Truncation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD value (mean ± standard deviation)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating multi-objective archive truncation strategies"
+      },
+      "the_database": {
+        "dataset_name": "Simulated sequences from Inverted Simplex Pareto Front",
+        "source_platform": "Custom Simulated Data"
+      },
+      "the_benchmark_problem": {
+        "name": "Inverted Simplex Pareto Front (Archiving Task)",
+        "dimensionality": "3D (objective space)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "inverted simplex-shaped Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-III with Immediate Truncation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD value (mean ± standard deviation)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating multi-objective archive truncation strategies"
+      },
+      "the_database": {
+        "dataset_name": "Simulated sequences from Inverted Simplex Pareto Front",
+        "source_platform": "Custom Simulated Data"
+      },
+      "the_benchmark_problem": {
+        "name": "Inverted Simplex Pareto Front (Archiving Task)",
+        "dimensionality": "3D (objective space)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "inverted simplex-shaped Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-III with Batch Truncation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD value (mean ± standard deviation)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating multi-objective archive truncation strategies"
+      },
+      "the_database": {
+        "dataset_name": "Simulated sequences from Inverted Simplex Pareto Front",
+        "source_platform": "Custom Simulated Data"
+      },
+      "the_benchmark_problem": {
+        "name": "Inverted Simplex Pareto Front (Archiving Task)",
+        "dimensionality": "3D (objective space)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "inverted simplex-shaped Pareto front"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-III with Unbounded Truncation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD value (mean ± standard deviation)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

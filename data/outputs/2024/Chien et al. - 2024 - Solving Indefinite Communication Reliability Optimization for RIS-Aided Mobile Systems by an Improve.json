@@ -1,0 +1,129 @@
+{
+  "metadata": {
+    "title": "Solving Indefinite Communication Reliability Optimization for RIS-Aided Mobile Systems by an Improved Differential Evolution",
+    "authors": [
+      "Trinh Van Chien",
+      "Bui Trong Duc",
+      "Ho Viet Duc Luong",
+      "Huynh Thi Thanh Binh",
+      "Hien Quoc Ngo",
+      "Symeon Chatzinotas"
+    ],
+    "year": 2024,
+    "source_file": "Chien et al. - 2024 - Solving Indefinite Communication Reliability Optimization for RIS-Aided Mobile Systems by an Improve.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "RIS-assisted MIMO active and passive beamforming design to minimize average symbol error rate (SER)"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Average Symbol Error Rate (SER) Minimization in RIS-assisted MIMO",
+        "dimensionality": "2256D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "NP-hard",
+          "indefinite"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Improved Differential Evolution with Local Search"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 35000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Symbol Error Rate (SER)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "RIS-assisted MIMO active and passive beamforming design to minimize average symbol error rate (SER)"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Average Symbol Error Rate (SER) Minimization in RIS-assisted MIMO",
+        "dimensionality": "2256D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "NP-hard",
+          "indefinite"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (GA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 35000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Symbol Error Rate (SER)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "RIS-assisted MIMO active and passive beamforming design to minimize average symbol error rate (SER)"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Average Symbol Error Rate (SER) Minimization in RIS-assisted MIMO",
+        "dimensionality": "2256D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "NP-hard",
+          "indefinite"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Differential Evolution (DE)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 35000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Symbol Error Rate (SER)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

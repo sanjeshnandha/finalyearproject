@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "title": "On the evolution of mechanisms for three-option collective decision-making in a swarm of simulated robots",
+    "authors": [
+      "Ahmed Almansoori",
+      "Muhanad Alkilabi",
+      "Elio Tuci"
+    ],
+    "year": 2023,
+    "source_file": "Almansoori et al. - 2023 - On the evolution of mechanisms for three-option collective decision-making in a swarm of simulated r.pdf",
+    "gecco_track": "Evolutionary Robotics"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Three-option collective decision-making in a swarm of simulated robots"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Three-option collective perceptual discrimination task",
+        "dimensionality": "55D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "dynamic"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm"
+      },
+      "parameters": {
+        "population_size": 64,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": 0.03,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average swarm evaluation score",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Two-option collective decision-making in a swarm of simulated robots"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Two-option collective perceptual discrimination task",
+        "dimensionality": "55D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "dynamic"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm"
+      },
+      "parameters": {
+        "population_size": 64,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": 0.03,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average swarm evaluation score",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

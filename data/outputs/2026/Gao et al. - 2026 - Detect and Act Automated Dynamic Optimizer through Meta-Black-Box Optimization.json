@@ -1,0 +1,313 @@
+{
+  "metadata": {
+    "title": "Detect and Act: Automated Dynamic Optimizer through Meta-Black-Box Optimization",
+    "authors": [
+      "Zijian Gao",
+      "Yuanting Zhong",
+      "Zeyuan Ma",
+      "Yue-Jiao Gong",
+      "Hongshu Guo"
+    ],
+    "year": 2026,
+    "source_file": "Gao et al. - 2026 - Detect and Act Automated Dynamic Optimizer through Meta-Black-Box Optimization.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Dynamic_Dataset (f1-f32)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-stationary",
+          "stochastic noise",
+          "landscape switching"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Meta-DO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 50000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Normalized Performance Ratio (NPR)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Unmanned Surface Vehicle (USV) navigation task"
+      },
+      "the_database": {
+        "dataset_name": "OkayPlan benchmark",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Obstacle Kinematics Augmented Optimization Problem (OKAOP)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "dynamic obstacles",
+          "time-varying",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Meta-DO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success Rate (SR)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Dynamic_Dataset (f1-f32)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-stationary",
+          "stochastic noise",
+          "landscape switching"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NBNC-PSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 50000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Normalized Performance Ratio (NPR)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Unmanned Surface Vehicle (USV) navigation task"
+      },
+      "the_database": {
+        "dataset_name": "OkayPlan benchmark",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Obstacle Kinematics Augmented Optimization Problem (OKAOP)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "dynamic obstacles",
+          "time-varying",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NBNC-PSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success Rate (SR)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Dynamic_Dataset (f1-f32)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-stationary",
+          "stochastic noise",
+          "landscape switching"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "mCMAES"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 50000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Normalized Performance Ratio (NPR)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Unmanned Surface Vehicle (USV) navigation task"
+      },
+      "the_database": {
+        "dataset_name": "OkayPlan benchmark",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Obstacle Kinematics Augmented Optimization Problem (OKAOP)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "dynamic obstacles",
+          "time-varying",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "mCMAES"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success Rate (SR)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Dynamic_Dataset (f1-f32)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-stationary",
+          "stochastic noise",
+          "landscape switching"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "mDE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 50000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Normalized Performance Ratio (NPR)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Dynamic_Dataset (f1-f32)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-stationary",
+          "stochastic noise",
+          "landscape switching"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DynDE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 50000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Normalized Performance Ratio (NPR)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

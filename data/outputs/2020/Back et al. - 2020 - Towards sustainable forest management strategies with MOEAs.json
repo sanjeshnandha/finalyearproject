@@ -1,0 +1,129 @@
+{
+  "metadata": {
+    "title": "Towards Sustainable Forest Management Strategies with MOEAs",
+    "authors": [
+      "Philipp Back",
+      "Antti Suominen",
+      "Pekka Malo",
+      "Olli Tahvonen",
+      "Julian Blank",
+      "Kalyanmoy Deb"
+    ],
+    "year": 2020,
+    "source_file": "Back et al. - 2020 - Towards sustainable forest management strategies with MOEAs.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Agriculture/Forestry",
+        "problem_context": "Sustainable Forest Management"
+      },
+      "the_database": {
+        "dataset_name": "empirical Finnish forest data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-objective forest management problem",
+        "dimensionality": "660D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "discontinuous",
+          "nonconvex",
+          "mixed-integer"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": 0.05,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume indicator",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Agriculture/Forestry",
+        "problem_context": "Sustainable Forest Management"
+      },
+      "the_database": {
+        "dataset_name": "empirical Finnish forest data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-objective forest management problem",
+        "dimensionality": "660D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "discontinuous",
+          "nonconvex",
+          "mixed-integer"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-III"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": 0.05,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume indicator",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Agriculture/Forestry",
+        "problem_context": "Sustainable Forest Management"
+      },
+      "the_database": {
+        "dataset_name": "empirical Finnish forest data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-objective forest management problem",
+        "dimensionality": "660D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "discontinuous",
+          "nonconvex",
+          "mixed-integer"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": 0.05,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume indicator",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

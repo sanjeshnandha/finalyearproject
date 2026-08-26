@@ -1,0 +1,123 @@
+{
+  "metadata": {
+    "title": "Optimal Zone Breadth for Parallel and Distributed MOEA/D with Virtual Overlap Zone and Exclusively Evaluated Mating",
+    "authors": [
+      "Xinyuan Zhu",
+      "Yuji Sato",
+      "Mikiko Sato"
+    ],
+    "year": 2024,
+    "source_file": "Zhu et al. - 2024 - The Optimal Zone Breadth for Parallel and Distributed MOEAD with Virtual Overlap Zone and Exclusive.pdf",
+    "gecco_track": "GECCO '24 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Multidimensional Knapsack Problem"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "mk-KP",
+        "dimensionality": "500 items"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Parallel and Distributed MOEA/D with Virtual Overlap Zone and Exclusively Evaluated Mating"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 2500,
+        "mutation_rate": 0.05,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Multidimensional Knapsack Problem"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "mk-KP",
+        "dimensionality": "500 items"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard Parallel MOEA/D"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 2500,
+        "mutation_rate": 0.05,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Multidimensional Knapsack Problem"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "mk-KP",
+        "dimensionality": "500 items"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Single-core MOEA/D"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 2500,
+        "mutation_rate": 0.05,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

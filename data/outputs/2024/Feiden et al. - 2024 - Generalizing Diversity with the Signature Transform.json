@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "title": "Generalizing Diversity with the Signature Transform",
+    "authors": [
+      "Arno Feiden",
+      "Biagio Paparella",
+      "Jochen Garcke"
+    ],
+    "year": 2024,
+    "source_file": "Feiden et al. - 2024 - Generalizing Diversity with the Signature Transform.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating control landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CartPole",
+        "dimensionality": "4D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAP-Elites (ME-Last)"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Robustness Score: 58655, Average Reward: 146.6, QD Score: 312486",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating control landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CartPole",
+        "dimensionality": "4D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CVT-Elites (CVT-Sig)"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Robustness Score: 102199, Average Reward: 255.5, QD Score: 122101",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

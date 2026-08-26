@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "title": "Is the Revisited Hypervolume an Appropriate Quality Indicator to Evaluate Multi-Objective Test Case Selection Algorithms?",
+    "authors": [
+      "Aitor Arrieta"
+    ],
+    "year": 2022,
+    "source_file": "Arrieta - 2022 - Is the revisited hypervolume an appropriate quality indicator to evaluate multi-objective test case.pdf",
+    "gecco_track": "Search-Based Software Engineering"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Multi-objective test case selection for cyber-physical simulation models"
+      },
+      "the_database": {
+        "dataset_name": "Simulink Models (CW, EMB, AC Engine, Two Tanks)",
+        "source_platform": "Zenodo"
+      },
+      "the_benchmark_problem": {
+        "name": "Test Case Selection Problem",
+        "dimensionality": "Variable (120 to 150 test cases)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 25000,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Revisited Hypervolume (rHV) and Mutation Score (MS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Multi-objective test case selection for cyber-physical simulation models"
+      },
+      "the_database": {
+        "dataset_name": "Simulink Models (CW, EMB, AC Engine, Two Tanks)",
+        "source_platform": "Zenodo"
+      },
+      "the_benchmark_problem": {
+        "name": "Test Case Selection Problem",
+        "dimensionality": "Variable (120 to 150 test cases)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Random Search"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 25000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Revisited Hypervolume (rHV) and Mutation Score (MS)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

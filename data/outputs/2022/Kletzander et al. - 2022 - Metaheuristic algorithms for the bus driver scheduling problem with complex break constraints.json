@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "title": "Metaheuristic Algorithms for the Bus Driver Scheduling Problem with Complex Break Constraints",
+    "authors": [
+      "Lucas Kletzander",
+      "Tommaso Mannelli Mazzoli",
+      "Nysret Musliu"
+    ],
+    "year": 2022,
+    "source_file": "Kletzander et al. - 2022 - Metaheuristic algorithms for the bus driver scheduling problem with complex break constraints.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Bus Driver Scheduling Problem"
+      },
+      "the_database": {
+        "dataset_name": "realistic_xx_y (sizes 10 to 100)",
+        "source_platform": "https://cdlab-artis.dbai.tuwien.ac.at/papers/sa-bds/"
+      },
+      "the_benchmark_problem": {
+        "name": "Bus Driver Scheduling Problem (Literature Benchmark)",
+        "dimensionality": "10 to 100 tours"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "highly constrained",
+          "NP-hard",
+          "complex break constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Tabu Search"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average objective function value (cost)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Bus Driver Scheduling Problem"
+      },
+      "the_database": {
+        "dataset_name": "realistic_xx_y (sizes 150 to 250)",
+        "source_platform": "https://cdlab-artis.dbai.tuwien.ac.at/papers/sa-bds/"
+      },
+      "the_benchmark_problem": {
+        "name": "Bus Driver Scheduling Problem (New Large Benchmark)",
+        "dimensionality": "148 to 250 tours"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "highly constrained",
+          "NP-hard",
+          "complex break constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Tabu Search"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average objective function value (cost)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Bus Driver Scheduling Problem"
+      },
+      "the_database": {
+        "dataset_name": "realistic_xx_y (sizes 10 to 100)",
+        "source_platform": "https://cdlab-artis.dbai.tuwien.ac.at/papers/sa-bds/"
+      },
+      "the_benchmark_problem": {
+        "name": "Bus Driver Scheduling Problem (Literature Benchmark)",
+        "dimensionality": "10 to 100 tours"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "highly constrained",
+          "NP-hard",
+          "complex break constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Iterated Local Search"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average objective function value (cost)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Bus Driver Scheduling Problem"
+      },
+      "the_database": {
+        "dataset_name": "realistic_xx_y (sizes 150 to 250)",
+        "source_platform": "https://cdlab-artis.dbai.tuwien.ac.at/papers/sa-bds/"
+      },
+      "the_benchmark_problem": {
+        "name": "Bus Driver Scheduling Problem (New Large Benchmark)",
+        "dimensionality": "148 to 250 tours"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "highly constrained",
+          "NP-hard",
+          "complex break constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Iterated Local Search"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average objective function value (cost)",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "title": "Negative Learning Ant Colony Optimization for Network Alignment",
+    "authors": [
+      "Guillem Rodríguez Corominas",
+      "Christian Blum",
+      "Maria J. Blesa"
+    ],
+    "year": 2022,
+    "source_file": "Corominas et al. - 2022 - Negative learning Ant colony optimization for network alignment.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Biology/Bioinformatics",
+        "problem_context": "Network Alignment of Protein-Protein Interaction (PPI) networks"
+      },
+      "the_database": {
+        "dataset_name": "HINT",
+        "source_platform": "HINT database"
+      },
+      "the_benchmark_problem": {
+        "name": "Protein-Protein Interaction (PPI) Network Alignment",
+        "dimensionality": "Variable (119 to 12,466 nodes)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "NP-hard",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AntNetAlignneg"
+      },
+      "parameters": {
+        "population_size": 5,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Symmetric Substructure Score (S3) and Edge Correctness (EC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Biology/Bioinformatics",
+        "problem_context": "Network Alignment of Protein-Protein Interaction (PPI) networks"
+      },
+      "the_database": {
+        "dataset_name": "HINT",
+        "source_platform": "HINT database"
+      },
+      "the_benchmark_problem": {
+        "name": "Protein-Protein Interaction (PPI) Network Alignment",
+        "dimensionality": "Variable (119 to 12,466 nodes)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "NP-hard",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AntNetAlign"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Symmetric Substructure Score (S3) and Edge Correctness (EC)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

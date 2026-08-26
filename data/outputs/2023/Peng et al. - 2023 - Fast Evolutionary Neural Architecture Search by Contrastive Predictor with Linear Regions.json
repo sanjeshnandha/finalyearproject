@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "title": "Fast Evolutionary Neural Architecture Search by Contrastive Predictor with Linear Regions",
+    "authors": [
+      "Yameng Peng",
+      "Andy Song",
+      "Vic Ciesielski",
+      "Haytham M. Fayek",
+      "Xiaojun Chang"
+    ],
+    "year": 2023,
+    "source_file": "Peng et al. - 2023 - Fast Evolutionary Neural Architecture Search by Contrastive Predictor with Linear Regions.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Neural Architecture Search"
+      },
+      "the_database": {
+        "dataset_name": "CIFAR-10, CIFAR-100, ImageNet-16-120",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "NAS-Bench-201",
+        "dimensionality": "15625 architectures"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "noisy"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fast-ENAS"
+      },
+      "parameters": {
+        "population_size": 32,
+        "max_evaluations_or_generations": 20,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Neural Architecture Search"
+      },
+      "the_database": {
+        "dataset_name": "CIFAR-10, ImageNet",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DARTS search space",
+        "dimensionality": "10^9 architectures"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "noisy"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fast-ENAS"
+      },
+      "parameters": {
+        "population_size": 64,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test Error Rate",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

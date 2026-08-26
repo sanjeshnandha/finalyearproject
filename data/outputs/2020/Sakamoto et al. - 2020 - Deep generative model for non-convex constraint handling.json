@@ -1,0 +1,236 @@
+{
+  "metadata": {
+    "title": "Deep Generative Model for Non-convex Constraint Handling",
+    "authors": [
+      "Naoki Sakamoto",
+      "Eiji Semmatsu",
+      "Kazuto Fukuchi",
+      "Jun Sakuma",
+      "Youhei Akimoto"
+    ],
+    "year": 2020,
+    "source_file": "Sakamoto et al. - 2020 - Deep generative model for non-convex constraint handling.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Separate Region Task",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "separated feasible domains",
+          "non-convex constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-Decoder(G)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (SR)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Separate Region Task",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "separated feasible domains",
+          "non-convex constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-Decoder(S)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (SR)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Separate Region Task",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "separated feasible domains",
+          "non-convex constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ES with augmented Lagrangian"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (SR)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Topology optimization"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Synthetic Topology Optimization Task (TO1, TO2, TO3)",
+        "dimensionality": "1024D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-convex constraints",
+          "rugged",
+          "flat regions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-Decoder(G)"
+      },
+      "parameters": {
+        "population_size": 64,
+        "max_evaluations_or_generations": 1500000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Topology optimization"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Synthetic Topology Optimization Task (TO1, TO2, TO3)",
+        "dimensionality": "1024D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-convex constraints",
+          "rugged",
+          "flat regions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-Decoder(S)"
+      },
+      "parameters": {
+        "population_size": 64,
+        "max_evaluations_or_generations": 1500000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Topology optimization"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Synthetic Topology Optimization Task (TO1, TO2, TO3)",
+        "dimensionality": "1024D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-convex constraints",
+          "rugged",
+          "flat regions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ES with augmented Lagrangian"
+      },
+      "parameters": {
+        "population_size": 64,
+        "max_evaluations_or_generations": 1500000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "metadata": {
+    "title": "Cooperative Coevolutionary Multiobjective Genetic Programming for Microarray Data Classification",
+    "authors": [
+      "Yang Qing",
+      "Chi Ma",
+      "Yu Zhou",
+      "Xiao Zhang",
+      "Haowen Xia"
+    ],
+    "year": 2021,
+    "source_file": "Qing et al. - 2021 - Cooperative coevolutionary multiobjective genetic programming for microarray data classification.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Microarray Data Classification"
+      },
+      "the_database": {
+        "dataset_name": "SRBCT",
+        "source_platform": "GEMS"
+      },
+      "the_benchmark_problem": {
+        "name": "SRBCT",
+        "dimensionality": "2308D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "small sample size",
+          "class imbalance"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CC-MOGP"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 400000,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean test accuracy of 99.64% (Best: 100.00%)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Microarray Data Classification"
+      },
+      "the_database": {
+        "dataset_name": "9Tumors",
+        "source_platform": "GEMS"
+      },
+      "the_benchmark_problem": {
+        "name": "9Tumors",
+        "dimensionality": "5726D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "small sample size",
+          "class imbalance"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CC-MOGP"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 400000,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean test accuracy of 57.28% (Best: 67.73%)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Microarray Data Classification"
+      },
+      "the_database": {
+        "dataset_name": "Leukemia1",
+        "source_platform": "GEMS"
+      },
+      "the_benchmark_problem": {
+        "name": "Leukemia1",
+        "dimensionality": "5327D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "small sample size",
+          "class imbalance"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CC-MOGP"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 400000,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean test accuracy of 97.52% (Best: 99.17%)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Microarray Data Classification"
+      },
+      "the_database": {
+        "dataset_name": "Brain Tumor1",
+        "source_platform": "GEMS"
+      },
+      "the_benchmark_problem": {
+        "name": "Brain Tumor1",
+        "dimensionality": "5920D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "small sample size",
+          "class imbalance"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CC-MOGP"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 400000,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean test accuracy of 78.90% (Best: 81.97%)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Microarray Data Classification"
+      },
+      "the_database": {
+        "dataset_name": "Leukemia2",
+        "source_platform": "GEMS"
+      },
+      "the_benchmark_problem": {
+        "name": "Leukemia2",
+        "dimensionality": "11225D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "small sample size",
+          "class imbalance"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CC-MOGP"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 400000,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean test accuracy of 96.52% (Best: 100.00%)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Microarray Data Classification"
+      },
+      "the_database": {
+        "dataset_name": "Brain Tumor2",
+        "source_platform": "GEMS"
+      },
+      "the_benchmark_problem": {
+        "name": "Brain Tumor2",
+        "dimensionality": "10367D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "small sample size",
+          "class imbalance"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CC-MOGP"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 400000,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean test accuracy of 67.35% (Best: 83.33%)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Microarray Data Classification"
+      },
+      "the_database": {
+        "dataset_name": "Lung Cancer",
+        "source_platform": "GEMS"
+      },
+      "the_benchmark_problem": {
+        "name": "Lung Cancer",
+        "dimensionality": "12600D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "small sample size",
+          "class imbalance"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CC-MOGP"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 400000,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean test accuracy of 94.49% (Best: 97.14%)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Microarray Data Classification"
+      },
+      "the_database": {
+        "dataset_name": "11Tumors",
+        "source_platform": "GEMS"
+      },
+      "the_benchmark_problem": {
+        "name": "11Tumors",
+        "dimensionality": "12533D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "small sample size",
+          "class imbalance"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CC-MOGP"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 400000,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean test accuracy of 92.37% (Best: 95.77%)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

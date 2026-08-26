@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "title": "Evolving Energy Demand Estimation Models over Macroeconomic Indicators",
+    "authors": [
+      "Nuno Lourenço",
+      "J. Manuel Colmenar",
+      "J. Ignacio Hidalgo",
+      "Sancho Salcedo-Sanz"
+    ],
+    "year": 2020,
+    "source_file": "Lourenço et al. - 2020 - Evolving energy demand estimation models over macroeconomic indicators.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Total energy demand estimation in Spain"
+      },
+      "the_database": {
+        "dataset_name": "Macroeconomic indicators of Spain (1980-2011)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Total energy demand estimation in Spain",
+        "dimensionality": "14D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "real-world data"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Structured Grammatical Evolution hybridized with Differential Evolution (SGE+DE)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 40,
+        "mutation_rate": 0.02,
+        "crossover_rate": 0.65
+      },
+      "performance_outcome": {
+        "metric": "Mean Best Fitness (SAE) on Test set: 1.91 (± 0.004)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Total energy demand estimation in Spain"
+      },
+      "the_database": {
+        "dataset_name": "Macroeconomic indicators of Spain (1980-2011)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Total energy demand estimation in Spain",
+        "dimensionality": "14D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "real-world data"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammatical Swarm hybridized with Differential Evolution (GS+DE)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Best Fitness (SAE) on Test set: 3.27 (± 0.124)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

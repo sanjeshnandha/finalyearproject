@@ -1,0 +1,860 @@
+{
+  "metadata": {
+    "title": "Don’t Bet on Luck Alone: Enhancing Behavioral Reproducibility of Quality-Diversity Solutions in Uncertain Domains",
+    "authors": [
+      "Luca Grillotti",
+      "Manon Flageat",
+      "Bryan Lim",
+      "Antoine Cully"
+    ],
+    "year": 2023,
+    "source_file": "Grillotti et al. - 2023 - Don't Bet on Luck Alone Enhancing Behavioral Reproducibility of Quality-Diversity Solutions in Unce.pdf",
+    "gecco_track": "Evolutionary Robotics"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Robotics",
+        "problem_context": "Robotic arm control under uncertainty"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Noisy 8-DoF Arm",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "uncertain"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ARIA - ME init"
+      },
+      "parameters": {
+        "population_size": 2048,
+        "max_evaluations_or_generations": 430000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median Corrected QD-Score of 722.41",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Robotics",
+        "problem_context": "Robotic arm control under uncertainty"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Noisy 8-DoF Arm",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "uncertain"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ARIA - ES init"
+      },
+      "parameters": {
+        "population_size": 2048,
+        "max_evaluations_or_generations": 430000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median Corrected QD-Score of 587.30",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Robotics",
+        "problem_context": "Robotic arm control under uncertainty"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Noisy 8-DoF Arm",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "uncertain"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Linear RIM"
+      },
+      "parameters": {
+        "population_size": 2048,
+        "max_evaluations_or_generations": 430000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median Corrected QD-Score of 704.68",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Robotics",
+        "problem_context": "Robotic arm control under uncertainty"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Noisy 8-DoF Arm",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "uncertain"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOME-R"
+      },
+      "parameters": {
+        "population_size": 128,
+        "max_evaluations_or_generations": 430000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median Corrected QD-Score of 538.62",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Robotics",
+        "problem_context": "Robotic arm control under uncertainty"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Noisy 8-DoF Arm",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "uncertain"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ME-Sa-R"
+      },
+      "parameters": {
+        "population_size": 128,
+        "max_evaluations_or_generations": 430000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median Corrected QD-Score of 538.19",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Robotics",
+        "problem_context": "Robotic arm control under uncertainty"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Noisy 8-DoF Arm",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "uncertain"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ME-Sa"
+      },
+      "parameters": {
+        "population_size": 128,
+        "max_evaluations_or_generations": 430000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median Corrected QD-Score of 534.06",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Robotics",
+        "problem_context": "Robotic arm control under uncertainty"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Noisy 8-DoF Arm",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "uncertain"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAP-Elites"
+      },
+      "parameters": {
+        "population_size": 128,
+        "max_evaluations_or_generations": 430000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median Corrected QD-Score of 506.34",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Robotics",
+        "problem_context": "Legged robot locomotion control under uncertainty"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ant Omni-directional",
+        "dimensionality": "High-dimensional neural network policy"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "uncertain",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ARIA - ME init"
+      },
+      "parameters": {
+        "population_size": 2048,
+        "max_evaluations_or_generations": 430000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median Corrected QD-Score of 765.69",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Robotics",
+        "problem_context": "Legged robot locomotion control under uncertainty"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ant Omni-directional",
+        "dimensionality": "High-dimensional neural network policy"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "uncertain",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ARIA - PGA init"
+      },
+      "parameters": {
+        "population_size": 2048,
+        "max_evaluations_or_generations": 430000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median Corrected QD-Score of 679.06",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Robotics",
+        "problem_context": "Legged robot locomotion control under uncertainty"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ant Omni-directional",
+        "dimensionality": "High-dimensional neural network policy"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "uncertain",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ARIA - ES init"
+      },
+      "parameters": {
+        "population_size": 2048,
+        "max_evaluations_or_generations": 430000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median Corrected QD-Score of 581.22",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Robotics",
+        "problem_context": "Legged robot locomotion control under uncertainty"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ant Omni-directional",
+        "dimensionality": "High-dimensional neural network policy"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "uncertain",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Linear RIM"
+      },
+      "parameters": {
+        "population_size": 2048,
+        "max_evaluations_or_generations": 430000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median Corrected QD-Score of 610.28",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Robotics",
+        "problem_context": "Legged robot locomotion control under uncertainty"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ant Omni-directional",
+        "dimensionality": "High-dimensional neural network policy"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "uncertain",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOME-R"
+      },
+      "parameters": {
+        "population_size": 128,
+        "max_evaluations_or_generations": 430000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median Corrected QD-Score of 287.90",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Robotics",
+        "problem_context": "Legged robot locomotion control under uncertainty"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ant Omni-directional",
+        "dimensionality": "High-dimensional neural network policy"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "uncertain",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ME-Sa-R"
+      },
+      "parameters": {
+        "population_size": 128,
+        "max_evaluations_or_generations": 430000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median Corrected QD-Score of 283.39",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Robotics",
+        "problem_context": "Legged robot locomotion control under uncertainty"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ant Omni-directional",
+        "dimensionality": "High-dimensional neural network policy"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "uncertain",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ME-Sa"
+      },
+      "parameters": {
+        "population_size": 128,
+        "max_evaluations_or_generations": 430000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median Corrected QD-Score of 307.26",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Robotics",
+        "problem_context": "Legged robot locomotion control under uncertainty"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ant Omni-directional",
+        "dimensionality": "High-dimensional neural network policy"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "uncertain",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAP-Elites"
+      },
+      "parameters": {
+        "population_size": 128,
+        "max_evaluations_or_generations": 430000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median Corrected QD-Score of 117.91",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Robotics",
+        "problem_context": "Legged robot locomotion control under uncertainty"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Walker Uni-directional",
+        "dimensionality": "High-dimensional neural network policy"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "uncertain",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ARIA - ME init"
+      },
+      "parameters": {
+        "population_size": 1440,
+        "max_evaluations_or_generations": 230000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median Corrected QD-Score of 81.04",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Robotics",
+        "problem_context": "Legged robot locomotion control under uncertainty"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Walker Uni-directional",
+        "dimensionality": "High-dimensional neural network policy"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "uncertain",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ARIA - PGA init"
+      },
+      "parameters": {
+        "population_size": 1440,
+        "max_evaluations_or_generations": 230000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median Corrected QD-Score of 180.72",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Robotics",
+        "problem_context": "Legged robot locomotion control under uncertainty"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Walker Uni-directional",
+        "dimensionality": "High-dimensional neural network policy"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "uncertain",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ARIA - ES init"
+      },
+      "parameters": {
+        "population_size": 1440,
+        "max_evaluations_or_generations": 230000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median Corrected QD-Score of 248.14",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Robotics",
+        "problem_context": "Legged robot locomotion control under uncertainty"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Walker Uni-directional",
+        "dimensionality": "High-dimensional neural network policy"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "uncertain",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Linear RIM"
+      },
+      "parameters": {
+        "population_size": 1440,
+        "max_evaluations_or_generations": 230000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median Corrected QD-Score of 115.13",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Robotics",
+        "problem_context": "Legged robot locomotion control under uncertainty"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Walker Uni-directional",
+        "dimensionality": "High-dimensional neural network policy"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "uncertain",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOME-R"
+      },
+      "parameters": {
+        "population_size": 128,
+        "max_evaluations_or_generations": 230000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median Corrected QD-Score of 175.75",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Robotics",
+        "problem_context": "Legged robot locomotion control under uncertainty"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Walker Uni-directional",
+        "dimensionality": "High-dimensional neural network policy"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "uncertain",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ME-Sa-R"
+      },
+      "parameters": {
+        "population_size": 128,
+        "max_evaluations_or_generations": 230000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median Corrected QD-Score of 185.68",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Robotics",
+        "problem_context": "Legged robot locomotion control under uncertainty"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Walker Uni-directional",
+        "dimensionality": "High-dimensional neural network policy"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "uncertain",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ME-Sa"
+      },
+      "parameters": {
+        "population_size": 128,
+        "max_evaluations_or_generations": 230000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median Corrected QD-Score of 168.70",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Robotics",
+        "problem_context": "Legged robot locomotion control under uncertainty"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Walker Uni-directional",
+        "dimensionality": "High-dimensional neural network policy"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "uncertain",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAP-Elites"
+      },
+      "parameters": {
+        "population_size": 128,
+        "max_evaluations_or_generations": 230000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median Corrected QD-Score of 66.87",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

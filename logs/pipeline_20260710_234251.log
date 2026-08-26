@@ -1,0 +1,83 @@
+2026-07-10 23:42:51.085 | INFO     | gecco_pipeline.extractor:__init__:32 - Initialized GeccoExtractor with model: gemini-3.5-flash and 3 API keys
+2026-07-10 23:42:51.086 | INFO     | gecco_pipeline.processor:__init__:57 - BatchProcessor initialized
+2026-07-10 23:42:51.086 | INFO     | gecco_pipeline.utils:discover_pdfs:62 - Discovered 98 PDF files in data/pdfs/2025
+2026-07-10 23:42:51.088 | INFO     | gecco_pipeline.processor:process_batch:129 - Skipping 60 already-processed PDFs
+2026-07-10 23:42:51.088 | INFO     | gecco_pipeline.processor:process_batch:145 - Processing 38 PDFs...
+2026-07-10 23:42:51.099 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Nakashima and Kobayashi - 2025 - Unifying Zeroth-Order Optimization and Genetic Algorithms for Reinforcement Learning.pdf
+2026-07-10 23:42:51.099 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Nakashima and Kobayashi - 2025 - Unifying Zeroth-Order Optimization and Genetic Algorithms for Reinforcement Learning.pdf to Gemini File API...
+2026-07-10 23:42:54.485 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/ka0yfvdjxl0t
+2026-07-10 23:43:14.726 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 3 entries from Nakashima and Kobayashi - 2025 - Unifying Zeroth-Order Optimization and Genetic Algorithms for Reinforcement Learning.pdf
+2026-07-10 23:43:14.728 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2025/Nakashima and Kobayashi - 2025 - Unifying Zeroth-Order Optimization and Genetic Algorithms for Reinforcement Learning.json
+2026-07-10 23:43:14.729 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Ng et al. - 2025 - CMA-ES with Individual Adaptive Reevaluation for Black-Box Value-At-Risk Optimization.pdf
+2026-07-10 23:43:14.729 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Ng et al. - 2025 - CMA-ES with Individual Adaptive Reevaluation for Black-Box Value-At-Risk Optimization.pdf to Gemini File API...
+2026-07-10 23:43:18.212 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/xbqkeu5rkzew
+2026-07-10 23:43:55.812 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 8 entries from Ng et al. - 2025 - CMA-ES with Individual Adaptive Reevaluation for Black-Box Value-At-Risk Optimization.pdf
+2026-07-10 23:43:55.815 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2025/Ng et al. - 2025 - CMA-ES with Individual Adaptive Reevaluation for Black-Box Value-At-Risk Optimization.json
+2026-07-10 23:43:55.816 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Nguyen - 2025 - Enhancing CMA-ES-PDM for Mixed-Integer Black-Box Optimization.pdf
+2026-07-10 23:43:55.816 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Nguyen - 2025 - Enhancing CMA-ES-PDM for Mixed-Integer Black-Box Optimization.pdf to Gemini File API...
+2026-07-10 23:43:59.304 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/36xod9ogv09e
+2026-07-10 23:43:59.722 | WARNING  | gecco_pipeline.extractor:_call_with_retry:204 - Rate limit hit for Nguyen - 2025 - Enhancing CMA-ES-PDM for Mixed-Integer Black-Box Optimization.pdf: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\nPlease retry in 230.502959ms.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '0s'}]}}
+2026-07-10 23:43:59.722 | WARNING  | gecco_pipeline.extractor:_rotate_key:44 - Rotating to API key index 1
+2026-07-10 23:43:59.747 | INFO     | gecco_pipeline.extractor:_call_with_retry:206 - Retrying with new API key...
+2026-07-10 23:43:59.747 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Nguyen - 2025 - Enhancing CMA-ES-PDM for Mixed-Integer Black-Box Optimization.pdf to Gemini File API...
+2026-07-10 23:44:03.081 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/oek0wx5xcme9
+2026-07-10 23:44:43.642 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 10 entries from Nguyen - 2025 - Enhancing CMA-ES-PDM for Mixed-Integer Black-Box Optimization.pdf
+2026-07-10 23:44:43.647 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2025/Nguyen - 2025 - Enhancing CMA-ES-PDM for Mixed-Integer Black-Box Optimization.json
+2026-07-10 23:44:43.648 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Nguyen and Luong - 2025 - Diversifying Adversarial Attacks on Text-to-image Generation.pdf
+2026-07-10 23:44:43.648 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Nguyen and Luong - 2025 - Diversifying Adversarial Attacks on Text-to-image Generation.pdf to Gemini File API...
+2026-07-10 23:44:47.814 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/knhzqb65d1v3
+2026-07-10 23:45:16.906 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 3 entries from Nguyen and Luong - 2025 - Diversifying Adversarial Attacks on Text-to-image Generation.pdf
+2026-07-10 23:45:16.910 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2025/Nguyen and Luong - 2025 - Diversifying Adversarial Attacks on Text-to-image Generation.json
+2026-07-10 23:45:16.911 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Olech et al. - 2025 - CRSGA Cluster-Based Region Selection Genetic Algorithm Solving Multi-Objective Travelling Thief Pro.pdf
+2026-07-10 23:45:16.911 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Olech et al. - 2025 - CRSGA Cluster-Based Region Selection Genetic Algorithm Solving Multi-Objective Travelling Thief Pro.pdf to Gemini File API...
+2026-07-10 23:45:20.259 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/gb5sf1wsqvmc
+2026-07-10 23:45:46.091 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 6 entries from Olech et al. - 2025 - CRSGA Cluster-Based Region Selection Genetic Algorithm Solving Multi-Objective Travelling Thief Pro.pdf
+2026-07-10 23:45:46.097 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2025/Olech et al. - 2025 - CRSGA Cluster-Based Region Selection Genetic Algorithm Solving Multi-Objective Travelling Thief Pro.json
+2026-07-10 23:45:46.099 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Ono et al. - 2025 - Large Language Model Driven Evolutionary Optimization Benchmark Generation Algorithm.pdf
+2026-07-10 23:45:46.099 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Ono et al. - 2025 - Large Language Model Driven Evolutionary Optimization Benchmark Generation Algorithm.pdf to Gemini File API...
+2026-07-10 23:45:49.447 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/za1js26pwd4z
+2026-07-10 23:46:11.198 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 4 entries from Ono et al. - 2025 - Large Language Model Driven Evolutionary Optimization Benchmark Generation Algorithm.pdf
+2026-07-10 23:46:11.202 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2025/Ono et al. - 2025 - Large Language Model Driven Evolutionary Optimization Benchmark Generation Algorithm.json
+2026-07-10 23:46:11.203 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Pagliuca et al. - 2025 - Evorobotpy3 a flexible and easy-to-use simulation tool for Evolutionary Robotics.pdf
+2026-07-10 23:46:11.203 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Pagliuca et al. - 2025 - Evorobotpy3 a flexible and easy-to-use simulation tool for Evolutionary Robotics.pdf to Gemini File API...
+2026-07-10 23:46:14.679 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/wiujax4udk3h
+2026-07-10 23:47:04.528 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 17 entries from Pagliuca et al. - 2025 - Evorobotpy3 a flexible and easy-to-use simulation tool for Evolutionary Robotics.pdf
+2026-07-10 23:47:04.531 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2025/Pagliuca et al. - 2025 - Evorobotpy3 a flexible and easy-to-use simulation tool for Evolutionary Robotics.json
+2026-07-10 23:47:04.532 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Palmas et al. - 2025 - Efficient Quality Diversity Optimization with Monte Carlo Bayesian Sampling.pdf
+2026-07-10 23:47:04.532 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Palmas et al. - 2025 - Efficient Quality Diversity Optimization with Monte Carlo Bayesian Sampling.pdf to Gemini File API...
+2026-07-10 23:47:07.578 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/u2579x409pdz
+2026-07-10 23:47:53.763 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 20 entries from Palmas et al. - 2025 - Efficient Quality Diversity Optimization with Monte Carlo Bayesian Sampling.pdf
+2026-07-10 23:47:53.768 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2025/Palmas et al. - 2025 - Efficient Quality Diversity Optimization with Monte Carlo Bayesian Sampling.json
+2026-07-10 23:47:53.769 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Perez et al. - 2025 - IGJSP A Reproducible Instance Generator for Job Shop Scheduling.pdf
+2026-07-10 23:47:53.769 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Perez et al. - 2025 - IGJSP A Reproducible Instance Generator for Job Shop Scheduling.pdf to Gemini File API...
+2026-07-10 23:47:57.043 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/jo67twsl3q61
+2026-07-10 23:48:19.875 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 3 entries from Perez et al. - 2025 - IGJSP A Reproducible Instance Generator for Job Shop Scheduling.pdf
+2026-07-10 23:48:19.879 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2025/Perez et al. - 2025 - IGJSP A Reproducible Instance Generator for Job Shop Scheduling.json
+2026-07-10 23:48:19.879 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Qiu et al. - 2025 - A Novel Two-Phase Cooperative Co-evolution Framework for Large-Scale Global Optimization with Comple.pdf
+2026-07-10 23:48:19.879 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Qiu et al. - 2025 - A Novel Two-Phase Cooperative Co-evolution Framework for Large-Scale Global Optimization with Comple.pdf to Gemini File API...
+2026-07-10 23:48:23.249 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/ggpel1pg0l2u
+2026-07-10 23:48:44.852 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 4 entries from Qiu et al. - 2025 - A Novel Two-Phase Cooperative Co-evolution Framework for Large-Scale Global Optimization with Comple.pdf
+2026-07-10 23:48:44.858 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2025/Qiu et al. - 2025 - A Novel Two-Phase Cooperative Co-evolution Framework for Large-Scale Global Optimization with Comple.json
+2026-07-10 23:48:44.858 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Rakotonirainy and Plumbley - 2025 - Multi-Objective Optimisation of the Generalized Bin Packing Problem.pdf
+2026-07-10 23:48:44.858 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Rakotonirainy and Plumbley - 2025 - Multi-Objective Optimisation of the Generalized Bin Packing Problem.pdf to Gemini File API...
+2026-07-10 23:48:49.155 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/h98uv8i76lfa
+2026-07-10 23:51:08.643 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 2 entries from Rakotonirainy and Plumbley - 2025 - Multi-Objective Optimisation of the Generalized Bin Packing Problem.pdf
+2026-07-10 23:51:08.649 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2025/Rakotonirainy and Plumbley - 2025 - Multi-Objective Optimisation of the Generalized Bin Packing Problem.json
+2026-07-10 23:51:08.650 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Robino et al. - 2025 - Reinforcement Learning-based Cloud Autoscaler Initialization via Evolutionary Algorithms.pdf
+2026-07-10 23:51:08.650 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Robino et al. - 2025 - Reinforcement Learning-based Cloud Autoscaler Initialization via Evolutionary Algorithms.pdf to Gemini File API...
+2026-07-10 23:51:12.112 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/k7t4b2ygzwxt
+2026-07-10 23:51:29.174 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 2 entries from Robino et al. - 2025 - Reinforcement Learning-based Cloud Autoscaler Initialization via Evolutionary Algorithms.pdf
+2026-07-10 23:51:29.176 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2025/Robino et al. - 2025 - Reinforcement Learning-based Cloud Autoscaler Initialization via Evolutionary Algorithms.json
+2026-07-10 23:51:29.177 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Romero López and Merelo Guervos - 2025 - Energy Efficiency of C++ Standard Random Number Generators.pdf
+2026-07-10 23:51:29.177 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Romero López and Merelo Guervos - 2025 - Energy Efficiency of C++ Standard Random Number Generators.pdf to Gemini File API...
+2026-07-10 23:51:32.601 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/5icxwynswi4p
+2026-07-10 23:51:59.266 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 15 entries from Romero López and Merelo Guervos - 2025 - Energy Efficiency of C++ Standard Random Number Generators.pdf
+2026-07-10 23:51:59.270 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2025/Romero López and Merelo Guervos - 2025 - Energy Efficiency of C++ Standard Random Number Generators.json
+2026-07-10 23:51:59.271 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Roughan - 2025 - Evolutionary Generation of Random Surreal Numbers for Benchmarking.pdf
+2026-07-10 23:51:59.271 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Roughan - 2025 - Evolutionary Generation of Random Surreal Numbers for Benchmarking.pdf to Gemini File API...
+2026-07-10 23:52:02.245 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/tw69z6akw17d
+2026-07-10 23:52:17.033 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 1 entries from Roughan - 2025 - Evolutionary Generation of Random Surreal Numbers for Benchmarking.pdf
+2026-07-10 23:52:17.035 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2025/Roughan - 2025 - Evolutionary Generation of Random Surreal Numbers for Benchmarking.json
+2026-07-10 23:52:17.036 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Saifullah and Dreżewski - 2025 - Particle Swarm-Optimized U-Net Framework for Precise Multimodal Brain Tumor Segmentation.pdf
+2026-07-10 23:52:17.036 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Saifullah and Dreżewski - 2025 - Particle Swarm-Optimized U-Net Framework for Precise Multimodal Brain Tumor Segmentation.pdf to Gemini File API...
+2026-07-10 23:52:21.340 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/wuc9902bgc15

@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "title": "Non-deterministic Journey Planning in Multi-modal Transportation Networks: A Meta-heuristic Approach",
+    "authors": [
+      "Mohammad Haqqani",
+      "Xiaodong Li",
+      "Xinghuo Yu"
+    ],
+    "year": 2020,
+    "source_file": "Haqqani et al. - 2020 - Non-deterministic journey planning in multi-modal transportation networks a meta-heuristic approach.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-criteria stochastic journey planning in multi-modal transportation networks"
+      },
+      "the_database": {
+        "dataset_name": "Melbourne transportation network (GTFS and OSM data)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-modal Journey Planning Problem",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stochastic",
+          "noisy",
+          "multi-criteria",
+          "non-deterministic"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "utility-based NSGA-III"
+      },
+      "parameters": {
+        "population_size": 300,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": 0.8,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average saving percentage (ASP) and CPU processing time",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

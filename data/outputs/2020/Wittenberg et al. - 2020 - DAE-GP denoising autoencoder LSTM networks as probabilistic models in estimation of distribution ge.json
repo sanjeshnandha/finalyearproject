@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "title": "DAE-GP: Denoising Autoencoder LSTM Networks as Probabilistic Models in Estimation of Distribution Genetic Programming",
+    "authors": [
+      "David Wittenberg",
+      "Franz Rothlauf",
+      "Dirk Schweim"
+    ],
+    "year": 2020,
+    "source_file": "Wittenberg et al. - 2020 - DAE-GP denoising autoencoder LSTM networks as probabilistic models in estimation of distribution ge.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Generalization of the Royal Tree Problem",
+        "dimensionality": "Variable (d_max in {4, 5, 6})"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "high locality",
+          "tunably difficult",
+          "hierarchical dependencies"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DAE-GP"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 20,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average success rate",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Generalization of the Royal Tree Problem",
+        "dimensionality": "Variable (d_max in {4, 5, 6})"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "high locality",
+          "tunably difficult",
+          "hierarchical dependencies"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard Genetic Programming"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 20,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average success rate",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,757 @@
+{
+  "metadata": {
+    "title": "Decomposition-based Multi-objective Genetic Programming for Feature Learning in Image Classification",
+    "authors": [
+      "Tuo Zhang",
+      "Ying Bi",
+      "Jing Liang",
+      "Bing Xue",
+      "Mengjie Zhang"
+    ],
+    "year": 2024,
+    "source_file": "Zhang et al. - 2024 - Decomposition-based Multi-objective Genetic Programming for Feature Learning in Image Classification.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Feature learning for image classification"
+      },
+      "the_database": {
+        "dataset_name": "CIFAR10",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CIFAR10",
+        "dimensionality": "32 x 32 x 3"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete search space",
+          "high dimensionality",
+          "large variations"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DMOGP-GR"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Feature learning for image classification"
+      },
+      "the_database": {
+        "dataset_name": "CIFAR10",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CIFAR10",
+        "dimensionality": "32 x 32 x 3"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete search space",
+          "high dimensionality",
+          "large variations"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGPFL"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Feature learning for image classification"
+      },
+      "the_database": {
+        "dataset_name": "CIFAR10",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CIFAR10",
+        "dimensionality": "32 x 32 x 3"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete search space",
+          "high dimensionality",
+          "large variations"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SPGPFL"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Feature learning for image classification"
+      },
+      "the_database": {
+        "dataset_name": "CIFAR10",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CIFAR10",
+        "dimensionality": "32 x 32 x 3"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete search space",
+          "high dimensionality",
+          "large variations"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DMOGP"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Feature learning for image classification"
+      },
+      "the_database": {
+        "dataset_name": "Fashion_MNIST",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Fashion_MNIST",
+        "dimensionality": "28 x 28"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete search space",
+          "high dimensionality",
+          "large variations"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DMOGP-GR"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Feature learning for image classification"
+      },
+      "the_database": {
+        "dataset_name": "Fashion_MNIST",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Fashion_MNIST",
+        "dimensionality": "28 x 28"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete search space",
+          "high dimensionality",
+          "large variations"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGPFL"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Feature learning for image classification"
+      },
+      "the_database": {
+        "dataset_name": "Fashion_MNIST",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Fashion_MNIST",
+        "dimensionality": "28 x 28"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete search space",
+          "high dimensionality",
+          "large variations"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SPGPFL"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Feature learning for image classification"
+      },
+      "the_database": {
+        "dataset_name": "Fashion_MNIST",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Fashion_MNIST",
+        "dimensionality": "28 x 28"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete search space",
+          "high dimensionality",
+          "large variations"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DMOGP"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Feature learning for image classification"
+      },
+      "the_database": {
+        "dataset_name": "SVHN",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SVHN",
+        "dimensionality": "32 x 32 x 3"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete search space",
+          "high dimensionality",
+          "large variations"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DMOGP-GR"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Feature learning for image classification"
+      },
+      "the_database": {
+        "dataset_name": "SVHN",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SVHN",
+        "dimensionality": "32 x 32 x 3"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete search space",
+          "high dimensionality",
+          "large variations"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGPFL"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Feature learning for image classification"
+      },
+      "the_database": {
+        "dataset_name": "SVHN",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SVHN",
+        "dimensionality": "32 x 32 x 3"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete search space",
+          "high dimensionality",
+          "large variations"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SPGPFL"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Feature learning for image classification"
+      },
+      "the_database": {
+        "dataset_name": "SVHN",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SVHN",
+        "dimensionality": "32 x 32 x 3"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete search space",
+          "high dimensionality",
+          "large variations"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DMOGP"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Feature learning for image classification"
+      },
+      "the_database": {
+        "dataset_name": "ORL",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ORL",
+        "dimensionality": "56 x 46"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete search space",
+          "high dimensionality",
+          "large variations"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DMOGP-GR"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Feature learning for image classification"
+      },
+      "the_database": {
+        "dataset_name": "ORL",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ORL",
+        "dimensionality": "56 x 46"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete search space",
+          "high dimensionality",
+          "large variations"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGPFL"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Feature learning for image classification"
+      },
+      "the_database": {
+        "dataset_name": "ORL",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ORL",
+        "dimensionality": "56 x 46"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete search space",
+          "high dimensionality",
+          "large variations"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SPGPFL"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Feature learning for image classification"
+      },
+      "the_database": {
+        "dataset_name": "ORL",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ORL",
+        "dimensionality": "56 x 46"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete search space",
+          "high dimensionality",
+          "large variations"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DMOGP"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Feature learning for image classification"
+      },
+      "the_database": {
+        "dataset_name": "Extended Yale B",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Extended Yale B",
+        "dimensionality": "32 x 32"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete search space",
+          "high dimensionality",
+          "large variations"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DMOGP-GR"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Feature learning for image classification"
+      },
+      "the_database": {
+        "dataset_name": "Extended Yale B",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Extended Yale B",
+        "dimensionality": "32 x 32"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete search space",
+          "high dimensionality",
+          "large variations"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGPFL"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Feature learning for image classification"
+      },
+      "the_database": {
+        "dataset_name": "Extended Yale B",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Extended Yale B",
+        "dimensionality": "32 x 32"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete search space",
+          "high dimensionality",
+          "large variations"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SPGPFL"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Feature learning for image classification"
+      },
+      "the_database": {
+        "dataset_name": "Extended Yale B",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Extended Yale B",
+        "dimensionality": "32 x 32"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete search space",
+          "high dimensionality",
+          "large variations"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DMOGP"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

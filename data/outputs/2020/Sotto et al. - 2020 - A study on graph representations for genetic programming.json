@@ -1,0 +1,347 @@
+{
+  "metadata": {
+    "title": "A Study on Graph Representations for Genetic Programming",
+    "authors": [
+      "Léo Françoso D. P. Sotto",
+      "Paul Kaufmann",
+      "Timothy Atkinson",
+      "Roman Kalkreuth",
+      "Márcio Porto Basgalupp"
+    ],
+    "year": 2020,
+    "source_file": "Sotto et al. - 2020 - A study on graph representations for genetic programming.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Symbolic regression"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "pagie1",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Mean Absolute Error",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Symbolic regression"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "nguyen3",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Mean Absolute Error",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Symbolic regression"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "pagie1",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Linear Genetic Programming"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.3,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Absolute Error",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Digital circuit synthesis"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "adder1",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Linear Genetic Programming"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.02,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage of correct bits",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Symbolic regression"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "pagie1",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Cartesian Genetic Programming"
+      },
+      "parameters": {
+        "population_size": 5,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.03,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Absolute Error",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Digital circuit synthesis"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "adder1",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Cartesian Genetic Programming"
+      },
+      "parameters": {
+        "population_size": 5,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.02,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage of correct bits",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Symbolic regression"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "pagie1",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Evolving Graphs by Graph Programming"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.036,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Absolute Error",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Digital circuit synthesis"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "adder1",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Evolving Graphs by Graph Programming"
+      },
+      "parameters": {
+        "population_size": 5,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.01,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage of correct bits",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Boolean function learning"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "par3",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Linear Genetic Programming (micro-mutations only)"
+      },
+      "parameters": {
+        "population_size": 5,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.02,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage of correct bits",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Boolean function learning"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "par3",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Percentage of correct bits",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,735 @@
+{
+  "metadata": {
+    "title": "Behaviour Discovery in Real-Time Strategy Games using Cooperative Co-evolution with Dynamic Binary Tree Decomposition",
+    "authors": [
+      "Luke Kelly",
+      "Martin Masek",
+      "Chiou Peng Lam"
+    ],
+    "year": 2024,
+    "source_file": "Kelly et al. - 2024 - Behaviour Discovery in Real-Time Strategy Games using Cooperative Co-evolution with Dynamic Binary T.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Games",
+        "problem_context": "Behaviour Discovery in Real-Time Strategy Games"
+      },
+      "the_database": {
+        "dataset_name": "MicroRTS",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MicroRTS Scenario A",
+        "dimensionality": "16 units"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "large branching factors",
+          "large search spaces"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Btree-CCEAstoch"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Games",
+        "problem_context": "Behaviour Discovery in Real-Time Strategy Games"
+      },
+      "the_database": {
+        "dataset_name": "MicroRTS",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MicroRTS Scenario A",
+        "dimensionality": "16 units"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "large branching factors",
+          "large search spaces"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Btree-CCEAstag"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Games",
+        "problem_context": "Behaviour Discovery in Real-Time Strategy Games"
+      },
+      "the_database": {
+        "dataset_name": "MicroRTS",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MicroRTS Scenario A",
+        "dimensionality": "16 units"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "large branching factors",
+          "large search spaces"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Btree-CCEAconv"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Games",
+        "problem_context": "Behaviour Discovery in Real-Time Strategy Games"
+      },
+      "the_database": {
+        "dataset_name": "MicroRTS",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MicroRTS Scenario A",
+        "dimensionality": "16 units"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "large branching factors",
+          "large search spaces"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CCEA by role"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Games",
+        "problem_context": "Behaviour Discovery in Real-Time Strategy Games"
+      },
+      "the_database": {
+        "dataset_name": "MicroRTS",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MicroRTS Scenario A",
+        "dimensionality": "16 units"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "large branching factors",
+          "large search spaces"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CCEA by unit"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Games",
+        "problem_context": "Behaviour Discovery in Real-Time Strategy Games"
+      },
+      "the_database": {
+        "dataset_name": "MicroRTS",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MicroRTS Scenario B",
+        "dimensionality": "32 units"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "large branching factors",
+          "large search spaces"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Btree-CCEAstoch"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Games",
+        "problem_context": "Behaviour Discovery in Real-Time Strategy Games"
+      },
+      "the_database": {
+        "dataset_name": "MicroRTS",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MicroRTS Scenario B",
+        "dimensionality": "32 units"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "large branching factors",
+          "large search spaces"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Btree-CCEAstag"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Games",
+        "problem_context": "Behaviour Discovery in Real-Time Strategy Games"
+      },
+      "the_database": {
+        "dataset_name": "MicroRTS",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MicroRTS Scenario B",
+        "dimensionality": "32 units"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "large branching factors",
+          "large search spaces"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Btree-CCEAconv"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Games",
+        "problem_context": "Behaviour Discovery in Real-Time Strategy Games"
+      },
+      "the_database": {
+        "dataset_name": "MicroRTS",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MicroRTS Scenario B",
+        "dimensionality": "32 units"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "large branching factors",
+          "large search spaces"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CCEA by role"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Games",
+        "problem_context": "Behaviour Discovery in Real-Time Strategy Games"
+      },
+      "the_database": {
+        "dataset_name": "MicroRTS",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MicroRTS Scenario B",
+        "dimensionality": "32 units"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "large branching factors",
+          "large search spaces"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CCEA by unit"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Games",
+        "problem_context": "Behaviour Discovery in Real-Time Strategy Games"
+      },
+      "the_database": {
+        "dataset_name": "MicroRTS",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MicroRTS Scenario C",
+        "dimensionality": "64 units"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "large branching factors",
+          "large search spaces"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Btree-CCEAstoch"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Games",
+        "problem_context": "Behaviour Discovery in Real-Time Strategy Games"
+      },
+      "the_database": {
+        "dataset_name": "MicroRTS",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MicroRTS Scenario C",
+        "dimensionality": "64 units"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "large branching factors",
+          "large search spaces"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Btree-CCEAstag"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Games",
+        "problem_context": "Behaviour Discovery in Real-Time Strategy Games"
+      },
+      "the_database": {
+        "dataset_name": "MicroRTS",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MicroRTS Scenario C",
+        "dimensionality": "64 units"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "large branching factors",
+          "large search spaces"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Btree-CCEAconv"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Games",
+        "problem_context": "Behaviour Discovery in Real-Time Strategy Games"
+      },
+      "the_database": {
+        "dataset_name": "MicroRTS",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MicroRTS Scenario C",
+        "dimensionality": "64 units"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "large branching factors",
+          "large search spaces"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CCEA by role"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Games",
+        "problem_context": "Behaviour Discovery in Real-Time Strategy Games"
+      },
+      "the_database": {
+        "dataset_name": "MicroRTS",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MicroRTS Scenario C",
+        "dimensionality": "64 units"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "large branching factors",
+          "large search spaces"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CCEA by unit"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Games",
+        "problem_context": "Behaviour Discovery in Real-Time Strategy Games"
+      },
+      "the_database": {
+        "dataset_name": "MicroRTS",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MicroRTS Scenario D",
+        "dimensionality": "64 units with terrain"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "large branching factors",
+          "large search spaces"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Btree-CCEAstoch"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Games",
+        "problem_context": "Behaviour Discovery in Real-Time Strategy Games"
+      },
+      "the_database": {
+        "dataset_name": "MicroRTS",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MicroRTS Scenario D",
+        "dimensionality": "64 units with terrain"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "large branching factors",
+          "large search spaces"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Btree-CCEAstag"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Games",
+        "problem_context": "Behaviour Discovery in Real-Time Strategy Games"
+      },
+      "the_database": {
+        "dataset_name": "MicroRTS",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MicroRTS Scenario D",
+        "dimensionality": "64 units with terrain"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "large branching factors",
+          "large search spaces"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Btree-CCEAconv"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Games",
+        "problem_context": "Behaviour Discovery in Real-Time Strategy Games"
+      },
+      "the_database": {
+        "dataset_name": "MicroRTS",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MicroRTS Scenario D",
+        "dimensionality": "64 units with terrain"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "large branching factors",
+          "large search spaces"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CCEA by role"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Games",
+        "problem_context": "Behaviour Discovery in Real-Time Strategy Games"
+      },
+      "the_database": {
+        "dataset_name": "MicroRTS",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MicroRTS Scenario D",
+        "dimensionality": "64 units with terrain"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "large branching factors",
+          "large search spaces"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CCEA by unit"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

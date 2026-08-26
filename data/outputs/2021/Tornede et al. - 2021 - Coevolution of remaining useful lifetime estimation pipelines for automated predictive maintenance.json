@@ -1,0 +1,196 @@
+{
+  "metadata": {
+    "title": "Coevolution of Remaining Useful Lifetime Estimation Pipelines for Automated Predictive Maintenance",
+    "authors": [
+      "Tanja Tornede",
+      "Alexander Tornede",
+      "Marcel Wever",
+      "Eyke Hüllermeier"
+    ],
+    "year": 2021,
+    "source_file": "Tornede et al. - 2021 - Coevolution of remaining useful lifetime estimation pipelines for automated predictive maintenance.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Remaining Useful Lifetime (RUL) Estimation"
+      },
+      "the_database": {
+        "dataset_name": "C-MAPSS",
+        "source_platform": "NASA Ames Prognostics Data Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "CMAPSS/FD001",
+        "dimensionality": "24 sensors"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged",
+          "non-smooth"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AutoCoevoRUL"
+      },
+      "parameters": {
+        "population_size": 28,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Final performance in terms of Lasym",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Remaining Useful Lifetime (RUL) Estimation"
+      },
+      "the_database": {
+        "dataset_name": "C-MAPSS",
+        "source_platform": "NASA Ames Prognostics Data Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "CMAPSS/FD002",
+        "dimensionality": "24 sensors"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged",
+          "non-smooth"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AutoCoevoRUL"
+      },
+      "parameters": {
+        "population_size": 28,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Final performance in terms of Lasym",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Remaining Useful Lifetime (RUL) Estimation"
+      },
+      "the_database": {
+        "dataset_name": "C-MAPSS",
+        "source_platform": "NASA Ames Prognostics Data Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "CMAPSS/FD003",
+        "dimensionality": "24 sensors"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged",
+          "non-smooth"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AutoCoevoRUL"
+      },
+      "parameters": {
+        "population_size": 28,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Final performance in terms of Lasym",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Remaining Useful Lifetime (RUL) Estimation"
+      },
+      "the_database": {
+        "dataset_name": "C-MAPSS",
+        "source_platform": "NASA Ames Prognostics Data Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "CMAPSS/FD004",
+        "dimensionality": "24 sensors"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged",
+          "non-smooth"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AutoCoevoRUL"
+      },
+      "parameters": {
+        "population_size": 28,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Final performance in terms of Lasym",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Remaining Useful Lifetime (RUL) Estimation"
+      },
+      "the_database": {
+        "dataset_name": "PHM08 Challenge Data Set",
+        "source_platform": "NASA Ames Prognostics Data Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "PHM08",
+        "dimensionality": "24 sensors"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged",
+          "non-smooth"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AutoCoevoRUL"
+      },
+      "parameters": {
+        "population_size": 28,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Final performance in terms of Lasym",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

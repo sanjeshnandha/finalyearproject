@@ -1,0 +1,806 @@
+{
+  "metadata": {
+    "title": "Genetic programming approaches to learning fair classifiers",
+    "authors": [
+      "William La Cava",
+      "Jason H. Moore"
+    ],
+    "year": 2020,
+    "source_file": "La Cava and Moore - 2020 - Genetic programming approaches to learning fair classifiers.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Government/Public Safety",
+        "problem_context": "Predicting crime rates with fairness constraints"
+      },
+      "the_database": {
+        "dataset_name": "Communities and Crime",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Communities",
+        "dimensionality": "122 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT with Tournament Selection"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Government/Public Safety",
+        "problem_context": "Predicting crime rates with fairness constraints"
+      },
+      "the_database": {
+        "dataset_name": "Communities and Crime",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Communities",
+        "dimensionality": "122 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT with Epsilon-Lexicase Selection (LEX)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Government/Public Safety",
+        "problem_context": "Predicting crime rates with fairness constraints"
+      },
+      "the_database": {
+        "dataset_name": "Communities and Crime",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Communities",
+        "dimensionality": "122 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT with Fair Epsilon-Lexicase Selection (FLEX)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Government/Public Safety",
+        "problem_context": "Predicting crime rates with fairness constraints"
+      },
+      "the_database": {
+        "dataset_name": "Communities and Crime",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Communities",
+        "dimensionality": "122 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT with NSGA2"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Government/Public Safety",
+        "problem_context": "Predicting crime rates with fairness constraints"
+      },
+      "the_database": {
+        "dataset_name": "Communities and Crime",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Communities",
+        "dimensionality": "122 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT with FLEX-NSGA2"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Government/Public Safety",
+        "problem_context": "Predicting crime rates with fairness constraints"
+      },
+      "the_database": {
+        "dataset_name": "Communities and Crime",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Communities",
+        "dimensionality": "122 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT with Random Search"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance",
+        "problem_context": "Predicting income level with fairness constraints"
+      },
+      "the_database": {
+        "dataset_name": "Adult Census Income",
+        "source_platform": "Census"
+      },
+      "the_benchmark_problem": {
+        "name": "Adult",
+        "dimensionality": "98 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT with Tournament Selection"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance",
+        "problem_context": "Predicting income level with fairness constraints"
+      },
+      "the_database": {
+        "dataset_name": "Adult Census Income",
+        "source_platform": "Census"
+      },
+      "the_benchmark_problem": {
+        "name": "Adult",
+        "dimensionality": "98 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT with Epsilon-Lexicase Selection (LEX)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance",
+        "problem_context": "Predicting income level with fairness constraints"
+      },
+      "the_database": {
+        "dataset_name": "Adult Census Income",
+        "source_platform": "Census"
+      },
+      "the_benchmark_problem": {
+        "name": "Adult",
+        "dimensionality": "98 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT with Fair Epsilon-Lexicase Selection (FLEX)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance",
+        "problem_context": "Predicting income level with fairness constraints"
+      },
+      "the_database": {
+        "dataset_name": "Adult Census Income",
+        "source_platform": "Census"
+      },
+      "the_benchmark_problem": {
+        "name": "Adult",
+        "dimensionality": "98 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT with NSGA2"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance",
+        "problem_context": "Predicting income level with fairness constraints"
+      },
+      "the_database": {
+        "dataset_name": "Adult Census Income",
+        "source_platform": "Census"
+      },
+      "the_benchmark_problem": {
+        "name": "Adult",
+        "dimensionality": "98 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT with FLEX-NSGA2"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance",
+        "problem_context": "Predicting income level with fairness constraints"
+      },
+      "the_database": {
+        "dataset_name": "Adult Census Income",
+        "source_platform": "Census"
+      },
+      "the_benchmark_problem": {
+        "name": "Adult",
+        "dimensionality": "98 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT with Random Search"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Legal/Education",
+        "problem_context": "Predicting law school bar passage with fairness constraints"
+      },
+      "the_database": {
+        "dataset_name": "Law School Admission Council",
+        "source_platform": "ERIC"
+      },
+      "the_benchmark_problem": {
+        "name": "Lawschool",
+        "dimensionality": "17 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT with Tournament Selection"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Legal/Education",
+        "problem_context": "Predicting law school bar passage with fairness constraints"
+      },
+      "the_database": {
+        "dataset_name": "Law School Admission Council",
+        "source_platform": "ERIC"
+      },
+      "the_benchmark_problem": {
+        "name": "Lawschool",
+        "dimensionality": "17 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT with Epsilon-Lexicase Selection (LEX)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Legal/Education",
+        "problem_context": "Predicting law school bar passage with fairness constraints"
+      },
+      "the_database": {
+        "dataset_name": "Law School Admission Council",
+        "source_platform": "ERIC"
+      },
+      "the_benchmark_problem": {
+        "name": "Lawschool",
+        "dimensionality": "17 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT with Fair Epsilon-Lexicase Selection (FLEX)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Legal/Education",
+        "problem_context": "Predicting law school bar passage with fairness constraints"
+      },
+      "the_database": {
+        "dataset_name": "Law School Admission Council",
+        "source_platform": "ERIC"
+      },
+      "the_benchmark_problem": {
+        "name": "Lawschool",
+        "dimensionality": "17 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT with NSGA2"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Legal/Education",
+        "problem_context": "Predicting law school bar passage with fairness constraints"
+      },
+      "the_database": {
+        "dataset_name": "Law School Admission Council",
+        "source_platform": "ERIC"
+      },
+      "the_benchmark_problem": {
+        "name": "Lawschool",
+        "dimensionality": "17 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT with FLEX-NSGA2"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Legal/Education",
+        "problem_context": "Predicting law school bar passage with fairness constraints"
+      },
+      "the_database": {
+        "dataset_name": "Law School Admission Council",
+        "source_platform": "ERIC"
+      },
+      "the_benchmark_problem": {
+        "name": "Lawschool",
+        "dimensionality": "17 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT with Random Search"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Education",
+        "problem_context": "Predicting student achievement with fairness constraints"
+      },
+      "the_database": {
+        "dataset_name": "Student Performance",
+        "source_platform": "Secondary Schools"
+      },
+      "the_benchmark_problem": {
+        "name": "Student",
+        "dimensionality": "43 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT with Tournament Selection"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Education",
+        "problem_context": "Predicting student achievement with fairness constraints"
+      },
+      "the_database": {
+        "dataset_name": "Student Performance",
+        "source_platform": "Secondary Schools"
+      },
+      "the_benchmark_problem": {
+        "name": "Student",
+        "dimensionality": "43 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT with Epsilon-Lexicase Selection (LEX)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Education",
+        "problem_context": "Predicting student achievement with fairness constraints"
+      },
+      "the_database": {
+        "dataset_name": "Student Performance",
+        "source_platform": "Secondary Schools"
+      },
+      "the_benchmark_problem": {
+        "name": "Student",
+        "dimensionality": "43 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT with Fair Epsilon-Lexicase Selection (FLEX)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Education",
+        "problem_context": "Predicting student achievement with fairness constraints"
+      },
+      "the_database": {
+        "dataset_name": "Student Performance",
+        "source_platform": "Secondary Schools"
+      },
+      "the_benchmark_problem": {
+        "name": "Student",
+        "dimensionality": "43 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT with NSGA2"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Education",
+        "problem_context": "Predicting student achievement with fairness constraints"
+      },
+      "the_database": {
+        "dataset_name": "Student Performance",
+        "source_platform": "Secondary Schools"
+      },
+      "the_benchmark_problem": {
+        "name": "Student",
+        "dimensionality": "43 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT with FLEX-NSGA2"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Education",
+        "problem_context": "Predicting student achievement with fairness constraints"
+      },
+      "the_database": {
+        "dataset_name": "Student Performance",
+        "source_platform": "Secondary Schools"
+      },
+      "the_benchmark_problem": {
+        "name": "Student",
+        "dimensionality": "43 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "FEAT with Random Search"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume of the Pareto front (FP/FN Violation vs Accuracy/APS)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

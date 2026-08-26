@@ -1,0 +1,294 @@
+{
+  "metadata": {
+    "title": "Sparse Transformer for Long-term Forecasting via Genetic Algorithm",
+    "authors": [
+      "Jingeun Kim",
+      "Yourim Yoon"
+    ],
+    "year": 2025,
+    "source_file": "Kim and Yoon - 2025 - Sparse Transformer for Long-term Forecasting via Genetic Algorithm.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Long-term time-series forecasting model optimization (pruning for efficiency)"
+      },
+      "the_database": {
+        "dataset_name": "ETTh1",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Transformer Attention Head Pruning for Time-series Forecasting",
+        "dimensionality": "16D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean Squared Error (MSE), Mean Absolute Error (MAE), FLOPs reduction",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Long-term time-series forecasting model optimization (pruning for efficiency)"
+      },
+      "the_database": {
+        "dataset_name": "ETTh2",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Transformer Attention Head Pruning for Time-series Forecasting",
+        "dimensionality": "16D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean Squared Error (MSE), Mean Absolute Error (MAE), FLOPs reduction",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Long-term time-series forecasting model optimization (pruning for efficiency)"
+      },
+      "the_database": {
+        "dataset_name": "ETTm1",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Transformer Attention Head Pruning for Time-series Forecasting",
+        "dimensionality": "16D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean Squared Error (MSE), Mean Absolute Error (MAE), FLOPs reduction",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Long-term time-series forecasting model optimization (pruning for efficiency)"
+      },
+      "the_database": {
+        "dataset_name": "ETTm2",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Transformer Attention Head Pruning for Time-series Forecasting",
+        "dimensionality": "16D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean Squared Error (MSE), Mean Absolute Error (MAE), FLOPs reduction",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Long-term time-series forecasting model optimization (pruning for efficiency)"
+      },
+      "the_database": {
+        "dataset_name": "ECL",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Transformer Attention Head Pruning for Time-series Forecasting",
+        "dimensionality": "16D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean Squared Error (MSE), Mean Absolute Error (MAE), FLOPs reduction",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Environmental",
+        "problem_context": "Long-term time-series forecasting model optimization (pruning for efficiency)"
+      },
+      "the_database": {
+        "dataset_name": "Weather",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Transformer Attention Head Pruning for Time-series Forecasting",
+        "dimensionality": "16D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean Squared Error (MSE), Mean Absolute Error (MAE), FLOPs reduction",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Long-term time-series forecasting model optimization (pruning for efficiency)"
+      },
+      "the_database": {
+        "dataset_name": "Traffic",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Transformer Attention Head Pruning for Time-series Forecasting",
+        "dimensionality": "16D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean Squared Error (MSE), Mean Absolute Error (MAE), FLOPs reduction",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance",
+        "problem_context": "Long-term time-series forecasting model optimization (pruning for efficiency)"
+      },
+      "the_database": {
+        "dataset_name": "Exchange",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Transformer Attention Head Pruning for Time-series Forecasting",
+        "dimensionality": "16D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean Squared Error (MSE), Mean Absolute Error (MAE), FLOPs reduction",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

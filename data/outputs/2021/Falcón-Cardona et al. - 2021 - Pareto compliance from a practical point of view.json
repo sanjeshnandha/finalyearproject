@@ -1,0 +1,243 @@
+{
+  "metadata": {
+    "title": "Pareto Compliance from a Practical Point of View",
+    "authors": [
+      "Jesús Guillermo Falcón-Cardona",
+      "Saúl Zapotecas-Martínez",
+      "Abel García-Nájera"
+    ],
+    "year": 2021,
+    "source_file": "Falcón-Cardona et al. - 2021 - Pareto compliance from a practical point of view.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "LAME",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "convex",
+          "linear",
+          "concave",
+          "unimodal"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "IGD++-MaOEA"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 40000,
+        "mutation_rate": null,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "LAME",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "convex",
+          "linear",
+          "concave",
+          "unimodal"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "IGD+-MaOEA"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 40000,
+        "mutation_rate": null,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "LAME",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "convex",
+          "linear",
+          "concave",
+          "unimodal"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "IGD-MaOEA"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 40000,
+        "mutation_rate": null,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MIRROR",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "convex",
+          "linear",
+          "concave",
+          "inverted simplex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "IGD++-MaOEA"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 40000,
+        "mutation_rate": null,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MIRROR",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "convex",
+          "linear",
+          "concave",
+          "inverted simplex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "IGD+-MaOEA"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 40000,
+        "mutation_rate": null,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MIRROR",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "convex",
+          "linear",
+          "concave",
+          "inverted simplex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "IGD-MaOEA"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 40000,
+        "mutation_rate": null,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

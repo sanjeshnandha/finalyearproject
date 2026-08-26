@@ -1,0 +1,125 @@
+{
+  "metadata": {
+    "title": "Exploring Evolution for Aesthetic & Abstract 3D Art",
+    "authors": [
+      "Ritwik Murali",
+      "Veeramanohar Avudaiappan"
+    ],
+    "year": 2024,
+    "source_file": "Murali and Avudaiappan - 2024 - Exploring Evolution for Aesthetic & Abstract 3D Art.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Creative Media",
+        "problem_context": "Evolving abstract and aesthetically appealing 3D objects"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Abstract 3D Art Generation (Angle between edges & faces)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "aesthetic",
+          "subjective",
+          "complex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.5,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average user rating of 3.89 (AG-CE) and 3.54 (AG-CF)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Creative Media",
+        "problem_context": "Evolving abstract and aesthetically appealing 3D objects"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Abstract 3D Art Generation (Render Time)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "aesthetic",
+          "subjective",
+          "complex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.5,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average user rating of 3.37 (RT-CE) and 3.13 (RT-E)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Creative Media",
+        "problem_context": "Evolving abstract and aesthetically appealing 3D objects"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Abstract 3D Art Generation (Smoothness)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "aesthetic",
+          "subjective",
+          "complex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.5,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Average user rating of 3.34 (SO-E) and 3.20 (SO-CF)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

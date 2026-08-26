@@ -1,0 +1,162 @@
+{
+  "metadata": {
+    "title": "The Influence of Noise on Multi-Parent Crossover for an Island Model GA",
+    "authors": [
+      "Brahim Aboutaib",
+      "Andrew M. Sutton"
+    ],
+    "year": 2022,
+    "source_file": "Aboutaib and Sutton - 2022 - The influence of noise on multi-parent crossover for an island model GA.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "OneMax",
+        "dimensionality": "100-400"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "noisy",
+          "additive Gaussian noise",
+          "posterior noise"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Island-model (1+1) EA with majority-vote crossover"
+      },
+      "parameters": {
+        "population_size": 32,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean number of rounds to find the optimum",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "OneMax",
+        "dimensionality": "100-400"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "noisy",
+          "additive Gaussian noise",
+          "posterior noise"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Island-model (1+1) EA with uniform crossover"
+      },
+      "parameters": {
+        "population_size": 32,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean number of rounds to find the optimum",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "OneMax",
+        "dimensionality": "100-400"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "noisy",
+          "additive Gaussian noise",
+          "posterior noise"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Island-model (1+1) EA with tournament selection"
+      },
+      "parameters": {
+        "population_size": 32,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean number of rounds to find the optimum",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "OneMax",
+        "dimensionality": "100-400"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "noisy",
+          "additive Gaussian noise",
+          "posterior noise"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Island-model RLS with majority-vote crossover"
+      },
+      "parameters": {
+        "population_size": 32,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean number of rounds to find the optimum",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

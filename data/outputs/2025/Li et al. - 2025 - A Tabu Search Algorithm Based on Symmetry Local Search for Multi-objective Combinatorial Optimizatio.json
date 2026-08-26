@@ -1,0 +1,1636 @@
+{
+  "metadata": {
+    "title": "A Tabu Search Algorithm Based on Symmetry Local Search for Multi-objective Combinatorial Optimization Problems",
+    "authors": [
+      "Tianyang Li",
+      "Ying Meng",
+      "Lixin Tang",
+      "Qingxin Guo"
+    ],
+    "year": 2025,
+    "source_file": "Li et al. - 2025 - A Tabu Search Algorithm Based on Symmetry Local Search for Multi-objective Combinatorial Optimizatio.pdf",
+    "gecco_track": "GECCO '25 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "kroAB100",
+        "dimensionality": "100 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "kroAC100",
+        "dimensionality": "100 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "kroAD100",
+        "dimensionality": "100 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "kroBC100",
+        "dimensionality": "100 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "kroBD100",
+        "dimensionality": "100 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "kroCD100",
+        "dimensionality": "100 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "euclAB100",
+        "dimensionality": "100 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "clusAB100",
+        "dimensionality": "100 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "randAB100",
+        "dimensionality": "100 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "randCD100",
+        "dimensionality": "100 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "kroAB150",
+        "dimensionality": "150 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "kroAB200",
+        "dimensionality": "200 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "kroAB300",
+        "dimensionality": "300 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "kroAB400",
+        "dimensionality": "400 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "kroAB500",
+        "dimensionality": "500 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "kroAB100",
+        "dimensionality": "100 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "kroAC100",
+        "dimensionality": "100 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "kroAD100",
+        "dimensionality": "100 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "kroBC100",
+        "dimensionality": "100 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "kroBD100",
+        "dimensionality": "100 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "kroCD100",
+        "dimensionality": "100 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "euclAB100",
+        "dimensionality": "100 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "clusAB100",
+        "dimensionality": "100 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "randAB100",
+        "dimensionality": "100 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "randCD100",
+        "dimensionality": "100 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "kroAB150",
+        "dimensionality": "150 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "kroAB200",
+        "dimensionality": "200 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "kroAB300",
+        "dimensionality": "300 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "kroAB400",
+        "dimensionality": "400 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "kroAB500",
+        "dimensionality": "500 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "kroAB100",
+        "dimensionality": "100 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RVEA-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "kroAC100",
+        "dimensionality": "100 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RVEA-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "kroAD100",
+        "dimensionality": "100 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RVEA-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "kroBC100",
+        "dimensionality": "100 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RVEA-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "kroBD100",
+        "dimensionality": "100 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RVEA-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "kroCD100",
+        "dimensionality": "100 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RVEA-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "euclAB100",
+        "dimensionality": "100 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RVEA-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "clusAB100",
+        "dimensionality": "100 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RVEA-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "randAB100",
+        "dimensionality": "100 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RVEA-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "randCD100",
+        "dimensionality": "100 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RVEA-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "kroAB150",
+        "dimensionality": "150 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RVEA-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "kroAB200",
+        "dimensionality": "200 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RVEA-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "kroAB300",
+        "dimensionality": "300 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RVEA-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "kroAB400",
+        "dimensionality": "400 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RVEA-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-objective Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "Heidelberg University"
+      },
+      "the_benchmark_problem": {
+        "name": "kroAB500",
+        "dimensionality": "500 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RVEA-TS-SLS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,1096 @@
+{
+  "metadata": {
+    "title": "On genetic programming representations and fitness functions for interpretable dimensionality reduction",
+    "authors": [
+      "Thomas Uriot",
+      "Marco Virgolin",
+      "Tanja Alderliesten",
+      "Peter A.N. Bosman"
+    ],
+    "year": 2022,
+    "source_file": "Uriot et al. - 2022 - On genetic programming representations and fitness functions for interpretable dimensionality reduct.pdf",
+    "gecco_track": "Genetic Programming"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Dimensionality reduction for radar data classification"
+      },
+      "the_database": {
+        "dataset_name": "Ionosphere",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Ionosphere",
+        "dimensionality": "34D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "interdependent features"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-Tree GP with Euclidean Distance Preserving Fitness (MT, Fdist Euclidean)"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced accuracy and Reconstruction error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Dimensionality reduction for radar data classification"
+      },
+      "the_database": {
+        "dataset_name": "Ionosphere",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Ionosphere",
+        "dimensionality": "34D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "interdependent features"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-Tree GP with Geodesic Distance Preserving Fitness (MT, Fdist geodesic)"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced accuracy and Reconstruction error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Dimensionality reduction for radar data classification"
+      },
+      "the_database": {
+        "dataset_name": "Ionosphere",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Ionosphere",
+        "dimensionality": "34D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "interdependent features"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-Tree GP with Euclidean Rank Preserving Fitness (MT, Frank Euclidean)"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced accuracy and Reconstruction error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Dimensionality reduction for radar data classification"
+      },
+      "the_database": {
+        "dataset_name": "Ionosphere",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Ionosphere",
+        "dimensionality": "34D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "interdependent features"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-Tree GP with Geodesic Rank Preserving Fitness (MT, Frank geodesic)"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced accuracy and Reconstruction error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Dimensionality reduction for radar data classification"
+      },
+      "the_database": {
+        "dataset_name": "Ionosphere",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Ionosphere",
+        "dimensionality": "34D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "interdependent features"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-Tree GP with Neural-Based Autoencoder Teacher Fitness (MT, FAE)"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced accuracy and Reconstruction error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Dimensionality reduction for radar data classification"
+      },
+      "the_database": {
+        "dataset_name": "Ionosphere",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Ionosphere",
+        "dimensionality": "34D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "interdependent features"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Autoencoder Multi-Tree GP with GP-Based Autoencoder Fitness (AMT, FGP)"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced accuracy and Reconstruction error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance",
+        "problem_context": "Dimensionality reduction for credit risk assessment"
+      },
+      "the_database": {
+        "dataset_name": "German Credit",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "German Credit",
+        "dimensionality": "24D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "interdependent features"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-Tree GP with Euclidean Distance Preserving Fitness (MT, Fdist Euclidean)"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced accuracy and Reconstruction error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance",
+        "problem_context": "Dimensionality reduction for credit risk assessment"
+      },
+      "the_database": {
+        "dataset_name": "German Credit",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "German Credit",
+        "dimensionality": "24D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "interdependent features"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-Tree GP with Geodesic Distance Preserving Fitness (MT, Fdist geodesic)"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced accuracy and Reconstruction error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance",
+        "problem_context": "Dimensionality reduction for credit risk assessment"
+      },
+      "the_database": {
+        "dataset_name": "German Credit",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "German Credit",
+        "dimensionality": "24D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "interdependent features"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-Tree GP with Euclidean Rank Preserving Fitness (MT, Frank Euclidean)"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced accuracy and Reconstruction error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance",
+        "problem_context": "Dimensionality reduction for credit risk assessment"
+      },
+      "the_database": {
+        "dataset_name": "German Credit",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "German Credit",
+        "dimensionality": "24D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "interdependent features"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-Tree GP with Geodesic Rank Preserving Fitness (MT, Frank geodesic)"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced accuracy and Reconstruction error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance",
+        "problem_context": "Dimensionality reduction for credit risk assessment"
+      },
+      "the_database": {
+        "dataset_name": "German Credit",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "German Credit",
+        "dimensionality": "24D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "interdependent features"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-Tree GP with Neural-Based Autoencoder Teacher Fitness (MT, FAE)"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced accuracy and Reconstruction error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance",
+        "problem_context": "Dimensionality reduction for credit risk assessment"
+      },
+      "the_database": {
+        "dataset_name": "German Credit",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "German Credit",
+        "dimensionality": "24D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "interdependent features"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Autoencoder Multi-Tree GP with GP-Based Autoencoder Fitness (AMT, FGP)"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced accuracy and Reconstruction error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Dimensionality reduction for hand movement gesture recognition"
+      },
+      "the_database": {
+        "dataset_name": "Libras Movement",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Libras Movement",
+        "dimensionality": "90D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "interdependent features"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-Tree GP with Euclidean Distance Preserving Fitness (MT, Fdist Euclidean)"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced accuracy and Reconstruction error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Dimensionality reduction for hand movement gesture recognition"
+      },
+      "the_database": {
+        "dataset_name": "Libras Movement",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Libras Movement",
+        "dimensionality": "90D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "interdependent features"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-Tree GP with Geodesic Distance Preserving Fitness (MT, Fdist geodesic)"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced accuracy and Reconstruction error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Dimensionality reduction for hand movement gesture recognition"
+      },
+      "the_database": {
+        "dataset_name": "Libras Movement",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Libras Movement",
+        "dimensionality": "90D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "interdependent features"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-Tree GP with Euclidean Rank Preserving Fitness (MT, Frank Euclidean)"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced accuracy and Reconstruction error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Dimensionality reduction for hand movement gesture recognition"
+      },
+      "the_database": {
+        "dataset_name": "Libras Movement",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Libras Movement",
+        "dimensionality": "90D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "interdependent features"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-Tree GP with Geodesic Rank Preserving Fitness (MT, Frank geodesic)"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced accuracy and Reconstruction error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Dimensionality reduction for hand movement gesture recognition"
+      },
+      "the_database": {
+        "dataset_name": "Libras Movement",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Libras Movement",
+        "dimensionality": "90D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "interdependent features"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-Tree GP with Neural-Based Autoencoder Teacher Fitness (MT, FAE)"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced accuracy and Reconstruction error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Dimensionality reduction for hand movement gesture recognition"
+      },
+      "the_database": {
+        "dataset_name": "Libras Movement",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Libras Movement",
+        "dimensionality": "90D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "interdependent features"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Autoencoder Multi-Tree GP with GP-Based Autoencoder Fitness (AMT, FGP)"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced accuracy and Reconstruction error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Dimensionality reduction for image segmentation"
+      },
+      "the_database": {
+        "dataset_name": "Segmentation",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Segmentation",
+        "dimensionality": "19D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "interdependent features"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-Tree GP with Euclidean Distance Preserving Fitness (MT, Fdist Euclidean)"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced accuracy and Reconstruction error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Dimensionality reduction for image segmentation"
+      },
+      "the_database": {
+        "dataset_name": "Segmentation",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Segmentation",
+        "dimensionality": "19D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "interdependent features"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-Tree GP with Geodesic Distance Preserving Fitness (MT, Fdist geodesic)"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced accuracy and Reconstruction error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Dimensionality reduction for image segmentation"
+      },
+      "the_database": {
+        "dataset_name": "Segmentation",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Segmentation",
+        "dimensionality": "19D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "interdependent features"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-Tree GP with Euclidean Rank Preserving Fitness (MT, Frank Euclidean)"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced accuracy and Reconstruction error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Dimensionality reduction for image segmentation"
+      },
+      "the_database": {
+        "dataset_name": "Segmentation",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Segmentation",
+        "dimensionality": "19D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "interdependent features"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-Tree GP with Geodesic Rank Preserving Fitness (MT, Frank geodesic)"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced accuracy and Reconstruction error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Dimensionality reduction for image segmentation"
+      },
+      "the_database": {
+        "dataset_name": "Segmentation",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Segmentation",
+        "dimensionality": "19D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "interdependent features"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-Tree GP with Neural-Based Autoencoder Teacher Fitness (MT, FAE)"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced accuracy and Reconstruction error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Dimensionality reduction for image segmentation"
+      },
+      "the_database": {
+        "dataset_name": "Segmentation",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Segmentation",
+        "dimensionality": "19D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "interdependent features"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Autoencoder Multi-Tree GP with GP-Based Autoencoder Fitness (AMT, FGP)"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced accuracy and Reconstruction error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Dimensionality reduction for telescope signal classification"
+      },
+      "the_database": {
+        "dataset_name": "Telescope (MGT)",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Telescope (MGT)",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "interdependent features"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-Tree GP with Euclidean Distance Preserving Fitness (MT, Fdist Euclidean)"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced accuracy and Reconstruction error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Dimensionality reduction for telescope signal classification"
+      },
+      "the_database": {
+        "dataset_name": "Telescope (MGT)",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Telescope (MGT)",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "interdependent features"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-Tree GP with Geodesic Distance Preserving Fitness (MT, Fdist geodesic)"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced accuracy and Reconstruction error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Dimensionality reduction for telescope signal classification"
+      },
+      "the_database": {
+        "dataset_name": "Telescope (MGT)",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Telescope (MGT)",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "interdependent features"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-Tree GP with Euclidean Rank Preserving Fitness (MT, Frank Euclidean)"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced accuracy and Reconstruction error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Dimensionality reduction for telescope signal classification"
+      },
+      "the_database": {
+        "dataset_name": "Telescope (MGT)",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Telescope (MGT)",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "interdependent features"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-Tree GP with Geodesic Rank Preserving Fitness (MT, Frank geodesic)"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced accuracy and Reconstruction error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Dimensionality reduction for telescope signal classification"
+      },
+      "the_database": {
+        "dataset_name": "Telescope (MGT)",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Telescope (MGT)",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "interdependent features"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-Tree GP with Neural-Based Autoencoder Teacher Fitness (MT, FAE)"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced accuracy and Reconstruction error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Dimensionality reduction for telescope signal classification"
+      },
+      "the_database": {
+        "dataset_name": "Telescope (MGT)",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Telescope (MGT)",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "interdependent features"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Autoencoder Multi-Tree GP with GP-Based Autoencoder Fitness (AMT, FGP)"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced accuracy and Reconstruction error",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

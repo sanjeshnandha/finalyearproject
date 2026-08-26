@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "title": "Risk Aware Optimization of Water Sensor Placement",
+    "authors": [
+      "Antonio Candelieri",
+      "Andrea Ponti",
+      "Francesco Archetti"
+    ],
+    "year": 2021,
+    "source_file": "Candelieri et al. - 2021 - Risk aware optimization of water sensor placement.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Early detection of contamination events in Water Distribution Networks (WDN)"
+      },
+      "the_database": {
+        "dataset_name": "Neptun WDN",
+        "source_platform": "ICeWater project"
+      },
+      "the_benchmark_problem": {
+        "name": "Water Sensor Placement",
+        "dimensionality": "332 nodes"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "huge number of global (not only local) optima",
+          "spatiotemporal dynamics"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 40,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume, Number of individuals belonging to the approximate Pareto Set, Kappa-Hamming, Kappa-Frobenius",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

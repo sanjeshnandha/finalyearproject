@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "title": "Cost-vs-Accuracy of Sampling in Multi-objective Combinatorial Exploratory Landscape Analysis",
+    "authors": [
+      "Raphaël Cosson",
+      "Bilel Derbel",
+      "Arnaud Liefooghe",
+      "Sébastien Verel",
+      "Hernan Aguirre",
+      "Qingfu Zhang",
+      "Kiyoshi Tanaka"
+    ],
+    "year": 2022,
+    "source_file": "Cosson et al. - 2022 - Cost-vs-accuracy of sampling in multi-objective combinatorial exploratory landscape analysis.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "rho-mnk-landscapes",
+        "dimensionality": "50 to 200"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "multi-modal",
+          "correlated objectives",
+          "epistatic interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average merit value based on hypervolume relative deviation",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

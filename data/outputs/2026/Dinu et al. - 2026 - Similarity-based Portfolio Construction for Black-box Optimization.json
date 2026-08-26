@@ -1,0 +1,123 @@
+{
+  "metadata": {
+    "title": "Similarity-based Portfolio Construction for Black-box Optimization",
+    "authors": [
+      "Catalin-Viorel Dinu",
+      "Diederick Vermetten",
+      "Carola Doerr"
+    ],
+    "year": 2026,
+    "source_file": "Dinu et al. - 2026 - Similarity-based Portfolio Construction for Black-box Optimization.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "MA-BBOB",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MA-BBOB",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "ruggedness",
+          "variable interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "10-SBP-w^eq"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Relative improvement over SBS: 15.80 ± 22.10% (Overall)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "MA-BBOB",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MA-BBOB",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "ruggedness",
+          "variable interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SBP*"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Relative improvement over SBS: 15.68 ± 22.35% (Overall)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "MA-BBOB",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MA-BBOB",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "ruggedness",
+          "variable interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "10-SBP*-w^eq"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Relative improvement over SBS: 14.92 ± 21.45% (Overall)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

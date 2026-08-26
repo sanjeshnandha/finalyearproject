@@ -1,0 +1,306 @@
+{
+  "metadata": {
+    "title": "Automated Design of Multi-Level Network Partitioning Heuristics Employing Self-Adaptive Primitive Granularity Control",
+    "authors": [
+      "Aaron Scott Pope",
+      "Daniel R. Tauritz"
+    ],
+    "year": 2020,
+    "source_file": "Pope and Tauritz - 2020 - Automated design of multi-level network partitioning heuristics employing self-adaptive primitive gr.pdf",
+    "gecco_track": "Genetic Programming"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "IT/Cybersecurity",
+        "problem_context": "Automated design of multi-level network partitioning heuristics for network segmentation"
+      },
+      "the_database": {
+        "dataset_name": "Unified Host and Network Data Set",
+        "source_platform": "Los Alamos National Laboratory"
+      },
+      "the_benchmark_problem": {
+        "name": "Authentication Graph Partitioning",
+        "dimensionality": "9,924 users, 14,822 computers, 106,693 pairs"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "NP-hard",
+          "bipartite",
+          "complex network"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Self-Adaptive Genetic Programming"
+      },
+      "parameters": {
+        "population_size": 60,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.25,
+        "crossover_rate": 0.75
+      },
+      "performance_outcome": {
+        "metric": "Mean fitness of 0.96510 (1 - fraction of edge weight removed)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "IT/Cybersecurity",
+        "problem_context": "Automated design of multi-level network partitioning heuristics for network segmentation"
+      },
+      "the_database": {
+        "dataset_name": "Unified Host and Network Data Set",
+        "source_platform": "Los Alamos National Laboratory"
+      },
+      "the_benchmark_problem": {
+        "name": "NetFlow Graph Partitioning",
+        "dimensionality": "60,185 devices, 1,136,854 pairs"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "NP-hard",
+          "complex network"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Self-Adaptive Genetic Programming"
+      },
+      "parameters": {
+        "population_size": 60,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.25,
+        "crossover_rate": 0.75
+      },
+      "performance_outcome": {
+        "metric": "Mean fitness of 0.98787 (1 - fraction of edge weight removed)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "IT/Cybersecurity",
+        "problem_context": "Automated design of multi-level network partitioning heuristics for network segmentation"
+      },
+      "the_database": {
+        "dataset_name": "Unified Host and Network Data Set",
+        "source_platform": "Los Alamos National Laboratory"
+      },
+      "the_benchmark_problem": {
+        "name": "Authentication Graph Partitioning",
+        "dimensionality": "9,924 users, 14,822 computers, 106,693 pairs"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "NP-hard",
+          "bipartite",
+          "complex network"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "StaticLow Genetic Programming"
+      },
+      "parameters": {
+        "population_size": 60,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.25,
+        "crossover_rate": 0.75
+      },
+      "performance_outcome": {
+        "metric": "Mean fitness of 0.92903 (1 - fraction of edge weight removed)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "IT/Cybersecurity",
+        "problem_context": "Automated design of multi-level network partitioning heuristics for network segmentation"
+      },
+      "the_database": {
+        "dataset_name": "Unified Host and Network Data Set",
+        "source_platform": "Los Alamos National Laboratory"
+      },
+      "the_benchmark_problem": {
+        "name": "NetFlow Graph Partitioning",
+        "dimensionality": "60,185 devices, 1,136,854 pairs"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "NP-hard",
+          "complex network"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "StaticLow Genetic Programming"
+      },
+      "parameters": {
+        "population_size": 60,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.25,
+        "crossover_rate": 0.75
+      },
+      "performance_outcome": {
+        "metric": "Mean fitness of 0.96839 (1 - fraction of edge weight removed)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "IT/Cybersecurity",
+        "problem_context": "Automated design of multi-level network partitioning heuristics for network segmentation"
+      },
+      "the_database": {
+        "dataset_name": "Unified Host and Network Data Set",
+        "source_platform": "Los Alamos National Laboratory"
+      },
+      "the_benchmark_problem": {
+        "name": "Authentication Graph Partitioning",
+        "dimensionality": "9,924 users, 14,822 computers, 106,693 pairs"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "NP-hard",
+          "bipartite",
+          "complex network"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "StaticHigh Genetic Programming"
+      },
+      "parameters": {
+        "population_size": 60,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.25,
+        "crossover_rate": 0.75
+      },
+      "performance_outcome": {
+        "metric": "Mean fitness of 0.95844 (1 - fraction of edge weight removed)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "IT/Cybersecurity",
+        "problem_context": "Automated design of multi-level network partitioning heuristics for network segmentation"
+      },
+      "the_database": {
+        "dataset_name": "Unified Host and Network Data Set",
+        "source_platform": "Los Alamos National Laboratory"
+      },
+      "the_benchmark_problem": {
+        "name": "NetFlow Graph Partitioning",
+        "dimensionality": "60,185 devices, 1,136,854 pairs"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "NP-hard",
+          "complex network"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "StaticHigh Genetic Programming"
+      },
+      "parameters": {
+        "population_size": 60,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.25,
+        "crossover_rate": 0.75
+      },
+      "performance_outcome": {
+        "metric": "Mean fitness of 0.98556 (1 - fraction of edge weight removed)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "IT/Cybersecurity",
+        "problem_context": "Automated design of multi-level network partitioning heuristics for network segmentation"
+      },
+      "the_database": {
+        "dataset_name": "Unified Host and Network Data Set",
+        "source_platform": "Los Alamos National Laboratory"
+      },
+      "the_benchmark_problem": {
+        "name": "Authentication Graph Partitioning",
+        "dimensionality": "9,924 users, 14,822 computers, 106,693 pairs"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "NP-hard",
+          "bipartite",
+          "complex network"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "StaticCombined Genetic Programming"
+      },
+      "parameters": {
+        "population_size": 60,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.25,
+        "crossover_rate": 0.75
+      },
+      "performance_outcome": {
+        "metric": "Mean fitness of 0.96001 (1 - fraction of edge weight removed)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "IT/Cybersecurity",
+        "problem_context": "Automated design of multi-level network partitioning heuristics for network segmentation"
+      },
+      "the_database": {
+        "dataset_name": "Unified Host and Network Data Set",
+        "source_platform": "Los Alamos National Laboratory"
+      },
+      "the_benchmark_problem": {
+        "name": "NetFlow Graph Partitioning",
+        "dimensionality": "60,185 devices, 1,136,854 pairs"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "NP-hard",
+          "complex network"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "StaticCombined Genetic Programming"
+      },
+      "parameters": {
+        "population_size": 60,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.25,
+        "crossover_rate": 0.75
+      },
+      "performance_outcome": {
+        "metric": "Mean fitness of 0.97700 (1 - fraction of edge weight removed)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

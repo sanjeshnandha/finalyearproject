@@ -1,0 +1,387 @@
+{
+  "metadata": {
+    "title": "Coevolutionary Modeling of Cyber Attack Patterns and Mitigations Using Public Datasets",
+    "authors": [
+      "Michal Shlapentokh-Rothman",
+      "Jonathan Kelly",
+      "Avital Baral",
+      "Erik Hemberg",
+      "Una-May O'Reilly"
+    ],
+    "year": 2021,
+    "source_file": "Shlapentokh-Rothman et al. - 2021 - Coevolutionary modeling of cyber attack patterns and mitigations using public datasets.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Cybersecurity",
+        "problem_context": "Coevolutionary modeling of cyber attack patterns and mitigations"
+      },
+      "the_database": {
+        "dataset_name": "CAPEC catalog, CVE dictionary, CVSS",
+        "source_platform": "MITRE, NIST"
+      },
+      "the_benchmark_problem": {
+        "name": "EvoAPT Cyber Attack and Mitigation - Small Network",
+        "dimensionality": "147 nodes"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "coevolutionary",
+          "discrete",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammatical Evolution (Attack)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 10,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Average Best Attack Fitness: 109,393",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Cybersecurity",
+        "problem_context": "Coevolutionary modeling of cyber attack patterns and mitigations"
+      },
+      "the_database": {
+        "dataset_name": "CAPEC catalog, CVE dictionary, CVSS",
+        "source_platform": "MITRE, NIST"
+      },
+      "the_benchmark_problem": {
+        "name": "EvoAPT Cyber Attack and Mitigation - Small Network",
+        "dimensionality": "147 nodes"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "coevolutionary",
+          "discrete",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammatical Evolution (Defense)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 10,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Average Best Defense Fitness: -90,566",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Cybersecurity",
+        "problem_context": "Coevolutionary modeling of cyber attack patterns and mitigations"
+      },
+      "the_database": {
+        "dataset_name": "CAPEC catalog, CVE dictionary, CVSS",
+        "source_platform": "MITRE, NIST"
+      },
+      "the_benchmark_problem": {
+        "name": "EvoAPT Cyber Attack and Mitigation - Small Network",
+        "dimensionality": "147 nodes"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "coevolutionary",
+          "discrete",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Coev (Coevolutionary Grammatical Evolution)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 10,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Average Best Attack Fitness: 105,386, Average Best Defense Fitness: -104,520",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Cybersecurity",
+        "problem_context": "Coevolutionary modeling of cyber attack patterns and mitigations"
+      },
+      "the_database": {
+        "dataset_name": "CAPEC catalog, CVE dictionary, CVSS",
+        "source_platform": "MITRE, NIST"
+      },
+      "the_benchmark_problem": {
+        "name": "EvoAPT Cyber Attack and Mitigation - Small Network",
+        "dimensionality": "147 nodes"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "coevolutionary",
+          "discrete",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LS_Coev (Lockstep Coevolutionary Grammatical Evolution)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 2,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Average Best Attack Fitness: 105,782, Average Best Defense Fitness: -105,031",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Cybersecurity",
+        "problem_context": "Coevolutionary modeling of cyber attack patterns and mitigations"
+      },
+      "the_database": {
+        "dataset_name": "CAPEC catalog, CVE dictionary, CVSS",
+        "source_platform": "MITRE, NIST"
+      },
+      "the_benchmark_problem": {
+        "name": "EvoAPT Cyber Attack and Mitigation - Small Network",
+        "dimensionality": "147 nodes"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "coevolutionary",
+          "discrete",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Recent_Coev (Recency-prioritized Coevolutionary Grammatical Evolution)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 10,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Average Best Attack Fitness: 108,367, Average Best Defense Fitness: -107,835",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Cybersecurity",
+        "problem_context": "Coevolutionary modeling of cyber attack patterns and mitigations"
+      },
+      "the_database": {
+        "dataset_name": "CAPEC catalog, CVE dictionary, CVSS",
+        "source_platform": "MITRE, NIST"
+      },
+      "the_benchmark_problem": {
+        "name": "EvoAPT Cyber Attack and Mitigation - Large Network",
+        "dimensionality": "787 nodes"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "coevolutionary",
+          "discrete",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammatical Evolution (Attack)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 10,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Average Best Attack Fitness: 426,659",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Cybersecurity",
+        "problem_context": "Coevolutionary modeling of cyber attack patterns and mitigations"
+      },
+      "the_database": {
+        "dataset_name": "CAPEC catalog, CVE dictionary, CVSS",
+        "source_platform": "MITRE, NIST"
+      },
+      "the_benchmark_problem": {
+        "name": "EvoAPT Cyber Attack and Mitigation - Large Network",
+        "dimensionality": "787 nodes"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "coevolutionary",
+          "discrete",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammatical Evolution (Defense)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 10,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Average Best Defense Fitness: -416,691",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Cybersecurity",
+        "problem_context": "Coevolutionary modeling of cyber attack patterns and mitigations"
+      },
+      "the_database": {
+        "dataset_name": "CAPEC catalog, CVE dictionary, CVSS",
+        "source_platform": "MITRE, NIST"
+      },
+      "the_benchmark_problem": {
+        "name": "EvoAPT Cyber Attack and Mitigation - Large Network",
+        "dimensionality": "787 nodes"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "coevolutionary",
+          "discrete",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Coev (Coevolutionary Grammatical Evolution)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 10,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Average Best Attack Fitness: 426,648, Average Best Defense Fitness: -421,485",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Cybersecurity",
+        "problem_context": "Coevolutionary modeling of cyber attack patterns and mitigations"
+      },
+      "the_database": {
+        "dataset_name": "CAPEC catalog, CVE dictionary, CVSS",
+        "source_platform": "MITRE, NIST"
+      },
+      "the_benchmark_problem": {
+        "name": "EvoAPT Cyber Attack and Mitigation - Large Network",
+        "dimensionality": "787 nodes"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "coevolutionary",
+          "discrete",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LS_Coev (Lockstep Coevolutionary Grammatical Evolution)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 2,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Average Best Attack Fitness: 426,652, Average Best Defense Fitness: -423,619",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Cybersecurity",
+        "problem_context": "Coevolutionary modeling of cyber attack patterns and mitigations"
+      },
+      "the_database": {
+        "dataset_name": "CAPEC catalog, CVE dictionary, CVSS",
+        "source_platform": "MITRE, NIST"
+      },
+      "the_benchmark_problem": {
+        "name": "EvoAPT Cyber Attack and Mitigation - Large Network",
+        "dimensionality": "787 nodes"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "coevolutionary",
+          "discrete",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Recent_Coev (Recency-prioritized Coevolutionary Grammatical Evolution)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 10,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Average Best Attack Fitness: 426,813, Average Best Defense Fitness: -419,668",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

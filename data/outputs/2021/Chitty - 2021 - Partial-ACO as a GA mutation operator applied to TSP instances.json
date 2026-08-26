@@ -1,0 +1,589 @@
+{
+  "metadata": {
+    "title": "Partial-ACO as a GA Mutation Operator Applied to TSP Instances",
+    "authors": [
+      "Darren M. Chitty"
+    ],
+    "year": 2021,
+    "source_file": "Chitty - 2021 - Partial-ACO as a GA mutation operator applied to TSP instances.pdf",
+    "gecco_track": "GECCO '21 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "lin318",
+        "dimensionality": "318D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard Genetic Algorithm"
+      },
+      "parameters": {
+        "population_size": 128,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.33,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average error from optimal solution (CX: 5.13%, OX: 11.24%, PMX: 5.84%)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "lin318",
+        "dimensionality": "318D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm with Partial-ACO Mutation"
+      },
+      "parameters": {
+        "population_size": 128,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.33,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average error from optimal solution (CX: 2.49%, OX: 2.88%, PMX: 2.98%)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "pcb442",
+        "dimensionality": "442D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard Genetic Algorithm"
+      },
+      "parameters": {
+        "population_size": 128,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.33,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average error from optimal solution (CX: 5.83%, OX: 19.70%, PMX: 6.35%)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "pcb442",
+        "dimensionality": "442D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm with Partial-ACO Mutation"
+      },
+      "parameters": {
+        "population_size": 128,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.33,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average error from optimal solution (CX: 2.83%, OX: 6.05%, PMX: 3.05%)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "rat783",
+        "dimensionality": "783D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard Genetic Algorithm"
+      },
+      "parameters": {
+        "population_size": 128,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.33,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average error from optimal solution (CX: 9.32%, OX: 31.82%, PMX: 8.87%)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "rat783",
+        "dimensionality": "783D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm with Partial-ACO Mutation"
+      },
+      "parameters": {
+        "population_size": 128,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.33,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average error from optimal solution (CX: 3.53%, OX: 9.60%, PMX: 4.07%)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "pr1002",
+        "dimensionality": "1002D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard Genetic Algorithm"
+      },
+      "parameters": {
+        "population_size": 128,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.33,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average error from optimal solution (CX: 12.12%, OX: 35.67%, PMX: 10.63%)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "pr1002",
+        "dimensionality": "1002D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm with Partial-ACO Mutation"
+      },
+      "parameters": {
+        "population_size": 128,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.33,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average error from optimal solution (CX: 3.71%, OX: 10.77%, PMX: 4.16%)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "fl1400",
+        "dimensionality": "1400D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard Genetic Algorithm"
+      },
+      "parameters": {
+        "population_size": 128,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.33,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average error from optimal solution (CX: 14.22%, OX: 31.22%, PMX: 11.24%)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "fl1400",
+        "dimensionality": "1400D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm with Partial-ACO Mutation"
+      },
+      "parameters": {
+        "population_size": 128,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.33,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average error from optimal solution (CX: 3.82%, OX: 8.86%, PMX: 5.12%)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "u2192",
+        "dimensionality": "2192D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard Genetic Algorithm"
+      },
+      "parameters": {
+        "population_size": 128,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.33,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average error from optimal solution (CX: 31.09%, OX: 47.97%, PMX: 25.80%)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "u2192",
+        "dimensionality": "2192D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm with Partial-ACO Mutation"
+      },
+      "parameters": {
+        "population_size": 128,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.33,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average error from optimal solution (CX: 5.17%, OX: 14.37%, PMX: 6.44%)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "pr2392",
+        "dimensionality": "2392D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard Genetic Algorithm"
+      },
+      "parameters": {
+        "population_size": 128,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.33,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average error from optimal solution (CX: 30.50%, OX: 45.74%, PMX: 25.07%)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "pr2392",
+        "dimensionality": "2392D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm with Partial-ACO Mutation"
+      },
+      "parameters": {
+        "population_size": 128,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.33,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average error from optimal solution (CX: 5.40%, OX: 17.14%, PMX: 6.05%)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "fl3975",
+        "dimensionality": "3975D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard Genetic Algorithm"
+      },
+      "parameters": {
+        "population_size": 128,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.33,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average error from optimal solution (CX: 45.34%, OX: 56.57%, PMX: 39.62%)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "fl3975",
+        "dimensionality": "3975D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "symmetric"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm with Partial-ACO Mutation"
+      },
+      "parameters": {
+        "population_size": 128,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.33,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average error from optimal solution (CX: 4.96%, OX: 12.67%, PMX: 6.99%)",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

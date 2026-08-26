@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "title": "Evolving Hardware-Efficient Grover Circuits with Grammatical Evolution",
+    "authors": [
+      "Arinze Obidiegwu",
+      "Douglas Mota Dias",
+      "Emmanuel Obidiegwu",
+      "Conor Ryan"
+    ],
+    "year": 2026,
+    "source_file": "Obidiegwu et al. - 2026 - Evolving Hardware-Efficient Grover Circuits with Grammatical Evolution.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Synthesizing hardware-efficient quantum circuits for Grover's algorithm"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "3-qubit Grover Circuit Synthesis (Separable States)",
+        "dimensionality": "3-qubit"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "sparse",
+          "neutral networks"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammatical Evolution"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hardware-executed fidelity",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Synthesizing hardware-efficient quantum circuits for Grover's algorithm"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "3-qubit Grover Circuit Synthesis (Entangled States)",
+        "dimensionality": "3-qubit"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sparse",
+          "neutral networks",
+          "high-complexity"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammatical Evolution"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Hardware-executed fidelity",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

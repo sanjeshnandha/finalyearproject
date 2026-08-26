@@ -1,0 +1,1536 @@
+{
+  "metadata": {
+    "title": "Efficient Contextual Preferential Bayesian Optimization with Historical Examples",
+    "authors": [
+      "Farha A. Khan",
+      "Tanmay Chakraborty",
+      "Jörg P. Dietrich",
+      "Christian Wirth"
+    ],
+    "year": 2025,
+    "source_file": "Khan et al. - 2025 - Efficient Contextual Preferential Bayesian Optimization with Historical Examples.pdf",
+    "gecco_track": "Genetic and Evolutionary Computation Conference (GECCO '25 Companion)"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ZDT3",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "non-linearities",
+          "truncated terms",
+          "dependencies between dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Linear (BO) - Unbiased Samples"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Kendall's Tau ranking similarity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ZDT3",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "non-linearities",
+          "truncated terms",
+          "dependencies between dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Adaptable (BO) - Unbiased Samples"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Kendall's Tau ranking similarity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ZDT3",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "non-linearities",
+          "truncated terms",
+          "dependencies between dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Informed (BO) - Unbiased Samples"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Kendall's Tau ranking similarity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ZDT3",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "non-linearities",
+          "truncated terms",
+          "dependencies between dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SVM (BO) - Unbiased Samples"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Kendall's Tau ranking similarity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ZDT3",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "non-linearities",
+          "truncated terms",
+          "dependencies between dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GP (BO) - Unbiased Samples"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Kendall's Tau ranking similarity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "non-linearities",
+          "truncated terms",
+          "dependencies between dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Linear (BO) - Unbiased Samples"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Kendall's Tau ranking similarity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "non-linearities",
+          "truncated terms",
+          "dependencies between dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Adaptable (BO) - Unbiased Samples"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Kendall's Tau ranking similarity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "non-linearities",
+          "truncated terms",
+          "dependencies between dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Informed (BO) - Unbiased Samples"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Kendall's Tau ranking similarity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "non-linearities",
+          "truncated terms",
+          "dependencies between dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SVM (BO) - Unbiased Samples"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Kendall's Tau ranking similarity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "non-linearities",
+          "truncated terms",
+          "dependencies between dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GP (BO) - Unbiased Samples"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Kendall's Tau ranking similarity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Evaluating real-world surrogate models"
+      },
+      "the_database": {
+        "dataset_name": "CAR surrogate model",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CAR",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "non-linearities",
+          "truncated terms",
+          "dependencies between dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Linear (BO) - Unbiased Samples"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Kendall's Tau ranking similarity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Evaluating real-world surrogate models"
+      },
+      "the_database": {
+        "dataset_name": "CAR surrogate model",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CAR",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "non-linearities",
+          "truncated terms",
+          "dependencies between dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Adaptable (BO) - Unbiased Samples"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Kendall's Tau ranking similarity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Evaluating real-world surrogate models"
+      },
+      "the_database": {
+        "dataset_name": "CAR surrogate model",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CAR",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "non-linearities",
+          "truncated terms",
+          "dependencies between dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Informed (BO) - Unbiased Samples"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Kendall's Tau ranking similarity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Evaluating real-world surrogate models"
+      },
+      "the_database": {
+        "dataset_name": "CAR surrogate model",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CAR",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "non-linearities",
+          "truncated terms",
+          "dependencies between dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SVM (BO) - Unbiased Samples"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Kendall's Tau ranking similarity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Evaluating real-world surrogate models"
+      },
+      "the_database": {
+        "dataset_name": "CAR surrogate model",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CAR",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "non-linearities",
+          "truncated terms",
+          "dependencies between dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GP (BO) - Unbiased Samples"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Kendall's Tau ranking similarity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Evaluating real-world surrogate models"
+      },
+      "the_database": {
+        "dataset_name": "WATER surrogate model",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WATER",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "non-linearities",
+          "truncated terms",
+          "dependencies between dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Linear (BO) - Unbiased Samples"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Kendall's Tau ranking similarity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Evaluating real-world surrogate models"
+      },
+      "the_database": {
+        "dataset_name": "WATER surrogate model",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WATER",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "non-linearities",
+          "truncated terms",
+          "dependencies between dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Adaptable (BO) - Unbiased Samples"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Kendall's Tau ranking similarity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Evaluating real-world surrogate models"
+      },
+      "the_database": {
+        "dataset_name": "WATER surrogate model",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WATER",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "non-linearities",
+          "truncated terms",
+          "dependencies between dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Informed (BO) - Unbiased Samples"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Kendall's Tau ranking similarity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Evaluating real-world surrogate models"
+      },
+      "the_database": {
+        "dataset_name": "WATER surrogate model",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WATER",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "non-linearities",
+          "truncated terms",
+          "dependencies between dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SVM (BO) - Unbiased Samples"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Kendall's Tau ranking similarity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Evaluating real-world surrogate models"
+      },
+      "the_database": {
+        "dataset_name": "WATER surrogate model",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WATER",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "non-linearities",
+          "truncated terms",
+          "dependencies between dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GP (BO) - Unbiased Samples"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Kendall's Tau ranking similarity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ZDT3",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "non-linearities",
+          "truncated terms",
+          "dependencies between dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Linear (BO) - Biased Samples"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Kendall's Tau ranking similarity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ZDT3",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "non-linearities",
+          "truncated terms",
+          "dependencies between dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Adaptable (BO) - Biased Samples"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Kendall's Tau ranking similarity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ZDT3",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "non-linearities",
+          "truncated terms",
+          "dependencies between dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Informed (BO) - Biased Samples"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Kendall's Tau ranking similarity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ZDT3",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "non-linearities",
+          "truncated terms",
+          "dependencies between dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SVM (BO) - Biased Samples"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Kendall's Tau ranking similarity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ZDT3",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "non-linearities",
+          "truncated terms",
+          "dependencies between dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GP (BO) - Biased Samples"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Kendall's Tau ranking similarity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "non-linearities",
+          "truncated terms",
+          "dependencies between dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Linear (BO) - Biased Samples"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Kendall's Tau ranking similarity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "non-linearities",
+          "truncated terms",
+          "dependencies between dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Adaptable (BO) - Biased Samples"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Kendall's Tau ranking similarity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "non-linearities",
+          "truncated terms",
+          "dependencies between dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Informed (BO) - Biased Samples"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Kendall's Tau ranking similarity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "non-linearities",
+          "truncated terms",
+          "dependencies between dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SVM (BO) - Biased Samples"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Kendall's Tau ranking similarity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ2",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "non-linearities",
+          "truncated terms",
+          "dependencies between dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GP (BO) - Biased Samples"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Kendall's Tau ranking similarity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Evaluating real-world surrogate models"
+      },
+      "the_database": {
+        "dataset_name": "CAR surrogate model",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CAR",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "non-linearities",
+          "truncated terms",
+          "dependencies between dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Linear (BO) - Biased Samples"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Kendall's Tau ranking similarity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Evaluating real-world surrogate models"
+      },
+      "the_database": {
+        "dataset_name": "CAR surrogate model",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CAR",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "non-linearities",
+          "truncated terms",
+          "dependencies between dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Adaptable (BO) - Biased Samples"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Kendall's Tau ranking similarity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Evaluating real-world surrogate models"
+      },
+      "the_database": {
+        "dataset_name": "CAR surrogate model",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CAR",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "non-linearities",
+          "truncated terms",
+          "dependencies between dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Informed (BO) - Biased Samples"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Kendall's Tau ranking similarity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Evaluating real-world surrogate models"
+      },
+      "the_database": {
+        "dataset_name": "CAR surrogate model",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CAR",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "non-linearities",
+          "truncated terms",
+          "dependencies between dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SVM (BO) - Biased Samples"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Kendall's Tau ranking similarity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Evaluating real-world surrogate models"
+      },
+      "the_database": {
+        "dataset_name": "CAR surrogate model",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CAR",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "non-linearities",
+          "truncated terms",
+          "dependencies between dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GP (BO) - Biased Samples"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Kendall's Tau ranking similarity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Evaluating real-world surrogate models"
+      },
+      "the_database": {
+        "dataset_name": "WATER surrogate model",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WATER",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "non-linearities",
+          "truncated terms",
+          "dependencies between dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Linear (BO) - Biased Samples"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Kendall's Tau ranking similarity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Evaluating real-world surrogate models"
+      },
+      "the_database": {
+        "dataset_name": "WATER surrogate model",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WATER",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "non-linearities",
+          "truncated terms",
+          "dependencies between dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Adaptable (BO) - Biased Samples"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Kendall's Tau ranking similarity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Evaluating real-world surrogate models"
+      },
+      "the_database": {
+        "dataset_name": "WATER surrogate model",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WATER",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "non-linearities",
+          "truncated terms",
+          "dependencies between dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Informed (BO) - Biased Samples"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Kendall's Tau ranking similarity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Evaluating real-world surrogate models"
+      },
+      "the_database": {
+        "dataset_name": "WATER surrogate model",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WATER",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "non-linearities",
+          "truncated terms",
+          "dependencies between dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SVM (BO) - Biased Samples"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Kendall's Tau ranking similarity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Evaluating real-world surrogate models"
+      },
+      "the_database": {
+        "dataset_name": "WATER surrogate model",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WATER",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "non-linearities",
+          "truncated terms",
+          "dependencies between dimensions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GP (BO) - Biased Samples"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 800,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Kendall's Tau ranking similarity",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

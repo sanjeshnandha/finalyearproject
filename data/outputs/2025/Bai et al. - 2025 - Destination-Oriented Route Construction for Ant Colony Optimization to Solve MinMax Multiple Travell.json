@@ -1,0 +1,4219 @@
+{
+  "metadata": {
+    "title": "Destination-Oriented Route Construction for Ant Colony Optimization to Solve MinMax Multiple Travelling Salesmen Problems",
+    "authors": [
+      "Hai-Long Bai",
+      "Pei-Yan Yuan",
+      "Tao Li",
+      "Dong Liu",
+      "Qiang Yang",
+      "Jun Zhang",
+      "Dan-Ting Duan"
+    ],
+    "year": 2025,
+    "source_file": "Bai et al. - 2025 - Destination-Oriented Route Construction for Ant Colony Optimization to Solve MinMax Multiple Travell.pdf",
+    "gecco_track": "Combinatorial Optimization"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "eil51-3 MTSP",
+        "dimensionality": "51 cities, 3 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ant System (AS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "eil51-5 MTSP",
+        "dimensionality": "51 cities, 5 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ant System (AS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "eil51-10 MTSP",
+        "dimensionality": "51 cities, 10 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ant System (AS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA100-3 MTSP",
+        "dimensionality": "100 cities, 3 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ant System (AS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA100-5 MTSP",
+        "dimensionality": "100 cities, 5 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ant System (AS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA100-10 MTSP",
+        "dimensionality": "100 cities, 10 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ant System (AS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA150-3 MTSP",
+        "dimensionality": "150 cities, 3 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ant System (AS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA150-5 MTSP",
+        "dimensionality": "150 cities, 5 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ant System (AS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA150-10 MTSP",
+        "dimensionality": "150 cities, 10 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ant System (AS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA200-3 MTSP",
+        "dimensionality": "200 cities, 3 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ant System (AS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA200-5 MTSP",
+        "dimensionality": "200 cities, 5 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ant System (AS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA200-10 MTSP",
+        "dimensionality": "200 cities, 10 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ant System (AS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "eil51-3 MTSP",
+        "dimensionality": "51 cities, 3 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Elite Ant System (EAS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "eil51-5 MTSP",
+        "dimensionality": "51 cities, 5 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Elite Ant System (EAS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "eil51-10 MTSP",
+        "dimensionality": "51 cities, 10 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Elite Ant System (EAS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA100-3 MTSP",
+        "dimensionality": "100 cities, 3 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Elite Ant System (EAS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA100-5 MTSP",
+        "dimensionality": "100 cities, 5 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Elite Ant System (EAS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA100-10 MTSP",
+        "dimensionality": "100 cities, 10 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Elite Ant System (EAS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA150-3 MTSP",
+        "dimensionality": "150 cities, 3 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Elite Ant System (EAS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA150-5 MTSP",
+        "dimensionality": "150 cities, 5 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Elite Ant System (EAS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA150-10 MTSP",
+        "dimensionality": "150 cities, 10 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Elite Ant System (EAS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA200-3 MTSP",
+        "dimensionality": "200 cities, 3 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Elite Ant System (EAS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA200-5 MTSP",
+        "dimensionality": "200 cities, 5 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Elite Ant System (EAS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA200-10 MTSP",
+        "dimensionality": "200 cities, 10 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Elite Ant System (EAS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "eil51-3 MTSP",
+        "dimensionality": "51 cities, 3 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Rank-based Ant System (RAS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "eil51-5 MTSP",
+        "dimensionality": "51 cities, 5 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Rank-based Ant System (RAS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "eil51-10 MTSP",
+        "dimensionality": "51 cities, 10 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Rank-based Ant System (RAS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA100-3 MTSP",
+        "dimensionality": "100 cities, 3 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Rank-based Ant System (RAS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA100-5 MTSP",
+        "dimensionality": "100 cities, 5 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Rank-based Ant System (RAS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA100-10 MTSP",
+        "dimensionality": "100 cities, 10 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Rank-based Ant System (RAS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA150-3 MTSP",
+        "dimensionality": "150 cities, 3 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Rank-based Ant System (RAS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA150-5 MTSP",
+        "dimensionality": "150 cities, 5 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Rank-based Ant System (RAS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA150-10 MTSP",
+        "dimensionality": "150 cities, 10 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Rank-based Ant System (RAS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA200-3 MTSP",
+        "dimensionality": "200 cities, 3 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Rank-based Ant System (RAS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA200-5 MTSP",
+        "dimensionality": "200 cities, 5 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Rank-based Ant System (RAS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA200-10 MTSP",
+        "dimensionality": "200 cities, 10 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Rank-based Ant System (RAS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "eil51-3 MTSP",
+        "dimensionality": "51 cities, 3 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Max-Min Ant System (MMAS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "eil51-5 MTSP",
+        "dimensionality": "51 cities, 5 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Max-Min Ant System (MMAS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "eil51-10 MTSP",
+        "dimensionality": "51 cities, 10 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Max-Min Ant System (MMAS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA100-3 MTSP",
+        "dimensionality": "100 cities, 3 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Max-Min Ant System (MMAS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA100-5 MTSP",
+        "dimensionality": "100 cities, 5 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Max-Min Ant System (MMAS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA100-10 MTSP",
+        "dimensionality": "100 cities, 10 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Max-Min Ant System (MMAS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA150-3 MTSP",
+        "dimensionality": "150 cities, 3 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Max-Min Ant System (MMAS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA150-5 MTSP",
+        "dimensionality": "150 cities, 5 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Max-Min Ant System (MMAS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA150-10 MTSP",
+        "dimensionality": "150 cities, 10 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Max-Min Ant System (MMAS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA200-3 MTSP",
+        "dimensionality": "200 cities, 3 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Max-Min Ant System (MMAS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA200-5 MTSP",
+        "dimensionality": "200 cities, 5 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Max-Min Ant System (MMAS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA200-10 MTSP",
+        "dimensionality": "200 cities, 10 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Max-Min Ant System (MMAS)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "eil51-3 MTSP",
+        "dimensionality": "51 cities, 3 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ant Colony System (ACS)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "eil51-5 MTSP",
+        "dimensionality": "51 cities, 5 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ant Colony System (ACS)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "eil51-10 MTSP",
+        "dimensionality": "51 cities, 10 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ant Colony System (ACS)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA100-3 MTSP",
+        "dimensionality": "100 cities, 3 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ant Colony System (ACS)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA100-5 MTSP",
+        "dimensionality": "100 cities, 5 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ant Colony System (ACS)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA100-10 MTSP",
+        "dimensionality": "100 cities, 10 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ant Colony System (ACS)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA150-3 MTSP",
+        "dimensionality": "150 cities, 3 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ant Colony System (ACS)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA150-5 MTSP",
+        "dimensionality": "150 cities, 5 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ant Colony System (ACS)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA150-10 MTSP",
+        "dimensionality": "150 cities, 10 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ant Colony System (ACS)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA200-3 MTSP",
+        "dimensionality": "200 cities, 3 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ant Colony System (ACS)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA200-5 MTSP",
+        "dimensionality": "200 cities, 5 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ant Colony System (ACS)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA200-10 MTSP",
+        "dimensionality": "200 cities, 10 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ant Colony System (ACS)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "eil51-3 MTSP",
+        "dimensionality": "51 cities, 3 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "eil51-5 MTSP",
+        "dimensionality": "51 cities, 5 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "eil51-10 MTSP",
+        "dimensionality": "51 cities, 10 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA100-3 MTSP",
+        "dimensionality": "100 cities, 3 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA100-5 MTSP",
+        "dimensionality": "100 cities, 5 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA100-10 MTSP",
+        "dimensionality": "100 cities, 10 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA150-3 MTSP",
+        "dimensionality": "150 cities, 3 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA150-5 MTSP",
+        "dimensionality": "150 cities, 5 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA150-10 MTSP",
+        "dimensionality": "150 cities, 10 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA200-3 MTSP",
+        "dimensionality": "200 cities, 3 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA200-5 MTSP",
+        "dimensionality": "200 cities, 5 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA200-10 MTSP",
+        "dimensionality": "200 cities, 10 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "eil51-3 MTSP",
+        "dimensionality": "51 cities, 3 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EAS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "eil51-5 MTSP",
+        "dimensionality": "51 cities, 5 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EAS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "eil51-10 MTSP",
+        "dimensionality": "51 cities, 10 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EAS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA100-3 MTSP",
+        "dimensionality": "100 cities, 3 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EAS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA100-5 MTSP",
+        "dimensionality": "100 cities, 5 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EAS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA100-10 MTSP",
+        "dimensionality": "100 cities, 10 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EAS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA150-3 MTSP",
+        "dimensionality": "150 cities, 3 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EAS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA150-5 MTSP",
+        "dimensionality": "150 cities, 5 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EAS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA150-10 MTSP",
+        "dimensionality": "150 cities, 10 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EAS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA200-3 MTSP",
+        "dimensionality": "200 cities, 3 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EAS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA200-5 MTSP",
+        "dimensionality": "200 cities, 5 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EAS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA200-10 MTSP",
+        "dimensionality": "200 cities, 10 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EAS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "eil51-3 MTSP",
+        "dimensionality": "51 cities, 3 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RAS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "eil51-5 MTSP",
+        "dimensionality": "51 cities, 5 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RAS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "eil51-10 MTSP",
+        "dimensionality": "51 cities, 10 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RAS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA100-3 MTSP",
+        "dimensionality": "100 cities, 3 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RAS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA100-5 MTSP",
+        "dimensionality": "100 cities, 5 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RAS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA100-10 MTSP",
+        "dimensionality": "100 cities, 10 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RAS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA150-3 MTSP",
+        "dimensionality": "150 cities, 3 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RAS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA150-5 MTSP",
+        "dimensionality": "150 cities, 5 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RAS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA150-10 MTSP",
+        "dimensionality": "150 cities, 10 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RAS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA200-3 MTSP",
+        "dimensionality": "200 cities, 3 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RAS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA200-5 MTSP",
+        "dimensionality": "200 cities, 5 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RAS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA200-10 MTSP",
+        "dimensionality": "200 cities, 10 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RAS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "eil51-3 MTSP",
+        "dimensionality": "51 cities, 3 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MMAS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "eil51-5 MTSP",
+        "dimensionality": "51 cities, 5 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MMAS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "eil51-10 MTSP",
+        "dimensionality": "51 cities, 10 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MMAS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA100-3 MTSP",
+        "dimensionality": "100 cities, 3 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MMAS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA100-5 MTSP",
+        "dimensionality": "100 cities, 5 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MMAS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA100-10 MTSP",
+        "dimensionality": "100 cities, 10 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MMAS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA150-3 MTSP",
+        "dimensionality": "150 cities, 3 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MMAS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA150-5 MTSP",
+        "dimensionality": "150 cities, 5 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MMAS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA150-10 MTSP",
+        "dimensionality": "150 cities, 10 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MMAS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA200-3 MTSP",
+        "dimensionality": "200 cities, 3 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MMAS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA200-5 MTSP",
+        "dimensionality": "200 cities, 5 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MMAS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA200-10 MTSP",
+        "dimensionality": "200 cities, 10 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MMAS-DORC"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "eil51-3 MTSP",
+        "dimensionality": "51 cities, 3 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ACS-DORC"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "eil51-5 MTSP",
+        "dimensionality": "51 cities, 5 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ACS-DORC"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "eil51-10 MTSP",
+        "dimensionality": "51 cities, 10 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ACS-DORC"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA100-3 MTSP",
+        "dimensionality": "100 cities, 3 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ACS-DORC"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA100-5 MTSP",
+        "dimensionality": "100 cities, 5 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ACS-DORC"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA100-10 MTSP",
+        "dimensionality": "100 cities, 10 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ACS-DORC"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA150-3 MTSP",
+        "dimensionality": "150 cities, 3 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ACS-DORC"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA150-5 MTSP",
+        "dimensionality": "150 cities, 5 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ACS-DORC"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA150-10 MTSP",
+        "dimensionality": "150 cities, 10 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ACS-DORC"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA200-3 MTSP",
+        "dimensionality": "200 cities, 3 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ACS-DORC"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA200-5 MTSP",
+        "dimensionality": "200 cities, 5 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ACS-DORC"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "MinMax Multiple Traveling Salesmen Problem (MTSP)"
+      },
+      "the_database": {
+        "dataset_name": "MTSP instances derived from TSPLIB (eil51, kroA100, kroA150, kroA200)",
+        "source_platform": "TSPLIB"
+      },
+      "the_benchmark_problem": {
+        "name": "kroA200-10 MTSP",
+        "dimensionality": "200 cities, 10 salesmen"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "Combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ACS-DORC"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved (minimum maximum route length)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

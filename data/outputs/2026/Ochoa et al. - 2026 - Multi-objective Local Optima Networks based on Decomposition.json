@@ -1,0 +1,168 @@
+{
+  "metadata": {
+    "title": "Multi-objective Local Optima Networks based on Decomposition",
+    "authors": [
+      "Gabriela Ochoa",
+      "Quentin Renau",
+      "Arnaud Liefooghe",
+      "Jonathan E. Fieldsend"
+    ],
+    "year": 2026,
+    "source_file": "Ochoa et al. - 2026 - Multi-objective Local Optima Networks based on Decomposition.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "rho-mnk-landscapes",
+        "dimensionality": "16D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "correlated objectives",
+          "combinatorial",
+          "epistatic interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Pareto Local Search (PLS)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Relative hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "rho-mnk-landscapes",
+        "dimensionality": "16D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "correlated objectives",
+          "combinatorial",
+          "epistatic interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Global Simple Evolutionary Multi-objective Optimizer (G-SEMO)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": 0.0625,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Relative hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "rho-mnk-landscapes",
+        "dimensionality": "16D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "correlated objectives",
+          "combinatorial",
+          "epistatic interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Non-dominated Sorting Genetic Algorithm II (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": 0.0625,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Relative hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "rho-mnk-landscapes",
+        "dimensionality": "16D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "correlated objectives",
+          "combinatorial",
+          "epistatic interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-objective Evolutionary Algorithm based on Decomposition (MOEA/D)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": 0.0625,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Relative hypervolume",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

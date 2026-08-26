@@ -1,0 +1,125 @@
+{
+  "metadata": {
+    "title": "BACE: LLM-based Code Generation through Bayesian Anchored Co-Evolution of Code and Test Populations",
+    "authors": [
+      "Kaushitha Silva",
+      "Srinath Perera"
+    ],
+    "year": 2026,
+    "source_file": "Silva and Perera - 2026 - BACE LLM-based Code Generation through Bayesian Anchored Co-Evolution of Code and Test Populations.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Program synthesis / Code generation"
+      },
+      "the_database": {
+        "dataset_name": "LiveCodeBench v6",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "LiveCodeBench v6",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "local optima",
+          "co-evolutionary drift"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "BACE (GPT-5-Mini)"
+      },
+      "parameters": {
+        "population_size": 15,
+        "max_evaluations_or_generations": 10,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Pass@1 (Overall): 66.7%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Program synthesis / Code generation"
+      },
+      "the_database": {
+        "dataset_name": "LiveCodeBench v6",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "LiveCodeBench v6",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "local optima",
+          "co-evolutionary drift"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "BACE (Qwen2.5-Coder-7b)"
+      },
+      "parameters": {
+        "population_size": 15,
+        "max_evaluations_or_generations": 10,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Pass@1 (Overall): 29.6%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Program synthesis / Code generation"
+      },
+      "the_database": {
+        "dataset_name": "LiveCodeBench v6",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "LiveCodeBench v6",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "local optima",
+          "co-evolutionary drift"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "BACE (GPT-OSS-120b)"
+      },
+      "parameters": {
+        "population_size": 15,
+        "max_evaluations_or_generations": 10,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Pass@1 (Overall): 72.5%",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "metadata": {
+    "title": "Genetic Algorithm Niching by (Quasi-)Infinite Memory",
+    "authors": [
+      "Adrian Worring",
+      "Benjamin E. Mayer",
+      "Kay Hamacher"
+    ],
+    "year": 2021,
+    "source_file": "Worring et al. - 2021 - Genetic algorithm niching by (Quasi-)infinite memory.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Ising spin glass energy minimization"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ising spin glass",
+        "dimensionality": "8x8"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "NP-hard",
+          "multiple minima",
+          "large barriers"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GA with Bloom filter"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 30000,
+        "mutation_rate": 0.6,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean minimal relative error",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Ising spin glass energy minimization"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ising spin glass",
+        "dimensionality": "8x8"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "NP-hard",
+          "multiple minima",
+          "large barriers"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Traditional GA"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 30000,
+        "mutation_rate": 1.0,
+        "crossover_rate": 0.2
+      },
+      "performance_outcome": {
+        "metric": "Mean minimal relative error",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Ising spin glass energy minimization"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ising spin glass",
+        "dimensionality": "10x10"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "NP-hard",
+          "multiple minima",
+          "large barriers"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GA with Bloom filter"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 200000,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.4
+      },
+      "performance_outcome": {
+        "metric": "Mean minimal relative error",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Ising spin glass energy minimization"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ising spin glass",
+        "dimensionality": "10x10"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "NP-hard",
+          "multiple minima",
+          "large barriers"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Traditional GA"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 200000,
+        "mutation_rate": 1.0,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Mean minimal relative error",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Ising spin glass energy minimization"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ising spin glass",
+        "dimensionality": "12x12"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "NP-hard",
+          "multiple minima",
+          "large barriers"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GA with Bloom filter"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 250000,
+        "mutation_rate": 0.4,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Mean minimal relative error",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Ising spin glass energy minimization"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ising spin glass",
+        "dimensionality": "12x12"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "NP-hard",
+          "multiple minima",
+          "large barriers"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Traditional GA"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 250000,
+        "mutation_rate": 1.0,
+        "crossover_rate": 0.2
+      },
+      "performance_outcome": {
+        "metric": "Mean minimal relative error",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

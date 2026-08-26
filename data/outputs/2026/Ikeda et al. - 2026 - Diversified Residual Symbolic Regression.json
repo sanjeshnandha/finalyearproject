@@ -1,0 +1,310 @@
+{
+  "metadata": {
+    "title": "Diversified Residual Symbolic Regression",
+    "authors": [
+      "Koki Ikeda",
+      "Masahiro Nomura",
+      "Ryoki Hamano"
+    ],
+    "year": 2026,
+    "source_file": "Ikeda et al. - 2026 - Diversified Residual Symbolic Regression.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Nguyen-1",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "outliers"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Diversified Residual Symbolic Regression (DRSR)"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 2000000,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Best predictive accuracy on the base subset",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Nguyen-7",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "outliers"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Diversified Residual Symbolic Regression (DRSR)"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 2000000,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Best predictive accuracy on the base subset",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Nguyen-11",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "outliers"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Diversified Residual Symbolic Regression (DRSR)"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 2000000,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Best predictive accuracy on the base subset",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Nguyen-12",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "outliers"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Diversified Residual Symbolic Regression (DRSR)"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 2000000,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Best predictive accuracy on the base subset",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Synthetic Mixture Dataset (D_mixed)",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "heterogeneous",
+          "mixture model",
+          "non-convex",
+          "multi-modal coefficient landscape"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Diversified Residual Symbolic Regression (DRSR)"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 2000000,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Best fitness, component-wise accuracies, coverage, QD-Score, Hyper Volume",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Synthetic Mixture Dataset (D_mixed)",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "heterogeneous",
+          "mixture model",
+          "non-convex",
+          "multi-modal coefficient landscape"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard Single-Objective Symbolic Regression (SR)"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 2000000,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Best fitness, component-wise accuracies, coverage, QD-Score, Hyper Volume",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Synthetic Mixture Dataset (D_mixed)",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "heterogeneous",
+          "mixture model",
+          "non-convex",
+          "multi-modal coefficient landscape"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multiobjective Symbolic Regression (MOSR)"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 2000000,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Best fitness, component-wise accuracies, coverage, QD-Score, Hyper Volume",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Space / Astronomy",
+        "problem_context": "Discovering mass-luminosity relations of stars"
+      },
+      "the_database": {
+        "dataset_name": "DEBCat stellar dataset",
+        "source_platform": "VizieR"
+      },
+      "the_benchmark_problem": {
+        "name": "Mass-Luminosity Relation Discovery",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "real-world data",
+          "outliers",
+          "heterogeneous stages of stellar evolution"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Diversified Residual Symbolic Regression (DRSR)"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 2000000,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Discovery of expressions consistent with known physical relationships (power-law form)",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

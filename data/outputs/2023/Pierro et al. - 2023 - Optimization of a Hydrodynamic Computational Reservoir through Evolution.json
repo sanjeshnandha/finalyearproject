@@ -1,0 +1,125 @@
+{
+  "metadata": {
+    "title": "Optimization of a Hydrodynamic Computational Reservoir through Evolution",
+    "authors": [
+      "Alessandro Pierro",
+      "Kristine Heiney",
+      "Shamit Shrivastava",
+      "Giulia Marcucci",
+      "Stefano Nichele"
+    ],
+    "year": 2023,
+    "source_file": "Pierro et al. - 2023 - Optimization of a Hydrodynamic Computational Reservoir through Evolution.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Optimizing hyper-parameters of a hydrodynamic computational reservoir"
+      },
+      "the_database": {
+        "dataset_name": "XNOR truth table",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "XNOR classification task (Amplitude Encoding)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "coupled parameters"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAP-Elites"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Readout matrix determinant",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Optimizing hyper-parameters of a hydrodynamic computational reservoir"
+      },
+      "the_database": {
+        "dataset_name": "XNOR truth table",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "XNOR classification task (Frequency Encoding)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "coupled parameters"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAP-Elites"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Readout matrix determinant",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Optimizing hyper-parameters of a hydrodynamic computational reservoir"
+      },
+      "the_database": {
+        "dataset_name": "Sigmoid function dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Sigmoid regression task (Amplitude Encoding)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "coupled parameters"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAP-Elites"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean squared error (MSE)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

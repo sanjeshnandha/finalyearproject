@@ -1,0 +1,346 @@
+{
+  "metadata": {
+    "title": "Multi-Objective Metamorphic Follow-up Test Case Selection for Deep Learning Systems",
+    "authors": [
+      "Aitor Arrieta"
+    ],
+    "year": 2022,
+    "source_file": "Arrieta - 2022 - Multi-objective metamorphic follow-up test case selection for deep learning systems.pdf",
+    "gecco_track": "Search-based software engineering"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Multi-objective metamorphic follow-up test case selection for deep learning systems"
+      },
+      "the_database": {
+        "dataset_name": "Imagenette",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "ResNet50 Image Classification Testing",
+        "dimensionality": "3845D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "discrete",
+          "large search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 25000,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Revisited Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Multi-objective metamorphic follow-up test case selection for deep learning systems"
+      },
+      "the_database": {
+        "dataset_name": "Imagenette",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "ResNet101 Image Classification Testing",
+        "dimensionality": "3845D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "discrete",
+          "large search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 25000,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Revisited Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Multi-objective metamorphic follow-up test case selection for deep learning systems"
+      },
+      "the_database": {
+        "dataset_name": "Imagenette",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "GoogleNet Image Classification Testing",
+        "dimensionality": "3845D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "discrete",
+          "large search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 25000,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Revisited Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Multi-objective metamorphic follow-up test case selection for deep learning systems"
+      },
+      "the_database": {
+        "dataset_name": "Imagenette",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "ResNet50 Image Classification Testing",
+        "dimensionality": "3845D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "discrete",
+          "large search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II(RQ1)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 25000,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Revisited Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Multi-objective metamorphic follow-up test case selection for deep learning systems"
+      },
+      "the_database": {
+        "dataset_name": "Imagenette",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "ResNet101 Image Classification Testing",
+        "dimensionality": "3845D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "discrete",
+          "large search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II(RQ1)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 25000,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Revisited Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Multi-objective metamorphic follow-up test case selection for deep learning systems"
+      },
+      "the_database": {
+        "dataset_name": "Imagenette",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "GoogleNet Image Classification Testing",
+        "dimensionality": "3845D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "discrete",
+          "large search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II(RQ1)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 25000,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Revisited Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Multi-objective metamorphic follow-up test case selection for deep learning systems"
+      },
+      "the_database": {
+        "dataset_name": "Imagenette",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "ResNet50 Image Classification Testing",
+        "dimensionality": "3845D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "discrete",
+          "large search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Random Search"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 25000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Revisited Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Multi-objective metamorphic follow-up test case selection for deep learning systems"
+      },
+      "the_database": {
+        "dataset_name": "Imagenette",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "ResNet101 Image Classification Testing",
+        "dimensionality": "3845D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "discrete",
+          "large search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Random Search"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 25000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Revisited Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Multi-objective metamorphic follow-up test case selection for deep learning systems"
+      },
+      "the_database": {
+        "dataset_name": "Imagenette",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "GoogleNet Image Classification Testing",
+        "dimensionality": "3845D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "discrete",
+          "large search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Random Search"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 25000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Revisited Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "title": "Instance-Label Based Multi-Label Active Learning by Evolutionary Multi-Objective Optimization",
+    "authors": [
+      "Yuheng Zhou",
+      "Haopu Shang",
+      "Yu-Chang Wu",
+      "Chao Qian"
+    ],
+    "year": 2024,
+    "source_file": "Zhou et al. - 2024 - Instance-Label Based Multi-Label Active Learning by Evolutionary Multi-Objective Optimization.pdf",
+    "gecco_track": "GECCO '24 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Multi-label active learning"
+      },
+      "the_database": {
+        "dataset_name": "Scene",
+        "source_platform": "MULAN"
+      },
+      "the_benchmark_problem": {
+        "name": "Scene",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "active learning"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOILBAL"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.15,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Micro-F1",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Multi-label active learning"
+      },
+      "the_database": {
+        "dataset_name": "Emotions",
+        "source_platform": "MULAN"
+      },
+      "the_benchmark_problem": {
+        "name": "Emotions",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "active learning"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOILBAL"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.15,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Micro-F1",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Multi-label active learning"
+      },
+      "the_database": {
+        "dataset_name": "Yeast",
+        "source_platform": "MULAN"
+      },
+      "the_benchmark_problem": {
+        "name": "Yeast",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "active learning"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOILBAL"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.15,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Micro-F1",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

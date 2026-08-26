@@ -1,0 +1,312 @@
+{
+  "metadata": {
+    "title": "Enhancing Search-Based Product Line Design with Crossover Operators",
+    "authors": [
+      "Diego Fernandes da Silva",
+      "Luiz Fernando Okada",
+      "Thelma Elita Colanzi",
+      "Wesley K. G. Assunção"
+    ],
+    "year": 2020,
+    "source_file": "Silva et al. - 2020 - Enhancing search-based product line design with crossover operators.pdf",
+    "gecco_track": "Search-Based Software Engineering"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Product Line Architecture (PLA) Design"
+      },
+      "the_database": {
+        "dataset_name": "Arcade Game Maker (AGM)",
+        "source_platform": "Software Engineering Institute (SEI)"
+      },
+      "the_benchmark_problem": {
+        "name": "Arcade Game Maker (AGM) PLA Design",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "feature interlacing",
+          "feature scattering"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II with Mutation only (Exp_B)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 30000,
+        "mutation_rate": 0.8,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume and Coverage",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Product Line Architecture (PLA) Design"
+      },
+      "the_database": {
+        "dataset_name": "Arcade Game Maker (AGM)",
+        "source_platform": "Software Engineering Institute (SEI)"
+      },
+      "the_benchmark_problem": {
+        "name": "Arcade Game Maker (AGM) PLA Design",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "feature interlacing",
+          "feature scattering"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II with Feature-driven Crossover (Exp_FdC)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 30000,
+        "mutation_rate": 0.8,
+        "crossover_rate": 0.4
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume and Coverage",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Product Line Architecture (PLA) Design"
+      },
+      "the_database": {
+        "dataset_name": "Arcade Game Maker (AGM)",
+        "source_platform": "Software Engineering Institute (SEI)"
+      },
+      "the_benchmark_problem": {
+        "name": "Arcade Game Maker (AGM) PLA Design",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "feature interlacing",
+          "feature scattering"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II with Complementary Crossover (Exp_CC)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 30000,
+        "mutation_rate": 0.8,
+        "crossover_rate": 0.4
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume and Coverage",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Product Line Architecture (PLA) Design"
+      },
+      "the_database": {
+        "dataset_name": "Arcade Game Maker (AGM)",
+        "source_platform": "Software Engineering Institute (SEI)"
+      },
+      "the_benchmark_problem": {
+        "name": "Arcade Game Maker (AGM) PLA Design",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "feature interlacing",
+          "feature scattering"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II with Feature-driven and Complementary Crossovers (Exp_All)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 30000,
+        "mutation_rate": 0.8,
+        "crossover_rate": 0.4
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume and Coverage",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Product Line Architecture (PLA) Design"
+      },
+      "the_database": {
+        "dataset_name": "Mobile Media (MM)",
+        "source_platform": "University of British Columbia"
+      },
+      "the_benchmark_problem": {
+        "name": "Mobile Media (MM) PLA Design",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "feature interlacing",
+          "feature scattering"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II with Mutation only (Exp_B)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 30000,
+        "mutation_rate": 0.8,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume and Coverage",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Product Line Architecture (PLA) Design"
+      },
+      "the_database": {
+        "dataset_name": "Mobile Media (MM)",
+        "source_platform": "University of British Columbia"
+      },
+      "the_benchmark_problem": {
+        "name": "Mobile Media (MM) PLA Design",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "feature interlacing",
+          "feature scattering"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II with Feature-driven Crossover (Exp_FdC)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 30000,
+        "mutation_rate": 0.8,
+        "crossover_rate": 0.4
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume and Coverage",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Product Line Architecture (PLA) Design"
+      },
+      "the_database": {
+        "dataset_name": "Mobile Media (MM)",
+        "source_platform": "University of British Columbia"
+      },
+      "the_benchmark_problem": {
+        "name": "Mobile Media (MM) PLA Design",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "feature interlacing",
+          "feature scattering"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II with Complementary Crossover (Exp_CC)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 30000,
+        "mutation_rate": 0.8,
+        "crossover_rate": 0.4
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume and Coverage",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Product Line Architecture (PLA) Design"
+      },
+      "the_database": {
+        "dataset_name": "Mobile Media (MM)",
+        "source_platform": "University of British Columbia"
+      },
+      "the_benchmark_problem": {
+        "name": "Mobile Media (MM) PLA Design",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "feature interlacing",
+          "feature scattering"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II with Feature-driven and Complementary Crossovers (Exp_All)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 30000,
+        "mutation_rate": 0.8,
+        "crossover_rate": 0.4
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume and Coverage",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

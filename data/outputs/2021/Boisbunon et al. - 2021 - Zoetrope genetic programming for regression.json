@@ -1,0 +1,216 @@
+{
+  "metadata": {
+    "title": "Zoetrope Genetic Programming for Regression",
+    "authors": [
+      "Aurélie Boisbunon",
+      "Carlo Fanara",
+      "Ingrid Grenet",
+      "Jonathan Daeden",
+      "Alexis Vighi",
+      "Marc Schoenauer"
+    ],
+    "year": 2021,
+    "source_file": "Boisbunon et al. - 2021 - Zoetrope genetic programming for regression.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Various",
+        "problem_context": "Regression on tabular datasets"
+      },
+      "the_database": {
+        "dataset_name": "Penn Machine Learning Benchmarks (PMLB)",
+        "source_platform": "PMLB"
+      },
+      "the_benchmark_problem": {
+        "name": "PMLB Regression Suite",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Zoetrope Genetic Programming (ZGP)"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": 0.1
+      },
+      "performance_outcome": {
+        "metric": "Median R2-score and NRMSE",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Various",
+        "problem_context": "Regression on tabular datasets"
+      },
+      "the_database": {
+        "dataset_name": "Penn Machine Learning Benchmarks (PMLB)",
+        "source_platform": "PMLB"
+      },
+      "the_benchmark_problem": {
+        "name": "PMLB Regression Suite",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Feature Engineering Automation Tool (FEAT)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median R2-score and NRMSE",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Various",
+        "problem_context": "Regression on tabular datasets"
+      },
+      "the_database": {
+        "dataset_name": "Penn Machine Learning Benchmarks (PMLB)",
+        "source_platform": "PMLB"
+      },
+      "the_benchmark_problem": {
+        "name": "PMLB Regression Suite",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multiple Regression Genetic Programming (MRGP)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median R2-score and NRMSE",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Various",
+        "problem_context": "Regression on tabular datasets"
+      },
+      "the_database": {
+        "dataset_name": "Penn Machine Learning Benchmarks (PMLB)",
+        "source_platform": "PMLB"
+      },
+      "the_benchmark_problem": {
+        "name": "PMLB Regression Suite",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Geometric Semantic Genetic Programming (GSGP)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median R2-score and NRMSE",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Various",
+        "problem_context": "Regression on tabular datasets"
+      },
+      "the_database": {
+        "dataset_name": "Penn Machine Learning Benchmarks (PMLB)",
+        "source_platform": "PMLB"
+      },
+      "the_benchmark_problem": {
+        "name": "PMLB Regression Suite",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Epsilon-lexicase selection (EPLEX)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median R2-score and NRMSE",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Various",
+        "problem_context": "Regression on tabular datasets"
+      },
+      "the_database": {
+        "dataset_name": "Penn Machine Learning Benchmarks (PMLB)",
+        "source_platform": "PMLB"
+      },
+      "the_benchmark_problem": {
+        "name": "PMLB Regression Suite",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Age-Fitness Pareto Optimization (AFP)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median R2-score and NRMSE",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

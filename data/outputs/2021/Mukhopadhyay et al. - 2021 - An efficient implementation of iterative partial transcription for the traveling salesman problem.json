@@ -1,0 +1,663 @@
+{
+  "metadata": {
+    "title": "An Efficient Implementation of Iterative Partial Transcription for the Traveling Salesman Problem",
+    "authors": [
+      "Anirban Mukhopadhyay",
+      "Darrell Whitley",
+      "Renato Tinós"
+    ],
+    "year": 2021,
+    "source_file": "Mukhopadhyay et al. - 2021 - An efficient implementation of iterative partial transcription for the traveling salesman problem.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "TSPLIB Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "ali535",
+        "dimensionality": "535 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Iterative IPT"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Recombination time and offspring cost",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "TSPLIB Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "ali535",
+        "dimensionality": "535 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EET-based IPT"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Recombination time and offspring cost",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "TSPLIB Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "pr1002",
+        "dimensionality": "1002 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Iterative IPT"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Recombination time and offspring cost",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "TSPLIB Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "pr1002",
+        "dimensionality": "1002 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EET-based IPT"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Recombination time and offspring cost",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "TSPLIB Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "pr2392",
+        "dimensionality": "2392 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Iterative IPT"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Recombination time and offspring cost",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "TSPLIB Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "pr2392",
+        "dimensionality": "2392 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EET-based IPT"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Recombination time and offspring cost",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "TSPLIB Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "pcb3038",
+        "dimensionality": "3038 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Iterative IPT"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Recombination time and offspring cost",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "TSPLIB Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "pcb3038",
+        "dimensionality": "3038 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EET-based IPT"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Recombination time and offspring cost",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "TSPLIB Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "rl5934",
+        "dimensionality": "5934 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Iterative IPT"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Recombination time and offspring cost",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "TSPLIB Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "rl5934",
+        "dimensionality": "5934 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EET-based IPT"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Recombination time and offspring cost",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "TSPLIB Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "pla7397",
+        "dimensionality": "7397 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Iterative IPT"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Recombination time and offspring cost",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "TSPLIB Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "pla7397",
+        "dimensionality": "7397 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EET-based IPT"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Recombination time and offspring cost",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "TSPLIB Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "rl11849",
+        "dimensionality": "11849 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Iterative IPT"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Recombination time and offspring cost",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "TSPLIB Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "rl11849",
+        "dimensionality": "11849 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EET-based IPT"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Recombination time and offspring cost",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "TSPLIB Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "brd14051",
+        "dimensionality": "14051 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Iterative IPT"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Recombination time and offspring cost",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "TSPLIB Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "brd14051",
+        "dimensionality": "14051 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EET-based IPT"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Recombination time and offspring cost",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "Random Euclidean TSP",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Random TSP",
+        "dimensionality": "100 to 10000 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Iterative IPT"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Recombination time",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "Random Euclidean TSP",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Random TSP",
+        "dimensionality": "100 to 10000 cities"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "discrete",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EET-based IPT"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Recombination time",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

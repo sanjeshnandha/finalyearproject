@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "title": "Multi-Objective Evolutionary Sunshade Design",
+    "authors": [
+      "Farzana Haque Toma",
+      "Geoff Nitschke"
+    ],
+    "year": 2025,
+    "source_file": "Toma and Nitschke - 2025 - Multi-Objective Evolutionary Sunshade Design.pdf",
+    "gecco_track": "GECCO '25 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Multi-Objective Evolutionary Sunshade Design"
+      },
+      "the_database": {
+        "dataset_name": "2023 Cape Town and Nairobi climate data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Sunshade Design Optimization",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.1,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Pareto-optimal performance across thermal comfort, UDI, energy consumption, view obstruction, and cost",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Multi-Objective Evolutionary Sunshade Design"
+      },
+      "the_database": {
+        "dataset_name": "2023 Cape Town and Nairobi climate data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Sunshade Design Optimization",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MO-CMA-ES"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.1,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Pareto-optimal performance across thermal comfort, UDI, energy consumption, view obstruction, and cost",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

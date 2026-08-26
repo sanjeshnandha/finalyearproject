@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "title": "Better Approximation Guarantees for the NSGA-II by Using the Current Crowding Distance",
+    "authors": [
+      "Weijie Zheng",
+      "Benjamin Doerr"
+    ],
+    "year": 2022,
+    "source_file": "Zheng and Doerr - 2022 - Better approximation guarantees for the NSGA-II by using the current crowding distance.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "OneMinMax",
+        "dimensionality": "601D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "bi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Traditional NSGA-II"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 3100,
+        "mutation_rate": null,
+        "crossover_rate": 0.0
+      },
+      "performance_outcome": {
+        "metric": "Maximal Empty Interval (MEI)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "OneMinMax",
+        "dimensionality": "601D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "bi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Modified NSGA-II (with current crowding distance)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 3100,
+        "mutation_rate": null,
+        "crossover_rate": 0.0
+      },
+      "performance_outcome": {
+        "metric": "Maximal Empty Interval (MEI)",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+2026-08-23 19:54:58.108 | INFO     | gecco_pipeline.extractor:__init__:32 - Initialized GeccoExtractor with model: gemini-3.5-flash and 3 API keys
+2026-08-23 19:54:58.108 | INFO     | gecco_pipeline.processor:__init__:57 - BatchProcessor initialized
+2026-08-23 19:54:58.110 | INFO     | gecco_pipeline.utils:discover_pdfs:62 - Discovered 98 PDF files in data/pdfs/2021
+2026-08-23 19:54:58.112 | INFO     | gecco_pipeline.processor:process_batch:129 - Skipping 89 already-processed PDFs
+2026-08-23 19:54:58.112 | INFO     | gecco_pipeline.processor:process_batch:145 - Processing 9 PDFs...
+2026-08-23 19:54:58.125 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Toutouh and O'Reilly - 2021 - Signal propagation in a gradient-based and evolutionary learning system.pdf
+2026-08-23 19:54:58.128 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Toutouh and O'Reilly - 2021 - Signal propagation in a gradient-based and evolutionary learning system.pdf to Gemini File API...
+2026-08-23 19:55:05.598 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/52z32yip2hmi
+2026-08-23 19:55:35.638 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 8 entries from Toutouh and O'Reilly - 2021 - Signal propagation in a gradient-based and evolutionary learning system.pdf
+2026-08-23 19:55:35.642 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Toutouh and O'Reilly - 2021 - Signal propagation in a gradient-based and evolutionary learning system.json
+2026-08-23 19:55:35.644 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Virgolin - 2021 - Genetic programming is naturally suited to evolve bagging ensembles.pdf
+2026-08-23 19:55:35.644 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Virgolin - 2021 - Genetic programming is naturally suited to evolve bagging ensembles.pdf to Gemini File API...
+2026-08-23 19:55:47.817 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/u91fprvvznpm
+2026-08-23 19:56:23.436 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 9 entries from Virgolin - 2021 - Genetic programming is naturally suited to evolve bagging ensembles.pdf
+2026-08-23 19:56:23.442 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Virgolin - 2021 - Genetic programming is naturally suited to evolve bagging ensembles.json
+2026-08-23 19:56:23.443 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Wang et al. - 2021 - Two-stage multi-objective genetic programming with archive for uncertain capacitated arc routing pro.pdf
+2026-08-23 19:56:23.443 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Wang et al. - 2021 - Two-stage multi-objective genetic programming with archive for uncertain capacitated arc routing pro.pdf to Gemini File API...
+2026-08-23 19:56:37.613 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/dyb94zvwh7bm
+2026-08-23 19:57:09.113 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 7 entries from Wang et al. - 2021 - Two-stage multi-objective genetic programming with archive for uncertain capacitated arc routing pro.pdf
+2026-08-23 19:57:09.118 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Wang et al. - 2021 - Two-stage multi-objective genetic programming with archive for uncertain capacitated arc routing pro.json
+2026-08-23 19:57:09.120 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Worring et al. - 2021 - Genetic algorithm niching by (Quasi-)infinite memory.pdf
+2026-08-23 19:57:09.120 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Worring et al. - 2021 - Genetic algorithm niching by (Quasi-)infinite memory.pdf to Gemini File API...
+2026-08-23 19:57:53.780 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/3flcbxfkatff
+2026-08-23 19:58:27.773 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 6 entries from Worring et al. - 2021 - Genetic algorithm niching by (Quasi-)infinite memory.pdf
+2026-08-23 19:58:27.787 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Worring et al. - 2021 - Genetic algorithm niching by (Quasi-)infinite memory.json
+2026-08-23 19:58:27.789 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Wright and Laue - 2021 - Evolvability and complexity properties of the digital circuit genotype-phenotype map.pdf
+2026-08-23 19:58:27.789 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Wright and Laue - 2021 - Evolvability and complexity properties of the digital circuit genotype-phenotype map.pdf to Gemini File API...
+2026-08-23 19:58:31.629 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/uu01hfc0fhw6
+2026-08-23 19:58:52.030 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 3 entries from Wright and Laue - 2021 - Evolvability and complexity properties of the digital circuit genotype-phenotype map.pdf
+2026-08-23 19:58:52.034 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Wright and Laue - 2021 - Evolvability and complexity properties of the digital circuit genotype-phenotype map.json
+2026-08-23 19:58:52.036 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Yuan et al. - 2021 - A systematic comparison study on hyperparameter optimisation of graph neural networks for molecular.pdf
+2026-08-23 19:58:52.036 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Yuan et al. - 2021 - A systematic comparison study on hyperparameter optimisation of graph neural networks for molecular.pdf to Gemini File API...
+2026-08-23 19:59:15.425 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/kezr82qljn0p
+2026-08-23 19:59:50.818 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 9 entries from Yuan et al. - 2021 - A systematic comparison study on hyperparameter optimisation of graph neural networks for molecular.pdf
+2026-08-23 19:59:50.822 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Yuan et al. - 2021 - A systematic comparison study on hyperparameter optimisation of graph neural networks for molecular.json
+2026-08-23 19:59:50.823 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Zardini et al. - 2021 - Seeking quality diversity in evolutionary co-design of morphology and control of soft tensegrity mod.pdf
+2026-08-23 19:59:50.823 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Zardini et al. - 2021 - Seeking quality diversity in evolutionary co-design of morphology and control of soft tensegrity mod.pdf to Gemini File API...
+2026-08-23 20:01:09.202 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/n7qfgrf1l62q
+2026-08-23 20:01:37.990 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 6 entries from Zardini et al. - 2021 - Seeking quality diversity in evolutionary co-design of morphology and control of soft tensegrity mod.pdf
+2026-08-23 20:01:38.000 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Zardini et al. - 2021 - Seeking quality diversity in evolutionary co-design of morphology and control of soft tensegrity mod.json
+2026-08-23 20:01:38.003 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Zhang et al. - 2021 - Environmental selection using a fuzzy classifier for multiobjective evolutionary algorithms.pdf
+2026-08-23 20:01:38.003 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Zhang et al. - 2021 - Environmental selection using a fuzzy classifier for multiobjective evolutionary algorithms.pdf to Gemini File API...
+2026-08-23 20:01:56.386 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/aciuvi03uk3z
+2026-08-23 20:02:25.322 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 7 entries from Zhang et al. - 2021 - Environmental selection using a fuzzy classifier for multiobjective evolutionary algorithms.pdf
+2026-08-23 20:02:25.330 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Zhang et al. - 2021 - Environmental selection using a fuzzy classifier for multiobjective evolutionary algorithms.json
+2026-08-23 20:02:25.334 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Zheng et al. - 2021 - When non-elitism meets time-linkage problems.pdf
+2026-08-23 20:02:25.334 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Zheng et al. - 2021 - When non-elitism meets time-linkage problems.pdf to Gemini File API...
+2026-08-23 20:02:30.112 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/rr6qgibwjtuv
+2026-08-23 20:02:55.546 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 3 entries from Zheng et al. - 2021 - When non-elitism meets time-linkage problems.pdf
+2026-08-23 20:02:55.549 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Zheng et al. - 2021 - When non-elitism meets time-linkage problems.json
+2026-08-23 20:02:55.550 | INFO     | gecco_pipeline.processor:_save_processing_report:220 - Processing report saved to data/reports/processing_report_20260823_200255.json

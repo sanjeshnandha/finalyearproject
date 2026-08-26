@@ -1,0 +1,234 @@
+{
+  "metadata": {
+    "title": "Improving Source-Code Representations to Enhance Search-based Software Repair",
+    "authors": [
+      "Pemma Reiter",
+      "Antonio M. Espinoza",
+      "Adam Doupé",
+      "Ruoyu Wang",
+      "Westley Weimer",
+      "Stephanie Forrest"
+    ],
+    "year": 2022,
+    "source_file": "Reiter et al. - 2022 - Improving source-code representations to enhance search-based software repair.pdf",
+    "gecco_track": "Search-based Software Engineering"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Automated Program Repair"
+      },
+      "the_database": {
+        "dataset_name": "Codeflaws",
+        "source_platform": "Codeforces"
+      },
+      "the_benchmark_problem": {
+        "name": "Codeflaws Benchmark Suite",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "neutrality",
+          "epistasis"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GenProg"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of correct repairs (1170 baseline, 1269 with PREP)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Automated Program Repair"
+      },
+      "the_database": {
+        "dataset_name": "Codeflaws",
+        "source_platform": "Codeforces"
+      },
+      "the_benchmark_problem": {
+        "name": "Codeflaws Benchmark Suite",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "neutrality",
+          "epistasis"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "f1x"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of correct repairs (1379 baseline, 1415 with PREP)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Automated Program Repair"
+      },
+      "the_database": {
+        "dataset_name": "Codeflaws",
+        "source_platform": "Codeforces"
+      },
+      "the_benchmark_problem": {
+        "name": "Codeflaws Benchmark Suite",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "neutrality",
+          "epistasis"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Prophet"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of correct repairs (840 baseline, 904 with PREP)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Automated Program Repair"
+      },
+      "the_database": {
+        "dataset_name": "DARPA Cyber Grand Challenge (CGC)",
+        "source_platform": "DARPA"
+      },
+      "the_benchmark_problem": {
+        "name": "DARPA Cyber Grand Challenge (CGC) Dataset",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "neutrality",
+          "epistasis"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GenProg"
+      },
+      "parameters": {
+        "population_size": 40,
+        "max_evaluations_or_generations": 10,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Vulnerability mitigation (found repairs for cotton_swab_arithmetic.1, Music_Store_Client.2, Music_Store_Client.3, Palindrome.1, etc.)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Automated Program Repair"
+      },
+      "the_database": {
+        "dataset_name": "DARPA Cyber Grand Challenge (CGC)",
+        "source_platform": "DARPA"
+      },
+      "the_benchmark_problem": {
+        "name": "DARPA Cyber Grand Challenge (CGC) Dataset",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "neutrality",
+          "epistasis"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "f1x"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Vulnerability mitigation (found repair for HackMan.1)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Automated Program Repair"
+      },
+      "the_database": {
+        "dataset_name": "DARPA Cyber Grand Challenge (CGC)",
+        "source_platform": "DARPA"
+      },
+      "the_benchmark_problem": {
+        "name": "DARPA Cyber Grand Challenge (CGC) Dataset",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "neutrality",
+          "epistasis"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Prophet"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Vulnerability mitigation (found repairs for 15 scenarios)",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

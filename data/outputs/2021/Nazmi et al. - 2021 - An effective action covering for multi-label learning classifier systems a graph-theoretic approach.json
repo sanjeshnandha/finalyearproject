@@ -1,0 +1,385 @@
+{
+  "metadata": {
+    "title": "An Effective Action Covering for Multi-label Learning Classifier Systems: A Graph-theoretic Approach",
+    "authors": [
+      "Shabnam Nazmi",
+      "Abdollah Homaifar",
+      "Mohd Anwar"
+    ],
+    "year": 2021,
+    "source_file": "Nazmi et al. - 2021 - An effective action covering for multi-label learning classifier systems a graph-theoretic approach.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Multi-label classification"
+      },
+      "the_database": {
+        "dataset_name": "PASCAL-VOC6",
+        "source_platform": "MULAN library"
+      },
+      "the_benchmark_problem": {
+        "name": "PASCAL-VOC6",
+        "dimensionality": "256 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "label correlations",
+          "high-order dependencies",
+          "multi-label"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MLCS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average Accuracy: 0.6949, Fmacro: 0.7463, Rank precision: 0.8337",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Multi-label classification"
+      },
+      "the_database": {
+        "dataset_name": "Scene",
+        "source_platform": "MULAN library"
+      },
+      "the_benchmark_problem": {
+        "name": "Scene",
+        "dimensionality": "294 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "label correlations",
+          "high-order dependencies",
+          "multi-label"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MLCS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average Accuracy: 0.6638, Fmacro: 0.7331, Rank precision: 0.8419",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Multimedia",
+        "problem_context": "Multi-label classification"
+      },
+      "the_database": {
+        "dataset_name": "Mediamill",
+        "source_platform": "MULAN library"
+      },
+      "the_benchmark_problem": {
+        "name": "Mediamill",
+        "dimensionality": "120 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "label correlations",
+          "high-order dependencies",
+          "multi-label"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MLCS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average Accuracy: 0.1887, Fmacro: 0.1566, Rank precision: 0.7119",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Multi-label classification"
+      },
+      "the_database": {
+        "dataset_name": "Corel5k",
+        "source_platform": "MULAN library"
+      },
+      "the_benchmark_problem": {
+        "name": "Corel5k",
+        "dimensionality": "499 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "label correlations",
+          "high-order dependencies",
+          "multi-label"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MLCS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average Accuracy: 0.0503, Fmacro: 0.3072, Rank precision: 0.2864",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Multi-label classification"
+      },
+      "the_database": {
+        "dataset_name": "Corel16k",
+        "source_platform": "MULAN library"
+      },
+      "the_benchmark_problem": {
+        "name": "Corel16k",
+        "dimensionality": "500 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "label correlations",
+          "high-order dependencies",
+          "multi-label"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MLCS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average Accuracy: 0.0314, Fmacro: 0.0294, Rank precision: 0.3087",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Multi-label classification"
+      },
+      "the_database": {
+        "dataset_name": "PASCAL-VOC6",
+        "source_platform": "MULAN library"
+      },
+      "the_benchmark_problem": {
+        "name": "PASCAL-VOC6",
+        "dimensionality": "256 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "label correlations",
+          "high-order dependencies",
+          "multi-label"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MLR"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average Accuracy: 0.5725, Fmacro: 0.6682, Rank precision: 0.7542",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Multi-label classification"
+      },
+      "the_database": {
+        "dataset_name": "Scene",
+        "source_platform": "MULAN library"
+      },
+      "the_benchmark_problem": {
+        "name": "Scene",
+        "dimensionality": "294 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "label correlations",
+          "high-order dependencies",
+          "multi-label"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MLR"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average Accuracy: 0.5621, Fmacro: 0.6499, Rank precision: 0.7588",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Multimedia",
+        "problem_context": "Multi-label classification"
+      },
+      "the_database": {
+        "dataset_name": "Mediamill",
+        "source_platform": "MULAN library"
+      },
+      "the_benchmark_problem": {
+        "name": "Mediamill",
+        "dimensionality": "120 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "label correlations",
+          "high-order dependencies",
+          "multi-label"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MLR"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average Accuracy: 0.1074, Fmacro: 0.1251, Rank precision: 0.6276",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Multi-label classification"
+      },
+      "the_database": {
+        "dataset_name": "Corel5k",
+        "source_platform": "MULAN library"
+      },
+      "the_benchmark_problem": {
+        "name": "Corel5k",
+        "dimensionality": "499 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "label correlations",
+          "high-order dependencies",
+          "multi-label"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MLR"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average Accuracy: 0.0114, Fmacro: 0.2556, Rank precision: 0.2035",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Multi-label classification"
+      },
+      "the_database": {
+        "dataset_name": "Corel16k",
+        "source_platform": "MULAN library"
+      },
+      "the_benchmark_problem": {
+        "name": "Corel16k",
+        "dimensionality": "500 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "label correlations",
+          "high-order dependencies",
+          "multi-label"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MLR"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average Accuracy: 0.0147, Fmacro: 0.0085, Rank precision: 0.2407",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

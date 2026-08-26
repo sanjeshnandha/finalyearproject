@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "title": "The tiebreaking space of constructive heuristics for the permutation flowshop minimizing makespan",
+    "authors": [
+      "Marcus Ritt",
+      "Alexander J. Benavides"
+    ],
+    "year": 2021,
+    "source_file": "Ritt and Benavides - 2021 - The tiebreaking space of constructive heuristics for the permutation flowshop minimizing makespan.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Permutation Flowshop Scheduling Problem (PFSSP)"
+      },
+      "the_database": {
+        "dataset_name": "Carlier (1978), Demirkol (1998), Reeves (1995), Taillard (1993), Vallada et al. (2015) benchmarks",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Permutation Flowshop Scheduling Problem (PFSSP)",
+        "dimensionality": "Variable (7 to 800 jobs, 4 to 60 machines)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "discrete",
+          "rugged",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Cyclic best-first search"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average relative deviation from best known value",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Permutation Flowshop Scheduling Problem (PFSSP)"
+      },
+      "the_database": {
+        "dataset_name": "Carlier (1978), Demirkol (1998), Reeves (1995), Taillard (1993), Vallada et al. (2015) benchmarks",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Permutation Flowshop Scheduling Problem (PFSSP)",
+        "dimensionality": "Variable (7 to 800 jobs, 4 to 60 machines)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "discrete",
+          "rugged",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Iterated Greedy Algorithm (IGA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average relative deviation from best known value",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

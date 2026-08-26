@@ -1,0 +1,305 @@
+{
+  "metadata": {
+    "title": "Improving Constrained Clustering Via Decomposition-based Multiobjective Optimization with Memetic Elitism",
+    "authors": [
+      "Germán González-Almagro",
+      "Alejandro Rosales-Pérez",
+      "Julián Luengo",
+      "José-Ramón Cano",
+      "Salvador García"
+    ],
+    "year": 2020,
+    "source_file": "González-Almagro et al. - 2020 - Improving constrained clustering via decomposition-based multiobjective optimization with memetic el.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Constrained Clustering"
+      },
+      "the_database": {
+        "dataset_name": "Breast Cancer",
+        "source_platform": "Keel-dataset repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Constrained Clustering (Breast Cancer)",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "NP-complete",
+          "ill-posed"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ME-MOEA/D"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 300000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Adjusted Rand Index (ARI)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Constrained Clustering"
+      },
+      "the_database": {
+        "dataset_name": "Breast Cancer",
+        "source_platform": "Keel-dataset repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Constrained Clustering (Breast Cancer)",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "NP-complete",
+          "ill-posed"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOCK"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 300000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Adjusted Rand Index (ARI)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Constrained Clustering"
+      },
+      "the_database": {
+        "dataset_name": "Iris",
+        "source_platform": "Keel-dataset repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Constrained Clustering (Iris)",
+        "dimensionality": "4D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "NP-complete",
+          "ill-posed"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ME-MOEA/D"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 300000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Adjusted Rand Index (ARI)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Constrained Clustering"
+      },
+      "the_database": {
+        "dataset_name": "Iris",
+        "source_platform": "Keel-dataset repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Constrained Clustering (Iris)",
+        "dimensionality": "4D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "NP-complete",
+          "ill-posed"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOCK"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 300000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Adjusted Rand Index (ARI)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Constrained Clustering"
+      },
+      "the_database": {
+        "dataset_name": "Pima",
+        "source_platform": "Keel-dataset repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Constrained Clustering (Pima)",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "NP-complete",
+          "ill-posed"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ME-MOEA/D"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 300000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Adjusted Rand Index (ARI)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Constrained Clustering"
+      },
+      "the_database": {
+        "dataset_name": "Pima",
+        "source_platform": "Keel-dataset repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Constrained Clustering (Pima)",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "NP-complete",
+          "ill-posed"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOCK"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 300000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Adjusted Rand Index (ARI)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Constrained Clustering"
+      },
+      "the_database": {
+        "dataset_name": "Wdbc",
+        "source_platform": "Keel-dataset repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Constrained Clustering (Wdbc)",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "NP-complete",
+          "ill-posed"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ME-MOEA/D"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 300000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Adjusted Rand Index (ARI)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Constrained Clustering"
+      },
+      "the_database": {
+        "dataset_name": "Wdbc",
+        "source_platform": "Keel-dataset repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Constrained Clustering (Wdbc)",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "NP-complete",
+          "ill-posed"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOCK"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 300000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Adjusted Rand Index (ARI)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

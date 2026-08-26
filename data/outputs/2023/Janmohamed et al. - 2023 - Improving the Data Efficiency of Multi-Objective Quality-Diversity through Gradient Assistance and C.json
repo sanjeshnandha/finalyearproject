@@ -1,0 +1,735 @@
+{
+  "metadata": {
+    "title": "Improving the Data Efficiency of Multi-Objective Quality-Diversity through Gradient Assistance and Crowding Exploration",
+    "authors": [
+      "Hannah Janmohamed",
+      "Thomas Pierrot",
+      "Antoine Cully"
+    ],
+    "year": 2023,
+    "source_file": "Janmohamed et al. - 2023 - Improving the Data Efficiency of Multi-Objective Quality-Diversity through Gradient Assistance and C.pdf",
+    "gecco_track": "Evolutionary Robotics"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robot locomotion control"
+      },
+      "the_database": {
+        "dataset_name": "Brax suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ant",
+        "dimensionality": "6472"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOME-PGX"
+      },
+      "parameters": {
+        "population_size": 256,
+        "max_evaluations_or_generations": 1024000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "MOQD-score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robot locomotion control"
+      },
+      "the_database": {
+        "dataset_name": "Brax suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "HalfCheetah",
+        "dimensionality": "5766"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOME-PGX"
+      },
+      "parameters": {
+        "population_size": 256,
+        "max_evaluations_or_generations": 1024000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "MOQD-score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robot locomotion control"
+      },
+      "the_database": {
+        "dataset_name": "Brax suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hopper",
+        "dimensionality": "5123"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOME-PGX"
+      },
+      "parameters": {
+        "population_size": 256,
+        "max_evaluations_or_generations": 1024000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "MOQD-score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robot locomotion control"
+      },
+      "the_database": {
+        "dataset_name": "Brax suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Walker2d",
+        "dimensionality": "5702"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOME-PGX"
+      },
+      "parameters": {
+        "population_size": 256,
+        "max_evaluations_or_generations": 1024000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "MOQD-score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robot locomotion control"
+      },
+      "the_database": {
+        "dataset_name": "Brax suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ant",
+        "dimensionality": "6472"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOME"
+      },
+      "parameters": {
+        "population_size": 256,
+        "max_evaluations_or_generations": 1024000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "MOQD-score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robot locomotion control"
+      },
+      "the_database": {
+        "dataset_name": "Brax suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "HalfCheetah",
+        "dimensionality": "5766"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOME"
+      },
+      "parameters": {
+        "population_size": 256,
+        "max_evaluations_or_generations": 1024000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "MOQD-score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robot locomotion control"
+      },
+      "the_database": {
+        "dataset_name": "Brax suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hopper",
+        "dimensionality": "5123"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOME"
+      },
+      "parameters": {
+        "population_size": 256,
+        "max_evaluations_or_generations": 1024000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "MOQD-score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robot locomotion control"
+      },
+      "the_database": {
+        "dataset_name": "Brax suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Walker2d",
+        "dimensionality": "5702"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOME"
+      },
+      "parameters": {
+        "population_size": 256,
+        "max_evaluations_or_generations": 1024000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "MOQD-score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robot locomotion control"
+      },
+      "the_database": {
+        "dataset_name": "Brax suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ant",
+        "dimensionality": "6472"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PGA-ME"
+      },
+      "parameters": {
+        "population_size": 256,
+        "max_evaluations_or_generations": 1024000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "MOQD-score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robot locomotion control"
+      },
+      "the_database": {
+        "dataset_name": "Brax suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "HalfCheetah",
+        "dimensionality": "5766"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PGA-ME"
+      },
+      "parameters": {
+        "population_size": 256,
+        "max_evaluations_or_generations": 1024000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "MOQD-score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robot locomotion control"
+      },
+      "the_database": {
+        "dataset_name": "Brax suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hopper",
+        "dimensionality": "5123"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PGA-ME"
+      },
+      "parameters": {
+        "population_size": 256,
+        "max_evaluations_or_generations": 1024000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "MOQD-score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robot locomotion control"
+      },
+      "the_database": {
+        "dataset_name": "Brax suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Walker2d",
+        "dimensionality": "5702"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PGA-ME"
+      },
+      "parameters": {
+        "population_size": 256,
+        "max_evaluations_or_generations": 1024000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "MOQD-score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robot locomotion control"
+      },
+      "the_database": {
+        "dataset_name": "Brax suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ant",
+        "dimensionality": "6472"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 6400,
+        "max_evaluations_or_generations": 1024000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "MOQD-score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robot locomotion control"
+      },
+      "the_database": {
+        "dataset_name": "Brax suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "HalfCheetah",
+        "dimensionality": "5766"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 6400,
+        "max_evaluations_or_generations": 1024000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "MOQD-score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robot locomotion control"
+      },
+      "the_database": {
+        "dataset_name": "Brax suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hopper",
+        "dimensionality": "5123"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 6400,
+        "max_evaluations_or_generations": 1024000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "MOQD-score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robot locomotion control"
+      },
+      "the_database": {
+        "dataset_name": "Brax suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Walker2d",
+        "dimensionality": "5702"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 6400,
+        "max_evaluations_or_generations": 1024000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "MOQD-score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robot locomotion control"
+      },
+      "the_database": {
+        "dataset_name": "Brax suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ant",
+        "dimensionality": "6472"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SPEA2"
+      },
+      "parameters": {
+        "population_size": 6400,
+        "max_evaluations_or_generations": 1024000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "MOQD-score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robot locomotion control"
+      },
+      "the_database": {
+        "dataset_name": "Brax suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "HalfCheetah",
+        "dimensionality": "5766"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SPEA2"
+      },
+      "parameters": {
+        "population_size": 6400,
+        "max_evaluations_or_generations": 1024000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "MOQD-score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robot locomotion control"
+      },
+      "the_database": {
+        "dataset_name": "Brax suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hopper",
+        "dimensionality": "5123"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SPEA2"
+      },
+      "parameters": {
+        "population_size": 6400,
+        "max_evaluations_or_generations": 1024000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "MOQD-score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robot locomotion control"
+      },
+      "the_database": {
+        "dataset_name": "Brax suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Walker2d",
+        "dimensionality": "5702"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SPEA2"
+      },
+      "parameters": {
+        "population_size": 6400,
+        "max_evaluations_or_generations": 1024000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "MOQD-score",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

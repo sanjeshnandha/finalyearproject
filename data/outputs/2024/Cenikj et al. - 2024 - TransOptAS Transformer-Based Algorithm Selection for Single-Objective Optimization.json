@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "title": "TransOptAS: Transformer-Based Algorithm Selection for Single-Objective Optimization",
+    "authors": [
+      "Gjorgjina Cenikj",
+      "Gašper Petelin",
+      "Tome Eftimov"
+    ],
+    "year": 2024,
+    "source_file": "Cenikj et al. - 2024 - TransOptAS Transformer-Based Algorithm Selection for Single-Objective Optimization.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "Randomly generated problem instances (3D)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Random Function Generator",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "randomly generated",
+          "tree-structured"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Particle Swarm Optimization (PSO)"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 1500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Scaled best objective function value (s_arp)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "Randomly generated problem instances (10D)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Random Function Generator",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "randomly generated",
+          "tree-structured"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Particle Swarm Optimization (PSO)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Scaled best objective function value (s_arp)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

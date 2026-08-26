@@ -56,7 +56,22 @@ python main.py --dry-run --input-dir data/pdfs
 
 # Aggregate results into a single dataset
 python main.py --aggregate
+
+# To convert the new json data into csv
+venv/bin/python json_to_csv.py
+
+# To generate dataset usage statistical charts (All years)
+venv/bin/python dataset_analysis.py --top 25
+
+# To generate dataset usage charts for a specific year
+venv/bin/python dataset_analysis.py --year 2021
+
+
+# To convert json data to csv data year wise
+venv/bin/python json_to_csv.py --split-by-year
+
 ```
+
 
 ## Output Schema
 

@@ -1,0 +1,244 @@
+{
+  "metadata": {
+    "title": "Multi-Objective Hyperparameter Tuning and Feature Selection using Filter Ensembles",
+    "authors": [
+      "Martin Binder",
+      "Julia Moosbauer",
+      "Janek Thomas",
+      "Bernd Bischl"
+    ],
+    "year": 2020,
+    "source_file": "Binder et al. - 2020 - Multi-objective hyperparameter tuning and feature selection using filter ensembles.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Joint hyperparameter tuning and feature selection for machine learning classifiers"
+      },
+      "the_database": {
+        "dataset_name": "OpenML binary classification datasets (wdbc, ionosphere, sonar, hill-valley, tecator, semeion, madeline, lsvt, madelon, isolet, cnae-9, arcene, AP_Breast_Colon, AP_Colon_Kidney)",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Joint Hyperparameter Tuning and Feature Selection (SVM)",
+        "dimensionality": "Variable (30 to 10935 features)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "expensive",
+          "black-box",
+          "mixed discrete-continuous",
+          "non-convex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "BO-MO-FE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean generalization dominated hypervolume (domHVgen) of 0.9331",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Joint hyperparameter tuning and feature selection for machine learning classifiers"
+      },
+      "the_database": {
+        "dataset_name": "OpenML binary classification datasets (wdbc, ionosphere, sonar, hill-valley, tecator, semeion, madeline, lsvt, madelon, isolet, cnae-9, arcene, AP_Breast_Colon, AP_Colon_Kidney)",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Joint Hyperparameter Tuning and Feature Selection (xgboost)",
+        "dimensionality": "Variable (30 to 10935 features)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "expensive",
+          "black-box",
+          "mixed discrete-continuous",
+          "non-convex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "BO-MO-FE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean generalization dominated hypervolume (domHVgen) of 0.9164",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Joint hyperparameter tuning and feature selection for machine learning classifiers"
+      },
+      "the_database": {
+        "dataset_name": "OpenML binary classification datasets (wdbc, ionosphere, sonar, hill-valley, tecator, semeion, madeline, lsvt, madelon, isolet, cnae-9, arcene, AP_Breast_Colon, AP_Colon_Kidney)",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Joint Hyperparameter Tuning and Feature Selection (kknn)",
+        "dimensionality": "Variable (30 to 10935 features)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "expensive",
+          "black-box",
+          "mixed discrete-continuous",
+          "non-convex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "BO-MO-FE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean generalization dominated hypervolume (domHVgen) of 0.9217",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Joint hyperparameter tuning and feature selection for machine learning classifiers"
+      },
+      "the_database": {
+        "dataset_name": "OpenML binary classification datasets (wdbc, ionosphere, sonar, hill-valley, tecator, semeion, madeline, lsvt, madelon, isolet, cnae-9, arcene, AP_Breast_Colon, AP_Colon_Kidney)",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Joint Hyperparameter Tuning and Feature Selection (SVM)",
+        "dimensionality": "Variable (30 to 10935 features)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "expensive",
+          "black-box",
+          "mixed discrete-continuous",
+          "non-convex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GA-MO-FE"
+      },
+      "parameters": {
+        "population_size": 80,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Mean generalization dominated hypervolume (domHVgen) of 0.9241",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Joint hyperparameter tuning and feature selection for machine learning classifiers"
+      },
+      "the_database": {
+        "dataset_name": "OpenML binary classification datasets (wdbc, ionosphere, sonar, hill-valley, tecator, semeion, madeline, lsvt, madelon, isolet, cnae-9, arcene, AP_Breast_Colon, AP_Colon_Kidney)",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Joint Hyperparameter Tuning and Feature Selection (xgboost)",
+        "dimensionality": "Variable (30 to 10935 features)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "expensive",
+          "black-box",
+          "mixed discrete-continuous",
+          "non-convex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GA-MO-FE"
+      },
+      "parameters": {
+        "population_size": 80,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Mean generalization dominated hypervolume (domHVgen) of 0.9165",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Joint hyperparameter tuning and feature selection for machine learning classifiers"
+      },
+      "the_database": {
+        "dataset_name": "OpenML binary classification datasets (wdbc, ionosphere, sonar, hill-valley, tecator, semeion, madeline, lsvt, madelon, isolet, cnae-9, arcene, AP_Breast_Colon, AP_Colon_Kidney)",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "Joint Hyperparameter Tuning and Feature Selection (kknn)",
+        "dimensionality": "Variable (30 to 10935 features)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "expensive",
+          "black-box",
+          "mixed discrete-continuous",
+          "non-convex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GA-MO-FE"
+      },
+      "parameters": {
+        "population_size": 80,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Mean generalization dominated hypervolume (domHVgen) of 0.9108",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

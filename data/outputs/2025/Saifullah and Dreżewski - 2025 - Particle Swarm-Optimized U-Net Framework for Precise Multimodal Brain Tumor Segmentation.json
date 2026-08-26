@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "title": "Particle Swarm-Optimized U-Net Framework for Precise Multimodal Brain Tumor Segmentation",
+    "authors": [
+      "Shoffan Saifullah",
+      "Rafał Dreżewski"
+    ],
+    "year": 2025,
+    "source_file": "Saifullah and Dreżewski - 2025 - Particle Swarm-Optimized U-Net Framework for Precise Multimodal Brain Tumor Segmentation.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Hyperparameter tuning of U-Net for brain tumor segmentation"
+      },
+      "the_database": {
+        "dataset_name": "BraTS 2021",
+        "source_platform": "RSNA-ASNR-MICCAI"
+      },
+      "the_benchmark_problem": {
+        "name": "U-Net Hyperparameter Optimization (BraTS 2021)",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Particle Swarm Optimization"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 10,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Dice Similarity Coefficient (DSC): 0.9578, Intersection-over-Union (IoU): 0.9194",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Hyperparameter tuning of U-Net for brain tumor segmentation"
+      },
+      "the_database": {
+        "dataset_name": "Figshare",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "U-Net Hyperparameter Optimization (Figshare)",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Particle Swarm Optimization"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 10,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Dice Similarity Coefficient (DSC): 0.9523, Intersection-over-Union (IoU): 0.9097",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

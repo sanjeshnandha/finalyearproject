@@ -1,0 +1,192 @@
+{
+  "metadata": {
+    "title": "Improving the Performance of EA-based Multi-population Models for Feature Selection Problems by Reducing the Individual Size in the Initial Population",
+    "authors": [
+      "Juan Carlos Gómez-López",
+      "Daniel Castillo-Secilla",
+      "Jesús González"
+    ],
+    "year": 2024,
+    "source_file": "Gómez-López et al. - 2024 - Improving the Performance of EA-based Multi-population Models for Feature Selection Problems by Redu.pdf",
+    "gecco_track": "GECCO '24 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "EEG Classification / Motor Imagery Feature Selection"
+      },
+      "the_database": {
+        "dataset_name": "BCI Subject 104",
+        "source_platform": "BCI Laboratory at the University of Essex"
+      },
+      "the_benchmark_problem": {
+        "name": "BCI Subject 104",
+        "dimensionality": "3600 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-population NSGA-II"
+      },
+      "parameters": {
+        "population_size": 300,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Test Kappa index, number of selected features, and generations to convergence",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "EEG Classification / Motor Imagery Feature Selection"
+      },
+      "the_database": {
+        "dataset_name": "BCI Subject 107",
+        "source_platform": "BCI Laboratory at the University of Essex"
+      },
+      "the_benchmark_problem": {
+        "name": "BCI Subject 107",
+        "dimensionality": "3600 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-population NSGA-II"
+      },
+      "parameters": {
+        "population_size": 300,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Test Kappa index, number of selected features, and generations to convergence",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "EEG Classification / Motor Imagery Feature Selection"
+      },
+      "the_database": {
+        "dataset_name": "BCI Subject 110",
+        "source_platform": "BCI Laboratory at the University of Essex"
+      },
+      "the_benchmark_problem": {
+        "name": "BCI Subject 110",
+        "dimensionality": "3600 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-population NSGA-II"
+      },
+      "parameters": {
+        "population_size": 300,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Test Kappa index, number of selected features, and generations to convergence",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Feature selection for speech recognition"
+      },
+      "the_database": {
+        "dataset_name": "Isolet5",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Isolet5",
+        "dimensionality": "617 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-population NSGA-II"
+      },
+      "parameters": {
+        "population_size": 300,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Test Kappa index, number of selected features, and generations to convergence",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Gene expression feature selection for lung cancer classification"
+      },
+      "the_database": {
+        "dataset_name": "Lung Cancer",
+        "source_platform": "TCGA project"
+      },
+      "the_benchmark_problem": {
+        "name": "Lung Cancer",
+        "dimensionality": "410 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "multiclass",
+          "reduced noise"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-population NSGA-II"
+      },
+      "parameters": {
+        "population_size": 300,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Test Kappa index, number of selected features, and generations to convergence",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

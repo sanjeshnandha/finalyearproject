@@ -1,0 +1,138 @@
+2026-08-23 21:04:56.287 | INFO     | gecco_pipeline.extractor:__init__:32 - Initialized GeccoExtractor with model: gemini-3.5-flash and 3 API keys
+2026-08-23 21:04:56.287 | INFO     | gecco_pipeline.processor:__init__:57 - BatchProcessor initialized
+2026-08-23 21:04:56.289 | INFO     | gecco_pipeline.utils:discover_pdfs:62 - Discovered 150 PDF files in data/pdfs/2020
+2026-08-23 21:04:56.290 | INFO     | gecco_pipeline.processor:process_batch:129 - Skipping 125 already-processed PDFs
+2026-08-23 21:04:56.290 | INFO     | gecco_pipeline.processor:process_batch:145 - Processing 25 PDFs...
+2026-08-23 21:04:56.301 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Silva et al. - 2020 - Enhancing search-based product line design with crossover operators.pdf
+2026-08-23 21:04:56.301 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Silva et al. - 2020 - Enhancing search-based product line design with crossover operators.pdf to Gemini File API...
+2026-08-23 21:05:02.622 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/73mzjsipdtfo
+2026-08-23 21:05:39.212 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 8 entries from Silva et al. - 2020 - Enhancing search-based product line design with crossover operators.pdf
+2026-08-23 21:05:39.216 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Silva et al. - 2020 - Enhancing search-based product line design with crossover operators.json
+2026-08-23 21:05:39.217 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Sotto et al. - 2020 - A study on graph representations for genetic programming.pdf
+2026-08-23 21:05:39.217 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Sotto et al. - 2020 - A study on graph representations for genetic programming.pdf to Gemini File API...
+2026-08-23 21:05:43.174 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/krd01te2a2mv
+2026-08-23 21:06:26.924 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 10 entries from Sotto et al. - 2020 - A study on graph representations for genetic programming.pdf
+2026-08-23 21:06:26.928 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Sotto et al. - 2020 - A study on graph representations for genetic programming.json
+2026-08-23 21:06:26.928 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Stein et al. - 2020 - XCS classifier system with experience replay.pdf
+2026-08-23 21:06:26.929 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Stein et al. - 2020 - XCS classifier system with experience replay.pdf to Gemini File API...
+2026-08-23 21:06:30.994 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/9f1lplsw3l08
+2026-08-23 21:07:21.790 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 12 entries from Stein et al. - 2020 - XCS classifier system with experience replay.pdf
+2026-08-23 21:07:21.795 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Stein et al. - 2020 - XCS classifier system with experience replay.json
+2026-08-23 21:07:21.796 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Tanabe - 2020 - Analyzing adaptive parameter landscapes in parameter adaptation methods for differential evolution.pdf
+2026-08-23 21:07:21.796 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Tanabe - 2020 - Analyzing adaptive parameter landscapes in parameter adaptation methods for differential evolution.pdf to Gemini File API...
+2026-08-23 21:07:36.529 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/rifj5hjvkdw4
+2026-08-23 21:08:10.031 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 6 entries from Tanabe - 2020 - Analyzing adaptive parameter landscapes in parameter adaptation methods for differential evolution.pdf
+2026-08-23 21:08:10.035 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Tanabe - 2020 - Analyzing adaptive parameter landscapes in parameter adaptation methods for differential evolution.json
+2026-08-23 21:08:10.036 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Tang et al. - 2020 - Neuroevolution of self-interpretable agents.pdf
+2026-08-23 21:08:10.036 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Tang et al. - 2020 - Neuroevolution of self-interpretable agents.pdf to Gemini File API...
+2026-08-23 21:08:27.017 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/stdf95y7cfaq
+2026-08-23 21:08:59.174 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 4 entries from Tang et al. - 2020 - Neuroevolution of self-interpretable agents.pdf
+2026-08-23 21:08:59.177 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Tang et al. - 2020 - Neuroevolution of self-interpretable agents.json
+2026-08-23 21:08:59.178 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Tomczyk and Kadziński - 2020 - On the elicitation of indirect preferences in interactive evolutionary multiple objective optimizati.pdf
+2026-08-23 21:08:59.178 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Tomczyk and Kadziński - 2020 - On the elicitation of indirect preferences in interactive evolutionary multiple objective optimizati.pdf to Gemini File API...
+2026-08-23 21:09:24.171 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/mj4vq7ww7pjv
+2026-08-23 21:10:25.301 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 9 entries from Tomczyk and Kadziński - 2020 - On the elicitation of indirect preferences in interactive evolutionary multiple objective optimizati.pdf
+2026-08-23 21:10:25.306 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Tomczyk and Kadziński - 2020 - On the elicitation of indirect preferences in interactive evolutionary multiple objective optimizati.json
+2026-08-23 21:10:25.306 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Toutouh et al. - 2020 - Re-purposing heterogeneous generative ensembles with evolutionary computation.pdf
+2026-08-23 21:10:25.306 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Toutouh et al. - 2020 - Re-purposing heterogeneous generative ensembles with evolutionary computation.pdf to Gemini File API...
+2026-08-23 21:10:36.308 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/bvsdepd853gd
+2026-08-23 21:11:04.580 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 2 entries from Toutouh et al. - 2020 - Re-purposing heterogeneous generative ensembles with evolutionary computation.pdf
+2026-08-23 21:11:04.582 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Toutouh et al. - 2020 - Re-purposing heterogeneous generative ensembles with evolutionary computation.json
+2026-08-23 21:11:04.583 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Treimun-Costa et al. - 2020 - Modelling parameter configuration spaces with local optima networks.pdf
+2026-08-23 21:11:04.583 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Treimun-Costa et al. - 2020 - Modelling parameter configuration spaces with local optima networks.pdf to Gemini File API...
+2026-08-23 21:11:14.198 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/lu8bwuyo2liz
+2026-08-23 21:11:52.542 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 6 entries from Treimun-Costa et al. - 2020 - Modelling parameter configuration spaces with local optima networks.pdf
+2026-08-23 21:11:52.545 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Treimun-Costa et al. - 2020 - Modelling parameter configuration spaces with local optima networks.json
+2026-08-23 21:11:52.546 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Uriot and Izzo - 2020 - Safe crossover of neural networks through neuron alignment.pdf
+2026-08-23 21:11:52.546 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Uriot and Izzo - 2020 - Safe crossover of neural networks through neuron alignment.pdf to Gemini File API...
+2026-08-23 21:12:04.868 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/hk2erhiwa0gl
+2026-08-23 21:12:34.233 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 6 entries from Uriot and Izzo - 2020 - Safe crossover of neural networks through neuron alignment.pdf
+2026-08-23 21:12:34.235 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Uriot and Izzo - 2020 - Safe crossover of neural networks through neuron alignment.json
+2026-08-23 21:12:34.236 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Varadarajan et al. - 2020 - Why many travelling salesman problem instances are easier than you think.pdf
+2026-08-23 21:12:34.236 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Varadarajan et al. - 2020 - Why many travelling salesman problem instances are easier than you think.pdf to Gemini File API...
+2026-08-23 21:13:11.688 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/pi56wzktuwi5
+2026-08-23 21:13:48.043 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 6 entries from Varadarajan et al. - 2020 - Why many travelling salesman problem instances are easier than you think.pdf
+2026-08-23 21:13:48.047 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Varadarajan et al. - 2020 - Why many travelling salesman problem instances are easier than you think.json
+2026-08-23 21:13:48.047 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Vermetten et al. - 2020 - Integrated vs. sequential approaches for selecting and tuning CMA-ES variants.pdf
+2026-08-23 21:13:48.047 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Vermetten et al. - 2020 - Integrated vs. sequential approaches for selecting and tuning CMA-ES variants.pdf to Gemini File API...
+2026-08-23 21:14:15.364 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/wes9mq1jusmi
+2026-08-23 21:15:01.115 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 2 entries from Vermetten et al. - 2020 - Integrated vs. sequential approaches for selecting and tuning CMA-ES variants.pdf
+2026-08-23 21:15:01.119 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Vermetten et al. - 2020 - Integrated vs. sequential approaches for selecting and tuning CMA-ES variants.json
+2026-08-23 21:15:01.120 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Vermetten et al. - 2020 - Towards dynamic algorithm selection for numerical black-box optimization investigating BBOB as a us.pdf
+2026-08-23 21:15:01.120 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Vermetten et al. - 2020 - Towards dynamic algorithm selection for numerical black-box optimization investigating BBOB as a us.pdf to Gemini File API...
+2026-08-23 21:15:07.338 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/ivyunhrnqzsg
+2026-08-23 21:15:35.004 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 3 entries from Vermetten et al. - 2020 - Towards dynamic algorithm selection for numerical black-box optimization investigating BBOB as a us.pdf
+2026-08-23 21:15:35.008 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Vermetten et al. - 2020 - Towards dynamic algorithm selection for numerical black-box optimization investigating BBOB as a us.json
+2026-08-23 21:15:35.008 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Villanueva et al. - 2020 - Novelty search for automatic bug repair.pdf
+2026-08-23 21:15:35.009 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Villanueva et al. - 2020 - Novelty search for automatic bug repair.pdf to Gemini File API...
+2026-08-23 21:15:41.134 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/1ydtnxbhftqu
+2026-08-23 21:16:13.593 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 12 entries from Villanueva et al. - 2020 - Novelty search for automatic bug repair.pdf
+2026-08-23 21:16:13.595 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Villanueva et al. - 2020 - Novelty search for automatic bug repair.json
+2026-08-23 21:16:13.596 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Wang et al. - 2020 - Transfer learning for gaussian process assisted evolutionary bi-objective optimization for objective.pdf
+2026-08-23 21:16:13.596 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Wang et al. - 2020 - Transfer learning for gaussian process assisted evolutionary bi-objective optimization for objective.pdf to Gemini File API...
+2026-08-23 21:16:19.083 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/iizq96wqosfs
+2026-08-23 21:16:49.967 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 8 entries from Wang et al. - 2020 - Transfer learning for gaussian process assisted evolutionary bi-objective optimization for objective.pdf
+2026-08-23 21:16:49.971 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Wang et al. - 2020 - Transfer learning for gaussian process assisted evolutionary bi-objective optimization for objective.json
+2026-08-23 21:16:49.972 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Weiner et al. - 2020 - Automatic decomposition of mixed integer programs for lagrangian relaxation using a multiobjective a.pdf
+2026-08-23 21:16:49.972 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Weiner et al. - 2020 - Automatic decomposition of mixed integer programs for lagrangian relaxation using a multiobjective a.pdf to Gemini File API...
+2026-08-23 21:16:56.561 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/jlixqn5h2npv
+2026-08-23 21:16:58.943 | WARNING  | gecco_pipeline.extractor:_call_with_retry:219 - Attempt 1/3 failed for Weiner et al. - 2020 - Automatic decomposition of mixed integer programs for lagrangian relaxation using a multiobjective a.pdf: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'Deadline expired before operation could complete.', 'status': 'UNAVAILABLE'}}. Retrying in 2.3s...
+2026-08-23 21:17:29.233 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 8 entries from Weiner et al. - 2020 - Automatic decomposition of mixed integer programs for lagrangian relaxation using a multiobjective a.pdf
+2026-08-23 21:17:29.237 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Weiner et al. - 2020 - Automatic decomposition of mixed integer programs for lagrangian relaxation using a multiobjective a.json
+2026-08-23 21:17:29.238 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Welsch and Kurlin - 2020 - Synthesis through unification genetic programming.pdf
+2026-08-23 21:17:29.238 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Welsch and Kurlin - 2020 - Synthesis through unification genetic programming.pdf to Gemini File API...
+2026-08-23 21:17:34.675 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/duayikgap69g
+2026-08-23 21:17:58.109 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 4 entries from Welsch and Kurlin - 2020 - Synthesis through unification genetic programming.pdf
+2026-08-23 21:17:58.112 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Welsch and Kurlin - 2020 - Synthesis through unification genetic programming.json
+2026-08-23 21:17:58.113 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Whitley et al. - 2020 - Understanding transforms of pseudo-boolean functions.pdf
+2026-08-23 21:17:58.113 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Whitley et al. - 2020 - Understanding transforms of pseudo-boolean functions.pdf to Gemini File API...
+2026-08-23 21:18:03.852 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/jioh61hqzziy
+2026-08-23 21:18:29.087 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 3 entries from Whitley et al. - 2020 - Understanding transforms of pseudo-boolean functions.pdf
+2026-08-23 21:18:29.090 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Whitley et al. - 2020 - Understanding transforms of pseudo-boolean functions.json
+2026-08-23 21:18:29.091 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Wilkins and Zincir-Heywood - 2020 - COUGAR clustering of unknown malware using genetic algorithm routines.pdf
+2026-08-23 21:18:29.091 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Wilkins and Zincir-Heywood - 2020 - COUGAR clustering of unknown malware using genetic algorithm routines.pdf to Gemini File API...
+2026-08-23 21:18:36.182 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/acp2gwxgq8xa
+2026-08-23 21:18:55.308 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 3 entries from Wilkins and Zincir-Heywood - 2020 - COUGAR clustering of unknown malware using genetic algorithm routines.pdf
+2026-08-23 21:18:55.311 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Wilkins and Zincir-Heywood - 2020 - COUGAR clustering of unknown malware using genetic algorithm routines.json
+2026-08-23 21:18:55.312 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Wittenberg et al. - 2020 - DAE-GP denoising autoencoder LSTM networks as probabilistic models in estimation of distribution ge.pdf
+2026-08-23 21:18:55.312 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Wittenberg et al. - 2020 - DAE-GP denoising autoencoder LSTM networks as probabilistic models in estimation of distribution ge.pdf to Gemini File API...
+2026-08-23 21:19:01.360 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/smuebr80j9w4
+2026-08-23 21:19:27.429 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 2 entries from Wittenberg et al. - 2020 - DAE-GP denoising autoencoder LSTM networks as probabilistic models in estimation of distribution ge.pdf
+2026-08-23 21:19:27.432 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Wittenberg et al. - 2020 - DAE-GP denoising autoencoder LSTM networks as probabilistic models in estimation of distribution ge.json
+2026-08-23 21:19:27.433 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Xie et al. - 2020 - Specific single- and multi-objective evolutionary algorithms for the chance-constrained knapsack pro.pdf
+2026-08-23 21:19:27.433 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Xie et al. - 2020 - Specific single- and multi-objective evolutionary algorithms for the chance-constrained knapsack pro.pdf to Gemini File API...
+2026-08-23 21:19:32.549 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/zomsognd7c40
+2026-08-23 21:20:07.929 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 10 entries from Xie et al. - 2020 - Specific single- and multi-objective evolutionary algorithms for the chance-constrained knapsack pro.pdf
+2026-08-23 21:20:07.934 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Xie et al. - 2020 - Specific single- and multi-objective evolutionary algorithms for the chance-constrained knapsack pro.json
+2026-08-23 21:20:07.934 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Xu et al. - 2020 - Segmented initialization and offspring modification in evolutionary algorithms for bi-objective feat.pdf
+2026-08-23 21:20:07.934 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Xu et al. - 2020 - Segmented initialization and offspring modification in evolutionary algorithms for bi-objective feat.pdf to Gemini File API...
+2026-08-23 21:20:12.550 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/55l0g3qu9kom
+2026-08-23 21:20:12.880 | WARNING  | gecco_pipeline.extractor:_call_with_retry:204 - Rate limit hit for Xu et al. - 2020 - Segmented initialization and offspring modification in evolutionary algorithms for bi-objective feat.pdf: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\nPlease retry in 47.061035921s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '47s'}]}}
+2026-08-23 21:20:12.883 | WARNING  | gecco_pipeline.extractor:_rotate_key:44 - Rotating to API key index 1
+2026-08-23 21:20:12.921 | INFO     | gecco_pipeline.extractor:_call_with_retry:206 - Retrying with new API key...
+2026-08-23 21:20:12.921 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Xu et al. - 2020 - Segmented initialization and offspring modification in evolutionary algorithms for bi-objective feat.pdf to Gemini File API...
+2026-08-23 21:20:17.468 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/1fcpw8ny5z5t
+2026-08-23 21:21:03.699 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 18 entries from Xu et al. - 2020 - Segmented initialization and offspring modification in evolutionary algorithms for bi-objective feat.pdf
+2026-08-23 21:21:03.703 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Xu et al. - 2020 - Segmented initialization and offspring modification in evolutionary algorithms for bi-objective feat.json
+2026-08-23 21:21:03.704 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Yates et al. - 2020 - Multi-fitness learning for behavior-driven cooperation.pdf
+2026-08-23 21:21:03.704 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Yates et al. - 2020 - Multi-fitness learning for behavior-driven cooperation.pdf to Gemini File API...
+2026-08-23 21:21:11.909 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/uc3u9igw55ge
+2026-08-23 21:21:36.229 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 3 entries from Yates et al. - 2020 - Multi-fitness learning for behavior-driven cooperation.pdf
+2026-08-23 21:21:36.231 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Yates et al. - 2020 - Multi-fitness learning for behavior-driven cooperation.json
+2026-08-23 21:21:36.231 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Zapotecas-Martínez and Ponsich - 2020 - Constraint handling within MOEAD through an additional scalarizing function.pdf
+2026-08-23 21:21:36.231 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Zapotecas-Martínez and Ponsich - 2020 - Constraint handling within MOEAD through an additional scalarizing function.pdf to Gemini File API...
+2026-08-23 21:21:42.501 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/8ifmvyygcise
+2026-08-23 21:53:30.861 | WARNING  | gecco_pipeline.extractor:_call_with_retry:219 - Attempt 1/3 failed for Zapotecas-Martínez and Ponsich - 2020 - Constraint handling within MOEAD through an additional scalarizing function.pdf: [Errno 54] Connection reset by peer. Retrying in 2.4s...
+2026-08-23 21:53:55.885 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 6 entries from Zapotecas-Martínez and Ponsich - 2020 - Constraint handling within MOEAD through an additional scalarizing function.pdf
+2026-08-23 21:53:55.889 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Zapotecas-Martínez and Ponsich - 2020 - Constraint handling within MOEAD through an additional scalarizing function.json
+2026-08-23 21:53:55.891 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: de C. Santos et al. - 2020 - Exploratory path planning for mobile robots in dynamic environments with ant colony optimization.pdf
+2026-08-23 21:53:55.891 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading de C. Santos et al. - 2020 - Exploratory path planning for mobile robots in dynamic environments with ant colony optimization.pdf to Gemini File API...
+2026-08-23 21:54:01.059 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/43ko6g4b7bnn
+2026-08-23 21:54:20.619 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 2 entries from de C. Santos et al. - 2020 - Exploratory path planning for mobile robots in dynamic environments with ant colony optimization.pdf
+2026-08-23 21:54:20.620 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/de C. Santos et al. - 2020 - Exploratory path planning for mobile robots in dynamic environments with ant colony optimization.json
+2026-08-23 21:54:20.621 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: de Sá et al. - 2020 - A robust experimental evaluation of automated multi-label classification methods.pdf
+2026-08-23 21:54:20.621 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading de Sá et al. - 2020 - A robust experimental evaluation of automated multi-label classification methods.pdf to Gemini File API...
+2026-08-23 21:54:24.612 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/q1foi84yye2d
+2026-08-23 21:55:27.533 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 6 entries from de Sá et al. - 2020 - A robust experimental evaluation of automated multi-label classification methods.pdf
+2026-08-23 21:55:27.535 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/de Sá et al. - 2020 - A robust experimental evaluation of automated multi-label classification methods.json
+2026-08-23 21:55:27.537 | INFO     | gecco_pipeline.processor:_save_processing_report:220 - Processing report saved to data/reports/processing_report_20260823_215527.json

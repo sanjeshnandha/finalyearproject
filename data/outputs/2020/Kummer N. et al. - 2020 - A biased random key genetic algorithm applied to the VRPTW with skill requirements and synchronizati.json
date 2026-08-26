@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "title": "A Biased Random Key Genetic Algorithm applied to the VRPTW with Skill Requirements and Synchronization Constraints",
+    "authors": [
+      "Alberto F. Kummer N.",
+      "Luciana S. Buriol",
+      "Olinto C. B. de Araújo"
+    ],
+    "year": 2020,
+    "source_file": "Kummer N. et al. - 2020 - A biased random key genetic algorithm applied to the VRPTW with skill requirements and synchronizati.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Home Health Care Routing and Scheduling Problem (HHCRSP)"
+      },
+      "the_database": {
+        "dataset_name": "Mankowska et al. (2014) benchmark dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Vehicle Routing Problem with Time Windows and Synchronization Constraints",
+        "dimensionality": "10 to 300 patients"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "route interdependency",
+          "time windows",
+          "synchronization constraints",
+          "nonlinearities"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Biased Random Key Genetic Algorithm (BRKGA)"
+      },
+      "parameters": {
+        "population_size": 885,
+        "max_evaluations_or_generations": 1823,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Weighted sum of total travel distance, total tardiness, and largest tardiness",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

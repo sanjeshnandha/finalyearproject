@@ -1,0 +1,452 @@
+{
+  "metadata": {
+    "title": "Tournament Informed Adversarial Quality Diversity",
+    "authors": [
+      "Timothée Anne",
+      "Noah Syrkis",
+      "Meriem Elhosni",
+      "Florian Turati",
+      "Alexandre Manai",
+      "Franck Legendre",
+      "Alain Jaquier",
+      "Sebastian Risi"
+    ],
+    "year": 2026,
+    "source_file": "Anne et al. - 2026 - Tournament Informed Adversarial Quality Diversity.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating adversarial quality diversity algorithms on game benchmarks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Pong",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "adversarial",
+          "symmetrical"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GAME (Ranking)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1500000,
+        "mutation_rate": 0.3,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Win rate",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating adversarial quality diversity algorithms on game benchmarks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Cat-and-mouse",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "adversarial",
+          "asymmetrical"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GAME (Ranking)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1500000,
+        "mutation_rate": 0.3,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Win rate",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating adversarial quality diversity algorithms on game benchmarks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Pursuers-and-evaders",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "adversarial",
+          "asymmetrical"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GAME (Ranking)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1500000,
+        "mutation_rate": 0.3,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Win rate",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating adversarial quality diversity algorithms on game benchmarks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Pong",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "adversarial",
+          "symmetrical"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GAME (Pareto)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1500000,
+        "mutation_rate": 0.3,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Win rate",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating adversarial quality diversity algorithms on game benchmarks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Cat-and-mouse",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "adversarial",
+          "asymmetrical"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GAME (Pareto)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1500000,
+        "mutation_rate": 0.3,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Win rate",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating adversarial quality diversity algorithms on game benchmarks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Pursuers-and-evaders",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "adversarial",
+          "asymmetrical"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GAME (Pareto)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1500000,
+        "mutation_rate": 0.3,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Win rate",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating adversarial quality diversity algorithms on game benchmarks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Pong",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "adversarial",
+          "symmetrical"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GAME (Behavior)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1500000,
+        "mutation_rate": 0.3,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Win rate",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating adversarial quality diversity algorithms on game benchmarks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Cat-and-mouse",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "adversarial",
+          "asymmetrical"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GAME (Behavior)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1500000,
+        "mutation_rate": 0.3,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Win rate",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating adversarial quality diversity algorithms on game benchmarks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Pursuers-and-evaders",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "adversarial",
+          "asymmetrical"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GAME (Behavior)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1500000,
+        "mutation_rate": 0.3,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Win rate",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating adversarial quality diversity algorithms on game benchmarks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Pong",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "adversarial",
+          "symmetrical"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GAME (Random)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1500000,
+        "mutation_rate": 0.3,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Win rate",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating adversarial quality diversity algorithms on game benchmarks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Cat-and-mouse",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "adversarial",
+          "asymmetrical"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GAME (Random)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1500000,
+        "mutation_rate": 0.3,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Win rate",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating adversarial quality diversity algorithms on game benchmarks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Pursuers-and-evaders",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "adversarial",
+          "asymmetrical"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GAME (Random)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1500000,
+        "mutation_rate": 0.3,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Win rate",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

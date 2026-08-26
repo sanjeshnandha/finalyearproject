@@ -1,0 +1,129 @@
+{
+  "metadata": {
+    "title": "Pittsburgh Learning Classifier Systems for Explainable Reinforcement Learning: Comparing with XCS",
+    "authors": [
+      "Jordan T. Bishop",
+      "Marcus Gallagher",
+      "Will N. Browne"
+    ],
+    "year": 2022,
+    "source_file": "Bishop et al. - 2022 - Pittsburgh learning classifier systems for explainable reinforcement learning comparing with XCS.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating reinforcement learning algorithms on grid-world environments"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "FrozenLake",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "stochastic",
+          "sparse reward",
+          "long action chains",
+          "transition stochasticity"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PPL-DL"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 250,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Fraction of the optimal testing performance (OTP)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating reinforcement learning algorithms on grid-world environments"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "FrozenLake",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "stochastic",
+          "sparse reward",
+          "long action chains",
+          "transition stochasticity"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PPL-ST"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 250,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Fraction of the optimal testing performance (OTP)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating reinforcement learning algorithms on grid-world environments"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "FrozenLake",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "stochastic",
+          "sparse reward",
+          "long action chains",
+          "transition stochasticity"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "XCS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 250,
+        "mutation_rate": 0.04,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Fraction of the optimal testing performance (OTP)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

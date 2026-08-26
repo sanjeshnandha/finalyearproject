@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "title": "Neutrality, Simplicity and Search: Lessons from Genetic Programming",
+    "authors": [
+      "Wolfgang Banzhaf"
+    ],
+    "year": 2026,
+    "source_file": "Banzhaf - 2026 - Neutrality, Simplicity and Search Lessons from Genetic Programming.pdf",
+    "gecco_track": "Keynote"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating Boolean functions"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Boolean functions",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "redundant genotype-phenotype maps",
+          "neutrality"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Linear Genetic Programming"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "bias toward simple solutions",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

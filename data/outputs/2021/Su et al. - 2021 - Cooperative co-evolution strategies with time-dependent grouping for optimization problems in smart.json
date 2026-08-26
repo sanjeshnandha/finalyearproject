@@ -1,0 +1,435 @@
+{
+  "metadata": {
+    "title": "Cooperative Co-evolution Strategies with Time-dependent Grouping for Optimization Problems in Smart Grids",
+    "authors": [
+      "Junpeng Su",
+      "Han Huang",
+      "Zhifeng Hao"
+    ],
+    "year": 2021,
+    "source_file": "Su et al. - 2021 - Cooperative co-evolution strategies with time-dependent grouping for optimization problems in smart.pdf",
+    "gecco_track": "Evolutionary Computation in the Energy Domain"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Bidding Strategy Optimization Problem in Local Energy Markets"
+      },
+      "the_database": {
+        "dataset_name": "GECCO 2021 Competition Dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Bidding Strategy Optimization Problem in Local Energy Markets",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "mixed-integer nonlinear programming"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CCS-TG-I"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average fitness",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Bidding Strategy Optimization Problem in Local Energy Markets"
+      },
+      "the_database": {
+        "dataset_name": "GECCO 2021 Competition Dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Bidding Strategy Optimization Problem in Local Energy Markets",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "mixed-integer nonlinear programming"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CE-CMAES"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average fitness",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Bidding Strategy Optimization Problem in Local Energy Markets"
+      },
+      "the_database": {
+        "dataset_name": "GECCO 2021 Competition Dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Bidding Strategy Optimization Problem in Local Energy Markets",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "mixed-integer nonlinear programming"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CUMDANCauchy"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average fitness",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Bidding Strategy Optimization Problem in Local Energy Markets"
+      },
+      "the_database": {
+        "dataset_name": "GECCO 2021 Competition Dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Bidding Strategy Optimization Problem in Local Energy Markets",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "mixed-integer nonlinear programming"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GASAPSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average fitness",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Bidding Strategy Optimization Problem in Local Energy Markets"
+      },
+      "the_database": {
+        "dataset_name": "GECCO 2021 Competition Dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Bidding Strategy Optimization Problem in Local Energy Markets",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "mixed-integer nonlinear programming"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AJSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average fitness",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Bidding Strategy Optimization Problem in Local Energy Markets"
+      },
+      "the_database": {
+        "dataset_name": "GECCO 2021 Competition Dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Bidding Strategy Optimization Problem in Local Energy Markets",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "mixed-integer nonlinear programming"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HyDE-DF"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average fitness",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Flexible Management Problem of Home Appliances"
+      },
+      "the_database": {
+        "dataset_name": "GECCO 2021 Competition Dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Flexible Management Problem of Home Appliances",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "mixed-integer nonlinear programming"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CCS-TG-II"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average fitness",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Flexible Management Problem of Home Appliances"
+      },
+      "the_database": {
+        "dataset_name": "GECCO 2021 Competition Dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Flexible Management Problem of Home Appliances",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "mixed-integer nonlinear programming"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CE-CMAES"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average fitness",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Flexible Management Problem of Home Appliances"
+      },
+      "the_database": {
+        "dataset_name": "GECCO 2021 Competition Dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Flexible Management Problem of Home Appliances",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "mixed-integer nonlinear programming"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CUMDANCauchy"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average fitness",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Flexible Management Problem of Home Appliances"
+      },
+      "the_database": {
+        "dataset_name": "GECCO 2021 Competition Dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Flexible Management Problem of Home Appliances",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "mixed-integer nonlinear programming"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GASAPSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average fitness",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Flexible Management Problem of Home Appliances"
+      },
+      "the_database": {
+        "dataset_name": "GECCO 2021 Competition Dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Flexible Management Problem of Home Appliances",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "mixed-integer nonlinear programming"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AJSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average fitness",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Flexible Management Problem of Home Appliances"
+      },
+      "the_database": {
+        "dataset_name": "GECCO 2021 Competition Dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Flexible Management Problem of Home Appliances",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "mixed-integer nonlinear programming"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HyDE-DF"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average fitness",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

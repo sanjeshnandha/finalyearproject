@@ -1,0 +1,110 @@
+2026-08-26 13:30:45.643 | INFO     | gecco_pipeline.extractor:__init__:32 - Initialized GeccoExtractor with model: gemini-3.5-flash and 3 API keys
+2026-08-26 13:30:45.643 | INFO     | gecco_pipeline.processor:__init__:57 - BatchProcessor initialized
+2026-08-26 13:30:45.644 | INFO     | gecco_pipeline.utils:discover_pdfs:62 - Discovered 92 PDF files in data/pdfs/2023
+2026-08-26 13:30:45.644 | INFO     | gecco_pipeline.processor:process_batch:129 - Skipping 66 already-processed PDFs
+2026-08-26 13:30:45.645 | INFO     | gecco_pipeline.processor:process_batch:145 - Processing 26 PDFs...
+2026-08-26 13:30:45.670 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Macé et al. - 2023 - The Quality-Diversity Transformer Generating Behavior-Conditioned Trajectories with Decision Transf.pdf
+2026-08-26 13:30:45.670 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Macé et al. - 2023 - The Quality-Diversity Transformer Generating Behavior-Conditioned Trajectories with Decision Transf.pdf to Gemini File API...
+2026-08-26 13:30:50.831 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/z1wewabrtsja
+2026-08-26 13:39:06.759 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 6 entries from Macé et al. - 2023 - The Quality-Diversity Transformer Generating Behavior-Conditioned Trajectories with Decision Transf.pdf
+2026-08-26 13:39:06.771 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Macé et al. - 2023 - The Quality-Diversity Transformer Generating Behavior-Conditioned Trajectories with Decision Transf.json
+2026-08-26 13:39:06.777 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Peng et al. - 2023 - Fast Evolutionary Neural Architecture Search by Contrastive Predictor with Linear Regions.pdf
+2026-08-26 13:39:06.778 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Peng et al. - 2023 - Fast Evolutionary Neural Architecture Search by Contrastive Predictor with Linear Regions.pdf to Gemini File API...
+2026-08-26 13:40:03.203 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/9m9972hkjsay
+2026-08-26 13:42:08.697 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 2 entries from Peng et al. - 2023 - Fast Evolutionary Neural Architecture Search by Contrastive Predictor with Linear Regions.pdf
+2026-08-26 13:42:08.703 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Peng et al. - 2023 - Fast Evolutionary Neural Architecture Search by Contrastive Predictor with Linear Regions.json
+2026-08-26 13:42:08.706 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Poli - 2023 - Super-Human and Super-AI Cognitive Augmentation of Human and Human-AI Teams Assisted by Brain Comput.pdf
+2026-08-26 13:42:08.706 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Poli - 2023 - Super-Human and Super-AI Cognitive Augmentation of Human and Human-AI Teams Assisted by Brain Comput.pdf to Gemini File API...
+2026-08-26 13:43:34.324 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/b5ip6nt7tv7w
+2026-08-26 13:43:42.059 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 0 entries from Poli - 2023 - Super-Human and Super-AI Cognitive Augmentation of Human and Human-AI Teams Assisted by Brain Comput.pdf
+2026-08-26 13:43:42.063 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Poli - 2023 - Super-Human and Super-AI Cognitive Augmentation of Human and Human-AI Teams Assisted by Brain Comput.json
+2026-08-26 13:43:42.065 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Schjølberg et al. - 2023 - Comparing Metaheuristic Optimization Algorithms for Ambulance Allocation An Experimental Simulation.pdf
+2026-08-26 13:43:42.065 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Schjølberg et al. - 2023 - Comparing Metaheuristic Optimization Algorithms for Ambulance Allocation An Experimental Simulation.pdf to Gemini File API...
+2026-08-26 13:43:58.301 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/fm50tg6sjule
+2026-08-26 13:44:31.783 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 5 entries from Schjølberg et al. - 2023 - Comparing Metaheuristic Optimization Algorithms for Ambulance Allocation An Experimental Simulation.pdf
+2026-08-26 13:44:31.787 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Schjølberg et al. - 2023 - Comparing Metaheuristic Optimization Algorithms for Ambulance Allocation An Experimental Simulation.json
+2026-08-26 13:44:31.789 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Schneider et al. - 2023 - Multi-Objective Optimization of Performance and Interpretability of Tabular Supervised Machine Learn.pdf
+2026-08-26 13:44:31.790 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Schneider et al. - 2023 - Multi-Objective Optimization of Performance and Interpretability of Tabular Supervised Machine Learn.pdf to Gemini File API...
+2026-08-26 13:44:44.868 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/p2n26xdybe1d
+2026-08-26 13:45:07.643 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 2 entries from Schneider et al. - 2023 - Multi-Objective Optimization of Performance and Interpretability of Tabular Supervised Machine Learn.pdf
+2026-08-26 13:45:07.647 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Schneider et al. - 2023 - Multi-Objective Optimization of Performance and Interpretability of Tabular Supervised Machine Learn.json
+2026-08-26 13:45:07.649 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Shiraishi et al. - 2023 - Fuzzy-UCS Revisited Self-Adaptation of Rule Representations in Michigan-Style Learning Fuzzy-Classi.pdf
+2026-08-26 13:45:07.650 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Shiraishi et al. - 2023 - Fuzzy-UCS Revisited Self-Adaptation of Rule Representations in Michigan-Style Learning Fuzzy-Classi.pdf to Gemini File API...
+2026-08-26 13:45:12.677 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/d7osle28clyq
+2026-08-26 13:45:57.727 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 15 entries from Shiraishi et al. - 2023 - Fuzzy-UCS Revisited Self-Adaptation of Rule Representations in Michigan-Style Learning Fuzzy-Classi.pdf
+2026-08-26 13:45:57.734 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Shiraishi et al. - 2023 - Fuzzy-UCS Revisited Self-Adaptation of Rule Representations in Michigan-Style Learning Fuzzy-Classi.json
+2026-08-26 13:45:57.736 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Simionato et al. - 2023 - Swarms of Artificial Platelets for Emergent Hole Detection and Healing in Wireless Sensor Networks.pdf
+2026-08-26 13:45:57.736 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Simionato et al. - 2023 - Swarms of Artificial Platelets for Emergent Hole Detection and Healing in Wireless Sensor Networks.pdf to Gemini File API...
+2026-08-26 13:48:20.842 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/1zpgnxru74v7
+2026-08-26 13:49:18.277 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 3 entries from Simionato et al. - 2023 - Swarms of Artificial Platelets for Emergent Hole Detection and Healing in Wireless Sensor Networks.pdf
+2026-08-26 13:49:18.285 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Simionato et al. - 2023 - Swarms of Artificial Platelets for Emergent Hole Detection and Healing in Wireless Sensor Networks.json
+2026-08-26 13:49:18.286 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Singh and Pillay - 2023 - A Study of Ant-Based Pheromone Spaces for Generation Perturbative Hyper-Heuristics.pdf
+2026-08-26 13:49:18.286 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Singh and Pillay - 2023 - A Study of Ant-Based Pheromone Spaces for Generation Perturbative Hyper-Heuristics.pdf to Gemini File API...
+2026-08-26 14:01:49.236 | ERROR    | gecco_pipeline.extractor:_upload_pdf:137 - Failed to upload Singh and Pillay - 2023 - A Study of Ant-Based Pheromone Spaces for Generation Perturbative Hyper-Heuristics.pdf: [Errno 60] Operation timed out
+2026-08-26 14:01:49.255 | WARNING  | gecco_pipeline.extractor:_call_with_retry:219 - Attempt 1/3 failed for Singh and Pillay - 2023 - A Study of Ant-Based Pheromone Spaces for Generation Perturbative Hyper-Heuristics.pdf: [Errno 60] Operation timed out. Retrying in 2.2s...
+2026-08-26 14:01:51.415 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Singh and Pillay - 2023 - A Study of Ant-Based Pheromone Spaces for Generation Perturbative Hyper-Heuristics.pdf to Gemini File API...
+2026-08-26 14:01:56.939 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/8kxaonwgfmgn
+2026-08-26 14:02:24.629 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 6 entries from Singh and Pillay - 2023 - A Study of Ant-Based Pheromone Spaces for Generation Perturbative Hyper-Heuristics.pdf
+2026-08-26 14:02:24.634 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Singh and Pillay - 2023 - A Study of Ant-Based Pheromone Spaces for Generation Perturbative Hyper-Heuristics.json
+2026-08-26 14:02:24.640 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Sun and Sun - 2023 - Particle Swarm Optimization with Ring Topology for Multi-modal Multi-objective Problems.pdf
+2026-08-26 14:02:24.641 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Sun and Sun - 2023 - Particle Swarm Optimization with Ring Topology for Multi-modal Multi-objective Problems.pdf to Gemini File API...
+2026-08-26 14:02:31.122 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/di7r1mcnprll
+2026-08-26 14:03:14.682 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 24 entries from Sun and Sun - 2023 - Particle Swarm Optimization with Ring Topology for Multi-modal Multi-objective Problems.pdf
+2026-08-26 14:03:14.702 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Sun and Sun - 2023 - Particle Swarm Optimization with Ring Topology for Multi-modal Multi-objective Problems.json
+2026-08-26 14:03:14.716 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Thomson et al. - 2023 - Channel Configuration for Neural Architecture Insights from the Search Space.pdf
+2026-08-26 14:03:14.716 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Thomson et al. - 2023 - Channel Configuration for Neural Architecture Insights from the Search Space.pdf to Gemini File API...
+2026-08-26 14:03:43.455 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/c7mga1yju49u
+2026-08-26 14:04:17.274 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 5 entries from Thomson et al. - 2023 - Channel Configuration for Neural Architecture Insights from the Search Space.pdf
+2026-08-26 14:04:17.278 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Thomson et al. - 2023 - Channel Configuration for Neural Architecture Insights from the Search Space.json
+2026-08-26 14:04:17.279 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Tiso et al. - 2023 - Biological insights on grammar-structured mutations improve fitness and diversity.pdf
+2026-08-26 14:04:17.279 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Tiso et al. - 2023 - Biological insights on grammar-structured mutations improve fitness and diversity.pdf to Gemini File API...
+2026-08-26 14:04:22.451 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/qo9l9y8sx41f
+2026-08-26 14:04:50.014 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 4 entries from Tiso et al. - 2023 - Biological insights on grammar-structured mutations improve fitness and diversity.pdf
+2026-08-26 14:04:50.017 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Tiso et al. - 2023 - Biological insights on grammar-structured mutations improve fitness and diversity.json
+2026-08-26 14:04:50.018 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Tjanaka et al. - 2023 - pyribs A Bare-Bones Python Library for Quality Diversity Optimization.pdf
+2026-08-26 14:04:50.018 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Tjanaka et al. - 2023 - pyribs A Bare-Bones Python Library for Quality Diversity Optimization.pdf to Gemini File API...
+2026-08-26 14:04:56.180 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/kymh4tzn8wy6
+2026-08-26 14:05:14.860 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 1 entries from Tjanaka et al. - 2023 - pyribs A Bare-Bones Python Library for Quality Diversity Optimization.pdf
+2026-08-26 14:05:14.866 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Tjanaka et al. - 2023 - pyribs A Bare-Bones Python Library for Quality Diversity Optimization.json
+2026-08-26 14:05:14.867 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Tonda et al. - 2023 - Towards Evolutionary Control Laws for Viability Problems.pdf
+2026-08-26 14:05:14.867 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Tonda et al. - 2023 - Towards Evolutionary Control Laws for Viability Problems.pdf to Gemini File API...
+2026-08-26 14:05:41.423 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/2s39arniipru
+2026-08-26 14:06:00.302 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 2 entries from Tonda et al. - 2023 - Towards Evolutionary Control Laws for Viability Problems.pdf
+2026-08-26 14:06:00.305 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Tonda et al. - 2023 - Towards Evolutionary Control Laws for Viability Problems.json
+2026-08-26 14:06:00.306 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Toutouh et al. - 2023 - Semi-Supervised Learning with Coevolutionary Generative Adversarial Networks.pdf
+2026-08-26 14:06:00.307 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Toutouh et al. - 2023 - Semi-Supervised Learning with Coevolutionary Generative Adversarial Networks.pdf to Gemini File API...
+2026-08-26 14:06:09.357 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/nnex4fdi4a4t
+2026-08-26 14:06:43.321 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 4 entries from Toutouh et al. - 2023 - Semi-Supervised Learning with Coevolutionary Generative Adversarial Networks.pdf
+2026-08-26 14:06:43.323 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Toutouh et al. - 2023 - Semi-Supervised Learning with Coevolutionary Generative Adversarial Networks.json
+2026-08-26 14:06:43.324 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Tran et al. - 2023 - A Two-Stage Multi-Objective Evolutionary Reinforcement Learning Framework for Continuous Robot Contr.pdf
+2026-08-26 14:06:43.324 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Tran et al. - 2023 - A Two-Stage Multi-Objective Evolutionary Reinforcement Learning Framework for Continuous Robot Contr.pdf to Gemini File API...
+2026-08-26 14:06:49.086 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/ukmkvqzr3ahx
+2026-08-26 14:07:30.391 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 12 entries from Tran et al. - 2023 - A Two-Stage Multi-Objective Evolutionary Reinforcement Learning Framework for Continuous Robot Contr.pdf
+2026-08-26 14:07:30.397 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Tran et al. - 2023 - A Two-Stage Multi-Objective Evolutionary Reinforcement Learning Framework for Continuous Robot Contr.json
+2026-08-26 14:07:30.399 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Videau et al. - 2023 - Interactive Latent Diffusion Model.pdf
+2026-08-26 14:07:30.399 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Videau et al. - 2023 - Interactive Latent Diffusion Model.pdf to Gemini File API...
+2026-08-26 14:08:03.951 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/wzi91xgz55fg
+2026-08-26 14:08:31.420 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 5 entries from Videau et al. - 2023 - Interactive Latent Diffusion Model.pdf
+2026-08-26 14:08:31.425 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Videau et al. - 2023 - Interactive Latent Diffusion Model.json
+2026-08-26 14:08:31.426 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Wever et al. - 2023 - Cooperative Co-Evolution for Ensembles of Nested Dichotomies for Multi-Class Classification.pdf
+2026-08-26 14:08:31.426 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Wever et al. - 2023 - Cooperative Co-Evolution for Ensembles of Nested Dichotomies for Multi-Class Classification.pdf to Gemini File API...
+2026-08-26 14:08:41.731 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/x3uc5ylscjtb
+2026-08-26 14:09:24.454 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 20 entries from Wever et al. - 2023 - Cooperative Co-Evolution for Ensembles of Nested Dichotomies for Multi-Class Classification.pdf
+2026-08-26 14:09:24.461 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Wever et al. - 2023 - Cooperative Co-Evolution for Ensembles of Nested Dichotomies for Multi-Class Classification.json
+2026-08-26 14:09:24.462 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Whitley et al. - 2023 - Scheduling Multi-Resource Satellites using Genetic Algorithms and Permutation Based Representations.pdf
+2026-08-26 14:09:24.462 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Whitley et al. - 2023 - Scheduling Multi-Resource Satellites using Genetic Algorithms and Permutation Based Representations.pdf to Gemini File API...
+2026-08-26 14:09:31.712 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/9vtw2fswpeai
+2026-08-26 14:09:56.266 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 4 entries from Whitley et al. - 2023 - Scheduling Multi-Resource Satellites using Genetic Algorithms and Permutation Based Representations.pdf
+2026-08-26 14:09:56.271 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Whitley et al. - 2023 - Scheduling Multi-Resource Satellites using Genetic Algorithms and Permutation Based Representations.json
+2026-08-26 14:09:56.273 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Xiao et al. - 2023 - Variation Encoded Large-Scale Swarm Optimizers for Path Planning of Unmanned Aerial Vehicle.pdf
+2026-08-26 14:09:56.273 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Xiao et al. - 2023 - Variation Encoded Large-Scale Swarm Optimizers for Path Planning of Unmanned Aerial Vehicle.pdf to Gemini File API...
+2026-08-26 14:10:18.447 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/v6z70icfg57a
+2026-08-26 14:10:47.798 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 8 entries from Xiao et al. - 2023 - Variation Encoded Large-Scale Swarm Optimizers for Path Planning of Unmanned Aerial Vehicle.pdf
+2026-08-26 14:10:47.805 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Xiao et al. - 2023 - Variation Encoded Large-Scale Swarm Optimizers for Path Planning of Unmanned Aerial Vehicle.json
+2026-08-26 14:10:47.807 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Xu et al. - 2023 - MPENAS Multi-fidelity Predictor-guided Evolutionary Neural Architecture Search with Zero-cost Proxi.pdf
+2026-08-26 14:10:47.807 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Xu et al. - 2023 - MPENAS Multi-fidelity Predictor-guided Evolutionary Neural Architecture Search with Zero-cost Proxi.pdf to Gemini File API...
+2026-08-26 14:10:55.900 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/46z062fq5t4x
+2026-08-26 14:11:20.890 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 7 entries from Xu et al. - 2023 - MPENAS Multi-fidelity Predictor-guided Evolutionary Neural Architecture Search with Zero-cost Proxi.pdf
+2026-08-26 14:11:20.898 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Xu et al. - 2023 - MPENAS Multi-fidelity Predictor-guided Evolutionary Neural Architecture Search with Zero-cost Proxi.json
+2026-08-26 14:11:20.901 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Yatsu et al. - 2023 - Exploring High-dimensional Rules Indirectly via Latent Space Through a Dimensionality Reduction for.pdf
+2026-08-26 14:11:20.901 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Yatsu et al. - 2023 - Exploring High-dimensional Rules Indirectly via Latent Space Through a Dimensionality Reduction for.pdf to Gemini File API...

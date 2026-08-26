@@ -1,0 +1,127 @@
+{
+  "metadata": {
+    "title": "A Collection of Deep Learning-based Feature-Free Approaches for Characterizing Single-Objective Continuous Fitness Landscapes",
+    "authors": [
+      "Moritz Vinzent Seiler",
+      "Raphael Patrick Prager",
+      "Pascal Kerschke",
+      "Heike Trautmann"
+    ],
+    "year": 2022,
+    "source_file": "Seiler et al. - 2022 - A collection of deep learning-based feature-free approaches for characterizing single-objective cont.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BBOB Suite",
+        "dimensionality": "2D, 3D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multimodal",
+          "funnel structures",
+          "global structure"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Conventional ELA Feature Approach (Binary Relevance)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "F1 Macro",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BBOB Suite",
+        "dimensionality": "2D, 3D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multimodal",
+          "funnel structures",
+          "global structure"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fitness Map Approach (ShuffleNet V2)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "F1 Macro",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BBOB Suite",
+        "dimensionality": "2D, 3D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multimodal",
+          "funnel structures",
+          "global structure"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fitness Cloud Approach (Point Cloud Transformer)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "F1 Macro",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

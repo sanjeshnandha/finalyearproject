@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "title": "Synthesis through Unification Genetic Programming",
+    "authors": [
+      "Thomas Welsch",
+      "Vitaliy Kurlin"
+    ],
+    "year": 2020,
+    "source_file": "Welsch and Kurlin - 2020 - Synthesis through unification genetic programming.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Syntax Guided Synthesis (SyGus)"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "max_n",
+        "dimensionality": "Variable (Arity 2 to 15)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "syntactic search space",
+          "curse of dimensionality"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "STUN GP"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Median wall clock time to synthesize",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Syntax Guided Synthesis (SyGus)"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "array_search_n",
+        "dimensionality": "Variable (Arity 2 to 15)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "syntactic search space",
+          "curse of dimensionality"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "STUN GP"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Median wall clock time to synthesize",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Syntax Guided Synthesis (SyGus)"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "max_n",
+        "dimensionality": "Variable (Arity 2 to 15)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "syntactic search space",
+          "curse of dimensionality"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CDGP"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Median wall clock time to synthesize",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Syntax Guided Synthesis (SyGus)"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "array_search_n",
+        "dimensionality": "Variable (Arity 2 to 15)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "syntactic search space",
+          "curse of dimensionality"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CDGP"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Median wall clock time to synthesize",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

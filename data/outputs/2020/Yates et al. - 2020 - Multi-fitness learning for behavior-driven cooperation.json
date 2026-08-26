@@ -1,0 +1,129 @@
+{
+  "metadata": {
+    "title": "Multi-Fitness Learning for Behavior-Driven Cooperation",
+    "authors": [
+      "Connor Yates",
+      "Reid Christopher",
+      "Kagan Tumer"
+    ],
+    "year": 2020,
+    "source_file": "Yates et al. - 2020 - Multi-fitness learning for behavior-driven cooperation.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Multi-rover cooperative exploration"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Modified Continuous Rover Problem",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sparse",
+          "tightly coupled",
+          "spatially coupled",
+          "delayed fitness"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-Fitness Learning (MFL)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Global Reward Score",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Multi-rover cooperative exploration"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Modified Continuous Rover Problem",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sparse",
+          "tightly coupled",
+          "spatially coupled",
+          "delayed fitness"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CCEA with G/D"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Global Reward Score",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Multi-rover cooperative exploration"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Modified Continuous Rover Problem",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sparse",
+          "tightly coupled",
+          "spatially coupled",
+          "delayed fitness"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CCEA with Cumulative Fitness"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Global Reward Score",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

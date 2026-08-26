@@ -1,0 +1,125 @@
+{
+  "metadata": {
+    "title": "An Evolutionary Optimization Algorithm for Gradually Saturating Objective Functions",
+    "authors": [
+      "Dolly Sapra",
+      "Andy D. Pimentel"
+    ],
+    "year": 2020,
+    "source_file": "Sapra and Pimentel - 2020 - An evolutionary optimization algorithm for gradually saturating objective functions.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Neural Architecture Search for Human Activity Recognition"
+      },
+      "the_database": {
+        "dataset_name": "PAMAP2",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Neural Architecture Search",
+        "dimensionality": "Variable (7 to 20 layers)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "gradually saturating",
+          "dynamic",
+          "continuous and slow moving target"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Offline adaptive Evolutionary Algorithm"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.4
+      },
+      "performance_outcome": {
+        "metric": "Mean average accuracy of 0.739 (±0.012) and best accuracy of 0.859 (±0.010) in the final iteration",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Neural Architecture Search for Human Activity Recognition"
+      },
+      "the_database": {
+        "dataset_name": "PAMAP2",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Neural Architecture Search",
+        "dimensionality": "Variable (7 to 20 layers)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "gradually saturating",
+          "dynamic",
+          "continuous and slow moving target"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Online adaptive Evolutionary Algorithm"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.4
+      },
+      "performance_outcome": {
+        "metric": "Mean average accuracy of 0.718 (±0.009) and best accuracy of 0.842 (±0.016) in the final iteration",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Neural Architecture Search for Human Activity Recognition"
+      },
+      "the_database": {
+        "dataset_name": "PAMAP2",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Neural Architecture Search",
+        "dimensionality": "Variable (7 to 20 layers)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "gradually saturating",
+          "dynamic",
+          "continuous and slow moving target"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard Evolutionary Algorithm"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.4
+      },
+      "performance_outcome": {
+        "metric": "Mean average accuracy of 0.688 (±0.015) and best accuracy of 0.809 (±0.012) in the final iteration",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

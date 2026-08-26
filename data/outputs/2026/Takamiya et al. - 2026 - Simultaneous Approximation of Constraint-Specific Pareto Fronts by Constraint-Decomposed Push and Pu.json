@@ -1,0 +1,592 @@
+{
+  "metadata": {
+    "title": "Simultaneous Approximation of Constraint-Specific Pareto Fronts by Constraint-Decomposed Push and Pull Search",
+    "authors": [
+      "Ryo Takamiya",
+      "Minami Miyakawa",
+      "Keiki Takadama",
+      "Hiroyuki Sato"
+    ],
+    "year": 2026,
+    "source_file": "Takamiya et al. - 2026 - Simultaneous Approximation of Constraint-Specific Pareto Fronts by Constraint-Decomposed Push and Pu.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CD-CMOP1",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "separated UPF and CPF",
+          "constraint-decomposable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PPS-CD"
+      },
+      "parameters": {
+        "population_size": 300,
+        "max_evaluations_or_generations": 4000,
+        "mutation_rate": 0.0333,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CD-CMOP1",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "separated UPF and CPF",
+          "constraint-decomposable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PPS-DMIA"
+      },
+      "parameters": {
+        "population_size": 300,
+        "max_evaluations_or_generations": 4000,
+        "mutation_rate": 0.0333,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CD-CMOP1",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "separated UPF and CPF",
+          "constraint-decomposable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PPS"
+      },
+      "parameters": {
+        "population_size": 300,
+        "max_evaluations_or_generations": 4000,
+        "mutation_rate": 0.0333,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CD-CMOP1",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "separated UPF and CPF",
+          "constraint-decomposable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ICMA"
+      },
+      "parameters": {
+        "population_size": 300,
+        "max_evaluations_or_generations": 4000,
+        "mutation_rate": 0.0333,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CD-CMOP2",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "separated UPF and CPF",
+          "constraint-decomposable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PPS-CD"
+      },
+      "parameters": {
+        "population_size": 300,
+        "max_evaluations_or_generations": 4000,
+        "mutation_rate": 0.0333,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CD-CMOP2",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "separated UPF and CPF",
+          "constraint-decomposable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PPS-DMIA"
+      },
+      "parameters": {
+        "population_size": 300,
+        "max_evaluations_or_generations": 4000,
+        "mutation_rate": 0.0333,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CD-CMOP2",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "separated UPF and CPF",
+          "constraint-decomposable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PPS"
+      },
+      "parameters": {
+        "population_size": 300,
+        "max_evaluations_or_generations": 4000,
+        "mutation_rate": 0.0333,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CD-CMOP2",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "separated UPF and CPF",
+          "constraint-decomposable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ICMA"
+      },
+      "parameters": {
+        "population_size": 300,
+        "max_evaluations_or_generations": 4000,
+        "mutation_rate": 0.0333,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CD-CMOP3",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "separated UPF and CPF",
+          "constraint-decomposable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PPS-CD"
+      },
+      "parameters": {
+        "population_size": 300,
+        "max_evaluations_or_generations": 4000,
+        "mutation_rate": 0.0333,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CD-CMOP3",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "separated UPF and CPF",
+          "constraint-decomposable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PPS-DMIA"
+      },
+      "parameters": {
+        "population_size": 300,
+        "max_evaluations_or_generations": 4000,
+        "mutation_rate": 0.0333,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CD-CMOP3",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "separated UPF and CPF",
+          "constraint-decomposable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PPS"
+      },
+      "parameters": {
+        "population_size": 300,
+        "max_evaluations_or_generations": 4000,
+        "mutation_rate": 0.0333,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CD-CMOP3",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "separated UPF and CPF",
+          "constraint-decomposable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ICMA"
+      },
+      "parameters": {
+        "population_size": 300,
+        "max_evaluations_or_generations": 4000,
+        "mutation_rate": 0.0333,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CD-CMOP4",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "separated UPF and CPF",
+          "constraint-decomposable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PPS-CD"
+      },
+      "parameters": {
+        "population_size": 300,
+        "max_evaluations_or_generations": 4000,
+        "mutation_rate": 0.0333,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CD-CMOP4",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "separated UPF and CPF",
+          "constraint-decomposable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PPS-DMIA"
+      },
+      "parameters": {
+        "population_size": 300,
+        "max_evaluations_or_generations": 4000,
+        "mutation_rate": 0.0333,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CD-CMOP4",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "separated UPF and CPF",
+          "constraint-decomposable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PPS"
+      },
+      "parameters": {
+        "population_size": 300,
+        "max_evaluations_or_generations": 4000,
+        "mutation_rate": 0.0333,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CD-CMOP4",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "separated UPF and CPF",
+          "constraint-decomposable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ICMA"
+      },
+      "parameters": {
+        "population_size": 300,
+        "max_evaluations_or_generations": 4000,
+        "mutation_rate": 0.0333,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

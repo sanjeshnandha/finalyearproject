@@ -1,0 +1,346 @@
+{
+  "metadata": {
+    "title": "Biodiversity in Evolved Voxel-based Soft Robots",
+    "authors": [
+      "Eric Medvet",
+      "Alberto Bartoli",
+      "Federico Pigozzi",
+      "Marco Rochelli"
+    ],
+    "year": 2021,
+    "source_file": "Medvet et al. - 2021 - Biodiversity in evolved voxel-based soft robots.pdf",
+    "gecco_track": "Evolutionary Robotics"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Voxel-based Soft Robots (VSRs) morphology and controller co-optimization for locomotion"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "VSR Locomotion (Heterogeneous representation)",
+        "dimensionality": "1150D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ES"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 30000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median best fitness (traveled distance Delta x_c) of 89 meters",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Voxel-based Soft Robots (VSRs) morphology and controller co-optimization for locomotion"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "VSR Locomotion (Homogeneous representation)",
+        "dimensionality": "70D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ES"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 30000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median best fitness (traveled distance Delta x_c) of 119 meters",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Voxel-based Soft Robots (VSRs) morphology and controller co-optimization for locomotion"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "VSR Locomotion (Heterogeneous representation)",
+        "dimensionality": "1150D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (GA)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 30000,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Median best fitness (traveled distance Delta x_c) of 139 meters",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Voxel-based Soft Robots (VSRs) morphology and controller co-optimization for locomotion"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "VSR Locomotion (Homogeneous representation)",
+        "dimensionality": "70D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (GA)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 30000,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Median best fitness (traveled distance Delta x_c) of 117 meters",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Voxel-based Soft Robots (VSRs) morphology and controller co-optimization for locomotion"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "VSR Locomotion (Heterogeneous representation)",
+        "dimensionality": "1150D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Speciated Evolver (SE-g)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 30000,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Median best fitness (traveled distance Delta x_c) of 144 meters",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Voxel-based Soft Robots (VSRs) morphology and controller co-optimization for locomotion"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "VSR Locomotion (Homogeneous representation)",
+        "dimensionality": "70D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Speciated Evolver (SE-g)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 30000,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Median best fitness (traveled distance Delta x_c) of 181 meters",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Voxel-based Soft Robots (VSRs) morphology and controller co-optimization for locomotion"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "VSR Locomotion (Heterogeneous representation)",
+        "dimensionality": "1150D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Speciated Evolver (SE-s)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 30000,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Median best fitness (traveled distance Delta x_c) of 160 meters",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Voxel-based Soft Robots (VSRs) morphology and controller co-optimization for locomotion"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "VSR Locomotion (Homogeneous representation)",
+        "dimensionality": "70D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Speciated Evolver (SE-s)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 30000,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Median best fitness (traveled distance Delta x_c) of 280 meters",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Voxel-based Soft Robots (VSRs) morphology and controller co-optimization for locomotion"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "VSR Locomotion (Heterogeneous representation)",
+        "dimensionality": "1150D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Speciated Evolver (SE-b)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 30000,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Median best fitness (traveled distance Delta x_c) of 252 meters",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Voxel-based Soft Robots (VSRs) morphology and controller co-optimization for locomotion"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "VSR Locomotion (Homogeneous representation)",
+        "dimensionality": "70D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Speciated Evolver (SE-b)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 30000,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Median best fitness (traveled distance Delta x_c) of 237 meters",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "metadata": {
+    "title": "CoInGP: Convolutional Inpainting with Genetic Programming",
+    "authors": [
+      "Domagoj Jakobovic",
+      "Luca Manzoni",
+      "Luca Mariot",
+      "Stjepan Picek",
+      "Mauro Castelli"
+    ],
+    "year": 2021,
+    "source_file": "Jakobovic et al. - 2021 - CoInGP convolutional inpainting with genetic programming.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Image Processing",
+        "problem_context": "Image Inpainting"
+      },
+      "the_database": {
+        "dataset_name": "MNIST",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MNIST Handwritten Digits (Moore Neighborhood)",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "correlated pixels"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CoInGP (Moore Neighborhood)"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": 0.3,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Root Mean Square Error (RMSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Image Processing",
+        "problem_context": "Image Inpainting"
+      },
+      "the_database": {
+        "dataset_name": "MNIST",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MNIST Handwritten Digits (Von Neumann Neighborhood)",
+        "dimensionality": "4D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "correlated pixels"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CoInGP (Von Neumann Neighborhood)"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": 0.3,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Root Mean Square Error (RMSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Image Processing",
+        "problem_context": "Image Inpainting"
+      },
+      "the_database": {
+        "dataset_name": "Boat Image",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Boat Image Inpainting (Moore Neighborhood)",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "correlated pixels"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CoInGP (Moore Neighborhood)"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": 0.3,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Root Mean Square Error (RMSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Image Processing",
+        "problem_context": "Image Inpainting"
+      },
+      "the_database": {
+        "dataset_name": "Boat Image",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Boat Image Inpainting (Von Neumann Neighborhood)",
+        "dimensionality": "4D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "correlated pixels"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CoInGP (Von Neumann Neighborhood)"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": 0.3,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Root Mean Square Error (RMSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Image Processing",
+        "problem_context": "Image Inpainting"
+      },
+      "the_database": {
+        "dataset_name": "Goldhill Image",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Goldhill Image Inpainting (Moore Neighborhood)",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "correlated pixels"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CoInGP (Moore Neighborhood)"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": 0.3,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Root Mean Square Error (RMSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Image Processing",
+        "problem_context": "Image Inpainting"
+      },
+      "the_database": {
+        "dataset_name": "Goldhill Image",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Goldhill Image Inpainting (Von Neumann Neighborhood)",
+        "dimensionality": "4D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "correlated pixels"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CoInGP (Von Neumann Neighborhood)"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": 0.3,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Root Mean Square Error (RMSE)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

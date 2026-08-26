@@ -1,0 +1,409 @@
+{
+  "metadata": {
+    "title": "Automatically Designing Novel Evolutionary Architectures",
+    "authors": [
+      "Braden N. Tisdale",
+      "Daniel R. Tauritz",
+      "Aaron Scott Pope"
+    ],
+    "year": 2026,
+    "source_file": "Tisdale et al. - 2026 - Automatically Designing Novel Evolutionary Architectures.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "5-dimensional Sphere (f1)",
+        "dimensionality": "5D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "simple",
+          "promotes rapid convergence"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "New (Evolved Graph-based EA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 5000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean evaluation count to solve the problem",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "5-dimensional Sphere (f1)",
+        "dimensionality": "5D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "simple",
+          "promotes rapid convergence"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Tisdale2023"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 5000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean evaluation count to solve the problem",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "5-dimensional Sphere (f1)",
+        "dimensionality": "5D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "simple",
+          "promotes rapid convergence"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Traditional"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean evaluation count to solve the problem",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "3-dimensional Rastrigin (f3)",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "complex",
+          "multimodal"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "New (Evolved Graph-based EA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 5000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean evaluation count to solve the problem",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "3-dimensional Rastrigin (f3)",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "complex",
+          "multimodal"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Tisdale2023"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 5000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean evaluation count to solve the problem",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "3-dimensional Rastrigin (f3)",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "complex",
+          "multimodal"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Traditional"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean evaluation count to solve the problem",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "3-dimensional Step Ellipsoidal (f7)",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "large areas of the landscape with uniform fitness",
+          "requires special consideration to avoid premature convergence"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "New (Evolved Graph-based EA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 5000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean evaluation count to solve the problem",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "3-dimensional Step Ellipsoidal (f7)",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "large areas of the landscape with uniform fitness",
+          "requires special consideration to avoid premature convergence"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Tisdale2023"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 5000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean evaluation count to solve the problem",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "3-dimensional Step Ellipsoidal (f7)",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "large areas of the landscape with uniform fitness",
+          "requires special consideration to avoid premature convergence"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Traditional"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean evaluation count to solve the problem",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "2-dimensional many-affine BBOB problem",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "affine combination of all 24 problems from the BBOB suite"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Graph (Evolved Graph-based EA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average of normalized area over the convergence curve (AOCC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "2-dimensional many-affine BBOB problem",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "affine combination of all 24 problems from the BBOB suite"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ERADS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average of normalized area over the convergence curve (AOCC)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

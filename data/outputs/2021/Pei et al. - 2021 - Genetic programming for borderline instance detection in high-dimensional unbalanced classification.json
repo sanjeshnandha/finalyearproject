@@ -1,0 +1,460 @@
+{
+  "metadata": {
+    "title": "Genetic Programming for Borderline Instance Detection in High-dimensional Unbalanced Classification",
+    "authors": [
+      "Wenbin Pei",
+      "Bing Xue",
+      "Lin Shang",
+      "Mengjie Zhang"
+    ],
+    "year": 2021,
+    "source_file": "Pei et al. - 2021 - Genetic programming for borderline instance detection in high-dimensional unbalanced classification.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "High-dimensional unbalanced classification"
+      },
+      "the_database": {
+        "dataset_name": "Armstrong-2002-v1",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Armstrong-2002-v1",
+        "dimensionality": "1081D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "unbalanced",
+          "class overlap"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "COSGP"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean AUC of 98.03% on test set",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "High-dimensional unbalanced classification"
+      },
+      "the_database": {
+        "dataset_name": "Golub-1999-v1",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Golub-1999-v1",
+        "dimensionality": "1868D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "unbalanced",
+          "class overlap"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "COSGP"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean AUC of 98.42% on test set",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "High-dimensional unbalanced classification"
+      },
+      "the_database": {
+        "dataset_name": "Colon",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Colon",
+        "dimensionality": "2000D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "unbalanced",
+          "class overlap"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "COSGP"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean AUC of 80.28% on test set",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "High-dimensional unbalanced classification"
+      },
+      "the_database": {
+        "dataset_name": "Leukemia",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Leukemia",
+        "dimensionality": "7129D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "unbalanced",
+          "class overlap"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "COSGP"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean AUC of 88.07% on test set",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "High-dimensional unbalanced classification"
+      },
+      "the_database": {
+        "dataset_name": "gordon-2002",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "gordon-2002",
+        "dimensionality": "1626D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "unbalanced",
+          "class overlap"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "COSGP"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean AUC of 99.34% on test set",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "High-dimensional unbalanced classification"
+      },
+      "the_database": {
+        "dataset_name": "Lung",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Lung",
+        "dimensionality": "12600D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "unbalanced",
+          "class overlap"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "COSGP"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean AUC of 94.21% on test set",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "High-dimensional unbalanced classification"
+      },
+      "the_database": {
+        "dataset_name": "Armstrong-2002-v1",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Armstrong-2002-v1",
+        "dimensionality": "1081D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "unbalanced",
+          "class overlap"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GP_Aucw"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean AUC of 94.46% on test set",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "High-dimensional unbalanced classification"
+      },
+      "the_database": {
+        "dataset_name": "Golub-1999-v1",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Golub-1999-v1",
+        "dimensionality": "1868D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "unbalanced",
+          "class overlap"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GP_Aucw"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean AUC of 98.42% on test set",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "High-dimensional unbalanced classification"
+      },
+      "the_database": {
+        "dataset_name": "Colon",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Colon",
+        "dimensionality": "2000D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "unbalanced",
+          "class overlap"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GP_Aucw"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean AUC of 78.97% on test set",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "High-dimensional unbalanced classification"
+      },
+      "the_database": {
+        "dataset_name": "Leukemia",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Leukemia",
+        "dimensionality": "7129D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "unbalanced",
+          "class overlap"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GP_Aucw"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean AUC of 86.28% on test set",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "High-dimensional unbalanced classification"
+      },
+      "the_database": {
+        "dataset_name": "gordon-2002",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "gordon-2002",
+        "dimensionality": "1626D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "unbalanced",
+          "class overlap"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GP_Aucw"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean AUC of 99.23% on test set",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "High-dimensional unbalanced classification"
+      },
+      "the_database": {
+        "dataset_name": "Lung",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Lung",
+        "dimensionality": "12600D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "unbalanced",
+          "class overlap"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GP_Aucw"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean AUC of 92.35% on test set",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

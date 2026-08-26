@@ -1,0 +1,426 @@
+{
+  "metadata": {
+    "title": "Anisotropic Random-Feature Surrogate-Assisted Evolutionary Algorithm for High-Dimensional Risk-Based Energy Management Optimization",
+    "authors": [
+      "Jiaming Hu",
+      "Chixin Xiao",
+      "Limei Liu",
+      "Dechen Jiang",
+      "Maoxin He"
+    ],
+    "year": 2026,
+    "source_file": "Hu et al. - 2026 - Anisotropic Random-Feature Surrogate-Assisted Evolutionary Algorithm for High-Dimensional Risk-Based.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Day-ahead Energy Resource Management (ERM) Optimization"
+      },
+      "the_database": {
+        "dataset_name": "GECCO 2025 Competition Dataset",
+        "source_platform": "GECCO Competition Platform"
+      },
+      "the_benchmark_problem": {
+        "name": "GECCO Competition Testbed (Risk-based Energy Scheduling)",
+        "dimensionality": "13680D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "nonconvex",
+          "nonlinear",
+          "mixed-integer",
+          "black-box",
+          "high-dimensional",
+          "time-coupled"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AELM-RCEDUMDA"
+      },
+      "parameters": {
+        "population_size": 70,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Fitness of 34163.1764 over 20 runs",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Day-ahead Energy Resource Management (ERM) Optimization"
+      },
+      "the_database": {
+        "dataset_name": "GECCO 2025 Competition Dataset",
+        "source_platform": "GECCO Competition Platform"
+      },
+      "the_benchmark_problem": {
+        "name": "GECCO Competition Testbed (Risk-based Energy Scheduling)",
+        "dimensionality": "13680D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "nonconvex",
+          "nonlinear",
+          "mixed-integer",
+          "black-box",
+          "high-dimensional",
+          "time-coupled"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GIRCEDUMDA"
+      },
+      "parameters": {
+        "population_size": 70,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Fitness of 34670.6017 over 20 runs",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Day-ahead Energy Resource Management (ERM) Optimization"
+      },
+      "the_database": {
+        "dataset_name": "GECCO 2025 Competition Dataset",
+        "source_platform": "GECCO Competition Platform"
+      },
+      "the_benchmark_problem": {
+        "name": "GECCO Competition Testbed (Risk-based Energy Scheduling)",
+        "dimensionality": "13680D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "nonconvex",
+          "nonlinear",
+          "mixed-integer",
+          "black-box",
+          "high-dimensional",
+          "time-coupled"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RCEDUMDA"
+      },
+      "parameters": {
+        "population_size": 70,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Fitness of 35158.0082 over 20 runs",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Day-ahead Energy Resource Management (ERM) Optimization"
+      },
+      "the_database": {
+        "dataset_name": "GECCO 2025 Competition Dataset",
+        "source_platform": "GECCO Competition Platform"
+      },
+      "the_benchmark_problem": {
+        "name": "GECCO Competition Testbed (Risk-based Energy Scheduling)",
+        "dimensionality": "13680D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "nonconvex",
+          "nonlinear",
+          "mixed-integer",
+          "black-box",
+          "high-dimensional",
+          "time-coupled"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HyDE"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Mean Fitness of 84149.4542 over 20 runs",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Plevris and Solorzano Benchmark Suite (F05, F07, F08, F10, F11, F19, F21, F26)",
+        "dimensionality": "1000D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AELM-RCEDUMDA"
+      },
+      "parameters": {
+        "population_size": 70,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean fitness values across 8 functions (e.g., F05: 1.3793e-06, F07: 2.7029e-61)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Plevris and Solorzano Benchmark Suite (F05, F07, F08, F10, F11, F19, F21, F26)",
+        "dimensionality": "1000D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "RCEDUMDA"
+      },
+      "parameters": {
+        "population_size": 70,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean fitness values across 8 functions (e.g., F05: 9.9904e-01, F07: 6.3352e+02)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Plevris and Solorzano Benchmark Suite (F05, F07, F08, F10, F11, F19, F21, F26)",
+        "dimensionality": "1000D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HyDE"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Mean fitness values across 8 functions (e.g., F05: 1.6155e-01, F10: 0.0000e+00)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rastrigin",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "complex contour lines",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AELM-DE"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Trajectory convergence on 2D contour map",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rastrigin",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "complex contour lines",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ELM-DE"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Trajectory convergence on 2D contour map",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rosenbrock",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "valley",
+          "elliptical contours"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AELM-DE"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Trajectory convergence on 2D contour map",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rosenbrock",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "valley",
+          "elliptical contours"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ELM-DE"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Trajectory convergence on 2D contour map",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

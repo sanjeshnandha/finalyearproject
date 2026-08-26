@@ -1,0 +1,197 @@
+{
+  "metadata": {
+    "title": "Assessing Evolutionary Terrain Generation Methods for Curriculum Reinforcement Learning",
+    "authors": [
+      "David Howard",
+      "Humphrey Munn",
+      "Davide Dolcetti",
+      "Josh Kannemeyer",
+      "Nicole Robinson"
+    ],
+    "year": 2022,
+    "source_file": "Howard et al. - 2022 - Assessing evolutionary terrain generation methods for curriculum reinforcement learning.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Bipedal walker locomotion curriculum generation"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Terrain Generation (Perlin Noise)",
+        "dimensionality": "5D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "rough"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAP-Elites"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": 0.35,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Archive coverage (3.92% for Rgh/TPI) and learning speed (8680 epochs to 30% distance)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Bipedal walker locomotion curriculum generation"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Terrain Generation (Diamond Square Noise)",
+        "dimensionality": "7D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "rough"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAP-Elites"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": 0.35,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Archive coverage (3.12% for Rgh/TPI) and learning speed (1280 epochs to 15% distance)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Bipedal walker locomotion curriculum generation"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Terrain Generation (Worley Noise)",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "rough"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAP-Elites"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": 0.35,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Archive coverage (2.88% for Rgh/TPI) and learning speed (14080 epochs to 30% distance)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Bipedal walker locomotion curriculum generation"
+      },
+      "the_database": {
+        "dataset_name": "OpenTopography",
+        "source_platform": "OpenTopography website"
+      },
+      "the_benchmark_problem": {
+        "name": "Terrain Generation (GAN)",
+        "dimensionality": "50D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "rough"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAP-Elites"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": 0.07,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Archive coverage (2.48% for Rgh/TPI) and learning speed (1000 epochs to 15% distance)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Bipedal walker locomotion curriculum generation"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Terrain Generation (CPPN)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "rough"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAP-Elites"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Archive coverage (23.16% for Rgh/TPI) and learning speed (13280 epochs to 45% distance)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

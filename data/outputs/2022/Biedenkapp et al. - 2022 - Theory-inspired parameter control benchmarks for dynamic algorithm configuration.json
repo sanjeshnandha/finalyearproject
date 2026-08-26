@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "title": "Theory-inspired Parameter Control Benchmarks for Dynamic Algorithm Configuration",
+    "authors": [
+      "Andr\u0000\u0019\u0018 Biedenkapp",
+      "Nguyen Dang",
+      "Martin S. Krejca",
+      "Frank Hutter",
+      "Carola Doerr"
+    ],
+    "year": 2022,
+    "source_file": "Biedenkapp et al. - 2022 - Theory-inspired parameter control benchmarks for dynamic algorithm configuration.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "LeadingOnes",
+        "dimensionality": "50D, 100D, 150D, 200D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "fitness-dependent",
+          "stochastic"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DDQN-configured (1+1) RLS"
+      },
+      "parameters": {
+        "population_size": 1,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Expected runtime (number of iterations to find the global optimum)",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "title": "Redefining the Behavior Space for Multi-Objective MAP-Elites",
+    "authors": [
+      "Anna Nickelson",
+      "Kagan Tumer"
+    ],
+    "year": 2024,
+    "source_file": "Nickelson and Tumer - 2024 - Redefining the Behavior Space for Multi-Objective MAP-Elites.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Continuous control of a single-legged robot (Gym Hopper)"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Gym Hopper",
+        "dimensionality": "11D state, 3D action"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-Objective MAP-Elites (MOME)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV) and Behavior Coverage (BH %)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Continuous multi-objective observation problem for a rover"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rover",
+        "dimensionality": "17D state"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-Objective MAP-Elites (MOME)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV) and Behavior Coverage (BH %)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

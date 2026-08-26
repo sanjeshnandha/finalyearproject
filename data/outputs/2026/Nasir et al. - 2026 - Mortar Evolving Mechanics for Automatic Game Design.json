@@ -1,0 +1,280 @@
+{
+  "metadata": {
+    "title": "Mortar: Evolving Mechanics for Automatic Game Design",
+    "authors": [
+      "Muhammad U. Nasir",
+      "Yuchen Li",
+      "Steven James",
+      "Julian Togelius"
+    ],
+    "year": 2026,
+    "source_file": "Nasir et al. - 2026 - Mortar Evolving Mechanics for Automatic Game Design.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Game Design",
+        "problem_context": "Evolving game mechanics for automatic game design"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Game Mechanic Generation",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MORTAR (MAP-Elites + LLM)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.2
+      },
+      "performance_outcome": {
+        "metric": "QD score: 31.18 ± 8.10, Max CITS: 0.59 ± 0.11",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Game Design",
+        "problem_context": "Evolving game mechanics for automatic game design"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Game Mechanic Generation",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MORTAR-GA"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.2
+      },
+      "performance_outcome": {
+        "metric": "Max CITS: 0.31 ± 0.17",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Game Design",
+        "problem_context": "Evolving game mechanics for automatic game design"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Game Mechanic Generation",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Random population"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Max CITS: 0.09 ± 0.07",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Game Design",
+        "problem_context": "Evolving game mechanics for automatic game design"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Game Mechanic Generation",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LLM Selection"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.2
+      },
+      "performance_outcome": {
+        "metric": "QD score: 17.64 ± 4.91, Max CITS: 0.27 ± 0.09",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Game Design",
+        "problem_context": "Evolving game mechanics for automatic game design"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Game Mechanic Generation",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Random Selection"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.2
+      },
+      "performance_outcome": {
+        "metric": "QD score: 9.86 ± 6.71, Max CITS: 0.14 ± 0.08",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Game Design",
+        "problem_context": "Evolving game mechanics for automatic game design"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Game Mechanic Generation",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Greedy Selection"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.2
+      },
+      "performance_outcome": {
+        "metric": "QD score: 25.37 ± 2.81, Max CITS: 0.51 ± 0.06",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Game Design",
+        "problem_context": "Evolving game mechanics for automatic game design"
+      },
+      "the_database": {
+        "dataset_name": "Sokoban",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Game Mechanic Generation (Sokoban)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MORTAR with Sokoban Initialisation"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.2
+      },
+      "performance_outcome": {
+        "metric": "QD score: 15.19 ± 3.12, Max CITS: 0.45 ± 0.12",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment/Game Design",
+        "problem_context": "Evolving game mechanics for automatic game design"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Game Mechanic Generation",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MORTAR (GPT-5.1)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.2
+      },
+      "performance_outcome": {
+        "metric": "Max CITS: 0.66, Games Success Rate: 84%",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

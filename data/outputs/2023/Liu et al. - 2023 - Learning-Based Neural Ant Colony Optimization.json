@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "title": "Learning-Based Neural Ant Colony Optimization",
+    "authors": [
+      "Yi Liu",
+      "Jiang Qiu",
+      "Emma Hart",
+      "Yilan Yu",
+      "Zhongxue Gan",
+      "Wei Li"
+    ],
+    "year": 2023,
+    "source_file": "Liu et al. - 2023 - Learning-Based Neural Ant Colony Optimization.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robot path planning"
+      },
+      "the_database": {
+        "dataset_name": "Various Obstacles (VO) Dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Path Planning",
+        "dimensionality": "10x10 grid"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "obstacles",
+          "grid-world"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Learning-Based Neural Ant Colony Optimization (LN-ACO)"
+      },
+      "parameters": {
+        "population_size": 15,
+        "max_evaluations_or_generations": 10,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average path length (AP) and average time consumption",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robot path planning"
+      },
+      "the_database": {
+        "dataset_name": "Motion Planning (MP) Dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Path Planning",
+        "dimensionality": "20x20 grid"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "obstacles",
+          "grid-world"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Learning-Based Neural Ant Colony Optimization (LN-ACO)"
+      },
+      "parameters": {
+        "population_size": 25,
+        "max_evaluations_or_generations": 25,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average path length (AP) and average time consumption",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robot path planning on real-world maps"
+      },
+      "the_database": {
+        "dataset_name": "Google Maps",
+        "source_platform": "Google Maps"
+      },
+      "the_benchmark_problem": {
+        "name": "Path Planning",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "real-world obstacles",
+          "complex terrain"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Learning-Based Neural Predictor-based Ant Colony Optimization (LN-PPACO)"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 30,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Convergence speed and path length",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "metadata": {
+    "title": "Memetic Algorithm for Multi-objective Virtual Network Slice Configuration",
+    "authors": [
+      "Qinan Chen",
+      "Qiqi Xia",
+      "Kaixuan Sun",
+      "Jin Wang",
+      "Bo Yuan"
+    ],
+    "year": 2024,
+    "source_file": "Chen et al. - 2024 - Memetic Algorithm for Multi-objective Virtual Network Slice Configuration.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Telecommunications",
+        "problem_context": "Virtual Network Slice Configuration"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": "NetworkX"
+      },
+      "the_benchmark_problem": {
+        "name": "Slice-10",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "combinatorial",
+          "heavy-tailed latency distributions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II-FullMCS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.1,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV) and Runtime",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Telecommunications",
+        "problem_context": "Virtual Network Slice Configuration"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": "NetworkX"
+      },
+      "the_benchmark_problem": {
+        "name": "Slice-20",
+        "dimensionality": "20D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "combinatorial",
+          "heavy-tailed latency distributions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II-FullMCS"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.1,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV) and Runtime",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Telecommunications",
+        "problem_context": "Virtual Network Slice Configuration"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": "NetworkX"
+      },
+      "the_benchmark_problem": {
+        "name": "Slice-10",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "combinatorial",
+          "heavy-tailed latency distributions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II-FA"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.1,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV) and Runtime",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Telecommunications",
+        "problem_context": "Virtual Network Slice Configuration"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": "NetworkX"
+      },
+      "the_benchmark_problem": {
+        "name": "Slice-20",
+        "dimensionality": "20D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "combinatorial",
+          "heavy-tailed latency distributions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II-FA"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.1,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV) and Runtime",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Telecommunications",
+        "problem_context": "Virtual Network Slice Configuration"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": "NetworkX"
+      },
+      "the_benchmark_problem": {
+        "name": "Slice-10",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "combinatorial",
+          "heavy-tailed latency distributions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II-FA + Ini + Mut"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.1,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Telecommunications",
+        "problem_context": "Virtual Network Slice Configuration"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": "NetworkX"
+      },
+      "the_benchmark_problem": {
+        "name": "Slice-20",
+        "dimensionality": "20D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "combinatorial",
+          "heavy-tailed latency distributions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II-FA + Ini + Mut"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.1,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

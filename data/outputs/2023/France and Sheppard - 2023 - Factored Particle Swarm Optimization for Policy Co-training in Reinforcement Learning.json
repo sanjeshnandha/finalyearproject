@@ -1,0 +1,394 @@
+{
+  "metadata": {
+    "title": "Factored Particle Swarm Optimization for Policy Co-training in Reinforcement Learning",
+    "authors": [
+      "Kordel K. France",
+      "John W. Sheppard"
+    ],
+    "year": 2023,
+    "source_file": "France and Sheppard - 2023 - Factored Particle Swarm Optimization for Policy Co-training in Reinforcement Learning.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating reinforcement learning algorithms on gridworld navigation tasks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Cliff Walking",
+        "dimensionality": "768 states"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stochastic",
+          "noisy",
+          "rugged",
+          "uncertainty"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CoFEA (Expected SARSA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Cumulative reward of -6",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating reinforcement learning algorithms on gridworld navigation tasks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Frozen Lake",
+        "dimensionality": "1024 states"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stochastic",
+          "noisy",
+          "rugged",
+          "uncertainty"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CoFEA (Expected SARSA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Cumulative reward of -5",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating reinforcement learning algorithms on gridworld navigation tasks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "L-track Racetrack",
+        "dimensionality": "Continuous"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stochastic",
+          "noisy",
+          "rugged",
+          "uncertainty"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CoFEA (Expected SARSA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Cumulative reward of -11",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating reinforcement learning algorithms on gridworld navigation tasks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "R-track Racetrack",
+        "dimensionality": "Continuous"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stochastic",
+          "noisy",
+          "rugged",
+          "uncertainty"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CoFEA (Expected SARSA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Cumulative reward of -3",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating reinforcement learning algorithms on gridworld navigation tasks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "O-track Racetrack",
+        "dimensionality": "Continuous"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stochastic",
+          "noisy",
+          "rugged",
+          "uncertainty"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CoFEA (Expected SARSA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Cumulative reward of -6",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating reinforcement learning algorithms on gridworld navigation tasks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Cliff Walking",
+        "dimensionality": "768 states"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stochastic",
+          "noisy",
+          "rugged",
+          "uncertainty"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CoFEA (Q-learning)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Cumulative reward of -5",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating reinforcement learning algorithms on gridworld navigation tasks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Frozen Lake",
+        "dimensionality": "1024 states"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stochastic",
+          "noisy",
+          "rugged",
+          "uncertainty"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CoFEA (Q-learning)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Cumulative reward of -25",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating reinforcement learning algorithms on gridworld navigation tasks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "L-track Racetrack",
+        "dimensionality": "Continuous"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stochastic",
+          "noisy",
+          "rugged",
+          "uncertainty"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CoFEA (Q-learning)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Cumulative reward of -24",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating reinforcement learning algorithms on gridworld navigation tasks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "R-track Racetrack",
+        "dimensionality": "Continuous"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stochastic",
+          "noisy",
+          "rugged",
+          "uncertainty"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CoFEA (Q-learning)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Cumulative reward of -18",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating reinforcement learning algorithms on gridworld navigation tasks"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "O-track Racetrack",
+        "dimensionality": "Continuous"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "stochastic",
+          "noisy",
+          "rugged",
+          "uncertainty"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CoFEA (Q-learning)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Cumulative reward of -19",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

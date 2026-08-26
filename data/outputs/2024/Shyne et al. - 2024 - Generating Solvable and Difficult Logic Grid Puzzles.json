@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "title": "Generating Solvable and Difficult Logic Grid Puzzles",
+    "authors": [
+      "Fiona Shyne",
+      "Kaylah Facey",
+      "Seth Cooper"
+    ],
+    "year": 2024,
+    "source_file": "Shyne et al. - 2024 - Generating Solvable and Difficult Logic Grid Puzzles.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Games",
+        "problem_context": "Generating solvable and difficult logic grid puzzles"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Logic Grid Puzzle Generation",
+        "dimensionality": "4 categories, 4 entities each"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "discrete"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Feasible-Infeasible Two-Population (FI-2Pop) genetic algorithm"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.8,
+        "crossover_rate": 0.3
+      },
+      "performance_outcome": {
+        "metric": "Average fitness and solver loops",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

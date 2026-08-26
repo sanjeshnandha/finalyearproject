@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "title": "Exploratory Path Planning for Mobile Robots in Dynamic Environments with Ant Colony Optimization",
+    "authors": [
+      "Valéria de C. Santos",
+      "Fernando E. B. Otero",
+      "Colin Johnson",
+      "Fernando S. Osório",
+      "Cláudio F. M. Toledo"
+    ],
+    "year": 2020,
+    "source_file": "de C. Santos et al. - 2020 - Exploratory path planning for mobile robots in dynamic environments with ant colony optimization.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Exploratory Path Planning for Mobile Robots"
+      },
+      "the_database": {
+        "dataset_name": "Custom Topological Map",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Static Exploratory Path Planning",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "graph-based",
+          "static"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Max-Min Ant System for Dynamic Path Planning (MMAS-DPP)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average best path length",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Exploratory Path Planning for Mobile Robots"
+      },
+      "the_database": {
+        "dataset_name": "Custom Topological Map",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Dynamic Exploratory Path Planning",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "graph-based",
+          "dynamic"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Max-Min Ant System for Dynamic Path Planning (MMAS-DPP)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average best path length",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

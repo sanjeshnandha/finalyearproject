@@ -1,0 +1,275 @@
+{
+  "metadata": {
+    "title": "Multi-Objective Evolution of Patch Tokens for Tabular Transformers",
+    "authors": [
+      "Han Joon Byun",
+      "Joon Huh",
+      "Jieun Yook",
+      "Byung-ro Moon"
+    ],
+    "year": 2026,
+    "source_file": "Byun et al. - 2026 - Multi-Objective Evolution of Patch Tokens for Tabular Transformers.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Patch tokenization for Tabular Transformers"
+      },
+      "the_database": {
+        "dataset_name": "ALOI",
+        "source_platform": "FT-Transformer benchmark suite"
+      },
+      "the_benchmark_problem": {
+        "name": "ALOI",
+        "dimensionality": "128D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "discrete",
+          "non-differentiable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EvoPatch (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 120,
+        "max_evaluations_or_generations": 40,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "17.5% token reduction, relative change in test accuracy: +0.16% (FT-Transformer), +0.15% (TabTransformer), +0.10% (AutoInt)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Patch tokenization for Tabular Transformers"
+      },
+      "the_database": {
+        "dataset_name": "Adult",
+        "source_platform": "FT-Transformer benchmark suite"
+      },
+      "the_benchmark_problem": {
+        "name": "Adult",
+        "dimensionality": "14D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "discrete",
+          "non-differentiable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EvoPatch (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 120,
+        "max_evaluations_or_generations": 40,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "28.6% token reduction, relative change in test accuracy: +0.34% (FT-Transformer), -0.31% (TabTransformer), -0.38% (AutoInt)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Patch tokenization for Tabular Transformers"
+      },
+      "the_database": {
+        "dataset_name": "California Housing",
+        "source_platform": "FT-Transformer benchmark suite"
+      },
+      "the_benchmark_problem": {
+        "name": "California Housing",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "discrete",
+          "non-differentiable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EvoPatch (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 120,
+        "max_evaluations_or_generations": 40,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "37.5% token reduction, relative change in test RMSE: -3.09% (FT-Transformer), -1.72% (TabTransformer), -2.30% (AutoInt)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Patch tokenization for Tabular Transformers"
+      },
+      "the_database": {
+        "dataset_name": "Covtype",
+        "source_platform": "FT-Transformer benchmark suite"
+      },
+      "the_benchmark_problem": {
+        "name": "Covtype",
+        "dimensionality": "54D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "discrete",
+          "non-differentiable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EvoPatch (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 120,
+        "max_evaluations_or_generations": 40,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "75.4% token reduction, relative change in test accuracy: -0.55% (FT-Transformer), -0.58% (TabTransformer), -0.84% (AutoInt)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Patch tokenization for Tabular Transformers"
+      },
+      "the_database": {
+        "dataset_name": "Epsilon",
+        "source_platform": "FT-Transformer benchmark suite"
+      },
+      "the_benchmark_problem": {
+        "name": "Epsilon",
+        "dimensionality": "2000D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "discrete",
+          "non-differentiable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EvoPatch (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 120,
+        "max_evaluations_or_generations": 40,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "55.9% token reduction, relative change in test accuracy: +0.44% (FT-Transformer), -0.49% (TabTransformer), -0.88% (AutoInt)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Patch tokenization for Tabular Transformers"
+      },
+      "the_database": {
+        "dataset_name": "Jannis",
+        "source_platform": "FT-Transformer benchmark suite"
+      },
+      "the_benchmark_problem": {
+        "name": "Jannis",
+        "dimensionality": "54D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "discrete",
+          "non-differentiable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EvoPatch (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 120,
+        "max_evaluations_or_generations": 40,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "45.7% token reduction, relative change in test accuracy: +0.51% (FT-Transformer), +0.21% (TabTransformer), -1.21% (AutoInt)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Patch tokenization for Tabular Transformers"
+      },
+      "the_database": {
+        "dataset_name": "Year",
+        "source_platform": "FT-Transformer benchmark suite"
+      },
+      "the_benchmark_problem": {
+        "name": "Year",
+        "dimensionality": "90D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "discrete",
+          "non-differentiable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EvoPatch (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 120,
+        "max_evaluations_or_generations": 40,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "22.8% token reduction, relative change in test RMSE: +0.97% (FT-Transformer), -1.88% (TabTransformer), +0.55% (AutoInt)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

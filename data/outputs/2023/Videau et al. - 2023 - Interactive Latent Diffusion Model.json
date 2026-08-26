@@ -1,0 +1,197 @@
+{
+  "metadata": {
+    "title": "Interactive Latent Diffusion Model",
+    "authors": [
+      "Mathurin Videau",
+      "Nickolai Knizev",
+      "Alessandro Leite",
+      "Marc Schoenauer",
+      "Olivier Teytaud"
+    ],
+    "year": 2023,
+    "source_file": "Videau et al. - 2023 - Interactive Latent Diffusion Model.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Art and Design",
+        "problem_context": "Interactive image synthesis using Latent Diffusion Models"
+      },
+      "the_database": {
+        "dataset_name": "Custom hand-labelled image dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Fighting a dinosaur with cucumbers",
+        "dimensionality": "4x64x64"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "latent space",
+          "spatially distributed"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "IELDM (Voronoi crossover)"
+      },
+      "parameters": {
+        "population_size": 15,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate after user feedback",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Art and Design",
+        "problem_context": "Interactive image synthesis using Latent Diffusion Models"
+      },
+      "the_database": {
+        "dataset_name": "Custom hand-labelled image dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Character eating ice cream + candy",
+        "dimensionality": "4x64x64"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "latent space",
+          "spatially distributed"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "IELDM (Voronoi crossover)"
+      },
+      "parameters": {
+        "population_size": 15,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate after user feedback",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Art and Design",
+        "problem_context": "Interactive image synthesis using Latent Diffusion Models"
+      },
+      "the_database": {
+        "dataset_name": "Custom hand-labelled image dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Specified Dominant color (Green or red or blue)",
+        "dimensionality": "4x64x64"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "latent space",
+          "spatially distributed"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "IELDM (Surrogate model, Logistic Regression)"
+      },
+      "parameters": {
+        "population_size": 15,
+        "max_evaluations_or_generations": 30,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate improvement (median)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Art and Design",
+        "problem_context": "Interactive image synthesis using Latent Diffusion Models"
+      },
+      "the_database": {
+        "dataset_name": "Custom hand-labelled image dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Specified Dominant color (Green or red or blue)",
+        "dimensionality": "4x64x64"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "latent space",
+          "spatially distributed"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "IELDM (Surrogate model, MLP)"
+      },
+      "parameters": {
+        "population_size": 15,
+        "max_evaluations_or_generations": 30,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate improvement (median)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Art and Design",
+        "problem_context": "Interactive image synthesis using Latent Diffusion Models"
+      },
+      "the_database": {
+        "dataset_name": "Custom hand-labelled image dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Medusa",
+        "dimensionality": "4x64x64"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "latent space",
+          "spatially distributed"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "IELDM (Global mutation)"
+      },
+      "parameters": {
+        "population_size": 15,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate after user feedback",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

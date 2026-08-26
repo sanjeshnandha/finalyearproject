@@ -1,0 +1,233 @@
+{
+  "metadata": {
+    "title": "Analyzing Adaptive Parameter Landscapes in Parameter Adaptation Methods for Differential Evolution",
+    "authors": [
+      "Ryoji Tanabe"
+    ],
+    "year": 2020,
+    "source_file": "Tanabe - 2020 - Analyzing adaptive parameter landscapes in parameter adaptation methods for differential evolution.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BBOB f1 (Sphere function)",
+        "dimensionality": "20D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "separable",
+          "unimodal"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "P-SHADE"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best-so-far error value",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BBOB f3 (Rastrigin function)",
+        "dimensionality": "20D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "separable",
+          "multimodal",
+          "adequate global structure"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "P-SHADE"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best-so-far error value",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BBOB f22 (Gallagher's Gaussian 21 peaks function)",
+        "dimensionality": "20D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "multimodal",
+          "weak global structure",
+          "no global structure"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "P-SHADE"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best-so-far error value",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BBOB f23 (Katsuura function)",
+        "dimensionality": "20D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "multimodal",
+          "weak global structure",
+          "no global structure",
+          "highly rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "P-SHADE"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best-so-far error value",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BBOB f1 (Sphere function)",
+        "dimensionality": "20D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "separable",
+          "unimodal"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "P-jDE"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best-so-far error value",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BBOB f1 (Sphere function)",
+        "dimensionality": "20D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "separable",
+          "unimodal"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "P-JADE"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best-so-far error value",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

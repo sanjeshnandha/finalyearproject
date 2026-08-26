@@ -1,0 +1,237 @@
+{
+  "metadata": {
+    "title": "EvoBatch: A Mini-Batch, Compute-Constrained Evolutionary Algorithm Reduces the Generalization Gap in Deep Learning",
+    "authors": [
+      "Toki Tahmid Inan",
+      "Shahana Shultana",
+      "Amarda Shehu"
+    ],
+    "year": 2026,
+    "source_file": "Inan et al. - 2026 - EvoBatch A Mini-Batch, Compute-Constrained Evolutionary Algorithm Reduces the Generalization Gap in.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Image Classification using ResNet34"
+      },
+      "the_database": {
+        "dataset_name": "CIFAR-10",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CIFAR-10 Image Classification (ResNet34)",
+        "dimensionality": "21M"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "flat regions",
+          "sharp minima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EvoBatch"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.25,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test Accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Image Classification using ResNet50"
+      },
+      "the_database": {
+        "dataset_name": "CIFAR-100",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CIFAR-100 Image Classification (ResNet50)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "flat regions",
+          "sharp minima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EvoBatch"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.25,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test Accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Image Classification using WideResNet28"
+      },
+      "the_database": {
+        "dataset_name": "CIFAR-100",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CIFAR-100 Image Classification (WideResNet28)",
+        "dimensionality": "36.5M"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "flat regions",
+          "sharp minima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EvoBatch"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.25,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test Accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Image Classification using ViT16"
+      },
+      "the_database": {
+        "dataset_name": "CIFAR-100",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CIFAR-100 Image Classification (ViT16)",
+        "dimensionality": "86M"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "flat regions",
+          "sharp minima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EvoBatch"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.25,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test Accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Natural Language Processing",
+        "problem_context": "Sentiment Analysis using BERT-Base"
+      },
+      "the_database": {
+        "dataset_name": "SST-2 (GLUE)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SST-2 Sentiment Analysis (BERT-Base)",
+        "dimensionality": "110M"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "flat regions",
+          "sharp minima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EvoBatch"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.25,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test Accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Natural Language Processing",
+        "problem_context": "Natural Language Inference using BERT-Base"
+      },
+      "the_database": {
+        "dataset_name": "QNLI (GLUE)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "QNLI Natural Language Inference (BERT-Base)",
+        "dimensionality": "110M"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "flat regions",
+          "sharp minima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EvoBatch"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.25,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test Accuracy",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

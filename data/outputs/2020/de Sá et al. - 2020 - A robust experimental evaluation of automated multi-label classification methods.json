@@ -1,0 +1,232 @@
+{
+  "metadata": {
+    "title": "A Robust Experimental Evaluation of Automated Multi-Label Classification Methods",
+    "authors": [
+      "Alex G. C. de Sá",
+      "Cristiano G. Pimenta",
+      "Gisele L. Pappa",
+      "Alex A. Freitas"
+    ],
+    "year": 2020,
+    "source_file": "de Sá et al. - 2020 - A robust experimental evaluation of automated multi-label classification methods.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Automated Multi-Label Classification"
+      },
+      "the_database": {
+        "dataset_name": "14 MLC Datasets (Bibtex, Birds, CAL500, CHD_49, Enron, Flags, Genbase, GpositivePseAAC, Medical, PlantPseAAC, Scene, VirusPseAAC, Water-quality, Yeast)",
+        "source_platform": "KDIS Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Small Search Space",
+        "dimensionality": "10 learning algorithms"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "exponential size",
+          "complex hierarchical nature"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Auto-MEKAGGP"
+      },
+      "parameters": {
+        "population_size": 80,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average Fitness (EM, HL, FM, RL)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Automated Multi-Label Classification"
+      },
+      "the_database": {
+        "dataset_name": "14 MLC Datasets (Bibtex, Birds, CAL500, CHD_49, Enron, Flags, Genbase, GpositivePseAAC, Medical, PlantPseAAC, Scene, VirusPseAAC, Water-quality, Yeast)",
+        "source_platform": "KDIS Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Medium Search Space",
+        "dimensionality": "30 learning algorithms"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "exponential size",
+          "complex hierarchical nature"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Auto-MEKAGGP"
+      },
+      "parameters": {
+        "population_size": 80,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average Fitness (EM, HL, FM, RL)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Automated Multi-Label Classification"
+      },
+      "the_database": {
+        "dataset_name": "14 MLC Datasets (Bibtex, Birds, CAL500, CHD_49, Enron, Flags, Genbase, GpositivePseAAC, Medical, PlantPseAAC, Scene, VirusPseAAC, Water-quality, Yeast)",
+        "source_platform": "KDIS Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Large Search Space",
+        "dimensionality": "54 learning algorithms"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "exponential size",
+          "complex hierarchical nature"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Auto-MEKAGGP"
+      },
+      "parameters": {
+        "population_size": 80,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average Fitness (EM, HL, FM, RL)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Automated Multi-Label Classification"
+      },
+      "the_database": {
+        "dataset_name": "14 MLC Datasets (Bibtex, Birds, CAL500, CHD_49, Enron, Flags, Genbase, GpositivePseAAC, Medical, PlantPseAAC, Scene, VirusPseAAC, Water-quality, Yeast)",
+        "source_platform": "KDIS Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Small Search Space",
+        "dimensionality": "10 learning algorithms"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "exponential size",
+          "complex hierarchical nature"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Auto-MEKAspGGP"
+      },
+      "parameters": {
+        "population_size": 80,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average Fitness (EM, HL, FM, RL)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Automated Multi-Label Classification"
+      },
+      "the_database": {
+        "dataset_name": "14 MLC Datasets (Bibtex, Birds, CAL500, CHD_49, Enron, Flags, Genbase, GpositivePseAAC, Medical, PlantPseAAC, Scene, VirusPseAAC, Water-quality, Yeast)",
+        "source_platform": "KDIS Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Medium Search Space",
+        "dimensionality": "30 learning algorithms"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "exponential size",
+          "complex hierarchical nature"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Auto-MEKAspGGP"
+      },
+      "parameters": {
+        "population_size": 80,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average Fitness (EM, HL, FM, RL)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Automated Multi-Label Classification"
+      },
+      "the_database": {
+        "dataset_name": "14 MLC Datasets (Bibtex, Birds, CAL500, CHD_49, Enron, Flags, Genbase, GpositivePseAAC, Medical, PlantPseAAC, Scene, VirusPseAAC, Water-quality, Yeast)",
+        "source_platform": "KDIS Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Large Search Space",
+        "dimensionality": "54 learning algorithms"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "exponential size",
+          "complex hierarchical nature"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Auto-MEKAspGGP"
+      },
+      "parameters": {
+        "population_size": 80,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average Fitness (EM, HL, FM, RL)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

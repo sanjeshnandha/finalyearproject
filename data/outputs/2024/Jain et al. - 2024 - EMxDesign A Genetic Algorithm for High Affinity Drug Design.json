@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "title": "EMxDesign: A Genetic Algorithm for High Affinity Drug Design",
+    "authors": [
+      "Neha Jain",
+      "Andrew Hornback",
+      "May D. Wang"
+    ],
+    "year": 2024,
+    "source_file": "Jain et al. - 2024 - EMxDesign A Genetic Algorithm for High Affinity Drug Design.pdf",
+    "gecco_track": "GECCO '24 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Optimizing drug-pathogen affinity for SARS-CoV-2 protein pockets"
+      },
+      "the_database": {
+        "dataset_name": "COVID-19 Bioinformatics Drug Target Challenge",
+        "source_platform": "Kaggle"
+      },
+      "the_benchmark_problem": {
+        "name": "SARS-CoV-2 protein pocket targets",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EMxDesign"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 1,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Docking score (kcal/mol)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

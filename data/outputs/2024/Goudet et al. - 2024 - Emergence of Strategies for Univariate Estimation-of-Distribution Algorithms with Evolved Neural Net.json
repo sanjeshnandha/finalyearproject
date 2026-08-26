@@ -1,0 +1,164 @@
+{
+  "metadata": {
+    "title": "Emergence of Strategies for Univariate Estimation-of-Distribution Algorithms with Evolved Neural Networks",
+    "authors": [
+      "Olivier Goudet",
+      "Adrien Goëffon",
+      "Frédéric Saubion",
+      "Sébastien Verel"
+    ],
+    "year": 2024,
+    "source_file": "Goudet et al. - 2024 - Emergence of Strategies for Univariate Estimation-of-Distribution Algorithms with Evolved Neural Net.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "PUBO_i",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Quadratic Unconstrained Binary Optimization (QUBO)",
+        "dimensionality": "32D, 64D, 128D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "quadratic interactions",
+          "rough fitness landscapes"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Neuro-EDA"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average fitness value",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "PUBO_i",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Quadratic Unconstrained Binary Optimization (QUBO)",
+        "dimensionality": "32D, 64D, 128D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "quadratic interactions",
+          "rough fitness landscapes"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Linear-EDA"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average fitness value",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "PUBO_i",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Quadratic Unconstrained Binary Optimization (QUBO)",
+        "dimensionality": "32D, 64D, 128D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "quadratic interactions",
+          "rough fitness landscapes"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "UMDA"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average fitness value",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "PUBO_i",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Quadratic Unconstrained Binary Optimization (QUBO)",
+        "dimensionality": "32D, 64D, 128D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "quadratic interactions",
+          "rough fitness landscapes"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PBIL"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average fitness value",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

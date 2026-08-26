@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "title": "Dealing With a Problematic Roundabout by Optimizing a Traffic Light System Through Evolutionary Computation",
+    "authors": [
+      "Francisco Cruz-Zelante",
+      "Eduardo Segredo",
+      "Gara Miranda"
+    ],
+    "year": 2021,
+    "source_file": "Cruz-Zelante et al. - 2021 - Dealing with a problematic roundabout by optimizing a traffic light system through evolutionary comp.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traffic Light Scheduling Problem (TLSP) for the Padre Anchieta roundabout"
+      },
+      "the_database": {
+        "dataset_name": "Padre Anchieta roundabout traffic study data",
+        "source_platform": "Tenerife Island Council"
+      },
+      "the_benchmark_problem": {
+        "name": "Traffic Light Scheduling Problem (TLSP)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (GA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Objective function value based on vehicle arrival, journey time, and wait time",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

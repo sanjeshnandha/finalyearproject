@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "title": "Shifting Color Space for Image Classification using Genetic Programming",
+    "authors": [
+      "David Herrera-Sánchez",
+      "Héctor-Gabriel Acosta-Mesa",
+      "Efrén Mezura-Montes",
+      "Aldo Márquez-Grajales"
+    ],
+    "year": 2024,
+    "source_file": "Herrera-Sánchez et al. - 2024 - Shifting Color Space for Image Classification using Genetic Programming.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Image Classification"
+      },
+      "the_database": {
+        "dataset_name": "FEI_1",
+        "source_platform": "FEI database"
+      },
+      "the_benchmark_problem": {
+        "name": "FEI_1",
+        "dimensionality": "256 x 256"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Strongly Typed Genetic Programming"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.19,
+        "crossover_rate": 0.08
+      },
+      "performance_outcome": {
+        "metric": "Classification accuracy",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Image Classification"
+      },
+      "the_database": {
+        "dataset_name": "BIRDS",
+        "source_platform": "California Institute of Technology"
+      },
+      "the_benchmark_problem": {
+        "name": "BIRDS",
+        "dimensionality": "256 x 256"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Strongly Typed Genetic Programming"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.19,
+        "crossover_rate": 0.08
+      },
+      "performance_outcome": {
+        "metric": "Classification accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Image Classification"
+      },
+      "the_database": {
+        "dataset_name": "VGDB",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "VGDB",
+        "dimensionality": "256 x 256"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Strongly Typed Genetic Programming"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.19,
+        "crossover_rate": 0.08
+      },
+      "performance_outcome": {
+        "metric": "Classification accuracy",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

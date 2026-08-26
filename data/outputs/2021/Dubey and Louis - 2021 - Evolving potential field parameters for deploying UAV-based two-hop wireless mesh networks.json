@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "title": "Evolving Potential Field Parameters For Deploying UAV-based Two-hop Wireless Mesh Networks",
+    "authors": [
+      "Rahul Dubey",
+      "Sushil J. Louis"
+    ],
+    "year": 2021,
+    "source_file": "Dubey and Louis - 2021 - Evolving potential field parameters for deploying UAV-based two-hop wireless mesh networks.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Telecommunications",
+        "problem_context": "Optimizing UAV movement to maximize bandwidth coverage and network longevity"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "UAV-based ad-hoc wireless mesh network deployment (Two-hop)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "highly non-linear"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MEANet (Modified Evolutionary Adaptive Network deployment)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Fitness (linear combination of bandwidth served and network longevity)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Telecommunications",
+        "problem_context": "Optimizing UAV movement to maximize bandwidth coverage and network longevity"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "UAV-based ad-hoc wireless mesh network deployment (One-hop)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "highly non-linear"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EANet (Evolutionary Adaptive Network deployment)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Fitness (linear combination of bandwidth served and network longevity)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

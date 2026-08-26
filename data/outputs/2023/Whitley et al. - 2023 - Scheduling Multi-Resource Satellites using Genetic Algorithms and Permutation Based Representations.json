@@ -1,0 +1,165 @@
+{
+  "metadata": {
+    "title": "Scheduling Multi-Resource Satellites using Genetic Algorithms and Permutation Based Representations",
+    "authors": [
+      "O. Quevedo De Carvalho",
+      "D. Whitley",
+      "V. Shetty",
+      "P. Jampathom",
+      "M. Roberts"
+    ],
+    "year": 2023,
+    "source_file": "Whitley et al. - 2023 - Scheduling Multi-Resource Satellites using Genetic Algorithms and Permutation Based Representations.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Aerospace/Defense",
+        "problem_context": "Multi-Resource Satellite Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "Synthetic VMOC Satellite Scheduling Dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Resource Satellite Scheduling Problem (MRSSP)",
+        "dimensionality": "Variable (200 to 1000 tasks)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "highly constrained",
+          "NP-hard",
+          "overlapping conflicts"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard Genetic Algorithm with Order Crossover (SGA-OX)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.0,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Conflict Overlap",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Aerospace/Defense",
+        "problem_context": "Multi-Resource Satellite Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "Synthetic VMOC Satellite Scheduling Dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Resource Satellite Scheduling Problem (MRSSP)",
+        "dimensionality": "Variable (200 to 1000 tasks)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "highly constrained",
+          "NP-hard",
+          "overlapping conflicts"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard Genetic Algorithm with Partially Matched Crossover (SGA-PMX)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.0,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Conflict Overlap",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Aerospace/Defense",
+        "problem_context": "Multi-Resource Satellite Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "Synthetic VMOC Satellite Scheduling Dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Resource Satellite Scheduling Problem (MRSSP)",
+        "dimensionality": "Variable (200 to 1000 tasks)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "highly constrained",
+          "NP-hard",
+          "overlapping conflicts"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Steady State Genetic Algorithm with Order Crossover (SSGA-OX)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.0,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Conflict Overlap",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Aerospace/Defense",
+        "problem_context": "Multi-Resource Satellite Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "Synthetic VMOC Satellite Scheduling Dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Resource Satellite Scheduling Problem (MRSSP)",
+        "dimensionality": "Variable (200 to 1000 tasks)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "highly constrained",
+          "NP-hard",
+          "overlapping conflicts"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Steady State Genetic Algorithm with Partially Matched Crossover (SSGA-PMX)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": 0.0,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Conflict Overlap",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

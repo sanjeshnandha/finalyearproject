@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "title": "Evolutionary Generation of Random Surreal Numbers for Benchmarking",
+    "authors": [
+      "Matthew Roughan"
+    ],
+    "year": 2025,
+    "source_file": "Roughan - 2025 - Evolutionary Generation of Random Surreal Numbers for Benchmarking.pdf",
+    "gecco_track": "GECCO '25 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Generating random surreal numbers for benchmarking"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Surreal Number Generation",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "recursive calculations",
+          "complex structures"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (Surreal number ensemble creation)"
+      },
+      "parameters": {
+        "population_size": 4000,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Convergence to stationary distribution",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

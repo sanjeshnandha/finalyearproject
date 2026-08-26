@@ -1,0 +1,184 @@
+{
+  "metadata": {
+    "title": "Diversity Optimization for the Detection and Concealment of Spatially Defined Communication Networks",
+    "authors": [
+      "Aneta Neumann",
+      "Sharlotte Gounder",
+      "Xiankun Yan",
+      "Gregory Sherman",
+      "Benjamin Campbell",
+      "Mingyu Guo",
+      "Frank Neumann"
+    ],
+    "year": 2023,
+    "source_file": "Neumann et al. - 2023 - Diversity Optimization for the Detection and Concealment of Spatially Defined Communication Networks.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Defense/Security",
+        "problem_context": "Adversarial Minimum Area Spanning Forest (AMASF) for wireless communication network concealment"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "University of Heidelberg"
+      },
+      "the_benchmark_problem": {
+        "name": "AMASF (TSPLIB instances: ulysses16, bays29, berlin52, st70, eil101, kr124, ch150, kroA200)",
+        "dimensionality": "Variable (16 to 200 nodes)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(mu + lambda)-EA with uniform edge mutation"
+      },
+      "parameters": {
+        "population_size": 5,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean area and mean diversity score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Defense/Security",
+        "problem_context": "Adversarial Minimum Area Spanning Forest (AMASF) for wireless communication network concealment"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "University of Heidelberg"
+      },
+      "the_benchmark_problem": {
+        "name": "AMASF (TSPLIB instances: ulysses16, bays29, berlin52, st70, eil101, kr124, ch150, kroA200)",
+        "dimensionality": "Variable (16 to 200 nodes)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(mu + lambda)-EA with biased quality mutation (BQ)"
+      },
+      "parameters": {
+        "population_size": 5,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean area and mean diversity score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Defense/Security",
+        "problem_context": "Adversarial Minimum Area Spanning Forest (AMASF) for wireless communication network concealment"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": "University of Heidelberg"
+      },
+      "the_benchmark_problem": {
+        "name": "AMASF (TSPLIB instances: ulysses16, bays29, berlin52, st70, eil101, kr124, ch150, kroA200)",
+        "dimensionality": "Variable (16 to 200 nodes)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(mu + lambda)-EA with biased diversity mutation (BD)"
+      },
+      "parameters": {
+        "population_size": 5,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean area and mean diversity score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Defense/Security",
+        "problem_context": "Adversarial Minimum Area Spanning Forest (AMASF) for wireless communication network concealment"
+      },
+      "the_database": {
+        "dataset_name": "DIMACS10",
+        "source_platform": "Georgia Tech"
+      },
+      "the_benchmark_problem": {
+        "name": "AMASF (DIMACS10)",
+        "dimensionality": "105 nodes"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(mu + lambda)-EA with uniform edge mutation"
+      },
+      "parameters": {
+        "population_size": 5,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean area and mean diversity score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Defense/Security",
+        "problem_context": "Adversarial Minimum Area Spanning Forest (AMASF) for wireless communication network concealment"
+      },
+      "the_database": {
+        "dataset_name": "Gnutella(09)",
+        "source_platform": "Stanford Network Analysis Platform"
+      },
+      "the_benchmark_problem": {
+        "name": "AMASF (Gnutella115)",
+        "dimensionality": "115 nodes"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(mu + lambda)-EA with uniform edge mutation"
+      },
+      "parameters": {
+        "population_size": 5,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean area and mean diversity score",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

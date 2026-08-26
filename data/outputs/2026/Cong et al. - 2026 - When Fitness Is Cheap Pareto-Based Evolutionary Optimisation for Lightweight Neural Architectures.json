@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "title": "When Fitness Is Cheap: Pareto-Based Evolutionary Optimisation for Lightweight Neural Architectures",
+    "authors": [
+      "Jingyue Cong",
+      "Kai Wei",
+      "Yameng Peng",
+      "Yanan Sun",
+      "Andy Song"
+    ],
+    "year": 2026,
+    "source_file": "Cong et al. - 2026 - When Fitness Is Cheap Pareto-Based Evolutionary Optimisation for Lightweight Neural Architectures.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Neural Architecture Search (NAS) for lightweight MobileNet-style architectures"
+      },
+      "the_database": {
+        "dataset_name": "CIFAR-10",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MobileNet-style Neural Architecture Search",
+        "dimensionality": "28D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "discrete",
+          "low-variance"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SWAP-Lite"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Top-1 Accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Neural Architecture Search (NAS) for lightweight MobileNet-style architectures"
+      },
+      "the_database": {
+        "dataset_name": "ImageNet",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MobileNet-style Neural Architecture Search",
+        "dimensionality": "28D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "discrete"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SWAP-Lite"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Top-1 Accuracy",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

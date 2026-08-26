@@ -1,0 +1,342 @@
+{
+  "metadata": {
+    "title": "Absumption and Subsumption based Learning Classifier Systems",
+    "authors": [
+      "Yi Liu",
+      "Will N. Browne",
+      "Bing Xue"
+    ],
+    "year": 2020,
+    "source_file": "Liu et al. - 2020 - Absumption and subsumption based learning classifier systems.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "70-bits Multiplexer",
+        "dimensionality": "70D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex search space",
+          "noiseless"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Absumption Subsumption Classifier System (ASCS)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Training accuracy and time to reach 100% accuracy",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "70-bits Multiplexer",
+        "dimensionality": "70D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex search space",
+          "noiseless"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "XCS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.04,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Training accuracy and time to reach 100% accuracy",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "70-bits Multiplexer",
+        "dimensionality": "70D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex search space",
+          "noiseless"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "UCS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.04,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Training accuracy and time to reach 100% accuracy",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "14-bits Carry",
+        "dimensionality": "14D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "overlapping",
+          "rules across multiple generalization levels"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Absumption Subsumption Classifier System (ASCS)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Training accuracy and time to reach 100% accuracy",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "14-bits Carry",
+        "dimensionality": "14D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "overlapping",
+          "rules across multiple generalization levels"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "XCS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.04,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Training accuracy and time to reach 100% accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "14-bits Carry",
+        "dimensionality": "14D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "overlapping",
+          "rules across multiple generalization levels"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "UCS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.04,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Training accuracy and time to reach 100% accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "14-bits Majority-On",
+        "dimensionality": "14D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "overlapping",
+          "not linearly separable",
+          "complex search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Absumption Subsumption Classifier System (ASCS)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Training accuracy and time to reach 100% accuracy",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "14-bits Majority-On",
+        "dimensionality": "14D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "overlapping",
+          "not linearly separable",
+          "complex search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "XCS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.04,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Training accuracy and time to reach 100% accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "14-bits Majority-On",
+        "dimensionality": "14D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "overlapping",
+          "not linearly separable",
+          "complex search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "UCS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.04,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Training accuracy and time to reach 100% accuracy",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

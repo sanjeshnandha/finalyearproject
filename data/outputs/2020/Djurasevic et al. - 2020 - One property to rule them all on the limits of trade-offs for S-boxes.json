@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "title": "One property to rule them all? On the limits of trade-offs for S-boxes",
+    "authors": [
+      "Marko Djurasevic",
+      "Domagoj Jakobovic",
+      "Stjepan Picek"
+    ],
+    "year": 2020,
+    "source_file": "Djurasevic et al. - 2020 - One property to rule them all on the limits of trade-offs for S-boxes.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Security/Cryptography",
+        "problem_context": "S-box design"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "S-box design",
+        "dimensionality": "Variable (3x3 to 8x8)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "discrete",
+          "rugged",
+          "large search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Steady-state Genetic Algorithm (Permutation Encoding)"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 500000,
+        "mutation_rate": 0.8,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Nonlinearity and differential uniformity",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Security/Cryptography",
+        "problem_context": "S-box design"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "S-box design",
+        "dimensionality": "Variable (3x3 to 8x8)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "discrete",
+          "rugged",
+          "large search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming (Cellular Automata Encoding)"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 500000,
+        "mutation_rate": 0.7,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Nonlinearity and differential uniformity",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Security/Cryptography",
+        "problem_context": "S-box design"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "S-box design",
+        "dimensionality": "Variable (3x3 to 8x8)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "discrete",
+          "rugged",
+          "large search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II (Permutation Encoding)"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 500000,
+        "mutation_rate": 0.8,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Nonlinearity and differential uniformity",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Security/Cryptography",
+        "problem_context": "S-box design"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "S-box design",
+        "dimensionality": "Variable (3x3 to 8x8)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "discrete",
+          "rugged",
+          "large search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II (Cellular Automata Encoding)"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 500000,
+        "mutation_rate": 0.7,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Nonlinearity and differential uniformity",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

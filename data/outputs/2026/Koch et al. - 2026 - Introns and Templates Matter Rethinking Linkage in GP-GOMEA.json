@@ -1,0 +1,555 @@
+{
+  "metadata": {
+    "title": "Introns and Templates Matter: Rethinking Linkage in GP-GOMEA",
+    "authors": [
+      "Johannes Koch",
+      "Tanja Alderliesten",
+      "Peter A.N. Bosman"
+    ],
+    "year": 2026,
+    "source_file": "Koch et al. - 2026 - Introns and Templates Matter Rethinking Linkage in GP-GOMEA.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Symbolic regression for airfoil self-noise"
+      },
+      "the_database": {
+        "dataset_name": "Airfoil Self-Noise",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Airfoil",
+        "dimensionality": "5D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged",
+          "non-linear dependencies"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GP-GOMEA (Node Linkage)"
+      },
+      "parameters": {
+        "population_size": 64,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "R^2 Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Symbolic regression for airfoil self-noise"
+      },
+      "the_database": {
+        "dataset_name": "Airfoil Self-Noise",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Airfoil",
+        "dimensionality": "5D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged",
+          "non-linear dependencies"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GP-GOMEA (Masked MI Linkage)"
+      },
+      "parameters": {
+        "population_size": 64,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "R^2 Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Symbolic regression for airfoil self-noise"
+      },
+      "the_database": {
+        "dataset_name": "Airfoil Self-Noise",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Airfoil",
+        "dimensionality": "5D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged",
+          "non-linear dependencies"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GP-GOMEA (MI Linkage)"
+      },
+      "parameters": {
+        "population_size": 64,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "R^2 Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Transportation",
+        "problem_context": "Symbolic regression for daily bike sharing demand"
+      },
+      "the_database": {
+        "dataset_name": "Bike Sharing",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Bike Sharing (Daily)",
+        "dimensionality": "12D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged",
+          "non-linear dependencies"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GP-GOMEA (Node Linkage)"
+      },
+      "parameters": {
+        "population_size": 64,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "R^2 Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Transportation",
+        "problem_context": "Symbolic regression for daily bike sharing demand"
+      },
+      "the_database": {
+        "dataset_name": "Bike Sharing",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Bike Sharing (Daily)",
+        "dimensionality": "12D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged",
+          "non-linear dependencies"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GP-GOMEA (Masked MI Linkage)"
+      },
+      "parameters": {
+        "population_size": 64,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "R^2 Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Transportation",
+        "problem_context": "Symbolic regression for daily bike sharing demand"
+      },
+      "the_database": {
+        "dataset_name": "Bike Sharing",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Bike Sharing (Daily)",
+        "dimensionality": "12D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged",
+          "non-linear dependencies"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GP-GOMEA (MI Linkage)"
+      },
+      "parameters": {
+        "population_size": 64,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "R^2 Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Symbolic regression for concrete compressive strength"
+      },
+      "the_database": {
+        "dataset_name": "Concrete Compressive Strength",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Concrete Compressive Strength",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged",
+          "non-linear dependencies"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GP-GOMEA (Node Linkage)"
+      },
+      "parameters": {
+        "population_size": 64,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "R^2 Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Symbolic regression for concrete compressive strength"
+      },
+      "the_database": {
+        "dataset_name": "Concrete Compressive Strength",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Concrete Compressive Strength",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged",
+          "non-linear dependencies"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GP-GOMEA (Masked MI Linkage)"
+      },
+      "parameters": {
+        "population_size": 64,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "R^2 Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Symbolic regression for concrete compressive strength"
+      },
+      "the_database": {
+        "dataset_name": "Concrete Compressive Strength",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Concrete Compressive Strength",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged",
+          "non-linear dependencies"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GP-GOMEA (MI Linkage)"
+      },
+      "parameters": {
+        "population_size": 64,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "R^2 Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Chemical/Process Industry",
+        "problem_context": "Symbolic regression for chemical process modeling"
+      },
+      "the_database": {
+        "dataset_name": "Dow Chemical",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Dow Chemical",
+        "dimensionality": "57D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged",
+          "non-linear dependencies"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GP-GOMEA (Node Linkage)"
+      },
+      "parameters": {
+        "population_size": 64,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "R^2 Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Chemical/Process Industry",
+        "problem_context": "Symbolic regression for chemical process modeling"
+      },
+      "the_database": {
+        "dataset_name": "Dow Chemical",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Dow Chemical",
+        "dimensionality": "57D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged",
+          "non-linear dependencies"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GP-GOMEA (Masked MI Linkage)"
+      },
+      "parameters": {
+        "population_size": 64,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "R^2 Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Chemical/Process Industry",
+        "problem_context": "Symbolic regression for chemical process modeling"
+      },
+      "the_database": {
+        "dataset_name": "Dow Chemical",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Dow Chemical",
+        "dimensionality": "57D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged",
+          "non-linear dependencies"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GP-GOMEA (MI Linkage)"
+      },
+      "parameters": {
+        "population_size": 64,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "R^2 Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Symbolic regression for tower dataset"
+      },
+      "the_database": {
+        "dataset_name": "Tower",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Tower",
+        "dimensionality": "25D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged",
+          "non-linear dependencies"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GP-GOMEA (Node Linkage)"
+      },
+      "parameters": {
+        "population_size": 64,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "R^2 Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Symbolic regression for tower dataset"
+      },
+      "the_database": {
+        "dataset_name": "Tower",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Tower",
+        "dimensionality": "25D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged",
+          "non-linear dependencies"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GP-GOMEA (Masked MI Linkage)"
+      },
+      "parameters": {
+        "population_size": 64,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "R^2 Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Symbolic regression for tower dataset"
+      },
+      "the_database": {
+        "dataset_name": "Tower",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Tower",
+        "dimensionality": "25D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "rugged",
+          "non-linear dependencies"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GP-GOMEA (MI Linkage)"
+      },
+      "parameters": {
+        "population_size": 64,
+        "max_evaluations_or_generations": 10000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "R^2 Score",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

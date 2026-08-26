@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "title": "A New Pathway to Approximate Energy Expenditure and Recovery of an Athlete",
+    "authors": [
+      "Fabian Clemens Weigend",
+      "Jason Siegler",
+      "Oliver Obst"
+    ],
+    "year": 2021,
+    "source_file": "Weigend et al. - 2021 - A new pathway to approximate energy expenditure and recovery of an athlete.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Sports Science / Athletics",
+        "problem_context": "Fitting parameters of a generalized three component hydraulic model to simulate metabolic systems of an athlete"
+      },
+      "the_database": {
+        "dataset_name": "Published recovery ratios by Caen et al. [2]",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Three Component Hydraulic Model Parameter Fitting",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-Objective Evolutionary Algorithm with Decomposition (MOEA/D)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Normalized root mean squared error (NRMSE)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

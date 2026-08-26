@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "title": "A Signal-Centric Perspective on the Evolution of Symbolic Communication",
+    "authors": [
+      "Quintino Francesco Lotito",
+      "Leonardo Lucio Custode",
+      "Giovanni Iacca"
+    ],
+    "year": 2021,
+    "source_file": "Lotito et al. - 2021 - A signal-centric perspective on the evolution of symbolic communication.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating symbolic communication in agent-based models"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Symbolic Communication (Regression)",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Co-evolutionary NEAT"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Generations to converge",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating symbolic communication in agent-based models"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Symbolic Communication (Classification)",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Co-evolutionary NEAT"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Generations to converge",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating symbolic communication in agent-based models"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Referential Game",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Co-evolutionary NEAT"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

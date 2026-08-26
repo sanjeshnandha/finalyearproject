@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "title": "Towards an Evolutionary Approach for Exploting Core Knowledge in Artificial Intelligence",
+    "authors": [
+      "Andrea Calabrese",
+      "Stefano Quer",
+      "Giovanni Squillero",
+      "Alberto Tonda"
+    ],
+    "year": 2024,
+    "source_file": "Calabrese et al. - 2024 - Towards an Evolutionary Approach for Exploting Core Knowledge in Artificial Intelligence.pdf",
+    "gecco_track": "GECCO '24 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Gaming",
+        "problem_context": "Learning rules and classes from 2D video game frames"
+      },
+      "the_database": {
+        "dataset_name": "Pong video frames",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Pong",
+        "dimensionality": "10 patches"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(\\mu + \\lambda)-EA"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Gaming",
+        "problem_context": "Learning rules and classes from 2D video game frames"
+      },
+      "the_database": {
+        "dataset_name": "Arkanoid video frames",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Arkanoid",
+        "dimensionality": "26 patches"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(\\mu + \\lambda)-EA"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

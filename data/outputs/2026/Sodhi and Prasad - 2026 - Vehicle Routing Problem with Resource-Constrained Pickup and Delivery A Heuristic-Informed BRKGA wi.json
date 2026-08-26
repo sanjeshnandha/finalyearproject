@@ -1,0 +1,236 @@
+{
+  "metadata": {
+    "title": "Vehicle Routing Problem with Resource-Constrained Pickup and Delivery: A Heuristic-Informed BRKGA with Pattern-Based Analysis",
+    "authors": [
+      "Manbir Sodhi",
+      "Romesh Satish Prasad"
+    ],
+    "year": 2026,
+    "source_file": "Sodhi and Prasad - 2026 - Vehicle Routing Problem with Resource-Constrained Pickup and Delivery A Heuristic-Informed BRKGA wi.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Vehicle Routing Problem with Resource-Constrained Pickup and Delivery (VRP-RPD)"
+      },
+      "the_database": {
+        "dataset_name": "TSPlib",
+        "source_platform": "TSPlib"
+      },
+      "the_benchmark_problem": {
+        "name": "TSPlib-derived VRP-RPD Benchmarks",
+        "dimensionality": "Variable (29 to 1000 customers)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "inter-route dependencies",
+          "resource constraints",
+          "precedence constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Biased Random-Key Genetic Algorithm (BRKGA)"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Makespan reduction over heuristics",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Vehicle Routing Problem with Resource-Constrained Pickup and Delivery (VRP-RPD)"
+      },
+      "the_database": {
+        "dataset_name": "TSPlib",
+        "source_platform": "TSPlib"
+      },
+      "the_benchmark_problem": {
+        "name": "TSPlib-derived VRP-RPD Benchmarks",
+        "dimensionality": "Variable (29 to 1000 customers)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "inter-route dependencies",
+          "resource constraints",
+          "precedence constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Warm-Start Biased Random-Key Genetic Algorithm (WS-BRKGA)"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Makespan reduction over heuristics (achieved 13-67% reduction)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Vehicle Routing Problem with Resource-Constrained Pickup and Delivery (VRP-RPD)"
+      },
+      "the_database": {
+        "dataset_name": "TSPlib",
+        "source_platform": "TSPlib"
+      },
+      "the_benchmark_problem": {
+        "name": "TSPlib-derived VRP-RPD Benchmarks",
+        "dimensionality": "Variable (29 to 1000 customers)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "inter-route dependencies",
+          "resource constraints",
+          "precedence constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Cold-Start with Gene Injection Biased Random-Key Genetic Algorithm (CSGI-BRKGA)"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Makespan reduction over heuristics",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Vehicle Routing Problem with Resource-Constrained Pickup and Delivery (VRP-RPD)"
+      },
+      "the_database": {
+        "dataset_name": "TSPlib",
+        "source_platform": "TSPlib"
+      },
+      "the_benchmark_problem": {
+        "name": "TSPlib-derived VRP-RPD Benchmarks",
+        "dimensionality": "Variable (29 to 1000 customers)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "inter-route dependencies",
+          "resource constraints",
+          "precedence constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Warm-Start with Gene Injection Biased Random-Key Genetic Algorithm (WSGI-BRKGA)"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Makespan reduction over heuristics",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Vehicle Routing Problem with Resource-Constrained Pickup and Delivery (VRP-RPD)"
+      },
+      "the_database": {
+        "dataset_name": "TSPlib",
+        "source_platform": "TSPlib"
+      },
+      "the_benchmark_problem": {
+        "name": "TSPlib-derived VRP-RPD Benchmarks",
+        "dimensionality": "Variable (29 to 1000 customers)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "inter-route dependencies",
+          "resource constraints",
+          "precedence constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Warm-Start Biased Random-Key Genetic Algorithm with Large Population (WS-BRKGA-10000)"
+      },
+      "parameters": {
+        "population_size": 10000,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": null,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Makespan reduction over baseline WS configuration",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Vehicle Routing Problem with Resource-Constrained Pickup and Delivery (VRP-RPD)"
+      },
+      "the_database": {
+        "dataset_name": "TSPlib",
+        "source_platform": "TSPlib"
+      },
+      "the_benchmark_problem": {
+        "name": "TSPlib-derived VRP-RPD Benchmarks",
+        "dimensionality": "Variable (29 to 1000 customers)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "inter-route dependencies",
+          "resource constraints",
+          "precedence constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Adaptive Large Neighborhood Search Warm-Start Biased Random-Key Genetic Algorithm (WS+ALNS-BRKGA)"
+      },
+      "parameters": {
+        "population_size": 10000,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": null,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Makespan reduction over baseline WS configuration",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

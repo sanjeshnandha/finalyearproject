@@ -1,0 +1,898 @@
+{
+  "metadata": {
+    "title": "Sparse Reward Exploration via Novelty Search and Emitters",
+    "authors": [
+      "Giuseppe Paolo",
+      "Alexandre Coninx",
+      "Stephane Doncieux",
+      "Alban Laflaquière"
+    ],
+    "year": 2021,
+    "source_file": "Paolo et al. - 2021 - Sparse reward exploration via novelty search and emitters.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robotic control with sparse rewards"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Curling",
+        "dimensionality": "94D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sparse rewards",
+          "disjoint reward areas"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SERENE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 500000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average maximum reward and coverage",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robotic control with sparse rewards"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hardmaze",
+        "dimensionality": "63D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sparse rewards",
+          "disjoint reward areas",
+          "maze navigation"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SERENE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 500000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average maximum reward and coverage",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robotic control with sparse rewards"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Redundant arm",
+        "dimensionality": "228D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sparse rewards",
+          "disjoint reward areas",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SERENE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 500000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average maximum reward and coverage",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robotic control with sparse rewards"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Robotic ant maze",
+        "dimensionality": "574D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sparse rewards",
+          "disjoint reward areas",
+          "maze navigation"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SERENE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 500000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average maximum reward and coverage",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robotic control with sparse rewards"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Curling",
+        "dimensionality": "94D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sparse rewards",
+          "disjoint reward areas"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Novelty Search (NS)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 500000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average maximum reward and coverage",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robotic control with sparse rewards"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hardmaze",
+        "dimensionality": "63D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sparse rewards",
+          "disjoint reward areas",
+          "maze navigation"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Novelty Search (NS)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 500000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average maximum reward and coverage",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robotic control with sparse rewards"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Redundant arm",
+        "dimensionality": "228D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sparse rewards",
+          "disjoint reward areas",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Novelty Search (NS)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 500000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average maximum reward and coverage",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robotic control with sparse rewards"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Robotic ant maze",
+        "dimensionality": "574D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sparse rewards",
+          "disjoint reward areas",
+          "maze navigation"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Novelty Search (NS)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 500000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average maximum reward and coverage",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robotic control with sparse rewards"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Curling",
+        "dimensionality": "94D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sparse rewards",
+          "disjoint reward areas"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 500000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average maximum reward and coverage",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robotic control with sparse rewards"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hardmaze",
+        "dimensionality": "63D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sparse rewards",
+          "disjoint reward areas",
+          "maze navigation"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 500000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average maximum reward and coverage",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robotic control with sparse rewards"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Redundant arm",
+        "dimensionality": "228D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sparse rewards",
+          "disjoint reward areas",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 500000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average maximum reward and coverage",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robotic control with sparse rewards"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Robotic ant maze",
+        "dimensionality": "574D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sparse rewards",
+          "disjoint reward areas",
+          "maze navigation"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 500000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average maximum reward and coverage",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robotic control with sparse rewards"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Curling",
+        "dimensionality": "94D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sparse rewards",
+          "disjoint reward areas"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ME"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 500000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average maximum reward and coverage",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robotic control with sparse rewards"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hardmaze",
+        "dimensionality": "63D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sparse rewards",
+          "disjoint reward areas",
+          "maze navigation"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ME"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 500000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average maximum reward and coverage",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robotic control with sparse rewards"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Redundant arm",
+        "dimensionality": "228D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sparse rewards",
+          "disjoint reward areas",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ME"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 500000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average maximum reward and coverage",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robotic control with sparse rewards"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Robotic ant maze",
+        "dimensionality": "574D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sparse rewards",
+          "disjoint reward areas",
+          "maze navigation"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ME"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 500000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average maximum reward and coverage",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robotic control with sparse rewards"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Curling",
+        "dimensionality": "94D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sparse rewards",
+          "disjoint reward areas"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAP-Elites (ME)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 500000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average maximum reward and coverage",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robotic control with sparse rewards"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hardmaze",
+        "dimensionality": "63D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sparse rewards",
+          "disjoint reward areas",
+          "maze navigation"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAP-Elites (ME)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 500000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average maximum reward and coverage",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robotic control with sparse rewards"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Redundant arm",
+        "dimensionality": "228D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sparse rewards",
+          "disjoint reward areas",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAP-Elites (ME)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 500000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average maximum reward and coverage",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robotic control with sparse rewards"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Robotic ant maze",
+        "dimensionality": "574D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sparse rewards",
+          "disjoint reward areas",
+          "maze navigation"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAP-Elites (ME)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 500000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average maximum reward and coverage",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robotic control with sparse rewards"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Curling",
+        "dimensionality": "94D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sparse rewards",
+          "disjoint reward areas"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Random Search (RND)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 500000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average maximum reward and coverage",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robotic control with sparse rewards"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hardmaze",
+        "dimensionality": "63D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sparse rewards",
+          "disjoint reward areas",
+          "maze navigation"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Random Search (RND)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 500000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average maximum reward and coverage",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robotic control with sparse rewards"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Redundant arm",
+        "dimensionality": "228D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sparse rewards",
+          "disjoint reward areas",
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Random Search (RND)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 500000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average maximum reward and coverage",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robotic control with sparse rewards"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Robotic ant maze",
+        "dimensionality": "574D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sparse rewards",
+          "disjoint reward areas",
+          "maze navigation"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Random Search (RND)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 500000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average maximum reward and coverage",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "title": "Randomized Local Search on the 2D Rectangular Bin Packing Problem with Item Rotation",
+    "authors": [
+      "Rui Zhao",
+      "Tianyu Liang",
+      "Zhize Wu",
+      "Daan van den Berg",
+      "Matthias Thürer",
+      "Thomas Weise"
+    ],
+    "year": 2024,
+    "source_file": "Zhao et al. - 2024 - Randomized Local Search on the 2D Rectangular Bin Packing Problem with Item Rotation.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "2D Rectangular Bin Packing Problem with Item Rotation"
+      },
+      "the_database": {
+        "dataset_name": "2DPackLib",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "2DPackLib (beng, class, A instances)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Randomized Local Search (RLS)"
+      },
+      "parameters": {
+        "population_size": 1,
+        "max_evaluations_or_generations": 100000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate to reach lower bound",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "2D Rectangular Bin Packing Problem with Item Rotation"
+      },
+      "the_database": {
+        "dataset_name": "Almost Squares in Almost Squares (Asqas)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Almost Squares in Almost Squares (Asqas)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Randomized Local Search (RLS)"
+      },
+      "parameters": {
+        "population_size": 1,
+        "max_evaluations_or_generations": 100000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate to reach lower bound",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

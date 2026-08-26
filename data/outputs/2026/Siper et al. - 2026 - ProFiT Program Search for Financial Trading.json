@@ -1,0 +1,198 @@
+{
+  "metadata": {
+    "title": "ProFiT: Program Search for Financial Trading",
+    "authors": [
+      "Matthew Siper",
+      "Ahmed Khalifa",
+      "L. Soros",
+      "Muhammad Umair Nasir",
+      "Jay Azhang",
+      "Julian Togelius"
+    ],
+    "year": 2026,
+    "source_file": "Siper et al. - 2026 - ProFiT Program Search for Financial Trading.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance",
+        "problem_context": "Automated discovery and continual improvement of trading strategies in financial markets"
+      },
+      "the_database": {
+        "dataset_name": "Historical 1-hour timeframe market data for seven futures assets (E6, ES, KC, SB, A6, NG, VX)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Bollinger Mean Reversion Trading Strategy Optimization",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-stationary",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ProFiT"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 15,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average annualized return (%), Sharpe ratio, Expectancy (%)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance",
+        "problem_context": "Automated discovery and continual improvement of trading strategies in financial markets"
+      },
+      "the_database": {
+        "dataset_name": "Historical 1-hour timeframe market data for seven futures assets (E6, ES, KC, SB, A6, NG, VX)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CCI Trading Strategy Optimization",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-stationary",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ProFiT"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 15,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average annualized return (%), Sharpe ratio, Expectancy (%)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance",
+        "problem_context": "Automated discovery and continual improvement of trading strategies in financial markets"
+      },
+      "the_database": {
+        "dataset_name": "Historical 1-hour timeframe market data for seven futures assets (E6, ES, KC, SB, A6, NG, VX)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "EMA Crossover Trading Strategy Optimization",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-stationary",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ProFiT"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 15,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average annualized return (%), Sharpe ratio, Expectancy (%)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance",
+        "problem_context": "Automated discovery and continual improvement of trading strategies in financial markets"
+      },
+      "the_database": {
+        "dataset_name": "Historical 1-hour timeframe market data for seven futures assets (E6, ES, KC, SB, A6, NG, VX)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MACD Trading Strategy Optimization",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-stationary",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ProFiT"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 15,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average annualized return (%), Sharpe ratio, Expectancy (%)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance",
+        "problem_context": "Automated discovery and continual improvement of trading strategies in financial markets"
+      },
+      "the_database": {
+        "dataset_name": "Historical 1-hour timeframe market data for seven futures assets (E6, ES, KC, SB, A6, NG, VX)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Williams %R Trading Strategy Optimization",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-stationary",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ProFiT"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 15,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average annualized return (%), Sharpe ratio, Expectancy (%)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "metadata": {
+    "title": "SONATA: Self-adaptive Evolutionary Framework for Hardware-aware Neural Architecture Search",
+    "authors": [
+      "Halima Bouzidi",
+      "Smail Niar",
+      "Hamza Ouarnoughi",
+      "El-Ghazali Talbi"
+    ],
+    "year": 2026,
+    "source_file": "Bouzidi et al. - 2026 - SONATA Self-adaptive Evolutionary Framework for Hardware-aware Neural Architecture Search.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Hardware-aware Neural Architecture Search (HW-aware NAS)"
+      },
+      "the_database": {
+        "dataset_name": "ImageNet-1k",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Once-for-all (OFA)",
+        "dimensionality": ">30D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "fractal",
+          "large search space",
+          "expensive evaluation"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SONATA"
+      },
+      "parameters": {
+        "population_size": 300,
+        "max_evaluations_or_generations": 10,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume, Inverted Generational Distance (IGD), and Dominance Ratio",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Hardware-aware Neural Architecture Search (HW-aware NAS)"
+      },
+      "the_database": {
+        "dataset_name": "ImageNet-1k",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Once-for-all (OFA)",
+        "dimensionality": ">30D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "fractal",
+          "large search space",
+          "expensive evaluation"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 300,
+        "max_evaluations_or_generations": 10,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume, Inverted Generational Distance (IGD), and Dominance Ratio",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Hardware-aware Neural Architecture Search (HW-aware NAS)"
+      },
+      "the_database": {
+        "dataset_name": "ImageNet-1k",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ProxylessNAS",
+        "dimensionality": ">30D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "fractal",
+          "large search space",
+          "expensive evaluation"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SONATA"
+      },
+      "parameters": {
+        "population_size": 300,
+        "max_evaluations_or_generations": 10,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume, Inverted Generational Distance (IGD), and Dominance Ratio",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Hardware-aware Neural Architecture Search (HW-aware NAS)"
+      },
+      "the_database": {
+        "dataset_name": "ImageNet-1k",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ProxylessNAS",
+        "dimensionality": ">30D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "fractal",
+          "large search space",
+          "expensive evaluation"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 300,
+        "max_evaluations_or_generations": 10,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume, Inverted Generational Distance (IGD), and Dominance Ratio",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Hardware-aware Neural Architecture Search (HW-aware NAS)"
+      },
+      "the_database": {
+        "dataset_name": "ImageNet-1k",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "AlphaNet",
+        "dimensionality": ">30D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "fractal",
+          "large search space",
+          "expensive evaluation"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SONATA"
+      },
+      "parameters": {
+        "population_size": 300,
+        "max_evaluations_or_generations": 10,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume, Inverted Generational Distance (IGD), and Dominance Ratio",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Hardware-aware Neural Architecture Search (HW-aware NAS)"
+      },
+      "the_database": {
+        "dataset_name": "ImageNet-1k",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "AlphaNet",
+        "dimensionality": ">30D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "fractal",
+          "large search space",
+          "expensive evaluation"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 300,
+        "max_evaluations_or_generations": 10,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume, Inverted Generational Distance (IGD), and Dominance Ratio",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Hardware-aware Neural Architecture Search (HW-aware NAS)"
+      },
+      "the_database": {
+        "dataset_name": "ImageNet-1k",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "NASViT",
+        "dimensionality": ">30D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "fractal",
+          "large search space",
+          "expensive evaluation"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SONATA"
+      },
+      "parameters": {
+        "population_size": 300,
+        "max_evaluations_or_generations": 10,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume, Inverted Generational Distance (IGD), and Dominance Ratio",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Hardware-aware Neural Architecture Search (HW-aware NAS)"
+      },
+      "the_database": {
+        "dataset_name": "ImageNet-1k",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "NASViT",
+        "dimensionality": ">30D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "fractal",
+          "large search space",
+          "expensive evaluation"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 300,
+        "max_evaluations_or_generations": 10,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume, Inverted Generational Distance (IGD), and Dominance Ratio",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

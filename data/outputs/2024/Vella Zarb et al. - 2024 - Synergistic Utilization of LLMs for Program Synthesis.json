@@ -1,0 +1,231 @@
+{
+  "metadata": {
+    "title": "Synergistic Utilization of LLMs for Program Synthesis",
+    "authors": [
+      "David Vella Zarb",
+      "Geoff Parks",
+      "Timoleon Kipouros"
+    ],
+    "year": 2024,
+    "source_file": "Vella Zarb et al. - 2024 - Synergistic Utilization of LLMs for Program Synthesis.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Program Synthesis"
+      },
+      "the_database": {
+        "dataset_name": "PSB2 Suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "PSB2 Suite",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "near-miss syndrome",
+          "program synthesis"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SEIDR (GPT-3.5 Turbo)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 20,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of solved problems (Python: 14, C++: 15), Average EPG (Python: 3.6, C++: 3.8)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Program Synthesis"
+      },
+      "the_database": {
+        "dataset_name": "PSB2 Suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "PSB2 Suite",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "near-miss syndrome",
+          "program synthesis"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SEIDR (CodeLlama:7B)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 20,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of solved problems (Python: 6, C++: 7), Average EPG (Python: 4.5, C++: 5.2)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Program Synthesis"
+      },
+      "the_database": {
+        "dataset_name": "PSB2 Suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "PSB2 Suite",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "near-miss syndrome",
+          "program synthesis"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SEIDR (CodeLlama:34B)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 20,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of solved problems (Python: 8, C++: 9), Average EPG (Python: 4.8, C++: 5.3)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Program Synthesis"
+      },
+      "the_database": {
+        "dataset_name": "PSB2 Suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "PSB2 Suite",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "near-miss syndrome",
+          "program synthesis"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SEIDR (Nous-Hermes 2)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 20,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of solved problems (Python: 7, C++: 6), Average EPG (Python: 5.1, C++: 4.9)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Program Synthesis"
+      },
+      "the_database": {
+        "dataset_name": "PSB2 Suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "PSB2 Suite",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "near-miss syndrome",
+          "program synthesis"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SEIDR (CodeBooga)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 20,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of solved problems (Python: 8, C++: 7), Average EPG (Python: 5.2, C++: 5.4)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Program Synthesis"
+      },
+      "the_database": {
+        "dataset_name": "PSB2 Suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "PSB2 Suite",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "near-miss syndrome",
+          "program synthesis"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SEIDR (Combined LLMs)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 20,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of solved problems (GPT-3.5 + CL:7B solved Python: 16, C++: 16; GPT-3.5 + CB solved Python: 15, C++: 17), Average EPG (GPT-3.5 + CL:7B Python: 2.8, C++: 3.0)",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

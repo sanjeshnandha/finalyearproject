@@ -1,0 +1,165 @@
+{
+  "metadata": {
+    "title": "Landscape Features and Automated Algorithm Selection for Multi-objective Interpolated Continuous Optimisation Problems",
+    "authors": [
+      "Arnaud Liefooghe",
+      "Sébastien Verel",
+      "Benjamin Lacroix",
+      "Alexandru-Ciprian Zăvoianu",
+      "John McCall"
+    ],
+    "year": 2021,
+    "source_file": "Liefooghe et al. - 2021 - Landscape features and automated algorithm selection for multi-objective interpolated continuous opt.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-objective Interpolated Continuous Optimisation Problems (MO-ICOPs)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "ruggedness",
+          "multimodality",
+          "tunable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 50000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Normalised hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-objective Interpolated Continuous Optimisation Problems (MO-ICOPs)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "ruggedness",
+          "multimodality",
+          "tunable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GDE3"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 50000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Normalised hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-objective Interpolated Continuous Optimisation Problems (MO-ICOPs)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "ruggedness",
+          "multimodality",
+          "tunable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D-DE-DRA"
+      },
+      "parameters": {
+        "population_size": 300,
+        "max_evaluations_or_generations": 50000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Normalised hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-objective Interpolated Continuous Optimisation Problems (MO-ICOPs)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "ruggedness",
+          "multimodality",
+          "tunable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DECMO2++"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 50000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Normalised hypervolume",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

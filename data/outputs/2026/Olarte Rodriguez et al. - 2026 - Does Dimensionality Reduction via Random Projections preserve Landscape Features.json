@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "title": "Does Dimensionality Reduction via Random Projections Preserve Landscape Features?",
+    "authors": [
+      "Iván Olarte Rodríguez",
+      "Anja Jankovic",
+      "Thomas Bäck",
+      "Elena Raponi"
+    ],
+    "year": 2026,
+    "source_file": "Olarte Rodriguez et al. - 2026 - Does Dimensionality Reduction via Random Projections preserve Landscape Features.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Sphere (f1)",
+        "dimensionality": "20D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "isotropic"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Random Gaussian Embeddings (RGE)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Normalized feature shift (ela_level.lda_qda_10)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rosenbrock (f8)",
+        "dimensionality": "20D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "conditioning",
+          "valley"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Random Gaussian Embeddings (RGE)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Induced landscape distortion",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Schwefel (f20)",
+        "dimensionality": "20D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "multimodal"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Random Gaussian Embeddings (RGE)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Normalized feature shift",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Weierstrass (f16)",
+        "dimensionality": "20D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "highly multimodal"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Random Gaussian Embeddings (RGE)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 2000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Normalized feature shift (ic.eps_s)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

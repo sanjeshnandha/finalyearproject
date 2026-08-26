@@ -1,0 +1,108 @@
+2026-07-22 13:40:21.807 | INFO     | gecco_pipeline.extractor:__init__:32 - Initialized GeccoExtractor with model: gemini-3.5-flash and 3 API keys
+2026-07-22 13:40:21.808 | INFO     | gecco_pipeline.processor:__init__:57 - BatchProcessor initialized
+2026-07-22 13:40:21.808 | INFO     | gecco_pipeline.utils:discover_pdfs:62 - Discovered 92 PDF files in data/pdfs/2023
+2026-07-22 13:40:21.810 | INFO     | gecco_pipeline.processor:process_batch:129 - Skipping 16 already-processed PDFs
+2026-07-22 13:40:21.810 | INFO     | gecco_pipeline.processor:process_batch:145 - Processing 76 PDFs...
+2026-07-22 13:40:21.821 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Cook et al. - 2023 - Leveraging Fitness Critics To Learn Robust Teamwork.pdf
+2026-07-22 13:40:21.821 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Cook et al. - 2023 - Leveraging Fitness Critics To Learn Robust Teamwork.pdf to Gemini File API...
+2026-07-22 13:40:31.703 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/4m28lfpcdleg
+2026-07-22 13:40:53.945 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 5 entries from Cook et al. - 2023 - Leveraging Fitness Critics To Learn Robust Teamwork.pdf
+2026-07-22 13:40:53.951 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Cook et al. - 2023 - Leveraging Fitness Critics To Learn Robust Teamwork.json
+2026-07-22 13:40:53.953 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: De Jong - 2023 - Evolutionary Computation Evolving.pdf
+2026-07-22 13:40:53.953 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading De Jong - 2023 - Evolutionary Computation Evolving.pdf to Gemini File API...
+2026-07-22 13:40:57.437 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/fr2ek8xbskrd
+2026-07-22 13:41:08.397 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 0 entries from De Jong - 2023 - Evolutionary Computation Evolving.pdf
+2026-07-22 13:41:08.400 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/De Jong - 2023 - Evolutionary Computation Evolving.json
+2026-07-22 13:41:08.401 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Demir et al. - 2023 - Co-operative Co-evolutionary Many-objective Embedded Multi-label Feature Selection with Decompositio.pdf
+2026-07-22 13:41:08.402 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Demir et al. - 2023 - Co-operative Co-evolutionary Many-objective Embedded Multi-label Feature Selection with Decompositio.pdf to Gemini File API...
+2026-07-22 13:41:14.554 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/g35zeorkgezz
+2026-07-22 13:42:09.246 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 24 entries from Demir et al. - 2023 - Co-operative Co-evolutionary Many-objective Embedded Multi-label Feature Selection with Decompositio.pdf
+2026-07-22 13:42:09.252 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Demir et al. - 2023 - Co-operative Co-evolutionary Many-objective Embedded Multi-label Feature Selection with Decompositio.json
+2026-07-22 13:42:09.254 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Dixit and Tumer - 2023 - Learning Synergies for Multi-Objective Optimization in Asymmetric Multiagent Systems.pdf
+2026-07-22 13:42:09.254 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Dixit and Tumer - 2023 - Learning Synergies for Multi-Objective Optimization in Asymmetric Multiagent Systems.pdf to Gemini File API...
+2026-07-22 13:42:18.029 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/zxcqns7w7tzk
+2026-07-22 13:42:39.580 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 5 entries from Dixit and Tumer - 2023 - Learning Synergies for Multi-Objective Optimization in Asymmetric Multiagent Systems.pdf
+2026-07-22 13:42:39.586 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Dixit and Tumer - 2023 - Learning Synergies for Multi-Objective Optimization in Asymmetric Multiagent Systems.json
+2026-07-22 13:42:39.587 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Edo et al. - 2023 - Trade-off Between Robustness and Worst-Case Performance in Min-Max Optimization.pdf
+2026-07-22 13:42:39.587 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Edo et al. - 2023 - Trade-off Between Robustness and Worst-Case Performance in Min-Max Optimization.pdf to Gemini File API...
+2026-07-22 13:42:45.106 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/hmq4xqchwbyk
+2026-07-22 13:43:15.806 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 6 entries from Edo et al. - 2023 - Trade-off Between Robustness and Worst-Case Performance in Min-Max Optimization.pdf
+2026-07-22 13:43:15.810 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Edo et al. - 2023 - Trade-off Between Robustness and Worst-Case Performance in Min-Max Optimization.json
+2026-07-22 13:43:15.811 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Faldor et al. - 2023 - MAP-Elites with Descriptor-Conditioned Gradients and Archive Distillation into a Single Policy.pdf
+2026-07-22 13:43:15.812 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Faldor et al. - 2023 - MAP-Elites with Descriptor-Conditioned Gradients and Archive Distillation into a Single Policy.pdf to Gemini File API...
+2026-07-22 13:43:36.117 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/33xwafa8bel3
+2026-07-22 13:44:06.006 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 8 entries from Faldor et al. - 2023 - MAP-Elites with Descriptor-Conditioned Gradients and Archive Distillation into a Single Policy.pdf
+2026-07-22 13:44:06.010 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Faldor et al. - 2023 - MAP-Elites with Descriptor-Conditioned Gradients and Archive Distillation into a Single Policy.json
+2026-07-22 13:44:06.011 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Feldmeier and Fraser - 2023 - Learning by Viewing Generating Test Inputs for Games by Integrating Human Gameplay Traces in Neuroe.pdf
+2026-07-22 13:44:06.011 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Feldmeier and Fraser - 2023 - Learning by Viewing Generating Test Inputs for Games by Integrating Human Gameplay Traces in Neuroe.pdf to Gemini File API...
+2026-07-22 13:44:10.626 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/1mnewhwofpox
+2026-07-22 13:44:29.100 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 2 entries from Feldmeier and Fraser - 2023 - Learning by Viewing Generating Test Inputs for Games by Integrating Human Gameplay Traces in Neuroe.pdf
+2026-07-22 13:44:29.106 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Feldmeier and Fraser - 2023 - Learning by Viewing Generating Test Inputs for Games by Integrating Human Gameplay Traces in Neuroe.json
+2026-07-22 13:44:29.108 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Feola et al. - 2023 - Aggregation Through Adaptive Random Walks in a Minimalist Robot Swarm.pdf
+2026-07-22 13:44:29.108 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Feola et al. - 2023 - Aggregation Through Adaptive Random Walks in a Minimalist Robot Swarm.pdf to Gemini File API...
+2026-07-22 13:44:34.851 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/vej2l7v0phtj
+2026-07-22 13:44:35.327 | WARNING  | gecco_pipeline.extractor:_call_with_retry:204 - Rate limit hit for Feola et al. - 2023 - Aggregation Through Adaptive Random Walks in a Minimalist Robot Swarm.pdf: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash\nPlease retry in 24.654603649s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '24s'}]}}
+2026-07-22 13:44:35.328 | WARNING  | gecco_pipeline.extractor:_rotate_key:44 - Rotating to API key index 1
+2026-07-22 13:44:35.360 | INFO     | gecco_pipeline.extractor:_call_with_retry:206 - Retrying with new API key...
+2026-07-22 13:44:35.360 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Feola et al. - 2023 - Aggregation Through Adaptive Random Walks in a Minimalist Robot Swarm.pdf to Gemini File API...
+2026-07-22 13:44:44.868 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/ubl98hggfmt9
+2026-07-22 13:45:06.907 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 2 entries from Feola et al. - 2023 - Aggregation Through Adaptive Random Walks in a Minimalist Robot Swarm.pdf
+2026-07-22 13:45:06.912 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Feola et al. - 2023 - Aggregation Through Adaptive Random Walks in a Minimalist Robot Swarm.json
+2026-07-22 13:45:06.914 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Fontaine and Nikolaidis - 2023 - Covariance Matrix Adaptation MAP-Annealing.pdf
+2026-07-22 13:45:06.914 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Fontaine and Nikolaidis - 2023 - Covariance Matrix Adaptation MAP-Annealing.pdf to Gemini File API...
+2026-07-22 13:45:20.193 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/3y0pq4m72kvk
+2026-07-22 13:45:54.759 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 7 entries from Fontaine and Nikolaidis - 2023 - Covariance Matrix Adaptation MAP-Annealing.pdf
+2026-07-22 13:45:54.766 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Fontaine and Nikolaidis - 2023 - Covariance Matrix Adaptation MAP-Annealing.json
+2026-07-22 13:45:54.768 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Fontbonne et al. - 2023 - Adaptive Team Cooperative Co-Evolution for a Multi-Rover Distribution Problem.pdf
+2026-07-22 13:45:54.768 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Fontbonne et al. - 2023 - Adaptive Team Cooperative Co-Evolution for a Multi-Rover Distribution Problem.pdf to Gemini File API...
+2026-07-22 13:46:01.615 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/8xv6bgiiraj4
+2026-07-22 13:46:33.333 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 4 entries from Fontbonne et al. - 2023 - Adaptive Team Cooperative Co-Evolution for a Multi-Rover Distribution Problem.pdf
+2026-07-22 13:46:33.337 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Fontbonne et al. - 2023 - Adaptive Team Cooperative Co-Evolution for a Multi-Rover Distribution Problem.json
+2026-07-22 13:46:33.339 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: France and Sheppard - 2023 - Factored Particle Swarm Optimization for Policy Co-training in Reinforcement Learning.pdf
+2026-07-22 13:46:33.339 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading France and Sheppard - 2023 - Factored Particle Swarm Optimization for Policy Co-training in Reinforcement Learning.pdf to Gemini File API...
+2026-07-22 13:46:39.799 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/slkejeaxqs3d
+2026-07-22 13:46:43.909 | WARNING  | gecco_pipeline.extractor:_call_with_retry:219 - Attempt 1/3 failed for France and Sheppard - 2023 - Factored Particle Swarm Optimization for Policy Co-training in Reinforcement Learning.pdf: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying in 2.6s...
+2026-07-22 13:47:18.758 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 10 entries from France and Sheppard - 2023 - Factored Particle Swarm Optimization for Policy Co-training in Reinforcement Learning.pdf
+2026-07-22 13:47:18.765 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/France and Sheppard - 2023 - Factored Particle Swarm Optimization for Policy Co-training in Reinforcement Learning.json
+2026-07-22 13:47:18.767 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Frati et al. - 2023 - OmnImage Evolving 1k Image Cliques for Few-Shot Learning.pdf
+2026-07-22 13:47:18.767 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Frati et al. - 2023 - OmnImage Evolving 1k Image Cliques for Few-Shot Learning.pdf to Gemini File API...
+2026-07-22 13:47:31.005 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/k48v219qhtbk
+2026-07-22 13:47:49.085 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 1 entries from Frati et al. - 2023 - OmnImage Evolving 1k Image Cliques for Few-Shot Learning.pdf
+2026-07-22 13:47:49.089 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Frati et al. - 2023 - OmnImage Evolving 1k Image Cliques for Few-Shot Learning.json
+2026-07-22 13:47:49.091 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Gašperov and Đurasević - 2023 - On Evolvability and Behavior Landscapes in Neuroevolutionary Divergent Search.pdf
+2026-07-22 13:47:49.091 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Gašperov and Đurasević - 2023 - On Evolvability and Behavior Landscapes in Neuroevolutionary Divergent Search.pdf to Gemini File API...
+2026-07-22 13:47:54.068 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/k0pcumsdrxa0
+2026-07-22 13:48:22.333 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 5 entries from Gašperov and Đurasević - 2023 - On Evolvability and Behavior Landscapes in Neuroevolutionary Divergent Search.pdf
+2026-07-22 13:48:22.339 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Gašperov and Đurasević - 2023 - On Evolvability and Behavior Landscapes in Neuroevolutionary Divergent Search.json
+2026-07-22 13:48:22.340 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Gereziher et al. - 2023 - Search-Based Test Generation Targeting Non-Functional Quality Attributes of Android Apps.pdf
+2026-07-22 13:48:22.340 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Gereziher et al. - 2023 - Search-Based Test Generation Targeting Non-Functional Quality Attributes of Android Apps.pdf to Gemini File API...
+2026-07-22 13:48:25.754 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/a9ae8kq4louo
+2026-07-22 13:48:45.977 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 2 entries from Gereziher et al. - 2023 - Search-Based Test Generation Targeting Non-Functional Quality Attributes of Android Apps.pdf
+2026-07-22 13:48:45.982 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Gereziher et al. - 2023 - Search-Based Test Generation Targeting Non-Functional Quality Attributes of Android Apps.json
+2026-07-22 13:48:45.984 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Goel et al. - 2023 - Evolving Reinforcement Learning Environment to Minimize Learner's Achievable Reward An Application.pdf
+2026-07-22 13:48:45.984 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Goel et al. - 2023 - Evolving Reinforcement Learning Environment to Minimize Learner's Achievable Reward An Application.pdf to Gemini File API...
+2026-07-22 13:48:50.746 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/8xkpo6cnz2vv
+2026-07-22 13:49:20.572 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 8 entries from Goel et al. - 2023 - Evolving Reinforcement Learning Environment to Minimize Learner's Achievable Reward An Application.pdf
+2026-07-22 13:49:20.577 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Goel et al. - 2023 - Evolving Reinforcement Learning Environment to Minimize Learner's Achievable Reward An Application.json
+2026-07-22 13:49:20.577 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Gomes - 2023 - AI for Scientific Discovery and a Sustainable Future.pdf
+2026-07-22 13:49:20.578 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Gomes - 2023 - AI for Scientific Discovery and a Sustainable Future.pdf to Gemini File API...
+2026-07-22 13:49:23.874 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/vloovrv3hdpc
+2026-07-22 13:49:42.848 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 0 entries from Gomes - 2023 - AI for Scientific Discovery and a Sustainable Future.pdf
+2026-07-22 13:49:42.851 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Gomes - 2023 - AI for Scientific Discovery and a Sustainable Future.json
+2026-07-22 13:49:42.852 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Grasso and Bongard - 2023 - Selection for short-term empowerment accelerates the evolution of homeostatic neural cellular automa.pdf
+2026-07-22 13:49:42.852 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Grasso and Bongard - 2023 - Selection for short-term empowerment accelerates the evolution of homeostatic neural cellular automa.pdf to Gemini File API...
+2026-07-22 13:49:48.135 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/02p3jcn47dby
+2026-07-22 13:50:14.093 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 4 entries from Grasso and Bongard - 2023 - Selection for short-term empowerment accelerates the evolution of homeostatic neural cellular automa.pdf
+2026-07-22 13:50:14.099 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Grasso and Bongard - 2023 - Selection for short-term empowerment accelerates the evolution of homeostatic neural cellular automa.json
+2026-07-22 13:50:14.100 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Grillotti et al. - 2023 - Don't Bet on Luck Alone Enhancing Behavioral Reproducibility of Quality-Diversity Solutions in Unce.pdf
+2026-07-22 13:50:14.100 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Grillotti et al. - 2023 - Don't Bet on Luck Alone Enhancing Behavioral Reproducibility of Quality-Diversity Solutions in Unce.pdf to Gemini File API...
+2026-07-22 13:50:20.856 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/bvx1wbhnbj10
+2026-07-22 13:51:22.750 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 23 entries from Grillotti et al. - 2023 - Don't Bet on Luck Alone Enhancing Behavioral Reproducibility of Quality-Diversity Solutions in Unce.pdf
+2026-07-22 13:51:22.758 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Grillotti et al. - 2023 - Don't Bet on Luck Alone Enhancing Behavioral Reproducibility of Quality-Diversity Solutions in Unce.json
+2026-07-22 13:51:22.760 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Guha et al. - 2023 - MOAZ A Multi-Objective AutoML-Zero Framework.pdf
+2026-07-22 13:51:22.761 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Guha et al. - 2023 - MOAZ A Multi-Objective AutoML-Zero Framework.pdf to Gemini File API...
+2026-07-22 13:51:32.238 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/nkbo4lk16cf8
+2026-07-22 13:52:01.443 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 4 entries from Guha et al. - 2023 - MOAZ A Multi-Objective AutoML-Zero Framework.pdf
+2026-07-22 13:52:01.448 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2023/Guha et al. - 2023 - MOAZ A Multi-Objective AutoML-Zero Framework.json
+2026-07-22 13:52:01.448 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Hayslep et al. - 2023 - Multi-Objective Multi-Gene Genetic Programming for the Prediction of Leakage in Water Distribution N.pdf
+2026-07-22 13:52:01.449 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Hayslep et al. - 2023 - Multi-Objective Multi-Gene Genetic Programming for the Prediction of Leakage in Water Distribution N.pdf to Gemini File API...

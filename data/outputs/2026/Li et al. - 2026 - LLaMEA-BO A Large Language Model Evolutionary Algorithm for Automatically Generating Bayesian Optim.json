@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "title": "LLaMEA-BO: A Large Language Model Evolutionary Algorithm for Automatically Generating Bayesian Optimization Algorithms",
+    "authors": [
+      "Wenhu Li",
+      "Niki van Stein",
+      "Thomas Bäck",
+      "Elena Raponi"
+    ],
+    "year": 2026,
+    "source_file": "Li et al. - 2026 - LLaMEA-BO A Large Language Model Evolutionary Algorithm for Automatically Generating Bayesian Optim.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BBOB test suite",
+        "dimensionality": "5D, 10D, 20D, 40D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noiseless",
+          "continuous"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ATRBO (Adaptive Trust Region Bayesian Optimization)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "AOCC (Area Over the Convergence Curve)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BBOB test suite",
+        "dimensionality": "5D, 10D, 20D, 40D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noiseless",
+          "continuous"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TREvol (Adaptive Trust Region Evolutionary BO)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "AOCC (Area Over the Convergence Curve)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Hyperparameter tuning of machine learning models"
+      },
+      "the_database": {
+        "dataset_name": "Bayesmark",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "Bayesmark",
+        "dimensionality": "2D to 6D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete hyperparameters",
+          "smooth loss landscapes"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ATRBO (Adaptive Trust Region Bayesian Optimization)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 30,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Normalized regret",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Hyperparameter tuning of machine learning models"
+      },
+      "the_database": {
+        "dataset_name": "Bayesmark",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "Bayesmark",
+        "dimensionality": "2D to 6D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete hyperparameters",
+          "smooth loss landscapes"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TREvol (Adaptive Trust Region Evolutionary BO)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 30,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Normalized regret",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

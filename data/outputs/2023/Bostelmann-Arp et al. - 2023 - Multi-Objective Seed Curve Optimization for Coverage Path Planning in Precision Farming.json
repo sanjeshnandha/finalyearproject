@@ -1,0 +1,123 @@
+{
+  "metadata": {
+    "title": "Multi-Objective Seed Curve Optimization for Coverage Path Planning in Precision Farming",
+    "authors": [
+      "Lukas Bostelmann-Arp",
+      "Christoph Steup",
+      "Sanaz Mostaghim"
+    ],
+    "year": 2023,
+    "source_file": "Bostelmann-Arp et al. - 2023 - Multi-Objective Seed Curve Optimization for Coverage Path Planning in Precision Farming.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Agriculture",
+        "problem_context": "Coverage Path Planning in Precision Farming"
+      },
+      "the_database": {
+        "dataset_name": "Three artificial benchmark fields (A, B, C)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Field A",
+        "dimensionality": "10 control points"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "significant change in altitude",
+          "uneven terrain"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.75,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Agriculture",
+        "problem_context": "Coverage Path Planning in Precision Farming"
+      },
+      "the_database": {
+        "dataset_name": "Three artificial benchmark fields (A, B, C)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Field B",
+        "dimensionality": "10 control points"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "uneven terrain",
+          "complex contours"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.75,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Agriculture",
+        "problem_context": "Coverage Path Planning in Precision Farming"
+      },
+      "the_database": {
+        "dataset_name": "Three artificial benchmark fields (A, B, C)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Field C",
+        "dimensionality": "10 control points"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "flat terrain",
+          "similar to 2D approach"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": 0.75,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

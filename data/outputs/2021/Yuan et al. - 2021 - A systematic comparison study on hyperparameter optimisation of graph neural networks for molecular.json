@@ -1,0 +1,342 @@
+{
+  "metadata": {
+    "title": "A Systematic Comparison Study on Hyperparameter Optimisation of Graph Neural Networks for Molecular Property Prediction",
+    "authors": [
+      "Yingfang Yuan",
+      "Wenjun Wang",
+      "Wei Pang"
+    ],
+    "year": 2021,
+    "source_file": "Yuan et al. - 2021 - A systematic comparison study on hyperparameter optimisation of graph neural networks for molecular.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Chemical/Materials Science",
+        "problem_context": "Hyperparameter Optimisation of Graph Neural Networks for Molecular Property Prediction"
+      },
+      "the_database": {
+        "dataset_name": "ESOL",
+        "source_platform": "DeepChem"
+      },
+      "the_benchmark_problem": {
+        "name": "ESOL",
+        "dimensionality": "4D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete variables",
+          "continuous variables"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Random Search (RS)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean RMSE of 0.8888 (general) / 0.8994 (1 hour) / 0.8479 (larger search space)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Chemical/Materials Science",
+        "problem_context": "Hyperparameter Optimisation of Graph Neural Networks for Molecular Property Prediction"
+      },
+      "the_database": {
+        "dataset_name": "ESOL",
+        "source_platform": "DeepChem"
+      },
+      "the_benchmark_problem": {
+        "name": "ESOL",
+        "dimensionality": "4D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete variables",
+          "continuous variables"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Tree-structured Parzen Estimator (TPE)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean RMSE of 0.8667 (general) / 0.8634 (1 hour) / 0.781 (larger search space)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Chemical/Materials Science",
+        "problem_context": "Hyperparameter Optimisation of Graph Neural Networks for Molecular Property Prediction"
+      },
+      "the_database": {
+        "dataset_name": "ESOL",
+        "source_platform": "DeepChem"
+      },
+      "the_benchmark_problem": {
+        "name": "ESOL",
+        "dimensionality": "4D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete variables",
+          "continuous variables"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Covariance Matrix Adaptation Evolution Strategy (CMA-ES)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean RMSE of 0.8782 (general) / 0.9688 (1 hour) / 0.7772 (larger search space)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Chemical/Materials Science",
+        "problem_context": "Hyperparameter Optimisation of Graph Neural Networks for Molecular Property Prediction"
+      },
+      "the_database": {
+        "dataset_name": "FreeSolv",
+        "source_platform": "DeepChem"
+      },
+      "the_benchmark_problem": {
+        "name": "FreeSolv",
+        "dimensionality": "4D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "local optima",
+          "discrete variables",
+          "continuous variables"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Random Search (RS)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean RMSE of 1.1040 (general) / 1.0880 (larger search space)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Chemical/Materials Science",
+        "problem_context": "Hyperparameter Optimisation of Graph Neural Networks for Molecular Property Prediction"
+      },
+      "the_database": {
+        "dataset_name": "FreeSolv",
+        "source_platform": "DeepChem"
+      },
+      "the_benchmark_problem": {
+        "name": "FreeSolv",
+        "dimensionality": "4D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "local optima",
+          "discrete variables",
+          "continuous variables"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Tree-structured Parzen Estimator (TPE)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean RMSE of 1.2006 (general) / 1.0620 (larger search space)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Chemical/Materials Science",
+        "problem_context": "Hyperparameter Optimisation of Graph Neural Networks for Molecular Property Prediction"
+      },
+      "the_database": {
+        "dataset_name": "FreeSolv",
+        "source_platform": "DeepChem"
+      },
+      "the_benchmark_problem": {
+        "name": "FreeSolv",
+        "dimensionality": "4D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "local optima",
+          "discrete variables",
+          "continuous variables"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Covariance Matrix Adaptation Evolution Strategy (CMA-ES)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean RMSE of 1.1967 (general) / 1.0835 (larger search space)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Chemical/Materials Science",
+        "problem_context": "Hyperparameter Optimisation of Graph Neural Networks for Molecular Property Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Lipophilicity",
+        "source_platform": "DeepChem"
+      },
+      "the_benchmark_problem": {
+        "name": "Lipophilicity",
+        "dimensionality": "4D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete variables",
+          "continuous variables"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Random Search (RS)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean RMSE of 0.6949 (general) / 0.6552 (larger search space)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Chemical/Materials Science",
+        "problem_context": "Hyperparameter Optimisation of Graph Neural Networks for Molecular Property Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Lipophilicity",
+        "source_platform": "DeepChem"
+      },
+      "the_benchmark_problem": {
+        "name": "Lipophilicity",
+        "dimensionality": "4D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete variables",
+          "continuous variables"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Tree-structured Parzen Estimator (TPE)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean RMSE of 0.6655 (general) / 0.6395 (larger search space)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Chemical/Materials Science",
+        "problem_context": "Hyperparameter Optimisation of Graph Neural Networks for Molecular Property Prediction"
+      },
+      "the_database": {
+        "dataset_name": "Lipophilicity",
+        "source_platform": "DeepChem"
+      },
+      "the_benchmark_problem": {
+        "name": "Lipophilicity",
+        "dimensionality": "4D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete variables",
+          "continuous variables"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Covariance Matrix Adaptation Evolution Strategy (CMA-ES)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean RMSE of 0.7183 (general) / 0.6826 (larger search space)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,756 @@
+{
+  "metadata": {
+    "title": "Adaptive Ensemble Multi-Objective Differential Evolution for High-Dimensional Gene Selection",
+    "authors": [
+      "Dhia Eddine Bouazizi",
+      "Asma Amdouni",
+      "Daniel Rodriguez",
+      "Ghaith Manita"
+    ],
+    "year": 2026,
+    "source_file": "Bouazizi et al. - 2026 - Adaptive Ensemble Multi-Objective Differential Evolution for High-Dimensional Gene Selection.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "High-Dimensional Gene Selection"
+      },
+      "the_database": {
+        "dataset_name": "11-Tumors",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "11-Tumors",
+        "dimensionality": "12533D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex feature interactions",
+          "non-convex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AEMO-DEFS"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD), Epsilon Indicator, Classification Accuracy, Number of Selected Features",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "High-Dimensional Gene Selection"
+      },
+      "the_database": {
+        "dataset_name": "Brain-Tumor",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Brain-Tumor",
+        "dimensionality": "10367D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex feature interactions",
+          "non-convex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AEMO-DEFS"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD), Epsilon Indicator, Classification Accuracy, Number of Selected Features",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "High-Dimensional Gene Selection"
+      },
+      "the_database": {
+        "dataset_name": "Lung Cancer",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Lung Cancer",
+        "dimensionality": "12600D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex feature interactions",
+          "non-convex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AEMO-DEFS"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD), Epsilon Indicator, Classification Accuracy, Number of Selected Features",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "High-Dimensional Gene Selection"
+      },
+      "the_database": {
+        "dataset_name": "MLL",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MLL",
+        "dimensionality": "12582D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex feature interactions",
+          "non-convex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AEMO-DEFS"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD), Epsilon Indicator, Classification Accuracy, Number of Selected Features",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "High-Dimensional Gene Selection"
+      },
+      "the_database": {
+        "dataset_name": "Prostate Tumor",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Prostate Tumor",
+        "dimensionality": "10509D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex feature interactions",
+          "non-convex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AEMO-DEFS"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD), Epsilon Indicator, Classification Accuracy, Number of Selected Features",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "High-Dimensional Gene Selection"
+      },
+      "the_database": {
+        "dataset_name": "11-Tumors",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "11-Tumors",
+        "dimensionality": "12533D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex feature interactions",
+          "non-convex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOPSO"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD), Epsilon Indicator, Classification Accuracy, Number of Selected Features",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "High-Dimensional Gene Selection"
+      },
+      "the_database": {
+        "dataset_name": "Brain-Tumor",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Brain-Tumor",
+        "dimensionality": "10367D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex feature interactions",
+          "non-convex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOPSO"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD), Epsilon Indicator, Classification Accuracy, Number of Selected Features",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "High-Dimensional Gene Selection"
+      },
+      "the_database": {
+        "dataset_name": "Lung Cancer",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Lung Cancer",
+        "dimensionality": "12600D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex feature interactions",
+          "non-convex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOPSO"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD), Epsilon Indicator, Classification Accuracy, Number of Selected Features",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "High-Dimensional Gene Selection"
+      },
+      "the_database": {
+        "dataset_name": "MLL",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MLL",
+        "dimensionality": "12582D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex feature interactions",
+          "non-convex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOPSO"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD), Epsilon Indicator, Classification Accuracy, Number of Selected Features",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "High-Dimensional Gene Selection"
+      },
+      "the_database": {
+        "dataset_name": "Prostate Tumor",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Prostate Tumor",
+        "dimensionality": "10509D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex feature interactions",
+          "non-convex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOPSO"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD), Epsilon Indicator, Classification Accuracy, Number of Selected Features",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "High-Dimensional Gene Selection"
+      },
+      "the_database": {
+        "dataset_name": "11-Tumors",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "11-Tumors",
+        "dimensionality": "12533D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex feature interactions",
+          "non-convex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-III"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD), Epsilon Indicator, Classification Accuracy, Number of Selected Features",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "High-Dimensional Gene Selection"
+      },
+      "the_database": {
+        "dataset_name": "Brain-Tumor",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Brain-Tumor",
+        "dimensionality": "10367D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex feature interactions",
+          "non-convex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-III"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD), Epsilon Indicator, Classification Accuracy, Number of Selected Features",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "High-Dimensional Gene Selection"
+      },
+      "the_database": {
+        "dataset_name": "Lung Cancer",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Lung Cancer",
+        "dimensionality": "12600D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex feature interactions",
+          "non-convex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-III"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD), Epsilon Indicator, Classification Accuracy, Number of Selected Features",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "High-Dimensional Gene Selection"
+      },
+      "the_database": {
+        "dataset_name": "MLL",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MLL",
+        "dimensionality": "12582D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex feature interactions",
+          "non-convex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-III"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD), Epsilon Indicator, Classification Accuracy, Number of Selected Features",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "High-Dimensional Gene Selection"
+      },
+      "the_database": {
+        "dataset_name": "Prostate Tumor",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Prostate Tumor",
+        "dimensionality": "10509D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex feature interactions",
+          "non-convex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-III"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD), Epsilon Indicator, Classification Accuracy, Number of Selected Features",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "High-Dimensional Gene Selection"
+      },
+      "the_database": {
+        "dataset_name": "11-Tumors",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "11-Tumors",
+        "dimensionality": "12533D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex feature interactions",
+          "non-convex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD), Epsilon Indicator, Classification Accuracy, Number of Selected Features",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "High-Dimensional Gene Selection"
+      },
+      "the_database": {
+        "dataset_name": "Brain-Tumor",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Brain-Tumor",
+        "dimensionality": "10367D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex feature interactions",
+          "non-convex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD), Epsilon Indicator, Classification Accuracy, Number of Selected Features",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "High-Dimensional Gene Selection"
+      },
+      "the_database": {
+        "dataset_name": "Lung Cancer",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Lung Cancer",
+        "dimensionality": "12600D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex feature interactions",
+          "non-convex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD), Epsilon Indicator, Classification Accuracy, Number of Selected Features",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "High-Dimensional Gene Selection"
+      },
+      "the_database": {
+        "dataset_name": "MLL",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MLL",
+        "dimensionality": "12582D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex feature interactions",
+          "non-convex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD), Epsilon Indicator, Classification Accuracy, Number of Selected Features",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "High-Dimensional Gene Selection"
+      },
+      "the_database": {
+        "dataset_name": "Prostate Tumor",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Prostate Tumor",
+        "dimensionality": "10509D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "high-dimensional",
+          "complex feature interactions",
+          "non-convex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MOEA/D"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generational Distance (IGD), Epsilon Indicator, Classification Accuracy, Number of Selected Features",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

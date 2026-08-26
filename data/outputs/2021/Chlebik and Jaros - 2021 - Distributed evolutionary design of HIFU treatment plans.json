@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "title": "Distributed Evolutionary Design of HIFU Treatment Plans",
+    "authors": [
+      "Jakub Chlebik",
+      "Jiri Jaros"
+    ],
+    "year": 2021,
+    "source_file": "Chlebik and Jaros - 2021 - Distributed evolutionary design of HIFU treatment plans.pdf",
+    "gecco_track": "GECCO '21 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "HIFU Treatment Planning"
+      },
+      "the_database": {
+        "dataset_name": "Austin Woman voxel model",
+        "source_platform": "Open-source"
+      },
+      "the_benchmark_problem": {
+        "name": "Monolithic target",
+        "dimensionality": "24D (6 sonications) / 80D (20 sonications)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ES"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "HIFU Treatment Planning"
+      },
+      "the_database": {
+        "dataset_name": "Austin Woman voxel model",
+        "source_platform": "Open-source"
+      },
+      "the_benchmark_problem": {
+        "name": "Flower target",
+        "dimensionality": "24D (6 sonications) / 80D (20 sonications)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ES"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness value achieved",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

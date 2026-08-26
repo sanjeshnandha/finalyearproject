@@ -1,0 +1,375 @@
+{
+  "metadata": {
+    "title": "Obtaining Partition Crossover masks using Statistical Linkage Learning for solving noised optimization problems with hidden variable dependency structure",
+    "authors": [
+      "Michal W. Przewozniczek",
+      "Bartosz Frej",
+      "Marcin M. Komarnicki",
+      "Michal Prusik",
+      "Renato Tinós"
+    ],
+    "year": 2026,
+    "source_file": "Przewozniczek et al. - 2026 - Obtaining Partition Crossover masks using Statistical Linkage Learning for solving noised optimizati.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "nkLand",
+        "dimensionality": "Up to 800D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "overlapping"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "P3-PX-OM-LTopWS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 200000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median FFE of 6.6E+6 to find global optimum at size 800 with 100% success rate",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ISG",
+        "dimensionality": "Up to 841D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "spin glass"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "P3-PX-OM-LTopWS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 200000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median FFE of 5.1E+5 to find global optimum at size 841 with 100% success rate",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "m3s",
+        "dimensionality": "Up to 100D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "satisfiability",
+          "overlapping"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "P3-PX-OM-LTopWS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 200000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median FFE of 9.0E+4 to find global optimum at size 75 with 80% success rate",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Bim10",
+        "dimensionality": "Up to 200D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "deceptive",
+          "bimodal"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "P3-PX-OM-LTopWS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 200000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median FFE of 3.6E+6 to find global optimum at size 200 with 93% success rate",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Dec5",
+        "dimensionality": "Up to 200D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "deceptive"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "P3-PX-OM-LTopWS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 200000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median FFE of 4.8E+4 to find global optimum at size 200 with 100% success rate",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "nkLand",
+        "dimensionality": "Up to 800D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "overlapping"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "P3"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 200000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median FFE of 8.6E+6 to find global optimum at size 600 with 80% success rate",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ISG",
+        "dimensionality": "Up to 841D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "spin glass"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "P3"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 200000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median FFE of 5.7E+5 to find global optimum at size 841 with 100% success rate",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "m3s",
+        "dimensionality": "Up to 100D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "satisfiability",
+          "overlapping"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "P3"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 200000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median FFE of 2.0E+5 to find global optimum at size 100 with 93% success rate",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Bim10",
+        "dimensionality": "Up to 200D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "deceptive",
+          "bimodal"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "P3"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 200000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median FFE of 5.0E+6 to find global optimum at size 80 with 100% success rate",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Dec5",
+        "dimensionality": "Up to 200D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "deceptive"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "P3"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 200000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median FFE of 3.2E+4 to find global optimum at size 200 with 100% success rate",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

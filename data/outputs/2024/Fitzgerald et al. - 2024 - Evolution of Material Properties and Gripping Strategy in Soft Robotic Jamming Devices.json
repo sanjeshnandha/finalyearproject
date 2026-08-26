@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "title": "Evolution of Material Properties and Gripping Strategy in Soft Robotic Jamming Devices",
+    "authors": [
+      "Seth G. Fitzgerald",
+      "Sarah Baldwin",
+      "David Howard",
+      "Frederic Maire",
+      "Gary W. Delaney"
+    ],
+    "year": 2024,
+    "source_file": "Fitzgerald et al. - 2024 - Evolution of Material Properties and Gripping Strategy in Soft Robotic Jamming Devices.pdf",
+    "gecco_track": "Evolutionary Robotics"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Optimizing granular material properties and gripping strategy for soft robotic jamming grippers"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Soft Robotic Jamming Gripper Optimization",
+        "dimensionality": "5D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-dimensional",
+          "complex structure"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-III"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.33,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Pareto front of mean pull-off force, standard deviation of pull-off force, and mean application force",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

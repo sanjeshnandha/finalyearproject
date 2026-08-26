@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "title": "Diagnosing Autonomous Vehicle Driving Criteria with an Adversarial Evolutionary Algorithm",
+    "authors": [
+      "Mark A. Coletti",
+      "Shang Gao",
+      "Spencer Paulissen",
+      "Nicholas Quentin Haas",
+      "Robert Patton"
+    ],
+    "year": 2021,
+    "source_file": "Coletti et al. - 2021 - Diagnosing autonomous vehicle driving criteria with an adversarial evolutionary algorithm.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Diagnosing autonomous vehicle driving criteria"
+      },
+      "the_database": {
+        "dataset_name": "CARLA Town01",
+        "source_platform": "CARLA Simulator"
+      },
+      "the_benchmark_problem": {
+        "name": "CARLA Town01 driving scenarios",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Gremlin (Asynchronous Steady-State Evolutionary Algorithm)"
+      },
+      "parameters": {
+        "population_size": 25,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average of the fitness scores",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

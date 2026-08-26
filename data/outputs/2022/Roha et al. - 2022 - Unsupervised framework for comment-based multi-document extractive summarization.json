@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "title": "Unsupervised Framework for Comment-based Multi-document Extractive Summarization",
+    "authors": [
+      "Vishal Singh Roha",
+      "Naveen Saini",
+      "Sriparna Saha",
+      "Jose G Moreno"
+    ],
+    "year": 2022,
+    "source_file": "Roha et al. - 2022 - Unsupervised framework for comment-based multi-document extractive summarization.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Information Technology / NLP",
+        "problem_context": "Comment-based Multi-document Extractive Summarization"
+      },
+      "the_database": {
+        "dataset_name": "RA-MDS dataset",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "RA-MDS English Dataset",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "multi-objective",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Binary Multi-Objective Differential Evolution (BDE)"
+      },
+      "parameters": {
+        "population_size": 25,
+        "max_evaluations_or_generations": 5,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "ROUGE-1 F-score: 0.4680, ROUGE-2 F-score: 0.2513, ROUGE-SU4 F-score: 0.2590",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Information Technology / NLP",
+        "problem_context": "Comment-based Multi-document Extractive Summarization"
+      },
+      "the_database": {
+        "dataset_name": "French dataset with comments",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "French Dataset",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "multi-objective",
+          "combinatorial"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Binary Multi-Objective Differential Evolution (BDE)"
+      },
+      "parameters": {
+        "population_size": 25,
+        "max_evaluations_or_generations": 5,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "ROUGE-1 F-score: 0.2898, ROUGE-2 F-score: 0.1519, ROUGE-SU4 F-score: 0.1484",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "title": "Evolutionary Diversity Optimisation for The Traveling Thief Problem",
+    "authors": [
+      "Adel Nikfarjam",
+      "Aneta Neumann",
+      "Frank Neumann"
+    ],
+    "year": 2022,
+    "source_file": "Nikfarjam et al. - 2022 - Evolutionary diversity optimisation for the traveling thief problem.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Thief Problem"
+      },
+      "the_database": {
+        "dataset_name": "TTP Benchmark Instances",
+        "source_platform": "Polyakovskiy et al. (2014)"
+      },
+      "the_benchmark_problem": {
+        "name": "Traveling Thief Problem (TTP)",
+        "dimensionality": "Variable (50 to 280 nodes)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "interdependent",
+          "multi-component",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Two-stage-EA (DP)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Structural diversity (Entropy of edges and items)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Thief Problem"
+      },
+      "the_database": {
+        "dataset_name": "TTP Benchmark Instances",
+        "source_platform": "Polyakovskiy et al. (2014)"
+      },
+      "the_benchmark_problem": {
+        "name": "Traveling Thief Problem (TTP)",
+        "dimensionality": "Variable (50 to 280 nodes)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "interdependent",
+          "multi-component",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Two-stage-EA ((1+1)EA)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Structural diversity (Entropy of edges and items)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Thief Problem"
+      },
+      "the_database": {
+        "dataset_name": "TTP Benchmark Instances",
+        "source_platform": "Polyakovskiy et al. (2014)"
+      },
+      "the_benchmark_problem": {
+        "name": "Traveling Thief Problem (TTP)",
+        "dimensionality": "Variable (50 to 280 nodes)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "interdependent",
+          "multi-component",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "QD-based EA"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Structural diversity (Entropy of edges and items)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

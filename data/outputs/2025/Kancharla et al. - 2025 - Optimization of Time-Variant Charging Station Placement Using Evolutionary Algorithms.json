@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "title": "Optimization of Time-Variant Charging Station Placement Using Evolutionary Algorithms",
+    "authors": [
+      "Sai Lokesh Kancharla",
+      "Sanaz Mostaghim",
+      "Sebastian Brulin",
+      "Markus Olhofer"
+    ],
+    "year": 2025,
+    "source_file": "Kancharla et al. - 2025 - Optimization of Time-Variant Charging Station Placement Using Evolutionary Algorithms.pdf",
+    "gecco_track": "GECCO '25 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Optimization of time-variant charging station placement in a dynamic road network"
+      },
+      "the_database": {
+        "dataset_name": "Uber Movement data from San Francisco",
+        "source_platform": "Uber Movement"
+      },
+      "the_benchmark_problem": {
+        "name": "Time-Variant Charging Station Placement Problem",
+        "dimensionality": "942D (binary variables)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "multi-objective",
+          "dynamic"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume difference, Total travel time",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

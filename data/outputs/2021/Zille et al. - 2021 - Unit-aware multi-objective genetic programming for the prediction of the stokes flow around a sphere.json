@@ -1,0 +1,1006 @@
+{
+  "metadata": {
+    "title": "Unit-aware Multi-objective Genetic Programming for the Prediction of the Stokes Flow around a Sphere",
+    "authors": [
+      "Heiner Zille",
+      "Sanaz Mostaghim",
+      "Fabien Evrard",
+      "Berend van Wachem"
+    ],
+    "year": 2021,
+    "source_file": "Zille et al. - 2021 - Unit-aware multi-objective genetic programming for the prediction of the stokes flow around a sphere.pdf",
+    "gecco_track": "Genetic Programming"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Prediction of the Stokes Flow around a Sphere"
+      },
+      "the_database": {
+        "dataset_name": "Discrete grid sampling of Stokes flow",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Stokes Flow around a Sphere - Instance 1",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Single-objective dimensionless GP (min f1)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of numerically and physically correct runs out of 21: 18",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Prediction of the Stokes Flow around a Sphere"
+      },
+      "the_database": {
+        "dataset_name": "Discrete grid sampling of Stokes flow",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Stokes Flow around a Sphere - Instance 2",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Single-objective dimensionless GP (min f1)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of numerically and physically correct runs out of 21: 21",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Prediction of the Stokes Flow around a Sphere"
+      },
+      "the_database": {
+        "dataset_name": "Discrete grid sampling of Stokes flow",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Stokes Flow around a Sphere - Instance 3",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Single-objective dimensionless GP (min f1)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of numerically and physically correct runs out of 21: 3",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Prediction of the Stokes Flow around a Sphere"
+      },
+      "the_database": {
+        "dataset_name": "Discrete grid sampling of Stokes flow",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Stokes Flow around a Sphere - Instance 4",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Single-objective dimensionless GP (min f1)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of numerically and physically correct runs out of 21: 0",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Prediction of the Stokes Flow around a Sphere"
+      },
+      "the_database": {
+        "dataset_name": "Discrete grid sampling of Stokes flow",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Stokes Flow around a Sphere - Instance 5",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Single-objective dimensionless GP (min f1)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of numerically and physically correct runs out of 21: 0",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Prediction of the Stokes Flow around a Sphere"
+      },
+      "the_database": {
+        "dataset_name": "Discrete grid sampling of Stokes flow",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Stokes Flow around a Sphere - Instance 6",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Single-objective dimensionless GP (min f1)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of numerically and physically correct runs out of 21: 0",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Prediction of the Stokes Flow around a Sphere"
+      },
+      "the_database": {
+        "dataset_name": "Discrete grid sampling of Stokes flow",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Stokes Flow around a Sphere - Instance 1",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-objective dimensionless GP (min f1 and f2)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of numerically and physically correct runs out of 21: 21",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Prediction of the Stokes Flow around a Sphere"
+      },
+      "the_database": {
+        "dataset_name": "Discrete grid sampling of Stokes flow",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Stokes Flow around a Sphere - Instance 2",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-objective dimensionless GP (min f1 and f2)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of numerically and physically correct runs out of 21: 21",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Prediction of the Stokes Flow around a Sphere"
+      },
+      "the_database": {
+        "dataset_name": "Discrete grid sampling of Stokes flow",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Stokes Flow around a Sphere - Instance 3",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-objective dimensionless GP (min f1 and f2)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of numerically and physically correct runs out of 21: 0",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Prediction of the Stokes Flow around a Sphere"
+      },
+      "the_database": {
+        "dataset_name": "Discrete grid sampling of Stokes flow",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Stokes Flow around a Sphere - Instance 4",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-objective dimensionless GP (min f1 and f2)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of numerically and physically correct runs out of 21: 6",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Prediction of the Stokes Flow around a Sphere"
+      },
+      "the_database": {
+        "dataset_name": "Discrete grid sampling of Stokes flow",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Stokes Flow around a Sphere - Instance 5",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-objective dimensionless GP (min f1 and f2)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of numerically and physically correct runs out of 21: 1",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Prediction of the Stokes Flow around a Sphere"
+      },
+      "the_database": {
+        "dataset_name": "Discrete grid sampling of Stokes flow",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Stokes Flow around a Sphere - Instance 6",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-objective dimensionless GP (min f1 and f2)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of numerically and physically correct runs out of 21: 0",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Prediction of the Stokes Flow around a Sphere"
+      },
+      "the_database": {
+        "dataset_name": "Discrete grid sampling of Stokes flow",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Stokes Flow around a Sphere - Instance 1",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Single-objective penalized GP (min f1 + w * f3)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of numerically and physically correct runs out of 21: 20",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Prediction of the Stokes Flow around a Sphere"
+      },
+      "the_database": {
+        "dataset_name": "Discrete grid sampling of Stokes flow",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Stokes Flow around a Sphere - Instance 2",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Single-objective penalized GP (min f1 + w * f3)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of numerically and physically correct runs out of 21: 21",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Prediction of the Stokes Flow around a Sphere"
+      },
+      "the_database": {
+        "dataset_name": "Discrete grid sampling of Stokes flow",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Stokes Flow around a Sphere - Instance 3",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Single-objective penalized GP (min f1 + w * f3)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of numerically and physically correct runs out of 21: 6",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Prediction of the Stokes Flow around a Sphere"
+      },
+      "the_database": {
+        "dataset_name": "Discrete grid sampling of Stokes flow",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Stokes Flow around a Sphere - Instance 4",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Single-objective penalized GP (min f1 + w * f3)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of numerically and physically correct runs out of 21: 0",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Prediction of the Stokes Flow around a Sphere"
+      },
+      "the_database": {
+        "dataset_name": "Discrete grid sampling of Stokes flow",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Stokes Flow around a Sphere - Instance 5",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Single-objective penalized GP (min f1 + w * f3)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of numerically and physically correct runs out of 21: 2",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Prediction of the Stokes Flow around a Sphere"
+      },
+      "the_database": {
+        "dataset_name": "Discrete grid sampling of Stokes flow",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Stokes Flow around a Sphere - Instance 6",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Single-objective penalized GP (min f1 + w * f3)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of numerically and physically correct runs out of 21: 3",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Prediction of the Stokes Flow around a Sphere"
+      },
+      "the_database": {
+        "dataset_name": "Discrete grid sampling of Stokes flow",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Stokes Flow around a Sphere - Instance 1",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-objective unit-aware GP (min f1 and f3)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of numerically and physically correct runs out of 21: 21",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Prediction of the Stokes Flow around a Sphere"
+      },
+      "the_database": {
+        "dataset_name": "Discrete grid sampling of Stokes flow",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Stokes Flow around a Sphere - Instance 2",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-objective unit-aware GP (min f1 and f3)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of numerically and physically correct runs out of 21: 21",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Prediction of the Stokes Flow around a Sphere"
+      },
+      "the_database": {
+        "dataset_name": "Discrete grid sampling of Stokes flow",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Stokes Flow around a Sphere - Instance 3",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-objective unit-aware GP (min f1 and f3)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of numerically and physically correct runs out of 21: 16",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Prediction of the Stokes Flow around a Sphere"
+      },
+      "the_database": {
+        "dataset_name": "Discrete grid sampling of Stokes flow",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Stokes Flow around a Sphere - Instance 4",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-objective unit-aware GP (min f1 and f3)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of numerically and physically correct runs out of 21: 0",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Prediction of the Stokes Flow around a Sphere"
+      },
+      "the_database": {
+        "dataset_name": "Discrete grid sampling of Stokes flow",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Stokes Flow around a Sphere - Instance 5",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-objective unit-aware GP (min f1 and f3)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of numerically and physically correct runs out of 21: 2",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Prediction of the Stokes Flow around a Sphere"
+      },
+      "the_database": {
+        "dataset_name": "Discrete grid sampling of Stokes flow",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Stokes Flow around a Sphere - Instance 6",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-objective unit-aware GP (min f1 and f3)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of numerically and physically correct runs out of 21: 4",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Prediction of the Stokes Flow around a Sphere"
+      },
+      "the_database": {
+        "dataset_name": "Discrete grid sampling of Stokes flow",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Stokes Flow around a Sphere - Instance 1",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-objective unit-aware GP (min f1 and f2 and f3)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of numerically and physically correct runs out of 21: 21",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Prediction of the Stokes Flow around a Sphere"
+      },
+      "the_database": {
+        "dataset_name": "Discrete grid sampling of Stokes flow",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Stokes Flow around a Sphere - Instance 2",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-objective unit-aware GP (min f1 and f2 and f3)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of numerically and physically correct runs out of 21: 21",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Prediction of the Stokes Flow around a Sphere"
+      },
+      "the_database": {
+        "dataset_name": "Discrete grid sampling of Stokes flow",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Stokes Flow around a Sphere - Instance 3",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-objective unit-aware GP (min f1 and f2 and f3)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of numerically and physically correct runs out of 21: 13",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Prediction of the Stokes Flow around a Sphere"
+      },
+      "the_database": {
+        "dataset_name": "Discrete grid sampling of Stokes flow",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Stokes Flow around a Sphere - Instance 4",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-objective unit-aware GP (min f1 and f2 and f3)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of numerically and physically correct runs out of 21: 7",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Prediction of the Stokes Flow around a Sphere"
+      },
+      "the_database": {
+        "dataset_name": "Discrete grid sampling of Stokes flow",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Stokes Flow around a Sphere - Instance 5",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-objective unit-aware GP (min f1 and f2 and f3)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of numerically and physically correct runs out of 21: 13",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Prediction of the Stokes Flow around a Sphere"
+      },
+      "the_database": {
+        "dataset_name": "Discrete grid sampling of Stokes flow",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Stokes Flow around a Sphere - Instance 6",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-objective unit-aware GP (min f1 and f2 and f3)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of numerically and physically correct runs out of 21: 5",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

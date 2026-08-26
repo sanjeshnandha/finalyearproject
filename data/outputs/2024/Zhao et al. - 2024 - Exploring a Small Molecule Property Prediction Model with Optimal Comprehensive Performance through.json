@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "title": "Exploring a Small Molecule Property Prediction Model with Optimal Comprehensive Performance through Multi-Objective Optimization Algorithms",
+    "authors": [
+      "Junfeng Zhao",
+      "Lixin Tang",
+      "Yong Shuai"
+    ],
+    "year": 2024,
+    "source_file": "Zhao et al. - 2024 - Exploring a Small Molecule Property Prediction Model with Optimal Comprehensive Performance through.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Optimizing input dimensions and network topology of a DNN for molecular property prediction"
+      },
+      "the_database": {
+        "dataset_name": "QM9 dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Small molecule multi-property prediction",
+        "dimensionality": "7D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "multi-objective",
+          "discrete-continuous hybrid search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Non-dominated Sorting Differential Evolution (NSDE)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.6
+      },
+      "performance_outcome": {
+        "metric": "Mean Absolute Error (MAE) and training time",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

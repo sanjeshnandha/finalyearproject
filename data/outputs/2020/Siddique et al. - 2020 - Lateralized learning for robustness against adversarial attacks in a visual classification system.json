@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "title": "Lateralized Learning for Robustness Against Adversarial Attacks in a Visual Classification System",
+    "authors": [
+      "Abubakar Siddique",
+      "Will N. Browne",
+      "Gina M. Grimshaw"
+    ],
+    "year": 2020,
+    "source_file": "Siddique et al. - 2020 - Lateralized learning for robustness against adversarial attacks in a visual classification system.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Robust image classification against adversarial attacks"
+      },
+      "the_database": {
+        "dataset_name": "Kaggle Cat Dataset and dlib Dog Dataset",
+        "source_platform": "Kaggle and dlib"
+      },
+      "the_benchmark_problem": {
+        "name": "Cat vs Dog Classification",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "adversarial perturbations",
+          "noisy",
+          "hierarchical"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Supervised Classifier Systems (UCS)"
+      },
+      "parameters": {
+        "population_size": 8000,
+        "max_evaluations_or_generations": 500000,
+        "mutation_rate": 0.04,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Classification Accuracy (99.80% on original, 98.34% on FGSM-M, 81.06% on FGSM-S, 99.59% on Itr-M, 99.30% on Itr-S)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,593 @@
+{
+  "metadata": {
+    "title": "Gradient-Informed Quality Diversity for the Illumination of Discrete Spaces",
+    "authors": [
+      "Raphaël Boige",
+      "Guillaume Richard",
+      "Jérémie Donà",
+      "Antoine Cully",
+      "Thomas Pierrot"
+    ],
+    "year": 2023,
+    "source_file": "Boige et al. - 2023 - Gradient-Informed Quality Diversity for the Illumination of Discrete Spaces.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Protein design"
+      },
+      "the_database": {
+        "dataset_name": "PFAM",
+        "source_platform": "UniProt"
+      },
+      "the_benchmark_problem": {
+        "name": "Ras protein family",
+        "dimensionality": "184"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "combinatorially large"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ME-GIDE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "QD-Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Protein design"
+      },
+      "the_database": {
+        "dataset_name": "PFAM",
+        "source_platform": "UniProt"
+      },
+      "the_benchmark_problem": {
+        "name": "Ras protein family",
+        "dimensionality": "184"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "combinatorially large"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAP-Elites"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "QD-Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Protein design"
+      },
+      "the_database": {
+        "dataset_name": "PFAM",
+        "source_platform": "UniProt"
+      },
+      "the_benchmark_problem": {
+        "name": "Ras protein family",
+        "dimensionality": "184"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "combinatorially large"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ME (proj.)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "QD-Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Protein design"
+      },
+      "the_database": {
+        "dataset_name": "PFAM",
+        "source_platform": "UniProt"
+      },
+      "the_benchmark_problem": {
+        "name": "Ras protein family",
+        "dimensionality": "184"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "combinatorially large"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "OMG-MEGA (proj.)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "QD-Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Generating diverse digits images by searching a binary pixel space"
+      },
+      "the_database": {
+        "dataset_name": "MNIST",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Binarized digits",
+        "dimensionality": "784"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "binary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ME-GIDE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD-Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Generating diverse digits images by searching a binary pixel space"
+      },
+      "the_database": {
+        "dataset_name": "MNIST",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Binarized digits",
+        "dimensionality": "784"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "binary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAP-Elites"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD-Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Generating diverse digits images by searching a binary pixel space"
+      },
+      "the_database": {
+        "dataset_name": "MNIST",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Binarized digits",
+        "dimensionality": "784"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "binary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ME (proj.)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD-Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Generating diverse digits images by searching a binary pixel space"
+      },
+      "the_database": {
+        "dataset_name": "MNIST",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Binarized digits",
+        "dimensionality": "784"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "binary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "OMG-MEGA (proj.)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD-Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Discrete Latent Space Illumination"
+      },
+      "the_database": {
+        "dataset_name": "ImageNet",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Discrete LSI - 1",
+        "dimensionality": "1024"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "latent space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ME-GIDE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 5000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD-Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Discrete Latent Space Illumination"
+      },
+      "the_database": {
+        "dataset_name": "ImageNet",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Discrete LSI - 1",
+        "dimensionality": "1024"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "latent space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAP-Elites"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 5000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD-Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Discrete Latent Space Illumination"
+      },
+      "the_database": {
+        "dataset_name": "ImageNet",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Discrete LSI - 1",
+        "dimensionality": "1024"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "latent space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ME (proj.)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 5000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD-Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Discrete Latent Space Illumination"
+      },
+      "the_database": {
+        "dataset_name": "ImageNet",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Discrete LSI - 1",
+        "dimensionality": "1024"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "latent space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "OMG-MEGA (proj.)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 5000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD-Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Discrete Latent Space Illumination"
+      },
+      "the_database": {
+        "dataset_name": "ImageNet",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Discrete LSI - 2",
+        "dimensionality": "1024"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "latent space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ME-GIDE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 5000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD-Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Discrete Latent Space Illumination"
+      },
+      "the_database": {
+        "dataset_name": "ImageNet",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Discrete LSI - 2",
+        "dimensionality": "1024"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "latent space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAP-Elites"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 5000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD-Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Discrete Latent Space Illumination"
+      },
+      "the_database": {
+        "dataset_name": "ImageNet",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Discrete LSI - 2",
+        "dimensionality": "1024"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "latent space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ME (proj.)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 5000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD-Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Discrete Latent Space Illumination"
+      },
+      "the_database": {
+        "dataset_name": "ImageNet",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Discrete LSI - 2",
+        "dimensionality": "1024"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "latent space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "OMG-MEGA (proj.)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 5000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD-Score",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

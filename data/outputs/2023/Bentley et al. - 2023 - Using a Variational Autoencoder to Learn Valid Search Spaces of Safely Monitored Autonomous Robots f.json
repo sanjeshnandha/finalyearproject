@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "title": "Using a Variational Autoencoder to Learn Valid Search Spaces of Safely Monitored Autonomous Robots for Last-Mile Delivery",
+    "authors": [
+      "Peter J. Bentley",
+      "Soo Ling Lim",
+      "Paolo Arcaini",
+      "Fuyuki Ishikawa"
+    ],
+    "year": 2023,
+    "source_file": "Bentley et al. - 2023 - Using a Variational Autoencoder to Learn Valid Search Spaces of Safely Monitored Autonomous Robots f.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Scheduling autonomous robot timings to maximize deliveries while maintaining safe numbers of simultaneously running robots"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Autonomous Robot Scheduling Problem",
+        "dimensionality": "Variable (40D, 50D, 60D)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "highly-constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (GA)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Constraint satisfaction and objective value (total requests met)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Scheduling autonomous robot timings to maximize deliveries while maintaining safe numbers of simultaneously running robots"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Autonomous Robot Scheduling Problem",
+        "dimensionality": "Variable (40D, 50D, 60D)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "highly-constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "COIL (Constrained Optimization in Learned Latent Space)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Constraint satisfaction and objective value (total requests met)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

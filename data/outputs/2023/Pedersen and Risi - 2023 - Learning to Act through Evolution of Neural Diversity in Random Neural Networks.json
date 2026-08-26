@@ -1,0 +1,230 @@
+{
+  "metadata": {
+    "title": "Learning to Act through Evolution of Neural Diversity in Random Neural Networks",
+    "authors": [
+      "Joachim Winther Pedersen",
+      "Sebastian Risi"
+    ],
+    "year": 2023,
+    "source_file": "Pedersen and Risi - 2023 - Learning to Act through Evolution of Neural Diversity in Random Neural Networks.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Continuous control reinforcement learning"
+      },
+      "the_database": {
+        "dataset_name": "OpenAI Gym",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "CartPoleSwingUp",
+        "dimensionality": "1259 parameters"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GA + CMA-ES (Recurrent Neurons)"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 4000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean score of 916 over 100 episodes",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Continuous control reinforcement learning"
+      },
+      "the_database": {
+        "dataset_name": "OpenAI Gym",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "BipedalWalker-v3",
+        "dimensionality": "1325 parameters"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GA + CMA-ES (Recurrent Neurons)"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 4000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean score of 295 over 100 episodes",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Continuous control reinforcement learning"
+      },
+      "the_database": {
+        "dataset_name": "OpenAI Gym",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "CarRacing-v0",
+        "dimensionality": "5218 parameters"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GA + CMA-ES (Recurrent Neurons)"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 1400,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean score of 822 over 100 episodes",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Continuous control reinforcement learning"
+      },
+      "the_database": {
+        "dataset_name": "OpenAI Gym",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "CartPoleSwingUp",
+        "dimensionality": "396 parameters"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GA + CMA-ES (Simple Neurons)"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 4000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean score of 892 over 100 episodes",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Continuous control reinforcement learning"
+      },
+      "the_database": {
+        "dataset_name": "OpenAI Gym",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "BipedalWalker-v3",
+        "dimensionality": "440 parameters"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GA + CMA-ES (Simple Neurons)"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 4000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean score of 239 over 100 episodes",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Continuous control reinforcement learning"
+      },
+      "the_database": {
+        "dataset_name": "OpenAI Gym",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "CarRacing-v0",
+        "dimensionality": "1686 parameters"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GA + CMA-ES (Simple Neurons)"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 1400,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean score of 820 over 100 episodes",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

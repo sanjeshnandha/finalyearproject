@@ -1,0 +1,155 @@
+{
+  "metadata": {
+    "title": "Positive definite nonparametric regression using an evolutionary algorithm with application to covariance function estimation",
+    "authors": [
+      "Myeongjong Kang"
+    ],
+    "year": 2023,
+    "source_file": "Kang - 2023 - Positive Definite Nonparametric Regression using an Evolutionary Algorithm with Application to Covar.pdf",
+    "gecco_track": "Estimation of Distribution Algorithms"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Wave function (Equation 5)",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "oscillatory",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Iterated Density Estimation Evolutionary Algorithm (IDEA)"
+      },
+      "parameters": {
+        "population_size": 40,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Root Mean Squared Prediction Error (RMSPE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Spherical function (Equation 6)",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "monotone"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Iterated Density Estimation Evolutionary Algorithm (IDEA)"
+      },
+      "parameters": {
+        "population_size": 60,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Root Mean Squared Prediction Error (RMSPE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Wave covariance function of mean-zero Gaussian process",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "oscillatory"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Iterated Density Estimation Evolutionary Algorithm (IDEA)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Covariance function estimation accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Environmental/Geospatial",
+        "problem_context": "Daily rainfall estimation"
+      },
+      "the_database": {
+        "dataset_name": "SIC100",
+        "source_platform": "Spatial Interpolation Comparison (SIC) 97 project"
+      },
+      "the_benchmark_problem": {
+        "name": "SIC100 dataset",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "heteroscedastic",
+          "noisy"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Iterated Density Estimation Evolutionary Algorithm (IDEA)"
+      },
+      "parameters": {
+        "population_size": 60,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Covariance function estimation accuracy",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

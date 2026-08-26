@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "title": "Convergence Analysis of Rule-Generality on the XCS Classifier System",
+    "authors": [
+      "Yoshiki Nakamura",
+      "Motoki Horiuchi",
+      "Masaya Nakata"
+    ],
+    "year": 2021,
+    "source_file": "Nakamura et al. - 2021 - Convergence analysis of rule-generality on the XCS classifier system.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "70-bit multiplexer problem (70-MUX)",
+        "dimensionality": "70D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "XCS Classifier System"
+      },
+      "parameters": {
+        "population_size": 30000,
+        "max_evaluations_or_generations": 2000000,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "System classification accuracy",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "3x3 concatenated multiplexer problem (3x3 CMUX)",
+        "dimensionality": "9D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "XCS Classifier System"
+      },
+      "parameters": {
+        "population_size": 20000,
+        "max_evaluations_or_generations": 2000000,
+        "mutation_rate": 0.04,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "System classification accuracy",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

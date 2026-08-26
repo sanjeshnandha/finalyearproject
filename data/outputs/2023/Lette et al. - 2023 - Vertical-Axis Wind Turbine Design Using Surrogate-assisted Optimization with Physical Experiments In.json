@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "title": "Vertical-Axis Wind Turbine Design Using Surrogate-assisted Optimization with Physical Experiments In-loop",
+    "authors": [
+      "Matthew Lette",
+      "Kamrul Hasan Rahi",
+      "Hemant Kumar Singh",
+      "Tapabrata Ray"
+    ],
+    "year": 2023,
+    "source_file": "Lette et al. - 2023 - Vertical-Axis Wind Turbine Design Using Surrogate-assisted Optimization with Physical Experiments In.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Twin-blade Vertical-Axis Wind Turbine (VAWT) design optimization to maximize rotational speed (RPM)"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Single-objective VAWT design (Maximize RPM)",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "expensive",
+          "physical experiments in-loop"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ISAEA with EI-based sampling"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 40,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Best mean rotational speed (RPM)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Twin-blade Vertical-Axis Wind Turbine (VAWT) design optimization to maximize rotational speed (RPM) and minimize mass"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-objective VAWT design (Maximize RPM, Minimize Mass)",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "expensive",
+          "physical experiments in-loop",
+          "conflicting objectives"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ISAEA with SASSEA"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 40,
+        "mutation_rate": 0.1,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Pareto-optimal front (best trade-off between RPM and mass)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

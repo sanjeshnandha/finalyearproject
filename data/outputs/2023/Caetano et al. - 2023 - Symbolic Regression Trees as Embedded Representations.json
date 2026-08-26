@@ -1,0 +1,180 @@
+{
+  "metadata": {
+    "title": "Symbolic Regression Trees as Embedded Representations",
+    "authors": [
+      "Victor Caetano",
+      "Matheus Cândido Teixeira",
+      "Gisele Lobo Pappa"
+    ],
+    "year": 2023,
+    "source_file": "Caetano et al. - 2023 - Symbolic Regression Trees as Embedded Representations.pdf",
+    "gecco_track": "Genetic Programming"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Predicting CPU performance"
+      },
+      "the_database": {
+        "dataset_name": "197_cpu_act (DM4)",
+        "source_platform": "PMLB Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "197_cpu_act (DM4)",
+        "dimensionality": "21D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming with Embedding-based Fitness Sharing (FS-Emb)"
+      },
+      "parameters": {
+        "population_size": 900,
+        "max_evaluations_or_generations": 55,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean Squared Error (MSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Predicting CPU performance"
+      },
+      "the_database": {
+        "dataset_name": "197_cpu_act (DM4)",
+        "source_platform": "PMLB Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "197_cpu_act (DM4)",
+        "dimensionality": "21D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard Genetic Programming (Std. GP)"
+      },
+      "parameters": {
+        "population_size": 900,
+        "max_evaluations_or_generations": 55,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean Squared Error (MSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Keijzer-5 (KJ5)",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming with Embedding-drop Fitness Sharing (Emb-drop)"
+      },
+      "parameters": {
+        "population_size": 900,
+        "max_evaluations_or_generations": 55,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean Squared Error (MSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Nguyen-8 (NG8)",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming with Embedding-drop Fitness Sharing (Emb-drop)"
+      },
+      "parameters": {
+        "population_size": 900,
+        "max_evaluations_or_generations": 55,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean Squared Error (MSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Koza-2 (KZ2)",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming with Embedding-drop Fitness Sharing (Emb-drop)"
+      },
+      "parameters": {
+        "population_size": 900,
+        "max_evaluations_or_generations": 55,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Mean Squared Error (MSE)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

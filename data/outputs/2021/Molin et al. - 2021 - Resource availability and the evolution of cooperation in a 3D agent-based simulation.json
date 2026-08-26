@@ -1,0 +1,128 @@
+{
+  "metadata": {
+    "title": "Resource Availability and the Evolution of Cooperation in a 3D Agent-Based Simulation",
+    "authors": [
+      "Lara Dal Molin",
+      "Jasmeen Kanwal",
+      "Christopher Stone"
+    ],
+    "year": 2021,
+    "source_file": "Molin et al. - 2021 - Resource availability and the evolution of cooperation in a 3D agent-based simulation.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Simulating the evolution of cooperation under uniform resource availability"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Uniform Resource Availability Scenario",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "dynamic",
+          "agent-based",
+          "uniform resource spawning"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 300000,
+        "mutation_rate": 0.05,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Population stability and sharing preference convergence",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Simulating the evolution of cooperation under periodically fluctuating resource availability"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Periodic Resource Availability Scenario",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "dynamic",
+          "agent-based",
+          "periodic resource spawning",
+          "fluctuating"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 300000,
+        "mutation_rate": 0.05,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Evolution of stable, tightly organised societies with small, local, mutualistic food-sharing networks",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Simulating the evolution of cooperation under increasingly scarce resource availability"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Extreme Hardship Resource Availability Scenario",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "dynamic",
+          "agent-based",
+          "increasingly scarce resources",
+          "extreme hardship"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 300000,
+        "mutation_rate": 0.05,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Population extinction and adaptation of targeting behavior (prolonged focus on single target)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "title": "Neuroevolution of Self-Interpretable Agents",
+    "authors": [
+      "Yujin Tang",
+      "Duong Nguyen",
+      "David Ha"
+    ],
+    "year": 2020,
+    "source_file": "Tang et al. - 2020 - Neuroevolution of self-interpretable agents.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Vision-based reinforcement learning for autonomous driving"
+      },
+      "the_database": {
+        "dataset_name": "CarRacing-v0",
+        "source_platform": "OpenAI Gym"
+      },
+      "the_benchmark_problem": {
+        "name": "CarRacing-v0",
+        "dimensionality": "96x96 pixels"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ES"
+      },
+      "parameters": {
+        "population_size": 256,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average score over 100 consecutive trials",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Vision-based reinforcement learning for obstacle avoidance and survival"
+      },
+      "the_database": {
+        "dataset_name": "DoomTakeCover-v0",
+        "source_platform": "ViZDoom"
+      },
+      "the_benchmark_problem": {
+        "name": "DoomTakeCover",
+        "dimensionality": "96x96 pixels"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CMA-ES"
+      },
+      "parameters": {
+        "population_size": 256,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average score over 100 consecutive trials",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Vision-based reinforcement learning for autonomous driving"
+      },
+      "the_database": {
+        "dataset_name": "CarRacing-v0",
+        "source_platform": "OpenAI Gym"
+      },
+      "the_benchmark_problem": {
+        "name": "CarRacing-v0",
+        "dimensionality": "96x96 pixels"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (GA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average score over 100 consecutive trials",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Vision-based reinforcement learning for obstacle avoidance and survival"
+      },
+      "the_database": {
+        "dataset_name": "DoomTakeCover-v0",
+        "source_platform": "ViZDoom"
+      },
+      "the_benchmark_problem": {
+        "name": "DoomTakeCover",
+        "dimensionality": "96x96 pixels"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Deep Innovation Protection (DIP)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average score over 100 consecutive trials",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

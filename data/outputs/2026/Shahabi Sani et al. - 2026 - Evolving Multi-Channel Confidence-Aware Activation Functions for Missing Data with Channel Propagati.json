@@ -1,0 +1,412 @@
+{
+  "metadata": {
+    "title": "Evolving Multi-Channel Confidence-Aware Activation Functions for Missing Data with Channel Propagation",
+    "authors": [
+      "Naeem Shahabi Sani",
+      "Ferial Najiantabriz",
+      "Shayan Shafaei",
+      "Dean F. Hougen"
+    ],
+    "year": 2026,
+    "source_file": "Shahabi Sani et al. - 2026 - Evolving Multi-Channel Confidence-Aware Activation Functions for Missing Data with Channel Propagati.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Classification with missing data"
+      },
+      "the_database": {
+        "dataset_name": "Hepatitis",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Hepatitis",
+        "dimensionality": "19 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming (GP)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 30,
+        "mutation_rate": 0.15,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Test Accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Government/Politics",
+        "problem_context": "Classification with missing data"
+      },
+      "the_database": {
+        "dataset_name": "HouseVotes84",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "HouseVotes84",
+        "dimensionality": "16 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming (GP)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 30,
+        "mutation_rate": 0.15,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Test Accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance",
+        "problem_context": "Classification with missing data"
+      },
+      "the_database": {
+        "dataset_name": "Credit Approval",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Credit Approval",
+        "dimensionality": "14 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming (GP)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 30,
+        "mutation_rate": 0.15,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Test Accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Classification with missing data"
+      },
+      "the_database": {
+        "dataset_name": "Mammographic",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Mammographic",
+        "dimensionality": "5 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming (GP)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 30,
+        "mutation_rate": 0.15,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Test Accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Classification with missing data"
+      },
+      "the_database": {
+        "dataset_name": "Cylinder Bands",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Cylinder Bands",
+        "dimensionality": "39 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming (GP)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 30,
+        "mutation_rate": 0.15,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Test Accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Classification with missing data"
+      },
+      "the_database": {
+        "dataset_name": "Heart Disease",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Heart Disease",
+        "dimensionality": "13 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming (GP)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 30,
+        "mutation_rate": 0.15,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Test Accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Social Science / Demographics",
+        "problem_context": "Classification with missing data"
+      },
+      "the_database": {
+        "dataset_name": "Adult",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Adult",
+        "dimensionality": "14 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming (GP)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 30,
+        "mutation_rate": 0.15,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Test Accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Agriculture/Biology",
+        "problem_context": "Classification with missing data"
+      },
+      "the_database": {
+        "dataset_name": "Mushroom",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Mushroom",
+        "dimensionality": "22 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming (GP)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 30,
+        "mutation_rate": 0.15,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Test Accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Classification with missing data"
+      },
+      "the_database": {
+        "dataset_name": "WDBC",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "WDBC",
+        "dimensionality": "30 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming (GP)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 30,
+        "mutation_rate": 0.15,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Test Accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Classification with missing data"
+      },
+      "the_database": {
+        "dataset_name": "PIMA",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "PIMA",
+        "dimensionality": "8 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming (GP)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 30,
+        "mutation_rate": 0.15,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Test Accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Military/Defense",
+        "problem_context": "Classification with missing data"
+      },
+      "the_database": {
+        "dataset_name": "Sonar",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Sonar",
+        "dimensionality": "60 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming (GP)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 30,
+        "mutation_rate": 0.15,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Test Accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Forensics/Materials",
+        "problem_context": "Classification with missing data"
+      },
+      "the_database": {
+        "dataset_name": "Glass",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Glass",
+        "dimensionality": "9 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming (GP)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 30,
+        "mutation_rate": 0.15,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "Test Accuracy",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "title": "If Unsure, Shuffle: Deductive Sort is Θ(MN3), but O(MN2) in Expectation over Input Permutations",
+    "authors": [
+      "Sumit Mishra",
+      "Maxim Buzdalov"
+    ],
+    "year": 2020,
+    "source_file": "Mishra and Buzdalov - 2020 - If unsure, shuffle deductive sort is Θ(MN3), but O(MN2) in expectation over input permutations.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Constructed worst-case input for non-dominated sorting",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "worst-case input",
+          "non-dominated sorting"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Deductive Sort"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Worst-case time complexity of Θ(MN^3)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Randomly permuted input for non-dominated sorting",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "random permutations",
+          "non-dominated sorting"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Deductive Sort with Shuffling"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Expected worst-case time complexity of O(MN^2)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,314 @@
+{
+  "metadata": {
+    "title": "Distributed Ensemble Hyper-Heuristic Algorithm for Aircraft Arrival Sequencing and Scheduling Problem",
+    "authors": [
+      "Xian-Ping Wang",
+      "Xin-Xin Xu",
+      "Yi Jiang",
+      "Sheng Bi",
+      "Yan-Chun Liang",
+      "Zhi-Hui Zhan"
+    ],
+    "year": 2024,
+    "source_file": "Wang et al. - 2024 - Distributed Ensemble Hyper-Heuristic Algorithm for Aircraft Arrival Sequencing and Scheduling Proble.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Transportation",
+        "problem_context": "Aircraft Arrival Sequencing and Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "Test Case 1 from Zhan et al. (2010)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Aircraft Arrival Sequencing and Scheduling (Case 1)",
+        "dimensionality": "30 flights"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "NP-hard",
+          "constrained",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Distributed Ensemble Hyper-Heuristic Algorithm (DEHHA)"
+      },
+      "parameters": {
+        "population_size": 8,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Total Arrival Delay (TAD) and CPU Time",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Transportation",
+        "problem_context": "Aircraft Arrival Sequencing and Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "Test Case 1 from Zhan et al. (2010)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Aircraft Arrival Sequencing and Scheduling (Case 1)",
+        "dimensionality": "30 flights"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "NP-hard",
+          "constrained",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Receding Horizon Control-based Ant Colony System (RHC-ACS-ASS)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Total Arrival Delay (TAD) and CPU Time",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Transportation",
+        "problem_context": "Aircraft Arrival Sequencing and Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "Test Case 2 from Zhan et al. (2010)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Aircraft Arrival Sequencing and Scheduling (Case 2)",
+        "dimensionality": "20 flights"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "NP-hard",
+          "constrained",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Distributed Ensemble Hyper-Heuristic Algorithm (DEHHA)"
+      },
+      "parameters": {
+        "population_size": 8,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Total Arrival Delay (TAD) and CPU Time",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Transportation",
+        "problem_context": "Aircraft Arrival Sequencing and Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "Test Case 2 from Zhan et al. (2010)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Aircraft Arrival Sequencing and Scheduling (Case 2)",
+        "dimensionality": "20 flights"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "NP-hard",
+          "constrained",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Receding Horizon Control-based Ant Colony System (RHC-ACS-ASS)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Total Arrival Delay (TAD) and CPU Time",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Transportation",
+        "problem_context": "Aircraft Arrival Sequencing and Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Aircraft Arrival Sequencing and Scheduling (30 Aircraft)",
+        "dimensionality": "30 flights"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "NP-hard",
+          "constrained",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Distributed Ensemble Hyper-Heuristic Algorithm (DEHHA)"
+      },
+      "parameters": {
+        "population_size": 8,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Total Arrival Delay (TAD)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Transportation",
+        "problem_context": "Aircraft Arrival Sequencing and Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Aircraft Arrival Sequencing and Scheduling (30 Aircraft)",
+        "dimensionality": "30 flights"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "NP-hard",
+          "constrained",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Receding Horizon Control-based Ant Colony System (RHC-ACS-ASS)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Total Arrival Delay (TAD)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Transportation",
+        "problem_context": "Aircraft Arrival Sequencing and Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Aircraft Arrival Sequencing and Scheduling (60 Aircraft)",
+        "dimensionality": "60 flights"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "NP-hard",
+          "constrained",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Distributed Ensemble Hyper-Heuristic Algorithm (DEHHA)"
+      },
+      "parameters": {
+        "population_size": 8,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Total Arrival Delay (TAD)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Transportation",
+        "problem_context": "Aircraft Arrival Sequencing and Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Aircraft Arrival Sequencing and Scheduling (60 Aircraft)",
+        "dimensionality": "60 flights"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "NP-hard",
+          "constrained",
+          "local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Receding Horizon Control-based Ant Colony System (RHC-ACS-ASS)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Total Arrival Delay (TAD)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

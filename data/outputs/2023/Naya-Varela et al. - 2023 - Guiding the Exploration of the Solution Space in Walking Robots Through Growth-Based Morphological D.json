@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "title": "Guiding the exploration of the solution space in walking robots through growth-based morphological development",
+    "authors": [
+      "Martín Naya-Varela",
+      "Andrés Faíña",
+      "Richard J. Duro"
+    ],
+    "year": 2023,
+    "source_file": "Naya-Varela et al. - 2023 - Guiding the Exploration of the Solution Space in Walking Robots Through Growth-Based Morphological D.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Quadruped robot learning to walk"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Quadruped walking",
+        "dimensionality": "8 DOF"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "local optima",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NEAT"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Straight-line distance traveled by the head of the robot in the horizontal plane",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Bipedal robot learning to walk"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Bipedal walking (NAO)",
+        "dimensionality": "14 DOF"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "local optima",
+          "rugged",
+          "needle in a haystack"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NEAT"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Straight-line distance traveled by the head of the robot in the horizontal plane",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

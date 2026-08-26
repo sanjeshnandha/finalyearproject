@@ -1,0 +1,164 @@
+{
+  "metadata": {
+    "title": "Niching-based Evolutionary Diversity Optimization for the Traveling Salesperson Problem",
+    "authors": [
+      "Anh Viet Do",
+      "Mingyu Guo",
+      "Aneta Neumann",
+      "Frank Neumann"
+    ],
+    "year": 2022,
+    "source_file": "Do et al. - 2022 - Niching-based evolutionary diversity optimization for the traveling salesperson problem.pdf",
+    "gecco_track": "Genetic Algorithms"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesperson Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "TSPLIB",
+        "dimensionality": "Variable (51 to 442 vertices)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "NP-hard",
+          "disconnected feasible regions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ED (Equalizing Edge Frequency (mu + 1)-EA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.01,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean D1 (sum-sum diversity) and D2 (sum-min diversity)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesperson Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "TSPLIB",
+        "dimensionality": "Variable (51 to 442 vertices)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "NP-hard",
+          "disconnected feasible regions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PD (Maximizing Pairwise Distances (mu + 1)-EA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.01,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean D1 (sum-sum diversity) and D2 (sum-min diversity)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesperson Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "TSPLIB",
+        "dimensionality": "Variable (51 to 442 vertices)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "NP-hard",
+          "disconnected feasible regions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NMA-ED (Niching Memetic Algorithm with Equalizing Edge Frequency)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Mean D1 (sum-sum diversity) and D2 (sum-min diversity)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Traveling Salesperson Problem"
+      },
+      "the_database": {
+        "dataset_name": "TSPLIB",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "TSPLIB",
+        "dimensionality": "Variable (51 to 442 vertices)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "NP-hard",
+          "disconnected feasible regions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NMA-PD (Niching Memetic Algorithm with Maximizing Pairwise Distances)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Mean D1 (sum-sum diversity) and D2 (sum-min diversity)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

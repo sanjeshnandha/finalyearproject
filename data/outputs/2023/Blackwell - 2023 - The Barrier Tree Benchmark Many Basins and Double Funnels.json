@@ -1,0 +1,923 @@
+{
+  "metadata": {
+    "title": "The Barrier Tree Benchmark: Many Basins and Double Funnels",
+    "authors": [
+      "Tim Blackwell"
+    ],
+    "year": 2023,
+    "source_file": "Blackwell - 2023 - The Barrier Tree Benchmark Many Basins and Double Funnels.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Barrier Tree Function F1 (fbbfbb*)",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "double funnel",
+          "many basins"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Downhill Walker (DHW)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (probability of terminating in the optimal basin)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Barrier Tree Function F1 (fbbfbb*)",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "double funnel",
+          "many basins"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Swarm Walker (SW)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 150000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (probability of terminating in the optimal basin)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Barrier Tree Function F1 (fbbfbb*)",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "double funnel",
+          "many basins"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Local Particle Swarm Optimisation (LPSO)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 150000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (probability of terminating in the optimal basin)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Barrier Tree Function F1 (fbbfbb*)",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "double funnel",
+          "many basins"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Global Particle Swarm Optimisation (GPSO)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 150000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (probability of terminating in the optimal basin)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Barrier Tree Function F1 (fbbfbb*)",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "double funnel",
+          "many basins"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Differential Evolution (DE)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 150000,
+        "mutation_rate": null,
+        "crossover_rate": 0.0
+      },
+      "performance_outcome": {
+        "metric": "Success rate (probability of terminating in the optimal basin)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Barrier Tree Function F2 (fbbf*bb*)",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "double funnel",
+          "many basins",
+          "asymmetric basin sizes"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Downhill Walker (DHW)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (probability of terminating in the optimal basin)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Barrier Tree Function F2 (fbbf*bb*)",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "double funnel",
+          "many basins",
+          "asymmetric basin sizes"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Swarm Walker (SW)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 150000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (probability of terminating in the optimal basin)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Barrier Tree Function F2 (fbbf*bb*)",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "double funnel",
+          "many basins",
+          "asymmetric basin sizes"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Local Particle Swarm Optimisation (LPSO)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 150000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (probability of terminating in the optimal basin)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Barrier Tree Function F2 (fbbf*bb*)",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "double funnel",
+          "many basins",
+          "asymmetric basin sizes"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Global Particle Swarm Optimisation (GPSO)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 150000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (probability of terminating in the optimal basin)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Barrier Tree Function F2 (fbbf*bb*)",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "double funnel",
+          "many basins",
+          "asymmetric basin sizes"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Differential Evolution (DE)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 150000,
+        "mutation_rate": null,
+        "crossover_rate": 0.0
+      },
+      "performance_outcome": {
+        "metric": "Success rate (probability of terminating in the optimal basin)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Barrier Tree Function F3 (b99b*)",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "many basins",
+          "flat funnel"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Downhill Walker (DHW)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (probability of terminating in the optimal basin)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Barrier Tree Function F3 (b99b*)",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "many basins",
+          "flat funnel"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Swarm Walker (SW)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 150000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (probability of terminating in the optimal basin)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Barrier Tree Function F3 (b99b*)",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "many basins",
+          "flat funnel"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Local Particle Swarm Optimisation (LPSO)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 150000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (probability of terminating in the optimal basin)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Barrier Tree Function F3 (b99b*)",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "many basins",
+          "flat funnel"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Global Particle Swarm Optimisation (GPSO)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 150000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (probability of terminating in the optimal basin)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Barrier Tree Function F3 (b99b*)",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "many basins",
+          "flat funnel"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Differential Evolution (DE)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 150000,
+        "mutation_rate": null,
+        "crossover_rate": 0.0
+      },
+      "performance_outcome": {
+        "metric": "Success rate (probability of terminating in the optimal basin)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Barrier Tree Function F4 (b1b2...b101)",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "many basins",
+          "structured basin depths"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Downhill Walker (DHW)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (probability of terminating in the optimal basin)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Barrier Tree Function F4 (b1b2...b101)",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "many basins",
+          "structured basin depths"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Swarm Walker (SW)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 150000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (probability of terminating in the optimal basin)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Barrier Tree Function F4 (b1b2...b101)",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "many basins",
+          "structured basin depths"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Local Particle Swarm Optimisation (LPSO)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 150000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (probability of terminating in the optimal basin)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Barrier Tree Function F4 (b1b2...b101)",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "many basins",
+          "structured basin depths"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Global Particle Swarm Optimisation (GPSO)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 150000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (probability of terminating in the optimal basin)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Barrier Tree Function F4 (b1b2...b101)",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "many basins",
+          "structured basin depths"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Differential Evolution (DE)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 150000,
+        "mutation_rate": null,
+        "crossover_rate": 0.0
+      },
+      "performance_outcome": {
+        "metric": "Success rate (probability of terminating in the optimal basin)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Barrier Tree Function F5 (fb1b2...b51fb*1b*2...b*51)",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "double funnel",
+          "many basins",
+          "structured basin depths"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Downhill Walker (DHW)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 150000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (probability of terminating in the optimal basin)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Barrier Tree Function F5 (fb1b2...b51fb*1b*2...b*51)",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "double funnel",
+          "many basins",
+          "structured basin depths"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Swarm Walker (SW)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 150000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (probability of terminating in the optimal basin)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Barrier Tree Function F5 (fb1b2...b51fb*1b*2...b*51)",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "double funnel",
+          "many basins",
+          "structured basin depths"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Local Particle Swarm Optimisation (LPSO)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 150000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (probability of terminating in the optimal basin)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Barrier Tree Function F5 (fb1b2...b51fb*1b*2...b*51)",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "double funnel",
+          "many basins",
+          "structured basin depths"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Global Particle Swarm Optimisation (GPSO)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 150000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (probability of terminating in the optimal basin)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Barrier Tree Function F5 (fb1b2...b51fb*1b*2...b*51)",
+        "dimensionality": "30D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "double funnel",
+          "many basins",
+          "structured basin depths"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Differential Evolution (DE)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 150000,
+        "mutation_rate": null,
+        "crossover_rate": 0.0
+      },
+      "performance_outcome": {
+        "metric": "Success rate (probability of terminating in the optimal basin)",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,571 @@
+{
+  "metadata": {
+    "title": "LUCIE: An Evaluation and Selection Method for Stochastic Problems",
+    "authors": [
+      "Erwan Lecarpentier",
+      "Paul Templier",
+      "Emmanuel Rachelson",
+      "Dennis G. Wilson"
+    ],
+    "year": 2022,
+    "source_file": "Lecarpentier et al. - 2022 - LUCIE an evaluation and selection method for stochastic problems.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "OneMax",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "noisy",
+          "stochastic",
+          "posterior noise"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LUCIE"
+      },
+      "parameters": {
+        "population_size": 24,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.1,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Final validation fitness",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "OneMax",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "noisy",
+          "stochastic",
+          "posterior noise"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(mu + lambda) EA"
+      },
+      "parameters": {
+        "population_size": 24,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.1,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Final validation fitness",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "OneMax",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "noisy",
+          "stochastic",
+          "posterior noise"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Resampling EA"
+      },
+      "parameters": {
+        "population_size": 24,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.1,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Final validation fitness",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "LeadingOnes",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "stochastic",
+          "posterior noise"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LUCIE"
+      },
+      "parameters": {
+        "population_size": 24,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.1,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Final validation fitness",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "LeadingOnes",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "stochastic",
+          "posterior noise"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(mu + lambda) EA"
+      },
+      "parameters": {
+        "population_size": 24,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.1,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Final validation fitness",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "LeadingOnes",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "stochastic",
+          "posterior noise"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Resampling EA"
+      },
+      "parameters": {
+        "population_size": 24,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.1,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Final validation fitness",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "CartPole balancing control policy"
+      },
+      "the_database": {
+        "dataset_name": "OpenAI Gym",
+        "source_platform": "OpenAI Gym"
+      },
+      "the_benchmark_problem": {
+        "name": "CartPole",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "stochastic",
+          "posterior noise"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LUCIE"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Final validation fitness",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "CartPole balancing control policy"
+      },
+      "the_database": {
+        "dataset_name": "OpenAI Gym",
+        "source_platform": "OpenAI Gym"
+      },
+      "the_benchmark_problem": {
+        "name": "CartPole",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "stochastic",
+          "posterior noise"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(mu + lambda) EA"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Final validation fitness",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "CartPole balancing control policy"
+      },
+      "the_database": {
+        "dataset_name": "OpenAI Gym",
+        "source_platform": "OpenAI Gym"
+      },
+      "the_benchmark_problem": {
+        "name": "CartPole",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "stochastic",
+          "posterior noise"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Resampling EA"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Final validation fitness",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Acrobot swing-up control policy"
+      },
+      "the_database": {
+        "dataset_name": "OpenAI Gym",
+        "source_platform": "OpenAI Gym"
+      },
+      "the_benchmark_problem": {
+        "name": "Acrobot",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "stochastic",
+          "posterior noise"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LUCIE"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Final validation fitness",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Acrobot swing-up control policy"
+      },
+      "the_database": {
+        "dataset_name": "OpenAI Gym",
+        "source_platform": "OpenAI Gym"
+      },
+      "the_benchmark_problem": {
+        "name": "Acrobot",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "stochastic",
+          "posterior noise"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(mu + lambda) EA"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Final validation fitness",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Acrobot swing-up control policy"
+      },
+      "the_database": {
+        "dataset_name": "OpenAI Gym",
+        "source_platform": "OpenAI Gym"
+      },
+      "the_benchmark_problem": {
+        "name": "Acrobot",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "stochastic",
+          "posterior noise"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Resampling EA"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Final validation fitness",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Inverted Pendulum cart balancing control policy"
+      },
+      "the_database": {
+        "dataset_name": "OpenAI Gym",
+        "source_platform": "OpenAI Gym"
+      },
+      "the_benchmark_problem": {
+        "name": "Pendulum",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "stochastic",
+          "posterior noise"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LUCIE"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Final validation fitness",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Inverted Pendulum cart balancing control policy"
+      },
+      "the_database": {
+        "dataset_name": "OpenAI Gym",
+        "source_platform": "OpenAI Gym"
+      },
+      "the_benchmark_problem": {
+        "name": "Pendulum",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "stochastic",
+          "posterior noise"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "(mu + lambda) EA"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Final validation fitness",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Inverted Pendulum cart balancing control policy"
+      },
+      "the_database": {
+        "dataset_name": "OpenAI Gym",
+        "source_platform": "OpenAI Gym"
+      },
+      "the_benchmark_problem": {
+        "name": "Pendulum",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "stochastic",
+          "posterior noise"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Resampling EA"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Final validation fitness",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

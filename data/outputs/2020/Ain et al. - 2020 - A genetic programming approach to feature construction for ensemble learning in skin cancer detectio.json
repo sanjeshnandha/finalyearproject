@@ -1,0 +1,346 @@
+{
+  "metadata": {
+    "title": "A Genetic Programming Approach to Feature Construction for Ensemble Learning in Skin Cancer Detection",
+    "authors": [
+      "Qurrat Ul Ain",
+      "Harith Al-Sahaf",
+      "Bing Xue",
+      "Mengjie Zhang"
+    ],
+    "year": 2020,
+    "source_file": "Ain et al. - 2020 - A genetic programming approach to feature construction for ensemble learning in skin cancer detectio.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Skin cancer detection"
+      },
+      "the_database": {
+        "dataset_name": "PH2",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "PH2 (Binary)",
+        "dimensionality": "675 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MFCEC"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.19,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced Accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Skin cancer detection"
+      },
+      "the_database": {
+        "dataset_name": "Dermofit Image Library",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Dermofit (Binary)",
+        "dimensionality": "675 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MFCEC"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.19,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced Accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Skin cancer detection"
+      },
+      "the_database": {
+        "dataset_name": "PH2",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "PH2 (Multi-class)",
+        "dimensionality": "675 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MFCEC"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.19,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced Accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Skin cancer detection"
+      },
+      "the_database": {
+        "dataset_name": "Dermofit Image Library",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Dermofit (Multi-class)",
+        "dimensionality": "675 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MFCEC"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.19,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced Accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Skin cancer detection"
+      },
+      "the_database": {
+        "dataset_name": "PH2",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "PH2 (Binary)",
+        "dimensionality": "675 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Embedded-GP"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.19,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced Accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Skin cancer detection"
+      },
+      "the_database": {
+        "dataset_name": "Dermofit Image Library",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Dermofit (Binary)",
+        "dimensionality": "675 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Embedded-GP"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.19,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced Accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Skin cancer detection"
+      },
+      "the_database": {
+        "dataset_name": "PH2",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "PH2 (Binary)",
+        "dimensionality": "675 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Wrapper-GP"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.19,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced Accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Skin cancer detection"
+      },
+      "the_database": {
+        "dataset_name": "Dermofit Image Library",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Dermofit (Binary)",
+        "dimensionality": "675 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Wrapper-GP"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.19,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced Accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Skin cancer detection"
+      },
+      "the_database": {
+        "dataset_name": "PH2",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "PH2 (Multi-class)",
+        "dimensionality": "675 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Wrapper-GP"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.19,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced Accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Skin cancer detection"
+      },
+      "the_database": {
+        "dataset_name": "Dermofit Image Library",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Dermofit (Multi-class)",
+        "dimensionality": "675 features"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Wrapper-GP"
+      },
+      "parameters": {
+        "population_size": 1024,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.19,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Balanced Accuracy",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

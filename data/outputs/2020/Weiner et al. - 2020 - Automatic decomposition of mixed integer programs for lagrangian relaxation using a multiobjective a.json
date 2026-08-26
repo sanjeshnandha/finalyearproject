@@ -1,0 +1,304 @@
+{
+  "metadata": {
+    "title": "Automatic Decomposition of Mixed Integer Programs for Lagrangian Relaxation Using a Multiobjective Approach",
+    "authors": [
+      "Jake Weiner",
+      "Andreas Ernst",
+      "Xiaodong Li",
+      "Yuan Sun"
+    ],
+    "year": 2020,
+    "source_file": "Weiner et al. - 2020 - Automatic decomposition of mixed integer programs for lagrangian relaxation using a multiobjective a.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Decomposing Mixed Integer Programs for Lagrangian Relaxation"
+      },
+      "the_database": {
+        "dataset_name": "MIPLIB 2017",
+        "source_platform": "MIPLIB Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "MIPLIB 2017 - neos-848589",
+        "dimensionality": "550539 variables"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "mixed-integer constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 30,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.95
+      },
+      "performance_outcome": {
+        "metric": "Optimization gap of 85.44%",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Decomposing Mixed Integer Programs for Lagrangian Relaxation"
+      },
+      "the_database": {
+        "dataset_name": "MIPLIB 2017",
+        "source_platform": "MIPLIB Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "MIPLIB 2017 - s100",
+        "dimensionality": "364417 variables"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "mixed-integer constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 30,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.95
+      },
+      "performance_outcome": {
+        "metric": "Optimization gap of 4790.60%",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Decomposing Mixed Integer Programs for Lagrangian Relaxation"
+      },
+      "the_database": {
+        "dataset_name": "MIPLIB 2017",
+        "source_platform": "MIPLIB Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "MIPLIB 2017 - s250r10",
+        "dimensionality": "273142 variables"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "mixed-integer constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 30,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.95
+      },
+      "performance_outcome": {
+        "metric": "Optimization gap of 1839.05%",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Decomposing Mixed Integer Programs for Lagrangian Relaxation"
+      },
+      "the_database": {
+        "dataset_name": "MIPLIB 2017",
+        "source_platform": "MIPLIB Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "MIPLIB 2017 - rail02",
+        "dimensionality": "270869 variables"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "mixed-integer constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 30,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.95
+      },
+      "performance_outcome": {
+        "metric": "Optimization gap of 116.05%",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Decomposing Mixed Integer Programs for Lagrangian Relaxation"
+      },
+      "the_database": {
+        "dataset_name": "MIPLIB 2017",
+        "source_platform": "MIPLIB Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "MIPLIB 2017 - proteindesign121hz512p9",
+        "dimensionality": "159145 variables"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "mixed-integer constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 30,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.95
+      },
+      "performance_outcome": {
+        "metric": "Optimization gap of 23.83%",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Decomposing Mixed Integer Programs for Lagrangian Relaxation"
+      },
+      "the_database": {
+        "dataset_name": "MIPLIB 2017",
+        "source_platform": "MIPLIB Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "MIPLIB 2017 - bab6",
+        "dimensionality": "114240 variables"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "mixed-integer constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 30,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.95
+      },
+      "performance_outcome": {
+        "metric": "Optimization gap of 193.36%",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Decomposing Mixed Integer Programs for Lagrangian Relaxation"
+      },
+      "the_database": {
+        "dataset_name": "MIPLIB 2017",
+        "source_platform": "MIPLIB Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "MIPLIB 2017 - thor50dday",
+        "dimensionality": "106261 variables"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "mixed-integer constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 30,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.95
+      },
+      "performance_outcome": {
+        "metric": "Optimization gap of 100.00%",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Decomposing Mixed Integer Programs for Lagrangian Relaxation"
+      },
+      "the_database": {
+        "dataset_name": "MIPLIB 2017",
+        "source_platform": "MIPLIB Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "MIPLIB 2017 - neos-787933",
+        "dimensionality": "236376 variables"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "mixed-integer constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 30,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.95
+      },
+      "performance_outcome": {
+        "metric": "Optimization gap of 76.67%",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "metadata": {
+    "title": "Revisiting Evolutionary Algorithms for Optimization for Deep Learning: Introducing DL-HEA",
+    "authors": [
+      "Toki Tahmid Inan",
+      "Amarda Shehu"
+    ],
+    "year": 2024,
+    "source_file": "Inan and Shehu - 2024 - Revisiting Evolutionary Algorithms for Optimization for Deep Learning Introducing DL-HEA EAs for O.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Image Classification using two-layer CNN"
+      },
+      "the_database": {
+        "dataset_name": "MNIST",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MNIST Image Classification (two-layer CNN)",
+        "dimensionality": "3244"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "rich in local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DL-EA"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 20,
+        "mutation_rate": 0.3,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Categorical cross-entropy loss and testing accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Image Classification using ResNet18"
+      },
+      "the_database": {
+        "dataset_name": "CIFAR10",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CIFAR10 Image Classification (ResNet18)",
+        "dimensionality": "270000"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "rich in local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DL-EA"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.3,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Categorical cross-entropy loss and testing accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Image Classification using ResNet32"
+      },
+      "the_database": {
+        "dataset_name": "CIFAR10",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CIFAR10 Image Classification (ResNet32)",
+        "dimensionality": "1200000"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "rich in local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DL-EA"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 120,
+        "mutation_rate": 0.3,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Categorical cross-entropy loss and testing accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Image Classification using two-layer CNN"
+      },
+      "the_database": {
+        "dataset_name": "MNIST",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MNIST Image Classification (two-layer CNN)",
+        "dimensionality": "3244"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "rich in local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DL-HEA"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 20,
+        "mutation_rate": 0.3,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Categorical cross-entropy loss and testing accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Image Classification using ResNet18"
+      },
+      "the_database": {
+        "dataset_name": "CIFAR10",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CIFAR10 Image Classification (ResNet18)",
+        "dimensionality": "270000"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "rich in local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DL-HEA"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.3,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Categorical cross-entropy loss and testing accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Image Classification using ResNet32"
+      },
+      "the_database": {
+        "dataset_name": "CIFAR10",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CIFAR10 Image Classification (ResNet32)",
+        "dimensionality": "1200000"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "rich in local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DL-HEA"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 120,
+        "mutation_rate": 0.3,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Categorical cross-entropy loss and testing accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Image Classification using two-layer CNN"
+      },
+      "the_database": {
+        "dataset_name": "MNIST",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MNIST Image Classification (two-layer CNN)",
+        "dimensionality": "3244"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "rich in local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DL-HEA*"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 20,
+        "mutation_rate": 0.3,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Categorical cross-entropy loss and testing accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Image Classification using ResNet18"
+      },
+      "the_database": {
+        "dataset_name": "CIFAR10",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CIFAR10 Image Classification (ResNet18)",
+        "dimensionality": "270000"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "rich in local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DL-HEA*"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": 0.3,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Categorical cross-entropy loss and testing accuracy",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Image Classification using ResNet32"
+      },
+      "the_database": {
+        "dataset_name": "CIFAR10",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CIFAR10 Image Classification (ResNet32)",
+        "dimensionality": "1200000"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "rich in local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DL-HEA*"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 120,
+        "mutation_rate": 0.3,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Categorical cross-entropy loss and testing accuracy",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

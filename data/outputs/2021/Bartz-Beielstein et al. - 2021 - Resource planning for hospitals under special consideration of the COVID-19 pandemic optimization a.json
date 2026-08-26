@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "title": "Resource Planning for Hospitals Under Special Consideration of the COVID-19 Pandemic: Optimization and Sensitivity Analysis",
+    "authors": [
+      "T. Bartz-Beielstein",
+      "M. Dr&ouml;scher",
+      "A. G&uuml;r",
+      "A. Hinterleitner",
+      "O. Mersmann",
+      "D. Peeva",
+      "L. Reese",
+      "N. Rehbach",
+      "F. Rehbach",
+      "A. Sen",
+      "A. Subbotin",
+      "M. Zaefferer"
+    ],
+    "year": 2021,
+    "source_file": "Bartz-Beielstein et al. - 2021 - Resource planning for hospitals under special consideration of the COVID-19 pandemic optimization a.pdf",
+    "gecco_track": "GECCO '21 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Hospital resource planning under COVID-19"
+      },
+      "the_database": {
+        "dataset_name": "RKI and DIVI COVID-19 data",
+        "source_platform": "Robert Koch Institute and DIVI"
+      },
+      "the_benchmark_problem": {
+        "name": "BaBSim.Hospital simulation parameter tuning",
+        "dimensionality": "29D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "high-dimensional",
+          "dynamic",
+          "expensive"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SPOT-Direct"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Weighted Root Mean Squared Error (RMSE)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

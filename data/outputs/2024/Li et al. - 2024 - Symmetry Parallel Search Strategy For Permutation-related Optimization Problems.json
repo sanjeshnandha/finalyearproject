@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "title": "Symmetry Parallel Search Strategy for Permutation-related Optimization Problems",
+    "authors": [
+      "Tianyang Li",
+      "Ying Meng",
+      "Lixin Tang"
+    ],
+    "year": 2024,
+    "source_file": "Li et al. - 2024 - Symmetry Parallel Search Strategy For Permutation-related Optimization Problems.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "QAP test suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Quadratic Assignment Problem",
+        "dimensionality": "N = 35 to 256"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "discrete search spaces",
+          "symmetric properties"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "g-TS-P"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean and standard deviation of the objective value",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "QAP test suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Quadratic Assignment Problem",
+        "dimensionality": "N = 35 to 256"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "discrete search spaces",
+          "symmetric properties"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "g-SA-P"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean and standard deviation of the objective value",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "QAP test suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Quadratic Assignment Problem",
+        "dimensionality": "N = 35 to 256"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "discrete search spaces",
+          "symmetric properties"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TS-P"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean and standard deviation of the objective value",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": "QAP test suite",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Quadratic Assignment Problem",
+        "dimensionality": "N = 35 to 256"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "discrete search spaces",
+          "symmetric properties"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SA-P"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean and standard deviation of the objective value",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

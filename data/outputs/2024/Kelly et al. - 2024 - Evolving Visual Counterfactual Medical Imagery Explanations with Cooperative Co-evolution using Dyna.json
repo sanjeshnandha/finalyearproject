@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "title": "Evolving Visual Counterfactual Medical Imagery Explanations with Cooperative Co-evolution using Dynamic Decomposition",
+    "authors": [
+      "Luke Kelly",
+      "Martin Masek",
+      "Chiou Peng Lam",
+      "Brandon Abela",
+      "Ashu Gupta"
+    ],
+    "year": 2024,
+    "source_file": "Kelly et al. - 2024 - Evolving Visual Counterfactual Medical Imagery Explanations with Cooperative Co-evolution using Dyna.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Generating counterfactual explanations for MNIST digits"
+      },
+      "the_database": {
+        "dataset_name": "MNIST",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MNIST '7 to 9' classification",
+        "dimensionality": "28x28"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Mtree-CCEA"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Best fitness score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Generating counterfactual explanations for MNIST digits"
+      },
+      "the_database": {
+        "dataset_name": "MNIST",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MNIST '7 to 9' classification",
+        "dimensionality": "28x28"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (GA)"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Best fitness score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Generating counterfactual explanations for Diabetic Foot Osteomyelitis (DFO) detection"
+      },
+      "the_database": {
+        "dataset_name": "Diabetic Foot Osteomyelitis (DFO) dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DFO 'Negative to Positive' classification",
+        "dimensionality": "224x224"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Mtree-CCEA"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Best fitness score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Generating counterfactual explanations for Diabetic Foot Osteomyelitis (DFO) detection"
+      },
+      "the_database": {
+        "dataset_name": "Diabetic Foot Osteomyelitis (DFO) dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DFO 'Negative to Positive' classification",
+        "dimensionality": "224x224"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (GA)"
+      },
+      "parameters": {
+        "population_size": 512,
+        "max_evaluations_or_generations": 150,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Best fitness score",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

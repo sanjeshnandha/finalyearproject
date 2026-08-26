@@ -1,0 +1,129 @@
+{
+  "metadata": {
+    "title": "In Search of the Ingredients of Open-Endedness: Replicating Picbreeder with Large Vision-Language Models",
+    "authors": [
+      "Sam Earle",
+      "Kai Arulkumaran",
+      "Andrew Dai",
+      "Akarsh Kumar",
+      "Julian Togelius",
+      "Sebastian Risi"
+    ],
+    "year": 2026,
+    "source_file": "Earle et al. - 2026 - In Search of the Ingredients of Open-Endedness Replicating Picbreeder with Large Vision-Language Mo.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating open-endedness in interactive evolutionary art generation"
+      },
+      "the_database": {
+        "dataset_name": "THINGS dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Picbreeder",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "open-ended",
+          "no explicit objective",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "VLM-driven NEAT (Gemini 2.5 Pro)"
+      },
+      "parameters": {
+        "population_size": 15,
+        "max_evaluations_or_generations": 20,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Semantic Recall: 0.087, Visual Coverage: 0.614, Semantic Coverage: 0.696, Tree Balance: 0.235",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating open-endedness in interactive evolutionary art generation"
+      },
+      "the_database": {
+        "dataset_name": "THINGS dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Picbreeder",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "open-ended",
+          "no explicit objective",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Human-driven NEAT"
+      },
+      "parameters": {
+        "population_size": 15,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Semantic Recall: 0.089, Visual Coverage: 0.681, Semantic Coverage: 0.730, Tree Balance: 0.363",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating open-endedness in interactive evolutionary art generation"
+      },
+      "the_database": {
+        "dataset_name": "THINGS dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Picbreeder",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "open-ended",
+          "no explicit objective",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Random-driven NEAT"
+      },
+      "parameters": {
+        "population_size": 15,
+        "max_evaluations_or_generations": 20,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Semantic Recall: 0.080, Visual Coverage: 0.612, Semantic Coverage: 0.692, Tree Balance: 0.540",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

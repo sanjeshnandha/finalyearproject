@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "title": "Evolutionary Discovery of Reinforcement Learning Algorithms via Large Language Models",
+    "authors": [
+      "Alkis Sygkounas",
+      "Amy Loutfi",
+      "Andreas Persson"
+    ],
+    "year": 2026,
+    "source_file": "Sygkounas et al. - 2026 - Evolutionary Discovery of Reinforcement Learning Algorithms via Large Language Models.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Reinforcement learning algorithm discovery"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Gymnasium Suite (CartPole-v1, MountainCar-v0, Acrobot-v1, LunarLander-v3, HalfCheetah-v5)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete program structures",
+          "highly sensitive to implementation details",
+          "non-smooth"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "REvolve (GPT-5.2)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10,
+        "mutation_rate": 0.65,
+        "crossover_rate": 0.35
+      },
+      "performance_outcome": {
+        "metric": "Mean normalized fitness",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Reinforcement learning algorithm discovery"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Gymnasium Suite (CartPole-v1, MountainCar-v0, Acrobot-v1, LunarLander-v3, HalfCheetah-v5)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete program structures",
+          "highly sensitive to implementation details",
+          "non-smooth"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "REvolve (Claude 4.5 Opus)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10,
+        "mutation_rate": 0.65,
+        "crossover_rate": 0.35
+      },
+      "performance_outcome": {
+        "metric": "Mean normalized fitness",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

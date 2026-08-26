@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "title": "Impact of NSGA-II Objectives on EEG Feature Selection Related to Motor Imagery",
+    "authors": [
+      "Miguel Leon",
+      "Christoffer Parkkila",
+      "Jonatan Tidare",
+      "Ning Xiong",
+      "Elaine Astrand"
+    ],
+    "year": 2020,
+    "source_file": "Leon et al. - 2020 - Impact of NSGA-II objectives on EEG feature selection related to motor imagery.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "EEG Feature Selection Related to Motor Imagery"
+      },
+      "the_database": {
+        "dataset_name": "Custom EEG dataset from Tidare et al. 2019",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "EEG Feature Selection",
+        "dimensionality": "42 channels"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Hierarchical NSGA-II"
+      },
+      "parameters": {
+        "population_size": 15,
+        "max_evaluations_or_generations": 3000,
+        "mutation_rate": null,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Classification Accuracy and Feature Reduction",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

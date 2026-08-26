@@ -1,0 +1,555 @@
+{
+  "metadata": {
+    "title": "Fuzzy-UCS Revisited: Self-Adaptation of Rule Representations in Michigan-Style Learning Fuzzy-Classifier Systems",
+    "authors": [
+      "Hiroki Shiraishi",
+      "Yohei Hayamizu",
+      "Tomonori Hashiyama"
+    ],
+    "year": 2023,
+    "source_file": "Shiraishi et al. - 2023 - Fuzzy-UCS Revisited Self-Adaptation of Rule Representations in Michigan-Style Learning Fuzzy-Classi.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Checkerboard Problem",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "rectangular class boundaries"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Adaptive-UCS"
+      },
+      "parameters": {
+        "population_size": 6400,
+        "max_evaluations_or_generations": 200000,
+        "mutation_rate": 0.04,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average overall classification accuracy: 97.08%, Average convergence classification accuracy: 98.34%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Checkerboard Problem",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "rectangular class boundaries"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fuzzy-UCS"
+      },
+      "parameters": {
+        "population_size": 6400,
+        "max_evaluations_or_generations": 200000,
+        "mutation_rate": 0.04,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average overall classification accuracy: 96.56%, Average convergence classification accuracy: 98.24%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Checkerboard Problem",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "rectangular class boundaries"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "UCS"
+      },
+      "parameters": {
+        "population_size": 6400,
+        "max_evaluations_or_generations": 200000,
+        "mutation_rate": 0.04,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average overall classification accuracy: 96.48%, Average convergence classification accuracy: 98.15%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rotated Checkerboard Problem",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "diagonal class boundaries",
+          "rotated"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Adaptive-UCS"
+      },
+      "parameters": {
+        "population_size": 6400,
+        "max_evaluations_or_generations": 200000,
+        "mutation_rate": 0.04,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average overall classification accuracy: 94.32%, Average convergence classification accuracy: 95.77%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rotated Checkerboard Problem",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "diagonal class boundaries",
+          "rotated"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fuzzy-UCS"
+      },
+      "parameters": {
+        "population_size": 6400,
+        "max_evaluations_or_generations": 200000,
+        "mutation_rate": 0.04,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average overall classification accuracy: 92.42%, Average convergence classification accuracy: 93.93%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rotated Checkerboard Problem",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "diagonal class boundaries",
+          "rotated"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "UCS"
+      },
+      "parameters": {
+        "population_size": 6400,
+        "max_evaluations_or_generations": 200000,
+        "mutation_rate": 0.04,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average overall classification accuracy: 92.63%, Average convergence classification accuracy: 94.36%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Noisy Checkerboard Problem",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy inputs",
+          "uncertainty",
+          "Gaussian noise"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Adaptive-UCS"
+      },
+      "parameters": {
+        "population_size": 6400,
+        "max_evaluations_or_generations": 200000,
+        "mutation_rate": 0.04,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average overall classification accuracy: 93.23%, Average convergence classification accuracy: 94.41%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Noisy Checkerboard Problem",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy inputs",
+          "uncertainty",
+          "Gaussian noise"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fuzzy-UCS"
+      },
+      "parameters": {
+        "population_size": 6400,
+        "max_evaluations_or_generations": 200000,
+        "mutation_rate": 0.04,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average overall classification accuracy: 92.76%, Average convergence classification accuracy: 93.79%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Noisy Checkerboard Problem",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy inputs",
+          "uncertainty",
+          "Gaussian noise"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "UCS"
+      },
+      "parameters": {
+        "population_size": 6400,
+        "max_evaluations_or_generations": 200000,
+        "mutation_rate": 0.04,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average overall classification accuracy: 90.27%, Average convergence classification accuracy: 92.66%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Forecasting the onset of diabetes mellitus"
+      },
+      "the_database": {
+        "dataset_name": "Diabetes",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Diabetes",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "real-world dataset",
+          "classification"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Adaptive-UCS"
+      },
+      "parameters": {
+        "population_size": 6400,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.04,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average test classification accuracy: 74.47%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Forecasting the onset of diabetes mellitus"
+      },
+      "the_database": {
+        "dataset_name": "Diabetes",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Diabetes",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "real-world dataset",
+          "classification"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fuzzy-UCS"
+      },
+      "parameters": {
+        "population_size": 6400,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.04,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average test classification accuracy: 72.54%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Forecasting the onset of diabetes mellitus"
+      },
+      "the_database": {
+        "dataset_name": "Diabetes",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Diabetes",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "real-world dataset",
+          "classification"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "UCS"
+      },
+      "parameters": {
+        "population_size": 6400,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.04,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average test classification accuracy: 72.06%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Classification of iris plant species"
+      },
+      "the_database": {
+        "dataset_name": "Iris",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Iris",
+        "dimensionality": "4D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "real-world dataset",
+          "classification"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Adaptive-UCS"
+      },
+      "parameters": {
+        "population_size": 6400,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.04,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average test classification accuracy: 95.33%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Classification of iris plant species"
+      },
+      "the_database": {
+        "dataset_name": "Iris",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Iris",
+        "dimensionality": "4D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "real-world dataset",
+          "classification"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fuzzy-UCS"
+      },
+      "parameters": {
+        "population_size": 6400,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.04,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average test classification accuracy: 90.22%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Classification of iris plant species"
+      },
+      "the_database": {
+        "dataset_name": "Iris",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Iris",
+        "dimensionality": "4D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "real-world dataset",
+          "classification"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "UCS"
+      },
+      "parameters": {
+        "population_size": 6400,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.04,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Average test classification accuracy: 86.44%",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "metadata": {
+    "title": "Evolving Macro-Actions for Monte Carlo Tree Search in Real-Time Domains",
+    "authors": [
+      "Andrew Gourley",
+      "Michael Dann",
+      "Xiaodong Li",
+      "Fabio Zambetta"
+    ],
+    "year": 2026,
+    "source_file": "Gourley et al. - 2026 - Evolving Macro-Actions for Monte Carlo Tree Search in Real-Time Domains.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment / Video Games",
+        "problem_context": "Optimizing macro-action sets for Monte Carlo Tree Search (MCTS) agents in real-time Atari games"
+      },
+      "the_database": {
+        "dataset_name": "Arcade Learning Environment (ALE)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Enduro (Atari 2600)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "stochastic",
+          "expensive evaluations",
+          "discrete action space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Custom Evolutionary Algorithm for Macro-Action Optimisation"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": 0.3
+      },
+      "performance_outcome": {
+        "metric": "Average score (Mean: 767.25, SD: 104.7)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment / Video Games",
+        "problem_context": "Optimizing macro-action sets for Monte Carlo Tree Search (MCTS) agents in real-time Atari games"
+      },
+      "the_database": {
+        "dataset_name": "Arcade Learning Environment (ALE)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Asteroids (Atari 2600)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "stochastic",
+          "expensive evaluations",
+          "discrete action space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Custom Evolutionary Algorithm for Macro-Action Optimisation"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": 0.3
+      },
+      "performance_outcome": {
+        "metric": "Average score (Mean: 25616.0, SD: 21093.1)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment / Video Games",
+        "problem_context": "Optimizing macro-action sets for Monte Carlo Tree Search (MCTS) agents in real-time Atari games"
+      },
+      "the_database": {
+        "dataset_name": "Arcade Learning Environment (ALE)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Pong (Atari 2600)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "stochastic",
+          "expensive evaluations",
+          "discrete action space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Custom Evolutionary Algorithm for Macro-Action Optimisation"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": 0.3
+      },
+      "performance_outcome": {
+        "metric": "Average score (Mean: 19.75, SD: 1.2)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Entertainment / Video Games",
+        "problem_context": "Optimizing macro-action sets for Monte Carlo Tree Search (MCTS) agents in real-time Atari games"
+      },
+      "the_database": {
+        "dataset_name": "Arcade Learning Environment (ALE)",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Venture (Atari 2600)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "stochastic",
+          "expensive evaluations",
+          "discrete action space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Custom Evolutionary Algorithm for Macro-Action Optimisation"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": 0.3
+      },
+      "performance_outcome": {
+        "metric": "Average score (Mean: 0.0, SD: 0.0)",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

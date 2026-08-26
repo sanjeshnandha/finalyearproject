@@ -1,0 +1,237 @@
+{
+  "metadata": {
+    "title": "A Memetic Level-based Learning Swarm Optimizer for Large-scale Water Distribution Network Optimization",
+    "authors": [
+      "Ya-Hui Jia",
+      "Yi Mei",
+      "Mengjie Zhang"
+    ],
+    "year": 2020,
+    "source_file": "Jia et al. - 2020 - A memetic level-based learning swarm optimizer for large-scale water distribution network optimizati.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Water Distribution Network Optimization"
+      },
+      "the_database": {
+        "dataset_name": "Balerma and Synthetic WDNs",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Water Distribution Network Optimization (SN200, SN300, SN400, SN500, MN200, MN300, MN400, MN500, Balerma)",
+        "dimensionality": "Variable (226 to 546 pipes)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "discrete space",
+          "many local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LLSORL-L (Level-based Learning Swarm Optimizer with Local Restart and Local Search)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean construction cost (fitness value)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Water Distribution Network Optimization"
+      },
+      "the_database": {
+        "dataset_name": "Balerma and Synthetic WDNs",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Water Distribution Network Optimization (SN200, SN300, SN400, SN500, MN200, MN300, MN400, MN500, Balerma)",
+        "dimensionality": "Variable (226 to 546 pipes)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "discrete space",
+          "many local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LLSORL-G (Level-based Learning Swarm Optimizer with Global Restart and Local Search)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean construction cost (fitness value)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Water Distribution Network Optimization"
+      },
+      "the_database": {
+        "dataset_name": "Balerma and Synthetic WDNs",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Water Distribution Network Optimization (SN200, SN300, SN400, SN500, MN200, MN300, MN400, MN500, Balerma)",
+        "dimensionality": "Variable (226 to 546 pipes)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "discrete space",
+          "many local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LLSO (Level-based Learning Swarm Optimizer)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean construction cost (fitness value)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Water Distribution Network Optimization"
+      },
+      "the_database": {
+        "dataset_name": "Balerma and Synthetic WDNs",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Water Distribution Network Optimization (SN200, SN300, SN400, SN500, MN200, MN300, MN400, MN500, Balerma)",
+        "dimensionality": "Variable (226 to 546 pipes)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "discrete space",
+          "many local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SADE (Self-adaptive Differential Evolution)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean construction cost (fitness value)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Water Distribution Network Optimization"
+      },
+      "the_database": {
+        "dataset_name": "Balerma and Synthetic WDNs",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Water Distribution Network Optimization (SN200, SN300, SN400, SN500, MN200, MN300, MN400, MN500, Balerma)",
+        "dimensionality": "Variable (226 to 546 pipes)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "discrete space",
+          "many local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SFLA (Shuffled Frog Leaping Algorithm)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean construction cost (fitness value)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Water Distribution Network Optimization"
+      },
+      "the_database": {
+        "dataset_name": "Balerma and Synthetic WDNs",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Water Distribution Network Optimization (SN200, SN300, SN400, SN500, MN200, MN300, MN400, MN500, Balerma)",
+        "dimensionality": "Variable (226 to 546 pipes)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "discrete space",
+          "many local optima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "WDNCC (Water Distribution Network Cooperative Co-evolution)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean construction cost (fitness value)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

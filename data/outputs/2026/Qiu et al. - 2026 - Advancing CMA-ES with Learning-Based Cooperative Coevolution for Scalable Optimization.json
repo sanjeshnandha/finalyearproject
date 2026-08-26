@@ -1,0 +1,238 @@
+{
+  "metadata": {
+    "title": "Advancing CMA-ES with Learning-Based Cooperative Coevolution for Scalable Optimization",
+    "authors": [
+      "Wenjie Qiu",
+      "Hao Guo",
+      "Zeyuan Ma",
+      "Yue-Jiao Gong"
+    ],
+    "year": 2026,
+    "source_file": "Qiu et al. - 2026 - Advancing CMA-ES with Learning-Based Cooperative Coevolution for Scalable Optimization.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CEC 2013 LSGO",
+        "dimensionality": "1000D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "fully-separable",
+          "partially additively separable",
+          "overlapping",
+          "non-separable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LCC-CMAES"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 200000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean optimization results (fitness)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CEC 2013 LSGO",
+        "dimensionality": "1000D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "fully-separable",
+          "partially additively separable",
+          "overlapping",
+          "non-separable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CC-CMAES"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 200000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean optimization results (fitness)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BNS",
+        "dimensionality": "1000D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-additively separable",
+          "multiplicatively separable",
+          "composite separable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LCC-CMAES"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 200000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean optimization results (fitness)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BNS",
+        "dimensionality": "1000D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-additively separable",
+          "multiplicatively separable",
+          "composite separable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CC-CMAES"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 200000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean optimization results (fitness)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Evolving neural networks for robot control (Mujoco)"
+      },
+      "the_database": {
+        "dataset_name": "Mujoco",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Mujoco Robot Control (InvertedDoublePendulum-v4, HalfCheetah-v4, Pusher-v4, Ant-v4)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "neuroevolution",
+          "robot control"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LCC-CMAES"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Negative accumulated rewards",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Evolving neural networks for robot control (Mujoco)"
+      },
+      "the_database": {
+        "dataset_name": "Mujoco",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Mujoco Robot Control (InvertedDoublePendulum-v4, HalfCheetah-v4, Pusher-v4, Ant-v4)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "neuroevolution",
+          "robot control"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CC-CMAES"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Negative accumulated rewards",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

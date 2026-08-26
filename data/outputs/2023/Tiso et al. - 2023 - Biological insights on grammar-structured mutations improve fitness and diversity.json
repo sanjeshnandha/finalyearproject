@@ -1,0 +1,164 @@
+{
+  "metadata": {
+    "title": "Biological insights on grammar-structured mutations improve fitness and diversity",
+    "authors": [
+      "Stefano Tiso",
+      "Pedro Carvalho",
+      "Nuno Lourenco",
+      "Penousal Machado"
+    ],
+    "year": 2023,
+    "source_file": "Tiso et al. - 2023 - Biological insights on grammar-structured mutations improve fitness and diversity.pdf",
+    "gecco_track": "Genetic Programming"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Science / Machine Learning",
+        "problem_context": "Evolving neural network optimizers for image classification"
+      },
+      "the_database": {
+        "dataset_name": "Fashion-MNIST",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "AutoLR Optimizer Evolution",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "poor locality",
+          "rugged",
+          "fragile"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammar-Guided Genetic Programming with Facilitated Mutation and Crossover (FMX)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": 0.01
+      },
+      "performance_outcome": {
+        "metric": "Best fitness (test accuracy of 0.933)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Science / Machine Learning",
+        "problem_context": "Evolving neural network optimizers for image classification"
+      },
+      "the_database": {
+        "dataset_name": "Fashion-MNIST",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "AutoLR Optimizer Evolution",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "poor locality",
+          "rugged",
+          "fragile"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammar-Guided Genetic Programming with Facilitated Mutation (FM)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": 0.0
+      },
+      "performance_outcome": {
+        "metric": "Best fitness (test accuracy of 0.931)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Science / Machine Learning",
+        "problem_context": "Evolving neural network optimizers for image classification"
+      },
+      "the_database": {
+        "dataset_name": "Fashion-MNIST",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "AutoLR Optimizer Evolution",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "poor locality",
+          "rugged",
+          "fragile"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammar-Guided Genetic Programming with Original Mutation (OM)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.15,
+        "crossover_rate": 0.0
+      },
+      "performance_outcome": {
+        "metric": "Best fitness (test accuracy of 0.927)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Science / Machine Learning",
+        "problem_context": "Evolving neural network optimizers for image classification"
+      },
+      "the_database": {
+        "dataset_name": "Fashion-MNIST",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "AutoLR Optimizer Evolution",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "poor locality",
+          "rugged",
+          "fragile"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammar-Guided Genetic Programming with Original Mutation and Crossover (OMX)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.15,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Best fitness (test accuracy of 0.928)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

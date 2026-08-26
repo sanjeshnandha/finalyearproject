@@ -1,0 +1,113 @@
+{
+  "metadata": {
+    "title": "A Multiobjective Optimization Approach for Market Timing",
+    "authors": [
+      "Ismail Mohamed",
+      "Fernando E. B. Otero"
+    ],
+    "year": 2020,
+    "source_file": "Mohamed and Otero - 2020 - A multiobjective optimization approach for market timing.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance",
+        "problem_context": "Market Timing"
+      },
+      "the_database": {
+        "dataset_name": "Trend Representative Testing datasets",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Market Timing",
+        "dimensionality": "63 indicators"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PSOSP"
+      },
+      "parameters": {
+        "population_size": 43,
+        "max_evaluations_or_generations": 83,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance",
+        "problem_context": "Market Timing"
+      },
+      "the_database": {
+        "dataset_name": "Trend Representative Testing datasets",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Market Timing",
+        "dimensionality": "63 indicators"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (GA)"
+      },
+      "parameters": {
+        "population_size": 49,
+        "max_evaluations_or_generations": 24,
+        "mutation_rate": 0.8087,
+        "crossover_rate": 0.1409
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Finance",
+        "problem_context": "Market Timing"
+      },
+      "the_database": {
+        "dataset_name": "Trend Representative Testing datasets",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Market Timing",
+        "dimensionality": "63 indicators"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Particle Swarm Optimization (PSO)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 67,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "metadata": {
+    "title": "Limited Perfect Monotonical Surrogates constructed using low-cost recursive linkage discovery with guaranteed output",
+    "authors": [
+      "Michal W. Przewozniczek",
+      "Francisco Chicano",
+      "Renato Tinós",
+      "Marcin M. Komarnicki"
+    ],
+    "year": 2026,
+    "source_file": "Przewozniczek et al. - 2026 - Limited Perfect Monotonical Surrogates Constructed Using Low-Cost Recursive Linkage Discovery with G.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "nkLand",
+        "dimensionality": "1000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "overlapping"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "OLyMPuS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 20000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median FFE until finding the best solution",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ISG",
+        "dimensionality": "1369D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "spin glass"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "OLyMPuS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 20000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median FFE until finding the best solution",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "nkLand",
+        "dimensionality": "1000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "overlapping"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "P3-eLyMPuS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 20000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median FFE until finding the best solution",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ISG",
+        "dimensionality": "1936D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "spin glass"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "P3-eLyMPuS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 20000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median FFE until finding the best solution",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "nkLand",
+        "dimensionality": "1000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "overlapping"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LT-GOMEA-eLyMPuS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 20000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median FFE until finding the best solution",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "ISG",
+        "dimensionality": "1369D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "spin glass"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LT-GOMEA-eLyMPuS"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 20000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median FFE until finding the best solution",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

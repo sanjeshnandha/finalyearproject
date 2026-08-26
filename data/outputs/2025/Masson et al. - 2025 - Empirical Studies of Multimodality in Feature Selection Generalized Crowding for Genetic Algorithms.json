@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "title": "Empirical Studies of Multimodality in Feature Selection: Generalized Crowding for Genetic Algorithms",
+    "authors": [
+      "Corentin Masson",
+      "Ole Jakob Mengshoel",
+      "Xavier F. C. Sánchez-Díaz"
+    ],
+    "year": 2025,
+    "source_file": "Masson et al. - 2025 - Empirical Studies of Multimodality in Feature Selection Generalized Crowding for Genetic Algorithms.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Biology",
+        "problem_context": "Feature selection for random forest classification on Yeast dataset"
+      },
+      "the_database": {
+        "dataset_name": "Yeast",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Yeast Feature Selection",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multimodal",
+          "discrete",
+          "pseudo-Boolean"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Generalized Crowding Genetic Algorithm (GCGA)"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.5,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Proportion of runs finding a global optimum",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Physics",
+        "problem_context": "Feature selection for random forest classification on HTRU2 dataset"
+      },
+      "the_database": {
+        "dataset_name": "HTRU2",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "HTRU2 Feature Selection",
+        "dimensionality": "8D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multimodal",
+          "discrete",
+          "pseudo-Boolean"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Generalized Crowding Genetic Algorithm (GCGA)"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.5,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Proportion of runs finding a global optimum",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Biology",
+        "problem_context": "Feature selection for random forest classification on Dry Bean dataset"
+      },
+      "the_database": {
+        "dataset_name": "Dry Bean",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Dry Bean Feature Selection",
+        "dimensionality": "16D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multimodal",
+          "discrete",
+          "pseudo-Boolean"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Generalized Crowding Genetic Algorithm (GCGA)"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.5,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Proportion of runs finding a global optimum",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Business",
+        "problem_context": "Feature selection for random forest classification on Bank Marketing dataset"
+      },
+      "the_database": {
+        "dataset_name": "Bank Marketing",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "Bank Marketing Feature Selection",
+        "dimensionality": "16D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multimodal",
+          "discrete",
+          "pseudo-Boolean"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Generalized Crowding Genetic Algorithm (GCGA)"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.5,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Proportion of runs finding a global optimum",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

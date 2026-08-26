@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "title": "Optimising the Introduction of Connected and Autonomous Vehicles in a Public Transport System using Macro-Level Mobility Simulations and Evolutionary Algorithms",
+    "authors": [
+      "Kate Han",
+      "Lee A. Christie",
+      "Alexandru-Ciprian Zăvoianu",
+      "John McCall"
+    ],
+    "year": 2021,
+    "source_file": "Han et al. - 2021 - Optimising the introduction of connected and autonomous vehicles in a public transport system using.pdf",
+    "gecco_track": "GECCO '21 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Optimising route discovery for a CAV-centred pilot project in Adel and Wharfedale"
+      },
+      "the_database": {
+        "dataset_name": "Open Street Map (OSM) and General Transit Feed Specification (GTFS) data",
+        "source_platform": "Open Street Map"
+      },
+      "the_benchmark_problem": {
+        "name": "Connected and Autonomous Vehicles Route Optimization",
+        "dimensionality": "120D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (GA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average commuting time (fitness value)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Optimising route discovery for a CAV-centred pilot project in Adel and Wharfedale"
+      },
+      "the_database": {
+        "dataset_name": "Open Street Map (OSM) and General Transit Feed Specification (GTFS) data",
+        "source_platform": "Open Street Map"
+      },
+      "the_benchmark_problem": {
+        "name": "Connected and Autonomous Vehicles Route Optimization",
+        "dimensionality": "120D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "discrete",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Population-Based Incremental Learning (PBIL)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average commuting time (fitness value)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "title": "Should I Overtake? Cue Learning using Evolution for Accurate Recognition of Safe Autonomous Vehicle Maneuvers",
+    "authors": [
+      "Peter J. Bentley",
+      "Soo Ling Lim",
+      "Fuyuki Ishikawa",
+      "Paolo Arcaini"
+    ],
+    "year": 2026,
+    "source_file": "Bentley et al. - 2026 - Should I Overtake Cue Learning using Evolution for Accurate Recognition of Safe Autonomous Vehicle.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Autonomous vehicle overtaking safety prediction"
+      },
+      "the_database": {
+        "dataset_name": "EvoDrive snapshots",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "EvoDrive Overtaking Safety Prediction (Monolithic Prompt)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "nonlinear interactions",
+          "discrete"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (CLEAR)"
+      },
+      "parameters": {
+        "population_size": 20,
+        "max_evaluations_or_generations": 20,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Testing Error of 11.4",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Autonomous vehicle overtaking safety prediction"
+      },
+      "the_database": {
+        "dataset_name": "EvoDrive snapshots",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "EvoDrive Overtaking Safety Prediction (Composite Prompt)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "noisy",
+          "nonlinear interactions",
+          "discrete"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Algorithm (CLEAR)"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": 10,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean Testing Error of 4.5",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

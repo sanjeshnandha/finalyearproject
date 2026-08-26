@@ -1,0 +1,123 @@
+{
+  "metadata": {
+    "title": "Semantically-Oriented Mutation Operator in Cartesian Genetic Programming for Evolutionary Circuit Design",
+    "authors": [
+      "David Hodan",
+      "Vojtech Mrazek",
+      "Zdenek Vasicek"
+    ],
+    "year": 2020,
+    "source_file": "Hodan et al. - 2020 - Semantically-oriented mutation operator in cartesian genetic programming for evolutionary circuit de.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Evolutionary Circuit Design"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Ripple-carry Adder",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "deceptive"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Cartesian Genetic Programming with Semantically-Oriented Mutation Operator (SOMO)"
+      },
+      "parameters": {
+        "population_size": 2,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate and execution time",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Evolutionary Circuit Design"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Array Multiplier",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "challenging search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Cartesian Genetic Programming with Semantically-Oriented Mutation Operator (SOMO)"
+      },
+      "parameters": {
+        "population_size": 2,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate and execution time",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Evolutionary Circuit Design"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Even-parity",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "deceptive",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Cartesian Genetic Programming with Semantically-Oriented Mutation Operator (SOMO)"
+      },
+      "parameters": {
+        "population_size": 2,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate and execution time",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

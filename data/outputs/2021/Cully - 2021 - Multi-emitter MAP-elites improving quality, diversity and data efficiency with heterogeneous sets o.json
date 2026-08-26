@@ -1,0 +1,226 @@
+{
+  "metadata": {
+    "title": "Multi-Emitter MAP-Elites: Improving quality, diversity and data efficiency with heterogeneous sets of emitters",
+    "authors": [
+      "Antoine Cully"
+    ],
+    "year": 2021,
+    "source_file": "Cully - 2021 - Multi-emitter MAP-elites improving quality, diversity and data efficiency with heterogeneous sets o.pdf",
+    "gecco_track": "Evolutionary Robotics"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rastrigin-proj",
+        "dimensionality": "100D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "shifted",
+          "penalised bounds"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ME-MAP-Elites UCB"
+      },
+      "parameters": {
+        "population_size": 600,
+        "max_evaluations_or_generations": 20000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD-Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rastrigin-multi",
+        "dimensionality": "100D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "local optima in the archive"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ME-MAP-Elites UCB"
+      },
+      "parameters": {
+        "population_size": 600,
+        "max_evaluations_or_generations": 20000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD-Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Sphere",
+        "dimensionality": "100D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "shifted"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ME-MAP-Elites UCB"
+      },
+      "parameters": {
+        "population_size": 600,
+        "max_evaluations_or_generations": 20000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD-Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Planar robotic arm with 100 degrees of freedom"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Redundant-arm",
+        "dimensionality": "100D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "kinematic redundancy"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ME-MAP-Elites UCB"
+      },
+      "parameters": {
+        "population_size": 600,
+        "max_evaluations_or_generations": 20000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD-Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Unidirectional locomotion of a simulated hexapod robot"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hexapod-uni",
+        "dimensionality": "36D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "locomotion",
+          "simulated robot"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ME-MAP-Elites UCB"
+      },
+      "parameters": {
+        "population_size": 600,
+        "max_evaluations_or_generations": 20000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD-Score",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Omnidirectional locomotion of a simulated hexapod robot"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hexapod-omni",
+        "dimensionality": "36D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "locomotion",
+          "simulated robot"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ME-MAP-Elites UCB"
+      },
+      "parameters": {
+        "population_size": 600,
+        "max_evaluations_or_generations": 20000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "QD-Score",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "title": "Approximating the Hypervolume Indicator using Fast Quasi-Random Low-Discrepancy Sequences",
+    "authors": [
+      "Manuel López-Ibáñez"
+    ],
+    "year": 2026,
+    "source_file": "López-Ibáñez - 2026 - Approximating the Hypervolume Indicator using Fast Quasi-Random Low-Discrepancy Sequences.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Nondominated sets (Linear, Convex-sphere, Concave-sphere shapes)",
+        "dimensionality": "3D to 10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "linear",
+          "convex-sphere",
+          "concave-sphere"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Rphi-FWE+"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Relative approximation error and CPU time",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Nondominated sets (Linear, Convex-sphere, Concave-sphere shapes)",
+        "dimensionality": "3D to 10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "linear",
+          "convex-sphere",
+          "concave-sphere"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DZ2019-HW"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Relative approximation error and CPU time",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Nondominated sets (Linear, Convex-sphere, Concave-sphere shapes)",
+        "dimensionality": "3D to 10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "linear",
+          "convex-sphere",
+          "concave-sphere"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DZ2019-MC"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Relative approximation error and CPU time",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

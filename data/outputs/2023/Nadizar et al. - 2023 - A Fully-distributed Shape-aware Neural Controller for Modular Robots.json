@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "title": "A Fully-distributed Shape-aware Neural Controller for Modular Robots",
+    "authors": [
+      "Giorgia Nadizar",
+      "Eric Medvet",
+      "Kathryn Walker",
+      "Sebastian Risi"
+    ],
+    "year": 2023,
+    "source_file": "Nadizar et al. - 2023 - A Fully-distributed Shape-aware Neural Controller for Modular Robots.pdf",
+    "gecco_track": "Evolutionary Robotics"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Locomotion of voxel-based soft robots"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Voxel-based Soft Robot Locomotion",
+        "dimensionality": "57D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Evolutionary Strategy"
+      },
+      "parameters": {
+        "population_size": 48,
+        "max_evaluations_or_generations": 208,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Velocity (v_x)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "title": "Towards Rigorous Validation of Energy Optimisation Experiments",
+    "authors": [
+      "Mahmoud A. Bokhari",
+      "Brad Alexander",
+      "Markus Wagner"
+    ],
+    "year": 2020,
+    "source_file": "Bokhari et al. - 2020 - Towards rigorous validation of energy optimisation experiments.pdf",
+    "gecco_track": "Search-Based Software Engineering"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Optimising energy consumption of Android software (Facebook's Rebound library)"
+      },
+      "the_database": {
+        "dataset_name": "Facebook's Rebound library",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rebound library energy optimisation",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "time-variant",
+          "rugged",
+          "variable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "R3-validation"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Statistical sensitivity (number of Wilcoxon rank-sum tests indicating significant difference at p <= 0.05 and median effect size)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Optimising energy consumption of Android software (Facebook's Rebound library)"
+      },
+      "the_database": {
+        "dataset_name": "Facebook's Rebound library",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Rebound library energy optimisation",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "time-variant",
+          "rugged",
+          "variable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Approach 1 (Standard Validation)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Statistical sensitivity (number of Wilcoxon rank-sum tests indicating significant difference at p <= 0.05 and median effect size)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

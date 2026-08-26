@@ -1,0 +1,127 @@
+{
+  "metadata": {
+    "title": "Multi-Objective Fairness Approach Using Causal Bayesian Networks & Grammatical Evolution",
+    "authors": [
+      "Zahid Irfan",
+      "Róisín Loughran",
+      "Muhammad Adil Raja",
+      "Fergal McCaffery"
+    ],
+    "year": 2025,
+    "source_file": "Irfan et al. - 2025 - Multi-Objective Fairness Approach Using Causal Bayesian Networks & Grammatical Evolution.pdf",
+    "gecco_track": "GECCO '25 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Financial Services",
+        "problem_context": "Fairness-aware decision-making in credit risk assessment"
+      },
+      "the_database": {
+        "dataset_name": "German Credit dataset",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "German Credit Classification with Fairness Constraints",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "large solution space",
+          "trade-offs"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammatical Evolution (GE)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test Equal Opportunity Difference (EOD)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Financial Services",
+        "problem_context": "Fairness-aware decision-making in credit risk assessment"
+      },
+      "the_database": {
+        "dataset_name": "German Credit dataset",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "German Credit Classification with Fairness Constraints",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "large solution space",
+          "trade-offs"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Grammatical Evolution (GE)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test Accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Financial Services",
+        "problem_context": "Fairness-aware decision-making in credit risk assessment"
+      },
+      "the_database": {
+        "dataset_name": "German Credit dataset",
+        "source_platform": "UCI Machine Learning Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "German Credit Classification with Fairness Constraints",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "complex",
+          "large solution space",
+          "trade-offs"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Non-dominated Sorting Genetic Algorithm II (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test Equal Opportunity Difference (EOD) and Test Accuracy (Pareto front)",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

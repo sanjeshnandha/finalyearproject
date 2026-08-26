@@ -1,0 +1,459 @@
+{
+  "metadata": {
+    "title": "Novelty Search for Automatic Bug Repair",
+    "authors": [
+      "Omar M. Villanueva",
+      "Leonardo Trujillo",
+      "Daniel E Hernandez"
+    ],
+    "year": 2020,
+    "source_file": "Villanueva et al. - 2020 - Novelty search for automatic bug repair.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Automatic Bug Repair"
+      },
+      "the_database": {
+        "dataset_name": "ManyBugs",
+        "source_platform": "BugZoo"
+      },
+      "the_benchmark_problem": {
+        "name": "gmp",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "highly neutral",
+          "redundant",
+          "deceptive"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GenProg"
+      },
+      "parameters": {
+        "population_size": 40,
+        "max_evaluations_or_generations": 20,
+        "mutation_rate": null,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Number of bugs repaired",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Automatic Bug Repair"
+      },
+      "the_database": {
+        "dataset_name": "ManyBugs",
+        "source_platform": "BugZoo"
+      },
+      "the_benchmark_problem": {
+        "name": "gmp",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "highly neutral",
+          "redundant",
+          "deceptive"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NS-GenProg"
+      },
+      "parameters": {
+        "population_size": 40,
+        "max_evaluations_or_generations": 20,
+        "mutation_rate": null,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Number of bugs repaired",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Automatic Bug Repair"
+      },
+      "the_database": {
+        "dataset_name": "ManyBugs",
+        "source_platform": "BugZoo"
+      },
+      "the_benchmark_problem": {
+        "name": "gzip",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "highly neutral",
+          "redundant",
+          "deceptive"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GenProg"
+      },
+      "parameters": {
+        "population_size": 40,
+        "max_evaluations_or_generations": 20,
+        "mutation_rate": null,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Number of bugs repaired",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Automatic Bug Repair"
+      },
+      "the_database": {
+        "dataset_name": "ManyBugs",
+        "source_platform": "BugZoo"
+      },
+      "the_benchmark_problem": {
+        "name": "gzip",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "highly neutral",
+          "redundant",
+          "deceptive"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NS-GenProg"
+      },
+      "parameters": {
+        "population_size": 40,
+        "max_evaluations_or_generations": 20,
+        "mutation_rate": null,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Number of bugs repaired",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Automatic Bug Repair"
+      },
+      "the_database": {
+        "dataset_name": "ManyBugs",
+        "source_platform": "BugZoo"
+      },
+      "the_benchmark_problem": {
+        "name": "libtiff",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "highly neutral",
+          "redundant",
+          "deceptive"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GenProg"
+      },
+      "parameters": {
+        "population_size": 40,
+        "max_evaluations_or_generations": 20,
+        "mutation_rate": null,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Number of bugs repaired",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Automatic Bug Repair"
+      },
+      "the_database": {
+        "dataset_name": "ManyBugs",
+        "source_platform": "BugZoo"
+      },
+      "the_benchmark_problem": {
+        "name": "libtiff",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "highly neutral",
+          "redundant",
+          "deceptive"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NS-GenProg"
+      },
+      "parameters": {
+        "population_size": 40,
+        "max_evaluations_or_generations": 20,
+        "mutation_rate": null,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Number of bugs repaired",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Automatic Bug Repair"
+      },
+      "the_database": {
+        "dataset_name": "ManyBugs",
+        "source_platform": "BugZoo"
+      },
+      "the_benchmark_problem": {
+        "name": "lighttpd",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "highly neutral",
+          "redundant",
+          "deceptive"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GenProg"
+      },
+      "parameters": {
+        "population_size": 40,
+        "max_evaluations_or_generations": 20,
+        "mutation_rate": null,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Number of bugs repaired",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Automatic Bug Repair"
+      },
+      "the_database": {
+        "dataset_name": "ManyBugs",
+        "source_platform": "BugZoo"
+      },
+      "the_benchmark_problem": {
+        "name": "lighttpd",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "highly neutral",
+          "redundant",
+          "deceptive"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NS-GenProg"
+      },
+      "parameters": {
+        "population_size": 40,
+        "max_evaluations_or_generations": 20,
+        "mutation_rate": null,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Number of bugs repaired",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Automatic Bug Repair"
+      },
+      "the_database": {
+        "dataset_name": "ManyBugs",
+        "source_platform": "BugZoo"
+      },
+      "the_benchmark_problem": {
+        "name": "php",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "highly neutral",
+          "redundant",
+          "deceptive"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GenProg"
+      },
+      "parameters": {
+        "population_size": 40,
+        "max_evaluations_or_generations": 20,
+        "mutation_rate": null,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Number of bugs repaired",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Automatic Bug Repair"
+      },
+      "the_database": {
+        "dataset_name": "ManyBugs",
+        "source_platform": "BugZoo"
+      },
+      "the_benchmark_problem": {
+        "name": "php",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "highly neutral",
+          "redundant",
+          "deceptive"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NS-GenProg"
+      },
+      "parameters": {
+        "population_size": 40,
+        "max_evaluations_or_generations": 20,
+        "mutation_rate": null,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Number of bugs repaired",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Automatic Bug Repair"
+      },
+      "the_database": {
+        "dataset_name": "ManyBugs",
+        "source_platform": "BugZoo"
+      },
+      "the_benchmark_problem": {
+        "name": "python",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "highly neutral",
+          "redundant",
+          "deceptive"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GenProg"
+      },
+      "parameters": {
+        "population_size": 40,
+        "max_evaluations_or_generations": 20,
+        "mutation_rate": null,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Number of bugs repaired",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Software Engineering",
+        "problem_context": "Automatic Bug Repair"
+      },
+      "the_database": {
+        "dataset_name": "ManyBugs",
+        "source_platform": "BugZoo"
+      },
+      "the_benchmark_problem": {
+        "name": "python",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "highly neutral",
+          "redundant",
+          "deceptive"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NS-GenProg"
+      },
+      "parameters": {
+        "population_size": 40,
+        "max_evaluations_or_generations": 20,
+        "mutation_rate": null,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Number of bugs repaired",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

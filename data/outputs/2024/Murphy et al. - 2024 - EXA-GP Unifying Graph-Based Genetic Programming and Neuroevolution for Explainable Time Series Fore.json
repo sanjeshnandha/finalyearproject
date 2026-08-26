@@ -1,0 +1,484 @@
+{
+  "metadata": {
+    "title": "EXA-GP: Unifying Graph-Based Genetic Programming and Neuroevolution for Explainable Time Series Forecasting",
+    "authors": [
+      "Jared Murphy",
+      "Devroop Kar",
+      "Joshua Karns",
+      "Travis Desell"
+    ],
+    "year": 2024,
+    "source_file": "Murphy et al. - 2024 - EXA-GP Unifying Graph-Based Genetic Programming and Neuroevolution for Explainable Time Series Fore.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Time series forecasting of Main Flame Intensity"
+      },
+      "the_database": {
+        "dataset_name": "Coal burner dataset",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "Main_Flm_Int",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "non-seasonal",
+          "multivariate",
+          "local minimum",
+          "valley"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EXA-GP"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test Dataset Mean Squared Error (MSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Time series forecasting of Main Flame Intensity"
+      },
+      "the_database": {
+        "dataset_name": "Coal burner dataset",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "Main_Flm_Int",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "non-seasonal",
+          "multivariate",
+          "local minimum",
+          "valley"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EXAMM"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test Dataset Mean Squared Error (MSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Time series forecasting of Supplementary Fuel Flow"
+      },
+      "the_database": {
+        "dataset_name": "Coal burner dataset",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "Supp_Fuel_Flow",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "non-seasonal",
+          "multivariate",
+          "local minimum",
+          "valley"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EXA-GP"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test Dataset Mean Squared Error (MSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Time series forecasting of Supplementary Fuel Flow"
+      },
+      "the_database": {
+        "dataset_name": "Coal burner dataset",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "Supp_Fuel_Flow",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "non-seasonal",
+          "multivariate",
+          "local minimum",
+          "valley"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EXAMM"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test Dataset Mean Squared Error (MSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Time series forecasting of Engine 1 Cylinder Head Temperature 1"
+      },
+      "the_database": {
+        "dataset_name": "Aviation dataset",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "E1_CHT1",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "non-seasonal",
+          "multivariate",
+          "local minimum",
+          "valley"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EXA-GP"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test Dataset Mean Squared Error (MSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Time series forecasting of Engine 1 Cylinder Head Temperature 1"
+      },
+      "the_database": {
+        "dataset_name": "Aviation dataset",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "E1_CHT1",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "non-seasonal",
+          "multivariate",
+          "local minimum",
+          "valley"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EXAMM"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test Dataset Mean Squared Error (MSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Time series forecasting of Pitch"
+      },
+      "the_database": {
+        "dataset_name": "Aviation dataset",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "Pitch",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "non-seasonal",
+          "multivariate",
+          "local minimum",
+          "valley"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EXA-GP"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test Dataset Mean Squared Error (MSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Time series forecasting of Pitch"
+      },
+      "the_database": {
+        "dataset_name": "Aviation dataset",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "Pitch",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "non-seasonal",
+          "multivariate",
+          "local minimum",
+          "valley"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EXAMM"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test Dataset Mean Squared Error (MSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Time series forecasting of Average Converter Torque"
+      },
+      "the_database": {
+        "dataset_name": "Wind turbine dataset",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "Cm_avg",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "non-seasonal",
+          "multivariate",
+          "local minimum",
+          "valley"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EXA-GP"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test Dataset Mean Squared Error (MSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Time series forecasting of Average Converter Torque"
+      },
+      "the_database": {
+        "dataset_name": "Wind turbine dataset",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "Cm_avg",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "non-seasonal",
+          "multivariate",
+          "local minimum",
+          "valley"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EXAMM"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test Dataset Mean Squared Error (MSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Time series forecasting of Average Power"
+      },
+      "the_database": {
+        "dataset_name": "Wind turbine dataset",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "P_avg",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "non-seasonal",
+          "multivariate",
+          "local minimum",
+          "valley"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EXA-GP"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test Dataset Mean Squared Error (MSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Time series forecasting of Average Power"
+      },
+      "the_database": {
+        "dataset_name": "Wind turbine dataset",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "P_avg",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "non-seasonal",
+          "multivariate",
+          "local minimum",
+          "valley"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EXAMM"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Test Dataset Mean Squared Error (MSE)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

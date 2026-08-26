@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "title": "Selecting Miners within Blockchain-based Systems Using Evolutionary Algorithms for Energy Optimisation",
+    "authors": [
+      "Akram Alofi",
+      "Mahmoud A. Bokhari",
+      "Robert Hendley",
+      "Rami Bahsoon"
+    ],
+    "year": 2021,
+    "source_file": "Alofi et al. - 2021 - Selecting miners within blockchain-based systems using evolutionary algorithms for energy optimisati.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Selecting miners within blockchain-based systems to minimize energy consumption and maximize trust"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": "Bitcoin Simulator"
+      },
+      "the_benchmark_problem": {
+        "name": "Miner Selection Problem",
+        "dimensionality": "160 miners"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SPEA2"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 40000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Selecting miners within blockchain-based systems to minimize energy consumption and maximize trust"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": "Bitcoin Simulator"
+      },
+      "the_benchmark_problem": {
+        "name": "Miner Selection Problem",
+        "dimensionality": "160 miners"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 40000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Selecting miners within blockchain-based systems to minimize energy consumption and maximize trust"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": "Bitcoin Simulator"
+      },
+      "the_benchmark_problem": {
+        "name": "Miner Selection Problem",
+        "dimensionality": "160 miners"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Random Search"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 40000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

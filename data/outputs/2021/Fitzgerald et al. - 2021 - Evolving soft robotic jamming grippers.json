@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "title": "Evolving Soft Robotic Jamming Grippers",
+    "authors": [
+      "Seth G. Fitzgerald",
+      "Gary W. Delaney",
+      "David Howard",
+      "Frederic Maire"
+    ],
+    "year": 2021,
+    "source_file": "Fitzgerald et al. - 2021 - Evolving soft robotic jamming grippers.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Optimising grain morphology for soft robotic jamming grippers"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Sphere target objects (7mm, 10mm, 14mm)",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex",
+          "complex surface of optimality"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-III"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.33,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Pull off force (holding force in Newtons)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Optimising grain morphology for soft robotic jamming grippers"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Cube target objects (7mm, 10mm, 14mm)",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "complex",
+          "complex surface of optimality"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-III"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.33,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Pull off force (holding force in Newtons)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

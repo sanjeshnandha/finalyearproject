@@ -1,0 +1,127 @@
+{
+  "metadata": {
+    "title": "Stable Normalization for Preference-based Subset Selection with an Unbounded External Archive",
+    "authors": [
+      "Yuta Nakanishi",
+      "Mamoru Doi",
+      "Yusuke Yasuda",
+      "Hiroyuki Sato"
+    ],
+    "year": 2026,
+    "source_file": "Nakanishi et al. - 2026 - Stable Normalization for Preference-based Subset Selection with an Unbounded External Archive.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SDTLZ",
+        "dimensionality": "m = 2, 3, 5 objectives"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "scaled",
+          "varying objective scales",
+          "dominance resistant solutions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MN-UA-PP"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD+-C and nadir estimation error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "WFG",
+        "dimensionality": "m = 2, 3, 5 objectives"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "scaled",
+          "varying objective scales",
+          "dominance resistant solutions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MN-UA-PP"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD+-C and nadir estimation error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "DTLZ",
+        "dimensionality": "m = 2, 3, 5 objectives"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "scaled",
+          "varying objective scales",
+          "dominance resistant solutions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MN-UA-PP"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "IGD+-C and nadir estimation error",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

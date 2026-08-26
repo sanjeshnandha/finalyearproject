@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "title": "Combining Adaptive Large Neighborhood Search with Guided Ejection Search for Real-World Multiple-Vehicle Pickup and Delivery Problem with Time Windows",
+    "authors": [
+      "Tri Phan",
+      "Khang Tran",
+      "Ngoc Hoang Luong"
+    ],
+    "year": 2024,
+    "source_file": "Phan et al. - 2024 - Combining Adaptive Large Neighborhood Search with Guided Ejection Search for Real-World Multiple-Veh.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multiple-Vehicle Pickup and Delivery Problem with Time Windows (MV-PDPTW)"
+      },
+      "the_database": {
+        "dataset_name": "Retail company dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MV-PDPTW",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "time windows",
+          "capacity constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Init"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of delivered requests",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multiple-Vehicle Pickup and Delivery Problem with Time Windows (MV-PDPTW)"
+      },
+      "the_database": {
+        "dataset_name": "Retail company dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MV-PDPTW",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "time windows",
+          "capacity constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Adaptive Large Neighborhood Search (ALNS)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of delivered requests",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multiple-Vehicle Pickup and Delivery Problem with Time Windows (MV-PDPTW)"
+      },
+      "the_database": {
+        "dataset_name": "Retail company dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MV-PDPTW",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "time windows",
+          "capacity constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Guided Ejection Search (GES)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of delivered requests",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multiple-Vehicle Pickup and Delivery Problem with Time Windows (MV-PDPTW)"
+      },
+      "the_database": {
+        "dataset_name": "Retail company dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MV-PDPTW",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "constrained",
+          "time windows",
+          "capacity constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ALNS+GES"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Number of delivered requests",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "metadata": {
+    "title": "CRSGA: Cluster-Based Region Selection Genetic Algorithm Solving Multi-Objective Travelling Thief Problem",
+    "authors": [
+      "Łukasz P. Olech",
+      "Paweł B. Myszkowski",
+      "Konrad Gmyrek"
+    ],
+    "year": 2025,
+    "source_file": "Olech et al. - 2025 - CRSGA Cluster-Based Region Selection Genetic Algorithm Solving Multi-Objective Travelling Thief Pro.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Travelling Thief Problem"
+      },
+      "the_database": {
+        "dataset_name": "iMOPSE TTP Benchmark Instances",
+        "source_platform": "iMOPSE Library"
+      },
+      "the_benchmark_problem": {
+        "name": "Travelling Thief Problem (TTP)",
+        "dimensionality": "Variable (51 to 100 cities)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "NP-hard",
+          "multi-objective",
+          "interwoven objectives",
+          "constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Cluster-Based Region Selection Genetic Algorithm (CRSGA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 250000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generative Distance (IGD) and Purity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Travelling Thief Problem"
+      },
+      "the_database": {
+        "dataset_name": "iMOPSE TTP Benchmark Instances",
+        "source_platform": "iMOPSE Library"
+      },
+      "the_benchmark_problem": {
+        "name": "Travelling Thief Problem (TTP)",
+        "dimensionality": "Variable (51 to 100 cities)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "NP-hard",
+          "multi-objective",
+          "interwoven objectives",
+          "constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Balancing Non-dominated Tournament Genetic Algorithm (B-NTGA)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 250000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generative Distance (IGD) and Purity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Travelling Thief Problem"
+      },
+      "the_database": {
+        "dataset_name": "iMOPSE TTP Benchmark Instances",
+        "source_platform": "iMOPSE Library"
+      },
+      "the_benchmark_problem": {
+        "name": "Travelling Thief Problem (TTP)",
+        "dimensionality": "Variable (51 to 100 cities)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "NP-hard",
+          "multi-objective",
+          "interwoven objectives",
+          "constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Non-dominated Tournament Genetic Algorithm 2 (NTGA2)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 250000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generative Distance (IGD) and Purity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Travelling Thief Problem"
+      },
+      "the_database": {
+        "dataset_name": "iMOPSE TTP Benchmark Instances",
+        "source_platform": "iMOPSE Library"
+      },
+      "the_benchmark_problem": {
+        "name": "Travelling Thief Problem (TTP)",
+        "dimensionality": "Variable (51 to 100 cities)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "NP-hard",
+          "multi-objective",
+          "interwoven objectives",
+          "constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-Objective Evolutionary Algorithm based on Decomposition (MOEA/D)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 250000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generative Distance (IGD) and Purity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Travelling Thief Problem"
+      },
+      "the_database": {
+        "dataset_name": "iMOPSE TTP Benchmark Instances",
+        "source_platform": "iMOPSE Library"
+      },
+      "the_benchmark_problem": {
+        "name": "Travelling Thief Problem (TTP)",
+        "dimensionality": "Variable (51 to 100 cities)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "NP-hard",
+          "multi-objective",
+          "interwoven objectives",
+          "constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Strength Pareto Evolutionary Algorithm 2 (SPEA2)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 250000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generative Distance (IGD) and Purity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Travelling Thief Problem"
+      },
+      "the_database": {
+        "dataset_name": "iMOPSE TTP Benchmark Instances",
+        "source_platform": "iMOPSE Library"
+      },
+      "the_benchmark_problem": {
+        "name": "Travelling Thief Problem (TTP)",
+        "dimensionality": "Variable (51 to 100 cities)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "combinatorial",
+          "NP-hard",
+          "multi-objective",
+          "interwoven objectives",
+          "constraints"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Non-dominated Sorting Genetic Algorithm II (NSGA-II)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 250000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted Generative Distance (IGD) and Purity",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

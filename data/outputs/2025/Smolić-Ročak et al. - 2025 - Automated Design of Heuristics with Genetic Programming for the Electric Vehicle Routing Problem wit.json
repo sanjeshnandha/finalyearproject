@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "title": "Automated Design of Heuristics with Genetic Programming for the Electric Vehicle Routing Problem with Partial Recharging",
+    "authors": [
+      "Magda Smolić-Ročak",
+      "Marko Đurasević",
+      "Josip Hrvatić",
+      "Francisco J. Gil Gala"
+    ],
+    "year": 2025,
+    "source_file": "Smolić-Ročak et al. - 2025 - Automated Design of Heuristics with Genetic Programming for the Electric Vehicle Routing Problem wit.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Electric Vehicle Routing Problem with Time Windows and Partial Recharging"
+      },
+      "the_database": {
+        "dataset_name": "Schneider data set",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "Electric Vehicle Routing Problem with Time Windows (EVRPTW)",
+        "dimensionality": "100 customers, 21 charging stations"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "combinatorial",
+          "constrained",
+          "time windows"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 5000,
+        "mutation_rate": 0.5,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Total delay and average rank",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

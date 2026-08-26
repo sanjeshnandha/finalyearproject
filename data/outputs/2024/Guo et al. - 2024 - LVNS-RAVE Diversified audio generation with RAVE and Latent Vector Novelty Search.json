@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "title": "LVNS-RAVE: Diversified audio generation with RAVE and Latent Vector Novelty Search",
+    "authors": [
+      "Jinyue Guo",
+      "Anna-Maria Christodoulou",
+      "Bálint Laczkó",
+      "Kyrre Glette"
+    ],
+    "year": 2024,
+    "source_file": "Guo et al. - 2024 - LVNS-RAVE Diversified audio generation with RAVE and Latent Vector Novelty Search.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Sound and Music Computing",
+        "problem_context": "Audio generation"
+      },
+      "the_database": {
+        "dataset_name": "vintage music dataset",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "vintage RAVE latent space exploration",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "smooth latent space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Latent Vector Novelty Search (LVNS-RAVE)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average sparseness (novelty)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Sound and Music Computing",
+        "problem_context": "Audio generation"
+      },
+      "the_database": {
+        "dataset_name": "darbouka recordings",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "darbouka_onnx RAVE latent space exploration",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "smooth latent space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Latent Vector Novelty Search (LVNS-RAVE)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average sparseness (novelty)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Sound and Music Computing",
+        "problem_context": "Audio generation"
+      },
+      "the_database": {
+        "dataset_name": "CSTR's VCTK Corpus",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "VCTK RAVE latent space exploration",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "smooth latent space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Latent Vector Novelty Search (LVNS-RAVE)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 300,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average sparseness (novelty)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

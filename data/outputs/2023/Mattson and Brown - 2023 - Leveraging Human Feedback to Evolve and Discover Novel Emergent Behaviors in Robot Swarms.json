@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "title": "Leveraging Human Feedback to Evolve and Discover Novel Emergent Behaviors in Robot Swarms",
+    "authors": [
+      "Connor Mattson",
+      "Daniel S. Brown"
+    ],
+    "year": 2023,
+    "source_file": "Mattson and Brown - 2023 - Leveraging Human Feedback to Evolve and Discover Novel Emergent Behaviors in Robot Swarms.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Discovering emergent behaviors in robot swarms"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Single-Sensor Robot Swarm Model",
+        "dimensionality": "4D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "sparse"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Novelty Search with HIL Latent Embedding"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average number of distinct behaviors discovered",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Discovering emergent behaviors in robot swarms"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Single-Sensor Robot Swarm Model",
+        "dimensionality": "4D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "sparse"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Novelty Search with Hand-crafted Features (Brown et al.)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average number of distinct behaviors discovered",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Discovering emergent behaviors in robot swarms"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Two-Sensor Robot Swarm Model",
+        "dimensionality": "9D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "sparse"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Novelty Search with HIL Latent Embedding"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average number of distinct behaviors discovered",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Discovering emergent behaviors in robot swarms"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Two-Sensor Robot Swarm Model",
+        "dimensionality": "9D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "rugged",
+          "sparse"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Novelty Search with Hand-crafted Features (Brown et al.)"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average number of distinct behaviors discovered",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

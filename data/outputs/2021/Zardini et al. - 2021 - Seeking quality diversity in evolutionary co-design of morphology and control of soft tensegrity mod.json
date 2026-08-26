@@ -1,0 +1,233 @@
+{
+  "metadata": {
+    "title": "Seeking Quality Diversity in Evolutionary Co-design of Morphology and Control of Soft Tensegrity Modular Robots",
+    "authors": [
+      "Enrico Zardini",
+      "Davide Zappetti",
+      "Davide Zambrano",
+      "Giovanni Iacca",
+      "Dario Floreano"
+    ],
+    "year": 2021,
+    "source_file": "Zardini et al. - 2021 - Seeking quality diversity in evolutionary co-design of morphology and control of soft tensegrity mod.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Co-design of morphology and control of soft tensegrity modular robots"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Goal Reaching",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "hard-to-model dynamics",
+          "non-trivial interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ViE-NEAT"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 45000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Co-design of morphology and control of soft tensegrity modular robots"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Squeezing",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "hard-to-model dynamics",
+          "non-trivial interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ViE-NEAT"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 45000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Co-design of morphology and control of soft tensegrity modular robots"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Goal Reaching",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "hard-to-model dynamics",
+          "non-trivial interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAP-Elites"
+      },
+      "parameters": {
+        "population_size": 1080,
+        "max_evaluations_or_generations": 45000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Co-design of morphology and control of soft tensegrity modular robots"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Squeezing",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "hard-to-model dynamics",
+          "non-trivial interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MAP-Elites"
+      },
+      "parameters": {
+        "population_size": 1080,
+        "max_evaluations_or_generations": 45000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Co-design of morphology and control of soft tensegrity modular robots"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Goal Reaching",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "hard-to-model dynamics",
+          "non-trivial interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Double Map MAP-Elites (DM-ME)"
+      },
+      "parameters": {
+        "population_size": 1080,
+        "max_evaluations_or_generations": 45000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Co-design of morphology and control of soft tensegrity modular robots"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Squeezing",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "hard-to-model dynamics",
+          "non-trivial interactions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Double Map MAP-Elites (DM-ME)"
+      },
+      "parameters": {
+        "population_size": 1080,
+        "max_evaluations_or_generations": 45000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Best fitness",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "title": "Neural Architecture Search for Sparse DenseNets with Dynamic Compression",
+    "authors": [
+      "Damien O'Neill",
+      "Bing Xue",
+      "Mengjie Zhang"
+    ],
+    "year": 2020,
+    "source_file": "O'Neill et al. - 2020 - Neural architecture search for sparse DenseNets with dynamic compression.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Neural Architecture Search for Image Classification"
+      },
+      "the_database": {
+        "dataset_name": "CIFAR100",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CIFAR100 Image Classification",
+        "dimensionality": "3x18x18 Boolean adjacency matrix"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ME-SD-BDC"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 10,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Best classification error rate of 22.75%",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Neural Architecture Search for Image Classification"
+      },
+      "the_database": {
+        "dataset_name": "CIFAR10",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CIFAR10 Image Classification",
+        "dimensionality": "3x18x18 Boolean adjacency matrix"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ME-SD-BDC"
+      },
+      "parameters": {
+        "population_size": 30,
+        "max_evaluations_or_generations": 10,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Best classification error rate of 5.47%",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

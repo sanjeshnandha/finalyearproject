@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "title": "New Search Operators for Node-Depth Based Encoding",
+    "authors": [
+      "Gustavo Post Sabin",
+      "Telma Woerle de Lima",
+      "Anderson da Silva Soares"
+    ],
+    "year": 2020,
+    "source_file": "Sabin et al. - 2020 - New search operators for node-depth based encoding.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Optimal Communication Spanning Tree Problem"
+      },
+      "the_database": {
+        "dataset_name": "Raidl's OCSTP instances",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Optimal Communication Spanning Tree Problem",
+        "dimensionality": "10, 35, 50, 100 nodes"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EA with Maximum Heritability (EAMH)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.2,
+        "crossover_rate": 1.0
+      },
+      "performance_outcome": {
+        "metric": "Mean number of evaluations to find the best solution and mean distance to the best solution",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Optimal Communication Spanning Tree Problem"
+      },
+      "the_database": {
+        "dataset_name": "Raidl's OCSTP instances",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Optimal Communication Spanning Tree Problem",
+        "dimensionality": "10, 35, 50, 100 nodes"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EA using NDE without recombination operator (EAN)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean number of evaluations to find the best solution and mean distance to the best solution",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Optimal Communication Spanning Tree Problem"
+      },
+      "the_database": {
+        "dataset_name": "Raidl's OCSTP instances",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Optimal Communication Spanning Tree Problem",
+        "dimensionality": "10, 35, 50, 100 nodes"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EA using NDE with recombination operator based on permutation (EANNOX)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean number of evaluations to find the best solution and mean distance to the best solution",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Optimal Communication Spanning Tree Problem"
+      },
+      "the_database": {
+        "dataset_name": "Raidl's OCSTP instances",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Optimal Communication Spanning Tree Problem",
+        "dimensionality": "10, 35, 50, 100 nodes"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "EA using Edges Set representation without heuristic (ESWOH)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean number of evaluations to find the best solution and mean distance to the best solution",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

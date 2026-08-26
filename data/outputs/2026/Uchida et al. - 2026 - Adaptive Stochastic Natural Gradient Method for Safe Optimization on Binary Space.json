@@ -1,0 +1,436 @@
+{
+  "metadata": {
+    "title": "Adaptive Stochastic Natural Gradient Method for Safe Optimization on Binary Space",
+    "authors": [
+      "Kento Uchida",
+      "Ryoki Hamano",
+      "Masahiro Nomura",
+      "Shinichi Shirakawa"
+    ],
+    "year": 2026,
+    "source_file": "Uchida et al. - 2026 - Adaptive Stochastic Natural Gradient Method for Safe Optimization on Binary Space.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "OneMax",
+        "dimensionality": "10D, 25D, 50D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "binary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "safe ASNG"
+      },
+      "parameters": {
+        "population_size": 2,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "best evaluation gap and number of unsafe evaluations",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "LeadingOnes",
+        "dimensionality": "10D, 25D, 50D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "binary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "safe ASNG"
+      },
+      "parameters": {
+        "population_size": 2,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "best evaluation gap and number of unsafe evaluations",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BinVal",
+        "dimensionality": "10D, 25D, 50D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "binary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "safe ASNG"
+      },
+      "parameters": {
+        "population_size": 2,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "best evaluation gap and number of unsafe evaluations",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Reversed BinVal",
+        "dimensionality": "10D, 25D, 50D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "binary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "safe ASNG"
+      },
+      "parameters": {
+        "population_size": 2,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "best evaluation gap and number of unsafe evaluations",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "OneMax",
+        "dimensionality": "10D, 25D, 50D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "binary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ASNG with Violation Avoidance (ASNG w. VA)"
+      },
+      "parameters": {
+        "population_size": 2,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "best evaluation gap and number of unsafe evaluations",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "LeadingOnes",
+        "dimensionality": "10D, 25D, 50D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "binary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ASNG with Violation Avoidance (ASNG w. VA)"
+      },
+      "parameters": {
+        "population_size": 2,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "best evaluation gap and number of unsafe evaluations",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BinVal",
+        "dimensionality": "10D, 25D, 50D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "binary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ASNG with Violation Avoidance (ASNG w. VA)"
+      },
+      "parameters": {
+        "population_size": 2,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "best evaluation gap and number of unsafe evaluations",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Reversed BinVal",
+        "dimensionality": "10D, 25D, 50D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "binary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ASNG with Violation Avoidance (ASNG w. VA)"
+      },
+      "parameters": {
+        "population_size": 2,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "best evaluation gap and number of unsafe evaluations",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "OneMax",
+        "dimensionality": "10D, 25D, 50D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "binary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ASNG with Constraint Handling (ASNG w. CH)"
+      },
+      "parameters": {
+        "population_size": 2,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "best evaluation gap and number of unsafe evaluations",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "LeadingOnes",
+        "dimensionality": "10D, 25D, 50D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "binary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ASNG with Constraint Handling (ASNG w. CH)"
+      },
+      "parameters": {
+        "population_size": 2,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "best evaluation gap and number of unsafe evaluations",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BinVal",
+        "dimensionality": "10D, 25D, 50D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "binary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ASNG with Constraint Handling (ASNG w. CH)"
+      },
+      "parameters": {
+        "population_size": 2,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "best evaluation gap and number of unsafe evaluations",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Reversed BinVal",
+        "dimensionality": "10D, 25D, 50D"
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "binary"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ASNG with Constraint Handling (ASNG w. CH)"
+      },
+      "parameters": {
+        "population_size": 2,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "best evaluation gap and number of unsafe evaluations",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

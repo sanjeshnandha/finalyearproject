@@ -1,0 +1,310 @@
+{
+  "metadata": {
+    "title": "Value Consistency Prioritization for Accelerating Knowledge Discovery in Sparse Reward Anticipatory Classifier Systems",
+    "authors": [
+      "Olgierd Unold",
+      "Jan Zemło"
+    ],
+    "year": 2026,
+    "source_file": "Unold and Zemło - 2026 - Value Consistency Prioritization for Accelerating Knowledge Discovery in Sparse Reward Anticipatory.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating rule-based discovery in grid-world environments"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "24 grid-world environments",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sparse rewards",
+          "aliased",
+          "stochastic transitions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Anticipatory Classifier System (ACS2)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Success Rate (37.5%) and Learning Speed (mean trials to 95% knowledge)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating rule-based discovery in grid-world environments"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "24 grid-world environments",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sparse rewards",
+          "aliased",
+          "stochastic transitions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ACS2 with Experience Replay (ACS2ER)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Success Rate (41.7%) and Learning Speed (mean trials to 95% knowledge)",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating rule-based discovery in grid-world environments"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "24 grid-world environments",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sparse rewards",
+          "aliased",
+          "stochastic transitions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ACS2 with Hindsight Experience Replay (ACS2HER)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Success Rate (95.8%) and Learning Speed (mean trials to 95% knowledge)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating rule-based discovery in grid-world environments"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "24 grid-world environments",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "sparse rewards",
+          "aliased",
+          "stochastic transitions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ACS2 with Value Consistency Prioritization (ACS2VCP)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Success Rate (87.5%) and Learning Speed (mean trials to 95% knowledge)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating adaptation to environmental perturbation"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MazeA Map Shift",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-stationary",
+          "sparse rewards",
+          "aliased"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Anticipatory Classifier System (ACS2)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Trials to 95% knowledge after perturbation",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating adaptation to environmental perturbation"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MazeA Map Shift",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-stationary",
+          "sparse rewards",
+          "aliased"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ACS2 with Experience Replay (ACS2ER)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Trials to 95% knowledge after perturbation",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating adaptation to environmental perturbation"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MazeA Map Shift",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-stationary",
+          "sparse rewards",
+          "aliased"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ACS2 with Hindsight Experience Replay (ACS2HER)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Trials to 95% knowledge after perturbation (186.10 trials)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating adaptation to environmental perturbation"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MazeA Map Shift",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-stationary",
+          "sparse rewards",
+          "aliased"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "ACS2 with Value Consistency Prioritization (ACS2VCP)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 1000,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Trials to 95% knowledge after perturbation (127.38 trials)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

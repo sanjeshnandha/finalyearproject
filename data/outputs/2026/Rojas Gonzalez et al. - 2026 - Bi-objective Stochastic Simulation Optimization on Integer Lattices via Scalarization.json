@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "title": "Bi-objective Stochastic Simulation Optimization on Integer Lattices via Scalarization",
+    "authors": [
+      "Sebastian Rojas Gonzalez",
+      "Ivo Couckuyt",
+      "Joshua Knowles"
+    ],
+    "year": 2026,
+    "source_file": "Rojas Gonzalez et al. - 2026 - Bi-objective Stochastic Simulation Optimization on Integer Lattices via Scalarization.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Zakharov + Branin (ZB)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "convex",
+          "multimodal",
+          "non-convex",
+          "heteroscedastic noise",
+          "discrete lattice"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MO-CEI"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Normalized Hypervolume Regret",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Zakharov + Styblinski-Tang (ZS)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "convex",
+          "highly multimodal",
+          "rugged",
+          "heteroscedastic noise",
+          "discrete lattice"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MO-CEI"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Normalized Hypervolume Regret",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Zakharov + Branin (ZB)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "convex",
+          "multimodal",
+          "non-convex",
+          "heteroscedastic noise",
+          "discrete lattice"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GMRF-CEI"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Normalized Hypervolume Regret",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Zakharov + Styblinski-Tang (ZS)",
+        "dimensionality": "2D, 5D, 10D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "convex",
+          "highly multimodal",
+          "rugged",
+          "heteroscedastic noise",
+          "discrete lattice"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GMRF-CEI"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Normalized Hypervolume Regret",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

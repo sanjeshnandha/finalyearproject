@@ -1,0 +1,53 @@
+2026-07-10 21:18:49.280 | INFO     | gecco_pipeline.extractor:__init__:32 - Initialized GeccoExtractor with model: gemini-3.5-flash and 3 API keys
+2026-07-10 21:18:49.280 | INFO     | gecco_pipeline.processor:__init__:57 - BatchProcessor initialized
+2026-07-10 21:18:49.281 | INFO     | gecco_pipeline.utils:discover_pdfs:62 - Discovered 98 PDF files in data/pdfs/2025
+2026-07-10 21:18:49.282 | INFO     | gecco_pipeline.processor:process_batch:129 - Skipping 51 already-processed PDFs
+2026-07-10 21:18:49.282 | INFO     | gecco_pipeline.processor:process_batch:145 - Processing 47 PDFs...
+2026-07-10 21:18:49.296 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Masood - 2025 - Model-Adaptive Reference Points Generation based on Gaussian Process for Many-Objective Optimization.pdf
+2026-07-10 21:18:49.296 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Masood - 2025 - Model-Adaptive Reference Points Generation based on Gaussian Process for Many-Objective Optimization.pdf to Gemini File API...
+2026-07-10 21:18:53.907 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/neh6pstrne95
+2026-07-10 21:19:33.442 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 11 entries from Masood - 2025 - Model-Adaptive Reference Points Generation based on Gaussian Process for Many-Objective Optimization.pdf
+2026-07-10 21:19:33.450 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2025/Masood - 2025 - Model-Adaptive Reference Points Generation based on Gaussian Process for Many-Objective Optimization.json
+2026-07-10 21:19:33.452 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Masson et al. - 2025 - Empirical Studies of Multimodality in Feature Selection Generalized Crowding for Genetic Algorithms.pdf
+2026-07-10 21:19:33.452 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Masson et al. - 2025 - Empirical Studies of Multimodality in Feature Selection Generalized Crowding for Genetic Algorithms.pdf to Gemini File API...
+2026-07-10 21:19:36.918 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/hqepq2npbgnu
+2026-07-10 21:20:00.723 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 4 entries from Masson et al. - 2025 - Empirical Studies of Multimodality in Feature Selection Generalized Crowding for Genetic Algorithms.pdf
+2026-07-10 21:20:00.728 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2025/Masson et al. - 2025 - Empirical Studies of Multimodality in Feature Selection Generalized Crowding for Genetic Algorithms.json
+2026-07-10 21:20:00.729 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Merelo et al. - 2025 - Analyzing per-component energy consumption of evolutionary algorithms implemented in low-level langu.pdf
+2026-07-10 21:20:00.729 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Merelo et al. - 2025 - Analyzing per-component energy consumption of evolutionary algorithms implemented in low-level langu.pdf to Gemini File API...
+2026-07-10 21:20:03.918 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/cgfpya5uf22u
+2026-07-10 21:20:29.834 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 4 entries from Merelo et al. - 2025 - Analyzing per-component energy consumption of evolutionary algorithms implemented in low-level langu.pdf
+2026-07-10 21:20:29.837 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2025/Merelo et al. - 2025 - Analyzing per-component energy consumption of evolutionary algorithms implemented in low-level langu.json
+2026-07-10 21:20:29.837 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Millán and Hernández Castellanos - 2025 - Uncertainty Quantification of the Hypervolume for Evolutionary Multi-Objective Reinforcement Learnin.pdf
+2026-07-10 21:20:29.838 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Millán and Hernández Castellanos - 2025 - Uncertainty Quantification of the Hypervolume for Evolutionary Multi-Objective Reinforcement Learnin.pdf to Gemini File API...
+2026-07-10 21:20:34.026 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/bd2ak7v32vas
+2026-07-10 21:21:36.290 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 36 entries from Millán and Hernández Castellanos - 2025 - Uncertainty Quantification of the Hypervolume for Evolutionary Multi-Objective Reinforcement Learnin.pdf
+2026-07-10 21:21:36.303 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2025/Millán and Hernández Castellanos - 2025 - Uncertainty Quantification of the Hypervolume for Evolutionary Multi-Objective Reinforcement Learnin.json
+2026-07-10 21:21:36.304 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Miranda et al. - 2025 - Othimi A Block-Based Educational Programming Tool for Metaheuristic Design and Optimization.pdf
+2026-07-10 21:21:36.304 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Miranda et al. - 2025 - Othimi A Block-Based Educational Programming Tool for Metaheuristic Design and Optimization.pdf to Gemini File API...
+2026-07-10 21:21:40.025 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/6tlc6e1a3p9a
+2026-07-10 21:22:34.015 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 18 entries from Miranda et al. - 2025 - Othimi A Block-Based Educational Programming Tool for Metaheuristic Design and Optimization.pdf
+2026-07-10 21:22:34.020 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2025/Miranda et al. - 2025 - Othimi A Block-Based Educational Programming Tool for Metaheuristic Design and Optimization.json
+2026-07-10 21:22:34.020 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Murali et al. - 2025 - Evolve On Click (EvOC) - An Intuitive Web Platform to Collaboratively Implement, Execute, and Visual.pdf
+2026-07-10 21:22:34.021 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Murali et al. - 2025 - Evolve On Click (EvOC) - An Intuitive Web Platform to Collaboratively Implement, Execute, and Visual.pdf to Gemini File API...
+2026-07-10 21:22:37.974 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/6y81xqr1bsot
+2026-07-10 21:22:53.434 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 0 entries from Murali et al. - 2025 - Evolve On Click (EvOC) - An Intuitive Web Platform to Collaboratively Implement, Execute, and Visual.pdf
+2026-07-10 21:22:53.448 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2025/Murali et al. - 2025 - Evolve On Click (EvOC) - An Intuitive Web Platform to Collaboratively Implement, Execute, and Visual.json
+2026-07-10 21:22:53.455 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: My Binh et al. - 2025 - Reinforcement Learning-based Genetic Algorithm for Computation Offloading Optimization in UAV-assist.pdf
+2026-07-10 21:22:53.456 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading My Binh et al. - 2025 - Reinforcement Learning-based Genetic Algorithm for Computation Offloading Optimization in UAV-assist.pdf to Gemini File API...
+2026-07-10 21:22:57.488 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/6rn8dr5h2yr4
+2026-07-10 21:23:15.746 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 2 entries from My Binh et al. - 2025 - Reinforcement Learning-based Genetic Algorithm for Computation Offloading Optimization in UAV-assist.pdf
+2026-07-10 21:23:15.748 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2025/My Binh et al. - 2025 - Reinforcement Learning-based Genetic Algorithm for Computation Offloading Optimization in UAV-assist.json
+2026-07-10 21:23:15.749 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Nagler et al. - 2025 - Solution Approaches for the Balanced Task Planning Problem.pdf
+2026-07-10 21:23:15.749 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Nagler et al. - 2025 - Solution Approaches for the Balanced Task Planning Problem.pdf to Gemini File API...
+2026-07-10 21:23:18.988 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/ce6fpwme1vby
+2026-07-10 21:23:38.630 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 4 entries from Nagler et al. - 2025 - Solution Approaches for the Balanced Task Planning Problem.pdf
+2026-07-10 21:23:38.635 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2025/Nagler et al. - 2025 - Solution Approaches for the Balanced Task Planning Problem.json
+2026-07-10 21:23:38.635 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Nakagawa et al. - 2025 - Learning Rate Adaptation CMA-ES for Multimodal and Noisy Problems with Low Effective Dimensionality.pdf
+2026-07-10 21:23:38.635 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Nakagawa et al. - 2025 - Learning Rate Adaptation CMA-ES for Multimodal and Noisy Problems with Low Effective Dimensionality.pdf to Gemini File API...
+2026-07-10 21:23:42.242 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/zfx0zklabiub
+2026-07-10 21:24:15.767 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 5 entries from Nakagawa et al. - 2025 - Learning Rate Adaptation CMA-ES for Multimodal and Noisy Problems with Low Effective Dimensionality.pdf
+2026-07-10 21:24:15.771 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2025/Nakagawa et al. - 2025 - Learning Rate Adaptation CMA-ES for Multimodal and Noisy Problems with Low Effective Dimensionality.json
+2026-07-10 21:24:15.772 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Nakashima and Kobayashi - 2025 - Unifying Zeroth-Order Optimization and Genetic Algorithms for Reinforcement Learning.pdf
+2026-07-10 21:24:15.772 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Nakashima and Kobayashi - 2025 - Unifying Zeroth-Order Optimization and Genetic Algorithms for Reinforcement Learning.pdf to Gemini File API...
+2026-07-10 21:24:19.360 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/9cctkgdg2sxr

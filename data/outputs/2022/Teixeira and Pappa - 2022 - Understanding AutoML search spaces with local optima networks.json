@@ -1,0 +1,273 @@
+{
+  "metadata": {
+    "title": "Understanding AutoML Search Spaces with Local Optima Networks",
+    "authors": [
+      "Matheus C. Teixeira",
+      "Gisele L. Pappa"
+    ],
+    "year": 2022,
+    "source_file": "Teixeira and Pappa - 2022 - Understanding AutoML search spaces with local optima networks.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "AutoML pipeline configuration"
+      },
+      "the_database": {
+        "dataset_name": "diabetes",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "AutoML pipeline configuration on diabetes dataset",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "roughness",
+          "conditional parameters",
+          "hierarchical"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "classical hill-climbing"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "weighted average F-measure",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "AutoML pipeline configuration"
+      },
+      "the_database": {
+        "dataset_name": "ml-prove",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "AutoML pipeline configuration on ml-prove dataset",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "roughness",
+          "conditional parameters",
+          "hierarchical"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "classical hill-climbing"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "weighted average F-measure",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "AutoML pipeline configuration"
+      },
+      "the_database": {
+        "dataset_name": "statlog-segment",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "AutoML pipeline configuration on statlog-segment dataset",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "roughness",
+          "conditional parameters",
+          "hierarchical"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "classical hill-climbing"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "weighted average F-measure",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "AutoML pipeline configuration"
+      },
+      "the_database": {
+        "dataset_name": "texture",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "AutoML pipeline configuration on texture dataset",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "roughness",
+          "conditional parameters",
+          "hierarchical"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "classical hill-climbing"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "weighted average F-measure",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "AutoML pipeline configuration"
+      },
+      "the_database": {
+        "dataset_name": "vehicle",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "AutoML pipeline configuration on vehicle dataset",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "roughness",
+          "conditional parameters",
+          "hierarchical"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "classical hill-climbing"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "weighted average F-measure",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "AutoML pipeline configuration"
+      },
+      "the_database": {
+        "dataset_name": "wilt",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "AutoML pipeline configuration on wilt dataset",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "roughness",
+          "conditional parameters",
+          "hierarchical"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "classical hill-climbing"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "weighted average F-measure",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "AutoML pipeline configuration"
+      },
+      "the_database": {
+        "dataset_name": "wine-quality-red",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "AutoML pipeline configuration on wine-quality-red dataset",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "roughness",
+          "conditional parameters",
+          "hierarchical"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "classical hill-climbing"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "weighted average F-measure",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

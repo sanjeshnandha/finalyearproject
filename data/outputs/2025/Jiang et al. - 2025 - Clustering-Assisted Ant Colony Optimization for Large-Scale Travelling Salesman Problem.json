@@ -1,0 +1,3259 @@
+{
+  "metadata": {
+    "title": "Clustering-Assisted Ant Colony Optimization for Large-Scale Travelling Salesman Problem",
+    "authors": [
+      "Zhong-Heng Jiang",
+      "Qiang Yang",
+      "Dan-Ting Duan",
+      "Pei-Lan Xu",
+      "Cheng-Zhi Qu",
+      "Zhen-Yu Lu",
+      "Jun Zhang"
+    ],
+    "year": 2025,
+    "source_file": "Jiang et al. - 2025 - Clustering-Assisted Ant Colony Optimization for Large-Scale Travelling Salesman Problem.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "mona lisa 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "K-means + AS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "mona lisa 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "K-means + EAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "mona lisa 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "K-means + RAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "mona lisa 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "K-means + MMAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "mona lisa 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "K-means + ACS"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "verus 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "K-means + AS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "verus 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "K-means + EAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "verus 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "K-means + RAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "verus 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "K-means + MMAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "verus 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "K-means + ACS"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "paris 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "K-means + AS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "paris 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "K-means + EAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "paris 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "K-means + RAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "paris 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "K-means + MMAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "paris 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "K-means + ACS"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "comet 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "K-means + AS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "comet 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "K-means + EAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "comet 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "K-means + RAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "comet 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "K-means + MMAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "comet 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "K-means + ACS"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "usa 200K",
+        "dimensionality": "200,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "K-means + AS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "usa 200K",
+        "dimensionality": "200,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "K-means + EAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "usa 200K",
+        "dimensionality": "200,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "K-means + RAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "usa 200K",
+        "dimensionality": "200,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "K-means + MMAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "usa 200K",
+        "dimensionality": "200,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "K-means + ACS"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "world 200K",
+        "dimensionality": "200,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "K-means + AS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "world 200K",
+        "dimensionality": "200,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "K-means + EAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "world 200K",
+        "dimensionality": "200,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "K-means + RAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "world 200K",
+        "dimensionality": "200,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "K-means + MMAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "world 200K",
+        "dimensionality": "200,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "K-means + ACS"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "mona lisa 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Mini-batch K-means + AS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "mona lisa 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Mini-batch K-means + EAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "mona lisa 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Mini-batch K-means + RAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "mona lisa 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Mini-batch K-means + MMAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "mona lisa 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Mini-batch K-means + ACS"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "verus 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Mini-batch K-means + AS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "verus 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Mini-batch K-means + EAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "verus 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Mini-batch K-means + RAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "verus 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Mini-batch K-means + MMAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "verus 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Mini-batch K-means + ACS"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "paris 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Mini-batch K-means + AS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "paris 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Mini-batch K-means + EAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "paris 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Mini-batch K-means + RAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "paris 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Mini-batch K-means + MMAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "paris 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Mini-batch K-means + ACS"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "comet 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Mini-batch K-means + AS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "comet 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Mini-batch K-means + EAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "comet 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Mini-batch K-means + RAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "comet 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Mini-batch K-means + MMAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "comet 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Mini-batch K-means + ACS"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "usa 200K",
+        "dimensionality": "200,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Mini-batch K-means + AS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "usa 200K",
+        "dimensionality": "200,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Mini-batch K-means + EAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "usa 200K",
+        "dimensionality": "200,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Mini-batch K-means + RAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "usa 200K",
+        "dimensionality": "200,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Mini-batch K-means + MMAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "usa 200K",
+        "dimensionality": "200,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Mini-batch K-means + ACS"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "world 200K",
+        "dimensionality": "200,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Mini-batch K-means + AS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "world 200K",
+        "dimensionality": "200,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Mini-batch K-means + EAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "world 200K",
+        "dimensionality": "200,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Mini-batch K-means + RAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "world 200K",
+        "dimensionality": "200,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Mini-batch K-means + MMAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "world 200K",
+        "dimensionality": "200,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Mini-batch K-means + ACS"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "mona lisa 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fuzzy C-Means + AS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "mona lisa 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fuzzy C-Means + EAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "mona lisa 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fuzzy C-Means + RAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "mona lisa 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fuzzy C-Means + MMAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "mona lisa 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fuzzy C-Means + ACS"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "verus 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fuzzy C-Means + AS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "verus 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fuzzy C-Means + EAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "verus 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fuzzy C-Means + RAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "verus 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fuzzy C-Means + MMAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "verus 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fuzzy C-Means + ACS"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "paris 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fuzzy C-Means + AS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "paris 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fuzzy C-Means + EAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "paris 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fuzzy C-Means + RAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "paris 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fuzzy C-Means + MMAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "paris 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fuzzy C-Means + ACS"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "comet 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fuzzy C-Means + AS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "comet 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fuzzy C-Means + EAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "comet 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fuzzy C-Means + RAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "comet 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fuzzy C-Means + MMAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "comet 100K",
+        "dimensionality": "100,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fuzzy C-Means + ACS"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "usa 200K",
+        "dimensionality": "200,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fuzzy C-Means + AS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "usa 200K",
+        "dimensionality": "200,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fuzzy C-Means + EAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "usa 200K",
+        "dimensionality": "200,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fuzzy C-Means + RAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "usa 200K",
+        "dimensionality": "200,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fuzzy C-Means + MMAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "usa 200K",
+        "dimensionality": "200,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fuzzy C-Means + ACS"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "world 200K",
+        "dimensionality": "200,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fuzzy C-Means + AS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "world 200K",
+        "dimensionality": "200,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fuzzy C-Means + EAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "world 200K",
+        "dimensionality": "200,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fuzzy C-Means + RAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "world 200K",
+        "dimensionality": "200,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fuzzy C-Means + MMAS"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Traveling Salesman Problem"
+      },
+      "the_database": {
+        "dataset_name": "ArtTSP instances",
+        "source_platform": "https://www.math.uwaterloo.ca/tsp/data/art/index.html"
+      },
+      "the_benchmark_problem": {
+        "name": "world 200K",
+        "dimensionality": "200,000D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "large-scale",
+          "huge solution space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Fuzzy C-Means + ACS"
+      },
+      "parameters": {
+        "population_size": 10,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Percentage error from known optimal solution",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

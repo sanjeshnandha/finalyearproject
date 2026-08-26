@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "title": "Implicit Symbolic Regression via Probabilistic Fitness",
+    "authors": [
+      "Graham Roberts",
+      "Everett Grethel",
+      "Qian Yang"
+    ],
+    "year": 2024,
+    "source_file": "Roberts et al. - 2024 - Implicit Symbolic Regression via Probabilistic Fitness.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Zhong et al. Implicit Equations Suite",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "implicit equations",
+          "noisy"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PySR with Probabilistic Fitness"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate (number of trials out of 30 recovering the correct equation)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Physics/Dynamical Systems",
+        "problem_context": "Lotka-Volterra conservation law recovery"
+      },
+      "the_database": {
+        "dataset_name": "Simulated Lotka-Volterra Trajectories",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Lotka-Volterra Conservation Laws",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "conserved quantities",
+          "dynamical system"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "PySR with Probabilistic Fitness"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Success rate of recovering conserved quantities (with and without projection)",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

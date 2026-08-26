@@ -1,0 +1,241 @@
+{
+  "metadata": {
+    "title": "L-DEGR: A Novel Hybrid Algorithm for Multi-Skill Resource-Constrained Project Scheduling in Large-Scale",
+    "authors": [
+      "Konrad Gmyrek",
+      "Paweł B. Myszkowski",
+      "Jan Gregor",
+      "Łukasz P. Olech"
+    ],
+    "year": 2025,
+    "source_file": "Gmyrek et al. - 2025 - L-DEGR A Novel Hybrid Algorithm for Multi-Skill Resource-Constrained Project Scheduling in Large-Sc.pdf",
+    "gecco_track": "Project Scheduling in Large-Scale"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Multi-Skill Resource-Constrained Project Scheduling Problem (MS-RCPSP)"
+      },
+      "the_database": {
+        "dataset_name": "iMOPSE d36 instance set",
+        "source_platform": "iMOPSE library (github.com/imopse/iMOPSE)"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Skill Resource-Constrained Project Scheduling Problem (MS-RCPSP) - iMOPSE d36 instances",
+        "dimensionality": "Variable (100-200D)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "NP-hard",
+          "combinatorial",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "L-DEGR (Differential Evolution with Greedy Schedule Builder - Activity Order approach)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 5000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean makespan value achieved",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Multi-Skill Resource-Constrained Project Scheduling Problem (MS-RCPSP)"
+      },
+      "the_database": {
+        "dataset_name": "iMOPSE d36 instance set",
+        "source_platform": "iMOPSE library (github.com/imopse/iMOPSE)"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Skill Resource-Constrained Project Scheduling Problem (MS-RCPSP) - iMOPSE d36 instances",
+        "dimensionality": "Variable (100-200 activities)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "NP-hard",
+          "combinatorial",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming Hyper-Heuristic (GP-HH)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 5000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean makespan value achieved",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Multi-Skill Resource-Constrained Project Scheduling Problem (MS-RCPSP)"
+      },
+      "the_database": {
+        "dataset_name": "iMOPSE d36 instance set",
+        "source_platform": "OR-Tools library (developers.google.com/optimization)"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Skill Resource-Constrained Project Scheduling Problem (MS-RCPSP) - iMOPSE d36 instances",
+        "dimensionality": "Variable (100-200 activities)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "NP-hard",
+          "combinatorial",
+          "constrained"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CP-SAT (Constraint Programming Solver)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Makespan value achieved",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Multi-Skill Resource-Constrained Project Scheduling Problem (MS-RCPSP)"
+      },
+      "the_database": {
+        "dataset_name": "New large-sized instances for MS-RCPSP",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Skill Resource-Constrained Project Scheduling Problem (MS-RCPSP) - Large-scale instances",
+        "dimensionality": "Variable (500-1000D)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "NP-hard",
+          "combinatorial",
+          "constrained",
+          "large-scale"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "L-DEGR (Differential Evolution with Greedy Schedule Builder - Activity Resource approach)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 25000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean makespan value achieved",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Multi-Skill Resource-Constrained Project Scheduling Problem (MS-RCPSP)"
+      },
+      "the_database": {
+        "dataset_name": "New large-sized instances for MS-RCPSP",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Skill Resource-Constrained Project Scheduling Problem (MS-RCPSP) - Large-scale instances",
+        "dimensionality": "Variable (500-1000D)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "NP-hard",
+          "combinatorial",
+          "constrained",
+          "large-scale"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "L-SHADE (Success-History based Adaptive Differential Evolution with Linear Population Size Reduction - Activity Order approach)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 25000000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean makespan value achieved",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Multi-Skill Resource-Constrained Project Scheduling Problem (MS-RCPSP)"
+      },
+      "the_database": {
+        "dataset_name": "New large-sized instances for MS-RCPSP",
+        "source_platform": "OR-Tools library (developers.google.com/optimization)"
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Skill Resource-Constrained Project Scheduling Problem (MS-RCPSP) - Large-scale instances",
+        "dimensionality": "Variable (500-1000 activities)"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "NP-hard",
+          "combinatorial",
+          "constrained",
+          "large-scale"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CP-SAT (Constraint Programming Solver)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Makespan value achieved",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

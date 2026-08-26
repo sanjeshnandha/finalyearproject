@@ -1,0 +1,879 @@
+{
+  "metadata": {
+    "title": "Improving Symbolic Regression based on Correlation Between Residuals and Variables",
+    "authors": [
+      "Qi Chen",
+      "Bing Xue",
+      "Mengjie Zhang"
+    ],
+    "year": 2020,
+    "source_file": "Chen et al. - 2020 - Improving symbolic regression based on correlation between residuals and variables.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Environmental",
+        "problem_context": "Symbolic Regression on Pollution dataset"
+      },
+      "the_database": {
+        "dataset_name": "Pollution",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Pollution",
+        "dimensionality": "15D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "overfitting-prone"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MGPWC"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Relative Square Error (RSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Environmental",
+        "problem_context": "Symbolic Regression on Pollution dataset"
+      },
+      "the_database": {
+        "dataset_name": "Pollution",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Pollution",
+        "dimensionality": "15D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "overfitting-prone"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GPPP"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Relative Square Error (RSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Environmental",
+        "problem_context": "Symbolic Regression on Pollution dataset"
+      },
+      "the_database": {
+        "dataset_name": "Pollution",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Pollution",
+        "dimensionality": "15D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "overfitting-prone"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GPTK"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Relative Square Error (RSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Environmental",
+        "problem_context": "Symbolic Regression on Pollution dataset"
+      },
+      "the_database": {
+        "dataset_name": "Pollution",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Pollution",
+        "dimensionality": "15D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "overfitting-prone"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard GP"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Relative Square Error (RSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Social Sciences",
+        "problem_context": "Symbolic Regression on USCrime dataset"
+      },
+      "the_database": {
+        "dataset_name": "USCrime",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "USCrime",
+        "dimensionality": "13D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "overfitting-prone"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MGPWC"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Relative Square Error (RSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Social Sciences",
+        "problem_context": "Symbolic Regression on USCrime dataset"
+      },
+      "the_database": {
+        "dataset_name": "USCrime",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "USCrime",
+        "dimensionality": "13D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "overfitting-prone"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GPPP"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Relative Square Error (RSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Social Sciences",
+        "problem_context": "Symbolic Regression on USCrime dataset"
+      },
+      "the_database": {
+        "dataset_name": "USCrime",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "USCrime",
+        "dimensionality": "13D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "overfitting-prone"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GPTK"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Relative Square Error (RSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Social Sciences",
+        "problem_context": "Symbolic Regression on USCrime dataset"
+      },
+      "the_database": {
+        "dataset_name": "USCrime",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "USCrime",
+        "dimensionality": "13D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "overfitting-prone"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard GP"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Relative Square Error (RSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "General Regression",
+        "problem_context": "Symbolic Regression on Fri_c0_100_25 dataset"
+      },
+      "the_database": {
+        "dataset_name": "Fri_c0_100_25",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Fri_c0_100_25",
+        "dimensionality": "25D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "overfitting-prone"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MGPWC"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Relative Square Error (RSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "General Regression",
+        "problem_context": "Symbolic Regression on Fri_c0_100_25 dataset"
+      },
+      "the_database": {
+        "dataset_name": "Fri_c0_100_25",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Fri_c0_100_25",
+        "dimensionality": "25D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "overfitting-prone"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GPPP"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Relative Square Error (RSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "General Regression",
+        "problem_context": "Symbolic Regression on Fri_c0_100_25 dataset"
+      },
+      "the_database": {
+        "dataset_name": "Fri_c0_100_25",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Fri_c0_100_25",
+        "dimensionality": "25D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "overfitting-prone"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GPTK"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Relative Square Error (RSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "General Regression",
+        "problem_context": "Symbolic Regression on Fri_c0_100_25 dataset"
+      },
+      "the_database": {
+        "dataset_name": "Fri_c0_100_25",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Fri_c0_100_25",
+        "dimensionality": "25D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "overfitting-prone"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard GP"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Relative Square Error (RSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Symbolic Regression on LD50 dataset"
+      },
+      "the_database": {
+        "dataset_name": "LD50",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "LD50",
+        "dimensionality": "626D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "overfitting-prone"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MGPWC"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Relative Square Error (RSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Symbolic Regression on LD50 dataset"
+      },
+      "the_database": {
+        "dataset_name": "LD50",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "LD50",
+        "dimensionality": "626D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "overfitting-prone"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GPPP"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Relative Square Error (RSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Symbolic Regression on LD50 dataset"
+      },
+      "the_database": {
+        "dataset_name": "LD50",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "LD50",
+        "dimensionality": "626D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "overfitting-prone"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GPTK"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Relative Square Error (RSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Symbolic Regression on LD50 dataset"
+      },
+      "the_database": {
+        "dataset_name": "LD50",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "LD50",
+        "dimensionality": "626D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "overfitting-prone"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard GP"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Relative Square Error (RSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Biology",
+        "problem_context": "Symbolic Regression on BIO dataset"
+      },
+      "the_database": {
+        "dataset_name": "BIO",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BIO",
+        "dimensionality": "241D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "overfitting-prone"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MGPWC"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Relative Square Error (RSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Biology",
+        "problem_context": "Symbolic Regression on BIO dataset"
+      },
+      "the_database": {
+        "dataset_name": "BIO",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BIO",
+        "dimensionality": "241D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "overfitting-prone"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GPPP"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Relative Square Error (RSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Biology",
+        "problem_context": "Symbolic Regression on BIO dataset"
+      },
+      "the_database": {
+        "dataset_name": "BIO",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BIO",
+        "dimensionality": "241D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "overfitting-prone"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GPTK"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Relative Square Error (RSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Biology",
+        "problem_context": "Symbolic Regression on BIO dataset"
+      },
+      "the_database": {
+        "dataset_name": "BIO",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BIO",
+        "dimensionality": "241D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "overfitting-prone"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard GP"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Relative Square Error (RSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Symbolic Regression on Diabetes dataset"
+      },
+      "the_database": {
+        "dataset_name": "Diabetes",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Diabetes",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "overfitting-prone"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MGPWC"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Relative Square Error (RSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Symbolic Regression on Diabetes dataset"
+      },
+      "the_database": {
+        "dataset_name": "Diabetes",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Diabetes",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "overfitting-prone"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GPPP"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Relative Square Error (RSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Symbolic Regression on Diabetes dataset"
+      },
+      "the_database": {
+        "dataset_name": "Diabetes",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Diabetes",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "overfitting-prone"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "GPTK"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Relative Square Error (RSE)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Symbolic Regression on Diabetes dataset"
+      },
+      "the_database": {
+        "dataset_name": "Diabetes",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Diabetes",
+        "dimensionality": "10D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "overfitting-prone"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard GP"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.2,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "Relative Square Error (RSE)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

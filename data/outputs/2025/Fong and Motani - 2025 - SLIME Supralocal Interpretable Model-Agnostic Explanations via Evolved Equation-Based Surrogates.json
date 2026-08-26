@@ -1,0 +1,878 @@
+{
+  "metadata": {
+    "title": "SLIME: Supralocal Interpretable Model-Agnostic Explanations via Evolved Equation-Based Surrogates",
+    "authors": [
+      "Kei Sen Fong",
+      "Mehul Motani"
+    ],
+    "year": 2025,
+    "source_file": "Fong and Motani - 2025 - SLIME Supralocal Interpretable Model-Agnostic Explanations via Evolved Equation-Based Surrogates.pdf",
+    "gecco_track": "GECCO '25 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning Explanation",
+        "problem_context": "Evaluating machine learning explanation algorithms"
+      },
+      "the_database": {
+        "dataset_name": "PMLB_225",
+        "source_platform": "PMLB"
+      },
+      "the_benchmark_problem": {
+        "name": "PMLB_225",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-linear",
+          "complex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SLIME (Evolutionary Symbolic Regression - PySR)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "K-Neighbors Fidelity (R2 score)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning Explanation",
+        "problem_context": "Evaluating machine learning explanation algorithms"
+      },
+      "the_database": {
+        "dataset_name": "PMLB_225",
+        "source_platform": "PMLB"
+      },
+      "the_benchmark_problem": {
+        "name": "PMLB_225",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-linear",
+          "complex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIME (Linear Surrogate Model)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "K-Neighbors Fidelity (R2 score)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning Explanation",
+        "problem_context": "Evaluating machine learning explanation algorithms"
+      },
+      "the_database": {
+        "dataset_name": "PMLB_230",
+        "source_platform": "PMLB"
+      },
+      "the_benchmark_problem": {
+        "name": "PMLB_230",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-linear",
+          "complex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SLIME (Evolutionary Symbolic Regression - PySR)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "K-Neighbors Fidelity (R2 score)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning Explanation",
+        "problem_context": "Evaluating machine learning explanation algorithms"
+      },
+      "the_database": {
+        "dataset_name": "PMLB_230",
+        "source_platform": "PMLB"
+      },
+      "the_benchmark_problem": {
+        "name": "PMLB_230",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-linear",
+          "complex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIME (Linear Surrogate Model)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "K-Neighbors Fidelity (R2 score)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning Explanation",
+        "problem_context": "Evaluating machine learning explanation algorithms"
+      },
+      "the_database": {
+        "dataset_name": "PMLB_522",
+        "source_platform": "PMLB"
+      },
+      "the_benchmark_problem": {
+        "name": "PMLB_522",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-linear",
+          "complex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SLIME (Evolutionary Symbolic Regression - PySR)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "K-Neighbors Fidelity (R2 score)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning Explanation",
+        "problem_context": "Evaluating machine learning explanation algorithms"
+      },
+      "the_database": {
+        "dataset_name": "PMLB_522",
+        "source_platform": "PMLB"
+      },
+      "the_benchmark_problem": {
+        "name": "PMLB_522",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-linear",
+          "complex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIME (Linear Surrogate Model)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "K-Neighbors Fidelity (R2 score)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning Explanation",
+        "problem_context": "Evaluating machine learning explanation algorithms"
+      },
+      "the_database": {
+        "dataset_name": "PMLB_529",
+        "source_platform": "PMLB"
+      },
+      "the_benchmark_problem": {
+        "name": "PMLB_529",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-linear",
+          "complex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SLIME (Evolutionary Symbolic Regression - PySR)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "K-Neighbors Fidelity (R2 score)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning Explanation",
+        "problem_context": "Evaluating machine learning explanation algorithms"
+      },
+      "the_database": {
+        "dataset_name": "PMLB_529",
+        "source_platform": "PMLB"
+      },
+      "the_benchmark_problem": {
+        "name": "PMLB_529",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-linear",
+          "complex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIME (Linear Surrogate Model)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "K-Neighbors Fidelity (R2 score)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning Explanation",
+        "problem_context": "Evaluating machine learning explanation algorithms"
+      },
+      "the_database": {
+        "dataset_name": "PMLB_547",
+        "source_platform": "PMLB"
+      },
+      "the_benchmark_problem": {
+        "name": "PMLB_547",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-linear",
+          "complex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SLIME (Evolutionary Symbolic Regression - PySR)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "K-Neighbors Fidelity (R2 score)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning Explanation",
+        "problem_context": "Evaluating machine learning explanation algorithms"
+      },
+      "the_database": {
+        "dataset_name": "PMLB_547",
+        "source_platform": "PMLB"
+      },
+      "the_benchmark_problem": {
+        "name": "PMLB_547",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-linear",
+          "complex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIME (Linear Surrogate Model)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "K-Neighbors Fidelity (R2 score)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning Explanation",
+        "problem_context": "Evaluating machine learning explanation algorithms"
+      },
+      "the_database": {
+        "dataset_name": "PMLB_561",
+        "source_platform": "PMLB"
+      },
+      "the_benchmark_problem": {
+        "name": "PMLB_561",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-linear",
+          "complex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SLIME (Evolutionary Symbolic Regression - PySR)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "K-Neighbors Fidelity (R2 score)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning Explanation",
+        "problem_context": "Evaluating machine learning explanation algorithms"
+      },
+      "the_database": {
+        "dataset_name": "PMLB_561",
+        "source_platform": "PMLB"
+      },
+      "the_benchmark_problem": {
+        "name": "PMLB_561",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-linear",
+          "complex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIME (Linear Surrogate Model)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "K-Neighbors Fidelity (R2 score)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning Explanation",
+        "problem_context": "Evaluating machine learning explanation algorithms"
+      },
+      "the_database": {
+        "dataset_name": "PMLB_579",
+        "source_platform": "PMLB"
+      },
+      "the_benchmark_problem": {
+        "name": "PMLB_579",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-linear",
+          "complex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SLIME (Evolutionary Symbolic Regression - PySR)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "K-Neighbors Fidelity (R2 score)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning Explanation",
+        "problem_context": "Evaluating machine learning explanation algorithms"
+      },
+      "the_database": {
+        "dataset_name": "PMLB_579",
+        "source_platform": "PMLB"
+      },
+      "the_benchmark_problem": {
+        "name": "PMLB_579",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-linear",
+          "complex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIME (Linear Surrogate Model)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "K-Neighbors Fidelity (R2 score)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning Explanation",
+        "problem_context": "Evaluating machine learning explanation algorithms"
+      },
+      "the_database": {
+        "dataset_name": "PMLB_596",
+        "source_platform": "PMLB"
+      },
+      "the_benchmark_problem": {
+        "name": "PMLB_596",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-linear",
+          "complex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SLIME (Evolutionary Symbolic Regression - PySR)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "K-Neighbors Fidelity (R2 score)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning Explanation",
+        "problem_context": "Evaluating machine learning explanation algorithms"
+      },
+      "the_database": {
+        "dataset_name": "PMLB_596",
+        "source_platform": "PMLB"
+      },
+      "the_benchmark_problem": {
+        "name": "PMLB_596",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-linear",
+          "complex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIME (Linear Surrogate Model)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "K-Neighbors Fidelity (R2 score)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning Explanation",
+        "problem_context": "Evaluating machine learning explanation algorithms"
+      },
+      "the_database": {
+        "dataset_name": "PMLB_597",
+        "source_platform": "PMLB"
+      },
+      "the_benchmark_problem": {
+        "name": "PMLB_597",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-linear",
+          "complex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SLIME (Evolutionary Symbolic Regression - PySR)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "K-Neighbors Fidelity (R2 score)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning Explanation",
+        "problem_context": "Evaluating machine learning explanation algorithms"
+      },
+      "the_database": {
+        "dataset_name": "PMLB_597",
+        "source_platform": "PMLB"
+      },
+      "the_benchmark_problem": {
+        "name": "PMLB_597",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-linear",
+          "complex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIME (Linear Surrogate Model)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "K-Neighbors Fidelity (R2 score)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning Explanation",
+        "problem_context": "Evaluating machine learning explanation algorithms"
+      },
+      "the_database": {
+        "dataset_name": "PMLB_599",
+        "source_platform": "PMLB"
+      },
+      "the_benchmark_problem": {
+        "name": "PMLB_599",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-linear",
+          "complex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SLIME (Evolutionary Symbolic Regression - PySR)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "K-Neighbors Fidelity (R2 score)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning Explanation",
+        "problem_context": "Evaluating machine learning explanation algorithms"
+      },
+      "the_database": {
+        "dataset_name": "PMLB_599",
+        "source_platform": "PMLB"
+      },
+      "the_benchmark_problem": {
+        "name": "PMLB_599",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-linear",
+          "complex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIME (Linear Surrogate Model)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "K-Neighbors Fidelity (R2 score)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning Explanation",
+        "problem_context": "Evaluating machine learning explanation algorithms"
+      },
+      "the_database": {
+        "dataset_name": "UCI_AS",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "UCI_AS",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-linear",
+          "complex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SLIME (Evolutionary Symbolic Regression - PySR)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "K-Neighbors Fidelity (R2 score)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning Explanation",
+        "problem_context": "Evaluating machine learning explanation algorithms"
+      },
+      "the_database": {
+        "dataset_name": "UCI_AS",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "UCI_AS",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-linear",
+          "complex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIME (Linear Surrogate Model)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "K-Neighbors Fidelity (R2 score)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning Explanation",
+        "problem_context": "Evaluating machine learning explanation algorithms"
+      },
+      "the_database": {
+        "dataset_name": "UCI_BH",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "UCI_BH",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-linear",
+          "complex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SLIME (Evolutionary Symbolic Regression - PySR)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "K-Neighbors Fidelity (R2 score)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning Explanation",
+        "problem_context": "Evaluating machine learning explanation algorithms"
+      },
+      "the_database": {
+        "dataset_name": "UCI_BH",
+        "source_platform": "UCI Repository"
+      },
+      "the_benchmark_problem": {
+        "name": "UCI_BH",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "non-linear",
+          "complex"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LIME (Linear Surrogate Model)"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "K-Neighbors Fidelity (R2 score)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

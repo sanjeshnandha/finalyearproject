@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "title": "The Environment and Body-Brain Complexity",
+    "authors": [
+      "Christina Spanellis",
+      "Brooke Stewart",
+      "Geoff Nitschke"
+    ],
+    "year": 2021,
+    "source_file": "Spanellis et al. - 2021 - The Environment and Body-Brain Complexity.pdf",
+    "gecco_track": "Evolutionary Robotics"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Evolving robot body-brain couplings for adaptive locomotion in simulated environments"
+      },
+      "the_database": {
+        "dataset_name": "RoboGen Simulation Environments",
+        "source_platform": "RoboGen"
+      },
+      "the_benchmark_problem": {
+        "name": "RoboGen Locomotion Task",
+        "dimensionality": "Variable (up to 50 morphology nodes)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "varying terrain friction",
+          "obstacles",
+          "terrain tilt"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Novelty Search"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.1
+      },
+      "performance_outcome": {
+        "metric": "Average maximum task performance (normalized distance traversed)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Evolving robot body-brain couplings for adaptive locomotion in simulated environments"
+      },
+      "the_database": {
+        "dataset_name": "RoboGen Simulation Environments",
+        "source_platform": "RoboGen"
+      },
+      "the_benchmark_problem": {
+        "name": "RoboGen Locomotion Task",
+        "dimensionality": "Variable (up to 50 morphology nodes)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "varying terrain friction",
+          "obstacles",
+          "terrain tilt"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Objective-based Search"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 100,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.1
+      },
+      "performance_outcome": {
+        "metric": "Average maximum task performance (normalized distance traversed)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

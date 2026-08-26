@@ -1,0 +1,78 @@
+2026-08-14 11:27:39.989 | INFO     | gecco_pipeline.extractor:__init__:32 - Initialized GeccoExtractor with model: gemini-3.5-flash and 3 API keys
+2026-08-14 11:27:39.989 | INFO     | gecco_pipeline.processor:__init__:57 - BatchProcessor initialized
+2026-08-14 11:27:39.991 | INFO     | gecco_pipeline.utils:discover_pdfs:62 - Discovered 98 PDF files in data/pdfs/2021
+2026-08-14 11:27:39.992 | INFO     | gecco_pipeline.processor:process_batch:129 - Skipping 32 already-processed PDFs
+2026-08-14 11:27:39.992 | INFO     | gecco_pipeline.processor:process_batch:145 - Processing 66 PDFs...
+2026-08-14 11:27:40.010 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Baeta et al. - 2021 - Speed benchmarking of genetic programming frameworks.pdf
+2026-08-14 11:27:40.010 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Baeta et al. - 2021 - Speed benchmarking of genetic programming frameworks.pdf to Gemini File API...
+2026-08-14 11:27:43.298 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/8n5kenq2dyva
+2026-08-14 11:28:13.366 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 8 entries from Baeta et al. - 2021 - Speed benchmarking of genetic programming frameworks.pdf
+2026-08-14 11:28:13.370 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Baeta et al. - 2021 - Speed benchmarking of genetic programming frameworks.json
+2026-08-14 11:28:13.370 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Blank and Deb - 2021 - PSAF a probabilistic surrogate-assisted framework for single-objective optimization.pdf
+2026-08-14 11:28:13.371 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Blank and Deb - 2021 - PSAF a probabilistic surrogate-assisted framework for single-objective optimization.pdf to Gemini File API...
+2026-08-14 11:28:21.520 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/au2ddjs4i28n
+2026-08-14 11:30:08.781 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 4 entries from Blank and Deb - 2021 - PSAF a probabilistic surrogate-assisted framework for single-objective optimization.pdf
+2026-08-14 11:30:08.830 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Blank and Deb - 2021 - PSAF a probabilistic surrogate-assisted framework for single-objective optimization.json
+2026-08-14 11:30:08.831 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Boisbunon et al. - 2021 - Zoetrope genetic programming for regression.pdf
+2026-08-14 11:30:08.832 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Boisbunon et al. - 2021 - Zoetrope genetic programming for regression.pdf to Gemini File API...
+2026-08-14 11:30:14.527 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/xy27rtv0ls41
+2026-08-14 11:30:48.507 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 6 entries from Boisbunon et al. - 2021 - Zoetrope genetic programming for regression.pdf
+2026-08-14 11:30:48.513 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Boisbunon et al. - 2021 - Zoetrope genetic programming for regression.json
+2026-08-14 11:30:48.514 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Bossek and Neumann - 2021 - Evolutionary diversity optimization and the minimum spanning tree problem.pdf
+2026-08-14 11:30:48.514 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Bossek and Neumann - 2021 - Evolutionary diversity optimization and the minimum spanning tree problem.pdf to Gemini File API...
+2026-08-14 11:30:51.775 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/qaqmbktp998l
+2026-08-14 11:31:24.680 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 6 entries from Bossek and Neumann - 2021 - Evolutionary diversity optimization and the minimum spanning tree problem.pdf
+2026-08-14 11:31:24.683 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Bossek and Neumann - 2021 - Evolutionary diversity optimization and the minimum spanning tree problem.json
+2026-08-14 11:31:24.684 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Buzdalov and Doerr - 2021 - Optimal static mutation strength distributions for the (1 + λ) evolutionary algorithm on OneMax.pdf
+2026-08-14 11:31:24.684 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Buzdalov and Doerr - 2021 - Optimal static mutation strength distributions for the (1 + λ) evolutionary algorithm on OneMax.pdf to Gemini File API...
+2026-08-14 11:31:28.972 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/o9p6cgmzd4gd
+2026-08-14 11:33:28.450 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 4 entries from Buzdalov and Doerr - 2021 - Optimal static mutation strength distributions for the (1 + λ) evolutionary algorithm on OneMax.pdf
+2026-08-14 11:33:28.456 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Buzdalov and Doerr - 2021 - Optimal static mutation strength distributions for the (1 + λ) evolutionary algorithm on OneMax.json
+2026-08-14 11:33:28.457 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Capps and Schrum - 2021 - Using multiple generative adversarial networks to build better-connected levels for mega man.pdf
+2026-08-14 11:33:28.457 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Capps and Schrum - 2021 - Using multiple generative adversarial networks to build better-connected levels for mega man.pdf to Gemini File API...
+2026-08-14 11:33:34.139 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/5d525521cd5c
+2026-08-14 11:37:28.260 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 2 entries from Capps and Schrum - 2021 - Using multiple generative adversarial networks to build better-connected levels for mega man.pdf
+2026-08-14 11:37:28.264 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Capps and Schrum - 2021 - Using multiple generative adversarial networks to build better-connected levels for mega man.json
+2026-08-14 11:37:28.266 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Cazenille - 2021 - Ensemble feature extraction for multi-container quality-diversity algorithms.pdf
+2026-08-14 11:37:28.266 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Cazenille - 2021 - Ensemble feature extraction for multi-container quality-diversity algorithms.pdf to Gemini File API...
+2026-08-14 11:37:33.441 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/2mrub55os4x5
+2026-08-14 11:39:57.702 | WARNING  | gecco_pipeline.extractor:_call_with_retry:219 - Attempt 1/3 failed for Cazenille - 2021 - Ensemble feature extraction for multi-container quality-diversity algorithms.pdf: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying in 2.4s...
+2026-08-14 11:40:29.332 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 3 entries from Cazenille - 2021 - Ensemble feature extraction for multi-container quality-diversity algorithms.pdf
+2026-08-14 11:40:29.335 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Cazenille - 2021 - Ensemble feature extraction for multi-container quality-diversity algorithms.json
+2026-08-14 11:40:29.336 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Chicano et al. - 2021 - Real-like MAX-SAT instances and the landscape structure across the phase transition.pdf
+2026-08-14 11:40:29.336 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Chicano et al. - 2021 - Real-like MAX-SAT instances and the landscape structure across the phase transition.pdf to Gemini File API...
+2026-08-14 11:40:32.414 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/ghcrtnsz3k5m
+2026-08-14 11:40:57.199 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 2 entries from Chicano et al. - 2021 - Real-like MAX-SAT instances and the landscape structure across the phase transition.pdf
+2026-08-14 11:40:57.201 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Chicano et al. - 2021 - Real-like MAX-SAT instances and the landscape structure across the phase transition.json
+2026-08-14 11:40:57.202 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Cully - 2021 - Multi-emitter MAP-elites improving quality, diversity and data efficiency with heterogeneous sets o.pdf
+2026-08-14 11:40:57.202 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Cully - 2021 - Multi-emitter MAP-elites improving quality, diversity and data efficiency with heterogeneous sets o.pdf to Gemini File API...
+2026-08-14 11:49:57.733 | ERROR    | gecco_pipeline.extractor:_upload_pdf:137 - Failed to upload Cully - 2021 - Multi-emitter MAP-elites improving quality, diversity and data efficiency with heterogeneous sets o.pdf: [Errno 54] Connection reset by peer
+2026-08-14 11:49:57.733 | WARNING  | gecco_pipeline.extractor:_call_with_retry:219 - Attempt 1/3 failed for Cully - 2021 - Multi-emitter MAP-elites improving quality, diversity and data efficiency with heterogeneous sets o.pdf: [Errno 54] Connection reset by peer. Retrying in 2.8s...
+2026-08-14 11:50:00.527 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Cully - 2021 - Multi-emitter MAP-elites improving quality, diversity and data efficiency with heterogeneous sets o.pdf to Gemini File API...
+2026-08-14 11:50:05.718 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/ito4vn8c7okb
+2026-08-14 11:51:00.265 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 6 entries from Cully - 2021 - Multi-emitter MAP-elites improving quality, diversity and data efficiency with heterogeneous sets o.pdf
+2026-08-14 11:51:00.267 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Cully - 2021 - Multi-emitter MAP-elites improving quality, diversity and data efficiency with heterogeneous sets o.json
+2026-08-14 11:51:00.269 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Derbel and Canonne - 2021 - A graph coloring based parallel hill climber for large-scale NK-landscapes.pdf
+2026-08-14 11:51:00.269 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Derbel and Canonne - 2021 - A graph coloring based parallel hill climber for large-scale NK-landscapes.pdf to Gemini File API...
+2026-08-14 11:51:04.075 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/j5qz3tz16t3h
+2026-08-14 11:53:25.049 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 4 entries from Derbel and Canonne - 2021 - A graph coloring based parallel hill climber for large-scale NK-landscapes.pdf
+2026-08-14 11:53:25.053 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Derbel and Canonne - 2021 - A graph coloring based parallel hill climber for large-scale NK-landscapes.json
+2026-08-14 11:53:25.054 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Eftimov et al. - 2021 - Personalizing performance regression models to black-box optimization problems.pdf
+2026-08-14 11:53:25.054 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Eftimov et al. - 2021 - Personalizing performance regression models to black-box optimization problems.pdf to Gemini File API...
+2026-08-14 11:53:29.235 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/gcp887xdpmqd
+2026-08-14 11:54:08.606 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 12 entries from Eftimov et al. - 2021 - Personalizing performance regression models to black-box optimization problems.pdf
+2026-08-14 11:54:08.610 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Eftimov et al. - 2021 - Personalizing performance regression models to black-box optimization problems.json
+2026-08-14 11:54:08.611 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Falcón-Cardona et al. - 2021 - Pareto compliance from a practical point of view.pdf
+2026-08-14 11:54:08.611 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Falcón-Cardona et al. - 2021 - Pareto compliance from a practical point of view.pdf to Gemini File API...
+2026-08-14 11:54:13.380 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/ouqmrykmznm2
+2026-08-14 11:54:49.563 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 6 entries from Falcón-Cardona et al. - 2021 - Pareto compliance from a practical point of view.pdf
+2026-08-14 11:54:49.566 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Falcón-Cardona et al. - 2021 - Pareto compliance from a practical point of view.json
+2026-08-14 11:54:49.567 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Fitzgerald et al. - 2021 - Evolving soft robotic jamming grippers.pdf
+2026-08-14 11:54:49.567 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Fitzgerald et al. - 2021 - Evolving soft robotic jamming grippers.pdf to Gemini File API...
+2026-08-14 11:54:53.716 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/pp7jnoh20zhu
+2026-08-14 12:34:44.349 | WARNING  | gecco_pipeline.extractor:_call_with_retry:219 - Attempt 1/3 failed for Fitzgerald et al. - 2021 - Evolving soft robotic jamming grippers.pdf: [Errno 54] Connection reset by peer. Retrying in 2.0s...
+2026-08-14 12:35:07.693 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 2 entries from Fitzgerald et al. - 2021 - Evolving soft robotic jamming grippers.pdf
+2026-08-14 12:35:07.696 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2021/Fitzgerald et al. - 2021 - Evolving soft robotic jamming grippers.json
+2026-08-14 12:35:07.697 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Gonzalez and Miikkulainen - 2021 - Optimizing loss functions through multi-variate taylor polynomial parameterization.pdf
+2026-08-14 12:35:07.697 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Gonzalez and Miikkulainen - 2021 - Optimizing loss functions through multi-variate taylor polynomial parameterization.pdf to Gemini File API...
+2026-08-14 12:35:11.338 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/6diiweobh9ym

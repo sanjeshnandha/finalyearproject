@@ -1,0 +1,444 @@
+{
+  "metadata": {
+    "title": "Self-adaptation of XCS learning parameters based on Learning theory",
+    "authors": [
+      "Motoki Horiuchi",
+      "Masaya Nakata"
+    ],
+    "year": 2020,
+    "source_file": "Horiuchi and Nakata - 2020 - Self-adaptation of XCS learning parameters based on learning theory.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "6-bit Multiplexer (6-MUX)",
+        "dimensionality": "6-bit"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "epistasis",
+          "heterogeneity"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard XCS"
+      },
+      "parameters": {
+        "population_size": 300,
+        "max_evaluations_or_generations": 20000,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "System classification accuracy",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "6-bit Multiplexer (6-MUX)",
+        "dimensionality": "6-bit"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "epistasis",
+          "heterogeneity"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "XCS Theory"
+      },
+      "parameters": {
+        "population_size": 300,
+        "max_evaluations_or_generations": 20000,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "System classification accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "6-bit Multiplexer (6-MUX)",
+        "dimensionality": "6-bit"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "epistasis",
+          "heterogeneity"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "XCS Self-Ada."
+      },
+      "parameters": {
+        "population_size": 300,
+        "max_evaluations_or_generations": 20000,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "System classification accuracy",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "70-bit Multiplexer (70-MUX)",
+        "dimensionality": "70-bit"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "epistasis",
+          "heterogeneity"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard XCS"
+      },
+      "parameters": {
+        "population_size": 30000,
+        "max_evaluations_or_generations": 2000000,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "System classification accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "70-bit Multiplexer (70-MUX)",
+        "dimensionality": "70-bit"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "epistasis",
+          "heterogeneity"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "XCS Theory"
+      },
+      "parameters": {
+        "population_size": 30000,
+        "max_evaluations_or_generations": 2000000,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "System classification accuracy",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "70-bit Multiplexer (70-MUX)",
+        "dimensionality": "70-bit"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "epistasis",
+          "heterogeneity"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "XCS Self-Ada."
+      },
+      "parameters": {
+        "population_size": 30000,
+        "max_evaluations_or_generations": 2000000,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "System classification accuracy",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "11-bit Class-Imbalanced Multiplexer (11-CIMUX)",
+        "dimensionality": "11-bit"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "epistasis",
+          "heterogeneity",
+          "class-imbalanced"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard XCS"
+      },
+      "parameters": {
+        "population_size": 800,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.04,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "System classification accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "11-bit Class-Imbalanced Multiplexer (11-CIMUX)",
+        "dimensionality": "11-bit"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "epistasis",
+          "heterogeneity",
+          "class-imbalanced"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "XCS Self-Ada."
+      },
+      "parameters": {
+        "population_size": 800,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.04,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "System classification accuracy",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "16-bit Carry Problem",
+        "dimensionality": "16-bit"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "overlapping niches"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard XCS"
+      },
+      "parameters": {
+        "population_size": 100000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "System classification accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "16-bit Carry Problem",
+        "dimensionality": "16-bit"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "overlapping niches"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "XCS Self-Ada."
+      },
+      "parameters": {
+        "population_size": 100000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "System classification accuracy",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "15-Majority-on Problem",
+        "dimensionality": "15-bit"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "overlapping niches"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Standard XCS"
+      },
+      "parameters": {
+        "population_size": 100000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "System classification accuracy",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "15-Majority-on Problem",
+        "dimensionality": "15-bit"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "overlapping niches"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "XCS Self-Ada."
+      },
+      "parameters": {
+        "population_size": 100000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.01,
+        "crossover_rate": 0.8
+      },
+      "performance_outcome": {
+        "metric": "System classification accuracy",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

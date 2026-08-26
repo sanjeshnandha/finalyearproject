@@ -1,0 +1,808 @@
+{
+  "metadata": {
+    "title": "Evaluating the Generalizability of Machine Learning Pipelines When Using Lexicase or Tournament Selection",
+    "authors": [
+      "Jose Guadalupe Hernandez",
+      "Ankit Gupta",
+      "Anil Kumar Saini",
+      "Jason Moore"
+    ],
+    "year": 2025,
+    "source_file": "Hernandez et al. - 2025 - Evaluating the Generalizability of Machine Learning Pipelines When Using Lexicase or Tournament Sele.pdf",
+    "gecco_track": "Genetic and Evolutionary Computation"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "AutoML pipeline optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Classification Tasks",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 146818",
+        "dimensionality": "4-100D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with Lexicase Selection"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Validation accuracy, Test accuracy, Pipeline complexity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "AutoML pipeline optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Classification Tasks",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 146818",
+        "dimensionality": "4-100D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with Tournament Selection"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Validation accuracy, Test accuracy, Pipeline complexity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "AutoML pipeline optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Classification Tasks",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 359954",
+        "dimensionality": "4-100D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with Lexicase Selection"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Validation accuracy, Test accuracy, Pipeline complexity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "AutoML pipeline optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Classification Tasks",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 359954",
+        "dimensionality": "4-100D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with Tournament Selection"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Validation accuracy, Test accuracy, Pipeline complexity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "AutoML pipeline optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Classification Tasks",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 359955",
+        "dimensionality": "4-100D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with Lexicase Selection"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Validation accuracy, Test accuracy, Pipeline complexity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "AutoML pipeline optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Classification Tasks",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 359955",
+        "dimensionality": "4-100D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with Tournament Selection"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Validation accuracy, Test accuracy, Pipeline complexity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "AutoML pipeline optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Classification Tasks",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 190146",
+        "dimensionality": "4-100D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with Lexicase Selection"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Validation accuracy, Test accuracy, Pipeline complexity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "AutoML pipeline optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Classification Tasks",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 190146",
+        "dimensionality": "4-100D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with Tournament Selection"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Validation accuracy, Test accuracy, Pipeline complexity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "AutoML pipeline optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Classification Tasks",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 168757",
+        "dimensionality": "4-100D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with Lexicase Selection"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Validation accuracy, Test accuracy, Pipeline complexity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "AutoML pipeline optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Classification Tasks",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 168757",
+        "dimensionality": "4-100D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with Tournament Selection"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Validation accuracy, Test accuracy, Pipeline complexity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "AutoML pipeline optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Classification Tasks",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 359956",
+        "dimensionality": "4-100D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with Lexicase Selection"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Validation accuracy, Test accuracy, Pipeline complexity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "AutoML pipeline optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Classification Tasks",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 359956",
+        "dimensionality": "4-100D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with Tournament Selection"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Validation accuracy, Test accuracy, Pipeline complexity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "AutoML pipeline optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Classification Tasks",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 359958",
+        "dimensionality": "4-100D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with Lexicase Selection"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Validation accuracy, Test accuracy, Pipeline complexity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "AutoML pipeline optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Classification Tasks",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 359958",
+        "dimensionality": "4-100D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with Tournament Selection"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Validation accuracy, Test accuracy, Pipeline complexity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "AutoML pipeline optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Classification Tasks",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 359959",
+        "dimensionality": "4-100D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with Lexicase Selection"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Validation accuracy, Test accuracy, Pipeline complexity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "AutoML pipeline optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Classification Tasks",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 359959",
+        "dimensionality": "4-100D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with Tournament Selection"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Validation accuracy, Test accuracy, Pipeline complexity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "AutoML pipeline optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Classification Tasks",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 2073",
+        "dimensionality": "4-100D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with Lexicase Selection"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Validation accuracy, Test accuracy, Pipeline complexity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "AutoML pipeline optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Classification Tasks",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 2073",
+        "dimensionality": "4-100D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with Tournament Selection"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Validation accuracy, Test accuracy, Pipeline complexity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "AutoML pipeline optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Classification Tasks",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 359960",
+        "dimensionality": "4-100D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with Lexicase Selection"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Validation accuracy, Test accuracy, Pipeline complexity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "AutoML pipeline optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Classification Tasks",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 359960",
+        "dimensionality": "4-100D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with Tournament Selection"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Validation accuracy, Test accuracy, Pipeline complexity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "AutoML pipeline optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Classification Tasks",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 168784",
+        "dimensionality": "4-100D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with Lexicase Selection"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Validation accuracy, Test accuracy, Pipeline complexity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "AutoML pipeline optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Classification Tasks",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 168784",
+        "dimensionality": "4-100D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with Tournament Selection"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Validation accuracy, Test accuracy, Pipeline complexity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "AutoML pipeline optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Classification Tasks",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 359962",
+        "dimensionality": "4-100D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with Lexicase Selection"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Validation accuracy, Test accuracy, Pipeline complexity",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Machine Learning",
+        "problem_context": "AutoML pipeline optimization"
+      },
+      "the_database": {
+        "dataset_name": "OpenML Classification Tasks",
+        "source_platform": "OpenML"
+      },
+      "the_benchmark_problem": {
+        "name": "OpenML Task 359962",
+        "dimensionality": "4-100D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "TPOT2 with Tournament Selection"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Validation accuracy, Test accuracy, Pipeline complexity",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

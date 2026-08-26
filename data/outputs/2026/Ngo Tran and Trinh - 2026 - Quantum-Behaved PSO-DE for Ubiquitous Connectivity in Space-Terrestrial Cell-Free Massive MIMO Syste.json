@@ -1,0 +1,242 @@
+{
+  "metadata": {
+    "title": "Quantum-Behaved PSO-DE for Ubiquitous Connectivity in Space-Terrestrial Cell-Free Massive MIMO Systems",
+    "authors": [
+      "Ngo Tran Anh Thu",
+      "Trinh Van Chien"
+    ],
+    "year": 2026,
+    "source_file": "Ngo Tran and Trinh - 2026 - Quantum-Behaved PSO-DE for Ubiquitous Connectivity in Space-Terrestrial Cell-Free Massive MIMO Syste.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Telecom/Communications",
+        "problem_context": "Joint user association and transmit power allocation in space-terrestrial cell-free massive MIMO systems"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Max-min throughput optimization problem (P1)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "coupled",
+          "NP-hard",
+          "mixed-integer"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "QPSO-DE"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Max-min fairness throughput",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Telecom/Communications",
+        "problem_context": "Joint user association and transmit power allocation in space-terrestrial cell-free massive MIMO systems"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Max-min throughput optimization problem (P1)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "coupled",
+          "NP-hard",
+          "mixed-integer"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Real-coded Genetic Algorithm (RGA)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Max-min fairness throughput",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Telecom/Communications",
+        "problem_context": "Joint user association and transmit power allocation in space-terrestrial cell-free massive MIMO systems"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Max-min throughput optimization problem (P1)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "coupled",
+          "NP-hard",
+          "mixed-integer"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Differential Evolution (DE)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Max-min fairness throughput",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Telecom/Communications",
+        "problem_context": "Joint user association and transmit power allocation in space-terrestrial cell-free massive MIMO systems"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Max-min throughput optimization problem (P1)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "coupled",
+          "NP-hard",
+          "mixed-integer"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Particle Swarm Optimization (PSO)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Max-min fairness throughput",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Telecom/Communications",
+        "problem_context": "Joint user association and transmit power allocation in space-terrestrial cell-free massive MIMO systems"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Max-min throughput optimization problem (P1)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "coupled",
+          "NP-hard",
+          "mixed-integer"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Quantum-inspired Genetic Algorithm (QGA)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Max-min fairness throughput",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Telecom/Communications",
+        "problem_context": "Joint user association and transmit power allocation in space-terrestrial cell-free massive MIMO systems"
+      },
+      "the_database": {
+        "dataset_name": "Custom Simulated Data",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Max-min throughput optimization problem (P1)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "non-convex",
+          "coupled",
+          "NP-hard",
+          "mixed-integer"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Quantum-inspired Differential Evolution (QDE)"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Max-min fairness throughput",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

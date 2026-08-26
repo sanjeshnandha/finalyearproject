@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "title": "To Balance Competitive Games Using a Multi-objective Coevolutionary Approach",
+    "authors": [
+      "Shashank Raj",
+      "Auden Garrard",
+      "Ryan McKendrick",
+      "Bradley Feest",
+      "Kalyanmoy Deb"
+    ],
+    "year": 2026,
+    "source_file": "Raj et al. - 2026 - To Balance Competitive Games Using a Multi-objective Coevolutionary Approach.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Defense/Military",
+        "problem_context": "Game balance assessment in competitive wargame simulation"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Wargame Simulation - Case 1: Expensive-Offence Configuration",
+        "dimensionality": "7D (Offense) / 15D (Defense)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Competitive Co-evolutionary NSGA-II"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Offense Movement: 0.8784, Defense Movement: 0.3117",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Defense/Military",
+        "problem_context": "Game balance assessment in competitive wargame simulation"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Wargame Simulation - Case 2: Expensive-Defence Configuration",
+        "dimensionality": "7D (Offense) / 15D (Defense)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Competitive Co-evolutionary NSGA-II"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Offense Movement: 0.3915, Defense Movement: 0.5985",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Defense/Military",
+        "problem_context": "Game balance assessment in competitive wargame simulation"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Wargame Simulation - Case 3: Balanced Configuration",
+        "dimensionality": "7D (Offense) / 15D (Defense)"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Competitive Co-evolutionary NSGA-II"
+      },
+      "parameters": {
+        "population_size": 50,
+        "max_evaluations_or_generations": 200,
+        "mutation_rate": 0.3,
+        "crossover_rate": 0.9
+      },
+      "performance_outcome": {
+        "metric": "Offense Movement: 0.6251, Defense Movement: 0.5169",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

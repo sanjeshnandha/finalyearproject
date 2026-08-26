@@ -1,0 +1,233 @@
+{
+  "metadata": {
+    "title": "Ring Cellular Encode-Decode UMDA: Simple is effective",
+    "authors": [
+      "Ansel Y. Rodríguez-González",
+      "Samantha Barajas",
+      "Ramón Aranda",
+      "Yoan Martínez-López",
+      "Julio Madera-Quintana"
+    ],
+    "year": 2021,
+    "source_file": "Rodríguez-González et al. - 2021 - Ring cellular encode-decode UMDA simple is effective.pdf",
+    "gecco_track": "Competition on Evolutionary Computation in the Energy Domain: Smart Grid Applications"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Day-ahead local energy market bidding optimization"
+      },
+      "the_database": {
+        "dataset_name": "2021 Evolutionary Computation in Uncertain Environments Competition Dataset",
+        "source_platform": "GECAD"
+      },
+      "the_benchmark_problem": {
+        "name": "Track 1: Day-ahead local energy market bidding optimization",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "bi-level",
+          "interdependent decisions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ring Cellular Encode-Decode UMDA (RCED-UMDA)"
+      },
+      "parameters": {
+        "population_size": 90,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Fitness of 1.566 (Rank 1)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Flexibility management of home appliances"
+      },
+      "the_database": {
+        "dataset_name": "2021 Evolutionary Computation in Uncertain Environments Competition Dataset",
+        "source_platform": "GECAD"
+      },
+      "the_benchmark_problem": {
+        "name": "Track 2: Flexibility management of home appliances",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "demand response",
+          "uncertain environments"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Ring Cellular Encode-Decode UMDA (RCED-UMDA)"
+      },
+      "parameters": {
+        "population_size": 600,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Fitness of 4.828 (Rank 1)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Day-ahead local energy market bidding optimization"
+      },
+      "the_database": {
+        "dataset_name": "2021 Evolutionary Computation in Uncertain Environments Competition Dataset",
+        "source_platform": "GECAD"
+      },
+      "the_benchmark_problem": {
+        "name": "Track 1: Day-ahead local energy market bidding optimization",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "bi-level",
+          "interdependent decisions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HyDE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Fitness of 1.947 (Rank 5)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Flexibility management of home appliances"
+      },
+      "the_database": {
+        "dataset_name": "2021 Evolutionary Computation in Uncertain Environments Competition Dataset",
+        "source_platform": "GECAD"
+      },
+      "the_benchmark_problem": {
+        "name": "Track 2: Flexibility management of home appliances",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "demand response",
+          "uncertain environments"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HyDE"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Fitness of 7.706 (Rank 2)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Day-ahead local energy market bidding optimization"
+      },
+      "the_database": {
+        "dataset_name": "2021 Evolutionary Computation in Uncertain Environments Competition Dataset",
+        "source_platform": "GECAD"
+      },
+      "the_benchmark_problem": {
+        "name": "Track 1: Day-ahead local energy market bidding optimization",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Non-separable",
+        "characteristics": [
+          "bi-level",
+          "interdependent decisions"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AJSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Fitness of 1.625 (Rank 2)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Flexibility management of home appliances"
+      },
+      "the_database": {
+        "dataset_name": "2021 Evolutionary Computation in Uncertain Environments Competition Dataset",
+        "source_platform": "GECAD"
+      },
+      "the_benchmark_problem": {
+        "name": "Track 2: Flexibility management of home appliances",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "demand response",
+          "uncertain environments"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "AJSO"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 100000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Fitness of 9.459 (Rank 4)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

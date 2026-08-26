@@ -1,0 +1,384 @@
+{
+  "metadata": {
+    "title": "Multi-modal multi-objective model-based genetic programming to find multiple diverse high-quality models",
+    "authors": [
+      "E.M.C. Sijben",
+      "T. Alderliesten",
+      "P.A.N. Bosman"
+    ],
+    "year": 2022,
+    "source_file": "Sijben et al. - 2022 - Multi-modal multi-objective model-based genetic programming to find multiple diverse high-quality mo.pdf",
+    "gecco_track": "Genetic Programming"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-modal data (Example 1)",
+        "dimensionality": "1D"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Separable",
+        "characteristics": [
+          "noisy",
+          "multi-modal"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MO-GP-GOMEA"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 30,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Approximation front of error and diversified error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Hidden variable (Example 2)",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "hidden variable"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MO-GP-GOMEA"
+      },
+      "parameters": {
+        "population_size": 1000,
+        "max_evaluations_or_generations": 30,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Approximation front of error and diversified error",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Economics/Real Estate",
+        "problem_context": "Predicting median house value"
+      },
+      "the_database": {
+        "dataset_name": "Boston housing",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Boston housing",
+        "dimensionality": "13D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MO-GP-GOMEA"
+      },
+      "parameters": {
+        "population_size": 15000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV), diversified error (D), and error (E)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Economics/Real Estate",
+        "problem_context": "Predicting median house value"
+      },
+      "the_database": {
+        "dataset_name": "Boston housing",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Boston housing",
+        "dimensionality": "13D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SO GP-GOMEA"
+      },
+      "parameters": {
+        "population_size": 5000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "diversified error (D) and error (E)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Economics/Real Estate",
+        "problem_context": "Predicting median house value"
+      },
+      "the_database": {
+        "dataset_name": "Boston housing",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Boston housing",
+        "dimensionality": "13D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 15000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV), diversified error (D), and error (E)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Predicting concrete compressive strength"
+      },
+      "the_database": {
+        "dataset_name": "Concrete compressive strength",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Concrete compressive strength",
+        "dimensionality": "9D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MO-GP-GOMEA"
+      },
+      "parameters": {
+        "population_size": 15000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV), diversified error (D), and error (E)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Predicting concrete compressive strength"
+      },
+      "the_database": {
+        "dataset_name": "Concrete compressive strength",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Concrete compressive strength",
+        "dimensionality": "9D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SO GP-GOMEA"
+      },
+      "parameters": {
+        "population_size": 5000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "diversified error (D) and error (E)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Predicting concrete compressive strength"
+      },
+      "the_database": {
+        "dataset_name": "Concrete compressive strength",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Concrete compressive strength",
+        "dimensionality": "9D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 15000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV), diversified error (D), and error (E)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Predicting resistance of sailing yachts"
+      },
+      "the_database": {
+        "dataset_name": "Yacht hydrodynamics",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Yacht hydrodynamics",
+        "dimensionality": "6D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MO-GP-GOMEA"
+      },
+      "parameters": {
+        "population_size": 15000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV), diversified error (D), and error (E)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Predicting resistance of sailing yachts"
+      },
+      "the_database": {
+        "dataset_name": "Yacht hydrodynamics",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Yacht hydrodynamics",
+        "dimensionality": "6D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "SO GP-GOMEA"
+      },
+      "parameters": {
+        "population_size": 5000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "diversified error (D) and error (E)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Engineering/Manufacturing",
+        "problem_context": "Predicting resistance of sailing yachts"
+      },
+      "the_database": {
+        "dataset_name": "Yacht hydrodynamics",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Yacht hydrodynamics",
+        "dimensionality": "6D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "NSGA-II"
+      },
+      "parameters": {
+        "population_size": 15000,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": 0.5,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Hypervolume (HV), diversified error (D), and error (E)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

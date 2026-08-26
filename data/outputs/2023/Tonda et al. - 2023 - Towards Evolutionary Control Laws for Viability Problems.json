@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "title": "Towards Evolutionary Control Laws for Viability Problems",
+    "authors": [
+      "Alberto Tonda",
+      "Isabelle Alvarez",
+      "Sophie Martin",
+      "Giovanni Squillero",
+      "Evelyne Lutton"
+    ],
+    "year": 2023,
+    "source_file": "Tonda et al. - 2023 - Towards Evolutionary Control Laws for Viability Problems.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Lake eutrophication (2D-lake-PSP-16384ppa)",
+        "dimensionality": "2D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "stochastic"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": 0.4
+      },
+      "performance_outcome": {
+        "metric": "Fitness value (percentage of viable trajectories)",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "3D-sphere (3D-ball-Viablab-81ppa)",
+        "dimensionality": "3D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noisy",
+          "stochastic"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Genetic Programming"
+      },
+      "parameters": {
+        "population_size": 100,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": null,
+        "crossover_rate": 0.4
+      },
+      "performance_outcome": {
+        "metric": "Fitness value (percentage of viable trajectories)",
+        "is_optimal_found": false
+      }
+    }
+  ]
+}

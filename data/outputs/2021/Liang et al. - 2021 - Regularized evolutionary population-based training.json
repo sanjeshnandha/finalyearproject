@@ -1,0 +1,268 @@
+{
+  "metadata": {
+    "title": "Regularized Evolutionary Population-Based Training",
+    "authors": [
+      "Jason Liang",
+      "Santiago Gonzalez",
+      "Hormoz Shahrzad",
+      "Risto Miikkulainen"
+    ],
+    "year": 2021,
+    "source_file": "Liang et al. - 2021 - Regularized evolutionary population-based training.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Image Classification"
+      },
+      "the_database": {
+        "dataset_name": "CIFAR-10",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CIFAR-10 with ResNet-32",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "deceptive",
+          "large search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Evolutionary Population-Based Training (EPBT)"
+      },
+      "parameters": {
+        "population_size": 40,
+        "max_evaluations_or_generations": 25,
+        "mutation_rate": null,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Mean final test accuracy of 92.79% (std dev 0.15%)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Image Classification"
+      },
+      "the_database": {
+        "dataset_name": "CIFAR-10",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CIFAR-10 with WRN-10-12",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "deceptive",
+          "large search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Evolutionary Population-Based Training (EPBT)"
+      },
+      "parameters": {
+        "population_size": 40,
+        "max_evaluations_or_generations": 25,
+        "mutation_rate": null,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Mean final test accuracy of 94.38% (std dev 0.14%)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Image Classification"
+      },
+      "the_database": {
+        "dataset_name": "CIFAR-10",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CIFAR-10 with WRN-16-8",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "deceptive",
+          "large search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Evolutionary Population-Based Training (EPBT)"
+      },
+      "parameters": {
+        "population_size": 40,
+        "max_evaluations_or_generations": 25,
+        "mutation_rate": null,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Mean final test accuracy of 95.79% (std dev 0.08%)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Image Classification"
+      },
+      "the_database": {
+        "dataset_name": "CIFAR-10",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CIFAR-10 with WRN-22-6",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "deceptive",
+          "large search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Evolutionary Population-Based Training (EPBT)"
+      },
+      "parameters": {
+        "population_size": 40,
+        "max_evaluations_or_generations": 25,
+        "mutation_rate": null,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Mean final test accuracy of 96.05% (std dev 0.09%)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Image Classification"
+      },
+      "the_database": {
+        "dataset_name": "CIFAR-10",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CIFAR-10 with WRN-28-5",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "deceptive",
+          "large search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Evolutionary Population-Based Training (EPBT)"
+      },
+      "parameters": {
+        "population_size": 40,
+        "max_evaluations_or_generations": 25,
+        "mutation_rate": null,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Mean final test accuracy of 96.02% (std dev 0.12%)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Image Classification"
+      },
+      "the_database": {
+        "dataset_name": "SVHN",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SVHN with ResNet-32",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "deceptive",
+          "large search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Evolutionary Population-Based Training (EPBT)"
+      },
+      "parameters": {
+        "population_size": 40,
+        "max_evaluations_or_generations": 40,
+        "mutation_rate": null,
+        "crossover_rate": 0.5
+      },
+      "performance_outcome": {
+        "metric": "Mean final test accuracy of 98.08% (std dev 0.08%)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Computer Vision",
+        "problem_context": "Image Classification"
+      },
+      "the_database": {
+        "dataset_name": "CIFAR-10",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "CIFAR-10 with ResNet-32",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "deceptive",
+          "large search space"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Population-Based Training (PBT)"
+      },
+      "parameters": {
+        "population_size": 40,
+        "max_evaluations_or_generations": 25,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Mean final test accuracy of 91.53% (std dev 0.56%)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

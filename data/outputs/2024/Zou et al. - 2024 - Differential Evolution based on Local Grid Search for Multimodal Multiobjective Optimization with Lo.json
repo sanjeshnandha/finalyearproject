@@ -1,0 +1,462 @@
+{
+  "metadata": {
+    "title": "Differential Evolution based on Local Grid Search for Multimodal Multiobjective Optimization with Local Pareto Fronts",
+    "authors": [
+      "Juan Zou",
+      "Tian-Bin Xie",
+      "Qi Deng",
+      "Xiao-Zhong Yu",
+      "Sheng-Xiang Yang",
+      "Jin-Hua Zheng"
+    ],
+    "year": 2024,
+    "source_file": "Zou et al. - 2024 - Differential Evolution based on Local Grid Search for Multimodal Multiobjective Optimization with Lo.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MMF Suite (MMF 10-13, 15, 15_a)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "local Pareto fronts",
+          "multimodal",
+          "multiobjective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LGSDE"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 20000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted generational distances in objective space (IGD) and in decision space (IGDX)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "IDMP_e Suite",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "local Pareto fronts",
+          "multimodal",
+          "multiobjective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "LGSDE"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 20000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted generational distances in objective space (IGD) and in decision space (IGDX)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MMF Suite (MMF 10-13, 15, 15_a)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "local Pareto fronts",
+          "multimodal",
+          "multiobjective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DN-NSGA-II"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 20000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted generational distances in objective space (IGD) and in decision space (IGDX)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "IDMP_e Suite",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "local Pareto fronts",
+          "multimodal",
+          "multiobjective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "DN-NSGA-II"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 20000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted generational distances in objective space (IGD) and in decision space (IGDX)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MMF Suite (MMF 10-13, 15, 15_a)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "local Pareto fronts",
+          "multimodal",
+          "multiobjective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MMEA-WI"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 20000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted generational distances in objective space (IGD) and in decision space (IGDX)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "IDMP_e Suite",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "local Pareto fronts",
+          "multimodal",
+          "multiobjective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MMEA-WI"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 20000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted generational distances in objective space (IGD) and in decision space (IGDX)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MMF Suite (MMF 10-13, 15, 15_a)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "local Pareto fronts",
+          "multimodal",
+          "multiobjective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MMEA-IES"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 20000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted generational distances in objective space (IGD) and in decision space (IGDX)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "IDMP_e Suite",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "local Pareto fronts",
+          "multimodal",
+          "multiobjective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MMEA-IES"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 20000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted generational distances in objective space (IGD) and in decision space (IGDX)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MMF Suite (MMF 10-13, 15, 15_a)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "local Pareto fronts",
+          "multimodal",
+          "multiobjective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MMOEA/DC"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 20000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted generational distances in objective space (IGD) and in decision space (IGDX)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "IDMP_e Suite",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "local Pareto fronts",
+          "multimodal",
+          "multiobjective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "MMOEA/DC"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 20000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted generational distances in objective space (IGD) and in decision space (IGDX)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MMF Suite (MMF 10-13, 15, 15_a)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "local Pareto fronts",
+          "multimodal",
+          "multiobjective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HREA"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 20000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted generational distances in objective space (IGD) and in decision space (IGDX)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "IDMP_e Suite",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "local Pareto fronts",
+          "multimodal",
+          "multiobjective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "HREA"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 20000,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Inverted generational distances in objective space (IGD) and in decision space (IGDX)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

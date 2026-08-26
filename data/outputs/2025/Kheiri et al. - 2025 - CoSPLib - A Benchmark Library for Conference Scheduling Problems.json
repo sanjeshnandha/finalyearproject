@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "title": "CoSPLib - A Benchmark Library for Conference Scheduling Problems",
+    "authors": [
+      "Ahmed Kheiri",
+      "Yaroslav Pylyavskyy",
+      "Peter Jacko"
+    ],
+    "year": 2025,
+    "source_file": "Kheiri et al. - 2025 - CoSPLib - A Benchmark Library for Conference Scheduling Problems.pdf",
+    "gecco_track": "GECCO '25 Companion"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Conference Scheduling"
+      },
+      "the_database": {
+        "dataset_name": "CoSPLib",
+        "source_platform": "GitHub"
+      },
+      "the_benchmark_problem": {
+        "name": "Conference Scheduling Problem (CoSP)",
+        "dimensionality": "Variable"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Non-separable",
+        "characteristics": [
+          "constrained",
+          "rugged"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Selection Hyper-heuristic"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": null,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Quality of the schedule (based on weighted soft constraint violations) and Feasibility (satisfaction of hard constraints)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

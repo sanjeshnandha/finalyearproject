@@ -1,0 +1,275 @@
+{
+  "metadata": {
+    "title": "Multi-objective multi-population Genetic Programming for feature selection and classification to high-dimensional data",
+    "authors": [
+      "Qiaoman Li",
+      "Xiaoying Gao",
+      "Wenyang Meng",
+      "Jianbin Ma"
+    ],
+    "year": 2024,
+    "source_file": "Li et al. - 2024 - Multi-objective multi-population Genetic Programming for feature selection and classification to hig.pdf",
+    "gecco_track": "Genetic Programming"
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Feature selection and classification of high-dimensional cancer gene expression data"
+      },
+      "the_database": {
+        "dataset_name": "Colon",
+        "source_platform": "SZU Bioinformatics Website"
+      },
+      "the_benchmark_problem": {
+        "name": "Colon Cancer Classification",
+        "dimensionality": "High-dimensional"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "redundant features",
+          "irrelevant features"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-objective Multi-population Genetic Programming (MMGP)"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Area Under the ROC Curve (AUC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Feature selection and classification of high-dimensional cancer gene expression data"
+      },
+      "the_database": {
+        "dataset_name": "Dlbcl",
+        "source_platform": "SZU Bioinformatics Website"
+      },
+      "the_benchmark_problem": {
+        "name": "Dlbcl Cancer Classification",
+        "dimensionality": "High-dimensional"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "redundant features",
+          "irrelevant features"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-objective Multi-population Genetic Programming (MMGP)"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Area Under the ROC Curve (AUC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Feature selection and classification of high-dimensional cancer gene expression data"
+      },
+      "the_database": {
+        "dataset_name": "Leukemia",
+        "source_platform": "SZU Bioinformatics Website"
+      },
+      "the_benchmark_problem": {
+        "name": "Leukemia Cancer Classification",
+        "dimensionality": "High-dimensional"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "redundant features",
+          "irrelevant features"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-objective Multi-population Genetic Programming (MMGP)"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Area Under the ROC Curve (AUC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Feature selection and classification of high-dimensional cancer gene expression data"
+      },
+      "the_database": {
+        "dataset_name": "Lymphoma",
+        "source_platform": "SZU Bioinformatics Website"
+      },
+      "the_benchmark_problem": {
+        "name": "Lymphoma Cancer Classification",
+        "dimensionality": "High-dimensional"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "redundant features",
+          "irrelevant features"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-objective Multi-population Genetic Programming (MMGP)"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Area Under the ROC Curve (AUC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Feature selection and classification of high-dimensional cancer gene expression data"
+      },
+      "the_database": {
+        "dataset_name": "MLL",
+        "source_platform": "SZU Bioinformatics Website"
+      },
+      "the_benchmark_problem": {
+        "name": "MLL Cancer Classification",
+        "dimensionality": "High-dimensional"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "redundant features",
+          "irrelevant features"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-objective Multi-population Genetic Programming (MMGP)"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Area Under the ROC Curve (AUC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Feature selection and classification of high-dimensional cancer gene expression data"
+      },
+      "the_database": {
+        "dataset_name": "ovarian",
+        "source_platform": "SZU Bioinformatics Website"
+      },
+      "the_benchmark_problem": {
+        "name": "Ovarian Cancer Classification",
+        "dimensionality": "High-dimensional"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "redundant features",
+          "irrelevant features"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-objective Multi-population Genetic Programming (MMGP)"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Area Under the ROC Curve (AUC)",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Medical/Healthcare",
+        "problem_context": "Feature selection and classification of high-dimensional cancer gene expression data"
+      },
+      "the_database": {
+        "dataset_name": "Srbct",
+        "source_platform": "SZU Bioinformatics Website"
+      },
+      "the_benchmark_problem": {
+        "name": "Srbct Cancer Classification",
+        "dimensionality": "High-dimensional"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "high-dimensional",
+          "redundant features",
+          "irrelevant features"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Multi-objective Multi-population Genetic Programming (MMGP)"
+      },
+      "parameters": {
+        "population_size": 500,
+        "max_evaluations_or_generations": 50,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Average Area Under the ROC Curve (AUC)",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

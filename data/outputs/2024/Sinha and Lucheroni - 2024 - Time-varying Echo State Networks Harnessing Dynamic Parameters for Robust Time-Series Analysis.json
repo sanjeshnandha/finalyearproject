@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "title": "Time-varying Echo State Networks: Harnessing Dynamic Parameters for Robust Time-Series Analysis",
+    "authors": [
+      "Nabangshu Sinha",
+      "Carlo Lucheroni"
+    ],
+    "year": 2024,
+    "source_file": "Sinha and Lucheroni - 2024 - Time-varying Echo State Networks Harnessing Dynamic Parameters for Robust Time-Series Analysis.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Time-series forecasting of chaotic systems"
+      },
+      "the_database": {
+        "dataset_name": "Mackey-Glass",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Mackey-Glass (TV-ESN Parameter Optimization)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Differential Evolution (DE)"
+      },
+      "parameters": {
+        "population_size": 15,
+        "max_evaluations_or_generations": 6,
+        "mutation_rate": null,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "NRMSE: 0.00096, MAE: 0.00016",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Time-series forecasting of chaotic systems"
+      },
+      "the_database": {
+        "dataset_name": "Mackey-Glass",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Mackey-Glass (Vanilla ESN Hyperparameter Optimization)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Differential Evolution (DE)"
+      },
+      "parameters": {
+        "population_size": 15,
+        "max_evaluations_or_generations": 6,
+        "mutation_rate": null,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "NRMSE: 0.0011, MAE: 0.00019",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Electricity demand forecasting"
+      },
+      "the_database": {
+        "dataset_name": "Spanish Electricity Market",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Spanish Electricity Market (TV-ESN Parameter Optimization)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Differential Evolution (DE)"
+      },
+      "parameters": {
+        "population_size": 15,
+        "max_evaluations_or_generations": 6,
+        "mutation_rate": null,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "NRMSE: 0.86, MAE: 3.75",
+        "is_optimal_found": null
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Energy/Power",
+        "problem_context": "Electricity demand forecasting"
+      },
+      "the_database": {
+        "dataset_name": "Spanish Electricity Market",
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Spanish Electricity Market (Vanilla ESN Hyperparameter Optimization)",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": []
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Differential Evolution (DE)"
+      },
+      "parameters": {
+        "population_size": 15,
+        "max_evaluations_or_generations": 6,
+        "mutation_rate": null,
+        "crossover_rate": 0.7
+      },
+      "performance_outcome": {
+        "metric": "NRMSE: 2.26, MAE: 9.91",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

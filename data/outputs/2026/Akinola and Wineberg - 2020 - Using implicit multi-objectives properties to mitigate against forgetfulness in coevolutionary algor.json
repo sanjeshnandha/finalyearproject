@@ -1,0 +1,334 @@
+{
+  "metadata": {
+    "title": "Using Implicit Multi-Objectives Properties to Mitigate Against Forgetfulness in Coevolutionary Algorithms",
+    "authors": [
+      "Adefunke Akinola",
+      "Mark Wineberg"
+    ],
+    "year": 2020,
+    "source_file": "Akinola and Wineberg - 2020 - Using implicit multi-objectives properties to mitigate against forgetfulness in coevolutionary algor.pdf",
+    "gecco_track": "Evolutionary Algorithms"
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Bohachevsky",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "bowl-shaped"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Implicit Multi-Objective Coevolutionary Algorithm"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 51200,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.0
+      },
+      "performance_outcome": {
+        "metric": "Median fitness",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Booth",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Unimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "narrow ridge"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Implicit Multi-Objective Coevolutionary Algorithm"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 51200,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.0
+      },
+      "performance_outcome": {
+        "metric": "Median fitness",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Damavandi",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "large local optimum space",
+          "small global minimum"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Implicit Multi-Objective Coevolutionary Algorithm"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 51200,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.0
+      },
+      "performance_outcome": {
+        "metric": "Median fitness",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "EggHolder",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "large number of local minima"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Implicit Multi-Objective Coevolutionary Algorithm"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 51200,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.0
+      },
+      "performance_outcome": {
+        "metric": "Median fitness",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Griewangk",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "many suboptimal peaks"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Implicit Multi-Objective Coevolutionary Algorithm"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 51200,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.0
+      },
+      "performance_outcome": {
+        "metric": "Median fitness",
+        "is_optimal_found": false
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MTQ",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multiple peaks"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Implicit Multi-Objective Coevolutionary Algorithm"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 51200,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.0
+      },
+      "performance_outcome": {
+        "metric": "Median fitness",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "MTQ 125",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "multiple peaks"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Implicit Multi-Objective Coevolutionary Algorithm"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 51200,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.0
+      },
+      "performance_outcome": {
+        "metric": "Median fitness",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SMTQ",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "ellipsoidal shape",
+          "diagonal ridges",
+          "infinite numbers of Nash equilibria"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Implicit Multi-Objective Coevolutionary Algorithm"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 51200,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.0
+      },
+      "performance_outcome": {
+        "metric": "Median fitness",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "SMTQ 125",
+        "dimensionality": null
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "ellipsoidal shape",
+          "diagonal ridges",
+          "infinite numbers of Nash equilibria"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Implicit Multi-Objective Coevolutionary Algorithm"
+      },
+      "parameters": {
+        "population_size": 200,
+        "max_evaluations_or_generations": 51200,
+        "mutation_rate": 0.9,
+        "crossover_rate": 0.0
+      },
+      "performance_outcome": {
+        "metric": "Median fitness",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

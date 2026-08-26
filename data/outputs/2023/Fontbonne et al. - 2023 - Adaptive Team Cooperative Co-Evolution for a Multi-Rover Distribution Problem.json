@@ -1,0 +1,161 @@
+{
+  "metadata": {
+    "title": "Adaptive Team Cooperative Co-Evolution for a Multi-Rover Distribution Problem",
+    "authors": [
+      "Nicolas Fontbonne",
+      "Nicolas Maudet",
+      "Nicolas Bredeche"
+    ],
+    "year": 2023,
+    "source_file": "Fontbonne et al. - 2023 - Adaptive Team Cooperative Co-Evolution for a Multi-Rover Distribution Problem.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-Rover Distribution Problem"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Rover Distribution Problem (Setup 1: 10 solo-POI)",
+        "dimensionality": "658"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "stochastic",
+          "low coordination"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CC-(1+1)-ES_fixed"
+      },
+      "parameters": {
+        "population_size": 2,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": 0.2,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median team score",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-Rover Distribution Problem"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Rover Distribution Problem (Setup 2: 8 solo-POI, 2 duo-POI)",
+        "dimensionality": "658"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "stochastic",
+          "suboptimal equilibria",
+          "high coordination"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CC-(1+1)-ES_fixed"
+      },
+      "parameters": {
+        "population_size": 2,
+        "max_evaluations_or_generations": 500000,
+        "mutation_rate": 0.2,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median team score",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-Rover Distribution Problem"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Rover Distribution Problem (Setup 1: 10 solo-POI)",
+        "dimensionality": "658"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "stochastic",
+          "low coordination"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CC-(1+1)-ES_adaptive"
+      },
+      "parameters": {
+        "population_size": 2,
+        "max_evaluations_or_generations": 10000,
+        "mutation_rate": 0.2,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median team score",
+        "is_optimal_found": true
+      }
+    },
+    {
+      "context_type": "Real-World Applied",
+      "the_domain": {
+        "industry": "Logistics/Supply Chain",
+        "problem_context": "Multi-Rover Distribution Problem"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "Multi-Rover Distribution Problem (Setup 2: 8 solo-POI, 2 duo-POI)",
+        "dimensionality": "658"
+      },
+      "the_landscape": {
+        "modality": "Multimodal",
+        "separability": "Unknown",
+        "characteristics": [
+          "stochastic",
+          "suboptimal equilibria",
+          "high coordination"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "CC-(1+1)-ES_adaptive"
+      },
+      "parameters": {
+        "population_size": 2,
+        "max_evaluations_or_generations": 500000,
+        "mutation_rate": 0.2,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Median team score",
+        "is_optimal_found": true
+      }
+    }
+  ]
+}

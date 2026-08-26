@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "title": "Landscape-Aware Fixed-Budget Performance Regression and Algorithm Selection for Modular CMA-ES Variants",
+    "authors": [
+      "Anja Jankovic",
+      "Carola Doerr"
+    ],
+    "year": 2020,
+    "source_file": "Jankovic and Doerr - 2020 - Landscape-aware fixed-budget performance regression and algorithm selection for modular CMA-ES varia.pdf",
+    "gecco_track": null
+  },
+  "extractions": [
+    {
+      "context_type": "Synthetic Benchmark",
+      "the_domain": {
+        "industry": "None / Pure Synthetic",
+        "problem_context": "Evaluating mathematical landscapes"
+      },
+      "the_database": {
+        "dataset_name": null,
+        "source_platform": null
+      },
+      "the_benchmark_problem": {
+        "name": "BBOB Testbed",
+        "dimensionality": "5D"
+      },
+      "the_landscape": {
+        "modality": "Unknown",
+        "separability": "Unknown",
+        "characteristics": [
+          "noiseless",
+          "single-objective"
+        ]
+      },
+      "the_evolutionary_strategy": {
+        "algorithm_name": "Modular CMA-ES"
+      },
+      "parameters": {
+        "population_size": null,
+        "max_evaluations_or_generations": 500,
+        "mutation_rate": null,
+        "crossover_rate": null
+      },
+      "performance_outcome": {
+        "metric": "Target precision",
+        "is_optimal_found": null
+      }
+    }
+  ]
+}

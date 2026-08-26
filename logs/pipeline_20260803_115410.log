@@ -1,0 +1,44 @@
+2026-08-03 11:54:10.988 | INFO     | gecco_pipeline.extractor:__init__:32 - Initialized GeccoExtractor with model: gemini-3.5-flash and 3 API keys
+2026-08-03 11:54:10.988 | INFO     | gecco_pipeline.processor:__init__:57 - BatchProcessor initialized
+2026-08-03 11:54:10.989 | INFO     | gecco_pipeline.utils:discover_pdfs:62 - Discovered 150 PDF files in data/pdfs/2020
+2026-08-03 11:54:10.991 | INFO     | gecco_pipeline.processor:process_batch:129 - Skipping 61 already-processed PDFs
+2026-08-03 11:54:10.991 | INFO     | gecco_pipeline.processor:process_batch:145 - Processing 89 PDFs...
+2026-08-03 11:54:11.002 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Hevia Fajardo and Sudholt - 2020 - On the choice of the parameter control mechanism in the (1+(λ, λ)) genetic algorithm.pdf
+2026-08-03 11:54:11.002 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Hevia Fajardo and Sudholt - 2020 - On the choice of the parameter control mechanism in the (1+(λ, λ)) genetic algorithm.pdf to Gemini File API...
+2026-08-03 11:54:15.140 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/zervhklm4qa1
+2026-08-03 11:54:35.555 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 3 entries from Hevia Fajardo and Sudholt - 2020 - On the choice of the parameter control mechanism in the (1+(λ, λ)) genetic algorithm.pdf
+2026-08-03 11:54:35.559 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Hevia Fajardo and Sudholt - 2020 - On the choice of the parameter control mechanism in the (1+(λ, λ)) genetic algorithm.json
+2026-08-03 11:54:35.561 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Hodan et al. - 2020 - Semantically-oriented mutation operator in cartesian genetic programming for evolutionary circuit de.pdf
+2026-08-03 11:54:35.561 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Hodan et al. - 2020 - Semantically-oriented mutation operator in cartesian genetic programming for evolutionary circuit de.pdf to Gemini File API...
+2026-08-03 11:54:39.520 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/poycc7rucf7j
+2026-08-03 11:55:13.404 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 3 entries from Hodan et al. - 2020 - Semantically-oriented mutation operator in cartesian genetic programming for evolutionary circuit de.pdf
+2026-08-03 11:55:13.411 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Hodan et al. - 2020 - Semantically-oriented mutation operator in cartesian genetic programming for evolutionary circuit de.json
+2026-08-03 11:55:13.415 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Horiuchi and Nakata - 2020 - Self-adaptation of XCS learning parameters based on learning theory.pdf
+2026-08-03 11:55:13.415 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Horiuchi and Nakata - 2020 - Self-adaptation of XCS learning parameters based on learning theory.pdf to Gemini File API...
+2026-08-03 11:55:17.162 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/663zgu6cinh3
+2026-08-03 11:56:04.308 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 12 entries from Horiuchi and Nakata - 2020 - Self-adaptation of XCS learning parameters based on learning theory.pdf
+2026-08-03 11:56:04.316 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Horiuchi and Nakata - 2020 - Self-adaptation of XCS learning parameters based on learning theory.json
+2026-08-03 11:56:04.317 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Ishibuchi et al. - 2020 - Effects of dominance resistant solutions on the performance of evolutionary multi-objective and many.pdf
+2026-08-03 11:56:04.317 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Ishibuchi et al. - 2020 - Effects of dominance resistant solutions on the performance of evolutionary multi-objective and many.pdf to Gemini File API...
+2026-08-03 11:56:08.157 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/peqa193b3139
+2026-08-03 11:56:12.328 | WARNING  | gecco_pipeline.extractor:_call_with_retry:219 - Attempt 1/3 failed for Ishibuchi et al. - 2020 - Effects of dominance resistant solutions on the performance of evolutionary multi-objective and many.pdf: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying in 2.8s...
+2026-08-03 11:56:51.501 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 13 entries from Ishibuchi et al. - 2020 - Effects of dominance resistant solutions on the performance of evolutionary multi-objective and many.pdf
+2026-08-03 11:56:51.514 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Ishibuchi et al. - 2020 - Effects of dominance resistant solutions on the performance of evolutionary multi-objective and many.json
+2026-08-03 11:56:51.516 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Jankovic and Doerr - 2020 - Landscape-aware fixed-budget performance regression and algorithm selection for modular CMA-ES varia.pdf
+2026-08-03 11:56:51.516 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Jankovic and Doerr - 2020 - Landscape-aware fixed-budget performance regression and algorithm selection for modular CMA-ES varia.pdf to Gemini File API...
+2026-08-03 11:56:55.530 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/2ggq3mjt5yxg
+2026-08-03 11:57:15.291 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 1 entries from Jankovic and Doerr - 2020 - Landscape-aware fixed-budget performance regression and algorithm selection for modular CMA-ES varia.pdf
+2026-08-03 11:57:15.295 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Jankovic and Doerr - 2020 - Landscape-aware fixed-budget performance regression and algorithm selection for modular CMA-ES varia.json
+2026-08-03 11:57:15.296 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Javaheripi et al. - 2020 - GeneCAI genetic evolution for acquiring compact AI.pdf
+2026-08-03 11:57:15.297 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Javaheripi et al. - 2020 - GeneCAI genetic evolution for acquiring compact AI.pdf to Gemini File API...
+2026-08-03 11:57:19.135 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/ffucmxe76xcm
+2026-08-03 11:58:03.078 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 5 entries from Javaheripi et al. - 2020 - GeneCAI genetic evolution for acquiring compact AI.pdf
+2026-08-03 11:58:03.085 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Javaheripi et al. - 2020 - GeneCAI genetic evolution for acquiring compact AI.json
+2026-08-03 11:58:03.086 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Jesus et al. - 2020 - Algorithm selection of anytime algorithms.pdf
+2026-08-03 11:58:03.086 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Jesus et al. - 2020 - Algorithm selection of anytime algorithms.pdf to Gemini File API...
+2026-08-03 11:58:06.520 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/qvkwioh4i7y5
+2026-08-03 11:58:24.370 | SUCCESS  | gecco_pipeline.extractor:extract_from_pdf:111 - Extracted 2 entries from Jesus et al. - 2020 - Algorithm selection of anytime algorithms.pdf
+2026-08-03 11:58:24.373 | DEBUG    | gecco_pipeline.utils:save_result:114 - Saved result to data/outputs/2020/Jesus et al. - 2020 - Algorithm selection of anytime algorithms.json
+2026-08-03 11:58:24.374 | INFO     | gecco_pipeline.extractor:extract_from_pdf:85 - Processing: Jia et al. - 2020 - A memetic level-based learning swarm optimizer for large-scale water distribution network optimizati.pdf
+2026-08-03 11:58:24.374 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:123 - Uploading Jia et al. - 2020 - A memetic level-based learning swarm optimizer for large-scale water distribution network optimizati.pdf to Gemini File API...
+2026-08-03 11:58:27.959 | DEBUG    | gecco_pipeline.extractor:_upload_pdf:134 - Upload complete: files/cawe3i1g7euy
